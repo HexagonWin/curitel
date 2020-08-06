@@ -1,0 +1,367 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu7.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu7.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/prroom/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/prroom/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1199&page=17&num=565&sseq=&sword=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1199&page=17&num=565&sseq=&sword=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/prroom/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/prroom/index.asp" onfocus="this.blur()"><img src="/img/prroom/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        > <a href="/html/prroom/index.asp">PR Room</a> > News</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="220">
+					               <param name="movie" value="/inc/flash/left/left_prroom.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_prroom.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="220"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">			
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->
+
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/img/prroom/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td height="1"></td>
+						</tr>
+						<tr>
+							<td height="26">
+								<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td bgcolor="#F6F8F9"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="25"></td>
+						</tr>
+						</table>
+
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="2" height="31" style="font-weight:bold;color:#599AA6;padding:0 0 0 10;font-size:9pt">
+							[ [세빗 2004] 세계 최대 IT전시회, '세빗 2004' 개막  ]
+							</td>
+						</tr>
+						<tr>
+							<td height="16" bgcolor="#F2F2F2" colspan="2"></td>
+						</tr>
+						<tr bgcolor="F2F2F2">
+							<td height="31" width="142" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 565</td>
+							<td width="376" style="padding:2 0 0 0">
+								<b><font color="#515151">&#8226;</font> 등록일</b> :
+								2004-03-17 <img src="/img/b.gif" width=80 height=1>
+								<b><font color="#515151">&#8226;</font> 출처</b> : 아이뉴스24
+							</td>
+						</tr>
+						<tr><td height="1" colspan="2" bgcolor="#C9C9C9"></td></tr>
+						<tr>
+							<td colspan="2" style="padding:25 11;line-height:16px" valign="top" class="8">
+								<font style='font:10pt'>IT분야(&)nbsp;세계(&)nbsp;최대,(&)nbsp;최고의(&)nbsp;전시회인(&)nbsp;세빗(CeBIT)2004(&)quot;가(&)nbsp;18일(&)nbsp;오전(&)nbsp;9시(한국시간(&)nbsp;18일(&)nbsp;오후(&)nbsp;5시)(&)nbsp;독일(&)nbsp;하노버에서(&)nbsp;개막된다.<br>(&)quot;내일의(&)nbsp;정신을(&)nbsp;갖자(Get(&)nbsp;the(&)nbsp;Spirit(&)nbsp;of(&)nbsp;Tomorrow)(&)quot;라는(&)nbsp;주제로(&)nbsp;오는(&)nbsp;24일까지(&)nbsp;열릴(&)nbsp;이번(&)nbsp;행사에는(&)nbsp;3천419개(&)nbsp;독일(&)nbsp;현지(&)nbsp;업체를(&)nbsp;포함해(&)nbsp;세계(&)nbsp;72개국(&)nbsp;총(&)nbsp;6천411개(&)nbsp;업체가(&)nbsp;참여한다.(&)nbsp;지난해는(&)nbsp;총(&)nbsp;6천602개(&)nbsp;업체가(&)nbsp;참가했으며(&)nbsp;약(&)nbsp;60만명의(&)nbsp;관람객이(&)nbsp;몰렸었다.<br><br>올해는(&)nbsp;지난해보다(&)nbsp;1만5천평방미터가(&)nbsp;준(&)nbsp;총(&)nbsp;33만4천168평망미터(&)nbsp;규모의(&)nbsp;전시장에(&)nbsp;▲정보통신(&)nbsp;장비(&)nbsp;및(&)nbsp;시스템(&)nbsp;▲텔레콤,(&)nbsp;무선(&)amp;네트워크(&)nbsp;▲소프트웨어(&)nbsp;및(&)nbsp;서비스(&)nbsp;▲인력자원(&)nbsp;▲보안(&)nbsp;및(&)nbsp;카드(&)nbsp;기술(&)nbsp;▲금융기술(&)nbsp;및(&)nbsp;서비스(&)nbsp;▲전자정부(&)nbsp;같은(&)nbsp;공공부문(&)nbsp;등(&)nbsp;다양한(&)nbsp;분야의(&)nbsp;업체들이(&)nbsp;각사의(&)nbsp;최첨단(&)nbsp;주력제품을(&)nbsp;전시하고(&)nbsp;수출(&)nbsp;상담도(&)nbsp;벌인다.<br><br>이번(&)nbsp;전시회의(&)nbsp;분야별(&)nbsp;참여업체(&)nbsp;수는(&)nbsp;소프트웨어(&)nbsp;및(&)nbsp;서비스(&)nbsp;업체가(&)nbsp;2천58개로(&)nbsp;가장(&)nbsp;많고,(&)nbsp;다음으로(&)nbsp;IT장비(&)nbsp;및(&)nbsp;시스템(&)nbsp;업체가(&)nbsp;1천706개다.(&)nbsp;이어(&)nbsp;텔레콤,(&)nbsp;무선(&)nbsp;및(&)nbsp;네트워크(&)nbsp;업체가(&)nbsp;1천294개,(&)nbsp;보안(&)nbsp;및(&)nbsp;카드기술(&)nbsp;업체(&)nbsp;453개사,(&)nbsp;미래(&)nbsp;신기술(&)nbsp;관련업체(&)nbsp;243개사,(&)nbsp;공공부문(&)nbsp;237개사(&)nbsp;등의(&)nbsp;순이다.<br><br>우리나라는(&)nbsp;삼성전자,(&)nbsp;팬택계열,(&)nbsp;LG전자(&)nbsp;등(&)nbsp;대기업과(&)nbsp;맥슨텔레콤,(&)nbsp;이노스트림(&)nbsp;등(&)nbsp;중소(&)nbsp;단말기(&)nbsp;제조업체,(&)nbsp;레인콤,(&)nbsp;넥스트웨이,(&)nbsp;거원시스템(&)nbsp;등(&)nbsp;MP3플레이어(&)nbsp;업체등(&)nbsp;총(&)nbsp;167개(&)nbsp;업체가(&)nbsp;참가한다.(&)nbsp;또(&)nbsp;한글과컴퓨터도(&)nbsp;휴대용(&)nbsp;MP3플레이어와(&)nbsp;USB(&)nbsp;드라이브에(&)nbsp;오피스패키지(&)nbsp;소프트웨어인(&)nbsp;씽크프리(&)nbsp;오피스를(&)nbsp;탑재한(&)nbsp;제품을(&)nbsp;전시할(&)nbsp;예정이다.(&)nbsp;한국(&)nbsp;참여업체(&)nbsp;수는(&)nbsp;지난해(&)nbsp;148개(&)nbsp;업체보다(&)nbsp;19개가(&)nbsp;늘어났다.<br><br>특히(&)nbsp;지난해는(&)nbsp;한국기업이(&)nbsp;6천만달러의(&)nbsp;계약고를(&)nbsp;올려(&)nbsp;화제가(&)nbsp;된(&)nbsp;바(&)nbsp;있어(&)nbsp;올해도(&)nbsp;상당한(&)nbsp;수출계약이(&)nbsp;이뤄질(&)nbsp;것으로(&)nbsp;참가(&)nbsp;업체들은(&)nbsp;기대하고(&)nbsp;있다.<br><br>한국전자산업진흥회는(&)nbsp;82개사로(&)nbsp;한국관을,(&)nbsp;한국소프트웨어산업협회도(&)nbsp;별도로(&)nbsp;19개사를(&)nbsp;대상으로(&)nbsp;한국관을(&)nbsp;운영할(&)nbsp;계획이다.<br><br>한편(&)nbsp;지난해(&)nbsp;세빗행사의(&)nbsp;주(&)nbsp;관심분야는(&)nbsp;(&)quot;통합단말기(&)quot;와(&)nbsp;(&)quot;통합네트워크(&)quot;였다.(&)nbsp;올해도(&)nbsp;컨버전스의(&)nbsp;추세는(&)nbsp;더욱(&)nbsp;뚜렷하게(&)nbsp;나타날(&)nbsp;것으로(&)nbsp;보이며(&)nbsp;고화소(&)nbsp;휴대폰(&)nbsp;단말기,(&)nbsp;카메라폰,(&)nbsp;3세대(&)nbsp;휴대폰(&)nbsp;등이(&)nbsp;주목을(&)nbsp;받을(&)nbsp;것으로(&)nbsp;예상된다.<br><br>◆국내기업(&)nbsp;어떤(&)nbsp;제품(&)nbsp;출품하나<br><br>유럽시장(&)nbsp;공략을(&)nbsp;목표로(&)nbsp;사실상(&)nbsp;세빗전시회에(&)nbsp;처음(&)nbsp;나가는(&)nbsp;팬택은(&)nbsp;GSM(&)nbsp;휴대폰을(&)nbsp;주력으로(&)nbsp;내세우고(&)nbsp;있다.<br><br>팬택은(&)nbsp;사용자의(&)nbsp;지문을(&)nbsp;인식(&)nbsp;보안기능을(&)nbsp;강화한(&)nbsp;지문인식(&)nbsp;폰(모델명(&)nbsp;GI(&)nbsp;100)을(&)nbsp;가지고(&)nbsp;나간다.(&)nbsp;이(&)nbsp;제품은(&)nbsp;키패드(&)nbsp;상단에(&)nbsp;있는(&)nbsp;지문인식(&)nbsp;창에(&)nbsp;사용자의(&)nbsp;지문을(&)nbsp;10종류(&)nbsp;입력할(&)nbsp;수(&)nbsp;있다.(&)nbsp;문자나(&)nbsp;음성메시지(&)nbsp;등의(&)nbsp;비밀은(&)nbsp;물론,(&)nbsp;모바일(&)nbsp;뱅킹,(&)nbsp;모바일(&)nbsp;커머스(&)nbsp;등에서(&)nbsp;보안문제를(&)nbsp;해결한다는(&)nbsp;점이(&)nbsp;특정이다.<br><br>팬택은(&)nbsp;또(&)nbsp;게임기처럼(&)nbsp;보이는(&)nbsp;FM라디오(&)nbsp;겸용(&)nbsp;게임폰(모델명(&)nbsp;GA-400B)도(&)nbsp;선보인다.(&)nbsp;이(&)nbsp;제품은(&)nbsp;휴대폰(&)nbsp;케이스를(&)nbsp;다양한(&)nbsp;컬러로(&)nbsp;바꿀(&)nbsp;수(&)nbsp;있어(&)nbsp;(&)quot;나만의(&)nbsp;휴대폰(&)quot;을(&)nbsp;연출할(&)nbsp;수(&)nbsp;있다.<br><br>이와(&)nbsp;함께(&)nbsp;팬택은(&)nbsp;블루투스(&)nbsp;칩이(&)nbsp;내장돼(&)nbsp;헤드셋을(&)nbsp;원격(&)nbsp;조정하는(&)nbsp;블루투스(&)nbsp;폰(모델명(&)nbsp;G800)도(&)nbsp;공개한다.(&)nbsp;기존(&)nbsp;휴대폰으로(&)nbsp;이어폰을(&)nbsp;사용하는(&)nbsp;경우(&)nbsp;유선으로(&)nbsp;휴대폰과(&)nbsp;이어폰을(&)nbsp;연결해야(&)nbsp;하지만(&)nbsp;이(&)nbsp;제품은(&)nbsp;연결선(&)nbsp;없이(&)nbsp;원격으로(&)nbsp;제어해(&)nbsp;데이터를(&)nbsp;주고받을(&)nbsp;수(&)nbsp;있다.<br><br>삼성전자는(&)nbsp;CDMA와(&)nbsp;GSM(&)nbsp;영역에서(&)nbsp;모두(&)nbsp;통화가(&)nbsp;가능한(&)nbsp;월드폰(모델명(&)nbsp;SCH-A790)을(&)nbsp;세계(&)nbsp;최초로(&)nbsp;선보인다.(&)nbsp;이(&)nbsp;제품은(&)nbsp;800/1900MHz의(&)nbsp;CDMA(&)nbsp;영역과(&)nbsp;900/1800MHz(&)nbsp;GSM을(&)nbsp;커버하기(&)nbsp;때문에(&)nbsp;한(&)nbsp;개의(&)nbsp;휴대폰으로(&)nbsp;세계(&)nbsp;어디에서나(&)nbsp;통화가(&)nbsp;가능한(&)nbsp;제품이다.<br><br>삼성은(&)nbsp;또(&)nbsp;유럽의(&)nbsp;3세대(&)nbsp;통신환경의(&)nbsp;본격화에(&)nbsp;대비해(&)nbsp;보다폰,(&)nbsp;T모바일의(&)nbsp;네트워크를(&)nbsp;이용해(&)nbsp;UMTS(범용이동통신시스템)폰(모델명(&)nbsp;SGH-Z105)을(&)nbsp;이용해(&)nbsp;실시간(&)nbsp;동영상(&)nbsp;통화를(&)nbsp;시연하는(&)nbsp;한편(&)nbsp;CDMA(&)nbsp;방식(&)nbsp;최초의(&)nbsp;200만(&)nbsp;화소(&)nbsp;카메라폰(모델명(&)nbsp;SPH-V4400)도(&)nbsp;소개한다.<br><br>GSM방식의(&)nbsp;최초(&)nbsp;100만(&)nbsp;화소급(&)nbsp;카메라폰(모델명(&)nbsp;SGH-P730)은(&)nbsp;QVGA급(&)nbsp;고화질(&)nbsp;LCD를(&)nbsp;탑재하고(&)nbsp;있으며(&)nbsp;MMC카드를(&)nbsp;이용해(&)nbsp;최대(&)nbsp;512Mb까지(&)nbsp;메모리(&)nbsp;확장이(&)nbsp;가능한(&)nbsp;제품으로(&)nbsp;이번에(&)nbsp;처음(&)nbsp;선보인다.<br><br>삼성은(&)nbsp;또(&)nbsp;세계(&)nbsp;최대(&)nbsp;크기인(&)nbsp;80인치(&)nbsp;PDP(&)nbsp;TV와(&)nbsp;57인치(&)nbsp;LCD(&)nbsp;TV를(&)nbsp;비롯해(&)nbsp;DVD레코더,(&)nbsp;캠코더,(&)nbsp;MP3플레이어,(&)nbsp;노트북(&)nbsp;PC(&)nbsp;등(&)nbsp;컨버전스(&)nbsp;가속화에(&)nbsp;따른(&)nbsp;IT/AV(&)nbsp;복합제품도(&)nbsp;대폭(&)nbsp;소개한다.<br><br>이밖에(&)nbsp;세계에서(&)nbsp;가장(&)nbsp;소음이(&)nbsp;적은(&)nbsp;컬러레이저(&)nbsp;프린터(모델명(&)nbsp;CLP-500)도(&)nbsp;출품한다.<br><br>LG전자는(&)nbsp;PDP,(&)nbsp;LCD(&)nbsp;등(&)nbsp;디스플레이(&)nbsp;전(&)nbsp;제품과(&)nbsp;GSM·GPRS/WCDMA(&)nbsp;겸용(&)nbsp;듀얼밴드(&)nbsp;휴대폰(&)nbsp;30여종,(&)nbsp;고성능(&)nbsp;카메라폰(&)nbsp;등을(&)nbsp;출품한다.<br><br>특히(&)nbsp;독자(&)nbsp;개발한(&)nbsp;홈네트워킹(&)nbsp;프로토콜인(&)nbsp;LnCP(Living(&)nbsp;Network(&)nbsp;Control(&)nbsp;Protocol)을(&)nbsp;통한(&)nbsp;편리한(&)nbsp;생활모습을(&)nbsp;보여줄(&)nbsp;계획이다.<br><br>이밖에(&)nbsp;LG전자는(&)nbsp;123만(&)nbsp;화소의(&)nbsp;카메라폰,(&)nbsp;270도(&)nbsp;액정회전형(&)nbsp;카메라폰(&)nbsp;등(&)nbsp;다양한(&)nbsp;GSM(&)nbsp;단말기도(&)nbsp;선보인다.<br><br>한편,(&)nbsp;MP3플레이어(&)nbsp;업체들도(&)nbsp;각자(&)nbsp;주력제품을(&)nbsp;출품한다.<br><br>아이리버는(&)nbsp;이번에(&)nbsp;유럽시장을(&)nbsp;겨냥해(&)nbsp;내놓은(&)nbsp;DAB기능이(&)nbsp;있는(&)nbsp;iDA-100을(&)nbsp;새롭게(&)nbsp;선보이고,(&)nbsp;거원시스템도(&)nbsp;MP3업계(&)nbsp;최장수(&)nbsp;모델인(&)nbsp;iAUDO(&)nbsp;시리즈를(&)nbsp;들고(&)nbsp;유럽시장을(&)nbsp;노크한다.<br><br>넥스트웨이도(&)nbsp;기존의(&)nbsp;(&)quot;넥스트웨이(&)quot;(&)nbsp;대신에(&)nbsp;유럽시장(&)nbsp;공략용으로(&)nbsp;새로(&)nbsp;내놓은(&)nbsp;뉴브랜드(&)nbsp;(&)quot;D(&)nbsp;큐브(&)quot;를(&)nbsp;중심으로(&)nbsp;다양한(&)nbsp;MP3플레이어를(&)nbsp;출품할(&)nbsp;예정이다.<br><br>◆세빗은(&)nbsp;어떤(&)nbsp;전시회<br><br>미국(&)nbsp;라스베이거스에서(&)nbsp;열리는(&)nbsp;컴덱스와(&)nbsp;함께(&)nbsp;세계(&)nbsp;IT전시회의(&)nbsp;양대(&)nbsp;축중(&)nbsp;하나인(&)nbsp;세빗은(&)nbsp;최근(&)nbsp;들어(&)nbsp;컴덱스가(&)nbsp;위축됨에(&)nbsp;따라(&)nbsp;가장(&)nbsp;주목받는(&)nbsp;행사로(&)nbsp;부상했다.<br><br>세빗은(&)nbsp;1970년(&)nbsp;하노버(&)nbsp;산업박람회로(&)nbsp;시작됐다가(&)nbsp;규모가(&)nbsp;너무(&)nbsp;커지자(&)nbsp;주최(&)nbsp;측인(&)nbsp;도이체(&)nbsp;메세(&)nbsp;AG는(&)nbsp;86년부터(&)nbsp;세빗을(&)nbsp;별도(&)nbsp;행사로(&)nbsp;분리해(&)nbsp;매년(&)nbsp;3월에(&)nbsp;열기로(&)nbsp;했다.<br><br>세빗(&)nbsp;전시장의(&)nbsp;(&)quot;홀(&)nbsp;1(&)quot;은(&)nbsp;1984년에(&)nbsp;단층(&)nbsp;전시장으로서는(&)nbsp;가장(&)nbsp;큰(&)nbsp;규모(7만300평방미터)로(&)nbsp;기네스북에(&)nbsp;올랐다.<br><br>세빗은(&)nbsp;처음에는(&)nbsp;(&)quot;Center(&)nbsp;for(&)nbsp;Office(&)nbsp;and(&)nbsp;IT(&)quot;의(&)nbsp;독일어(&)nbsp;약어인(&)nbsp;(&)quot;CeBOT(&)quot;로(&)nbsp;제안되기도(&)nbsp;했으나(&)nbsp;전시회(&)nbsp;자문위원회에서(&)nbsp;(&)quot;CeBIT(&)quot;으로(&)nbsp;이름을(&)nbsp;정했다.(&)nbsp;(&)quot;CeBIT(&)quot;에서(&)nbsp;(&)quot;BIT(&)quot;는(&)nbsp;컴퓨터(&)nbsp;최소(&)nbsp;정보단위인(&)nbsp;비트를(&)nbsp;의미하기도(&)nbsp;한다.<br><br>전시회가(&)nbsp;열리는(&)nbsp;독일(&)nbsp;하노버는(&)nbsp;니더작센주의(&)nbsp;주도로(&)nbsp;일년(&)nbsp;내내(&)nbsp;크고(&)nbsp;작은(&)nbsp;산업박람회가(&)nbsp;열린다.(&)nbsp;매년(&)nbsp;3월에(&)nbsp;열리는(&)nbsp;세빗외에도(&)nbsp;공업기계박람회,(&)nbsp;엑스포(&)nbsp;등(&)nbsp;연간(&)nbsp;50여개의(&)nbsp;전시회가(&)nbsp;개최돼(&)nbsp;전시회(&)nbsp;수익이(&)nbsp;도시(&)nbsp;수입의(&)nbsp;대부분을(&)nbsp;차지할(&)nbsp;정도다.<br><br>하노버는(&)nbsp;일년(&)nbsp;내내(&)nbsp;맑은(&)nbsp;날씨인(&)nbsp;라스베이거스와(&)nbsp;달리(&)nbsp;특히(&)nbsp;3월에는(&)nbsp;춥고(&)nbsp;눈이(&)nbsp;많다.(&)nbsp;지난(&)nbsp;87년에는(&)nbsp;세빗(&)nbsp;행사(&)nbsp;불과(&)nbsp;이틀(&)nbsp;전에(&)nbsp;갑작스런(&)nbsp;눈보라가(&)nbsp;몰아쳐(&)nbsp;1미터가(&)nbsp;넘게(&)nbsp;눈이(&)nbsp;쌓였다.(&)nbsp;(&)quot;SnowBIT(&)quot;로(&)nbsp;불렸던(&)nbsp;당시(&)nbsp;행사는(&)nbsp;그러나(&)nbsp;많은(&)nbsp;사람의(&)nbsp;노력으로(&)nbsp;무사히(&)nbsp;치러졌다.<br><br>세빗은(&)nbsp;현재(&)nbsp;하노버(&)nbsp;뿐만(&)nbsp;아니라(&)nbsp;터키,(&)nbsp;아시아,(&)nbsp;오스트레일리아(&)nbsp;등에서도(&)nbsp;열린다.<br>(&)nbsp;<br></font>
+							</td>
+						</tr>
+						<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+						<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+						<tr><td colspan="2" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=17&sseq=&sword="><img src="/img/prroom/btn_list.gif" height="19" alt="" border="0" hspace="8"></a></td></tr>
+						<tr>
+							<td colspan="2" height="60" style="padding:0 0 0 8">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="21" class="minilist">			
+
+									</td>
+								</tr>
+									<td height="21" class="minilist">
+
+									<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1295&num=566&page=17&sseq=&sword="><font class="minilist">[Cover Story] 송문섭 팬텍앤큐리텔 사장 </font></a>
+
+									</td>
+								</table>
+							</td>
+						</tr>
+						</table>
+						<!------- READ End ------------->
+
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+
+
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner1.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner1.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+
+
+</body>
+</html>
+

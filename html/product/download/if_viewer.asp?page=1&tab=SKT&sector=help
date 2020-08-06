@@ -1,0 +1,72 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/product.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<script>
+	function goParent(usNo){
+		parent.location.href='/html/product/download/search.asp?serial_no='+usNo;		
+	}
+</script>
+<table width="557" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><img src="/img/help/download/txt_viewer.gif" width="400" height="65" alt="" border="0" align="absmiddle"><!-- hardcoding 2004-06-03  배승진--><a href="javascript:download('product/down/viewer/CURITEL_VIEW22.exe');"><img src="/img/btn/btn_downviewer.gif" width="128" height="30" alt="" border="0"></a></td>
+	</tr>
+	<tr><td><img src="/img/common/plusline.gif" width="557" height="11" alt="" border="0" vspace="10"></td></tr>
+	<tr>
+		<td height="35" style="padding:10 0 0 15" valign=top><img src="/img/help/download/title_model.gif"></td>
+	</tr>
+	</table>
+	<!--- 텝메뉴 "해당파일_o" --->
+	<table width="548" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	<td style="padding:0 0 0 15">
+		<table cellpadding=0 cellspacing=0 border=0 width=100%><tr>
+		<td height="29" background="/img/common/tabbg.gif">
+			
+		<a href="if_viewer.asp?tab=SKT&sector=help"><img src="/img/help/tab01_o.gif" width="81" height="29" alt="" border="0"></a><a href="if_viewer.asp?tab=KTF&sector=help"><img src="/img/help/tab02.gif" width="81" height="29" alt="" border="0" hspace="1"></a><a href="if_viewer.asp?tab=LGT&sector=help"><img src="/img/help/tab03.gif" width="81" height="29" alt="" border="0"></a></td>
+		</tr></table>
+	</td>
+	</tr>
+   <tr>
+  	<td>
+			<table width="" border="0" cellspacing="0" cellpadding="0">
+				<tr align="center">
+
+					<td align="" width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/a1_5700.gif" width="60" height="120" vspace="3"><br>
+					<b>PH-S5700</b></td>
+
+					<td align="" width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/a1_pg-s5500a.gif" width="60" height="120" vspace="3"><br>
+					<b>PG-S5000A</b></td>
+
+					<td align="" width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/a1_pg-s5000_s5000a.gif" width="60" height="120" vspace="3"><br>
+					<b>PG-S5000</b></td>
+
+					<td align="" width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/a1_pg-s4600.gif" width="60" height="120" vspace="3"><br>
+					<b>PG-S4600</b></td>
+
+					<td align="" width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/a1_ps-e100a.gif" width="60" height="120" vspace="3"><br>
+					<b>PS-E100A</b></td>
+ 
+				</tr>
+			</table>	
+		</td>
+	  </tr>
+</table>
+
+<table width="548" height="60" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+		<td align="center">
+			&nbsp;<b>|1|</b>&nbsp;<a href=if_viewer.asp?page=2&tab=SKT&sector=help>|2|</a> 
+		</td>
+	</tr>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,532 @@
+
+<html>
+<head>
+	<title>PANTECH&CURITEL</title>
+	<link href="/common/css/basic.css" rel="stylesheet" type="text/css">
+	<script language="JavaScript">
+	<!--
+		function comment( obj, obj1 )
+		{
+			if ( obj == "add" )
+			{
+				if ("" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else if ( document.boardComment.comment_content.value == "" )
+				{
+					alert("내용을 입력하세요");
+					document.boardComment.comment_content.focus();
+					return;
+				}
+			} else if ( obj == "del" )
+			{
+				if ( "" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else
+				{
+					var ck_confirm = confirm( "삭제하시겠습니까?" );
+					if ( ck_confirm == false )
+					{
+						return ;
+					}
+				}
+			}
+			document.boardComment.mode.value = obj;
+			document.boardComment.ck_num.value = obj1;
+			document.boardComment.id.value = 56;
+			document.boardComment.action = "CommentSave.asp";
+			document.boardComment.submit();
+		}
+
+		function OpenRecommend()
+		{
+			window.open( "./Recommend.asp?id=56", "추천하기", "status=no,width=500,height=570" );
+		}
+		function openSar() {
+			window.open("./SAR/p_sar01.asp?id=56&model=S1","view","width=421,height=560,marginwidth=0,marginheight=0,resizable=0,scrollbars=no,toolbar=no,location=no");
+		}
+		function openAccessory() {
+			window.open("./accessory/accessory.asp?id=56","view","width=600,height=560,marginwidth=0,marginheight=0,resizable=0,scrollbars=yes,toolbar=no,location=no");
+		}
+		function MovePage(a){
+			document.location.href = "productdetail.asp?id=56&page="+a+"#04";
+		}
+	//-->
+	</script>
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td colspan="3"><!-- 헤더 플래시 include --><!--mg src="/common/images/fake_flash.gif" width="782" height="222"-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="782" HEIGHT="222" id="Untitled-2" ALIGN="top">
+	<param name="movie" value="/common/header/curitel_sub.swf?colorSetNum=2"><!-- 여기예요.-->
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=salign VALUE=T>
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	<EMBED src="/Common/header/curitel_sub.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+</OBJECT></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+	> <a href="/InfoBox/"><font color="#FFFFFF">Info Box</font></a>
+ 
+	
+	> <font color="#FFFFFF">제품정보</font>
+		
+</td>
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include --><!-- 레프트 메뉴 START -->
+
+<td width="197" valign="top" align="center" background="/Common/images/left_bg.gif">
+
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="10" bgcolor="#FFFFFF"><img src="/Common/images/spacer.gif" width="197" height="10"></td>
+		</tr>
+		<tr>
+			<td><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="197" HEIGHT="600" id="Untitled-2" ALIGN="top">
+					<PARAM NAME=movie VALUE="/Common/menu/info_box_before.swf">
+					<PARAM NAME=quality VALUE=high>
+					<PARAM NAME=salign VALUE=T>
+					<PARAM NAME=bgcolor VALUE=#FFFFFF>
+					<EMBED src="/Common/menu/info_box_before.swf" quality=high salign=T  WIDTH="197" HEIGHT="600" NAME="Untitled-2" ALIGN="top"
+					TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+				</OBJECT></td>
+		</tr>
+	</table>	
+
+</td>
+<!-- // 레프트 메뉴 END   -->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+			<table width="580" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td class="main_first" style="padding-top:15px" align="center">
+<script language="javascript">
+function openwin(obj)
+{ 
+	noticeWindow  =  window.open("/InfoBox/"+obj , "가격비교", "menubar=0,resiable=0,scrollbars=0 , width=500,height=275,left="+(screen.width-550)+",top=40");
+	noticeWindow.opener = self;
+}
+
+function imgpd5000()
+{
+	document.location.href='ProductDetail/pd-5000.zip';
+}
+
+function imgpd6000()
+{
+	document.location.href='ProductDetail/pd-6000.zip';
+}
+</script>					
+						<table width="548" cellpadding="0" cellspacing="0" border="0">						
+							<tr>
+							<td>
+<table width="548" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+	<td><img src="images/011_017.gif" width="257" height="50"></td>
+	<td background="images/header_bg.gif"><img src="/common/images/spacer.gif" width="291" height="1"></td>
+	</tr>
+	
+	<tr>
+    <td colspan="2"> 
+      <!--mg src="/common/images/fake_flash.gif" width="782" height="222"-->
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="548" height="448" id="Untitled-2" align="top">
+        <param name="movie" value="/InfoBox/ProductDetail/s1.swf">
+        <!-- 여기예요.-->
+        <param name=quality value=high>
+        <param name=salign value=T>
+        <param name=bgcolor value=#FFFFFF>
+        <embed src="/InfoBox/ProductDetail/s1.swf" quality=high salign=T  width="782" height="222" align="top"
+	type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF>
+        </embed> 
+      </object></td>
+  </tr>
+	
+	<tr>
+	<td colspan="2">
+</table>
+
+								
+								<table width="548" cellpadding="0" cellspacing="0" border="0" background="images/middle_bg.gif">
+									<tr align="center">
+									<td height="70"><a href="#01"><img src="images/middle_01.gif" border="0"></a></td>
+									<td><a href="#02"><img src="images/middle_02.gif" border="0"></a></td>
+									<td><a href="#03"><img src="images/middle_03.gif" border="0"></a></td>
+									<td><a href="#04"><img src="images/middle_04.gif" border="0"></a></td>
+									<td>
+<!--
+									
+										<a href="javascript:openwin('compare_dd600.htm');">
+									
+										<a href="javascript:openwin('compare_c500.htm');">
+									
+-->                                    
+									<a href="/curitelzone/pricecompare.asp"><img src="images/middle_05.gif" border="0"></a></td>
+									<td>
+
+										<a href="javascript:alert('로그인 하세요');"><img src="images/middle_06.gif" border="0"></a>
+
+									</td>
+									<td><a href="javascript:openSar();"><img src="images/middle_07.gif" border="0"></a></td>
+									<td><a href="javascript:openAccessory();"><img src="images/middle_08.gif" border="0"></a></td>
+									</tr>
+								</table>
+							</td>
+							</tr>
+						</table>
+						<table width="548" cellpadding="0" cellspacing="0" border="0">
+							<!-- 특징 START -->
+							<tr><a name="01"></a>
+								<td colspan="2" background="images/title_bg.gif" height="63" style="padding-left:20px"><img src="images/title_01.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0 width=520 align=center><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/cdma2000.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 이제 Simple함이 디자인을 지배한다 &#8211; 단순함의 미학, S1</b></font><br>기교를 부리지 않았다. 부드러운 곡선 라인을 살짝 넣어 깔끔하게 마무리한 Simple Style, Simple Design~ 이제 유행에 휩쓸리지 않는 단순함의 아름다움으로 자신의 개성을 맘껏 표현해보세요~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/tft.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 고선명 고화질 컬러로 표현한다 &#8211; 6만 5천 Color TFT LCD 탑재</b></font><br>이젠 컬러 휴대폰도 고화질 시대! 큐리텔 S1에 사용된 TFT LCD는 차원이 다른 Color Graphic User Interface로 Color 게임/그림 친구 등 Color Content 기반 네트워킹을 더욱더 생생하게 큐리텔로 즐길 수 있습니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/40poly.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 멜로디는 살아있다 &#8211; Yamaha 40 Poly의 생생한 선율</b></font><br>전화 오는 것이 즐겁다? Yamaha 40 Poly 멜로디 칩을 통해 울려 퍼지는 큐리텔 S1의 멜로디는 원음에 가깝게 생생하게 울려 퍼집니다. 다양한 내장 멜로디와 개성에 맞게 다운로드한 멜로디로 나만의 오케스트라를 지휘해보세요. 잠깐! 아무리 멜로디가 좋아도 공공장소에선 진동으로 해야 겠죠?</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/avatar.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 아바타가 휴대폰 속으로 &#8211; 아바타 편집 기능 채용</b></font><br>달라진 S1의 아바타 편집 기능은 나만의 아바타를 만들어 큐리텔의 대기 화면에 사용할 수 있으며, 전화번호부에서 설정한 아바타는 전화 수신시 화면에 나타나는 깜찍한 기능입니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/note.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 큐리텔만의 다양한 효과음 &#8211; 폴더를 열고 닫을 때 효과음 채용</b></font><br>큐리텔의 최신 기술이 만든 S1은 폴더를 열고 닫을 때 깜찍하고 귀여운 효과음 제공으로 휴대폰을 받을 때 마다 큐리텔의 색다른 매력을 느낄 수 있습니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/on_line.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 휴대폰이 이제 말을 한다! &#8211; Voice Key 기능</b></font><br>키패드를 누를 때마다 울려 퍼지는 맑은 목소리! 휴대폰이 이제 말을 한다. S1은 Voice Key 기능을 적용(여성 목소리, 드럼, 물방울, 피아노, 강아지 소리)하여 휴대폰 사용을 더욱 즐겁게 해줍니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/nate_air.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 너의 음성을 오래오래 간직하고 싶어!  &#8211; 음성 녹음 기능 지원</b></font><br>오늘따라 너의 목소리가 감동이야! 이 순간 오래오래 간직해서 듣고싶어~ 오래도록 듣고 싶은 연인의 목소리를 오래도록 간직해 보세요~ 그리움이 쌓이는 순간 다시 들어보는 그 때의 감동, S1의 음성 녹음 기능으로 느껴보세요!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/nate.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 혼자 놀기의 진수를 보여주지!  &#8211; 3가지 내장 게임(퍼즐랜드, 블럭쌓기, 큐브마스터)</b></font><br>이제 따분함은 가라~ 언제 어디서나 S1만의 즐거운 게임을 즐긴다. 순발력, 머리 쓰기의 진수가 3가지 게임 속으로 들어왔다. 혼자 있을 때도, 이동 중에도 S1 내장 게임으로 즐기는 잠깐의 시간이 모바일 생활을 더욱 유쾌하고 즐겁게 해줍니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/moive.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 전자수첩이 새로워졌다 &#8211; 나만의 모바일 비서 ‘전자수첩’ 기능</b></font><br>까먹지 말자! 중요한 모임!, 늦지 말자! 중요한 약속! 메모해두자! 중요한 아이디어! 생활 속에 편리한 기능들이 휴대폰 안에 다 모였다. 달력, 모닝콜, 기념일, 알람, 스케줄러, 메모, 전자계산기, 단위환산, 스톱워치, 세계시간, 바이오리듬 기능 등 편리한 다양한 기능의 S1을 나만의 모바일 비서로 활용하세요~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/small.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 나만의 이미지? 나만의 멜로디! - PC Sync 기능 지원</b></font><br>PC와 휴대폰을 케이블로 연결하여 PC로 작성한 데이터를 휴대폰으로 옮기거나, 휴대폰의 데이터를 PC로 읽어 들여 편집할 수 있는 기능입니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/bell.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 큐리텔로 온라인 결재까지 - 전자지갑 서비스(M-Wallet) 지원</b></font><br>PG-S1200은 모바일 상거래의 필수사항인 결재기능을 휴대폰 하나로 수행하는 전자지갑 서비스(M-Wallet)를 지원, 휴대전화를 통해 간단한 키 입력만으로 상품대금 지불은 물론, 상품을 원하는 배송지에서 받을 수 있는 새로운 환경의 모바일 상거래 서비스까지 가능하게 되어 휴대폰의 사용성을 더욱더 극대화 합니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/cdma2000.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 원하는 방송채널만 받아준다 - NATE Air 서비스 지원</b></font><br>NATE Air 서비스는 모바일 멀티미디어 방송서비스로 미리 등록해둔 방송채널을 통해 정보를 받아볼 수 있는 방송형 멀티미디어 서비스 기능입니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR></table>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+															<br><br>※ 제품의 외관, 사양등은 제품개량을 위해 사전예고 없이 변경될 수 있습니다.
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 특징 END -->
+							<!-- 기능 START -->
+							<tr><a name="02"></a>
+								<td colspan="2" background="images/title_bg.gif" height="63" style="padding-left:20px"><img src="images/title_02.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0 width=520 align=center><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>6만5천 Color TFT LCD 탑재 (128 * 160)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>원음에 가까운 40 화음 멜로디 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>고급 블루/ 키패드 백라이팅 채용</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>아바타 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>Voice Key 설정 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>폴더 개폐음 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>단문 메시지 송수신(SMS)/멜로디·이미지 Download 기능 등 사업자 부가서비스 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>달력, 모닝콜, 기념일, 알람, 스케줄러, 메모, 계산기, 단위환산, 스톱워치, 세계시간, 바이오리듬 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>시작 메뉴 편집 기능 (나만의 메뉴 편집)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>개인정보관리 데이터 PC 호환 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>음성 녹음 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>3가지 내장 게임</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>외부 LED를 통한 휴대폰 상태 표시</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>자동 응답 설정 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>절전 조명 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>자동잠금/ 원터치 진동모드/ 사생활보호기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>Call Rejection 기능(수신제한 기능)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>Color Graphic UI ( Color 그래픽 유저 인터페이스)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>무선인터넷 (NATE) 기능 및 E-mail 기능 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>방송형 서비스 (NATE Air 서비스 지원 )</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>NATE 마법사 I, II 지원 (게임 다운로드 및 네트워크 게임 지원 )</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>NATE 멀티미디어 동영상 기능 지원 (Wavelet 기능 탑재)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>WAP 브라우저 탑재에 의한 인터넷 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>WAP Push 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>전자지갑 서비스(M-Wallet) 기능 지원</TD></TR></table>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 기능 END -->
+							<!-- 사양 START -->
+							<tr><a name="03"></a>
+								<td colspan="2" background="images/title_bg_02.gif" height="51" style="padding-left:20px; padding-top:20px" valign="top"><img src="images/title_03.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#E5E2E2><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_01.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>크기(mm)</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px bgcolor=#FFFFFF>81× 41 × 19.3(표준용량)</TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>무게(g)</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>77g(표준용량)</TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>LCD 사양</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>내장 LCD :TFT 6만5천 Color LCD (128 × 160)<br>외장 LCD :B/W 3 Line (96 × 48) </TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_09.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>색상</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>White Pearl / Red </TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_13.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD colspan=2><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#F0F0F0 height=120><TR><TD bgcolor=#F0F0F0 style=padding-left:10px width=34% >구 분</TD><TD bgcolor=#F0F0F0 align=center width=33% >표준용량</TD><TD bgcolor=#F0F0F0 align=center width=33% >대용량</TD></TR><TR><TD bgcolor=#F0F0F0 style=padding-left:10px>연속통화시간</TD><TD align=center bgcolor=#ffffff>약 115분 </TD><TD align=center bgcolor=#ffffff>약 170분 </TD></TR><TR><TD bgcolor=#F0F0F0 style=padding-left:10px>연속대기시간</TD><TD align=center bgcolor=#ffffff>약 170시간 </TD><TD align=center bgcolor=#ffffff>약 210시간 </TD></TR><TR><TD colspan=3  bgcolor=#ffffff style=padding-left:10px>◆ CDMA2000 1x 및 Slot Cycle 1.2 기준, 휴대폰 실사용 시간은 휴대폰 사용환경에 따라 차이가 있을 수 있습니다</TD>	</TR></TABLE></TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_23.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD colspan=2 bgcolor=#FFFFFF style=padding-left:80px><BR><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#ffffff height=120><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>휴대폰 본체</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>휴대용 고리</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>배터리 2개</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>거치대</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>사용설명서</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10></TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10></TD></TR></TABLE><BR></TD></TR></TABLE>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 사양 END -->
+							<!-- 리뷰 START -->
+							<tr><a name="04"></a>
+								<td colspan="2" background="images/title_bg_02.gif" height="51" style="padding-left:20px; padding-top:20px" valign="top"><img src="images/title_04.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<table width="536" cellpadding="1" cellspacing="0" border="0">
+													<tr bgcolor="#7EADB4">
+														<td width="85" height="22" style="color:white;padding-left:10px">작성자</td>
+														<td width="420" style="color:white">내&nbsp;&nbsp;용</td>
+														<td width="31" align="center" style="color:white">삭제</td>
+													</tr>
+
+						<!-- 한줄답변 START -->
+											<form name="boardComment" method="post" action="javascript:comment('add','0');">
+													<input type="hidden" name="mode">
+													<input type="hidden" name="id">
+													<input type="hidden" name="ck_num">
+													<input type="hidden" name='comment_name' value="">
+													<input type="hidden" name="comment_id" value="">
+
+
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">heavem</td>
+														<td width="420">이거는고장이잘나요 그리고 전원이저절로꺼지고요 이상해요</td>
+														<td width="31" align="center"><a href="javascript:comment('del','27103');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">heavem</td>
+														<td width="420">핸드폰 이런게만든카메라없어요 큐리텔것</td>
+														<td width="31" align="center"><a href="javascript:comment('del','27102');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">heavem</td>
+														<td width="420">저기제거는요 핸드폰배터리 바 꾸어서 하면저절로 잠겨줘요 그래서 핸드폰 번호 풀려 제가산대리점가지가야되요</td>
+														<td width="31" align="center"><a href="javascript:comment('del','27101');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">har0503</td>
+														<td width="420">그런데 이거 수리하고나니깐 '내전화번호'에보니깐 000-000-0000으로 되있는데 누구 이런사람 없어요??있으면 이거 어떻게 했어요??</td>
+														<td width="31" align="center"><a href="javascript:comment('del','26905');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">har0503</td>
+														<td width="420">karin83님.그거 서비스센터가보세요,저도 님처럼그러다가 아예 안켜져서 들고가봤더니 바이러스래요;;</td>
+														<td width="31" align="center"><a href="javascript:comment('del','26904');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">karin83</td>
+														<td width="420">처 돌겠습니다=_= 자꾸 전원 켰다 껐다 할때마다 에러나요..운좋으면 켜지고. 이거 왜이럽니까;;;;;;;;;;;;;;;;;</td>
+														<td width="31" align="center"><a href="javascript:comment('del','26821');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">lh3452</td>
+														<td width="420">이 핸드폰 정말 많이 실망했어요. 저 이핸드폰이 처음이거든요.. 정말 좋아서 정말 많이 아끼면서 썼는데.. 큐리텔 정말 실망입니다. 큐리텔이 좋다고 해서 샀는데, 이렇게 자꾸 고장나서 쓰겠어요? 좀 만드려면 제대로 만들어 주셔야 하는것 아닌가요? 다운 받은 것들도 너무 아깝구요.. 진짜 실망했어요.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','26804');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">lh3452</td>
+														<td width="420">저도 이 핸드폰 샀거든요.(9개월전에)근데 벌써 4번이나 바꿨어요.전원이 안 켜져요.정말 미치겠어요. 지금도 또 전원이 안 켜져서 또 a/s맡겼는데 참나. 무슨 못고친데요. 아까워요. 괜히 샀어요. 아직 정확히 일년이 되지 않았는데 벌써 4번이나 바꿨답니다. 그래도 이 핸드폰 개인적으로 맘에 들어서 고장나도 계속 바꿨는데 이젠 정말 질렸어요. 더 이상 고장나는 걸 보고싶지 않아요. 이래서 어떻게 핸드폰을 맘놓고 쓰겠어요? 엉망입니다..고장도 정말 자주나요.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','26803');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">har0503</td>
+														<td width="420">저도 이제는 전원까지도 안켜져요//이젠 정말 지쳤습니다..고장날 증상이란 증상은 다 나타나서 더이상 고장날것도 없을거예요아마..</td>
+														<td width="31" align="center"><a href="javascript:comment('del','26730');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">woong0120</td>
+														<td width="420">으윽 이거 며칠전에 샀는데.... ㅠ.ㅠ</td>
+														<td width="31" align="center"><a href="javascript:comment('del','26689');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<tr >
+														<td colspan="3" align=center style="padding-left:15px; padding-top:6px">
+													
+								<a href="javascript:MovePage('1');" ><img src="/Common/images/btn_list_01.gif" border="0" hspace="3" align="absmiddle"></a>&nbsp;
+<img src='/Common/images/btn_list_02.gif' border='0' hspace='3' align='absmiddle'> 1&nbsp;
+								<a href="javascript:MovePage('2');" >2</a>&nbsp;
+
+								<a href="javascript:MovePage('3');" >3</a>&nbsp;
+
+								<a href="javascript:MovePage('4');" >4</a>&nbsp;
+
+								<a href="javascript:MovePage('5');" >5</a>&nbsp;
+
+								<a href="javascript:MovePage('6');" >6</a>&nbsp;
+
+								<a href="javascript:MovePage('7');" >7</a>&nbsp;
+
+								<a href="javascript:MovePage('8');" >8</a>&nbsp;
+
+								<a href="javascript:MovePage('9');" >9</a>&nbsp;
+
+								<a href="javascript:MovePage('10');" >10</a>&nbsp;
+
+		&nbsp;<a href="javascript:MovePage('11');"><img src="/Common/images/btn_list_03.gif" border="0" hspace="3" align="absmiddle"></a>&nbsp;
+		<a href="javascript:MovePage('33');" ><img src="/Common/images/btn_list_04.gif" border="0" hspace="3" align="absmiddle"></a>
+
+
+
+														</td>
+													</tr>
+													<input type="hidden" name="page" value="1" >
+													<tr bgcolor="#7EADB4">
+														<td colspan="3" style="color:white;padding-left:10px">나도 한마디...</td>
+													</tr>
+													<tr>
+														<td colspan="3" style="padding-left:15px; padding-top:6px">
+															내용&nbsp;&nbsp;<input size="75" name="comment_content">
+														</td>
+													</tr>
+													<tr>
+														<td colspan="3" style="padding:6px,0,10px,15px">
+															<img src="images/warning_01.gif">
+															<a href="javascript:comment('add','0');"><img src="images/btn_write.gif" border="0"></a>
+														</td>
+													</tr>
+													</form>
+													<tr><td colspan="3" height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td colspan="3" bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+										<tr>
+											<td width="10"></td>
+											<td colspan="3" height="6" bgcolor="#707070"></td>
+										</tr>
+										<tr align="right">
+											<td width="10"></td>
+											<td colspan="3" height="35" background="images/list_bottom_bg.gif" style="padding-right:20px">
+												<a href="./ProductList.asp"><img src="/common/images/btn_list.gif" border="0"></a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 리뷰 END -->
+						</table>
+					</td>
+				</tr>
+			</table><br><br><br>
+		<!-- // 메인 컨텐츠 END -->
+		</td>
+<!-- 푸터 include -->	</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		
+  <td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestFinanc_03.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="534,61,631,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="646,62,693,80" href="/footer/partner.asp">
+  <area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>
+</body>
+</html>

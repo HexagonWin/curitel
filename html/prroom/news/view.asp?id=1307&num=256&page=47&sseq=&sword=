@@ -1,0 +1,429 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/prroom/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/prroom/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1307&num=256&page=47&sseq=&sword=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1307&num=256&page=47&sseq=&sword=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/prroom/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/prroom/index.asp" onfocus="this.blur()"><img src="/img/prroom/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        > <a href="/html/prroom/index.asp">PR Room</a> > News</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="220">
+					               <param name="movie" value="/inc/flash/left/left_prroom.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_prroom.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="220"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">			
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->
+
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/img/prroom/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td height="1"></td>
+						</tr>
+						<tr>
+							<td height="26">
+								<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td bgcolor="#F6F8F9"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="25"></td>
+						</tr>
+						</table>
+
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="2" height="31" style="font-weight:bold;color:#599AA6;padding:0 0 0 10;font-size:9pt">
+							[ [PEOPLE] (편집장 인터뷰) 이성규 팬택 사장  ]
+							</td>
+						</tr>
+						<tr>
+							<td height="16" bgcolor="#F2F2F2" colspan="2"></td>
+						</tr>
+						<tr bgcolor="F2F2F2">
+							<td height="31" width="142" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 256</td>
+							<td width="376" style="padding:2 0 0 0">
+								<b><font color="#515151">&#8226;</font> 등록일</b> :
+								2004-07-05 <img src="/img/b.gif" width=80 height=1>
+								<b><font color="#515151">&#8226;</font> 출처</b> : 한경비즈니스
+							</td>
+						</tr>
+						<tr><td height="1" colspan="2" bgcolor="#C9C9C9"></td></tr>
+						<tr>
+							<td colspan="2" style="padding:25 11;line-height:16px" valign="top" class="8">
+								[2004-07-04] 
+ 
+“우리라고 글로벌기업 못될 이유 있나요”
+이성규 팬택 사장(51)은 사장실에서 결재하는 일이 드물다. 매일 한 차례 회사의 각 부서를 순회하며 주요 안건 및 문제점들을 그 자리에서 결정하고 해결해 주기 때문이다. 성격이 급한 탓이 아니다. 팬택을 고속성장케 한 ‘스피드 경영’이 몸에 배었기 때문이다. 
+
+이사장은 스피드 경영을 통해 직원들에게 제품개발 및 시장개척에 있어 ‘남보다 먼저’라는 의식을 강하게 심어줬고, 이는 지난해와 올 1분기 사상 최고의 실적으로 이어졌다. 팬택은 올 1분기 중 매출액의 경우 전년 동기 대비 58% 증가한 2,478억원, 순이익의 경우 19.4% 늘어난 48억원이라는 괄목할 만한 실적을 올렸다. 올 매출목표는 지난해 대비 50% 이상 증가한 1조원.
+
+이사장은 삼성전자에서 히트상품 애니콜을 탄생시킨 주역이었다. 하지만 박병엽 팬택 부회장의 ‘십고초려’에 팬택으로 옮기는 ‘큰 결정’을 내렸다. 이사장은 좀체 지는 것을 싫어한다. 그래서 중국에서 10여명의 바이어들과 알코올 도수가 50도가 넘는 고량주로 동시에 술대작을 벌여 이들을 평정(?)한 일은 유명하다.
+
+- 고속성장 원동력은 무엇이라고 보십니까.
+
+무엇보다 펀더멘털이 중요하다고 생각합니다. 경쟁력 있는 제품과 영업능력이 있어야 합니다. 하지만 이 모두는 사람에게서 비롯되는 것입니다. 그래서 사람이 중요한 것이죠. 기술개발도 중요한데 과거 3년 동안 무척 공들여 지금 그 효과를 보고 있다고 생각합니다. 팬택 및 팬택&amp;큐리텔의 기술개발인력은 1,500명입니다. 삼성전자(2,500명)에는 못미치지만 외형 규모 대비로 따지면 절대로 적은 수가 아닙니다. 
+
+특히 우리 기술개발 인력 중 900여명은 신입사원을 직접 훈련시켜 양성한 인재들이라는 점에서 기술력을 자부합니다. 
+
+&lt;팬택은 팬택그룹(팬택, 팬택&amp;큐리텔, 팬택캐피탈)의 모기업으로 91년 설립돼 무선호출기사업을 하다가 이동통신 단말기 시장에 뛰어들었다. 팬택은 유럽 등지에서 많이 쓰이는 GSM 방식의 휴대전화와 일부 CDMA 방식의 단말기도 생산ㆍ판매한다. 반면 팬택&amp;큐리텔은 2001년 옛 현대전자의 큐리텔 휴대전화 단말기 사업부를 인수해 세워졌다. 팬택&amp;큐리텔은 국내에서 흔히 볼 수 있는 CDMA 방식의 단말기를 집중적으로 만든다. 두 회사는 서로 해외 공략지역을 서로 겹치지 않게 나눠 사업을 운영해 가고 있다.&gt;
+
+- 특별한 인재교육 프로그램이 있습니까.
+
+팬택아카데미라는 교육연수원이 있습니다. 여기에서는 신입사원부터 임원에 이르는 전임직원 교육을 맡고 있습니다. 각 직급에 맞는 다양한 교육이 있지만 주로 임원과 직원, 직원들간의 믿음에 대한 교육을 많이 시킵니다. 서로 대화를 많이 나누다 보면 공감대가 형성되지요. 
+
+일반적으로 한국인들은 우수하다는 생각이 들어요. 신바람 나는 모티브만 있으면 누구든 초능력을 발휘할 수 있다고 봅니다. 지난해 7월 5개 제품을 동시 출품하기에 앞서 엔지니어들을 중국에서 3개월 동안 집중교육을 시켰습니다. 처음에는 여러가지 이유를 들어 반발이 있었지요. 하지만 직원들이 이를 극복하더니 나중에는 자신들의 실력이 한층 업그레이드된 것뿐만 아니라 신바람 난 듯 일하더군요. 저도 놀랐습니다.
+
+- 직원들에게 강조하고 싶은 덕목은 무엇입니까.
+
+돈은 도덕성에 기초해 버는 것이라고 생각합니다. 따라서 정직함이 최고의 덕목이지요. 잘못을 인정하면 교정할 수 있지만 그렇지 않으면 나중에 더 큰 문제가 되고 맙니다.
+
+- 국내외를 막론하고 경쟁이 치열합니다. 휴대전화 제조업계의 생존의 조건은 무엇이라고 보십니까. 
+
+업종의 특성상 스피드가 제일 중요합니다. 모토롤러, 노키아 등 세계적인 휴대전화 제조회사들은 14개월마다 신제품이 나옵니다.(회사 역사가 짧아) 인프라 경쟁력이 떨어진 상황에서 제품 개발기간마저 같거나 늦는다면 경쟁이 안됩니다. 팬택은 개발에 들어간 지 7개월이 지나면 신제품이 나옵니다. 
+
+빨리 개발해야 남보다 먼저 팔 수 있는 것 아닙니까. 일찍이 세계적인 물리학자 아인슈타인은 상대성이론에서 앞으로 속도가 세상을 좌우할 것이라고 암시한 바 있습니다.
+
+삼성전자, 노키아 등 글로벌 기업들이 우리의 라이벌들이라고 생각합니다. 삼성전자는 96년 휴대전화 매출액이 2,000억원 미만이었습니다. 그런데 지난해 14조~15조원으로 7년 만에 무려 70배나 성장했습니다. Why not Pantech?(우리라고 그렇게 안되란 법 있습니까?)
+
+물론 팬택은 삼성전자보다 역사가 짧아 판매 네트워크 등 인프라 기반이 터무니없이 부족하지만 브랜드 이미지는 더 좋아질 수 있다고 생각합니다. 특히 기술개발 능력은 수준급에 올랐다고 확신합니다.
+
+- 해외 인프라가 약해 시장개척에 어려움이 많았을 텐데요.
+
+대기업들은 자체 판매망에 AS망도 갖춰 일하기 쉬웠을 겁니다. 하지만 우리는 가는 곳마다 ‘팬택이 무엇하는 곳이냐’ ‘10만대만 팔고 망하면 어떻게 할 것이야’며 의심이 많았습니다. 그래서 수차례 만나 집요하게 설득했습니다. 지금은 동남아 8개국, 중국, 홍콩, 러시아, 우크라이나, 중동, 바레인 등 30여개국에 수출하고 있습니다. 지난해부터 CDMA 휴대전화를 개발, 북미시장에 노크를 하고 있고 10월에는 서유럽을 본격 공략합니다.
+
+- 올해 몇 종의 신제품을 선보일 예정입니까.
+
+팬택에서만 40여종의 신제품을 내놓을 계획입니다. 이미 17종은 선보였고 나머지 23종이 하반기에 쏟아져 나옵니다. 특기할 만한 제품으로는 세계 최초로 지문인식 기능을 적용한 휴대전화가 있습니다. 
+
+본인의 지문인식이 되지 않으면 통화내역 등을 볼 수 없게 해 프라이버시를 보호토록 한 것이죠. 스테레오 사운드의 벨소리를 담은 휴대전화도 곧 나올 겁니다. 팬택&amp;큐리텔은 올해만 100종의 신제품을 쏟아내는데 팬택과 합치면 거의 이틀에 한 번꼴로 신제품이 나오는 셈이죠.
+
+약력: 1953년 서울 출생. 71년 동성고 졸업. 76년 서울대 공과대학 졸업. 76년 후지쯔코리아 입사. 77년 삼성전자 입사. 83년 부가통신 연구실장. 93년 K/P 사업팀장. 99년 정보통신 무선사업부 개발실장(전무). 2001년 팬택 사장 △주량: 분위기는 맞춰줄 수 있을 정도. △운동: 헬스
+
+대담 = 양승득 편집장 정리=이창희 기자
+
+[후기]
+
+스피드, 강인한 기업체질 역설
+
+외모에서 풍기는 인상은 외유내강이었지만 대화에서 읽혀진 신념과 기업관은 정반대였다. 직원들에게는 정직과 기본 됨됨이를 덕목으로 강조한다면서도 기업은 몸이 가벼우면서 강인한 체질을 가져야 한다고 힘주어 말했다. 
+
+중소기업으로 출발한 팬택이 정글과도 같은 정보통신기기 시장에서 10여년 만에 매출 1조원을 넘보는 초일류기업으로 점프할 수 있었던 비결을 가늠케 한 대목이었다. 
+
+“Why not 팬택?”(다른 스트롱 컴퍼니들이 한 일을 팬택이라고 못할 이유가 어디 있느냐)는 답변이 더 밝고 힘찬 내일을 기대하게 했다. 
+
+ 
+
+							</td>
+						</tr>
+						<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+						<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+						<tr><td colspan="2" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=47&sseq=&sword="><img src="/img/prroom/btn_list.gif" height="19" alt="" border="0" hspace="8"></a></td></tr>
+						<tr>
+							<td colspan="2" height="60" style="padding:0 0 0 8">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="21" class="minilist">			
+				
+									<img src="/img/bbs/txt_prev.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1306&num=255&page=47&sseq=&sword="><font class="minilist">[애드파일]팬택 앤 큐리텔 'S4' </font></a>
+
+									</td>
+								</tr>
+									<td height="21" class="minilist">
+
+									<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1308&num=257&page=47&sseq=&sword="><font class="minilist">팬택앤큐리텔, 300만 화소 디카폰 모듈 국산화 </font></a>
+
+									</td>
+								</table>
+							</td>
+						</tr>
+						</table>
+						<!------- READ End ------------->
+
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+
+
+</body>
+</html>
+

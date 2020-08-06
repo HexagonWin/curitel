@@ -1,0 +1,535 @@
+
+<html>
+<head>
+	<title>PANTECH&CURITEL</title>
+	<link href="/common/css/basic.css" rel="stylesheet" type="text/css">
+	<script language="JavaScript">
+	<!--
+		function comment( obj, obj1 )
+		{
+			if ( obj == "add" )
+			{
+				if ("" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else if ( document.boardComment.comment_content.value == "" )
+				{
+					alert("내용을 입력하세요");
+					document.boardComment.comment_content.focus();
+					return;
+				}
+			} else if ( obj == "del" )
+			{
+				if ( "" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else
+				{
+					var ck_confirm = confirm( "삭제하시겠습니까?" );
+					if ( ck_confirm == false )
+					{
+						return ;
+					}
+				}
+			}
+			document.boardComment.mode.value = obj;
+			document.boardComment.ck_num.value = obj1;
+			document.boardComment.id.value = 76;
+			document.boardComment.action = "CommentSave.asp";
+			document.boardComment.submit();
+		}
+
+		function OpenRecommend()
+		{
+			window.open( "./Recommend.asp?id=76", "추천하기", "status=no,width=500,height=570" );
+		}
+		function openSar() {
+			window.open("./SAR/p_sar01.asp?id=76&model=PG-K5500C","view","width=421,height=560,marginwidth=0,marginheight=0,resizable=0,scrollbars=no,toolbar=no,location=no");
+		}
+		function openAccessory() {
+			window.open("./accessory/accessory.asp?id=76","view","width=600,height=560,marginwidth=0,marginheight=0,resizable=0,scrollbars=yes,toolbar=no,location=no");
+		}
+		function MovePage(a){
+			document.location.href = "productdetail.asp?id=76&rpage="+a+"&page=2#04";
+		}
+	//-->
+	</script>
+<script language='JavaScript'><!--// 
+adURL="http://ad.realmedia.co.kr/RealMedia/ads/adstream_jx.ads/www.curitel.com/goods_more@x01"; 
+document.write("<SCR"+"IPT LANG"+"UAGE='JavaScr"+"ipt1.1' SRC='"+adURL+"?"+(document.referrer.split("/"))[2]+"'></SCR"+"IPT>"); 
+//--></SCRIPT> 
+	
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td colspan="3"><!-- 헤더 플래시 include --><!--mg src="/common/images/fake_flash.gif" width="782" height="222"-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="782" HEIGHT="222" id="Untitled-2" ALIGN="top">
+	<param name="movie" value="/common/header/curitel_sub.swf?colorSetNum=2"><!-- 여기예요.-->
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=salign VALUE=T>
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	<EMBED src="/Common/header/curitel_sub.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+</OBJECT></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+	> <a href="/InfoBox/"><font color="#FFFFFF">Info Box</font></a>
+ 
+	
+	> <font color="#FFFFFF">제품정보</font>
+		
+</td>
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include --><!-- 레프트 메뉴 START -->
+
+<td width="197" valign="top" align="center" background="/Common/images/left_bg.gif">
+
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="10" bgcolor="#FFFFFF"><img src="/Common/images/spacer.gif" width="197" height="10"></td>
+		</tr>
+		<tr>
+			<td><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="197" HEIGHT="600" id="Untitled-2" ALIGN="top">
+					<PARAM NAME=movie VALUE="/Common/menu/info_box_before.swf">
+					<PARAM NAME=quality VALUE=high>
+					<PARAM NAME=salign VALUE=T>
+					<PARAM NAME=bgcolor VALUE=#FFFFFF>
+					<EMBED src="/Common/menu/info_box_before.swf" quality=high salign=T  WIDTH="197" HEIGHT="600" NAME="Untitled-2" ALIGN="top"
+					TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+				</OBJECT></td>
+		</tr>
+	</table>	
+
+</td>
+<!-- // 레프트 메뉴 END   -->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+			<table width="580" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td class="main_first" style="padding-top:15px" align="center">
+<script language="javascript">
+function openwin(obj)
+{ 
+	noticeWindow  =  window.open("/InfoBox/"+obj , "가격비교", "menubar=0,resiable=0,scrollbars=0 , width=500,height=275,left="+(screen.width-550)+",top=40");
+	noticeWindow.opener = self;
+}
+
+function imgpd5000()
+{
+	document.location.href='ProductDetail/pd-5000.zip';
+}
+
+function imgpd6000()
+{
+	document.location.href='ProductDetail/pd-6000.zip';
+}
+</script>					
+						<table width="548" cellpadding="0" cellspacing="0" border="0">						
+							<tr>
+							<td>
+<table width="548" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+	<td><img src="/InfoBox/images/010_016_018.gif" width="257" height="50"></td>
+	<td background="images/header_bg.gif"><img src="/common/images/spacer.gif" width="291" height="1"></td>
+	</tr>
+	
+	<tr>
+    <td colspan="2">&nbsp; </td>
+  </tr>
+	
+	<tr>
+	<td colspan="2">
+</table>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="548" height="448" id="Untitled-2" align="top">
+  <param name="movie" value="/infobox/productdetail/PG-K5500C.swf">
+  <param name=quality value=high>
+  <param name=salign value=T>
+  <param name=bgcolor value=#FFFFFF>
+  <embed src="/infobox/productdetail/PG-K5500C.swf" quality=high salign=T  width="782" height="222" name="Untitled-2" align="top"
+	type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></embed> 
+</object>
+
+								
+								<table width="548" cellpadding="0" cellspacing="0" border="0" background="images/middle_bg.gif">
+									<tr align="center">
+									<td height="70"><a href="#01"><img src="images/middle_01.gif" border="0"></a></td>
+									<td><a href="#02"><img src="images/middle_02.gif" border="0"></a></td>
+									<td><a href="#03"><img src="images/middle_03.gif" border="0"></a></td>
+									<td><a href="#04"><img src="images/middle_04.gif" border="0"></a></td>
+									<td>
+<!--
+									
+										<a href="javascript:openwin('compare_dd600.htm');">
+									
+										<a href="javascript:openwin('compare_c500.htm');">
+									
+-->                                    
+									<a href="/curitelzone/pricecompare.asp"><img src="images/middle_05.gif" border="0"></a></td>
+									<td>
+
+										<a href="javascript:alert('로그인 하세요');"><img src="images/middle_06.gif" border="0"></a>
+
+									</td>
+									<td><a href="javascript:openSar();"><img src="images/middle_07.gif" border="0"></a></td>
+									<td><a href="javascript:openAccessory();"><img src="images/middle_08.gif" border="0"></a></td>
+									</tr>
+								</table>
+							</td>
+							</tr>
+						</table>
+						<table width="548" cellpadding="0" cellspacing="0" border="0">
+							<!-- 특징 START -->
+							<tr><a name="01"></a>
+								<td colspan="2" background="images/title_bg.gif" height="63" style="padding-left:20px"><img src="images/title_01.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0 width=520 align=center><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/cdma2000.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 시간을 리드하는 자유 K&#8226;bank - 귀하의 모바일 뱅킹 서비스</b></font><br>예금조회 및 이체, 대출조회 및 납입, 자기앞수표 조회, 기타 부가은행 서비스까지!K-merce 전용 ‘PG-K5500C’로 앉아서, 걸어가며 내 손안에 모바일 뱅킹 서비스를 즐겨라!“결제일을 놓치셨어요?”, “은행 문이 닫아 내일로 미루시는 거에요?” 더 이상 그럴 필요가 없습니다! 어느 곳에서라도 버튼만 누르시면 그 곳이 바로 귀하의 은행입니다. 각종 은행서비스가 탑재된 ‘PG-K5500C’ 국민은행과 제휴를 맺은 KTF의 모바일 뱅킹 서비스로 더욱 풍부한 혜택을 누릴 수 있습니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/tft.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 척척박사! 내 손안의 신용카드 - K-merce 기능</b></font><br>휴대폰과 신용카드의 만났다. PG-K5500C은 K-merce 기능이 가능하여 휴대폰을 바로 일반 신용카드처럼 사용할 수 있습니다. ‘PG-K5500C’로 언제 어디서나 쉽고 안전하게 전자상거래를 해보세요! 휴대폰만 갖다 대면 쇼핑도 OK! 미용실도 OK! 교통카드도 OK! 이제 번거롭게 카드를 꺼내지 말자구요!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/40poly.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 기분 좋은 출발 일상 속으로 떠나자! - 교통카드 기능</b></font><br>‘손님~ 카드 대 주세요!’ 이젠 열심히 주머니 속을 뒤적거리지 마세요~! 어제 입었던 옷 속의 교통카드를 아쉬워하지 말구요~! 교통카드 기능이 탑재된 ‘PG-K5500C’로 가볍게 ‘통과’, ‘통과’. RF-Chip이 휴대폰에 내장되어 있어 서울, 수도권 지역에서 기존 교통카드 없이 버스나 지하철을 자유로이 이용하실 수 있습니다. 신청 즉시 이용할 수 있는 서비스로 여러분의 일상을 더욱 편리하게 만드세요!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/avatar.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ Clam Shell Type 디자인의 새로운 제안-Small & Slim</b></font><br>기교를 부리지 않았다. 부드러운 곡선 라인으로 깔끔하게 마무리한 Simple Style, 그리고 초소형의 맘에 쏙 드는 사이즈까지~ 이제 고급스럽고 심플한 유행에 휩쓸리지 않는 단순함의 아름다움으로 자신의 개성을 맘껏 표현해보세요~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/note.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 더 이상의 비교를 거부한다! - 33만 화소 내장형 카메라! </b></font><br>하나를 찍더라도 더 선명하게 나를 표현하자. PG-K5500C는 33만 화소 카메라를 내장하여 언제 어디서나 선명하고 깨끗한 사진을 편리하게 촬영할 수 있습니다. 또한 내장 플래시 기능, 세피아, 엠보싱 등의 6가지 특수효과 기능, 4가지 셀프타이머, 상하반전기능, 랜턴기능, 5가지 연속촬영, 3단계 사진밝기 조절, 외부화면 촬영 기능, 스티커 사진 찍기, PC카메라 기능 등의 다양한 기능이 있습니다. 온라인 앨범기능과 사진으로 큐리텔 대기 화면을 예쁘게 꾸미고 저장된 사진을 휴대폰 또는 E-mail로 포토메일 전송이 가능한것도 잊지 마세요~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/on_line.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 놀라운 무선 인터넷 접속 핫, 핫, 핫 &#8211; Multi Code(HOT CODE) 서비스</b></font><br>핫코드(Hot Code)서비스란 신문, 잡지, 지하철 광고 등에서 기사와 함께 표시된 핫코드를 PG-K5500C의 KTF 카메라폰으로 비추기만 하면 관련된 모바일 컨텐츠나 모바일 커머스 사이트로 단번에 연결시켜 주는 새로운 무선 인터넷 접속 서비스입니다. Hot Code 서비스로 다양한 컨텐츠를 그 누구보다 빨리 즐겁게 받아보세요!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/nate_air.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 간직하고 싶은 그 순간! 오~래 오~래 두고두고 보자! &#8211; 동영상 녹화 기능</b></font><br>최대 20초까지 녹화가 가능한 카메라 동영상 기능으로 캠코더처럼 동영상을 녹화, 저장할 수 있습니다. 버튼 하나로 곧장 카메라 메뉴로 들어가며 동영상 촬영 상태에서도 ‘연결메뉴’로 다양한 기능을 만끽할 수 있습니다. 정지해 있는 사진이 아닌 움직이는 동영상으로 오~래 오~래 생생한 추억을 간직하세요!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/nate.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 모바일 네비게이트, 만능 PG-K5500C &#8211; GPS 서비스</b></font><br>MagicⓝGPS 사이트에 접속하여 다양한 위치 정보 서비스를 이용할 수 있는 기능으로 내 위치 보기, 내 위치 보내기, 상대방 위치 보기 등을 제공하는 다양한 위치 정보 서비스입니다. 내 위치를 조회하며 지도를 저장할 수도 있습니다. 위급 상황 발생시, 친구들과 모임 시, 여행을 가면서 언제든지 내 위치를 찾아보고, 또 보낼 수 있는 편리한 서비스입니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/moive.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 나만의 컬러로~나만의 노래로 나만의 세상을 꾸며보자 &#8211; 각종 다운로드 기능</b></font><br>문자나라로~그림나라로~포토나라로~노래방 세상으로! 문자나라에 접속하면 개성 있고 재미난 문자들을 다운 받아 친구에게 보내거나 나의 꾸러미에 저장이 가능합니다. 그림나라에서는 각종 그림이나 캐릭터 등을 다운 받아 내 폰의 배경화면으로 설정도 가능하고, 소리나라에서는 각종 음악의 다운이 가능하며, 포토나라에서는 내가 좋아하는 가수, 배우 등의 사진을 다운 받을 수 있습니다. 또한 나도 가수가 되어보자! 노래방 기능에 등록할 음악들도 다운 받아보세요!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/small.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 이제 안팎으로 화려함을 즐긴다 &#8211;26만 컬러 Dual TFT LCD</b></font><br>어두칙칙한 흑백, 반쪽짜리 컬러 LCD는 이제 안녕~ 큐리텔은 이제 26만 Dual로 뜬다! PG-K5500C는 내부 LCD는 물론 외부 LCD에도 26만 컬러를 적용하여 외부 LCD를 통해서도 다양한 컬러 컨텐츠를 즐길 수 있습니다. 큐리텔의 앞선 기술로 이제 외부 LCD를 통해서도 화려한 컬러 컨텐츠를 만나보세요!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/bell.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ Powerful 64 Poly Sound - 소리까지 예술이다~!</b></font><br>이제 64개의 악기로 연주한다. 큐리텔 PG-K5500C는 Yamaha 64Poly 멜로디 칩을 채택하여 원음에 가까운 생생한 멜로디를 들려줍니다. 다양한 내장 멜로디와 개성에 맞게 다운로드한 멜로디로 나만의 오케스트라를 지휘해보세요. 잠깐! 아무리 멜로디가 좋아도 공공장소에선 진동으로 해야겠죠?</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR></table>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+															<br><br>※ 제품의 외관, 사양등은 제품개량을 위해 사전예고 없이 변경될 수 있습니다.
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 특징 END -->
+							<!-- 기능 START -->
+							<tr><a name="02"></a>
+								<td colspan="2" background="images/title_bg.gif" height="63" style="padding-left:20px"><img src="images/title_02.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0 width=520 align=center><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>모바일 뱅킹 서비스</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>K-merce 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>64화음</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>번호이동성 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>교통카드 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>33만 화소, 33프레임 내장형 디지털 카메라</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>Multi Code(HOT CODE)서비스</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>동영상녹화기능/연속촬영기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>GPS 서비스</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>위치추적/위치저장 서비스</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>PC 카메라 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>26만 컬러 TFT Dual LCD</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>Still Shot 기능(VGA, SCIF, SQCIF 등)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>내장형 Flash</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>통화내용 녹음 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>특수효과 기능(흑백, 세피아, 네가티브, 엠보싱, 스케치 촬영 등)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>Voice Key(숫자 알림 기능)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>2종 Game 탑재</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>2색 Power LED(Red&Green)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>멀티카페 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>MMS</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>포토샷</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>멀티큐(CBS)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>나야나 서비스</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>스팸 메시지 차단 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>Magicⓝ 접속기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>자동응답 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>바이오리듬 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>아바타 설정 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>영어단어저장기능 - 28,530 단어 가능</TD></TR></table>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 기능 END -->
+							<!-- 사양 START -->
+							<tr><a name="03"></a>
+								<td colspan="2" background="images/title_bg_02.gif" height="51" style="padding-left:20px; padding-top:20px" valign="top"><img src="images/title_03.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#E5E2E2><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_01.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>크기(mm)</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px bgcolor=#FFFFFF>81.8 * 42.0 * 21.9mm</TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>무게(g)</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>80g</TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>LCD 사양</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>내장 LCD :260K 1.8” TFT LCD, (128*160)<br>외장 LCD :260K 1.0” TFT LCD, (96*64)</TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_09.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>색상</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>Matte Silver, Golden Yellow, Pearl Black, Shiny White</TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_13.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD colspan=2><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#F0F0F0 height=120><TR><TD bgcolor=#F0F0F0 style=padding-left:10px width=34% >구 분</TD><TD bgcolor=#F0F0F0 align=center width=33% >소용량</TD><TD bgcolor=#F0F0F0 align=center width=33% >표준형</TD></TR><TR><TD bgcolor=#F0F0F0 style=padding-left:10px>연속통화시간</TD><TD align=center bgcolor=#ffffff>약 115분 </TD><TD align=center bgcolor=#ffffff>약 170분 </TD></TR><TR><TD bgcolor=#F0F0F0 style=padding-left:10px>연속대기시간</TD><TD align=center bgcolor=#ffffff>약 170시간 </TD><TD align=center bgcolor=#ffffff>약 210시간 </TD></TR><TR><TD colspan=3  bgcolor=#ffffff style=padding-left:10px>◆ CDMA2000 1x 및 Slot Cycle 1.2 기준, 휴대폰 실사용 시간은 휴대폰 사용환경에 따라 차이가 있을 수 있습니다</TD>	</TR></TABLE></TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_23.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD colspan=2 bgcolor=#FFFFFF style=padding-left:80px><BR><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#ffffff height=120><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>휴대폰 본체</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>휴대용 고리</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>충전 거치대</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>사용설명서</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>배터리 2개(표준형, 소용량)</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10></TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10></TD></TR></TABLE><BR></TD></TR></TABLE>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 사양 END -->
+							<!-- 리뷰 START -->
+							<tr><a name="04"></a>
+								<td colspan="2" background="images/title_bg_02.gif" height="51" style="padding-left:20px; padding-top:20px" valign="top"><img src="images/title_04.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<table width="536" cellpadding="1" cellspacing="0" border="0">
+													<tr bgcolor="#7EADB4">
+														<td width="85" height="22" style="color:white;padding-left:10px">작성자</td>
+														<td width="420" style="color:white">내&nbsp;&nbsp;용</td>
+														<td width="31" align="center" style="color:white">삭제</td>
+													</tr>
+
+						<!-- 한줄답변 START -->
+											<form name="boardComment" method="post" action="javascript:comment('add','0');">
+													<input type="hidden" name="mode">
+													<input type="hidden" name="id">
+													<input type="hidden" name="page" value="2">
+													<input type="hidden" name="ck_num">
+													<input type="hidden" name='comment_name' value="">
+													<input type="hidden" name="comment_id" value="">
+
+
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">gpftmrla</td>
+														<td width="420">[k]USB케이블은 언제 끼는건가여? 컴퓨터 키기전에 핸드폰과함께 끼는거에여 아니면 컴퓨터 켜져있을때 끼는건가여?</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29943');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">gpftmrla</td>
+														<td width="420">[k]USB드라이버를 설치했는데 핸드폰하고 컴퓨터하고 연결했는데 새로운 드라이버라고 설치창이 뜨면서 알수없는 장치라구 설치도 안되고여; 피씨싱크 들어가면 핸드폰하고 연결이안된다고하고.. 미치겠어여 ㅠ</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29942');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">gpftmrla</td>
+														<td width="420">동영상은 어떻게 20초밖에안되고 소리는왜 안나는지 이해가안가고;; 쓰다보면 핸드폰이 열이 점점나더니 손난로가 되질않나; 밧데리는 제대로 꽉충전했는데 4시간지나니까 1칸남고;; 이게 진짜 사람쓰라고 만든 핸드폰인지;;</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29941');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">gpftmrla</td>
+														<td width="420">개통되서 친구한테 문자보내는데 특수문자쓰려니 전에꺼 쓰려면 한바퀴돌아서와야하고 전화 통화품질은 왜캐안좋은지 지지직거리고 상대방 목소리 잘들리지도않고 핸드폰 용량은 왜캐 적은지 벨소리는 최대 10개고 사진 최대100장</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29940');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">gpftmrla</td>
+														<td width="420">핸드폰 산지 3일됐습니다 폰 닫은상태에서 외부화면으로 후레쉬버튼눌러도 후레쉬잘안나오고 사진 저장도 잘안되고 외부화면으로 찍고 저장한거보니까 하얗게되있고 벨소리는 왜이렇게 작은지 말로만 64화음이지 40화음보다 못하고</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29939');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">lltaiji2ll</td>
+														<td width="420">독립적으로 만든 회사가 큐리텔이라서 엄청 기대하고 산건데 솔직히 좀 실망이 좀 많이 되네요 as할려고 찾아봐도 큐리텔은 지점도 잘 없더라구요 ㅠ_ㅠ</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29938');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">lltaiji2ll</td>
+														<td width="420">불편한게 여러가지로 너무 많네요 출시한지 별로 안 된걸로 아는데 개선해야될점이 좀 많은 듯 싶네요 솔직히 주위 친구들한테 물어봐도 큐리텔폰은 평판이 굉장히 안 좋던데 애니콜 젤 첨에 개발한 사람이 삼성에서 나와서</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29937');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">laron</td>
+														<td width="420">[k] 교통카드 기능은 부산은행이랑 국민은행 두 군데 차이가 있나요? 혹자는 부산은행은 후불이라는데...??</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29931');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">laron</td>
+														<td width="420">[k]USB 케이블은 어디서 사는 게 좋죠? 가장 싸고 편한 방법이면 금상첨화죠^^</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29930');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">love922</td>
+														<td width="420">driver</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29924');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<tr >
+														<td colspan="3" align=center style="padding-left:15px; padding-top:6px">
+													
+								<a href="javascript:MovePage('1');" ><img src="/Common/images/btn_list_01.gif" border="0" hspace="3" align="absmiddle"></a>&nbsp;
+<img src='/Common/images/btn_list_02.gif' border='0' hspace='3' align='absmiddle'> 1&nbsp;
+								<a href="javascript:MovePage('2');" >2</a>&nbsp;
+
+								<a href="javascript:MovePage('3');" >3</a>&nbsp;
+
+								<a href="javascript:MovePage('4');" >4</a>&nbsp;
+
+								<a href="javascript:MovePage('5');" >5</a>&nbsp;
+
+								<a href="javascript:MovePage('6');" >6</a>&nbsp;
+
+								<a href="javascript:MovePage('7');" >7</a>&nbsp;
+
+								<a href="javascript:MovePage('8');" >8</a>&nbsp;
+
+								<a href="javascript:MovePage('9');" >9</a>&nbsp;
+
+								<a href="javascript:MovePage('10');" >10</a>&nbsp;
+
+		&nbsp;<a href="javascript:MovePage('11');"><img src="/Common/images/btn_list_03.gif" border="0" hspace="3" align="absmiddle"></a>&nbsp;
+		<a href="javascript:MovePage('51');" ><img src="/Common/images/btn_list_04.gif" border="0" hspace="3" align="absmiddle"></a>
+
+
+
+														</td>
+													</tr>
+													<input type="hidden" name="rpage" value="1" >
+													<tr bgcolor="#7EADB4">
+														<td colspan="3" style="color:white;padding-left:10px">나도 한마디...</td>
+													</tr>
+													<tr>
+														<td colspan="3" style="padding-left:15px; padding-top:6px">
+															내용&nbsp;&nbsp;<input maxlength="120" size="75" name="comment_content">
+														</td>
+													</tr>
+													<tr>
+														<td colspan="3" style="padding:6px,0,10px,15px">
+															<img src="images/warning_01.gif">
+															<a href="javascript:comment('add','0');"><img src="images/btn_write.gif" border="0"></a>
+														</td>
+													</tr>
+													</form>
+													<tr><td colspan="3" height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td colspan="3" bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+										<tr>
+											<td width="10"></td>
+											<td colspan="3" height="6" bgcolor="#707070"></td>
+										</tr>
+										<tr align="right">
+											<td width="10"></td>
+											<td colspan="3" height="35" background="images/list_bottom_bg.gif" style="padding-right:20px">
+												<a href="./ProductList.asp?page=2"><img src="/common/images/btn_list.gif" border="0"></a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 리뷰 END -->
+						</table>
+					</td>
+				</tr>
+			</table><br><br><br>
+		<!-- // 메인 컨텐츠 END -->
+		</td>
+<!-- 푸터 include -->	</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		
+  <td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestFinanc_03.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="534,61,631,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="646,62,693,80" href="/footer/partner.asp">
+  <area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>
+</body>
+</html>

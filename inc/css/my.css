@@ -1,0 +1,76 @@
+A {color: #5E5E5D;text-decoration:none;}
+A:link {color: #5E5E5D; }
+A:visited {color: #5E5E5D;}
+A:active {color: #5E5E5D;}
+A:hover { color:#9B9B9B;}
+body,td,form {margin:0;color: #5E5E5D;FONT-FAMILY:  µ¸¿ò, arial; FONT-SIZE: 9pt;letter-spacing:-0.02em; text-decoration:none;line-height:12pt}
+select,textarea {FONT-FAMILY:µ¸¿ò,arial; color: #666666; FONT-SIZE: 8pt;}
+input {height:18;font:9pt;letter-spacing:-0.02em;}
+.input02 {color:#5177C1}
+.input03 {border:#C3C3C3 1px solid}
+img {border:0}
+.imgbdr {border:#CECECE 1px solid}
+.rpath {padding:0 8 0 0;font:8pt}
+.curi {color:#007995}
+.w {color:#ffffff}
+.7 {font:7pt} .8 {font:9pt;letter-spacing:-0.02em;} .9 {font:9pt;letter-spacing:-0.02em;}
+.b {font-weight:bold}
+.lgray {color:#A2A2A2}
+.pad8 {padding:0 0 0 8}
+
+/* tooltip */
+.tolltip A {color: #5E5E5D;text-decoration:none;font-size:9pt;letter-spacing:-0.02em;} 
+.tolltip A:link {color: #5E5E5D; }
+.tolltip A:visited {color: #5E5E5D;} 
+.tooltip A:hover { color:#FE4902;}
+
+/* ContentsMargin */
+.rightbg {background:url(/img/my/rightbg.gif) no-repeat right top;padding:16 0 0 19}
+.ctsmgn {padding:0 0 7 33}
+.mubg_gra {background:url(/img/common/mubg_gra.gif) repeat-y left top}
+.mubg_gra_btm {background:url(/img/common/mubg_gra_btm.gif) no-repeat right bottom}
+.grayline {background-color:#D1D1D1}
+.dotline {background:url(/img/common/dotline.gif) repeat-x left top}
+.dotline02 {background:url(/img/common/dotline02.gif) repeat-y left top}
+.li_dotline {background:url(/img/common/li_dotline.gif) repeat-x left top}
+.li_dotline02 {background:url(/img/common/li_dotline02.gif) repeat-y left top}
+.pdt_bg {background:url(/img/common/pdt_bg.gif) no-repeat left top}
+.pdt_bg02 {background:url(/img/common/pdt_bg02.gif) no-repeat left top}
+
+/* BBS_Define */
+.bbslistbg {background:url(/img/bbs/my/bg_list.gif) repeat-x left top;padding:3 0 0 0}
+.bbsfield {padding:2 0 0 12;;letter-spacing:-0.02em} /* Left Field Margin*/
+.bbsfield02 {padding:2 0 0 6;;letter-spacing:-0.02em}
+.bbsfield03 {padding:2 0 0 15;;letter-spacing:-0.02em}
+.bbstxt {font:9pt;letter-spacing:-0.02em;font-weight:bold;color:#757575;letter-spacing:-0.02em}
+.name {color:#25778B} /*  ¾ÆÀÌµð Ç¥±â */
+.field01 {background:url(/img/bbs/my/fieldbg01.gif) no-repeat left top;color:#ffffff;padding:2 0 0 5;letter-spacing:-0.02em}/* °Ô½ÃÆÇ Á¦¸ñfield ¿ÞÂÊ*/
+.field02 {background:url(/img/bbs/my/fieldbg02.gif) no-repeat left top;color:#ffffff;padding:2 0 0 12;letter-spacing:-0.02em}/* °Ô½ÃÆÇ Á¦¸ñfield Áß¾Ó*/
+.field03 {background:url(/img/bbs/my/fieldbg03.gif) no-repeat right top;color:#ffffff;padding:0 5 0 0;letter-spacing:-0.02em}/* °Ô½ÃÆÇ Á¦¸ñfield ¿À¸¥ÂÊ*/
+.ctsarea {border-top:6px solid #f2f2f2;border-right:13px solid #f2f2f2;border-bottom:9px solid #f2f2f2;padding:2 2 2 3} /* ÄÁÅÙÃ÷ ÀÔ·Â¿µ¿ª º¸´õ°ª */
+.ctsarea_sp {border-top:6px solid #f2f2f2;border-right:9px solid #f2f2f2;border-bottom:9px solid #f2f2f2;padding:2 2 2 3} /* ÄÁÅÙÃ÷ ÀÔ·Â¿µ·Â ºÐ¸® º¸´õ°ª */
+.minilist {font:9pt;letter-spacing:-0.02em;;color:#1180A0;text-decoration:underline}/* ÀÌÀü±Û, ´ÙÀ½±Û */
+.minilist A:link {font:9pt;letter-spacing:-0.02em;;color:#1180A0;text-decoration:underline}
+.minilist A:visted {font:9pt;letter-spacing:-0.02em;;color:#1180A0;text-decoration:underline}
+.minilist A:hover {font:9pt;letter-spacing:-0.02em;;color:#1180A0;text-decoration:underline}
+
+.em {color:#1180A0}
+
+/* photo */
+.photo {background:url(/img/common/photo_bg.gif) no-repeat left top;padding:12 0 0 11}
+.phone02 {background:url(/img/phone/character/bg03.gif) no-repeat left top;padding:36 23 0 22}
+
+/*Common Round*/
+.round01 {background:url('/img/common/round01.gif') no-repeat fixed left top;}
+.round02 {background:url('/img/common/round02.gif') no-repeat fixed right top;}
+.round03 {background:url('/img/common/round03.gif') no-repeat fixed left bottom;}
+.round04 {background:url('/img/common/round04.gif') no-repeat fixed right bottom;}
+
+/*Round(2*2)_¾§*/
+.round_a1 {background:url('/img/my/round_a1.gif') no-repeat fixed left top;}
+.round_a2 {background:url('/img/my/round_a2.gif') no-repeat fixed right top;}
+.round_a3 {background:url('/img/my/round_a3.gif') no-repeat fixed left bottom;}
+.round_a4 {background:url('/img/my/round_a4.gif') no-repeat fixed right bottom;}
+
+.bx{display:block;background:#FFF;padding:3 3 2 3;margin-right:5;}
+.bx2{background:#FFF;padding:3 3 2 3;}

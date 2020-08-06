@@ -1,0 +1,1 @@
+<script language='javascript'>document.domain = 'curitel.com';   alert('request(idx) 오류입니다!');   location.href='javascript:history.back();'</script>

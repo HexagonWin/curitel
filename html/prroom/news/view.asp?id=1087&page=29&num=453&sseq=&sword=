@@ -1,0 +1,367 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu7.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu7.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/prroom/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/prroom/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1087&page=29&num=453&sseq=&sword=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1087&page=29&num=453&sseq=&sword=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/prroom/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/prroom/index.asp" onfocus="this.blur()"><img src="/img/prroom/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        > <a href="/html/prroom/index.asp">PR Room</a> > News</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="220">
+					               <param name="movie" value="/inc/flash/left/left_prroom.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_prroom.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="220"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">			
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->
+
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/img/prroom/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td height="1"></td>
+						</tr>
+						<tr>
+							<td height="26">
+								<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td bgcolor="#F6F8F9"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="25"></td>
+						</tr>
+						</table>
+
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="2" height="31" style="font-weight:bold;color:#599AA6;padding:0 0 0 10;font-size:9pt">
+							[ (도약하는 중견그룹)팬택계열 "내부경쟁이 원동력"(下)  ]
+							</td>
+						</tr>
+						<tr>
+							<td height="16" bgcolor="#F2F2F2" colspan="2"></td>
+						</tr>
+						<tr bgcolor="F2F2F2">
+							<td height="31" width="142" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 453</td>
+							<td width="376" style="padding:2 0 0 0">
+								<b><font color="#515151">&#8226;</font> 등록일</b> :
+								2004-02-24 <img src="/img/b.gif" width=80 height=1>
+								<b><font color="#515151">&#8226;</font> 출처</b> : edaily
+							</td>
+						</tr>
+						<tr><td height="1" colspan="2" bgcolor="#C9C9C9"></td></tr>
+						<tr>
+							<td colspan="2" style="padding:25 11;line-height:16px" valign="top" class="8">
+								<font style='font:10pt'>[edaily(&)nbsp;안승찬기자](&)nbsp;팬택(025930)계열은(&)nbsp;기존의(&)nbsp;그룹과는(&)nbsp;다른(&)nbsp;다소(&)nbsp;독특한(&)nbsp;지배구조를(&)nbsp;가지고(&)nbsp;있다.(&)nbsp;박병엽(&)nbsp;부회장이(&)nbsp;팬택(&)nbsp;지분(&)nbsp;19.7%,(&)nbsp;팬택앤큐리텔(&)nbsp;지분(&)nbsp;25.3%를(&)nbsp;보유하고(&)nbsp;있어(&)nbsp;이들(&)nbsp;회사는(&)nbsp;별도(&)nbsp;출자회사다.(&)nbsp;<br>팬택계열의(&)nbsp;두(&)nbsp;회사인(&)nbsp;팬택과(&)nbsp;팬택앤큐리텔이(&)nbsp;박(&)nbsp;부회장(&)nbsp;개인(&)nbsp;지분만으로(&)nbsp;자매회사로(&)nbsp;연결되어(&)nbsp;있는(&)nbsp;셈이다.(&)nbsp;팬택앤큐리텔이(&)nbsp;6%(&)nbsp;가량의(&)nbsp;팬택(&)nbsp;지분을(&)nbsp;보유하고(&)nbsp;있다는(&)nbsp;점을(&)nbsp;제외하면(&)nbsp;두(&)nbsp;회사는(&)nbsp;현재(&)nbsp;법률적으로(&)nbsp;완전히(&)nbsp;독립적인(&)nbsp;회사다.(&)nbsp;◇팬택계열(&)nbsp;지배구조(&)nbsp;개념도<br><br>박(&)nbsp;부회장이(&)nbsp;팬택(&)nbsp;법인이(&)nbsp;아닌(&)nbsp;개인(&)nbsp;자금으로(&)nbsp;현대큐리텔(현(&)nbsp;팬택앤큐리텔)을(&)nbsp;인수한(&)nbsp;것은(&)nbsp;당시(&)nbsp;팬택(&)nbsp;주주들의(&)nbsp;반대가(&)nbsp;너무(&)nbsp;심했기(&)nbsp;때문으로(&)nbsp;알려져(&)nbsp;있다.(&)nbsp;<br><br>팬택계열(&)nbsp;김주성(&)nbsp;IR팀장은(&)nbsp;"당시(&)nbsp;현대큐리텔은(&)nbsp;월(&)nbsp;100억원의(&)nbsp;적자에(&)nbsp;시달리는(&)nbsp;부실기업이었다"며(&)nbsp;"실사를(&)nbsp;담당했던(&)nbsp;살로먼스미스바니가(&)nbsp;1달러라도(&)nbsp;주겠다는데가(&)nbsp;나오면(&)nbsp;회사를(&)nbsp;팔라고(&)nbsp;했다는(&)nbsp;얘기가(&)nbsp;나올(&)nbsp;정도였다"고(&)nbsp;당시를(&)nbsp;회고했다.(&)nbsp;<br><br>그러나(&)nbsp;규모의(&)nbsp;경제가(&)nbsp;절실하다고(&)nbsp;판단했던(&)nbsp;박(&)nbsp;부회장의(&)nbsp;결단으로,(&)nbsp;현대큐리텔은(&)nbsp;결국(&)nbsp;2001년말(&)nbsp;팬택계열로(&)nbsp;편입되고,(&)nbsp;이후(&)nbsp;현대큐리텔은(&)nbsp;팬택계열(&)nbsp;성장의(&)nbsp;주역인(&)nbsp;팬택앤큐리텔로(&)nbsp;다시(&)nbsp;태어나게(&)nbsp;된다.(&)nbsp;<br><br>◇건전한(&)nbsp;경쟁구도로(&)nbsp;"각개(&)nbsp;약진"<br><br>팬택앤큐리텔(063350)은(&)nbsp;팬택계열로(&)nbsp;편입된(&)nbsp;2001년(&)nbsp;149억원의(&)nbsp;당기순이익을(&)nbsp;시현하며(&)nbsp;흑자기업으로(&)nbsp;돌아선(&)nbsp;이후,(&)nbsp;2002년에는(&)nbsp;영업이익(&)nbsp;487억원,(&)nbsp;순이익(&)nbsp;437억원의(&)nbsp;알짜기업으로(&)nbsp;변신했다.(&)nbsp;<br><br>또(&)nbsp;2002년(&)nbsp;9월에(&)nbsp;내수(&)nbsp;시장에(&)nbsp;재진입한(&)nbsp;이후(&)nbsp;불과(&)nbsp;3개월만에(&)nbsp;두자리수의(&)nbsp;점유율(&)nbsp;달성이라는(&)nbsp;성과를(&)nbsp;올렸다.(&)nbsp;지난해(&)nbsp;2월부터는(&)nbsp;카메라폰에(&)nbsp;있어(&)nbsp;부동의(&)nbsp;2위(&)nbsp;자리를(&)nbsp;지키고(&)nbsp;있다.<br><br>지난해(&)nbsp;매출(&)nbsp;1조3858억원중(&)nbsp;내수에서만(&)nbsp;5000억원(&)nbsp;가량을(&)nbsp;판매한(&)nbsp;팬택앤큐리텔의(&)nbsp;성과는(&)nbsp;세계(&)nbsp;3위,(&)nbsp;5위(&)nbsp;휴대폰업체인(&)nbsp;삼성전자와(&)nbsp;LG전자가(&)nbsp;버티고(&)nbsp;있는(&)nbsp;국내(&)nbsp;시장의(&)nbsp;여건을(&)nbsp;감안하면(&)nbsp;눈부신(&)nbsp;성과다.(&)nbsp;<br><br>팬택(&)nbsp;역시(&)nbsp;2000년(&)nbsp;22억원의(&)nbsp;적자에서(&)nbsp;팬택앤큐리텔과(&)nbsp;계열로(&)nbsp;묶이게된(&)nbsp;2001년(&)nbsp;76억원의(&)nbsp;순이익을(&)nbsp;시현하며(&)nbsp;흑자전환에(&)nbsp;성공했고,(&)nbsp;2002년에는(&)nbsp;294억원(&)nbsp;순이익을(&)nbsp;달성했다.<br><br>이같은(&)nbsp;팬택계열의(&)nbsp;성과는(&)nbsp;단순한(&)nbsp;규모의(&)nbsp;효과(&)nbsp;뿐(&)nbsp;아니라(&)nbsp;독특한(&)nbsp;두(&)nbsp;회사(&)nbsp;특수성이(&)nbsp;빚어낸(&)nbsp;시너지가(&)nbsp;본격적으로(&)nbsp;나타났기(&)nbsp;때문으로(&)nbsp;평가되고(&)nbsp;있다.(&)nbsp;<br><br>팬택의(&)nbsp;경우(&)nbsp;CDMA(&)nbsp;뿐(&)nbsp;아니라(&)nbsp;전세계(&)nbsp;시장의(&)nbsp;70%를(&)nbsp;차지하는(&)nbsp;GSM제품의(&)nbsp;비중이(&)nbsp;전체(&)nbsp;매출의(&)nbsp;절반정도를(&)nbsp;차지하고(&)nbsp;있다.(&)nbsp;반면(&)nbsp;팬택앤큐리텔의(&)nbsp;경우(&)nbsp;CDMA에(&)nbsp;집중되어(&)nbsp;있지만,(&)nbsp;미국(&)nbsp;오디오박스(&)nbsp;등(&)nbsp;굵직한(&)nbsp;거래선을(&)nbsp;확보하고(&)nbsp;있다는(&)nbsp;장점이(&)nbsp;있다.(&)nbsp;<br><br>GSM에(&)nbsp;강한(&)nbsp;팬택과(&)nbsp;CDMA에(&)nbsp;유리한(&)nbsp;팬택앤큐리텔이(&)nbsp;각자의(&)nbsp;시장에서(&)nbsp;주력해(&)nbsp;전체(&)nbsp;파이를(&)nbsp;최대한(&)nbsp;키운다는(&)nbsp;전략인(&)nbsp;셈이다.(&)nbsp;또(&)nbsp;공동구매를(&)nbsp;통해(&)nbsp;원가절감(&)nbsp;효과도(&)nbsp;가시적으로(&)nbsp;나타나고(&)nbsp;있고,(&)nbsp;최근(&)nbsp;팬택앤큐리텔의(&)nbsp;이천공장을(&)nbsp;팬택의(&)nbsp;김포공장으로(&)nbsp;이전키로(&)nbsp;하는(&)nbsp;등(&)nbsp;생산에서의(&)nbsp;효율성도(&)nbsp;진작될(&)nbsp;것으로(&)nbsp;기대되고(&)nbsp;있다.(&)nbsp;<br><br>물론(&)nbsp;팬택계열이(&)nbsp;아직까지(&)nbsp;지배구조(&)nbsp;문제나(&)nbsp;사업간(&)nbsp;중복투자(&)nbsp;문제에서(&)nbsp;완전히(&)nbsp;자유롭지는(&)nbsp;못한(&)nbsp;상태다.(&)nbsp;<br><br>최근(&)nbsp;팬택앤큐리텔이(&)nbsp;GSM(&)nbsp;개발에(&)nbsp;나서겠다는(&)nbsp;의사를(&)nbsp;밝힌(&)nbsp;점은(&)nbsp;팬택계열이(&)nbsp;가지고(&)nbsp;있는(&)nbsp;중복투자(&)nbsp;부담의(&)nbsp;단면이다.(&)nbsp;또(&)nbsp;모든(&)nbsp;면에서(&)nbsp;두개의(&)nbsp;중복된(&)nbsp;조직을(&)nbsp;운영한다는(&)nbsp;점에서(&)nbsp;코스트(&)nbsp;부담도(&)nbsp;드러나고(&)nbsp;있다.(&)nbsp;<br><br>특히(&)nbsp;팬택의(&)nbsp;경우(&)nbsp;모토로라의(&)nbsp;ODM(&)nbsp;비중이(&)nbsp;수량기준으로(&)nbsp;전체(&)nbsp;매출의(&)nbsp;50%(&)nbsp;정도(매출액(&)nbsp;기준(&)nbsp;30%)를(&)nbsp;차지하고(&)nbsp;있고,(&)nbsp;팬택앤큐리텔의(&)nbsp;경우도(&)nbsp;오디오박스(&)nbsp;납품이(&)nbsp;절대적인(&)nbsp;상황이어서,(&)nbsp;이들(&)nbsp;거래선의(&)nbsp;눈치를(&)nbsp;봐야하는(&)nbsp;팬택계열로서는(&)nbsp;합병도(&)nbsp;쉽지(&)nbsp;않은(&)nbsp;것이(&)nbsp;사실이다.<br><br>팬택(&)nbsp;재경본부장(&)nbsp;조영삼(&)nbsp;전무는(&)nbsp;"두(&)nbsp;회사의(&)nbsp;비지니스(&)nbsp;모델이(&)nbsp;상이하다는(&)nbsp;점에서(&)nbsp;현재(&)nbsp;듀얼(&)nbsp;플레이가(&)nbsp;구조적으로(&)nbsp;불가피한(&)nbsp;측면이(&)nbsp;있다"며(&)nbsp;"합병에(&)nbsp;대해서는(&)nbsp;차차(&)nbsp;고민해가야겠지만,(&)nbsp;현재(&)nbsp;장기적으로(&)nbsp;합병을(&)nbsp;위해(&)nbsp;진행되는(&)nbsp;사항은(&)nbsp;없다"고(&)nbsp;말했다.(&)nbsp;<br><br>물론(&)nbsp;팬택계열은(&)nbsp;장기적으로(&)nbsp;박(&)nbsp;<br><br>부회장(&)nbsp;개인지분으로(&)nbsp;연결된(&)nbsp;지배구조를(&)nbsp;지주회사(&)nbsp;설립(&)nbsp;등(&)nbsp;또다른(&)nbsp;구도로(&)nbsp;변경하는(&)nbsp;방안(&)nbsp;등을(&)nbsp;장기적으로(&)nbsp;검토중이다.(&)nbsp;팬택이(&)nbsp;팬택앤큐리텔의(&)nbsp;일부(&)nbsp;지분을(&)nbsp;보유해(&)nbsp;크로스오너십을(&)nbsp;가지는(&)nbsp;대안도(&)nbsp;고려중인(&)nbsp;것으로(&)nbsp;알려졌다.(&)nbsp;<br><br>그러나(&)nbsp;팬택계열은(&)nbsp;팬택과(&)nbsp;팬택앤큐리텔이(&)nbsp;가지고(&)nbsp;있는(&)nbsp;`차이`(&)nbsp;역시(&)nbsp;또다른(&)nbsp;장점으로(&)nbsp;이어지고(&)nbsp;있다고(&)nbsp;평가하고(&)nbsp;있다.(&)nbsp;<br><br>조(&)nbsp;전무는(&)nbsp;"양사가(&)nbsp;독립적인(&)nbsp;제품으로(&)nbsp;독립적으로(&)nbsp;뛰다보면(&)nbsp;오히려(&)nbsp;시장에(&)nbsp;발빠르게(&)nbsp;대처할(&)nbsp;수(&)nbsp;있다"며(&)nbsp;"두(&)nbsp;회사간(&)nbsp;건전한(&)nbsp;경쟁관계를(&)nbsp;통한(&)nbsp;시너지가(&)nbsp;팬택계열(&)nbsp;성장의(&)nbsp;중요한(&)nbsp;원동력"이라고(&)nbsp;강조했다.<br><br>효율성면에서(&)nbsp;다소(&)nbsp;떨어질(&)nbsp;수(&)nbsp;있지만,(&)nbsp;양사가(&)nbsp;각개(&)nbsp;약진하면서(&)nbsp;건전한(&)nbsp;경쟁관계가(&)nbsp;조성될(&)nbsp;경우(&)nbsp;성장(&)nbsp;측면에서는(&)nbsp;더(&)nbsp;나을(&)nbsp;수(&)nbsp;있다는(&)nbsp;판단인(&)nbsp;셈이다.(&)nbsp;<br><br>◇"전진을(&)nbsp;위한(&)nbsp;후퇴"<br><br>지난해(&)nbsp;팬택은(&)nbsp;6153억원의의(&)nbsp;매출을(&)nbsp;기록하며(&)nbsp;전년에(&)nbsp;비해(&)nbsp;13%의(&)nbsp;성장을(&)nbsp;나타냈지만,(&)nbsp;순이익은(&)nbsp;183억원의(&)nbsp;손실을(&)nbsp;기록해(&)nbsp;적자로(&)nbsp;돌아섰다.(&)nbsp;팬택앤큐리텔(&)nbsp;역시(&)nbsp;지난해(&)nbsp;무려(&)nbsp;89.8%라는(&)nbsp;성장율을(&)nbsp;나타내며(&)nbsp;1조3858억원의(&)nbsp;매출을(&)nbsp;달성했지만,(&)nbsp;순익은(&)nbsp;403억원에(&)nbsp;그쳐(&)nbsp;전년에(&)nbsp;비해(&)nbsp;오히려(&)nbsp;소폭(&)nbsp;감소했다.<br><br>팬택계열(&)nbsp;김주성(&)nbsp;IR팀장은(&)nbsp;이와(&)nbsp;관련,(&)nbsp;"중국(&)nbsp;시장에서의(&)nbsp;변화에(&)nbsp;민감하게(&)nbsp;대응하지(&)nbsp;못했을(&)nbsp;뿐(&)nbsp;아니라,(&)nbsp;전반적으로(&)nbsp;그간(&)nbsp;성장에(&)nbsp;중심을(&)nbsp;두면서(&)nbsp;이익부분에(&)nbsp;다소(&)nbsp;소흘했던(&)nbsp;것이(&)nbsp;사실"이라며(&)nbsp;"올해부터는(&)nbsp;본격적인(&)nbsp;이익관리에(&)nbsp;나설(&)nbsp;계획"이라고(&)nbsp;말했다.(&)nbsp;<br><br>그러나(&)nbsp;지난해(&)nbsp;팬택계열의(&)nbsp;실적이(&)nbsp;다소(&)nbsp;부진했던(&)nbsp;것에는(&)nbsp;이보다(&)nbsp;더욱(&)nbsp;중요한(&)nbsp;한가지(&)nbsp;이유가(&)nbsp;있다.(&)nbsp;특히(&)nbsp;팬택의(&)nbsp;경우(&)nbsp;지난해(&)nbsp;6월(&)nbsp;휴대폰(&)nbsp;소프트웨어(&)nbsp;개발의(&)nbsp;표준화(&)nbsp;작업에(&)nbsp;착수했던(&)nbsp;것.<br><br>당시(&)nbsp;팬택(&)nbsp;GSM은(&)nbsp;모델(&)nbsp;개발이(&)nbsp;개별(&)nbsp;제품마다(&)nbsp;제각각(&)nbsp;이뤄지고(&)nbsp;있어(&)nbsp;개발시간과(&)nbsp;효율성면에서(&)nbsp;크게(&)nbsp;떨어졌던(&)nbsp;것이(&)nbsp;사실이다.(&)nbsp;이에(&)nbsp;팬택은(&)nbsp;당시(&)nbsp;개발중이던(&)nbsp;5개모델의(&)nbsp;개발으로(&)nbsp;모두(&)nbsp;중단하고,(&)nbsp;소프트웨어(&)nbsp;플랫폼을(&)nbsp;동일(&)nbsp;규격으로(&)nbsp;통합키로(&)nbsp;했던(&)nbsp;것.(&)nbsp;<br><br>팬택(&)nbsp;이성규(&)nbsp;사장은(&)nbsp;"당시(&)nbsp;플랫폼(&)nbsp;표준화(&)nbsp;작업을(&)nbsp;위해(&)nbsp;팬택의(&)nbsp;개발팀(&)nbsp;30여명이(&)nbsp;중국(&)nbsp;남경의(&)nbsp;금릉호텔에(&)nbsp;3개월간을(&)nbsp;합숙하며(&)nbsp;표준화작업에(&)nbsp;매진했었다"며(&)nbsp;"언제(&)nbsp;개발이(&)nbsp;완료될(&)nbsp;수(&)nbsp;있을지(&)nbsp;알(&)nbsp;수(&)nbsp;없는(&)nbsp;모험이었지만(&)nbsp;개발(&)nbsp;효율성을(&)nbsp;위해서(&)nbsp;반드시(&)nbsp;필요한(&)nbsp;작업이었다"고(&)nbsp;회고했다.(&)nbsp;이(&)nbsp;사장은(&)nbsp;"비록(&)nbsp;지난해(&)nbsp;실적이(&)nbsp;희생됐지만(&)nbsp;기술(&)nbsp;표준화를(&)nbsp;통해(&)nbsp;개발기간이(&)nbsp;짧아져(&)nbsp;지난해(&)nbsp;10월(&)nbsp;7개(&)nbsp;신모델을(&)nbsp;대거(&)nbsp;출시할(&)nbsp;수(&)nbsp;있었다"며(&)nbsp;"신속한(&)nbsp;신상품(&)nbsp;출시를(&)nbsp;위한(&)nbsp;팬택의(&)nbsp;저력이(&)nbsp;마련된(&)nbsp;셈"이라고(&)nbsp;평가했다.(&)nbsp;<br><br>팬택계열은(&)nbsp;이미(&)nbsp;기술력에서는(&)nbsp;세계적인(&)nbsp;수준에(&)nbsp;올라서(&)nbsp;있다고(&)nbsp;자부하고(&)nbsp;있다.(&)nbsp;매년(&)nbsp;과감한(&)nbsp;연구개발비를(&)nbsp;투자하고(&)nbsp;있을(&)nbsp;뿐(&)nbsp;아니라(&)nbsp;연구인력면에서도(&)nbsp;삼성전자와(&)nbsp;LG전자에(&)nbsp;크게(&)nbsp;뒤지지(&)nbsp;않는(&)nbsp;수준을(&)nbsp;갖춘(&)nbsp;상태다.(&)nbsp;<br><br>팬택계열은(&)nbsp;지난해(&)nbsp;순수(&)nbsp;연구개발비로만(&)nbsp;1700억원을(&)nbsp;투자했으며(&)nbsp;올해는(&)nbsp;이보다(&)nbsp;30%(&)nbsp;증가한(&)nbsp;2200억원을(&)nbsp;투자할(&)nbsp;계획이다.(&)nbsp;연구인력도(&)nbsp;2001년(&)nbsp;650명에서(&)nbsp;2002년에는(&)nbsp;960명으로,(&)nbsp;지난해에는(&)nbsp;1250명(&)nbsp;수준까지(&)nbsp;올라서,(&)nbsp;전체(&)nbsp;인력의(&)nbsp;42%(&)nbsp;가량이(&)nbsp;연구인력으로(&)nbsp;채워져있다.(&)nbsp;<br><br>팬택(&)nbsp;재경본부장(&)nbsp;조영삼(&)nbsp;전무는(&)nbsp;"팬택계열의(&)nbsp;가장(&)nbsp;큰(&)nbsp;장점은(&)nbsp;풍부한(&)nbsp;개발인력을(&)nbsp;바탕으로(&)nbsp;빠른(&)nbsp;개발기간과(&)nbsp;좋은(&)nbsp;품질을(&)nbsp;제품"이라며(&)nbsp;"품질(&)nbsp;부분에(&)nbsp;있어서는(&)nbsp;삼성전자에(&)nbsp;뒤지지(&)nbsp;않은(&)nbsp;기술력을(&)nbsp;보유하고(&)nbsp;있고,(&)nbsp;상품(&)nbsp;기획력도(&)nbsp;손색이(&)nbsp;없다"고(&)nbsp;강조했다.(&)nbsp;<br><br>물론(&)nbsp;팬택계열은(&)nbsp;기술력에(&)nbsp;비해(&)nbsp;아직(&)nbsp;브랜드(&)nbsp;인지도가(&)nbsp;다소(&)nbsp;떨어지는(&)nbsp;것은(&)nbsp;사실이다.(&)nbsp;팬택의(&)nbsp;경우(&)nbsp;모토로라에(&)nbsp;대한(&)nbsp;ODM(&)nbsp;비중이(&)nbsp;50%(&)nbsp;가량으로(&)nbsp;절대적인(&)nbsp;만큼(&)nbsp;단순(&)nbsp;제조업체라는(&)nbsp;편견이(&)nbsp;아직(&)nbsp;남아있다.(&)nbsp;팬택앤큐리텔의(&)nbsp;경우(&)nbsp;대상(&)nbsp;고객이(&)nbsp;젊은층에(&)nbsp;국한된(&)nbsp;측면도(&)nbsp;없지(&)nbsp;않다.(&)nbsp;<br><br>따라서(&)nbsp;팬택계열은(&)nbsp;올해(&)nbsp;기존의(&)nbsp;축적된(&)nbsp;기술력을(&)nbsp;바탕으로(&)nbsp;마케팅에(&)nbsp;매진해(&)nbsp;국내와(&)nbsp;해외시장에서(&)nbsp;브랜드(&)nbsp;인지를(&)nbsp;높여갈(&)nbsp;계획이다.(&)nbsp;반면(&)nbsp;연구인력(&)nbsp;충원은(&)nbsp;다소(&)nbsp;보수적으로(&)nbsp;실시한다는(&)nbsp;입장이다.(&)nbsp;<br><br>)은(&)nbsp;"올해(&)nbsp;경영방침은(&)nbsp;마케팅(&)nbsp;중심의(&)nbsp;<br><br>회사"라며(&)nbsp;"휴대폰(&)nbsp;산업에(&)nbsp;있어서(&)nbsp;연구개발(&)nbsp;등의(&)nbsp;기술분야나(&)nbsp;생산(&)nbsp;등의(&)nbsp;관리분야도(&)nbsp;중요하지만(&)nbsp;결국(&)nbsp;마케팅(&)nbsp;능력이(&)nbsp;회사의(&)nbsp;미래를(&)nbsp;좌우할(&)nbsp;수(&)nbsp;있다"고(&)nbsp;강조했다.<br><br>◇열린(&)nbsp;문화와(&)nbsp;자긍심,(&)nbsp;성장의(&)nbsp;밑거름<br><br>팬택계열의(&)nbsp;또(&)nbsp;다른(&)nbsp;성장(&)nbsp;동력중(&)nbsp;하나는(&)nbsp;바로(&)nbsp;팬택계열만의(&)nbsp;독특한(&)nbsp;열린(&)nbsp;기업문화다.(&)nbsp;팬택계열의(&)nbsp;누구를(&)nbsp;만나더라도(&)nbsp;"말단(&)nbsp;사원부터(&)nbsp;박(&)nbsp;부회장까지(&)nbsp;하루만에(&)nbsp;의사결정이(&)nbsp;이루어질(&)nbsp;수(&)nbsp;있다"는(&)nbsp;얘기를(&)nbsp;들을(&)nbsp;수(&)nbsp;있을(&)nbsp;정도로(&)nbsp;열린(&)nbsp;문화에(&)nbsp;대한(&)nbsp;자부심이(&)nbsp;대단하다.(&)nbsp;<br><br>팬택(&)nbsp;재경본부장(&)nbsp;조영삼(&)nbsp;전무는(&)nbsp;"빠른(&)nbsp;속도로(&)nbsp;변해가고(&)nbsp;있는(&)nbsp;휴대폰(&)nbsp;사업을(&)nbsp;입장에서(&)nbsp;팬택이(&)nbsp;열린(&)nbsp;커뮤니케이션(&)nbsp;문화가(&)nbsp;남아있다는(&)nbsp;점은(&)nbsp;대단히(&)nbsp;큰(&)nbsp;장점"이라며(&)nbsp;"회사가(&)nbsp;급속도로(&)nbsp;성장하면서(&)nbsp;아직(&)nbsp;벤처형태의(&)nbsp;오픈된(&)nbsp;커뮤니케이션(&)nbsp;문화가(&)nbsp;남아있는(&)nbsp;것(&)nbsp;같다"고(&)nbsp;말했다.(&)nbsp;<br><br>물론(&)nbsp;벤처로(&)nbsp;시작한(&)nbsp;팬택과(&)nbsp;달리(&)nbsp;팬택앤큐리텔은(&)nbsp;현대그룹이라는(&)nbsp;대기업에서(&)nbsp;시작했다는(&)nbsp;태생적(&)nbsp;차이로(&)nbsp;인해(&)nbsp;두(&)nbsp;회사간(&)nbsp;문화적(&)nbsp;이질감이(&)nbsp;다소(&)nbsp;남아있는(&)nbsp;것은(&)nbsp;사실이다.(&)nbsp;<br><br>그러나(&)nbsp;팬택의(&)nbsp;도전적이고(&)nbsp;역동적인(&)nbsp;문화와(&)nbsp;팬택앤큐리텔인(&)nbsp;안정적인(&)nbsp;문화도(&)nbsp;묘한(&)nbsp;시너지(&)nbsp;효과로(&)nbsp;작용하고(&)nbsp;있다는(&)nbsp;것이(&)nbsp;팬택계열의(&)nbsp;평가다.<br><br>팬택계열(&)nbsp;박정대(&)nbsp;총괄사장(오른쪽(&)nbsp;사진)은(&)nbsp;"두(&)nbsp;기업이(&)nbsp;초창기에는(&)nbsp;다소(&)nbsp;차이가(&)nbsp;있었지만,(&)nbsp;지속적인(&)nbsp;교류를(&)nbsp;통해(&)nbsp;두(&)nbsp;회사의(&)nbsp;문화가(&)nbsp;점차(&)nbsp;조화되고(&)nbsp;있다"며(&)nbsp;"현재(&)nbsp;팬택계열만의(&)nbsp;고유문화로(&)nbsp;형성되고(&)nbsp;있다"고(&)nbsp;말했다.<br><br>이를(&)nbsp;위해(&)nbsp;팬택계열은(&)nbsp;벤처문화의(&)nbsp;도전정신과(&)nbsp;창의력은(&)nbsp;살리면서,(&)nbsp;다른(&)nbsp;한편으로는(&)nbsp;발생할(&)nbsp;수(&)nbsp;있는(&)nbsp;불안정한(&)nbsp;요소들은(&)nbsp;조직안에서(&)nbsp;시스템으로(&)nbsp;보완해(&)nbsp;나가기(&)nbsp;위한(&)nbsp;`시스템(&)nbsp;경영`을(&)nbsp;지속적으로(&)nbsp;강조해오고(&)nbsp;있다.(&)nbsp;<br><br>또다른(&)nbsp;팬택계열(&)nbsp;문화의(&)nbsp;특징은(&)nbsp;직원들의(&)nbsp;자긍심이(&)nbsp;상당하다는(&)nbsp;점이다.(&)nbsp;이는(&)nbsp;특히(&)nbsp;팬택계열(&)nbsp;경영진이(&)nbsp;직원들에게(&)nbsp;먼저(&)nbsp;업계(&)nbsp;최고(&)nbsp;대우를(&)nbsp;약속하는(&)nbsp;등(&)nbsp;‘1등(&)nbsp;직원으로(&)nbsp;대접한다’는(&)nbsp;방침과(&)nbsp;맞물려(&)nbsp;있다.(&)nbsp;<br><br>팬택계열(&)nbsp;김주성(&)nbsp;IR팀장은(&)nbsp;"팬택계열의(&)nbsp;직원에(&)nbsp;대한(&)nbsp;보상은(&)nbsp;업계(&)nbsp;최고(&)nbsp;수준"이라며(&)nbsp;"현대큐리텔을(&)nbsp;인수했을(&)nbsp;당시에도(&)nbsp;곧바로(&)nbsp;큐리텔(&)nbsp;직원의(&)nbsp;월급이(&)nbsp;상향됐었다"고(&)nbsp;말했다.(&)nbsp;<br><br>회사가(&)nbsp;먼저(&)nbsp;직원들에(&)nbsp;대해(&)nbsp;최고(&)nbsp;수준의(&)nbsp;대우를(&)nbsp;해줌으로써(&)nbsp;구성원들이(&)nbsp;자발적으로(&)nbsp;주인의식을(&)nbsp;갖게(&)nbsp;된다는(&)nbsp;것.(&)nbsp;`1등(&)nbsp;실적을(&)nbsp;올리면(&)nbsp;1등(&)nbsp;보상을(&)nbsp;해주겠다`는게(&)nbsp;아니라(&)nbsp;먼저(&)nbsp;`1등(&)nbsp;대우를(&)nbsp;해줄(&)nbsp;테니(&)nbsp;1등(&)nbsp;기업을(&)nbsp;만들어달라`는(&)nbsp;경영진의(&)nbsp;보이지(&)nbsp;않는(&)nbsp;주문인(&)nbsp;셈이다.(&)nbsp;<br><br>팬택계열의(&)nbsp;한(&)nbsp;직원은(&)nbsp;"솔직히(&)nbsp;업계(&)nbsp;최고(&)nbsp;대우를(&)nbsp;받는다는(&)nbsp;점에서(&)nbsp;회사에(&)nbsp;대한(&)nbsp;자긍심을(&)nbsp;가지지(&)nbsp;않을(&)nbsp;수(&)nbsp;없다"며(&)nbsp;"팬택계열은(&)nbsp;다른(&)nbsp;어떤(&)nbsp;회사보다(&)nbsp;회사에(&)nbsp;대한(&)nbsp;충성도가(&)nbsp;높은(&)nbsp;편"이라고(&)nbsp;귀띔했다.(&)nbsp;<br><br>팬택계열(&)nbsp;박병엽(&)nbsp;부회장은(&)nbsp;평소(&)nbsp;`3·3·3(&)nbsp;법칙`에(&)nbsp;충실하기(&)nbsp;위해(&)nbsp;노력하는(&)nbsp;것으로(&)nbsp;알려졌다.(&)nbsp;3분의(&)nbsp;1은(&)nbsp;회사(&)nbsp;발전을(&)nbsp;위한(&)nbsp;재투자에,(&)nbsp;3분의1은(&)nbsp;직원들에(&)nbsp;대한(&)nbsp;보상에,(&)nbsp;3분의1은(&)nbsp;주주들에게(&)nbsp;분배한다는(&)nbsp;것.(&)nbsp;<br><br>아직(&)nbsp;팬택계열은(&)nbsp;기업이익이(&)nbsp;본격적으로(&)nbsp;나는(&)nbsp;단계가(&)nbsp;아니어서(&)nbsp;재투자쪽(&)nbsp;비중이(&)nbsp;높지만,(&)nbsp;회사가(&)nbsp;일정한(&)nbsp;궤도에(&)nbsp;오르고(&)nbsp;나면(&)nbsp;그만큼의(&)nbsp;이익을(&)nbsp;재분배(&)nbsp;하겠다는게(&)nbsp;박(&)nbsp;부회장의(&)nbsp;기본적인(&)nbsp;방침이다.<br><br>올해(&)nbsp;팬택계열은(&)nbsp;`새로운(&)nbsp;1등`이라는(&)nbsp;경영모토를(&)nbsp;내세우며(&)nbsp;글로벌(&)nbsp;기업으로의(&)nbsp;도약을(&)nbsp;꿈꾸고(&)nbsp;있다.(&)nbsp;<br><br>팬택계열(&)nbsp;박정대(&)nbsp;총괄사장은(&)nbsp;"한국기업사의(&)nbsp;새로운(&)nbsp;모델기업으로(&)nbsp;성장하기(&)nbsp;위해(&)nbsp;여러가지(&)nbsp;노력을(&)nbsp;기울이고(&)nbsp;있다"며(&)nbsp;"이러한(&)nbsp;노력은(&)nbsp;글로벌(&)nbsp;메이저기업으로(&)nbsp;도약하는(&)nbsp;팬택계열의(&)nbsp;원동력이(&)nbsp;될(&)nbsp;것"이라고(&)nbsp;말했다.(&)nbsp;<br><br>현재(&)nbsp;팬택계열은(&)nbsp;회장이(&)nbsp;공석으로(&)nbsp;남아있다.(&)nbsp;팬택의(&)nbsp;창립자인(&)nbsp;박(&)nbsp;부회장은(&)nbsp;기업규모가(&)nbsp;10조원(&)nbsp;정도의(&)nbsp;글로벌(&)nbsp;기업이(&)nbsp;되거나,(&)nbsp;한(&)nbsp;업종에서(&)nbsp;30년(&)nbsp;정도의(&)nbsp;기업역사를(&)nbsp;가지기(&)nbsp;전에는(&)nbsp;회장(&)nbsp;칭호를(&)nbsp;고사(固辭)하고(&)nbsp;있는(&)nbsp;알려졌다.(&)nbsp;<br><br>팬택계열의(&)nbsp;성장과(&)nbsp;도전이(&)nbsp;과연(&)nbsp;어디까지(&)nbsp;지속될(&)nbsp;것인지(&)nbsp;관심있게(&)nbsp;지켜볼(&)nbsp;일이다.<br><br>Copyrightⓒ(&)nbsp;2000-2004(&)nbsp;edaily.(&)nbsp;All(&)nbsp;rights(&)nbsp;reserved.(&)nbsp;<br><br>안승찬(&)nbsp;기자(&)nbsp;(ahnsc@edaily.co.kr<br>(&)nbsp;<br></font>
+							</td>
+						</tr>
+						<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+						<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+						<tr><td colspan="2" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=29&sseq=&sword="><img src="/img/prroom/btn_list.gif" height="19" alt="" border="0" hspace="8"></a></td></tr>
+						<tr>
+							<td colspan="2" height="60" style="padding:0 0 0 8">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="21" class="minilist">			
+
+									</td>
+								</tr>
+									<td height="21" class="minilist">
+
+									<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1295&num=454&page=29&sseq=&sword="><font class="minilist">[Cover Story] 송문섭 팬텍앤큐리텔 사장 </font></a>
+
+									</td>
+								</table>
+							</td>
+						</tr>
+						</table>
+						<!------- READ End ------------->
+
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+
+
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner1.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner1.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+
+
+</body>
+</html>
+

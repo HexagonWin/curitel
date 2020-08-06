@@ -1,0 +1,65 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<script language="javascript" src="/inc/js/common.js"></script>
+<link rel="STYLESHEET" type="text/css" href="/inc/css/product.css">
+</head>
+
+<body bgcolor="#ffffff">
+
+<script>
+	function goParent(usNo){
+		parent.location.href='/html/product/download/search.asp?serial_no='+usNo;		
+	}
+</script>
+<table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	<td>
+<img src="/img/product/download/txt_editor.gif" width="385" height="73" alt="" border="0" align="absmiddle"><!--hardcoding--><a href="javascript:download('product/down/img_editor/ImageEdit_V256.exe')"><img src="/img/btn/btn_downditor02.gif" width="128" height="30" alt="" border="0" hspace="22"></a></td>
+  </tr> 
+  <tr><!--- 텝메뉴 "해당파일_o" --->
+		<td height="29" background="/img/common/tabbg.gif">
+			
+		<a href="if_editor.asp?tab=SKT&sector=product"><img src="/img/product/tab01.gif" width="81" height="29" alt="" border="0"></a><a href="if_editor.asp?tab=KTF&sector=product"><img src="/img/product/tab02.gif" width="81" height="29" alt="" border="0" hspace="1"></a><a href="if_editor.asp?tab=LGT&sector=product"><img src="/img/product/tab03_o.gif" width="81" height="29" alt="" border="0"></a></td>
+  </tr>
+  <tr>
+  	<td>
+			<table width="" border="0" cellspacing="0" cellpadding="0">
+				<tr align="center">
+
+					<td width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/A1_PT-L1100(1).gif" width="60" height="120"><br>
+					<b>PT-L1100</b></td>
+
+					<td width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/A1_ph-l4000v.gif" width="60" height="120"><br>
+					<b>PH-L4000V</b></td>
+
+					<td width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/a1_(1).gif" width="60" height="120"><br>
+					<b>LT7000</b></td>
+
+					<td width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/A1_ph_l3500c(1).gif" width="60" height="120"><br>
+					<b>PH-L3500C</b></td>
+
+					<td width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/A1_ph-l2000c(1).gif" width="60" height="120"><br>
+					<b>PH-L2000C/A</b></td>
+
+					<td width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/A1_ph-l1000(1).gif" width="60" height="120"><br>
+					<b>PH-L1000</b></td>
+ 					
+				</tr>
+			</table>
+		</td>
+	  </tr>
+</table>
+
+	<table width="548" height="60" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td align="center">
+					&nbsp;<b>|1|</b>&nbsp;<a href=if_editor.asp?page=2&tab=LGT&sector=product>|2|</a> 
+				</td>
+			</tr>
+	</table>
+
+</body>
+</html>

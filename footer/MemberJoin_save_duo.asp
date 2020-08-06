@@ -1,0 +1,1 @@
+<script language='javascript'>alert('축하합니다. 일반회원으로 가입되었습니다.');location.href='http://duo.duonet.com/event/project/11_curitel/11_curitel.asp?curi_id=&duo_id='</script>

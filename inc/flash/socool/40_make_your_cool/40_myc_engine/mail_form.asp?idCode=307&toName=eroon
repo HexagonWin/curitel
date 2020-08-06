@@ -1,0 +1,30 @@
+
+
+<html>
+<head>
+<title>So Cooooool!!!-Make your cool</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+	<table border="0" cellpadding="0" cellspacing="0" align="center" height="100%">
+		<tr>
+		<td>
+		
+		
+		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="800" height="650" id="Release_fiels/NR_root_shell" align="middle">
+		<param name="allowScriptAccess" value="sameDomain" />
+		<param name="movie" value="mail_swf/40_myc_mailform.swf?rootPath=http://www.curitel.com/inc/flash/socool/&mycPath=40_make_your_cool/&mycFiles=40_make_your_cool/40_myc_files/&mycEngine=40_make_your_cool/40_myc_engine/&mycEngine=40_make_your_cool/40_myc_engine/&idcode=307&toName=eroon" />
+		<param name="quality" value="high" />
+		<param name="menu" value="false" />
+		<param name="bgcolor" value="#FFFFFF" />
+		<embed src="mail_swf/40_myc_mailform.swf?rootPath=http://www.curitel.com/inc/flash/socool/&mycPath=40_make_your_cool/&mycFiles=40_make_your_cool/40_myc_files/&mycEngine=40_make_your_cool/40_myc_engine/&mycEngine=40_make_your_cool/40_myc_engine/&idcode=307&toName=eroon" quality="high" bgcolor="#FFFFFF" width="800" height="650" name="Release_fiels/NR_root_shell" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+		</object>
+		
+		
+		
+		</td>
+		</tr>	
+	</table>
+
+</body>
+</html>

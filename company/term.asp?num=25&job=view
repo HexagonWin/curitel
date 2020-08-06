@@ -1,0 +1,605 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+<!--/////////		View 처리를 위한 작업 start	/////////-->
+
+<html>
+
+<head>
+	<title>CURITEL</title>
+	<link rel="STYLESHEET" type="text/css" href="../asset/css/public.css">	
+	<script language="JavaScript" src="../asset/js/roll.js"></script>	
+	<script language="JavaScript" src="../asset/js/topmenu.js"></script>	
+	<script language="JavaScript" src="../asset/js/menu_nav.js"></script>
+	
+	<script language="javascript" src="../totalcheck.js"></script>
+	<script language=javascript>
+	<!--
+		function onSorry()
+	{
+		centerPopUp('../popup/delay.html', 406,195);
+	}
+	
+		function boardSearch(that)
+		{
+			if (that.searchStr.value.length < 1)
+			{
+				alert('검색어를 입력하신 후에 다시 시도하십시오.');
+				that.searchStr.focus();
+				return false;
+			}
+			else
+				return true;
+		}
+
+		function searchCheck(that)
+		{
+			if  ( that.searchString.value.length < 1)
+			{
+				alert('검색어를 입력하세요');
+				that.searchString.focus();
+				return false;
+			}
+			else
+				return true;
+		}
+	 -->
+	 </script>
+	
+	<script language="JavaScript">
+	   PreImgLoad('img/c_roll',18);	   
+	</script>   		
+<script language="Javascript" src="../asset/js/outline_leftMenu.js"></script>
+<script language="JavaScript">
+function popup() {
+window.open('../quick/quick.html' , 'intro' , 'width='+(screen.width - 10)+',height='+(screen.height - 30)+',left=0,top=0,fullscreen=1,location=0,menubar=0,scrollbars=1,status=0,toolbar=0');
+	}
+</script>
+<script language="JavaScript">
+function popup2() {
+window.open('../pflash/basic_movieclip.html' , 'intro' , 'width='+(screen.width - 10)+',height='+(screen.height - 30)+',left=0,top=0,fullscreen=1,location=0,menubar=0,scrollbars=1,status=0,toolbar=0');
+	}
+</script>
+<script language="JavaScript">
+function popup3() {
+window.open('../pflash/basic_movieclip_new.html' , 'intro' , 'width='+(screen.width - 10)+',height='+(screen.height - 30)+',left=0,top=0,fullscreen=1,location=0,menubar=0,scrollbars=1,status=0,toolbar=0');
+	}
+</script>
+
+<body topmargin="25" leftmargin="0" marginheight="25" marginwidth="0" bgcolor="#ffffff" onload="preloadImages();">
+<center>
+
+<table cellpadding="0" cellspacing="0" border="0" width="740">
+
+<!-- top start -->
+	<tr>
+		<td align="center">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td><img src="../asset/img/img_top_left.gif" width="5" height="58" border="0" ></td>
+					<td width="730">
+						<table cellpadding="0" cellspacing="0" border="0" width="100%">
+							<tr>
+								<td colspan="2" height="1" bgcolor="#999999"><img src="img/spacer.gif" width="1" height="1"  border="0"></td>
+							</tr>
+							<tr>
+								<td width="548" height="57"><a href="javascript:GoMenu('home')"><img src="../asset/img/curitel_top_logo_03.gif" border="0" hspace="22"></a></td>
+								<td width="182"><img src="../asset/img/img_top_map.gif" width="173" height="42" border="0" usemap="#img_top_map_Map"></td>								
+							</tr>
+						</table>
+					</td>
+					<td><img src="../asset/img/img_top_right.gif" width="5" height="58" border="0" ></td>
+				</tr>				
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td><a href="javascript:GoMenu('cintro')" onmouseover="show(about1);"><img src="../asset/img/topmenu_01_on.gif" width="129" height="30" border="0"  name="menu_01"></a></td>
+					<td><img src="../asset/img/img_space_on.gif" width="1" height="30" border="0"  name="menu_on_01"></td>
+					<td><a href="javascript:GoMenu('pintro')" onmouseover="changeImages('menu_02', '../asset/img/topmenu_02_on.gif','menu_on_02', '../asset/img/img_space_on.gif');  show(about2);   return true;" 
+		        onmouseout="changeImages('menu_02', '../asset/img/topmenu_02_off.gif','menu_on_02', '../asset/img/img_space_off.gif'); return true;"">
+				<img src="../asset/img/topmenu_02_off.gif" width="117" height="30" border="0"  name="menu_02"></a></td>
+					<td><img src="../asset/img/img_space_off.gif" width="1" height="30" border="0"  name="menu_on_02"></td>
+					<td><a href="javascript:GoMenu('cuintro')" onmouseover="changeImages('menu_03', '../asset/img/topmenu_03_on.gif','menu_on_02', '../asset/img/img_space_on.gif','menu_on_03', '../asset/img/img_space_on.gif');show(about3);   return true;" 
+		        onmouseout="changeImages('menu_03', '../asset/img/topmenu_03_off.gif','menu_on_02', '../asset/img/img_space_off.gif','menu_on_03', '../asset/img/img_space_off.gif'); return true;"">
+				<img src="../asset/img/topmenu_03_off.gif" width="118" height="30" border="0"  name="menu_03"></a></td>
+					<td><img src="../asset/img/img_space_off.gif" width="1" height="30" border="0"  name="menu_on_03"></td>
+					<td><a href="javascript:GoMenu('hmain')" onmouseover="changeImages('menu_04', '../asset/img/topmenu_04_on.gif','menu_on_03', '../asset/img/img_space_on.gif','menu_on_04', '../asset/img/img_space_on.gif'); show(about4);   return true;" 
+		        onmouseout="changeImages('menu_04', '../asset/img/topmenu_04_off.gif','menu_on_03', '../asset/img/img_space_off.gif','menu_on_04', '../asset/img/img_space_off.gif');  return true;"">
+				<img src="../asset/img/topmenu_04_off.gif" width="126" height="30" border="0"  name="menu_04"></a></td>
+					<td><img src="../asset/img/img_space_off.gif" width="1" height="30" border="0"  name="menu_on_04"></td>
+					<td><a href="javascript:GoMenu('reintro')" onmouseover="changeImages('menu_05', '../asset/img/topmenu_05_on.gif','menu_on_04', '../asset/img/img_space_on.gif','menu_on_05', '../asset/img/img_space_on.gif'); show(about5);   return true;" 
+		        onmouseout="changeImages('menu_05', '../asset/img/topmenu_05_off.gif','menu_on_04', '../asset/img/img_space_off.gif','menu_on_05', '../asset/img/img_space_off.gif');  return true;"">
+				<img src="../asset/img/topmenu_05_off.gif" width="116" height="30" border="0"  name="menu_05"></a></td>
+					<td><img src="../asset/img/img_space_off.gif" width="1" height="30" border="0"  name="menu_on_05"></td>
+					<td><a href="javascript:GoMenu('invintro')" onmouseover="changeImages('menu_06', '../asset/img/topmenu_06_on.gif','menu_on_05', '../asset/img/img_space_on.gif'); show(about6);   return true;" 
+		        onmouseout="changeImages('menu_06', '../asset/img/topmenu_06_off.gif','menu_on_05', '../asset/img/img_space_off.gif');  return true;"">
+				<img src="../asset/img/topmenu_06_off.gif" width="129" height="30" border="0"  name="menu_06"></a></td>
+				</tr>	
+			</table>
+		</td>
+	</tr>	
+	<form method="post" name="frmQuery" action="../search/query.asp" onSubmit="return searchCheck(this);">
+	<tr>	
+		<td height="31" background="../asset/img/bg_login.gif" class="tk-gray03">	
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#c7c7c7">
+				<tr>
+					<td width="565">
+					<div id="about" style="Display: none">
+
+					<table  height="21" border="0" cellspacing="0" cellpadding="0" bgcolor="#c7c7c7">
+						<tr>
+							<td width="1" bgcolor="#828282"></td>
+							<td>&nbsp;</td>
+						</tr>  
+ 
+					  </table>
+					</div>	
+					<div id="about1" style="Display: none">
+
+					<table  height="21" border="0" cellspacing="0" cellpadding="0" bgcolor="#c7c7c7">
+						<tr>
+							<td width="1" bgcolor="#828282"></td>
+							<td><a href="javascript:GoMenu('summary')" onmouseover="MM_swapImage('document.layers[\'about1\'].document.c1','document.c1','../asset/subimg/c_sub_01_on.gif')" onmouseout="MM_swapImage('document.layers[\'about1\'].document.c1','document.c1','../asset/subimg/c_sub_01_off.gif')">
+							<img src="../asset/subimg/c_sub_01_off.gif" width="57" height="14" border="0"  name="c1"></a></td>	
+							<td><a href="javascript:GoMenu('ceo')" onmouseover="MM_swapImage('document.layers[\'about1\'].document.c2','document.c2','../asset/subimg/c_sub_02_on.gif')" onmouseout="MM_swapImage('document.layers[\'about1\'].document.c2','document.c2','../asset/subimg/c_sub_02_off.gif')">
+							<img src="../asset/subimg/c_sub_02_off.gif" width="68" height="14" border="0"  name="c2"></a></td>	
+							<td><a href="javascript:GoMenu('histor')" onmouseover="MM_swapImage('document.layers[\'about1\'].document.c3','document.c3','../asset/subimg/c_sub_03_on.gif')" onmouseout="MM_swapImage('document.layers[\'about1\'].document.c3','document.c3','../asset/subimg/c_sub_03_off.gif')">
+							<img src="../asset/subimg/c_sub_03_off.gif" width="56" height="14" border="0"  name="c3"></a></td>	
+							<td><a href="javascript:GoMenu('business')" onmouseover="MM_swapImage('document.layers[\'about1\'].document.c4','document.c4','../asset/subimg/c_sub_04_on.gif')" onmouseout="MM_swapImage('document.layers[\'about1\'].document.c4','document.c4','../asset/subimg/c_sub_04_off.gif')">
+							<img src="../asset/subimg/c_sub_04_off.gif" width="57" height="14" border="0"  name="c4"></a></td>		
+							<td><a href="javascript:GoMenu('loc')" onmouseover="MM_swapImage('document.layers[\'about1\'].document.c5','document.c5','../asset/subimg/c_sub_05_on.gif')" onmouseout="MM_swapImage('document.layers[\'about1\'].document.c5','document.c5','../asset/subimg/c_sub_05_off.gif')">
+							<img src="../asset/subimg/c_sub_05_off.gif" width="69" height="14" border="0"  name="c5"></a></td>		
+							<td><a href="javascript:GoMenu('rd')" onmouseover="MM_swapImage('document.layers[\'about1\'].document.c6','document.c6','../asset/subimg/c_sub_06_on.gif')" onmouseout="MM_swapImage('document.layers[\'about1\'].document.c6','document.c6','../asset/subimg/c_sub_06_off.gif')">
+							<img src="../asset/subimg/c_sub_06_off.gif" width="69" height="14" border="0"  name="c6"></a></td>		
+							<td><a href="javascript:GoMenu('press')" onmouseover="MM_swapImage('document.layers[\'about1\'].document.c7','document.c7','../asset/subimg/c_sub_07_on.gif')" onmouseout="MM_swapImage('document.layers[\'about1\'].document.c7','document.c7','../asset/subimg/c_sub_07_off.gif')">
+							<img src="../asset/subimg/c_sub_07_off.gif" width="71" height="14" border="0"  name="c7"></a></td>	
+							<td><a href="javascript:GoMenu('ci')" onmouseover="MM_swapImage('document.layers[\'about1\'].document.c8','document.c8','../asset/subimg/c_sub_08_on.gif')" onmouseout="MM_swapImage('document.layers[\'about1\'].document.c8','document.c8','../asset/subimg/c_sub_08_off.gif')">
+							<img src="../asset/subimg/c_sub_08_off.gif" width="46" height="14" border="0"  name="c8"></a></td>
+							<td width="59"><a href="javascript:GoMenu('ad')" onmouseover="MM_swapImage('document.layers[\'about1\'].document.c9','document.c9','../asset/subimg/c_sub_09_on.gif')" onmouseout="MM_swapImage('document.layers[\'about1\'].document.c9','document.c9','../asset/subimg/c_sub_09_off.gif')">
+							<img src="../asset/subimg/c_sub_09_off.gif" width="46" height="14" border="0"  name="c9"></a></td>
+						</tr>  
+
+					  </table>
+					</div>	
+					<div id="about2" style="Display: none">
+					<table  height="21" border="0" cellspacing="0" cellpadding="0" bgcolor="#c7c7c7">					  	  
+						<tr>		
+							<td width="1" bgcolor="#828282"></td>
+							<td><a href="javascript:GoMenu('cellular')" onmouseover="MM_swapImage('document.layers[\'about2\'].document.p1','document.p1','../asset/subimg/p_sub_01_on.gif')" onmouseout="MM_swapImage('document.layers[\'about2\'].document.p1','document.p1','../asset/subimg/p_sub_01_off.gif')">
+							<img src="../asset/subimg/p_sub_01_off.gif" width="89" height="14" border="0" alt="" name="p1"></a></td>	  
+							<td><a href="javascript:GoMenu('pcs')" onmouseover="MM_swapImage('document.layers[\'about2\'].document.p2','document.p2','../asset/subimg/p_sub_02_on.gif')" onmouseout="MM_swapImage('document.layers[\'about2\'].document.p2','document.p2','../asset/subimg/p_sub_02_off.gif')">
+							<img src="../asset/subimg/p_sub_02_off.gif" width="95" height="14" border="0" alt="" name="p2"></a></td>	  
+							<td><a href="javascript:GoMenu('pimt')" onmouseover="MM_swapImage('document.layers[\'about2\'].document.p3','document.p3','../asset/subimg/p_sub_03_on.gif')" onmouseout="MM_swapImage('document.layers[\'about2\'].document.p3','document.p3','../asset/subimg/p_sub_03_off.gif')">
+							<img src="../asset/subimg/p_sub_03_off.gif" width="106" height="14" border="0" alt="" name="p3"></a></td>	  
+						</tr>  
+					</table>
+					</div>	
+					<div id="about3"  style="Display: none">
+					<table  height="21" border="0" cellspacing="0" cellpadding="0" bgcolor="#c7c7c7">					  	  
+						<tr>	
+							<td width="1" bgcolor="#828282"></td>	
+							<td><a href="javascript:GoMenu('online')" onmouseover="MM_swapImage('document.layers[\'about3\'].document.cu1','document.cu1','../asset/subimg/cu_sub_01_on.gif')" onmouseout="MM_swapImage('document.layers[\'about3\'].document.cu1','document.cu1','../asset/subimg/cu_sub_01_off.gif')">
+							<img src="../asset/subimg/cu_sub_01_off.gif" width="103" height="14" border="0"  name="cu1"></a></td>	  
+							<td><a href="javascript:GoMenu('suggest')" onmouseover="MM_swapImage('document.layers[\'about3\'].document.cu2','document.cu2','../asset/subimg/cu_sub_02_on.gif')" onmouseout="MM_swapImage('document.layers[\'about3\'].document.cu2','document.cu2','../asset/subimg/cu_sub_02_off.gif')">
+							<img src="../asset/subimg/cu_sub_02_off.gif" width="75" height="14" border="0"  name="cu2"></a></td>	  
+							<td><a href="javascript:GoMenu('as')" onmouseover="MM_swapImage('document.layers[\'about3\'].document.cu3','document.cu3','../asset/subimg/cu_sub_03_on.gif')" onmouseout="MM_swapImage('document.layers[\'about3\'].document.cu3','document.cu3','../asset/subimg/cu_sub_03_off.gif')">
+							<img src="../asset/subimg/cu_sub_03_off.gif" width="70" height="14" border="0"  name="cu3"></a></td>	
+							<td><a href="javascript:GoMenu('download')" onmouseover="MM_swapImage('document.layers[\'about3\'].document.cu4','document.cu4','../asset/subimg/cu_sub_04_on.gif')" onmouseout="MM_swapImage('document.layers[\'about3\'].document.cu4','document.cu4','../asset/subimg/cu_sub_04_off.gif')">
+							<img src="../asset/subimg/cu_sub_04_off.gif" width="88" height="14" border="0"  name="cu4"></a></td>	    
+						</tr>  
+					</table>
+					</div>	
+					<div id="about4"  style="Display: none">
+					<table  height="21" border="0" cellspacing="0" cellpadding="0" bgcolor="#c7c7c7">					  	  
+						<tr>		
+							<td width="1" bgcolor="#828282"></td>
+							<td><a href="javascript:GoMenu('club')" onmouseover="MM_swapImage('document.layers[\'about4\'].document.h1','document.h1','../asset/subimg/h_sub_01_on.gif')" onmouseout="MM_swapImage('document.layers[\'about4\'].document.h1','document.h1','../asset/subimg/h_sub_01_off.gif')">
+							<img src="../asset/subimg/h_sub_01_off.gif" width="79" height="14" border="0"  name="h1"></a></td>	  
+							<td><a href="javascript:GoMenu('msg')" onmouseover="MM_swapImage('document.layers[\'about4\'].document.h2','document.h2','../asset/subimg/h_sub_02_on.gif')" onmouseout="MM_swapImage('document.layers[\'about4\'].document.h2','document.h2','../asset/subimg/h_sub_02_off.gif')">
+							<img src="../asset/subimg/h_sub_02_off.gif" width="82" height="14" border="0"  name="h2"></a></td>	  
+							<td><a href="javascript:GoMenu('game')" onmouseover="MM_swapImage('document.layers[\'about4\'].document.h3','document.h3','../asset/subimg/h_sub_03_on.gif')" onmouseout="MM_swapImage('document.layers[\'about4\'].document.h3','document.h3','../asset/subimg/h_sub_03_off.gif')">
+							<img src="../asset/subimg/h_sub_03_off.gif" width="53" height="14" border="0"  name="h3"></a></td>	
+							<td><a href="javascript:GoMenu('character')" onmouseover="MM_swapImage('document.layers[\'about4\'].document.h4','document.h4','../asset/subimg/h_sub_04_on.gif')" onmouseout="MM_swapImage('document.layers[\'about4\'].document.h4','document.h4','../asset/subimg/h_sub_04_off.gif')">
+							<img src="../asset/subimg/h_sub_04_off.gif" width="105" height="14" border="0"  name="h4"></a></td>	    
+							<td><a href="javascript:GoMenu('dream')" onmouseover="MM_swapImage('document.layers[\'about4\'].document.h5','document.h5','../asset/subimg/h_sub_05_on.gif')" onmouseout="MM_swapImage('document.layers[\'about4\'].document.h5','document.h5','../asset/subimg/h_sub_05_off.gif')">
+							<img src="../asset/subimg/h_sub_05_off.gif" width="86" height="14" border="0"  name="h5"></a></td>	  
+							<td><a href="javascript:GoMenu('wallpaper')" onmouseover="MM_swapImage('document.layers[\'about4\'].document.h6','document.h6','../asset/subimg/h_sub_06_on.gif')" onmouseout="MM_swapImage('document.layers[\'about4\'].document.h6','document.h6','../asset/subimg/h_sub_06_off.gif')">
+							<img src="../asset/subimg/h_sub_06_off.gif" width="125" height="14" border="0"  name="h6"></a></td>	  
+						</tr>  
+					</table>
+					</div>	
+					<div id="about5"  style="Display: none">
+					<table  height="21" border="0" cellspacing="0" cellpadding="0" bgcolor="#c7c7c7">					  	  
+						<tr>		
+							<td width="1" bgcolor="#828282"></td>
+							<td><a href="javascript:GoMenu('gongo')" onmouseover="MM_swapImage('document.layers[\'about5\'].document.re1','document.re1','../asset/subimg/r_sub_01_on.gif')" onmouseout="MM_swapImage('document.layers[\'about5\'].document.re1','document.re1','../asset/subimg/r_sub_01_off.gif')">
+							<img src="../asset/subimg/r_sub_01_off.gif" width="73" height="14" border="0"  name="re1"></a></td>	  		
+							<td><a href="javascript:GoMenu('guide')" onmouseover="MM_swapImage('document.layers[\'about5\'].document.re2','document.re2','../asset/subimg/r_sub_02_on.gif')" onmouseout="MM_swapImage('document.layers[\'about5\'].document.re2','document.re2','../asset/subimg/r_sub_02_off.gif')">
+							<img src="../asset/subimg/r_sub_02_off.gif" width="70" height="14" border="0"  name="re2"></a></td>	  		
+							<td><a href="javascript:GoMenu('online2')" onmouseover="MM_swapImage('document.layers[\'about5\'].document.re3','document.re3','../asset/subimg/r_sub_03_on.gif')" onmouseout="MM_swapImage('document.layers[\'about5\'].document.re3','document.re3','../asset/subimg/r_sub_03_off.gif')">
+							<img src="../asset/subimg/r_sub_03_off.gif" width="69" height="14" border="0"  name="re3"></a></td>	  		
+							<td><a href="javascript:GoMenu('app')" onmouseover="MM_swapImage('document.layers[\'about5\'].document.re4','document.re4','../asset/subimg/r_sub_04_on.gif')" onmouseout="MM_swapImage('document.layers[\'about5\'].document.re4','document.re4','../asset/subimg/r_sub_04_off.gif')">
+							<img src="../asset/subimg/r_sub_04_off.gif" width="80" height="14" border="0"  name="re4"></a></td>	  		
+							<td><a href="javascript:GoMenu('result')" onmouseover="MM_swapImage('document.layers[\'about5\'].document.re5','document.re5','../asset/subimg/r_sub_05_on.gif')" onmouseout="MM_swapImage('document.layers[\'about5\'].document.re5','document.re5','../asset/subimg/r_sub_05_off.gif')">
+							<img src="../asset/subimg/r_sub_05_off.gif" width="94" height="14" border="0"  name="re5"></a></td>	  		
+							<td><a href="javascript:GoMenu('person')" onmouseover="MM_swapImage('document.layers[\'about5\'].document.re6','document.re6','../asset/subimg/r_sub_06_on.gif')" onmouseout="MM_swapImage('document.layers[\'about5\'].document.re6','document.re6','../asset/subimg/r_sub_06_off.gif')">
+							<img src="../asset/subimg/r_sub_06_off.gif" width="111" height="14" border="0"  name="re6"></a></td>	  		
+							<td><a href="javascript:GoMenu('faq')" onmouseover="MM_swapImage('document.layers[\'about5\'].document.re7','document.re7','../asset/subimg/r_sub_07_on.gif')" onmouseout="MM_swapImage('document.layers[\'about5\'].document.re7','document.re7','../asset/subimg/r_sub_07_off.gif')">
+							<img src="../asset/subimg/r_sub_07_off.gif" width="64" height="14" border="0"  name="re7"></a></td>	  		
+						</tr>  
+					</table>
+					</div>	
+					<div id="about6"  style="Display: none">
+					<table  height="21" border="0" cellspacing="0" cellpadding="0" bgcolor="#c7c7c7">					  	  
+						<tr>	
+							<td width="1" bgcolor="#828282"></td>	
+							<td><a href="javascript:GoMenu('manage')" onmouseover="MM_swapImage('document.layers[\'about6\'].document.i1','document.i1','../asset/subimg/i_sub_01_on.gif')" onmouseout="MM_swapImage('document.layers[\'about6\'].document.i1','document.i1','../asset/subimg/i_sub_01_off.gif')">
+							<img src="../asset/subimg/i_sub_01_off.gif" width="79" height="14" border="0"  name="i1"></a></td>	  
+							<td><a href="javascript:GoMenu('present')" onmouseover="MM_swapImage('document.layers[\'about6\'].document.i2','document.i2','../asset/subimg/i_sub_02_on.gif')" onmouseout="MM_swapImage('document.layers[\'about6\'].document.i2','document.i2','../asset/subimg/i_sub_02_off.gif')">
+							<img src="../asset/subimg/i_sub_02_off.gif" width="82" height="14" border="0"  name="i2"></a></td>	  
+							<td><a href="javascript:GoMenu('fin')" onmouseover="MM_swapImage('document.layers[\'about6\'].document.i3','document.i3','../asset/subimg/i_sub_03_on.gif')" onmouseout="MM_swapImage('document.layers[\'about6\'].document.i3','document.i3','../asset/subimg/i_sub_03_off.gif')">
+							<img src="../asset/subimg/i_sub_03_off.gif" width="87" height="14" border="0"  name="i3"></a></td>	
+							<td><a href="javascript:GoMenu('stock')" onmouseover="MM_swapImage('document.layers[\'about6\'].document.i4','document.i4','../asset/subimg/i_sub_04_on.gif')" onmouseout="MM_swapImage('document.layers[\'about6\'].document.i4','document.i4','../asset/subimg/i_sub_04_off.gif')">
+							<img src="../asset/subimg/i_sub_04_off.gif" width="89" height="14" border="0"  name="i4"></a></td>	    
+							<td><a href="javascript:GoMenu('investfaq')" onmouseover="MM_swapImage('document.layers[\'about6\'].document.i5','document.i5','../asset/subimg/i_sub_05_on.gif')" onmouseout="MM_swapImage('document.layers[\'about6\'].document.i5','document.i5','../asset/subimg/i_sub_05_off.gif')">
+							<img src="../asset/subimg/i_sub_05_off.gif" width="85" height="14" border="0"  name="i5"></a></td>	  		
+						</tr>  
+					</table>
+					</div>	
+					</td>
+					<td width="175" align="right">
+					search <input type="text" name="searchString" size="10"><input type="image" src="../asset/img/btn_go.gif" width="30" height="17" border="0"  hspace="5" align="absmiddle"><input type="hidden" name="action" value="이동">
+					</td>
+				</tr>
+			</table>		
+		</td>
+	</tr>
+	</form>					
+	<!-- top end -->
+	
+	<!-- main start -->
+	<tr>
+		<td align="center">
+			<table cellpadding="0" cellspacing="0" border="0" width="740">
+				<tr>
+					<td height="18" colspan="2" background="../asset/img/bgline_sub_center.gif"><img src="asset/img/spacer.gif" width="1" height="1"  border="0" ></td>
+				</tr>	
+				<tr>
+					<!-- left start -->
+					<td width="139" background="../asset/img/bg_sub_left.gif" valign="top">					
+						<table cellpadding="0" cellspacing="0" border="0" width="100%">
+							<tr>
+								<td><img src="img/text_cintro_left.gif" width="139" height="21" border="0" ></td>
+							</tr>
+							<tr>
+								<td><a href="javascript:GoMenu('summary')" onMouseOver = "imgOn('1')" onMouseOut = "imgOff('1')"><img src="img/c_roll_01_off.gif" width="139" height="23" border="0"  name="r1"></a></td>
+							</tr>
+							<tr>
+								<td><a href="javascript:GoMenu('ceo')" onMouseOver = "imgOn('2')" onMouseOut = "imgOff('2')"><img src="img/c_roll_02_off.gif" width="139" height="22" border="0"  name="r2"></a></td>
+							</tr>
+							<tr>
+								<td><a href="javascript:GoMenu('histor')" onMouseOver = "imgOn('3')" onMouseOut = "imgOff('3')"><img src="img/c_roll_03_off.gif" width="139" height="22"  border="0" name="r3"></a></td>
+							</tr>
+							<tr>
+								<td><a href="javascript:GoMenu('business')" onMouseOver = "imgOn('4')" onMouseOut = "imgOff('4')"><img src="img/c_roll_04_off.gif" width="139" height="22"  border="0" name="r4"></a></td>
+							</tr>
+							<tr>
+								<td><a href="javascript:GoMenu('loc')" onMouseOver = "imgOn('5')" onMouseOut = "imgOff('5')"><img src="img/c_roll_05_off.gif" width="139" height="22"  border="0" name="r5"></a></td>
+							</tr>
+							<tr>
+								<td><a href="javascript:GoMenu('rd')" onMouseOver = "imgOn('6')" onMouseOut = "imgOff('6')"><img src="img/c_roll_06_off.gif" width="139" height="22"  border="0" name="r6"></a></td>
+							</tr>
+							<tr>
+								<td><img src="img/c_roll_07_on.gif" width="139" height="22"  border="0" name="r7"></td>
+							</tr>
+							<tr>
+								<td><a href="javascript:GoMenu('ci')" onMouseOver = "imgOn('8')" onMouseOut = "imgOff('8')"><img src="img/c_roll_08_off.gif" width="139" height="22"  border="0" name="r8"></a></td>
+							</tr>
+							<tr>
+								<td><a href="javascript:GoMenu('ad')" onMouseOver = "imgOn('9')" onMouseOut = "imgOff('9')"><img src="img/c_roll_09_off.gif" width="139" height="21"  border="0" name="r9"></a></td>
+							</tr>
+							<tr><td height="25"><img src="img/spacer.gif" width="1" height="1"  border="0"></td></tr>
+							<tr>
+								<td align="center"><a href="javascript:popup();"><img src="../asset/img/banner_menu_01.gif" width="139" height="64" border="0" ></a></td>
+							</tr>															
+						</table>
+					</td>
+					<!-- left end-->
+					<!-- center start -->					
+					<td width="601" align="right" valign="top" background="../asset/img/bgline_sub_right.gif">
+						<table cellpadding="0" cellspacing="0" border="0" width="586">
+							<tr>
+								<td height="21" align="right"><img src="../asset/img/ico_arr_03.gif" width="3" height="5" border="0" hspace="3"><a href="javascript:GoMenu('home')">Home</a> / <a href="javascript:GoMenu('cintro')">회사소개</a> / <b>Press Room</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							</tr>
+							<tr>
+								<td background="../asset/img/bg_dot_gr01.gif" height="1"><img src="img/spacer.gif" width="1" height="1"  border="0"></td>
+							</tr>
+							<tr>
+								<td>									
+									<table cellpadding="0" cellspacing="0" border="0" width="565">																				
+										<tr>
+											<td><img src="img/img_press_01.gif" width="209" height="120" border="0"><img src="img/title_press_01.gif" width="326" height="67" border="0"  align="absmiddle"></td>
+										</tr>
+										<tr><td height="40"></td></tr>										
+										<tr>
+											<td bgcolor="#6d6e71">
+												<table border="0" cellpadding="0" cellspacing="1" width="100%">
+												  <tr bgcolor="#e9e9e9">
+												  	<td  height="22"><img src="img/text_press_01.gif" width="81" height="14" border="0"  hspace="7"></td>						  		  										
+												  </tr>									 
+												</table>
+											</td>
+										</tr>	
+										<tr><td height="26"></td></tr>
+										<!--//////////		View start	/////////-->
+
+										<tr>
+											<td bgcolor="#999999">
+												<table border="0" cellpadding="0" cellspacing="1" width="100%">
+												  <tr>
+													<td bgcolor="#95b9df" height="26">
+													&nbsp;&nbsp;&nbsp;&nbsp;<img src="../asset/img/ico_arrow01.gif" width="9" height="8" border="0" > <font color="#152847"><b>제목 : [경영인 탐구] 박병엽 &lt;팬택.큐리텔 부회장&gt; .. 편안한 경영 거부</b></font>
+													</td>
+												  </tr>												  
+												  <tr>
+													<td bgcolor="#ffffff">
+														<table cellpadding="0" cellspacing="1" border="0" width="100%">
+															<tr><td height="10"></td></tr>
+<!--															<tr>
+																<td width="114" align="right" valign="top"><img src="img/img_press_02.gif" width="87" height="87" border="0" ></td>
+																<td width="10"><img src="img/spacer.gif" width="1" height="1"  border="0"></td>-->
+															<tr>
+																<td width="565">
+																	<table  cellpadding="0" cellspacing="0" border="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td width="555">
+																			<br>&nbsp;&nbsp;휴대폰 제조업체인 팬택의 박병엽 부회장(40)은 말단사원 시절부터 '통이 크다'는 말을 듣곤 했다.<br><br>사소한 일에 얽매이지 않고 크게 도모한다는 뜻에서였다. <br><br>하지만 그런 그도 작년 말 휴대큐리텔 인수 직전에는 심각하게 고민해야 했다. <br><br>인수하겠다고 결심하기까지는 별다른 어려움이 없었다. <br><br>그가 고민했던 것은 큐리텔을 인수해 일등기업으로 바꿔 놓으려면 획기적인 조치가 필요하다는 생각 때문이었다. <br><br>고민 끝에 내린 결론은 '모든 것을 걸자'였다. <br><br>이런 판단에 따라 그는 회사 돈 대신 '개인 돈'을 털어 현대큐리텔을 인수했다. <br><br>박 부회장은 서울 서초동 현대큐리텔 대표이사 집무실을 찾은 기자에게 "내 모든 것을 걸지 않으면 안될 것 같아 그렇게 했다"고 얘기했다. <br><br>그는 "뭐가 아쉬워 그런 모험을 택했느냐고 묻는 사람이 많은데 경영이란 대충 해가지곤 안되는 것 아니냐"고 반문했다. <br><br>또 "처음부터 다시 뛰고 싶었고 기어이 일등을 해보고 싶었다"고 덧붙였다. <br><br>박 부회장의 결심은 현대큐리텔 임직원들에게 신선한 충격으로 작용했다. <br><br>박 부회장은 큐리텔을 인수해 공동대표로 취임한 후 임직원들과 밤늦도록 술잔을 기울이며 얘기를 나누곤 했다. <br><br>술자리에서 임직원들의 상한 자존심을 달랬고 "합심해서 일등기업을 만들자"며 건배도 했다. <br><br>이런 과정을 거치면서 큐리텔과 박 부회장과 팬택은 금새 한 식구가 됐다. <br><br>그는 "큐리텔 업무를 파악하고 조직을 장악하는데 일주일밖에 걸리지 않았다"고 말했다. <br><br>팬택 오너인 박 부회장의 큐리텔 인수는 사실상 큐리텔과 팬택의 결합을 의미한다. <br><br>큐리텔은 든든한 '동료'를 얻어 힘이 솟았던지 새 주인을 맞자마자 초대형 상담을 성사시켰다. <br><br>지난달 미국 오디오박스로부터 휴대폰 5백만대를 수주했던 것. <br><br>이는 단일 물량으로 세계 최대 규모이며 금액으로 약 1조원에 달한다. <br><br>박 부회장은 "오디오박스측이 3백만대만 사가겠다고 하길래 '최소한 5백만대를 사가라'고 졸라 오케이를 받아냈다"고 설명했다. <br><br>큐리텔 임직원들은 5백만대 수주를 계기로 자존심과 자신감을 되찾았다. <br><br>팬택 근로자들도 이름 없는 중견 메이커에서 벗어나 세계시장을 좌우하는 메이저로 도약하게 됐다며 반기고 있다. <br><br>큐리텔과 팬택은 지금 일등기업 도약을 위한 장기 플랜을 짜고 있다. <br><br>박 부회장은 "덩치만 큰 기업이 아니라 기술중심회사, 기술일등회사를 만드는 것이 기본방향"이라고 설명했다. <br><br>또 "두 회사를 합병하지 않고도 시너지를 극대화하는 방안을 찾고 있다"고 말했다. <br><br>박 부회장이 단단히 각오하고 승부를 걸었던 것은 비단 큐리텔 인수건만이 아니다. <br><br>11년전인 지난 91년에는 벤처기업 팬택을 설립해 삼성전자와 금성사에 정면으로 맞섰고 98년에는 세계 2위의 휴대폰 메이커인 미국 모토로라를 설득해 팬택에 투자하게 했다. <br><br>특히 팬택을 설립할 때는 자신의 모든 것을 걸고 '불가능'에 도전했다. <br><br>그는 당시 맥슨전자 국내영업부에서 실력을 인정받는 사원이었다. <br><br>그러나 보장된 장래를 마다하고 자신의 10평 연립주택을 담보로 돈을 빌려 팬택을 설립했다. <br><br>이때부터 무선호출기(일명 삐삐)를 만들어 다국적 기업과 대기업에 맞서 싸웠다. <br><br>다행히 팬택이 만든 무선호출기는 불티나게 팔려 나갔다. <br><br>기술로 승부를 걸어 가장 작고 성능이 좋은 제품을 내놓았기 때문이었다. <br><br>박 부회장은 무선호출기 인기가 절정에 달할 무렵 주력품목을 휴대폰을 바꾸는 작업을 시작했다. <br><br>팬택의 휴대폰은 무선호출기의 명성을 그대로 이어갔다. <br><br>그러자 모토로라가 '구미가 당길 만한 거액'을 제시하며 팬택을 인수하겠다고 나섰다. <br><br>그러나 박 부회장은 제의를 거절했다. <br><br>그 대신 "시키는 대로 할 테니 팬택에 투자하라"고 설득했다. <br><br>결국 모토로라는 팬택에 투자했고 팬택은 모토로라 유통망을 활용, 세계시장으로 뻗어나가게 됐다. <br><br>박 부회장은 "그때 팬택을 모토로라한테 팔았더라면 꽤 큰 돈을 손에 넣었을 것"이라면서 "그러나 기업을 경영하고 싶었고 애써 키운 기업을 외국기업한테 넘기고 싶지 않았다"고 회고했다. <br><br>박 부회장은 남다른 친화력을 갖고 있고 경영에서는 유난히 인재를 중시한다. <br><br>주위에선 그를 "누구든지 자기를 좋아하게 만드는 마력을 지닌 사람"이라고 말한다. <br><br>대화가 시작되면 걸쭉한 재담으로 좌중을 휘업잡고 죽이 맞으면 스스럼없이 "형님" "동생"이라 부른다. <br><br>또 인재를 만나면 삼고초려(三顧草廬)를 마다하지 않는다. <br><br>LG전자 출신 박정대 사장(큐리텔.팬택 계열 대표), 삼성전자 출신 이성규 사장(팬택 대표) 등을 이런 식으로 영입했다. <br><br>박 부회장은 자신이 선택한 사람에 대해서는 철저하게 믿고 일을 맡긴다. <br><br>그는 큐리텔 송문섭 사장을 "깜짝 놀랄 만한 실력을 갖춘 스탠포드 박사"라고 평했고 팬택 이성규 사장에 대해서는 "발군의 실력자", "기술에 관한한 당대 최고"란 표현을 썼다. <br><br>자신에 대해서는 "아둔하고 능력이 부족하다"면서 "다만 나의 부족한 점을 보충해줄 인재들을 끌어모으고 이들이 실력을 발휘하게 하는 재주를 조금 갖고 있을 따름"이라고 말했다. <br><br>박 부회장은 인터뷰를 끝내고 기자가 취재수첩을 덮자 "하고 싶은 말이 하나 있다"고 하더니 "다시 태어난다면 기업 경영 안하고 경쟁 없는 사회에서 살고 싶다"고 말했다. <br><br><br><br><br>----------------------------------------------------------------- <br><br>&lt; 약력 &gt; <br><br>&lt;&gt; 1962년 전북 정읍 출생 <br>&lt;&gt; 서울 중동고 <br>&lt;&gt; 호서대 경영학과 졸업 <br>&lt;&gt; 고려대 경영대학원(재학중) <br>&lt;&gt; 1987년 맥슨전자 입사 <br>&lt;&gt; 1991년 (주)팬택 설립(대표이사) <br>&lt;&gt; 2001년 11월 무역의날 철탑산업훈장 수상 <br>&lt;&gt; 2001년 12월 현대큐리텔 인수(공동대표)  <br> <br>&lt;김광현 기자 : khkim@hankyung.com&gt;<br><br><b>(한국경제 : 2002-02-22 15:03:43)</b>
+																		</td>
+																	</tr>
+																	</table>
+																</td>
+															</tr>
+															<tr><td height="10"></td></tr>																					  
+														</table>
+													</td>
+												 </tr>		
+												 <tr bgcolor="#b5d2f1">
+													<td  height="30" align="center">
+
+															<a href="term.asp?num=26&job=view"><img src="../asset/img/btn_backblue_02.gif" width="43" height="18" border="0" alt="이전글"></a>
+
+														<a href="term.asp?page=1"><img src="../asset/img/btn_list.gif" width="62" height="18" border="0" alt=""></a>
+
+															<a href="term.asp?num=24&job=view"><img src="../asset/img/btn_nextblue_02.gif" width="43" height="18" border="0" alt="다음글"></a>
+
+													</td>
+												</tr>													 
+												</table>
+											</td>
+										</tr>																	
+										<tr><td height="26"></td></tr>
+
+										<!--//////////		View end	 	/////////-->
+										<tr>
+											<td bgcolor="#999999">
+												<table cellpadding="0" cellspacing="1" border="0" width="100%">
+												<form name="frmPress" action="term_sch.asp" method="post" onSubmit="return boardSearch(this);">
+													<tr>
+														<td bgcolor="#ffffff" align="center">
+															<table cellpadding="0" cellspacing="0" border="0" width="100%">
+																<tr>
+																	<td bgcolor="#95b9df" height="26">
+																	&nbsp;&nbsp;&nbsp;&nbsp;<img src="../asset/img/ico_arrow01.gif" width="9" height="8" border="0"> <font color="#152847"><b>신속하고 정확한 보도자료</b></font>
+																	</td>
+																</tr>
+																<tr>
+																	<td align="right" height="33">
+																		<select name="cmbSearch">
+																			<option value="s" selected>제목</option>
+																			<option value="c">내용</option>
+																			<option value="o">출처</option>
+																		</select>
+																		<input type="text" name="searchStr" size="12"> 
+																		<input type="image" src="../asset/img/btn_go.gif" width="30" height="17" border="0"  hspace="10">
+																		<input type="hidden" name="start" value="y">
+																		<input type="hidden" name="csRP" value="term">
+																		<input type="hidden" name="mPage" value="2">
+																	</td>
+																</tr>	
+																<tr>
+																	<td>
+																		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+																			<tr align="center" bgcolor="#ececec">
+																				<td width="50" height="25"><b>No.</b></td>
+																				<td width="1" rowspan="99" bgcolor="#ffffff">
+																					<img src="img/spacer.gif" width="1" height="1"  border="0">
+																				</td>
+																				<td width="320"><b>제목</b></td>
+																				<td width="1" rowspan="99" bgcolor="#ffffff">
+																					<img src="img/spacer.gif" width="1" height="1"  border="0">
+																				</td>
+																				<td width="120"><b>출처</b></td>
+																				<td width="1" rowspan="99" bgcolor="#ffffff">
+																					<img src="img/spacer.gif" width="1" height="1"  border="0">
+																				</td>
+																				<td width="72"><b>날짜</b></td>
+																			</tr>
+
+																					<tr height=24 align=center  
+																						onMouseOver="this.style.backgroundColor='#f3f6fd'" onMouseOut="this.style.backgroundColor=''">
+																						<td width="50" align="center"><font size=2>25</font></td>
+																						<td width="320" align="left">&nbsp;
+																							<font size=2>
+
+																								<font color="#000055">[경영인 탐구] 박병엽 &lt;팬택.큐리텔 부회장&gt; .. 편안한 경영 거부</font>
+
+																							</font>
+																						</td>
+																						<td width="120"><font size=2>한국경제</font></td>
+																						<td width="72"><font size=2>2002-02-22</font></td>
+																					</tr>
+
+																					<tr height=24 align=center bgcolor="#ececec" 
+																						onMouseOver="this.style.backgroundColor='#f3f6fd'" onMouseOut="this.style.backgroundColor=''">
+																						<td width="50" align="center"><font size=2>24</font></td>
+																						<td width="320" align="left">&nbsp;
+																							<font size=2>
+
+																								<a href="term.asp?job=view&iIdx=49&page=2&csRP=term">
+																									[경영인 탐구] 박병엽 &lt;팬택.큐리텔 부회장&gt; '인간관계'
+																								</a>
+
+																							</font>
+																						</td>
+																						<td width="120"><font size=2>한국경제</font></td>
+																						<td width="72"><font size=2>2002-02-22</font></td>
+																					</tr>
+
+																					<tr height=24 align=center  
+																						onMouseOver="this.style.backgroundColor='#f3f6fd'" onMouseOut="this.style.backgroundColor=''">
+																						<td width="50" align="center"><font size=2>23</font></td>
+																						<td width="320" align="left">&nbsp;
+																							<font size=2>
+
+																								<a href="term.asp?job=view&iIdx=48&page=2&csRP=term">
+																									CDMA 단말기 사상최대 수출
+																								</a>
+
+																							</font>
+																						</td>
+																						<td width="120"><font size=2>전자신문</font></td>
+																						<td width="72"><font size=2>2002-02-07</font></td>
+																					</tr>
+
+																					<tr height=24 align=center bgcolor="#ececec" 
+																						onMouseOver="this.style.backgroundColor='#f3f6fd'" onMouseOut="this.style.backgroundColor=''">
+																						<td width="50" align="center"><font size=2>22</font></td>
+																						<td width="320" align="left">&nbsp;
+																							<font size=2>
+
+																								<a href="term.asp?job=view&iIdx=47&page=2&csRP=term">
+																									현대큐리텔 '초대형 수출계약 성사' 의미
+																								</a>
+
+																							</font>
+																						</td>
+																						<td width="120"><font size=2>전자신문</font></td>
+																						<td width="72"><font size=2>2002-02-07</font></td>
+																					</tr>
+
+																		</table>
+																	</td>
+																</tr>																															
+															</table>
+														</td>
+													</tr>
+													<tr bgcolor="b5d2f1">
+														<td  height="30">
+															<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center"><span class="tk-bk02">
+
+																			<img src="../asset/img/btn_backblue_01.gif" width="22" height="18" border="0" alt="이전 10 pages" align="absmiddle">
+
+																			<a href="term.asp?page=1"><img src="../asset/img/btn_backblue_02.gif" width="43" height="18" border="0" alt="1" align="absmiddle"></a>
+
+
+																		&nbsp;&nbsp;&nbsp;
+
+																				<a href="term.asp?page=1"><font size=2>1</font></a>&nbsp;
+
+																				<b><font size=3>2</font></b>&nbsp;
+
+																				<a href="term.asp?page=3"><font size=2>3</font></a>&nbsp;
+
+																				<a href="term.asp?page=4"><font size=2>4</font></a>&nbsp;
+
+																				<a href="term.asp?page=5"><font size=2>5</font></a>&nbsp;
+
+																				<a href="term.asp?page=6"><font size=2>6</font></a>&nbsp;
+
+																				<a href="term.asp?page=7"><font size=2>7</font></a>&nbsp;
+
+																				<a href="term.asp?page=8"><font size=2>8</font></a>&nbsp;
+
+																		&nbsp;&nbsp;&nbsp;
+																		
+
+																			<a href="term.asp?page=3"><img src="../asset/img/btn_nextblue_02.gif" width="43" height="18" border="0" alt="3" align="absmiddle"></a>
+
+																			<img src="../asset/img/btn_nextblue_01.gif" width="22" height="18" border="0" alt="이후 10 pages" align="absmiddle">
+
+																	</span>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</form>
+												</table>															
+											</td>
+										</tr>							
+										<tr>
+											<td height="35" valign="bottom" align="right" colspan="5"><a href="#top"><img src="../asset/img/btn_top.gif" width="36" height="13" border="0" ></a></td>
+										</tr>	
+										<tr><td height="47"></td></tr>		
+									</table>			
+								</td>
+							</tr>
+						</table>
+						
+					</td>
+					<!-- center end -->					
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<!-- main end -->
+	
+	<!-- bottom start -->
+	<tr>
+		<td align="center">
+			<table cellpadding="0" cellspacing="0" border="0" width="740">
+				<tr>
+					<td><img src="../asset/img/img_bottom_left.gif" width="5" height="65" border="0" ></td>
+					<td width="730">
+						<table cellpadding="0" cellspacing="0" border="0" width="100%">
+					    	<tr>
+								<td width="135" background="../asset/img/bg_bottom_blue1.gif" height="65"><img src="asset/img/spacer.gif" width="1" height="1" border="0" ></td>
+								<td width="436" background="../asset/img/bg_bottom_blue2.gif"  align="center" class="tk-white">
+								<a href="javascript:GoMenu('cintro')">회사소개</a> | <a href="javascript:GoMenu('pintro')">제품소개</a> | <a href="javascript:GoMenu('cuintro')">고객센터</a> | <a href="javascript:GoMenu('hmain')">해피 네오미</a> | <a href="javascript:GoMenu('reintro')">채용정보</a> | <a href="javascript:GoMenu('invintro')">투자정보</a><br><img src="asset/img/spacer.gif" width="1" height="7" border="0" ><br>
+								Copyright ⓒ2001 CURITEL all right reserved.
+								</td>
+								<td width="159" background="../asset/img/bg_bottom_blue3.gif"><img src="asset/img/spacer.gif" width="1" height="1" border="0" ></td>
+							</tr>
+						</table>
+					</td>
+					<td><img src="../asset/img/img_bottom_right.gif" width="5" height="65" border="0" ></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<!-- bottom end-->
+	
+	
+	
+</table>
+
+
+</center>
+
+<map name="img_top_map_Map">
+	<area shape="rect"  coords="0,0,35,41" href="javascript:GoMenu('home')">
+	<area shape="rect"  coords="36,0,86,41" href="javascript:GoMenu('contact')">
+	<area shape="rect"  coords="87,0,132,41" href="javascript:GoMenu('sitemap')">							
+	<area shape="rect"  coords="133,0,172,41" href="javascript:GoMenu('eng')">	
+</map>
+
+</body>
+</html>
+<!-- Designed & Made By ADPLUS Communications, 2001 -->

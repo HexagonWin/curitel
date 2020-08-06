@@ -1,0 +1,949 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/help.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<script language='javascript'>
+function print(path)
+{
+     //window.print();
+}
+function _del(ccidx,writer)
+{
+     if(writer != "")
+     {
+          alert("작성자만 삭제가 가능합니다.");
+     }
+     else
+     {
+          location.href="center_comment_save.asp?ccidx=" + ccidx + "&writer="+writer+"&act=delete&cidx=90"
+     }
+
+}
+function comment_str(frm)
+{
+     if(frm.comment.value == "")
+     {
+          alert("코멘트를 입력해 주세요~");
+          frm.comment.focus();
+          return false
+     }
+
+     return true;
+}
+
+function search(frm)
+{
+     if(frm.sword.value=="")
+     {
+          alert("검색어를 입력하세요~");
+          frm.sword.focus();
+          return false;
+     }
+
+     return true;
+}
+</script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+<tr> 
+	<td width="77" height="77" valign="top" style="background:url(/img/help/titleleftbg.gif) repeat-x left top">
+		<!-- SubTitle -->
+		<DIV id=divMenu 
+		style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/help/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/help/ascenter/center_view.asp?cidx=90">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/help/ascenter/center_view.asp?cidx=90">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/help/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/help/index.asp" onfocus="this.blur()"><img src="/img/help/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+		</DIV>
+	</td>
+	<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+    <table cellpadding="0" cellspacing="0" border="0" align="right">
+        <tr>
+            <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+                > <a href="/html/help/index.asp">HELP DESK</a> > <a href="/html/help/ascenter/index.asp">전국
+                서비스센터</a> > 지역별 서비스 센터</td>
+        </tr>
+    </table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+    <tr>
+        <td width="77"></td>
+        <td width="156" valign="top" align="right">
+            <!-- LeftMenu -->
+            <table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td valign="top">
+                        						<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+					       <td align="center">
+	
+						   <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="367">
+					               <param name="movie" value="/inc/flash/left/left_help.swf?html_Num=31&ismonitoring=">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_help.swf?html_Num=31&ismonitoring=" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="367"></embed></object>
+
+
+								   </td>
+						</tr>
+		
+						<tr><td height="50" style="padding:0 0 0 14">
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td height="5" class="mubg_gra_btm"></td>
+                </tr>
+            </table></td>
+        <td width="597" valign="top"> <table width="597" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td valign="top" class="ctsmgn">
+                        <!-- #####Contents Start ##### -->
+                        <table width="537" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td><img src="/img/help/ascenter/subimg_seoul.gif" width="537" height="97"></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor=#ffffff height=2></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor=#F6F8F9 height=26></td>
+                            </tr>
+                            <tr>
+                                <td height="20"></td>
+                            </tr>
+                        </table>
+                        <!--센터 정보 시작-->
+                        <table width="537" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="em b 9">+ 서면점</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:5 0 0 7"> <table cellpadding=0 cellspacing=0 border=0 width=530>
+                                        <tr>
+											<form method=post action="center_list.asp" name=clistfrm onsubmit="return search(this)">
+                                            <td style="padding:0 0 8 0" align=right colspan=2>
+												<select name="scategory" style="width:97">
+												<option value='title'>센타명
+												<option value='address'>센타주소 </select> <input name="sword" type="text" style="width:120">
+												<input type=image src="/img/bbs/btn/btn_search.gif" alt="" border="0" align="absmiddle">
+											<!--
+                                                <select name="select">
+                                                    <option value=''> 시/도 선택 </select>
+                                                <select name="select2">
+                                                    <option value=''> 구/군 선택 </select>
+                                                <a href="#"><img src="/img/bbs/btn/search.gif" width="46" height="17" align=absmiddle></a>
+											-->
+                                            </td>
+											</form>
+                                        </tr>
+                                        <tr valign=top>
+                                            <td width=139> <table cellpadding=0 cellspacing=0 border=0>
+                                                    <tR>
+                                                        <td style="padding:5 5;border:1px solid #D1D1D1">
+															<img src='/upload/center/b10_1.jpg' width='116' height='150' align=absmiddle style='border:1px solid #DEDEDE'>
+                                                            <!--<img src="/img/help/ascenter/centerimg.gif" width="118" height="150">-->
+														</td>
+                                                    </tr>
+                                                </table></td>
+                                            <td> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td height="1" bgcolor="#D1D1D1"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> <table width="385" border="0" cellspacing="0" cellpadding="0" style="margin:6 0">
+                                                                <tr>
+                                                                    <td width="75" height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view01.gif" height="11"></td>
+                                                                    <td width="315">부산</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="1" colspan="2" class="li_dotline"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view02.gif" height="11"></td>
+                                                                    <td>051-804-1472</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="1" colspan="2" class="li_dotline"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view03.gif" height="11"></td>
+                                                                    <td>
+051-804-3127
+																	</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="1" colspan="2" class="li_dotline"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view04.gif" height="11"></td>
+                                                                    <td><a href="mailto:cyslamen@curitel.com">deagu@hdigitech.com </a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="1" colspan="2" class="li_dotline"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view05.gif" height="11"></td>
+                                                                    <td>부산 부산진구 부전동 144-3번지 <!--서울시 강남구
+                                                                        역삼동 726-1번지--></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="1" colspan="2" class="li_dotline"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view06.gif" height="11"></td>
+                                                                    <td style="letter-spacing:-0.05em">
+																		비수기: 평일 AM09:00 ~ PM18:00 / 토요일 AM09:00 ~ PM13:00<br>
+성수기: 평일 AM09:00 ~ PM19:00 / 토요일 AM09:00 ~ PM13:00<br>
+(비수기: 9월 - 5월)<br>
+(성수기: 6월 - 8월)<br>
+
+																	<!--
+																		평일:
+                                                                        10:00
+                                                                        ~ 20:00
+                                                                        / 토요일:
+                                                                        10:00
+                                                                        ~ 13:00
+                                                                        / <font color=#009685>공휴일은
+                                                                        쉽니다</font>
+																	-->
+																	</td>
+                                                                </tr>
+                                                            </table></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="1" bgcolor="#D1D1D1"></td>
+                                                    </tr>
+                                                </table></td>
+                                        </tr>
+                                    </table></td>
+                            </tr>
+                        </table>
+                        <img src="/img/common/plusline.gif" width="557" height="11" vspace=20><br>
+                        <!--센터 정보 끝-->
+                        <!--공지사항 시작-->
+                        <table width="537" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td><img src="/img/help/ascenter/view_tit02.gif" width="178" height="17" alt="" border="0"></td>
+                                <td align=right></td>
+                            </tr>
+                            <tr>
+                                <td style="padding:10 0 0 7" colspan=2>
+									<table cellpadding=0 cellspacing=0 border=0 width=530>
+<tr><td align=center>공지사항이 없습니다.</td></tr>
+                                   </table>
+								</td>
+                            </tr>
+                        </table>
+                        <img src="/img/common/plusline.gif" width="557" height="11" vspace=20><br>
+                        <!--공지사항 끝-->
+                        <!--센터소개 시작-->
+                        <table width="537" cellpadding="0" cellspacing="0" border="0">
+                            <tr valign=bottom>
+                                <td><img src="/img/help/ascenter/view_tit03.gif" width="134" height="17" alt="" border="0"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding:10 0 0 7" colspan=2>
+                                    <!--소개글 센터맵 시작-->
+                                    <table cellpadding=0 cellspacing=0 border=0>
+                                        <tr height=133 valign=top>
+                                            <td width=254><img src='http://file.curitel.com/upload/center/서면점.jpg' width='254' height='133' alt='' border='0'></td>
+                                            <td width=21><img src="/img/help/ascenter/box_bg2.gif" width="21" height="133" alt="" border="0"></td>
+                                            <td width=254 background="/img/help/ascenter/bg_come.gif">
+                                                <table cellpadding=0 cellspacing=0 border=0 width=246>
+                                                    <tr>
+                                                        <td width="246" height="109" valign="top" style="padding:50 10 0 27;letter-spacing:-0.05em">
+															서면 밀레오레앞 사거리 밀레오레 정문에서 대각선 맞은편 오륙도빌딩 3층
+															<!--
+                                                            지하철 2호선 삼성역 4번 출구
+                                                            <br>
+                                                            현대백화점 정문 맞은 편 현대자동차
+                                                            <br>
+                                                            영업소와 굿모닝 증권 사이의 <br>
+                                                            신도리코 건물 지하 1층
+															-->
+														</td>
+                                                    </tr>
+                                                </table>
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <td align=right style="padding:10 0 0 0">
+
+                                                <a href="javascript:PrintMap(90)"><img src="/img/btn/btn_detail.gif" align=absmiddle></a>
+
+                                            </td>
+                                            <td align=right style="padding:10 0 0 0">&nbsp;</td>
+                                            <td align=right style="padding:10 0 0 0">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                    <!--소개글 센터맵 끝-->
+                                </td>
+                            </tr>
+                            <!--tr>
+                                <td><img src="/img/help/ascenter/view_t01.gif" width="73" height="23" alt="" border="0"></td>
+                            </tr>
+                            <tr>
+                                <td>
+
+                                    <table width="533" cellpadding="0" cellspacing="0" border="0" bgcolor="#FCF9E4">
+                                        <tr>
+                                            <td width="4"><img src="/img/common/yedge01.gif" width="4" height="4" alt="" border="0"></td>
+                                            <td width="525" height="4" style="border-top:1px solid #F0EDDA" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+                                            <td width="4"><img src="/img/common/yedge02.gif" width="4" height="4" alt="" border="0"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="45" style="border-left:1px solid #F0EDDA"><img src="/img/b.gif" width="1" height="1"></td>
+                                            <td style="padding:5 10"> <table width="100%" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td> 지하철 2호선 삼성역 4번 출구
+                                                            <br>
+                                                            현대백화점 정문 맞은 편 현대자동차
+                                                            영업소와 굿모닝 증권 사이의 신도리코
+                                                            건물 지하 1층 </td>
+                                                    </tr>
+                                                </table></td>
+                                            <td style="border-right:1px solid #F0EDDA"><img src="/img/b.gif" width="1" height="1"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="/img/common/yedge03.gif" width="4" height="4" alt="" border="0"></td>
+                                            <td height="4" style="border-bottom:1px solid #F0EDDA" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+                                            <td><img src="/img/common/yedge04.gif" width="4" height="4" alt="" border="0"></td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr-->
+                        </table>
+                        <img src="/img/common/plusline.gif" width="557" height="11" vspace=20><br>
+                        <!--센터소개 끝-->
+                        <!--고객님 말씀 시작-->
+                        <table width="537" cellpadding="0" cellspacing="0" border="0">
+                            <tr valign=bottom>
+                                <td><img src="/img/help/ascenter/view_tit04.gif" width="158" height="17" alt="" border="0"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding:10 0 0 7">
+									<table width="530" cellpadding="0" cellspacing="0" border="0">
+										<form method=post action="center_comment_save.asp" onsubmit="return comment_str(this)">
+										<input type=hidden name=cidx value="90">
+										<input type=hidden name=act value="insert">
+                                        <tr bgcolor=#F2F2F2>
+                                            <td width=80><img src="/img/bbs/i_comment.gif" height="33" alt="" border="0"></td>
+                                            
+                        <td width=375 height="19"><input type="text" name="comment" style="width:370;border:1px solid #C6C6C6;font-size:9pt"></td>
+                                            <td width=75 height=19><input type="image" src="/img/btn/btn_input.gif" style="height:19"  align=absmiddle ></a></td>
+                                        </tr>
+										</form>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>mymy1515 </b> &nbsp; <font class=em>2005-04-06 오후 1:00:13</font> <a href="javascript:_del(2426,'mymy1515')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												큐리텔 사랑하는 고객님인데요...밧데리 5칸 있는데 불구하고 자꾸만 전원이 꺼지는데..서비스를 받아야겠죠??
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>rnjsdhdns </b> &nbsp; <font class=em>2005-04-04 오전 2:17:14</font> <a href="javascript:_del(2383,'rnjsdhdns')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												저번달에 음악 다운받다가 폰이 고장나서 서비스를 받았는데 그 후로 음악을 다운받으려니까 USB연결이 안된다고 자꾸 뜨네요. 케이블도 바꿔보고 프로그램도 다시 깔아봤는데 폰이 이상해진 듯해서요. 서비스 받아야겠죠?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>BestOfBests </b> &nbsp; <font class=em>2005-04-02 오후 10:56:42</font> <a href="javascript:_del(2374,'BestOfBests')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												다음주 토요일에 친구들이랑 단체로 소프트웨어 업그레이드 받으러 갈건데 오래 걸리나요? 아니라면 몇시간정도 걸리죠?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>soyoung5245 </b> &nbsp; <font class=em>2005-03-29 오전 12:17:53</font> <a href="javascript:_del(2299,'soyoung5245')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												안녕하세요~? 제 폰이 물에 빠졌거든요_ 빠지자 마자 밧데리 빼고 휴지로 물 깨끗이 닦아냈는데요... 폰 안에는 물이 가득하겠죠 - - 여튼! 제가 작년 7월달에 샀거든요_! 무상 수리 되나요~? 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>frog7004 </b> &nbsp; <font class=em>2005-02-28 오전 11:45:09</font> <a href="javascript:_del(1902,'frog7004')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												cmh0202님 답변이 늦어서 죄송합니다.  배터리나 충전기는 저희센타를 방문하시면 구입이 가능하시지만 휴대폰케이스는 센타에서 판매를 하지 않읍니다. 가까운 휴대폰판매 대리점에 가시면 구입이 가능한걸로 알고 있읍니다. 그럼 즐거운하루 되세요.^^
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>cmh0202 </b> &nbsp; <font class=em>2005-02-22 오전 8:29:54</font> <a href="javascript:_del(1814,'cmh0202')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												여기에 휴대폰케이스나 배터리 팝니까?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>frog7004 </b> &nbsp; <font class=em>2005-02-11 오전 8:25:51</font> <a href="javascript:_del(1617,'frog7004')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												shk2945님 죄송합니다.  저희센타는 토요일 1시까지 문을 엽니다. 1시이후에 방문을 하시게되면 미리 방문전화를 주시면 저희들이 문닫는 시간이 지났어도 고객님을 기다립니다. 불편을 끼쳐드려 죄송합니다. 업무시간외 방문시에는 미리 전화를 주시고 방문부탁을 드립니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>shk2945 </b> &nbsp; <font class=em>2005-02-06 오후 2:13:44</font> <a href="javascript:_del(1591,'shk2945')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												나 여기가봤는데 학교가 여기 근처라서 토요일날 갔는데 1시8분에 도착하니깐 벌써 마쳤뜬데 짜증나서 죽는줄 알았습니다!!!!
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lbsno1 </b> &nbsp; <font class=em>2005-01-31 오후 3:50:19</font> <a href="javascript:_del(1449,'lbsno1')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												고객님들의 저희 서비스센터에 깊은 관심을 가져주셔서 너무 감사드립니다.앞으로 더좋은 서비스를 위해서 노력하겠습니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>frog7004 </b> &nbsp; <font class=em>2005-01-31 오후 12:18:58</font> <a href="javascript:_del(1442,'frog7004')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												zozo님 공용으로 사용하다보니 대리점에서 TTA란 인증마크가 있는 정품충전기를 주는것이 아니고 사제품을 주다보니 간헐적으로 충전기 불량이 나는 경우가 생깁니다. 오해가 있었다면 사과말씀 드리겠습니다. 답변이 늦어서 죄송합니다
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>frog7004 </b> &nbsp; <font class=em>2005-01-31 오후 12:14:48</font> <a href="javascript:_del(1440,'frog7004')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												zozo님 정부정책으로 충전adpt는 공용으로 사용을 합니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>zozo </b> &nbsp; <font class=em>2005-01-18 오전 9:55:22</font> <a href="javascript:_del(1199,'zozo')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												그리고 무료 충전이나 어디에서도 충전을 하면 안된다는 소리 잖아요 거기 충전기 다 불량이라는 소리인데 만나요?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>zozo </b> &nbsp; <font class=em>2005-01-18 오전 9:52:26</font> <a href="javascript:_del(1198,'zozo')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												핸펀구입후이틀만에꺼지고그러는데충전기불량이라는게말이됩니까우리나라90%이상이충전기사용하는데구람핸펀출고할때정품을 주던가
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>polo525 </b> &nbsp; <font class=em>2004-12-06 오전 12:38:34</font> <a href="javascript:_del(856,'polo525')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												액정깨진거나안테나제품없어서연락해준다더만연락도없고너무성의없으신거아닙니까.? 서비스도불친절합니다. 요즘시대는서비스시대인데 ㅉㅉ
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>mh79 </b> &nbsp; <font class=em>2004-11-25 오후 9:42:26</font> <a href="javascript:_del(822,'mh79')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												서비스받으러가기 무섭습니다. 서비스의 서자도 모르는 사람들 넘 시러
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>jaedeokan </b> &nbsp; <font class=em>2004-11-22 오후 3:46:33</font> <a href="javascript:_del(802,'jaedeokan')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												여기만 그런거 아닐까요? 느긋하게 일하는거 보니깐 글구 팬택회사 자체란곳이 A／S상담원이 2명인곳은 첨봅니다...서면에 2명에서 하루에 보는 상담도 상당할텐데..A／S엉망 안되면 교환 LG전자는 그래도 A／S는 많이 가도 수리는 확실하자나요?팬택 후회됨...ㅜ.ㅜ
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>kill0027 </b> &nbsp; <font class=em>2004-10-06 오후 7:37:58</font> <a href="javascript:_del(534,'kill0027')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												액저이깨져는데 고치는데 비산가요
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>poohh33 </b> &nbsp; <font class=em>2004-09-02 오후 6:09:00</font> <a href="javascript:_del(382,'poohh33')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												저두 한마디 해야겠네요.. 핸폰땜시 짜증났는데... 전화받는 그태도는 더 기분상하게 하네요.. 넘 불친절하고!! 도대체 직원관리는 어떻게하시는지..........쯧..
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>banzi218 </b> &nbsp; <font class=em>2004-08-20 오후 1:32:55</font> <a href="javascript:_del(300,'banzi218')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												정말로웃기네요-. - 제가갔는데요, 전화번호사진저장전부다삭제가되있다고하고ㅜ 처음부터말씀을해주시던가 그리고 불친절장난이아닙니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>winter805 </b> &nbsp; <font class=em>2004-08-18 오전 11:53:54</font> <a href="javascript:_del(286,'winter805')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												삼성이나 엘지 서비스 센타에 가봤다가 가서 그런지 모르겠지만, 좀 성의가 없네요.. 불친절까지는 아니지만, 성의는 있어야겠죠...ㅡ,.ㅡ  ／ 신속한 서비스는 좋았습니다. ／ 비록 처음 방문한 거지만.. 너무 바빠서 직원들이 힘들어 하더군요. 그래도 웃어야죠?! 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>kyjdlek </b> &nbsp; <font class=em>2004-08-09 오후 7:53:30</font> <a href="javascript:_del(251,'kyjdlek')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												액정이 깨졌는데요,,=,.=,,안에께,,,ㅎㅎ,,고치는데 돈이드나요,,ㅎㅎ,,서면점,,안좋은가보네요,,허허,ㅎㅎ-_-
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>alswn3210 </b> &nbsp; <font class=em>2004-08-07 오후 4:42:04</font> <a href="javascript:_del(246,'alswn3210')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												서면점, 굉장히 불친절한 경험 감.사.합.니.다.[!] 내부LCD 무상수리약속만 하면 답니까, 연락 기다린지 한달넘었습니다. 하, 또 가면 재고가 없다고 하실런지.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>youngil297 </b> &nbsp; <font class=em>2004-08-06 오후 12:23:59</font> <a href="javascript:_del(241,'youngil297')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												제 친구도 서면점 갔었는데 정말 불칠전하다고 하더군요..
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lllbori </b> &nbsp; <font class=em>2004-08-05 오후 7:38:04</font> <a href="javascript:_del(238,'lllbori')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												작은곳 하나하나에서 기업의 이미지를 말합니다. 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lllbori </b> &nbsp; <font class=em>2004-08-05 오후 7:37:22</font> <a href="javascript:_del(237,'lllbori')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												지금껏 삼성도 많이 서비스 받아봤고 친구따라 사이언도 많이 다녀봤는데 이렇게 불친절 하고 사람 기분나쁘게 하는 곳은 처음이였습니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lllbori </b> &nbsp; <font class=em>2004-08-05 오후 7:36:51</font> <a href="javascript:_del(236,'lllbori')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												 직원교육은 제대로 시키고 있는게 맞습니까 .. 아니면 단순한 알바생의 실수입니까 ? 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lllbori </b> &nbsp; <font class=em>2004-08-05 오후 7:36:28</font> <a href="javascript:_del(235,'lllbori')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												 다음날 찾으러 오라는게 말이 됩니까. . 어째되서 다음날 찾으러 오라는지 말한마디 안해주고 낼 찾으러 오세요 하면 다인게 서비스 하는 사람입니까 ?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lllbori </b> &nbsp; <font class=em>2004-08-05 오후 7:35:47</font> <a href="javascript:_del(234,'lllbori')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												서비스 센터에 간게 맞는가 싶었습니다. 그리고 요즘에 하루안에 안되는 서비스센터가 어디있습니까 ?  
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lllbori </b> &nbsp; <font class=em>2004-08-05 오후 7:34:20</font> <a href="javascript:_del(232,'lllbori')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												오늘 서비스를 받으러갔습니다. 앞에있던 여직원 이수정이라는 직원이 너무 불친절했습니다. . . 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>leejaedu </b> &nbsp; <font class=em>2004-08-02 오후 11:38:45</font> <a href="javascript:_del(214,'leejaedu')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												10000짜리쿠폰날짜가 삼일지났는데 액정고장으로 인해 사용할수있을까요?지난줄 몰랐는데...
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan=3 bgcolor=#C8C8C8></td>
+                                        </tr>
+                                    </table></td>
+                            </tr>
+                        </table>
+                        <!--고객님 말씀 끝-->
+                        <!-- #####//Contents End ##### -->
+                    </td>
+                </tr>
+            </table></td>
+    </tr>
+</table>
+<!-- <a href="center_notice.asp"><img src="/img/btn/btn_more.gif"  align=absmiddle hspace=10></a> -->
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+
+
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner1.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner1.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+</body>
+</html>
+

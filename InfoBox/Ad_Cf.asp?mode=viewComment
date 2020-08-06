@@ -1,0 +1,291 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>PANTECH&CURITEL</title>
+	<link href="/Common/css/basic.css" rel="stylesheet" type="text/css">
+	<link href="/Common/css/board.css" rel="stylesheet" type="text/css">
+	<script language="javascript">
+	<!--
+		function comment( obj, cfid, obj1 )
+		{
+			if ( obj == "add" )
+			{
+				if ("" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else if ( document.board.comment_content.value == "" )
+				{
+					alert("내용을 입력하세요");
+					document.board.comment_content.focus();
+					return;
+				}
+			} else if ( obj == "del" )
+			{
+				if ( "" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else
+				{
+					var ck_confirm = confirm( "삭제하시겠습니까?" );
+					if ( ck_confirm == false )
+					{
+						return false;
+					}
+				}
+			}
+			document.boardComment.table.value = "Ad";
+			document.boardComment.mode.value = obj;
+			document.boardComment.ck_num.value = obj1;
+			document.boardComment.id.value = cfid;
+			document.boardComment.comment_content.value = document.board.comment_content.value;
+			document.boardComment.action = "AdCommentSave.asp";
+			document.boardComment.submit();
+		}
+	/-->
+	</script>
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td colspan="3"><!--mg src="/common/images/fake_flash.gif" width="782" height="222"-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="782" HEIGHT="222" id="Untitled-2" ALIGN="top">
+	<param name="movie" value="/common/header/curitel_sub.swf?colorSetNum=2"><!-- 여기예요.-->
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=salign VALUE=T>
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	<EMBED src="/Common/header/curitel_sub.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+</OBJECT></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/Common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->		
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+	> <a href="/InfoBox/"><font color="#FFFFFF">Info Box</font></a>
+ 
+		
+</td>
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include --><!-- 레프트 메뉴 START -->
+
+<td width="197" valign="top" align="center" background="/Common/images/left_bg.gif">
+
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="10" bgcolor="#FFFFFF"><img src="/Common/images/spacer.gif" width="197" height="10"></td>
+		</tr>
+		<tr>
+			<td><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="197" HEIGHT="600" id="Untitled-2" ALIGN="top">
+					<PARAM NAME=movie VALUE="/Common/menu/info_box_before.swf">
+					<PARAM NAME=quality VALUE=high>
+					<PARAM NAME=salign VALUE=T>
+					<PARAM NAME=bgcolor VALUE=#FFFFFF>
+					<EMBED src="/Common/menu/info_box_before.swf" quality=high salign=T  WIDTH="197" HEIGHT="600" NAME="Untitled-2" ALIGN="top"
+					TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+				</OBJECT></td>
+		</tr>
+	</table>	
+
+</td>
+<!-- // 레프트 메뉴 END   -->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+
+			<table width="580" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td class="main_first" style="padding-left:16">
+						<table width="547" cellpadding="0" cellspacing="0" border="0" background="images/adcf_bg.gif">
+							<tr>
+								<td colspan="2"><img src="images/ad_illu.gif" width="547" height="122" border="0"></td>
+							</tr>
+							<tr>
+								<td><img src="images/adcf_title.gif" width="329" height="40" alt="" border="0"></td>
+								<td><a href="Ad_Print.asp" onfocus='this.blur()'><img src="images/adcf_print.gif" width="218" height="40" border="0"></a></td>
+							</tr>
+							<tr>
+								<td colspan="2"><img src="images/ad_bgtop.gif" width="547" height="18" border="0"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+								<table width="547" cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td rowspan="2" background="images/adcf_photobg.jpg" width="327" height="254" style="background-repeat:no-repeat;padding:22px,0px,0px,31px"><img src="images/adtitle/1.jpg"><br><img src="/images/spacer.gif" width="1" height="5"><br><a href="images/adtitle/2002-10.wmv"><img src="images/adcf_view.gif" width="113" height="23" border="0"></a></td>
+										<td width="220" height="100" colspan="2" valign="top" style="font-size:9pt;color:#004B4A;font-weight:bold;line-height:160%;padding-top:22">새로워진 큐리텔~<br>윤도현과 함께~</td>
+									</tr>
+									<tr>
+										<td width="50" valign="top" align="right" style="font-size:9pt;color:#ffffff;font-weight:bold;padding-right:5px">
+										감 독 :<p></p>모 델 :<p></p><p></p></td>
+										<td width="170" valign="top" style="font-size:9pt;color:#004B4A">
+										김 찬<p></p>윤도현<p></p></td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2" style="padding:10px,20px,5px,31px">세계 19개국에 핸드폰을 수출하고 있을 만큼 세계적으로 그 기술을 인정 받고 있는 모바일 전문 기업 팬택&큐리텔이 본격적으로 국내 휴대폰 시장에 뛰어든다. 애국가 만큼 온 국민의 입에서 불려지게 된 노래 - 오! 필승 코리아를 불러 월드컵 이후 국민가수로 떠오른 윤도현과 모델 계약을 마치고 지난 일요일 첫 CF 촬영에 들어갔다. 윤도현의 모델료는 6개월 계약에 2억. <br><br><FONT COLOR=#004B4A><B>정직한 연예인, 좋은 연예인 No.1 윤도현</B></FONT><br>평소 털털한 모습과 박력 넘치는 모습으로 사랑 받아온 윤도현. 가장 정직할 것 같은 연예인으로 손꼽혀온 그의 이미지가 [좋은회사 좋은기술]이라는 팬택& 큐리텔의 기업 이미지와 가장 맞는다는 판단이 그를 휴대폰 광고모델로 선정하게 된 이유이다. 모바일 전문 기업으로 15년 전부터 세계시장에서 한국의 브랜드를 알려온 팬택&큐리텔은 윤도현을 모델로 기용, 우리나라 시장에 첫 선을 보이는 브랜드 큐리텔에 대한 본격적인 마케팅을 시작했다. 
+<br><br><FONT COLOR=#004B4A><B>큐리텔 런칭 CF - 20시간에 걸친 강행군</B></FONT><br>지난 일요일 삼성동의 D세트 장에서 첫 CF 촬영에 들어간 윤도현은 수십명의 스탭 앞에 약간은 쑥스러운 듯 모습을 드러냈다. 온통 하얀 세트장안에는 윤도현과 달랑 엠프 한대 - "윤도현씨, 맘대로 움직여 보세요" 감독의 주문은 간단했다. 촬영장이 떠나갈 정도로 울려대는 기타소리와 그의 노래소리, 촬영 스탭과 관계자들 앞에서 윤도현은 작은 공연을 하듯 기타를 치고 노래도 하고 엠프에 올라가 뛰어 놀기도 하며 장장 20시간이 넘도록 강행군을 펼쳤다. <br><br><FONT COLOR=#004B4A><B>라이브 공연장이야? CF 촬영장이야? </B></FONT><br>촬영에 참가한 스탭들은 한동안 공연장에 안가도 될 만큼 윤도현의 노래와 기타솜씨를 라이브로 원 없이 들었을 것이다. 새벽부터 시작된 촬영은 날이 끝날 때쯤에서야 막이 내렸다. 20시간이 넘도록 카메라 앞에서 온갖 폼(?)을 다 잡아본 윤도현도, 감독도 스탭도 모두 Knock-Down 상태. 하지만 우리의 히어로 윤도현이 선택한 휴대폰 - 큐리텔이 과연 어떤 모습으로 TV에 선을 보일지 두근대는 기대감은 모두의 가슴에 가득했다.<br><br><FONT COLOR=#004B4A><B>새로운 브랜드 큐리텔의 Slim 디자인이 돋보이는 C-500, DD-600 </B></FONT><br>출시되는 휴대폰은 C-500과 DD-600의 최신기종으로 6만5천 칼라에 40화음은 물론 온라인 결재, 멀티미디어 서비스 지원, PC Link 지원 등 다양한 기능이 가능하다. 초고속 듀얼폴더 C-500의 경우 초소형으로 기존의 휴대폰과 비교해 한 손에 쏙 들어오는 그립감과 휴대성이 강화되어 색다른 큐리텔만의 디자인 미학을 느끼게 한다. 투과형 TFT를 활용 더욱더 선명하고 밝은 LCD 화면을 구현한 DD-600은 대형 LCD(2.04인치)임에도 Compact하고 Slim한 디자인으로 선보이고 있다.<br></td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center"><img src="images/dot.gif" width="500" height="10" alt="" border="0"></td>
+							</tr>
+							<tr>
+								<td colspan="2"><form name="board" method="post">
+<!--한즐답변시작입니다.-->
+
+								<table width="525" cellspacing="5" cellpadding="0" border="0">
+
+									<tr>
+										<Td width="30" align="right" valign="top"><img src="images/icon.gif" width="11" height="11" alt="" border="0" vspace="2"></TD>
+										<td style="padding-bottom:5">낯익은 듯한 CF라 친숙한 느낌입니다.
+										<font color="#006699"><b> - 윤희숙</b></font> <a href="javascript:comment('del', '1', '1');"><font color="white">x</font></a>
+										</td>
+									</tr>
+
+									<tr>
+										<Td width="30" align="right" valign="top"><img src="images/icon.gif" width="11" height="11" alt="" border="0" vspace="2"></TD>
+										<td style="padding-bottom:5">CF전달이 간결해서 좋은거 같네요 깔금하고..
+										<font color="#006699"><b> - 신동엽</b></font> <a href="javascript:comment('del', '1', '2');"><font color="white">x</font></a>
+										</td>
+									</tr>
+
+									<tr>
+										<Td width="30" align="right" valign="top"><img src="images/icon.gif" width="11" height="11" alt="" border="0" vspace="2"></TD>
+										<td style="padding-bottom:5">팬택&큐리텔의 인지도가 낮은 상태에서 광고를 선뜻 메시지 이해하기가 어려우나  여하튼 독특하네요
+										<font color="#006699"><b> - 최성근</b></font> <a href="javascript:comment('del', '1', '3');"><font color="white">x</font></a>
+										</td>
+									</tr>
+
+									<tr>
+										<Td width="30" align="right" valign="top"><img src="images/icon.gif" width="11" height="11" alt="" border="0" vspace="2"></TD>
+										<td style="padding-bottom:5">휴대폰 장면이 너무 조금 나와요.
+										<font color="#006699"><b> - 조동준</b></font> <a href="javascript:comment('del', '1', '4');"><font color="white">x</font></a>
+										</td>
+									</tr>
+
+									<tr>
+										<Td width="30" align="right" valign="top"><img src="images/icon.gif" width="11" height="11" alt="" border="0" vspace="2"></TD>
+										<td style="padding-bottom:5">윤도현씨의 기타연주와 목소리가  제품이 튼튼하고 친근하다는 느낌을 줍니다.!!
+										<font color="#006699"><b> - 유소영</b></font> <a href="javascript:comment('del', '1', '5');"><font color="white">x</font></a>
+										</td>
+									</tr>
+
+									<tr>
+										<Td width="30" align="right" valign="top"><img src="images/icon.gif" width="11" height="11" alt="" border="0" vspace="2"></TD>
+										<td style="padding-bottom:5">폰크기좀 크게 했으면 하는 소망이있네여~^^윤도현씨의 고음발성짱이에여 굿임다~
+										<font color="#006699"><b> - 박진명</b></font> <a href="javascript:comment('del', '1', '6');"><font color="white">x</font></a>
+										</td>
+									</tr>
+
+									<tr>
+										<Td width="30" align="right" valign="top"><img src="images/icon.gif" width="11" height="11" alt="" border="0" vspace="2"></TD>
+										<td style="padding-bottom:5">어쩃든 나 산다아~!!
+										<font color="#006699"><b> - 김준기</b></font> <a href="javascript:comment('del', '1', '7');"><font color="white">x</font></a>
+										</td>
+									</tr>
+
+									<tr>
+										<Td width="30" align="right" valign="top"><img src="images/icon.gif" width="11" height="11" alt="" border="0" vspace="2"></TD>
+										<td style="padding-bottom:5">anycall 버리고 dd600 샀다~~~~~~~~~~~~~ ^^
+										<font color="#006699"><b> - 김재우</b></font> <a href="javascript:comment('del', '1', '8');"><font color="white">x</font></a>
+										</td>
+									</tr>
+
+									<tr>
+										<Td width="30" align="right" valign="top"><img src="images/icon.gif" width="11" height="11" alt="" border="0" vspace="2"></TD>
+										<td style="padding-bottom:5">머냐
+										<font color="#006699"><b> - 김성미</b></font> <a href="javascript:comment('del', '1', '9');"><font color="white">x</font></a>
+										</td>
+									</tr>
+
+									<tr>
+										<Td width="30" align="right" valign="top"><img src="images/icon.gif" width="11" height="11" alt="" border="0" vspace="2"></TD>
+										<td style="padding-bottom:5">칼라폰 광고는 언제 나오나요???
+										<font color="#006699"><b> - 김현희</b></font> <a href="javascript:comment('del', '1', '10');"><font color="white">x</font></a>
+										</td>
+									</tr>
+
+								<table width="510" cellspacing="0" cellpadding="0" border="0">
+									<tr>
+										<td style="padding-left:23"><input type="text" size="65" name="comment_content" value='먼저 로그인을 하세요' readonly></td>
+										<td><a href="/Footer/Login.asp?REQUEST_METHOD=GET&file=/InfoBox/Ad_Cf.asp&GetQueryStr=mode★viewComment"><img src="images/add_repl.gif" width="75" height="21" alt="" border="0" valign="baceline"></a></td>
+									</tr>
+								</table>
+
+								</form></td>
+							</tr>
+
+							<tr>
+								<td colspan="2"><img src="images/ad_bgbot.gif" width="547" height="30" border="0"></td>
+							</tr>
+						</table><br><br><br>
+					</td>
+				</tr>
+			</table>
+
+		<!-- // 메인 컨텐츠 END -->
+<!-- 푸터 include -->	</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		<td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestIntro.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="467,61,564,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="581,61,628,79" href="/footer/partner.asp">
+<area alt="이용문의" coords="644,62,694,79" href="/footer/qna.asp?table=askhow">
+<area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>
+<Form name="boardComment" method="post" action="CommentSave.asp">
+<input type="hidden" name="table" value="Ad">
+<input type="hidden" name="mode">
+<input type="hidden" name="page" value="">
+<input type="hidden" name="ck_num">
+<input type="hidden" name="id">
+<input type="hidden" name='comment_name' value="">
+<input type="hidden" name="comment_id" value="">
+<input type="hidden" name="comment_content">
+</form>
+</body>
+</html>

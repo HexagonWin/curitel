@@ -1,0 +1,328 @@
+
+
+<html>
+<head>
+	<TITLE>'So Cool!',	PANTECH&CURITEL </TITLE>
+	<link rel="STYLESHEET" type="text/css" href="/inc/css/common.css">
+<script language="javascript">
+<!--
+// 버튼의 크기와 길이 부분은 눈에느 보이지 않음..
+var upH = 9; // 상단 버튼의 세로크기
+var upW = 9; // 상단 버튼의 가로크기
+var downH = 9; // 하단 버튼의 세로크기
+var downW = 9; // 하단 버튼의 가로크기
+var dragH = 71; // 드래그 버튼의 세로길이
+var dragW = 9; // 드래그 버튼의 가로길이
+var scrollH = 269; // 스크롤 부분 길이
+
+var speed = 5; // 스크롤 속력
+
+var dom = document.getElementById ? true:false;
+var nn4 = document.layers ? true:false;
+var ie4 = document.all ? true:false;
+
+var mouseY;
+var mouseX;
+
+var clickUp = false;
+var clickDown = false;
+var clickDrag = false;
+var clickAbove = false;
+var clickBelow = false;
+
+var timer = setTimeout("",500);
+var upL;
+var upT;
+var downL;
+var downT;
+var dragL;
+var dragT;
+var rulerL;
+var rulerT;
+var contentT;
+var contentH;
+var contentClipH;
+var scrollLength;
+var startY;
+
+
+function down(e){
+	if((document.layers && e.which!=1) || (document.all && event.button!=1)) return true; 
+	getMouse(e);
+	startY = (mouseY - dragT);
+	
+	if(mouseX >= upL && (mouseX <= (upL + upW)) && mouseY >= upT && (mouseY <= (upT + upH))){
+		clickUp = true;
+		return scrollUp();
+	}	
+	else if(mouseX >= downL && (mouseX <= (downL + downW)) && mouseY >= downT && (mouseY <= (downT + downH))){
+		clickDown = true;
+		return scrollDown();
+	}
+	else if(mouseX >= dragL && (mouseX <= (dragL + dragW)) && mouseY >= dragT && (mouseY <= (dragT + dragH))){
+		clickDrag = true;
+		return false;
+	}
+	else if(mouseX >= dragL && (mouseX <= (dragL + dragW)) && mouseY >= rulerT && (mouseY <= (rulerT + scrollH))){
+		if(mouseY < dragT){
+			clickAbove = true;
+			clickUp = true;
+			return scrollUp();
+		}
+		else{
+			clickBelow = true;
+			clickDown = true;
+			return scrollDown();
+		}
+	}
+	else{
+		return true;
+	}
+}
+
+function move(e){
+	if(clickDrag && contentH > contentClipH){
+		getMouse(e);
+		dragT = (mouseY - startY);
+		
+		if(dragT < (rulerT))
+			dragT = rulerT;		
+		if(dragT > (rulerT + scrollH - dragH))
+			dragT = (rulerT + scrollH - dragH);
+		
+		contentT = ((dragT - rulerT)*(1/scrollLength));
+		contentT = eval('-' + contentT);
+
+		moveTo();
+		
+		if(ie4)
+			return false;
+	}
+}
+
+function up(){
+	clearTimeout(timer);
+	clickUp = false;
+	clickDown = false;
+	clickDrag = false;
+	clickAbove = false;
+	clickBelow = false;
+	return true;
+}
+
+function getT(){
+	if(ie4)
+		contentT = document.all.content.style.pixelTop;
+	else if(nn4)
+		contentT = document.contentClip.document.content.top;
+	else if(dom)
+		contentT = parseInt(document.getElementById("content").style.top);
+}
+
+function getMouse(e){
+	if(ie4){
+		mouseY = event.clientY + document.body.scrollTop;
+		mouseX = event.clientX + document.body.scrollLeft;
+	}
+	else if(nn4 || dom){
+		mouseY = e.pageY;
+		mouseX = e.pageX;
+	}
+}
+
+function moveTo(){
+	if(ie4){
+		document.all.content.style.top = contentT;
+		document.all.ruler.style.top = dragT;
+		document.all.drag.style.top = dragT;
+	}
+	else if(nn4){
+		document.contentClip.document.content.top = contentT;
+		document.ruler.top = dragT;
+		document.drag.top = dragT;
+	}
+	else if(dom){
+		document.getElementById("content").style.top = contentT + "px";
+		document.getElementById("drag").style.top = dragT + "px";
+		document.getElementById("ruler").style.top = dragT + "px";
+	}
+}
+
+function scrollUp(){
+	getT();
+	
+	if(clickAbove){
+		if(dragT <= (mouseY-(dragH/2)))
+			return up();
+	}
+	
+	if(clickUp){
+		if(contentT < 0){		
+			dragT = dragT - (speed*scrollLength);
+			
+			if(dragT < (rulerT))
+				dragT = rulerT;
+				
+			contentT = contentT + speed;
+			if(contentT > 0)
+				contentT = 0;
+			
+			moveTo();
+			timer = setTimeout("scrollUp()",25);
+		}
+	}
+	return false;
+}
+
+function scrollDown(){
+	getT();
+	
+	if(clickBelow){
+		if(dragT >= (mouseY-(dragH/2)))
+			return up();
+	}
+
+	if(clickDown){
+		if(contentT > -(contentH - contentClipH)){			
+			dragT = dragT + (speed*scrollLength);
+			if(dragT > (rulerT + scrollH - dragH))
+				dragT = (rulerT + scrollH - dragH);
+			
+			contentT = contentT - speed;
+			if(contentT < -(contentH - contentClipH))
+				contentT = -(contentH - contentClipH);
+			
+			moveTo();
+			timer = setTimeout("scrollDown()",25);
+		}
+	}
+	return false;
+}
+
+function reloadPage(){
+	location.reload();
+}
+
+function eventLoader(){
+	if(ie4){
+		upL = document.all.up.style.pixelLeft;
+		upT = document.all.up.style.pixelTop;		
+		downL = document.all.down.style.pixelLeft;
+		downT = document.all.down.style.pixelTop;
+		dragL = document.all.drag.style.pixelLeft;
+		dragT = document.all.drag.style.pixelTop;		
+		rulerT = document.all.ruler.style.pixelTop;		
+		contentH = parseInt(document.all.content.scrollHeight);
+		contentClipH = parseInt(document.all.contentClip.style.height);
+	}
+	else if(nn4){
+		upL = document.up.left;
+		upT = document.up.top;		
+		downL = document.down.left;
+		downT = document.down.top;		
+		dragL = document.drag.left;
+		dragT = document.drag.top;		
+		rulerT = document.ruler.top;
+		contentH = document.contentClip.document.content.clip.bottom;
+		contentClipH = document.contentClip.clip.bottom;
+	}
+	else if(dom){
+		upL = parseInt(document.getElementById("up").style.left);
+		upT = parseInt(document.getElementById("up").style.top);
+		downL = parseInt(document.getElementById("down").style.left);
+		downT = parseInt(document.getElementById("down").style.top);
+		dragL = parseInt(document.getElementById("drag").style.left);
+		dragT = parseInt(document.getElementById("drag").style.top);
+		rulerT = parseInt(document.getElementById("ruler").style.top);
+		contentH = parseInt(document.getElementById("content").offsetHeight);
+		contentClipH = parseInt(document.getElementById("contentClip").offsetHeight);
+		document.getElementById("content").style.top = 0 + "px";
+		
+	}
+	scrollLength = ((scrollH-dragH)/(contentH-contentClipH));
+	if(nn4){
+		document.captureEvents(Event.MOUSEDOWN | Event.MOUSEMOVE | Event.MOUSEUP);
+		window.onresize = reloadPage;
+	}
+	document.onmousedown = down;
+	document.onmousemove = move;
+	document.onmouseup = up;
+}
+//-->
+</script>
+</head>
+
+<body style="margin:0" bgcolor="#ECECEC" onLoad="eventLoader();">
+
+<div id="contentClip" style="position: absolute;left:0;top:0;width: 237px; height: 287px; clip:rect(0px,258px,287px,0px); visibility: visible; z-index: 5; overflow: hidden;">
+<div id="content" style="position: absolute;z-index:6;">
+	<table width="237" border="0" cellspacing="0" cellpadding="0">
+
+	<tr><td align=center style="padding:5 0 15 0">
+			<table border=0 width=210 style="margin-top:5">
+			<tr><td align="right"><a href="/html/notice.asp"><img src="/img/main/btn_close.gif" width="28" height="11" alt="" border="0"></a></td></tr>
+			<tr><td valign=top style="font-weight:bold;line-height:17px">
+				<font color=#2084B8>[ 2004-06-09 오전 7:51:05 ]</font><br>
+				큐리텔 웹사이트 리뉴얼 오픈 이벤트
+			</td></tr>
+			<tr><td bgcolor=#D4D4D4></td></tr>
+			<tr><td style="padding:5 0">
+				<b>오픈의 벅찬 감동을 함께- </b><br>
+드디어 큐리텔 사이트가  새로운 모습으로 열렸습니다. 모두 오셔서 마음껏 축하해 주시고 푸짐한 경품도 받아가세요~!<br><Br>
+
+<u><b>오픈 감동 이벤트 1 </u> </b><br>
+
+모바일 컨텐츠가 쏟아진다~ <br>
+<b><font size=2 color=007995>추카추카, 큐리텔!</font></b><br>
+지금, <추카추카, 큐리텔!>게시판에 오셔서 축하 멘트를 남기시면 추첨을 통해 행운의 모바일 컨텐츠를 드립니다.
+<br><br>
+<b>참여대상 :</b> 큐리텔 회원 모두<br>
+<b>참여방법 :</b> 로그인 > [추카추카, 큐리텔] 게시판 > 축하메시지 남기기<br>
+<b>지급경품 :</b> 10000명을 추첨하여 원하시는 모바일 컨텐츠를 드립니다.<br>
+<b>기    간 :</b> 6월 10일 ~ 6월 30일  <br><br><br>
+
+
+<u><b>오픈 감동 이벤트 2</u></b><br>
+
+쿨한~사연마다 푸짐한 경품이 쏟아진다~<br>
+<b><font size=2 color=007995>이것이 ‘So Cool’이다! !</font></b><br><br>
+
+
+지금, 테마 게시판에 오셔서 ‘So Cool’에 대한 3줄 정의를 내리시거나 내 인생 최고의 쏘쿨한 사연을 올리시면 추천수가 가장 많은 회원을 선정하여 명품가방, 큐리텔 폰 등 푸짐한 상품을 드립니다.<br><br>
+
+
+<b>참여대상 :</b> 큐리텔 회원 모두<br>
+<b>참여방법 :</b> 테마 1, 2 중 택일 > 테마게시판 > 나의 의견 남기기 (행사 2개 모두 참여 가능)<br>
+<b>참여테마 :</b> 테마1. 내 인생의 가장 So Cool한 사건<br> 
+           테마2. So Cool을 정의한다! <br>
+
+<b>지급경품 :</b> 큐리텔 파워폰<br>
+<b>기    간 :</b> 6월 10일 ~ 6월 30일  
+
+
+
+			</td></tr>
+			<tr><td align=right><a href="notice.asp"><img src="/img/main/btn_list.gif" width="47" height="10"></a></td></tr>
+			</table>
+	</td></tr>
+	</table>
+</div>
+</div>
+
+						
+<div id="etc" style="position: absolute; top: 0px; left: 237px; width: 8px; height: 271px;">
+<img src="/img/main/bg_scrollbar.gif" width="9" height="286" border="0">
+</div>						
+<!-- 상단 버튼 이미지 레이어 //-->
+<div id="up" style="cursor:hand;position: absolute; top:0px; left: 237px; width: 9px; height: 9px; z-index: 1"><img src="/img/main/arw_up.gif" width="9" height="9" alt="" border="0"></div>
+
+<!-- 하단 버튼 이미지 레이어 //-->
+<div id="down" style="cursor:hand;position: absolute; top:278px; left: 237px; width: 9px; height: 9px; z-index: 2"><img src="/img/main/arw_dwn.gif" width="9" height="9" alt="" border="0"></div>
+
+<!-- 드래그 버튼 이미지 레이어 //-->
+<div id="drag" style="cursor:hand;position: absolute; top:9px; left: 237px; width: 9px; height: 71px; z-index: 3">
+<img src="/img/main/scrollbar.gif" width="9" height="71" alt="" border="0">
+</div>
+<div id="ruler" style="position: absolute; top:9px; left: 237px; width: 9px; height: 270px; z-index: 4;"></div>		
+</body>
+</html>

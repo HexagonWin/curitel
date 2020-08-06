@@ -1,0 +1,1 @@
+<script language='javascript'>document.domain = 'curitel.com';   alert('로그인 해 주세요!');   location.href='javascript:history.back();'</script>

@@ -1,0 +1,1 @@
+<script language='javascript'>document.domain = 'curitel.com';   alert('입력하신 아이디가 없습니다.\n\n확인후 이용해 주세요.');   location.href='javascript:history.back();'</script>

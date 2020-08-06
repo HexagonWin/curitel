@@ -1,0 +1,673 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>PANTECH&CURITEL</title>
+	<link href="/Common/css/basic.css" rel="stylesheet" type="text/css">
+	<link href="/Common/css/board.css" rel="stylesheet" type="text/css">
+	<script language="javascript">
+	<!--
+		function comment( obj, cfid, obj1 )
+		{
+			if ( obj == "add" )
+			{
+				if ("" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else if ( document.board.comment_content.value == "" )
+				{
+					alert("내용을 입력하세요");
+					document.board.comment_content.focus();
+					return;
+				}
+			} else if ( obj == "del" )
+			{
+				if ( "" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else
+				{
+					var ck_confirm = confirm( "삭제하시겠습니까?" );
+					if ( ck_confirm == false )
+					{
+						return false;
+					}
+				}
+			}
+			document.boardComment.table.value = "Ad";
+			document.boardComment.mode.value = obj;
+			document.boardComment.ck_num.value = obj1;
+			document.boardComment.id.value = cfid;
+			document.boardComment.comment_content.value = document.board.comment_content.value;
+			document.boardComment.action = "AdCommentSave.asp";
+			document.boardComment.submit();
+		}
+	/-->
+	</script>
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td colspan="3"><!--mg src="/common/images/fake_flash.gif" width="782" height="222"-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="782" HEIGHT="222" id="Untitled-2" ALIGN="top">
+	<param name="movie" value="/common/header/curitel_sub.swf?colorSetNum=2"><!-- 여기예요.-->
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=salign VALUE=T>
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	<EMBED src="/Common/header/curitel_sub.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+</OBJECT></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/Common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->		
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+	> <a href="/InfoBox/"><font color="#FFFFFF">Info Box</font></a>
+ 
+		
+</td>
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include --><!-- 레프트 메뉴 START -->
+
+<td width="197" valign="top" align="center" background="/Common/images/left_bg.gif">
+
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="10" bgcolor="#FFFFFF"><img src="/Common/images/spacer.gif" width="197" height="10"></td>
+		</tr>
+		<tr>
+			<td><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="197" HEIGHT="600" id="Untitled-2" ALIGN="top">
+					<PARAM NAME=movie VALUE="/Common/menu/info_box_before.swf">
+					<PARAM NAME=quality VALUE=high>
+					<PARAM NAME=salign VALUE=T>
+					<PARAM NAME=bgcolor VALUE=#FFFFFF>
+					<EMBED src="/Common/menu/info_box_before.swf" quality=high salign=T  WIDTH="197" HEIGHT="600" NAME="Untitled-2" ALIGN="top"
+					TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+				</OBJECT></td>
+		</tr>
+	</table>	
+
+</td>
+<!-- // 레프트 메뉴 END   -->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+
+
+
+
+<table width="585" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td colspan="4"><img src="images/curi_ad_img01.gif" border="0"></td>
+    </tr>
+    <tr>
+        <td width="5" bgcolor="#BDE2E2"></td>
+        <td width="30"></td>
+        <td width="533"><img src="images/curi_cf_menu.gif" border="0" usemap="#menu"></td>
+        <td width="17"></td>
+    </tr>
+    <tr>
+        <td bgcolor="#BDE2E2"></td>
+        <td></td>
+        <td> 
+          <!-- contents -->
+          <table width="533" border="0" cellpadding="0" cellspacing="0">
+            <tr> 
+              <td width="533" height="25"><img src="images/cf07_img01.jpg" width="534" height="209" usemap="#Map" border="0"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf07_img02.gif" width="534" height="268"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf07_img03.gif" width="534" height="440"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf07_img04.gif" width="534" height="365"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf07_img05.gif" width="534" height="340"></td>
+            </tr>
+            <tr> 
+              <td height="23"></td>
+            </tr>
+            <tr> 
+              <td align="right" style="padding-right: 30px;"><a href="ad_cf.asp"><img src="images/btn_list.gif" border="0" align="absmiddle"></a>&nbsp;<a href="#"><img src="images/btn_top.gif" border="0" align="absmiddle"></a></td>
+            </tr>
+            <tr> 
+              <td height="20"></td>
+            </tr>
+          </table>
+          <!-- 한줄답변보기 -->
+          
+        <!-- 한줄 답변 -->
+        <table width="533" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td colspan="2" height="1" background="images/dot_hline01.gif"></td>
+            </tr>
+            <tr>
+                <td width="25" height="10"></td>
+                <td width="508"><a name="oneline"></a></td>
+            </tr>
+
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이거 가격이 얼마에요? - <span style="color: #779696;"><b>김일환</b></span> <a href="javascript:comment('del', '7', '1');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">28만원부터 32만원정도까지 대리점에 따라서 다른것 같구요~ 저는 28만원에~ 보아예뻐요~! - <span style="color: #779696;"><b>천송연</b></span> <a href="javascript:comment('del', '7', '2');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">어디서 그렇게 사셨어요?? - <span style="color: #779696;"><b>강수진</b></span> <a href="javascript:comment('del', '7', '3');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">질문]] 이거 밖에서는 사진 못찍나요?? 그러니까 자기 모습 직접 못 찍어요? - <span style="color: #779696;"><b>강수진</b></span> <a href="javascript:comment('del', '7', '4');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">답변]밖에서도 자기모습 잘 찍어요. 듀얼칼라 LCD잖아요. 폴더닫고도 찍을수 있고요 - <span style="color: #779696;"><b>조대원</b></span> <a href="javascript:comment('del', '7', '5');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">질문>> PG-S5500C랑PG-S5500L 차이점?? - <span style="color: #779696;"><b>박은정</b></span> <a href="javascript:comment('del', '7', '6');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">질문>> 요새 발리에서생긴일다보시죠?? 거기서 하지원씨가 핸펀사용하던가 큐리텔이맞나요?? - <span style="color: #779696;"><b>박은정</b></span> <a href="javascript:comment('del', '7', '7');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">네 하지원핸드폰 맞아요 저도 그걸 보고 관심갖게 되엇따죠ㅋㅋ 천송연님 어디서 사셧어요? 그렇게 싸게 파는곳이 잇나요? 어디에요? 꼭 알려주세요 제발요 - <span style="color: #779696;"><b>최은선</b></span> <a href="javascript:comment('del', '7', '8');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">그거 C랑 L이랑 큰차이는 없는듯; 음.. 이거 하지원이 쓴다는거 맞다더군요; 이거 있는데.. 카메라 화질은 별로; 밖에서 찍을땐 왼쪽오른쪽 바껴서 나오긴 해요; - <span style="color: #779696;"><b>이휘</b></span> <a href="javascript:comment('del', '7', '9');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">앞에 액정에 자기사진 넣을수 있어요? - <span style="color: #779696;"><b>김슬기</b></span> <a href="javascript:comment('del', '7', '10');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">ㄹ - <span style="color: #779696;"><b>최보름</b></span> <a href="javascript:comment('del', '7', '11');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">저도 이 핸드폰 가격대를 좀 알고싶어 어제 문의메일을 보냈는데, 아직까지도 답변을 안해주네요. 큐리텔이 원래 가격대가 비싸지않나요? 더군다나 이 핸드폰은 신형인데, 30만원선이라니 너무 싼것같아서요... 저도 이 핸드폰이 무척 맘에 들거든요?? - <span style="color: #779696;"><b>강은주</b></span> <a href="javascript:comment('del', '7', '12');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">대리점에언제 나와요?? 오늘 갓는데 모른다고 하든데 이폰을, 그래서 못삿고요,, 너무 사고싶은대, 얼마인지고 모르고 첫번ㅉ ㅐ님 말이 사실인지,, 아직 큐리텔에 이 모델오지도 안앗을끈데,,  얼마이고, 언제 나오는지만 가르쳐주세요,. 꼭`~-- - <span style="color: #779696;"><b>박지현</b></span> <a href="javascript:comment('del', '7', '13');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이거 색갈 몃색 있 ㅇ ㅓ요? - <span style="color: #779696;"><b>박지현</b></span> <a href="javascript:comment('del', '7', '14');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">ㅋ 3개의 색이있는데요 제껀 흰색이에요 ^^ - <span style="color: #779696;"><b>한형훈</b></span> <a href="javascript:comment('del', '7', '15');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">헐~--;;된장 내가 이폰살때 처음나와서 40만원 대였는데 - <span style="color: #779696;"><b>한형훈</b></span> <a href="javascript:comment('del', '7', '16');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">애니콜 매니아인 제가 큐리텔 매니아가 될지도 몰라요. 좀더 써봐야 겠지만... - <span style="color: #779696;"><b>김순정</b></span> <a href="javascript:comment('del', '7', '17');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이핸드폰삼성꺼에용?, 제가핸드폰에대해서잘모르는데요, 이거 sk텔레콤에서사야되요? 아님 Lg텔레콤에서사야되요? 아님 KTF에서 사야되요? 제발 답변해주세요ㅠ 제가 진짜 핸드폰에대해서 잘 모르거든요, 이번에 중학교들어가서 사야되는뎅-0-,ㅠㅠㅠㅠ - <span style="color: #779696;"><b>김미정</b></span> <a href="javascript:comment('del', '7', '18');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이거사고싶다~~~~~~~~~~~~화질괜찮은가요??? - <span style="color: #779696;"><b>윤주영</b></span> <a href="javascript:comment('del', '7', '19');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">뭐야..보아가가지구있는건..완젼..핑크색이구만..-_-...흰색이제일이뿌당 - <span style="color: #779696;"><b>윤주영</b></span> <a href="javascript:comment('del', '7', '20');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">왜빨간색은..카라..인감??? - <span style="color: #779696;"><b>윤주영</b></span> <a href="javascript:comment('del', '7', '21');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">큐리텔이 원래 싼데?? - <span style="color: #779696;"><b>김민수</b></span> <a href="javascript:comment('del', '7', '22');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">S2랑 이폰이랑 비슷하다고 하던데..혹시 S2나 이폰사신분 어느게더 좋고,색깔은 어느게 더나은지 ;; - <span style="color: #779696;"><b>한수정</b></span> <a href="javascript:comment('del', '7', '23');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">제가 이거 광고도 나오기 전에 샀거든요. 상자 보니까 1월 9일날 나왔다고 그런데 전 19일날 사서 ; 전 그때 010신규가입으로 SK보상 안받고 37만원에 샀어요. - <span style="color: #779696;"><b>이혜빈</b></span> <a href="javascript:comment('del', '7', '24');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">근데 작은만큼 액정도 정말 작아요. 액정 큰사람들은 약간 불편하실듯. 그래도 액정 작은만큼 글씨도 작고. 글씨체도 고딕체랑 광수체 같은거 하나 더 있어서 아주 귀여워요^^; 저도 액정때문에 첨에 고민했는데 쓰다보니 좋더라구요 ㅋㅋ - <span style="color: #779696;"><b>이혜빈</b></span> <a href="javascript:comment('del', '7', '25');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">저는 38만원 주고 샀는데 -_ㅠ 근데 진짜 귀엽고 좋더라구요 - <span style="color: #779696;"><b>고가람</b></span> <a href="javascript:comment('del', '7', '26');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">근데 이거 11만화소라니,,,-_- 쫌 그렇네요. 그리고 동영상 시간도,, 쫌 - <span style="color: #779696;"><b>이희정</b></span> <a href="javascript:comment('del', '7', '27');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">있죠 보아가 선전한건 완전 분홍인데 본제품도 그렇게 분홍인가요 아님 빨강인가요.. - <span style="color: #779696;"><b>박효정</b></span> <a href="javascript:comment('del', '7', '28');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">정말 궁금한점이있습니다, ㅜㅜ 꼭답변해주세요!! 제가 이폰 하얀색샀는데요 맨첨에 딱사고전화오거나문자올때 빨간색불빛이나오는거같은데산지2틀될때갑자기사진찍을때빼고는플래쉬가전화오거나문자올때빨간색불빛이안들어오던데 어떻게된건가요?원래사진찍을때만하얀색불빛밖엔안나오는건가요?빨간색불빛은안나오는건가요?ㅜㅜ하얀색불빛플래쉬터지는거말고딴색깔플래쉬터지는거아닌가요?고장난거같아바꾸러갈려하는데..답변쫌 ㅜㅜ - <span style="color: #779696;"><b>서윤정</b></span> <a href="javascript:comment('del', '7', '29');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">서윤정님, 원래, 사진찍을때만 플레쉬 터지는 걸껀뎅-_-,아니면, 뭘, 잘못누른거 아닐까요? 환경설정 같은곳에 들어가서 플레쉬 한번 확인해보세요-0- 제 생각에는 사진찍을때만 플레쉬터지는거 같은데-_- 그런데 서윤정님 , 윤정님 핸드폰, Sk텔레콤에서 샀어요? 아님LG텔레콤에서사셨어요 아님 KTF에서 사셨어요? - <span style="color: #779696;"><b>김미정</b></span> <a href="javascript:comment('del', '7', '30');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이 제품은 SK텔레콤 전용모델입니다. 그래서 SK텔레콤 대리점에 가시면 구입하실수 있습니다. - <span style="color: #779696;"><b>김혜랑</b></span> <a href="javascript:comment('del', '7', '31');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">그러면 LG텔레콤이나 KTF에선 살수 없는건가요? - <span style="color: #779696;"><b>한설희</b></span> <a href="javascript:comment('del', '7', '32');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">보아핸드폰 얼마에요? 40만원 이하로 알고 있는데 그리고 보아 핸드폰 어디서 사요 - <span style="color: #779696;"><b>고은정</b></span> <a href="javascript:comment('del', '7', '33');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">제가이번에 이 핸드폰을 살려고 하는데요.. 색상은 어떤색이 가장이쁜가요? 저는이번에 중 3이되는 여자입니다^^ 추천좀 부탁드려요~ - <span style="color: #779696;"><b>유슬기</b></span> <a href="javascript:comment('del', '7', '34');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">가격은 전화문의 바람 - <span style="color: #779696;"><b>송상초</b></span> <a href="javascript:comment('del', '7', '35');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">02-701-8853    PGS-5500L (C)는 동일 모델 - <span style="color: #779696;"><b>송상초</b></span> <a href="javascript:comment('del', '7', '36');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">약 30만원 초반에 판매 가능 - <span style="color: #779696;"><b>송상초</b></span> <a href="javascript:comment('del', '7', '37');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">외부 LCD가 이상하다고 하신 서윤정씨... 제바 보기엔 불량인듯... 교환 받으시길 권 합니다 - <span style="color: #779696;"><b>송상초</b></span> <a href="javascript:comment('del', '7', '38');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">S2 랑 차이점은 카메라 화소차이뿐이라고 압니다 - <span style="color: #779696;"><b>송상초</b></span> <a href="javascript:comment('del', '7', '39');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">핑크색이 훨~~씬 이쁩니다~~ ^0^;; - <span style="color: #779696;"><b>송상초</b></span> <a href="javascript:comment('del', '7', '40');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">내 핸드폰 핑크색인데 넘넘 이뻐요 - <span style="color: #779696;"><b>김은지</b></span> <a href="javascript:comment('del', '7', '41');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">보아가 선전한 광고폰은 얼마정도 해여? 그리고 할부는 안되나여 - <span style="color: #779696;"><b>손성현</b></span> <a href="javascript:comment('del', '7', '42');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">보아 잘나왔네 이쁘당 ㅎㅎ - <span style="color: #779696;"><b>이우석</b></span> <a href="javascript:comment('del', '7', '43');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">ktf로 이폰을 쓰고 싶은데.. ㅡ.ㅜ ktf용 유사제품이 안 나올까요..? - <span style="color: #779696;"><b>윤지선</b></span> <a href="javascript:comment('del', '7', '44');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">보통 이거 정말 얼마 예요?   ...꼭  답변 주세요 !!!!! - <span style="color: #779696;"><b>김동은</b></span> <a href="javascript:comment('del', '7', '45');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이거 인터넷 구매도 되요? - <span style="color: #779696;"><b>김동은</b></span> <a href="javascript:comment('del', '7', '46');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">진짜이건제발좀알려주세요ㅠ_ㅠ큐리텔이011?016??-0-뭐예요?? - <span style="color: #779696;"><b>남정임</b></span> <a href="javascript:comment('del', '7', '47');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">아!그리구 sk텔레콤인지뭔지두알려주세요제가하지원폰을사려구하거든요 - <span style="color: #779696;"><b>남정임</b></span> <a href="javascript:comment('del', '7', '48');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">한시가급해요제발알려주세요ㅠ - <span style="color: #779696;"><b>남정임</b></span> <a href="javascript:comment('del', '7', '49');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">저는 s2로 산지 별로 안됫는데 , 보아 찍은게 ,s2인줄알고 삿다가, 봣더니 아니예요,,ㅠ.,ㅠ 다시 사고 싶다,,ㅠ.,ㅠ - <span style="color: #779696;"><b>김단비</b></span> <a href="javascript:comment('del', '7', '50');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">윤도현 내놔.....-_-;; - <span style="color: #779696;"><b>신연혁</b></span> <a href="javascript:comment('del', '7', '51');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">큐리텔은 011,010,016,019다되던데요? - <span style="color: #779696;"><b>김진우</b></span> <a href="javascript:comment('del', '7', '52');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">동영상 촬영할때 소리는 녹음이 안돼나요? - <span style="color: #779696;"><b>전은진</b></span> <a href="javascript:comment('del', '7', '53');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">*질문* 제가 오늘 이모델 구입하러 갈건데요 핑크색이 아직 시중에서 판매가 되고 있는지..? - <span style="color: #779696;"><b>갈희용</b></span> <a href="javascript:comment('del', '7', '54');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">은행이 보다 더 친밀하게 다가오는군요 - <span style="color: #779696;"><b>임난영</b></span> <a href="javascript:comment('del', '7', '55');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">M-Bank - <span style="color: #779696;"><b>임난영</b></span> <a href="javascript:comment('del', '7', '56');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">핑크색 시중에 가면 다 판매하지만 재고가 딸려서 몇군데 돌아다니시다보면 구해준다는 곳이 있을거에요. 이 모델은 011밖에 사용이 안돼여.그래서 저두 011루 바꾸었다는 이뻐요~~^^ - <span style="color: #779696;"><b>유미선</b></span> <a href="javascript:comment('del', '7', '57');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">참.. 저는 동네 sk텔레콤 5군데 돌아다녀서 구했는데요. 가격은 38만원주구 샀어요. 충전기주더라구요. 현금으로 구입했어요. - <span style="color: #779696;"><b>유미선</b></span> <a href="javascript:comment('del', '7', '58');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이 핸드폰 싼거 아닌가요? 제 친구 꺼는 애니콜에서 한건데 48만원이라네요=_ - 비싸라 ..;;;; 빨리 핸드폰 사고 싶어요 ㅠ_ ㅎ - <span style="color: #779696;"><b>남혜원</b></span> <a href="javascript:comment('del', '7', '59');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">질문이요//카메라를밖에서찍을때저장중입니다가 뜨는데//그때저장되는사진이전정장중입니다를기준으로//윗부분은사진하나가액정이이상하게//아래부분은사진이짤려서//이렇게나오는데 잘못된거죠??//아직산지한달도안됫는데//카메라확대기능이 갑자기 안돼여// - <span style="color: #779696;"><b>이소희</b></span> <a href="javascript:comment('del', '7', '60');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이거 잘 고장나요?        진짜루 얼마예요?          보통.            인터넷 구매도  되나요? - <span style="color: #779696;"><b>김동은</b></span> <a href="javascript:comment('del', '7', '61');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">010으로 보아 핸드폰(핑크색) 사실분 안계세요? 개통했는데 이전에 쓰던 것과 둘 다 사용하면 돈이 넘 많이 깨질꺼 같아서 하나 팔려구요.. 어제 개통한 새것인데.. 20만원대에 팔께여 ㅜ.ㅜ 돈이없어서 그냥 사용하던 폰 사용해야할꺼 같아서.. 가격절충가능해요. 011 1745 5700 - <span style="color: #779696;"><b>김선숙</b></span> <a href="javascript:comment('del', '7', '62');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">김미정님 이 단말기는 SK telecom 이랍니다. - <span style="color: #779696;"><b>구숙희</b></span> <a href="javascript:comment('del', '7', '63');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">으아암 ㅠㅠ 저 이 핸드폰 나오자 마자 샀었거든요 43만원 주고 샀는데요 ,, - <span style="color: #779696;"><b>바리한가인</b></span> <a href="javascript:comment('del', '7', '64');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">핸드폰안은이쁜데요..내장이 별루구요.. 작은건 이쁘고 색깔도 ㅇㅣ뻐요..^-^ 사로 별로 나쁘지 않을것 같애요오. - <span style="color: #779696;"><b>신송연</b></span> <a href="javascript:comment('del', '7', '65');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">난 친구가 꽁짜라고 가지래서 받았습니다 ㅎㅎㅎ 기분 좋아요^^ - <span style="color: #779696;"><b>김견욱</b></span> <a href="javascript:comment('del', '7', '66');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">★★앞에 액정에!! 자기 사진 너을수 잇나요?? 답변 부탁이요^ㅡ^★★ - <span style="color: #779696;"><b>김진주</b></span> <a href="javascript:comment('del', '7', '67');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">★★앞에 액정에!! 자기 사진 너을수 잇나요?? 그냥 다른 사진이랑 그런거,, 답변 부탁이요^ㅡ^★★ - <span style="color: #779696;"><b>김진주</b></span> <a href="javascript:comment('del', '7', '68');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">앞에 액정에 자기 사진 너을수 잇나요?? 그냥 다른 사진이랑 그런거,, - <span style="color: #779696;"><b>김진주</b></span> <a href="javascript:comment('del', '7', '69');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">나도 사고싶다 +ㅁ+ 이쁜 폰이에요 ^-^ 비싸지만 ; ; ㅋ - <span style="color: #779696;"><b>이지현</b></span> <a href="javascript:comment('del', '7', '70');">x</a></td>
+            </tr>
+
+            <tr>
+            <form name="board" method="post">
+                <td colspan="2" style="padding-left: 7px;">
+                <input type="text" name="comment_content"  value="먼저 로그인을 하세요" readonly style="width: 400px;"> 
+                <a href="/Footer/Login.asp?REQUEST_METHOD=GET&file=/InfoBox/Ad_Cf.asp&GetQueryStr=mode★viewComment">
+                <img src="images/btn_reply_line.gif" border="0" align="absmiddle"></a></td>
+            </tr>
+            </form>
+        </table>        
+
+
+
+<Form name="boardComment" method="post" action="AdCommentSave.asp">
+<input type="hidden" name="table" value="Ad">
+<input type="hidden" name="mode">
+<input type="hidden" name="page" value="">
+<input type="hidden" name="ck_num">
+<input type="hidden" name="id">
+<input type="hidden" name='comment_name' value="">
+<input type="hidden" name="comment_id" value="">
+<input type="hidden" name="comment_content">
+</form>
+        <!-- 한줄 답변 -->
+
+
+
+        <!-- map -->
+        <map name="menu">
+        <area alt="" shape="poly" coords="130,30,100,0,0,0,0,30" href="#" onFocus="this.blur">
+        <area alt="" shape="poly" coords="221,30,198,5,105,5,130,30" href="ad_print_main.asp" onFocus="this.blur">
+        </map>
+
+        <map name="cf01">
+            <area alt="" shape="CIRCLE" coords="466,101,25" href="images/adtitle/curitel_socool.mpg"onFocus="this.blur()">
+        <area alt="" shape="CIRCLE" coords="446,152,17" href="javascript: history.back(-1);"onFocus="this.blur()">
+        </map>
+        
+        <!-- contents -->
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+
+<!-- 푸터 include -->	</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		
+  <td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestFinanc_03.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="534,61,631,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="646,62,693,80" href="/footer/partner.asp">
+  <area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>
+
+<map name="Map"> 
+  <area shape="circle" coords="466,125,27" href="images/adtitle/cf_07.mpg">
+  <area shape="circle" coords="447,174,17" href="javascript: history.back(-1);">
+</map>

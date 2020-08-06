@@ -1,0 +1,402 @@
+
+
+<html>
+<head>
+	<TITLE>'So Cool!',	PANTECH&CURITEL </TITLE>
+	<link rel="STYLESHEET" type="text/css" href="/inc/css/common.css">
+<script language="javascript">
+<!--
+// 버튼의 크기와 길이 부분은 눈에느 보이지 않음..
+var upH = 9; // 상단 버튼의 세로크기
+var upW = 9; // 상단 버튼의 가로크기
+var downH = 9; // 하단 버튼의 세로크기
+var downW = 9; // 하단 버튼의 가로크기
+var dragH = 71; // 드래그 버튼의 세로길이
+var dragW = 9; // 드래그 버튼의 가로길이
+var scrollH = 269; // 스크롤 부분 길이
+
+var speed = 5; // 스크롤 속력
+
+var dom = document.getElementById ? true:false;
+var nn4 = document.layers ? true:false;
+var ie4 = document.all ? true:false;
+
+var mouseY;
+var mouseX;
+
+var clickUp = false;
+var clickDown = false;
+var clickDrag = false;
+var clickAbove = false;
+var clickBelow = false;
+
+var timer = setTimeout("",500);
+var upL;
+var upT;
+var downL;
+var downT;
+var dragL;
+var dragT;
+var rulerL;
+var rulerT;
+var contentT;
+var contentH;
+var contentClipH;
+var scrollLength;
+var startY;
+
+
+function down(e){
+	if((document.layers && e.which!=1) || (document.all && event.button!=1)) return true; 
+	getMouse(e);
+	startY = (mouseY - dragT);
+	
+	if(mouseX >= upL && (mouseX <= (upL + upW)) && mouseY >= upT && (mouseY <= (upT + upH))){
+		clickUp = true;
+		return scrollUp();
+	}	
+	else if(mouseX >= downL && (mouseX <= (downL + downW)) && mouseY >= downT && (mouseY <= (downT + downH))){
+		clickDown = true;
+		return scrollDown();
+	}
+	else if(mouseX >= dragL && (mouseX <= (dragL + dragW)) && mouseY >= dragT && (mouseY <= (dragT + dragH))){
+		clickDrag = true;
+		return false;
+	}
+	else if(mouseX >= dragL && (mouseX <= (dragL + dragW)) && mouseY >= rulerT && (mouseY <= (rulerT + scrollH))){
+		if(mouseY < dragT){
+			clickAbove = true;
+			clickUp = true;
+			return scrollUp();
+		}
+		else{
+			clickBelow = true;
+			clickDown = true;
+			return scrollDown();
+		}
+	}
+	else{
+		return true;
+	}
+}
+
+function move(e){
+	if(clickDrag && contentH > contentClipH){
+		getMouse(e);
+		dragT = (mouseY - startY);
+		
+		if(dragT < (rulerT))
+			dragT = rulerT;		
+		if(dragT > (rulerT + scrollH - dragH))
+			dragT = (rulerT + scrollH - dragH);
+		
+		contentT = ((dragT - rulerT)*(1/scrollLength));
+		contentT = eval('-' + contentT);
+
+		moveTo();
+		
+		if(ie4)
+			return false;
+	}
+}
+
+function up(){
+	clearTimeout(timer);
+	clickUp = false;
+	clickDown = false;
+	clickDrag = false;
+	clickAbove = false;
+	clickBelow = false;
+	return true;
+}
+
+function getT(){
+	if(ie4)
+		contentT = document.all.content.style.pixelTop;
+	else if(nn4)
+		contentT = document.contentClip.document.content.top;
+	else if(dom)
+		contentT = parseInt(document.getElementById("content").style.top);
+}
+
+function getMouse(e){
+	if(ie4){
+		mouseY = event.clientY + document.body.scrollTop;
+		mouseX = event.clientX + document.body.scrollLeft;
+	}
+	else if(nn4 || dom){
+		mouseY = e.pageY;
+		mouseX = e.pageX;
+	}
+}
+
+function moveTo(){
+	if(ie4){
+		document.all.content.style.top = contentT;
+		document.all.ruler.style.top = dragT;
+		document.all.drag.style.top = dragT;
+	}
+	else if(nn4){
+		document.contentClip.document.content.top = contentT;
+		document.ruler.top = dragT;
+		document.drag.top = dragT;
+	}
+	else if(dom){
+		document.getElementById("content").style.top = contentT + "px";
+		document.getElementById("drag").style.top = dragT + "px";
+		document.getElementById("ruler").style.top = dragT + "px";
+	}
+}
+
+function scrollUp(){
+	getT();
+	
+	if(clickAbove){
+		if(dragT <= (mouseY-(dragH/2)))
+			return up();
+	}
+	
+	if(clickUp){
+		if(contentT < 0){		
+			dragT = dragT - (speed*scrollLength);
+			
+			if(dragT < (rulerT))
+				dragT = rulerT;
+				
+			contentT = contentT + speed;
+			if(contentT > 0)
+				contentT = 0;
+			
+			moveTo();
+			timer = setTimeout("scrollUp()",25);
+		}
+	}
+	return false;
+}
+
+function scrollDown(){
+	getT();
+	
+	if(clickBelow){
+		if(dragT >= (mouseY-(dragH/2)))
+			return up();
+	}
+
+	if(clickDown){
+		if(contentT > -(contentH - contentClipH)){			
+			dragT = dragT + (speed*scrollLength);
+			if(dragT > (rulerT + scrollH - dragH))
+				dragT = (rulerT + scrollH - dragH);
+			
+			contentT = contentT - speed;
+			if(contentT < -(contentH - contentClipH))
+				contentT = -(contentH - contentClipH);
+			
+			moveTo();
+			timer = setTimeout("scrollDown()",25);
+		}
+	}
+	return false;
+}
+
+function reloadPage(){
+	location.reload();
+}
+
+function eventLoader(){
+	if(ie4){
+		upL = document.all.up.style.pixelLeft;
+		upT = document.all.up.style.pixelTop;		
+		downL = document.all.down.style.pixelLeft;
+		downT = document.all.down.style.pixelTop;
+		dragL = document.all.drag.style.pixelLeft;
+		dragT = document.all.drag.style.pixelTop;		
+		rulerT = document.all.ruler.style.pixelTop;		
+		contentH = parseInt(document.all.content.scrollHeight);
+		contentClipH = parseInt(document.all.contentClip.style.height);
+	}
+	else if(nn4){
+		upL = document.up.left;
+		upT = document.up.top;		
+		downL = document.down.left;
+		downT = document.down.top;		
+		dragL = document.drag.left;
+		dragT = document.drag.top;		
+		rulerT = document.ruler.top;
+		contentH = document.contentClip.document.content.clip.bottom;
+		contentClipH = document.contentClip.clip.bottom;
+	}
+	else if(dom){
+		upL = parseInt(document.getElementById("up").style.left);
+		upT = parseInt(document.getElementById("up").style.top);
+		downL = parseInt(document.getElementById("down").style.left);
+		downT = parseInt(document.getElementById("down").style.top);
+		dragL = parseInt(document.getElementById("drag").style.left);
+		dragT = parseInt(document.getElementById("drag").style.top);
+		rulerT = parseInt(document.getElementById("ruler").style.top);
+		contentH = parseInt(document.getElementById("content").offsetHeight);
+		contentClipH = parseInt(document.getElementById("contentClip").offsetHeight);
+		document.getElementById("content").style.top = 0 + "px";
+		
+	}
+	scrollLength = ((scrollH-dragH)/(contentH-contentClipH));
+	if(nn4){
+		document.captureEvents(Event.MOUSEDOWN | Event.MOUSEMOVE | Event.MOUSEUP);
+		window.onresize = reloadPage;
+	}
+	document.onmousedown = down;
+	document.onmousemove = move;
+	document.onmouseup = up;
+}
+//-->
+</script>
+</head>
+
+<body style="margin:0" bgcolor="#ECECEC" onLoad="eventLoader();">
+
+<div id="contentClip" style="position: absolute;left:0;top:0;width: 237px; height: 287px; clip:rect(0px,258px,287px,0px); visibility: visible; z-index: 5; overflow: hidden;">
+<div id="content" style="position: absolute;z-index:6;">
+	<table width="237" border="0" cellspacing="0" cellpadding="0">
+
+	<tr><td align=center style="padding:5 0 15 0">
+			<table border=0 width=210 style="margin-top:5">
+			<tr><td align="right"><a href="/html/notice.asp"><img src="/img/main/btn_close.gif" width="28" height="11" alt="" border="0"></a></td></tr>
+			<tr><td valign=top style="font-weight:bold;line-height:17px">
+				<font color=#2084B8>[ 2006-06-07 오전 11:36:52 ]</font><br>
+				제2차 정기문화이벤트 당첨자 발표
+			</td></tr>
+			<tr><td bgcolor=#D4D4D4></td></tr>
+			<tr><td style="padding:5 0">
+				<P>축하합니다!!!</P>
+<P>'큐리텔 가족애' 이벤트에 참여해 주신 모든<BR>큐리안 여러분들에게 감사드리며, 당첨되신 여러분께 진심으로<BR>축하드립니다.<FONT color=#ff0099><FONT color=#ff9933><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: 돋움; mso-ascii-font-family: 돋움; mso-fareast-font-family: 돋움; mso-hansi-font-family: Arial"><FONT color=#000000>&nbsp;</FONT></P>
+<DIV class=O v:shape="_x0000_s1026">
+<DIV style="mso-line-spacing: '120 0 0'; mso-char-wrap: 1; mso-kinsoku-overflow: 1; mso-word-wrap: 0"><SPAN style="FONT-SIZE: 56%; FONT-FAMILY: 굴림"><SPAN style="LEFT: -1.12%; POSITION: absolute; mso-special-format: bullet">-</SPAN></SPAN><SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: 굴림; mso-ascii-font-family: 굴림; mso-fareast-font-family: 굴림; mso-hansi-font-family: 'Times New Roman'"><FONT color=#ff3399><FONT face=돋움><SPAN style="mso-spacerun: yes">&nbsp;</SPAN>당첨되신 분들은 필히 전화번호, 주소를 비롯한 개인정보가 정확한 지 개인정보를 확인해 주시기 바랍니다. </FONT></FONT></SPAN></DIV>
+<DIV style="mso-line-spacing: '120 0 0'; mso-char-wrap: 1; mso-kinsoku-overflow: 1; mso-word-wrap: 0"><SPAN style="FONT-SIZE: 56%; FONT-FAMILY: 굴림"><SPAN style="LEFT: -1.31%; POSITION: absolute; mso-special-format: bullet"><FONT face=돋움 color=#ff3399 size=2>-</FONT></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: 굴림; mso-ascii-font-family: 굴림; mso-fareast-font-family: 굴림; mso-hansi-font-family: 'Times New Roman'; mso-fareast-language: KO"><FONT color=#ff3399><FONT face=돋움><SPAN style="mso-spacerun: yes">&nbsp;</SPAN>경품은 6월 20일 이전에 발송이 완료될 예정입니다. </FONT></FONT></SPAN></DIV>
+<DIV style="mso-line-spacing: '120 0 0'; mso-char-wrap: 1; mso-kinsoku-overflow: 1; mso-word-wrap: 0"><SPAN style="FONT-SIZE: 56%; FONT-FAMILY: 돋움"><SPAN style="LEFT: -1.19%; POSITION: absolute; mso-special-format: bullet"><FONT color=#ff3399 size=2>-</FONT></SPAN></SPAN><FONT color=#ff3399><SPAN lang=EN-US style="FONT-SIZE: 10pt; FONT-FAMILY: 돋움; mso-ascii-font-family: 돋움; mso-fareast-font-family: 돋움; mso-hansi-font-family: Arial; mso-fareast-language: KO"><SPAN style="mso-spacerun: yes">&nbsp;</SPAN>당첨결과에 대한 문의사항이 있으신 분은 고객지원의 </SPAN><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: 돋움; mso-ascii-font-family: 돋움; mso-fareast-font-family: 돋움; mso-hansi-font-family: Arial"><U>이메일 상담</U></SPAN></FONT><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: 돋움; mso-ascii-font-family: 돋움; mso-fareast-font-family: 돋움; mso-hansi-font-family: Arial"><FONT color=#ff3399>을 통해 문의하여 주시기 바랍니다.</FONT> </SPAN></DIV>
+<DIV style="mso-line-spacing: '100 50 0'; mso-char-wrap: 1; mso-kinsoku-overflow: 1; mso-word-wrap: 0"></DIV></DIV></SPAN></FONT>
+<DIV style="mso-line-spacing: '100 50 0'; mso-char-wrap: 1; mso-kinsoku-overflow: 1; mso-word-wrap: 0"><FONT face=돋움 color=#ff33ff size=2></FONT></DIV>
+<P></FONT><FONT color=#0000ff>- 당첨자 확인은 Ctrl + F(찾기)를 통해 아이디를 치시면&nbsp;좀더 쉽게 찾으실 수 있습니다.</FONT></P><FONT size=3>
+<P><STRONG><FONT size=3>당첨자 명단</FONT> </STRONG></P>
+<P><FONT color=#ff0033 size=2>롯데백화점 상품권(10만원권) : 10명</FONT></P>
+<P>
+<TABLE style="WIDTH: 70pt; BORDER-COLLAPSE: collapse" cellSpacing=0 cellPadding=0 width=93 border=0 x:str>
+<COLGROUP><FONT size=2>
+<COL style="WIDTH: 70pt; mso-width-source: userset; mso-width-alt: 2645" width=93></FONT>
+<TBODY>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8 0.5pt; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>khdl</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>semi0228</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>leebbopower</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>gkskrkdh</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>soyoung0513</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>ssuujin</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>aagkgkgk</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>kim3859</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>godwn26</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>rhtjddyd01</FONT></TD></TR></TBODY></TABLE></P>
+<P><FONT color=#ff0033 size=2>아웃백 상품권(5만원권) : 15명</FONT></P>
+<P>
+<TABLE style="WIDTH: 70pt; BORDER-COLLAPSE: collapse" cellSpacing=0 cellPadding=0 width=93 border=0 x:str>
+<COLGROUP><FONT size=2>
+<COL style="WIDTH: 70pt; mso-width-source: userset; mso-width-alt: 2645" width=93></FONT>
+<TBODY>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8 0.5pt; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>skfo18</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>kpointwo</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>lovelmo</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>jilha</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>ggidee</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>usukeiseya</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>hbs1113</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>cds7125</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>ck5459</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>podohiya</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>rlatnrhs00</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>kdhamen</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>basemen</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>282mye</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17 x:str="baron125 "><FONT size=2>baron125<SPAN style="mso-spacerun: yes">&nbsp;</SPAN></FONT></TD></TR></TBODY></TABLE></P>
+<P><FONT color=#ff0033 size=2>에버랜드 자유이용권(1인2매) : 15명</FONT></P>
+<P>
+<TABLE style="WIDTH: 70pt; BORDER-COLLAPSE: collapse" cellSpacing=0 cellPadding=0 width=93 border=0 x:str>
+<COLGROUP><FONT size=2>
+<COL style="WIDTH: 70pt; mso-width-source: userset; mso-width-alt: 2645" width=93></FONT>
+<TBODY>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8 0.5pt; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>rough1111</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>04julia</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>comeonbaby</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>102x</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>poijhg105</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>kkh4969</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>doosim1004</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>jdh0922</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>wjdtlr33</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>ryujy85</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl24 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; WIDTH: 70pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" width=93 height=17><FONT size=2>hoiddong</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl25 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" height=17><FONT size=2>tofmal</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl25 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" height=17><FONT size=2>qufl1203</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl25 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" height=17><FONT size=2>dnjsqhqo</FONT></TD></TR>
+<TR style="HEIGHT: 12.75pt; mso-height-source: userset" height=17>
+<TD class=xl25 style="BORDER-RIGHT: #ece9d8 0.5pt; BORDER-TOP: #ece9d8; BORDER-LEFT: #ece9d8 0.5pt; BORDER-BOTTOM: #ece9d8 0.5pt; HEIGHT: 12.75pt; BACKGROUND-COLOR: transparent" height=17><FONT size=2>qhshqhsh</FONT></TD></TR></TBODY></TABLE></FONT></P>
+			</td></tr>
+			<tr><td align=right><a href="notice.asp"><img src="/img/main/btn_list.gif" width="47" height="10"></a></td></tr>
+			</table>
+	</td></tr>
+	</table>
+</div>
+</div>
+
+						
+<div id="etc" style="position: absolute; top: 0px; left: 237px; width: 8px; height: 271px;">
+<img src="/img/main/bg_scrollbar.gif" width="9" height="286" border="0">
+</div>						
+<!-- 상단 버튼 이미지 레이어 //-->
+<div id="up" style="cursor:hand;position: absolute; top:0px; left: 237px; width: 9px; height: 9px; z-index: 1"><img src="/img/main/arw_up.gif" width="9" height="9" alt="" border="0"></div>
+
+<!-- 하단 버튼 이미지 레이어 //-->
+<div id="down" style="cursor:hand;position: absolute; top:278px; left: 237px; width: 9px; height: 9px; z-index: 2"><img src="/img/main/arw_dwn.gif" width="9" height="9" alt="" border="0"></div>
+
+<!-- 드래그 버튼 이미지 레이어 //-->
+<div id="drag" style="cursor:hand;position: absolute; top:9px; left: 237px; width: 9px; height: 71px; z-index: 3">
+<img src="/img/main/scrollbar.gif" width="9" height="71" alt="" border="0">
+</div>
+<div id="ruler" style="position: absolute; top:9px; left: 237px; width: 9px; height: 270px; z-index: 4;"></div>		
+</body>
+</html>

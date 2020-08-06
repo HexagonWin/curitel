@@ -1,0 +1,505 @@
+
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/knowledge.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function _del()
+{
+	if(confirm("정말 삭제하시겠습니까?"))
+	{
+		document.delform.submit();
+	}
+}
+//-->
+</SCRIPT>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu7.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu7.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/knowledge/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 837px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/knowledge/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/socool/sympathy/index_view.asp?idx=779&p=12">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/socool/sympathy/index_view.asp?idx=779&p=12">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/knowledge/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/socool/index.asp" onfocus="this.blur()"><img src="/img/socool/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<form method=post name=delform style="margin:0" action="process.asp">
+	<input type=hidden name='act' value='del'>
+	<input type=hidden name='idx' value='779'>
+	<input type=hidden name='p' value='12'>
+</form>
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+	<table cellpadding="0" cellspacing="0" border="0" align="right">
+		<tr> 
+			<td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a> > <a href="/html/socool/index.asp">So Cooooool</a> > 공감게시판</td>
+		</tr>
+	</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77"></td>
+		<td width="156" valign="top" align="right"> 
+			<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td valign="top"> 
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="100">
+					               <param name="movie" value="/inc/flash/left/left_socool.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_socool.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="100"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">						
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>	
+
+					</td>
+				</tr>
+				<tr> 
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table></td>
+		<td width="564" valign="top" class="ctsmgn"> 
+			<!-- #####Contents##### -->
+			<table width="557" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td height="26"> <table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td><img src="/img/socool/subimg01.gif" width="537" height="97"></td>
+							</tr>
+							<tr>
+								<td height="1"></td>
+							</tr>
+							<tr>
+								<td height="26" bgcolor="#F6F8F9"></td>
+							</tr>
+						</table></td>
+				</tr>
+				<tr>
+					<td height=20></td>
+				</tr>
+				<tr> 
+					<td> 
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+							<tr> 
+								<td colspan="4" height="31" style="font-weight:bold;color:#3595B1;padding:0 0 0 10;font-size:9pt">pgk-6500(파리의 연인 폰)  1주일 사용기 </td>
+							</tr>
+							<tr> 
+								<td height="16" bgcolor="#F2F2F2" colspan="4"></td>
+							</tr>
+							<tr> 
+								<td height="31" bgcolor="F2F2F2" style="padding:2 0 0 12"></td>
+								<td height="31" bgcolor="F2F2F2" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> curian</b> : songnice</td>
+								<td bgcolor="F2F2F2" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font> 등록일</b> : 2004-07-25</td>
+								<td bgcolor="F2F2F2" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font> 조회수</b> : 511</td>
+							</tr>
+							<tr> 
+								<td height="1" colspan="4" bgcolor="#C9C9C9"></td>
+							</tr>
+							<tr> 
+								<td colspan="4" style="padding:25 11;line-height:16px;" valign="top" class="8" height=150> <font style='font:10pt'>이게 사람들의 이목을 한번에 끌어줍니다. 다들 한번씩 보자고 하고. 라디오 기능에다가, 폴더를 열지않고도 태연하게 디카처럼 사진을 찍고, 보이스 레코딩 기능도 되고, gps(큰 도움은 될 것 같지 않지만)에다가 전자사전기능, 게다가 파리의 연인폰이라는 것까지 알려주면, 반응은 넘어가는 수준입니다.<br><br>장점은 <br><br>1. 기능이 많다. - 130만 화소 디카(내부, 외부 lcd 화면 활용, 외부 lcd 화면 이용한 셀프포토 기능, 플래시 설정 등 기존 전용디카의 기능이 거의 다 있습니다. 게다가 30초동안의 동영상촬영 기능도(소리도 동시에 녹음됨). 또 사진화질도 3가지 종류로 조정가능하고-물론 고화질은 용량을 많이 차지하겠죠)<br> 그 기능중의 하나는 동영상을 찍어서 저장해놓고, 바탕화면으로 활용할 수 있다는 거죠. 그러면, 폴더를 열 때마다 내가 찍은 동영상이 lcd창에서 서서히(비록 56k 전화선 모뎀으로 동영상을 보는 것 같기는 하지만) 재현된다는 것이죠.<br><br>2. 디자인이 이쁘다.<br><br>3. 부과 기능이 많다. <br><br><br>그러나 단점도,<br><br>1. 부과 기능이 대부분 인테넷이나 부과 사용료를 받는 서비스라 돈이 많이 들기때문에 잘 사용하지 않게 되고, 결국 폰만 복잡하게 할 뿐이다.<br><br>2. 여러 기능에 대한 사용자 설명서의 설명이 너무 약하다. 기본적인 기능은 설명서 없어도 알 수 있는 것이고, 진짜 설명이 필요한 기능에 대해서는 언급만 하고 마는 수준이라 사용자 속만 태운다. 이 것 만든 사람은 그 정도 설명으로 소비자가 다 알것이라 생각하는지.... 고객에 대한 배려가 이렇게 부족한데 대해서 실망.<br><br>3. 개인적으로는, 외부 lcd창이 폴더를 닫은 후 곧 꺼진다는 것이 아쉽습니다. 큐리텔 홈피에서는 다른 회사 제품도 그렇다고 변명하지만, 외부 lcd창에서 시간을 계속 표시하는 제품이 얼마나 많은데 빤한 거짓말을. ㄱ리고 그렇다면  외부 lcd 창에 대한 조절 메뉴는 왜 만들어놓고서 (5-8-1,2) 혼란스럽게 하는지.<br><br>4. 같이 주는 macro 렌즈를 어떻게 늘 들고 다니면서 사용할 수 있으리라 생각했는지. 주머니에 따로 넣고 다닙니까? 결국은 처음 샀을 때 한번 시험해보고는 제품 케이스에 계속 보관하다가 폰 바꿀때 버리게 될 것 아닙니까? 기업의 철저한 마무리 자세가 아쉽습니다.<br><br>5. 배터리와 배터리 케이스가 별도로 되어있어서 배터리 교환하는 일이 일반 폰보다 다소 번거롭습니다. 게다가 배터리 케이스가 휘어지기라도 한다면, 배터리를 감싸면서 폰에 찰칵하고 끼울수가 없기 때문에 그야말로 폰을 사용하지 못하게 되는 상황이 발생하지 않을까 싶은데.... 늘 아슬하게 생각됩니다.<br><br>6. 폰을 디카로 사용할 때, 특히 폴더를 열지 않고 사용할 때, 플래쉬가 너무 늦게 불이 켜지고서는 촬영 이후에도 계속해서 불이 켜지기때문에, 사진 촬영에는 문제가 없겠지만 매끄럽지 못한 타이밍 때문에 뭔가 잘못된게 아닌가 하고 사용자를 당황시키고, 당연히 전지 소모도 많아지게 됩니다.<br><br>7. 기타 장단점은 추후 시간을 내서 공유하기로 하겠습니다. 의견도 달아주세요.</font></td>
+							</tr>
+							<tr> 
+								<td colspan="4" bgcolor="#cacaca"></td>
+							</tr>
+							<tr> 
+								<td colspan="4" bgcolor="#eaeaea" height="5"></td>
+							</tr>
+							<tr> 
+								<td colspan="4" bgcolor="#F2F2f2" height="40" align=right> 
+									
+									<a href="index.asp?page=12"><img src="/img/btn/btn_list.gif"  align=absmiddle></a> &nbsp; </td>
+							</tr>
+							<tr> 
+								<td colspan="4" height="20"></td>
+							</tr>
+						</table>
+						<!------- READ End ------------->
+						<!-------------- 코멘트 시작 ---------->
+						
+
+<script src="/common/comment/cmt.js"></script>
+<a name="#cmt"></a>
+<form name=cmtform method=post action="/common/comment/process.asp" 
+	onsubmit="return cmtcheckIt(this,'')" style="margin:0">
+<input type=hidden name="act">
+<input type=hidden name="c_idx">
+<input type=hidden name="table_name" value="pc_socool_board">
+<input type=hidden name="t_idx" value="779">
+<input type=hidden name="r_url" value="/html/socool/sympathy/index_view.asp?idx=779&p=12">
+
+<table width="530" cellpadding="0" cellspacing="0" border="0">
+<tr bgcolor=#F2F2F2> 
+<td width=62><img src="/img/bbs/i_comment.gif" width="80" height="33" alt="" border="0"></td>
+<td width=383><input type='text' name='comment' style='width:375;border:1px solid #C6C6C6;font-size:8pt'  onkeyup='checkTextLen(form)' onchange='checkTextLen(form)'></td>
+<td width=75><input type=image src="/img/btn/btn_input.gif" width="70" style="height:19" align=absmiddle></td>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#ffffff style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('rs14','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>rs14</A> </b> &nbsp; <font class=em>2004-08-20 오전 1:51:31</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+[TIP]폴더 닫힌상태에서 음향버튼아시죠? 거기 T를 계속누르면 시간이나오고 좀더 눌으면 플래시가 켜집니다..그리고 밑에 W버튼을 계속누르면 시간이보이고 계속더눌으면 매너모드로 넘어가요.유용하게 쓰세요...^</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#F9F9F9 style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('chrs77','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>chrs77</A> </b> &nbsp; <font class=em>2004-08-18 오후 6:11:32</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+배터리는 번거롭지만 훨씬 이렇게 하는게 더욱 깔끔하고 좋다고 생각</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#ffffff style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('ulboya1808','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>ulboya1808</A> </b> &nbsp; <font class=em>2004-08-06 오후 10:52:31</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+모두 옳으신 말씀!! 벨소리 작은거 진짜 심각해여... 식당같은데 들어가면 아예 안들림.. 글구 전 밧데리 갈때마다 동전으로 빼야해여... 넘 뻑뻑해 ㅠㅠ 손으로 빼다가 손에 자국나서 죽는줄 알았씀다..</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#F9F9F9 style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('flower1129','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>flower1129</A> </b> &nbsp; <font class=em>2004-08-06 오전 2:52:33</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+마자요^^그건 좀 아쉽죠~그리고 벨소리가 작다는거. fm수신도가 낮아 거의 쓸 수가 없다는거...업그레이드 안되나요?</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#ffffff style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('surimasu','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>surimasu</A> </b> &nbsp; <font class=em>2004-08-03 오후 6:06:57</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+저두 외부 lcd창이 보였으면 좋겠어요...그리구 설명도 자세히 해줬음 좋겠구요</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#F9F9F9 style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('surimasu','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>surimasu</A> </b> &nbsp; <font class=em>2004-08-03 오후 6:04:29</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+배터리는 기존것 보다 좋은것 같은데요...충전부분에 다른것들이 직접 닿이지 않는 뭐 그런거 폭발의 위험이 덜 있지 않을까요</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#ffffff style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('dmswls27','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>dmswls27</A> </b> &nbsp; <font class=em>2004-08-01 오후 11:56:37</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+맞아요~~pancy0115님 저랑 똑같은 생각／／ 이거 벨소리 넘 작아서 정말 가까이 안있음 하나도 안들려요~~</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#F9F9F9 style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('psdhya','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>psdhya</A> </b> &nbsp; <font class=em>2004-07-31 오후 2:15:06</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+어찌 저랑 이렇게 생각이 같으신지..짱!!</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#ffffff style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('pancy0115','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>pancy0115</A> </b> &nbsp; <font class=em>2004-07-26 오후 1:29:39</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+제생각에는 폴더를 닺으면..스피커가 안에 있어서..소리가 작은게 단점..</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#F9F9F9 style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('chd1919','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>chd1919</A> </b> &nbsp; <font class=em>2004-07-25 오후 1:58:50</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+음~!나두 장정보다는 단점이 더 각인되군요~!</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#ffffff style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('rys1117','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>rys1117</A> </b> &nbsp; <font class=em>2004-07-25 오후 1:36:37</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+장점이란게 꼭 돈이 들어야하고...또 없으면 없는대로 안쓰면 그만인것들...</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#F9F9F9 style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('rys1117','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>rys1117</A> </b> &nbsp; <font class=em>2004-07-25 오후 1:35:51</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+님의 글을 보니...제 뇌리에 장점보다는 단점이 많이 각인되는군요</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+<tr> 
+<td colspan=3 bgcolor=#ffffff style="padding:9 13;line-height:16px"> 
+<b><A HREF=javascript:; onmouseover=snMenu('jaesic4','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>jaesic4</A> </b> &nbsp; <font class=em>2004-07-25 오전 10:15:28</font> <br>	
+<img src="/img/b.gif" width="1" height="5"><br>
+굿!!</td>
+</tr>
+<tr> 
+<Td class=dotline colspan=3></TD>
+</tr>
+
+
+</table>
+
+<form>
+						<!-------------- 코멘트 끝---------->
+					</td>
+				</tr>
+			</table>
+			<!-- #####//Contents End ##### -->
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+<!-- SubFlash//Only SubMain Exist -->
+</body>
+</html>
+

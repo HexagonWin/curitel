@@ -1,0 +1,299 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<link rel=stylesheet href="photo.css">
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+
+<script language="javascript">
+<!--
+
+function reply()
+{
+	if (form1.memo.value=="")
+	{
+		alert("나도 한마디를 입력하세요~");
+		form1.memo.focus();
+		return
+	}
+
+	var max=50;
+
+	if (form1.memo.value.length > max) 
+	{
+		alert("50자 까지만 입력 가능합니다");
+		return false;
+	}
+
+	
+	form1.submit();
+}
+
+function checkchars(form) {
+alert(form);
+var max=10;
+if (form.memo.value.length > max) {
+alert("15자 까지만 입력 가능합니다");
+return false;
+   }
+else return true;
+}
+
+
+//-->
+</script>
+</head>
+<body >
+<form name="form1" method="post" action="photo_reply.asp" >
+<input type="hidden" name="b_id" value="11">
+<input type="hidden" name="page" value="1">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top"><table width="810" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td valign="top" background="../images/bottom.gif"><table width="810" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="15" valign="top" background="../images/1/back04.gif"><img src="../images/1/back01.gif" width="15" height="210"></td>
+                <td width="794" align="center" valign="top" bgcolor="#FFFFFF"><table border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="146" rowspan="2"><a href="http://www.curitel.co.kr" target="_top"><img src="../images/1/top01.gif" width="146" height="95" border=0></a></td>
+                      <td width="167"><img src="../images/1/top02.gif" width="167" height="23"></td>
+                      <td width="187" background="../images/1/top04.gif"><img src="../images/1/top04.gif" width="19" height="23"></td>
+                      <td width="270" background="../images/1/top04.gif">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td><img src="../images/1/top03.gif" width="167" height="72"></td>
+                      <td><img src="../images/1/p1.gif" width="187" height="72"></td>
+                      <td><img src="../images/1/p2.gif" width="271" height="72"></td>
+                    </tr>
+                  </table>
+                  <table width="770" border="0" cellpadding="0" cellspacing="0" bgcolor="#E1F6FE">
+                    <tr> 
+                      <td width="125" valign="top">
+                          <table width="125" border="0" cellpadding="0" cellspacing="0" id="menu">
+                            <tr> 
+                              <td valign="top" background="../images/1/mback1.gif" width="125" height="304" align=center>&nbsp;</td>
+                            </tr>
+                            <tr> 
+                              <td>&nbsp;</td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td width="10" valign="top"><img src="../images/1/mright1.gif" width="21" height="455"></td>
+                      <td width="635" valign="top"><table width="626" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                              <td width="167"><img src="../images/1/top077.gif" width="167" height="115"></td>
+                            <td width="187"><img src="../images/1/p3.gif" width="187" height="115"></td>
+                            <td width="272"><img src="../images/1/p4.gif" width="271" height="115"></td>
+                          </tr>
+                          <tr>
+                            <td colspan="3" valign="top"><img src="../images/1/top10_p.gif" width="533" height="99"></td>
+                          </tr>
+                          <tr align="center">
+                            <td colspan="3" valign="top"><table width="590" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                                <tr> 
+                                  <td align="center" valign="top"> 
+                                    <table width="590" border="0" cellspacing="0" cellpadding="0">
+                                      <tr> 
+                                        <td height="1" colspan="4" bgcolor="#BBBBBB"></td>
+                                      </tr>
+                                      <tr class="T01_header"> 
+                                        <td width="57" height="40" align="right">제목 
+                                          : </td>
+                                        <td width="400"> 내 평생 단한번의 기회..</td>
+                                        <td width="52" align="right">글쓴이 :</td>
+                                        <td width="81">kej0708 </td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="1" colspan="4" bgcolor="#BBBBBB"></td>
+                                      </tr>
+                                      <tr valign="top"> 
+                                        <td colspan="4" align="center" bgcolor="#FFFFFF"><table border="0" cellspacing="15" cellpadding="0">
+                                            <tr> 
+                                              <td align="center"><img src="up_photo/image.jpg" width="560" height="288"></td>
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="1" colspan="4" background="images/line_dot.gif"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="10" colspan="4" class="T01">1조의 은주에여ㅋㅋ<br>
+<br>
+처음 범선 이벤트에 당첨 됐을땐 저를 비롯한 모든 사람들이 luxury한 크루저를 생각했<br>
+<br>
+죠.ㅋㅋ그래서 수영복까기 챙겨오신 분들도 잇었져.ㅋㅋ<br>
+<br>
+하지만 우리가 탄 배는 크루저 보다 더 멋진 배였어요~^^<br>
+<br>
+우리나라에 단 한대뿐인..아무리 돈이 있어도 크루저보다 타기 힘든 배였으니까요^^<br>
+<br>
+지금 생각해보면 오히려 다행이었어요..범선이라서요~<br>
+<br>
+럭셔리한 수영장 대신 온바다가 우리의 수영장이 되었으니까요~<br>
+<br>
+바다 한가운데서의 다이빙은 아마 평생 다시 없겠죠^^<br>
+<br>
+또 갑판위에서 바라본 밤하늘과 별빛들..<br>
+<br>
+주변엔 정적과 어둠만이 흐르는..오로지 우리만의 세상..지금도 가슴이 떨립니다..<br>
+<br>
+비록 날씨때문에 일본까지 가지는 못했지만..우리는 큐리텔의 이벤트 취지를 모두 느끼<br>
+<br>
+고 왔다고 생각합니다..도정과 열정..미래..우리는 모든걸 느끼고 왔어요..^^<br>
+<br>
+준비한 것의 3분의1밖에 못보여 주셔서 아쉬워 하시던 우리 팀장님들..<br>
+<br>
+저희는 그 3분의 1만으로도 못본걸 다 느꼈어요..고객만족을 외치시던..하나하나 작은 배려..<br>
+<br>
+정말 수고 많으셨어요..감사합니다.<br>
+<br>
+아직 2차를 안가신 분들이 이 글을 읽으신다면..<br>
+<br>
+일본에 대해서만 너무 기대 하지 말라고 하고 싶어요..<br>
+<br>
+이번 이벤트의 하이라이트는.일본이 아니라..범선 체험이거든요^^<br>
+<br>
+일본은 그저 범선 여행의 경유지 이고 일부일 뿐이에요~*<br>
+<br>
+정말로 평생 잊을수 없는 기억은 분명 범선에서의 시간들이 될거라고 믿어요.<br>
+<br>
+정말 멋진 배에요~다시 기회가 된다면 분명 꼭 다시 승선하고 싶은..^^<br>
+<br>
+안도에서의 하룻밤도..그리고 정말 아쉽고 열정적이었던 마지막 밤도..영원히 기억할게<br>
+요.<br>
+<br>
+제게 이런 기회를 주신..큐리텔..그리고 팀장님들..카메라 감독님..선장님..선원님들..김<br>
+<br>
+대리님..이 부장님..그외 모든 분들께 정말 모두모두 감사해요..<br>
+<br>
+아직도 여행에 대한 기억으로 하루하루가 흘러갑니다..^^<br>
+<br>
+3박4일이 짧아서 아쉬웠지만. 제게 너무나 소중한 기억을 주셔서 감사해요~<br>
+<br>
+</td>
+                                      </tr>
+                                      <tr bgcolor="#CCCCCC"> 
+                                        <td height="2" colspan="4"></td>
+                                      </tr>
+                                    </table>
+                              
+                                    <table width="560" border="0" cellpadding="0" cellspacing="0">
+                                      <tr> 
+                                        <td height="15" colspan="4" align="center" bgcolor="#FFFFFF"></td>
+                                      </tr>
+                                      <tr>      <td valign='top' class='C_0'><img src='../board/images/point4.gif' width='5' height='8'></td>      <td valign='top' class='C_2'>01b01596      <td valign='top' class='C_1'>수영복 가져온 사람이 바로 접니다^^;;나? 정 훈ㅋㅋㅋ      <td valign='top' class='C_1'>2003/08/27</td></tr> <tr>      <td height='1' colspan='4' background='images/line_dot.gif'></td></tr><tr>      <td valign='top' class='C_0'><img src='../board/images/point4.gif' width='5' height='8'></td>      <td valign='top' class='C_2'>kej0708      <td valign='top' class='C_1'>팀장님~~2차 조심히 다녀오시구요~나중에 정모나 벙개 할때 꼭 오실꺼져?*^^*      <td valign='top' class='C_1'>2003/08/20</td></tr> <tr>      <td height='1' colspan='4' background='images/line_dot.gif'></td></tr><tr>      <td valign='top' class='C_0'><img src='../board/images/point4.gif' width='5' height='8'></td>      <td valign='top' class='C_2'>survival21c      <td valign='top' class='C_1'>은주씨! 고맙습니다. 저1조 팀장 이창욱입니다.      <td valign='top' class='C_1'>2003/08/19</td></tr> <tr>      <td height='1' colspan='4' background='images/line_dot.gif'></td></tr><tr>      <td valign='top' class='C_0'><img src='../board/images/point4.gif' width='5' height='8'></td>      <td valign='top' class='C_2'>mdmiung      <td valign='top' class='C_1'>은주씨...ㅋㅋ 나 누구 조장...현실이 ....적응이 않되..
+      <td valign='top' class='C_1'>2003/08/19</td></tr> <tr>      <td height='1' colspan='4' background='images/line_dot.gif'></td></tr>
+                                     
+                                      <tr> 
+                                        <td height="10" colspan="4"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="33" align="center" valign="top" class="C_0"><img src="../board/images/point4.gif" width="5" height="8"></td>
+                                        <td height="33" valign="top" class="C_1"><input class=C_2 name=name value="Guest" readonly size=15 style="BACKGROUND-COLOR: #F7F9FB; BORDER-BOTTOM: #D7D7D7 1px solid; BORDER-LEFT: #B1B1B1 1px solid; BORDER-RIGHT: #D7D7D7 1px solid; BORDER-TOP: #B1B1B1 1px solid; FONT: 9pt 돋움 WIDTH: 150px"></td>
+                                        <td valign="top" class="C_1"><TEXTAREA class=C_2 wrap=virtual style="OVERFLOW: auto; BACKGROUND-COLOR: #F7F9FB; BORDER-BOTTOM: #D7D7D7 1px solid; BORDER-LEFT: #B1B1B1 1px solid; BORDER-RIGHT: #D7D7D7 1px solid; BORDER-TOP: #B1B1B1 1px solid; FONT: 9pt 돋움" name="memo" rows=3 cols=60></TEXTAREA></td>
+                                        <td valign="top" class="T01_4"><img src="images/button_comment.gif" width="41" height="40" onclick="reply();" style="cursor:hand"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="20" colspan="4" align="center"></td>
+                                      </tr>
+                                    </table>
+                                    
+                                    <!-- 프로그램끝-->
+                                  </td>
+                                </tr>
+                              </table> 
+                                     
+                                     
+                              <table width="590" border="0" cellspacing="0" cellpadding="0">
+                                      <tr bgcolor="#CCCCCC">
+                                        <td height="1"colspan="2"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td width="76" align="right" class="T01_3"><img src="images/btn_prev.gif" width="43" height="17"></td>
+                                        <td width="629" class="T01_3"><a href="photo_view.asp?b_id=10&page=1">[공지] 1차 범선여행에 대하여 알려드립니다.</td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="1" colspan="2" background="images/line_dot.gif"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align="right" class="T01_3"><img src="images/btn_next.gif" width="43" height="17"></td>
+                                        <td class="T01_3"><a href="photo_view.asp?b_id=12&page=1">정말 잊지 못할 추억이 되었습니다...아니 전설이 되어갑니다~</a></td>
+                                      </tr>
+                                      <tr bgcolor="#CCCCCC">
+                                        <td height="1" colspan="3"></td>
+                                      </tr>
+                                      <tr align="right" valign="bottom"> 
+                                        <td height="37" colspan="3">
+                                        <table border="0" cellspacing="0" cellpadding="3">
+                                            <tr> 
+                                                
+												     <td><a href="photo.asp?page=1" ><img src="images/button_list.gif" width="47" height="23" border="0"></a></td>
+												    <!-- <td><a href="photo_rewrite.asp?page=1"><img src="images/button_answer.gif" width="47" height="23" border="0"></a></td>//-->
+												 
+                                             <!-- <td><a href="#"><img src="images/button_modify.gif" width="47" height="23" border="0"></a></td>
+                                              <td><a href="#"><img src="images/button_cancel.gif" width="47" height="23" border="0"></a></td>
+                                              <td><a href="#"><img src="images/button_answer.gif" width="47" height="23" border="0"></a></td>
+                                              <td><a href="#"><img src="images/button_list.gif" width="47" height="23" border="0"></a></td>//-->
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                    </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td colspan="3" valign="top">&nbsp;</td>
+                          </tr>
+                        </table>
+                        
+                      </td>
+                    </tr>
+                  </table>
+                  <table width="779" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="418"><img src="../images/1/bottom_link1.gif" width="418" height="107" border="0" usemap="#MapMap"></td>
+                      <td width="361" bgcolor="#EBEBF7"><img src="images/bottom_link2.gif" width="362" height="107" border="0" usemap="#Map2Map2"></td>
+                    </tr>
+                  </table></td>
+                <td width="10" align="right" valign="top" background="../images/1/back03.gif"><img src="../images/1/back02.gif" width="15" height="210"></td>
+              </tr>
+            </table>
+            <map name="MapMap">
+              <area shape="rect" coords="108,24,174,71" href="http://www.curitel.co.kr/mycuritel/" target="_top">
+              <area shape="rect" coords="188,24,255,71" href="http://www.curitel.co.kr/InfoBox/" target="_top">
+              <area shape="rect" coords="268,23,335,71" href="http://www.curitel.co.kr/curitelzone/" target="_top">
+              <area shape="rect" coords="348,24,415,71" href="http://www.curitel.co.kr/PhoneDeco/" target="_top">
+            </map>
+            <map name="Map2Map2">
+              <area shape="rect" coords="51,59,143,72" href="http://www.curitel.co.kr/footer/privacy.asp" target="_top">
+              <area shape="rect" coords="163,59,207,72" href="http://www.curitel.co.kr/footer/partner.asp" target="_top">
+              <area shape="rect" coords="226,59,270,72" href="http://www.curitel.co.kr/footer/qna.asp?table=askhow" target="_top">
+              <area shape="rect" coords="292,60,346,72" href="http://www.curitel.co.kr/footer/qna.asp?table=toadmin" target="_top">
+            </map></td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<map name="Map">
+  <area shape="rect" coords="108,24,174,71" href="#">
+  <area shape="rect" coords="188,24,255,71" href="#">
+  <area shape="rect" coords="268,23,335,71" href="#">
+  <area shape="rect" coords="348,24,415,71" href="#">
+</map>
+<map name="Map2">
+  <area shape="rect" coords="51,59,143,72" href="#">
+  <area shape="rect" coords="163,59,207,72" href="#">
+  <area shape="rect" coords="226,59,270,72" href="#">
+  <area shape="rect" coords="292,60,346,72" href="#">
+</map>
+<map name="Map3">
+  <area shape="rect" coords="5,2,128,29" href="..event2.asp">
+  <area shape="rect" coords="21,33,118,51" href="javascript:window.open('/3dsound/index.html','3DSound','width=796, height=640'); document.reload();">
+</map>
+</form>
+</body>
+</html>

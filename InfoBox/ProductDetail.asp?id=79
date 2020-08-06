@@ -1,0 +1,534 @@
+
+<html>
+<head>
+	<title>PANTECH&CURITEL</title>
+	<link href="/common/css/basic.css" rel="stylesheet" type="text/css">
+	<script language="JavaScript">
+	<!--
+		function comment( obj, obj1 )
+		{
+			if ( obj == "add" )
+			{
+				if ("" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else if ( document.boardComment.comment_content.value == "" )
+				{
+					alert("내용을 입력하세요");
+					document.boardComment.comment_content.focus();
+					return;
+				}
+			} else if ( obj == "del" )
+			{
+				if ( "" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else
+				{
+					var ck_confirm = confirm( "삭제하시겠습니까?" );
+					if ( ck_confirm == false )
+					{
+						return ;
+					}
+				}
+			}
+			document.boardComment.mode.value = obj;
+			document.boardComment.ck_num.value = obj1;
+			document.boardComment.id.value = 79;
+			document.boardComment.action = "CommentSave.asp";
+			document.boardComment.submit();
+		}
+
+		function OpenRecommend()
+		{
+			window.open( "./Recommend.asp?id=79", "추천하기", "status=no,width=500,height=570" );
+		}
+		function openSar() {
+			window.open("./SAR/p_sar01.asp?id=79&model=HS6500","view","width=421,height=560,marginwidth=0,marginheight=0,resizable=0,scrollbars=no,toolbar=no,location=no");
+		}
+		function openAccessory() {
+			window.open("./accessory/accessory.asp?id=79","view","width=600,height=560,marginwidth=0,marginheight=0,resizable=0,scrollbars=yes,toolbar=no,location=no");
+		}
+		function MovePage(a){
+			document.location.href = "productdetail.asp?id=79&rpage="+a+"&page=#04";
+		}
+	//-->
+	</script>
+<script language='JavaScript'><!--// 
+adURL="http://ad.realmedia.co.kr/RealMedia/ads/adstream_jx.ads/www.curitel.com/goods_more@x01"; 
+document.write("<SCR"+"IPT LANG"+"UAGE='JavaScr"+"ipt1.1' SRC='"+adURL+"?"+(document.referrer.split("/"))[2]+"'></SCR"+"IPT>"); 
+//--></SCRIPT> 
+	
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td colspan="3"><!-- 헤더 플래시 include --><!--mg src="/common/images/fake_flash.gif" width="782" height="222"-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="782" HEIGHT="222" id="Untitled-2" ALIGN="top">
+	<param name="movie" value="/common/header/curitel_sub.swf?colorSetNum=2"><!-- 여기예요.-->
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=salign VALUE=T>
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	<EMBED src="/Common/header/curitel_sub.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+</OBJECT></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+	> <a href="/InfoBox/"><font color="#FFFFFF">Info Box</font></a>
+ 
+	
+	> <font color="#FFFFFF">제품정보</font>
+		
+</td>
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include --><!-- 레프트 메뉴 START -->
+
+<td width="197" valign="top" align="center" background="/Common/images/left_bg.gif">
+
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="10" bgcolor="#FFFFFF"><img src="/Common/images/spacer.gif" width="197" height="10"></td>
+		</tr>
+		<tr>
+			<td><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="197" HEIGHT="600" id="Untitled-2" ALIGN="top">
+					<PARAM NAME=movie VALUE="/Common/menu/info_box_before.swf">
+					<PARAM NAME=quality VALUE=high>
+					<PARAM NAME=salign VALUE=T>
+					<PARAM NAME=bgcolor VALUE=#FFFFFF>
+					<EMBED src="/Common/menu/info_box_before.swf" quality=high salign=T  WIDTH="197" HEIGHT="600" NAME="Untitled-2" ALIGN="top"
+					TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+				</OBJECT></td>
+		</tr>
+	</table>	
+
+</td>
+<!-- // 레프트 메뉴 END   -->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+			<table width="580" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td class="main_first" style="padding-top:15px" align="center">
+<script language="javascript">
+function openwin(obj)
+{ 
+	noticeWindow  =  window.open("/InfoBox/"+obj , "가격비교", "menubar=0,resiable=0,scrollbars=0 , width=500,height=275,left="+(screen.width-550)+",top=40");
+	noticeWindow.opener = self;
+}
+
+function imgpd5000()
+{
+	document.location.href='ProductDetail/pd-5000.zip';
+}
+
+function imgpd6000()
+{
+	document.location.href='ProductDetail/pd-6000.zip';
+}
+</script>					
+						<table width="548" cellpadding="0" cellspacing="0" border="0">						
+							<tr>
+							<td>
+<table width="548" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+	<td><img src="/InfoBox/images/010_019.gif" width="257" height="50"></td>
+	<td background="images/header_bg.gif"><img src="/common/images/spacer.gif" width="291" height="1"></td>
+	</tr>
+	
+	<tr>
+    <td colspan="2">&nbsp; </td>
+  </tr>
+	
+	<tr>
+	<td colspan="2">
+</table>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="548" height="448" id="Untitled-2" align="top">
+  <param name="movie" value="/InfoBox/ProductDetail/HS6500.swf">
+  <param name=quality value=high>
+  <param name=salign value=T>
+  <param name=bgcolor value=#FFFFFF>
+  <embed src="/InfoBox/ProductDetail/HS6500.swf" quality=high salign=T  width="782" height="222" align="top"
+	type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></embed> 
+</object>
+
+								
+								<table width="548" cellpadding="0" cellspacing="0" border="0" background="images/middle_bg.gif">
+									<tr align="center">
+									<td height="70"><a href="#01"><img src="images/middle_01.gif" border="0"></a></td>
+									<td><a href="#02"><img src="images/middle_02.gif" border="0"></a></td>
+									<td><a href="#03"><img src="images/middle_03.gif" border="0"></a></td>
+									<td><a href="#04"><img src="images/middle_04.gif" border="0"></a></td>
+									<td>
+<!--
+									
+										<a href="javascript:openwin('compare_dd600.htm');">
+									
+										<a href="javascript:openwin('compare_c500.htm');">
+									
+-->                                    
+									<a href="/curitelzone/pricecompare.asp"><img src="images/middle_05.gif" border="0"></a></td>
+									<td>
+
+										<a href="javascript:alert('로그인 하세요');"><img src="images/middle_06.gif" border="0"></a>
+
+									</td>
+									<td><a href="javascript:openSar();"><img src="images/middle_07.gif" border="0"></a></td>
+									<td><a href="javascript:openAccessory();"><img src="images/middle_08.gif" border="0"></a></td>
+									</tr>
+								</table>
+							</td>
+							</tr>
+						</table>
+						<table width="548" cellpadding="0" cellspacing="0" border="0">
+							<!-- 특징 START -->
+							<tr><a name="01"></a>
+								<td colspan="2" background="images/title_bg.gif" height="63" style="padding-left:20px"><img src="images/title_01.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0 width=520 align=center><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/cdma2000.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 카메라는 사랑을 싣고 &#8211; 커플링 촬영 기능</b></font><br>디카 수준의 화질을 가진 134만 화소 CCD 카메라 하나의 Frame 안에서 좌, 우로 두 번 다른 사진을 촬영 해 1 장으로 합성해 저장할 수 있는 기능입니다. 132 * 176만을 지원하는 ‘커플링촬영’ 기능으로 연인과 친구와 함께 최대의 화질과 공간을 1 장의 사진을 완성해보세요!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/tft.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 고품격 디자인, 최신 유행 파스텔톤 컬러 &#8211; 핑크/카페/블루</b></font><br>HS6500은 휴대폰의 곡선미를 최대한 살리고 올해 유행 컬러인, 핑크, 카페, 블루 등 3종류의 파스텔톤 색상을 갖춘 제품입니다. 신세대들이 좋아하는 파스텔톤의 컬러로 세련됨을 더했으며 유선형의 부드러운 라인으로 보면 볼수록 매력적인 디자인을 갖추었습니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/40poly.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 디카처럼 촬영하자! - 134만 화소 CCD 카메라</b></font><br>이제 카메라 수준을 업그레이드 하자. 기존의 카메라폰에서 경험할 수 없었던 새로운 세상이 펼쳐집니다. 134만 화소의 CCD 카메라로 디카 수준의 화질까지 즐길 수 있습니다. 연속 촬영(9회), 캠코더촬영, 연속 라이트 촬영, 22단계 디지털 8배 Zoom, 접사촬영, 플래쉬로 야간찰영, 15단계 밝기 조절은 물론 4가지 특수 효과 기능에 11가지 스티커 기능은 기본! 하나의 Frame안에서 두번 촬영하여 한 장으로 자동 합성하는 커플링 촬영기능과  동영상 촬영, 원터치 Shot Mail(MMS)기능까지~ 재미없는 카메라 폰들이여 이제 안녕! 이제 국내 최강의 카메라폰 HS6500으로 제대로 된 Mobile Photographer가 되어보세요~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/avatar.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 우리들의 밤은 당신들의 낮보다 아름답다! &#8211; 내장형 플래시 기능</b></font><br>HS6500! 해가 저문 밤에도, 조명이 없는 어두운 곳에서도 문제 없다. HS6500은 국내 유일의 강력한 더블 라이트 내장 및 연속 라이트 기능으로 조명이 없는 어두운 곳에서도 깨끗하고 선명한 사진과 동영상을 촬영할 수 있게 해줍니다. 밤낮없이 함께하는 모바일 카메라, 이제 사진, 동영상 촬영을 더욱 환~하게 즐기세요. </TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/note.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 파노라마 촬영 기능 국내 최초 탑재</b></font><br>풍경을 많이 담기 위해 가로나 세로 방향으로 길게 촬영하는 최신 디지털 카메라 기능인 ‘파노라마 촬영 기능’을 국내 최초로 탑재했습니다. HS6500으로 촬영한 파노라마 사진이 자동 스크롤과 함께 확대되어 생상한 현장감이 살아나도록 했습니다. 촬영 후에도 부분 줌(Zoom)이 가능하며 촬영한 사진 중 원하는 부분만을 확대하여 재저장이 가능합니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/on_line.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 가까이 가까이~ 더 가까이 &#8211; 13cm 접사 촬영 기능</b></font><br>가까이만 가면 흐릿해지는 모바일 카메라, 이제 HS6500만이 가능한 13cm 접사 촬영으로 선명하게 즐기세요. 자연 속의 아름다운 모습, 긴급할 땐 명함, 메모의 작은 글씨 촬영까지. HS6500의 탁월한 접사 촬영으로 이제 카메라폰의 활용도를 더 넓혀보세요!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/nate_air.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 2.1인치 초대형 LCD로 시원하게, 26만 컬러로 선명하게 &#8211; 26만 컬러 TFD LCD</b></font><br>카메라가 좋아도 LCD가 작으면 뭐해? 배경화면으로 꾸며도 폼이 안나는걸~ 하지만 이제 이런 걱정은 뚝! HS6500의 2.1인치 대형 26만 컬러 TFD Crystal Fine™ LCD가 나의 카메라폰을 더욱 빛나게 해주는 걸~ 폴더를 여는 순간 터지는 감탄의 소리~ Wow!  ※ Crystal Fine™은 세이코 엡손(주)의 등록상표로 TFD 액정에서 업그레이드된 반투과형 액정으로 보다 생생한 화면 구현</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/nate.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 열지 않고 찍는다! 열지 않고 즐긴다! &#8211; 1.1인치 6만 5천 TFD LCD</b></font><br>시계만 보는 외부 LCD는 가라! 폴더가 다힌 상태에서 버튼 하나로 외부 LCD 촬영이 가능합니다. HS6500은 6만 5천 컬러 외부 LCD를 채택하여 사진 촬영시 Preview를 더욱 선명하게 구현함음 물론 촬영한 사진을 외부 LCD 배경화면으로 설정하여 즐길 수 있습니다. 사진 아바타 기능을 설정하면 전화 수신시 외부 LCD에 전화 건 사람의 사진까지 선명하게! 이제 내, 외부 가리지 말고 화려한 컬러 컨텐츠를 마음껏 즐겨보세요!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/moive.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 디카처럼~캠코더처럼~ - 캠코더 촬영 기능</b></font><br>원하는 이미지를 포착하여 버튼을 누르면 나만의 캠코더 촬영이 시작됩니다. 카메라에서 즉각 캠코더로, 캠코더에서 카메라 전환이 버튼 하나로 가능하며 플래쉬, 화면밝기 조절기능, 총 22단계 줌 기능, 기본/흑백사진/세피아/네가티브 등의 특수효과도 함께 사용하실 수 있습니다. </TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/small.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 받기 싫은 메시지는 이제 안녕~ SPAM 메시지 차단 기능</b></font><br>때와 장소를 가리지 않고 날아드는 SPAM 메시지로 당황한 적 없으세요? HS6500은 스팸번호/스팸번호/수신거부단어/메시지 보관/ 기능 선택 방법 등을 통해 불필요한 메시지를 차단시켜 드립니다. 받기 싫은 메시지는 이제 안녕~ HS6500은 이제 메시지 청정지대!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/bell.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 전자수첩이 더욱 강해졌다 &#8211; 나만의 모바일 비서 ‘전자수첩’ 기능</b></font><br>까먹지 말자! 중요한 모임, 늦지 말자! 중요한 약속, 메모 해두자! 기발한 아이디어~ 생활 속에 편리한 기능들이 HS6500에서 더욱 강력해졌다. 알람, 모닝콜, 일정관리, D-Day, 메모, 계산기, 세계시간 확인 등 편리한 기능의 HS6500을 나만의 똑똑한 모바일 비서로 활용하세요~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/cdma2000.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 문자 보내기가 빨라진다 &#8211; 상용구 관리 기능</b></font><br>자주 쓰는 문구는 이제 다시 입력할 필요가 없다. 평상시 자주 쓰는 문구를 상용구로 저장해놓으면 필요할 때 언제라도 불러내어 바로 편집, 전송 할 수 있습니다. 시간이 오래 걸리는 재밌는 이모티콘 보관 기능까지~ ‘안녕하세요?’, ‘잠시 후 연락드리겠습니다’, ‘전화 통화중입니다’, ‘잠시 후 뵙겠습니다’, ‘연락 부탁드립니다’ 등의 평상시 자주 쓰는 말과 이모티콘들을 저장해 보세요~ 문자 보내기가 한결 수월해집니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/tft.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 휴대폰 착신 관리 이제 편리하게 한다 &#8211; LGT 편리 서비스 기능</b></font><br>‘발신번호표시’, ‘발신 금지’, ‘통화 중 대기’, ‘회의통화’, ‘착신 거절’ 등의 기능들, 사용하고 싶어도 등록과 해제 방법이 복잡해서 귀찮으셨죠? HS6500은 LG Telecom 편리 서비스를 통해 착신 관리 기능을 보다 간편하게 이용하실 수 있습니다. 또한 ‘메시지센터’, ‘착신전환’, ‘추적연결’, ‘그룹콜’, ‘듀얼넘버’, ‘비밀번호서비스’, ‘수신번호선택’ 등의 더욱 편리한 LGT 편리 서비스가 부가되어 전화를 받으면서 다양한 기능을 이용하실 수 있습니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/40poly.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ LG Telecom 멀티 미디어 기능이 한번에-세계 최초의 Java Platform 탑재</b></font><br>‘ez-I’, ‘자바스테이션’, ‘MI-TV’, ‘필링’, ‘캐릭터 멜로디’, ‘노래방’, ‘이지샷 메일’, ‘클릭! 동영상’ 등 즐겁고 유익한 무선 인터넷 세상이 열린다. HS6500으로 LG Telecom의 무선 인터넷을 더욱 즐겁고 편리하게 즐기세요.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/avatar.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 케이블은 Data를 싣고 - PC Sync 기능 지원</b></font><br>HS6500은 PC-Sync를 통해 주소록, 일정 등을 휴대폰으로 옮기거나 휴대폰 상의 주소록이나 일정을 서버로 옮길 수 있는 기능을 지원합니다. 편리한 PC Sync기능을 통해 주소록, 일정을 편리하게 관리하세요.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR></table>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+															<br><br>※ 제품의 외관, 사양등은 제품개량을 위해 사전예고 없이 변경될 수 있습니다.
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 특징 END -->
+							<!-- 기능 START -->
+							<tr><a name="02"></a>
+								<td colspan="2" background="images/title_bg.gif" height="63" style="padding-left:20px"><img src="images/title_02.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0 width=520 align=center><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>2.1" 대형 26만 컬러 TFD Crystal Fine™ LCD (132X176)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>1.1" 대화면 6만5천 컬러 TFD Crystal Fine™ Sub LCD (72X96)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>생생한 원음 64화음 멜로디</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>총 134만 화소의 SXGA급(1280X960) CCD 디지털 카메라 내장으로 고선명,고화질 실현</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>국내 유일의 강력한 더블 라이트 내장 및 연속 라이트 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>국내 최초 파노라마 촬영 기능(HS6000에 보강된 기능)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>13cm 근접 촬영(접사) - 꽃, 명함, 메모 촬영</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>9컷 연속 촬영</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>국내 최대 8배 디지털 Zoom(22단계)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>부분 Zoom 기능(HS6500에 보강된 기능)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>동영상 촬영(음성포함)기능(10초)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>동영상 촬영 중 8배 Zoom, 연속라이트, 근접 촬영 가능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>촬영 화면 밝기 조절 기능 (11단계)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>스티커 사진 기능 : 10가지</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>특수효과 기능 : 흑백, 세피아, 네가티브, 물결, 반짝반짝 등 18가지</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>스팸 SMS 거부 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>앨범보관함 사진들의 18가지 특수효과 사용 가능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>커플링 촬영 기능 : One Frame안에서 두번 촬영하여 한장으로 자동 합성</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>촬영 사이즈별 가능한 부가 기능 및 저장 용량</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>폴더를 열지 않고 촬영 가능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>폴더를 원하는 각도로 열어 놓고 자유자재로 촬영 가능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>3가지 셔터음과 문자수신음</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>사진을 Sub LCD 배경화면으로 사용 가능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>외부 LCD를 활용한 프리뷰 기능(셀프 촬영시 활용 등)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>사진 아바타 설정 기능(수신시 Sub LCD에 사진이나 아바타 표시)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>전체화면 사용 가능 : 사진촬영,대기화면 설정시 내부액정 전체화면 사용</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>캠코더 촬영(음성포함) 기능(10초)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>캠코더 촬영 중 22단계 줌기능, 11단계 화면밝기 조절 기능, 4가지 특수효과, 플래시, 접사촬영 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>원터치 Shot Mail(MMS) 전송 기능 (동영상 전송은 불가)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>편리한 ez-한글 채용</TD></TR></table>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 기능 END -->
+							<!-- 사양 START -->
+							<tr><a name="03"></a>
+								<td colspan="2" background="images/title_bg_02.gif" height="51" style="padding-left:20px; padding-top:20px" valign="top"><img src="images/title_03.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#E5E2E2><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_01.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>크기(mm)</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px bgcolor=#FFFFFF>95 × 48 × 24mm (표준형)</TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>무게(g)</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>105g(표준형)</TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>LCD 사양</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>내장 LCD :2.1인치 TFD 26만 컬러 LCD (132 × 176)<br>외장 LCD :1.1인치 TFD 6만5천 컬러 LCD (72 × 96)</TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_09.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>색상</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>핑크(Sherry Pink), 카페(Cafe au lait), 블루(Sky Bule) </TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_13.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD colspan=2><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#F0F0F0 height=120><TR><TD bgcolor=#F0F0F0 style=padding-left:10px width=34% >구 분</TD><TD bgcolor=#F0F0F0 align=center width=33% >표준용량</TD><TD bgcolor=#F0F0F0 align=center width=33% >대용량</TD></TR><TR><TD bgcolor=#F0F0F0 style=padding-left:10px>연속통화시간</TD><TD align=center bgcolor=#ffffff>80~110분 </TD><TD align=center bgcolor=#ffffff>130~180분 </TD></TR><TR><TD bgcolor=#F0F0F0 style=padding-left:10px>연속대기시간</TD><TD align=center bgcolor=#ffffff>140~180시간 </TD><TD align=center bgcolor=#ffffff>260~300시간 </TD></TR><TR><TD colspan=3  bgcolor=#ffffff style=padding-left:10px>◆ CDMA2000 1x 및 Slot Cycle 1.2 기준, 휴대폰 실사용 시간은 휴대폰 사용환경에 따라 차이가 있을 수 있습니다</TD>	</TR></TABLE></TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_23.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD colspan=2 bgcolor=#FFFFFF style=padding-left:80px><BR><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#ffffff height=120><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>휴대폰 본체</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>휴대용 고리</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>충전 거치대</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>USB 데이터 통신 케이블</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>사용설명서</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>촬영안내잡지</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>배터리 2개 (표준용량/ 대용량)</TD></TR></TABLE><BR></TD></TR></TABLE>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 사양 END -->
+							<!-- 리뷰 START -->
+							<tr><a name="04"></a>
+								<td colspan="2" background="images/title_bg_02.gif" height="51" style="padding-left:20px; padding-top:20px" valign="top"><img src="images/title_04.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<table width="536" cellpadding="1" cellspacing="0" border="0">
+													<tr bgcolor="#7EADB4">
+														<td width="85" height="22" style="color:white;padding-left:10px">작성자</td>
+														<td width="420" style="color:white">내&nbsp;&nbsp;용</td>
+														<td width="31" align="center" style="color:white">삭제</td>
+													</tr>
+
+						<!-- 한줄답변 START -->
+											<form name="boardComment" method="post" action="javascript:comment('add','0');">
+													<input type="hidden" name="mode">
+													<input type="hidden" name="id">
+													<input type="hidden" name="page" value="">
+													<input type="hidden" name="ck_num">
+													<input type="hidden" name='comment_name' value="">
+													<input type="hidden" name="comment_id" value="">
+
+
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">wait2006</td>
+														<td width="420">미친 이것도 싸이트라고 만들었냐? 뭐 서비스가 이따구야 핸드폰만 팔아먹으면 다라 이거야? 아우 열받네 .</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29826');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">enfdl</td>
+														<td width="420">usb연결하는 방법좀 알려주세요... 다운을 다 받아도 안되요...ㅜㅜ</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29465');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">enfdl</td>
+														<td width="420">usb연결 안된다고 이렇게 많은 글이 올라와도 가르쳐 주질 않으시네요...</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29464');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">mr001</td>
+														<td width="420">usb연결하신분 좀 가르쳐 주세요~ 정말..미치고 있습니다.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29441');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">polo0812</td>
+														<td width="420">ooboat님 글 여기도 있네요...이건 일본 카시오꺼 가져와서 큐리텔에서 만들건데..알지도 못하면서 속지말라니..이폰 궁금하면 www.canu.co.kr 가보세요..좋다는 글이 얼마나 많은데...</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29394');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">kts2352</td>
+														<td width="420">mp3</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29369');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">lms864</td>
+														<td width="420">USB 미치겠습니다. 뭐 이래..;;</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29312');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">lms864</td>
+														<td width="420">저는 하늘색 샀습니다. 다 좋은데 동영상 10초라뇨..장난 합니까? 만들다 만것 같군요.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29311');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">lms864</td>
+														<td width="420">뻥 수준 아닙니다. 134만화소는 컴퓨터에서 사진을 봤을때 알 수 있습니다.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29310');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">enfdl</td>
+														<td width="420">usb 포트 연결 안됩니다. ㅜㅜ  뭐가 문제죠? 단말기와 연결이 안됩니다.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29296');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<tr >
+														<td colspan="3" align=center style="padding-left:15px; padding-top:6px">
+													
+								<a href="javascript:MovePage('1');" ><img src="/Common/images/btn_list_01.gif" border="0" hspace="3" align="absmiddle"></a>&nbsp;
+<img src='/Common/images/btn_list_02.gif' border='0' hspace='3' align='absmiddle'> 1&nbsp;
+								<a href="javascript:MovePage('2');" >2</a>&nbsp;
+
+								<a href="javascript:MovePage('3');" >3</a>&nbsp;
+
+								<a href="javascript:MovePage('4');" >4</a>&nbsp;
+
+								<a href="javascript:MovePage('5');" >5</a>&nbsp;
+
+								<a href="javascript:MovePage('6');" >6</a>&nbsp;
+
+								<a href="javascript:MovePage('7');" >7</a>&nbsp;
+
+								<a href="javascript:MovePage('8');" >8</a>&nbsp;
+
+								<a href="javascript:MovePage('9');" >9</a>&nbsp;
+
+								<a href="javascript:MovePage('10');" >10</a>&nbsp;
+
+		&nbsp;<img src='/Common/images/btn_list_03.gif' border='0' hspace='3' align='absmiddle'>&nbsp;
+		<a href="javascript:MovePage('11');" ><img src="/Common/images/btn_list_04.gif" border="0" hspace="3" align="absmiddle"></a>
+
+
+														</td>
+													</tr>
+													<input type="hidden" name="rpage" value="1" >
+													<tr bgcolor="#7EADB4">
+														<td colspan="3" style="color:white;padding-left:10px">나도 한마디...</td>
+													</tr>
+													<tr>
+														<td colspan="3" style="padding-left:15px; padding-top:6px">
+															내용&nbsp;&nbsp;<input maxlength="120" size="75" name="comment_content">
+														</td>
+													</tr>
+													<tr>
+														<td colspan="3" style="padding:6px,0,10px,15px">
+															<img src="images/warning_01.gif">
+															<a href="javascript:comment('add','0');"><img src="images/btn_write.gif" border="0"></a>
+														</td>
+													</tr>
+													</form>
+													<tr><td colspan="3" height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td colspan="3" bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+										<tr>
+											<td width="10"></td>
+											<td colspan="3" height="6" bgcolor="#707070"></td>
+										</tr>
+										<tr align="right">
+											<td width="10"></td>
+											<td colspan="3" height="35" background="images/list_bottom_bg.gif" style="padding-right:20px">
+												<a href="./ProductList.asp?page="><img src="/common/images/btn_list.gif" border="0"></a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 리뷰 END -->
+						</table>
+					</td>
+				</tr>
+			</table><br><br><br>
+		<!-- // 메인 컨텐츠 END -->
+		</td>
+<!-- 푸터 include -->	</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		
+  <td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestFinanc_03.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="534,61,631,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="646,62,693,80" href="/footer/partner.asp">
+  <area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>
+</body>
+</html>

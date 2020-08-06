@@ -1,0 +1,63 @@
+BODY             { BACKGROUND-COLOR:#BDE2E2; color:#4B4B4B; font-family:굴림, Seoul, Gulim; font-size:9pt; font-weight: -30px; margin-top:0px; margin-left:0px; margin-right:0px; margin-bottom:0px }
+
+BODY.margine    { color:#303030; font-family:Tahoma, 굴림, Seoul, Gulim; font-size:8pt; font-weight: -30px; margin-top:0px; margin-left:20px; margin-right:20px; margin-bottom:0px }
+
+TABLE, TR, TD   { color : #4D4D4D; font-family : Tahoma, 굴림, Seoul, Gulim; font-size : 8pt; font-weight: -30px }
+FORM               { margin : 0px; padding : 0px; }
+SELECT            { font-family : Tahoma, 굴림, Seoul, Gulim; font-size : 8pt; background : #FFFFFF }
+TEXTAREA        { font-family : Tahoma, 굴림, Seoul, Gulim; font-size : 8pt; line-height : 160% }
+INPUT               { font-family : Tahoma, 굴림, Seoul, Gulim; font-size : 8pt }
+
+
+A:link             { COLOR: #434346; FONT-FAMILY: Tahoma, 굴림, Seoul, Gulim; TEXT-DECORATION: none }
+A:visited         { COLOR: #434346; FONT-FAMILY: Tahoma, 굴림, Seoul, Gulim; TEXT-DECORATION: none }
+A:active          { COLOR: #128BFB; FONT-FAMILY: Tahoma, 굴림, Seoul, Gulim; TEXT-DECORATION: none }
+A:hover          { COLOR: #128BFB; FONT-FAMILY: Tahoma, 굴림, Seoul, Gulim; TEXT-DECORATION: none }
+
+
+
+.TD_1           { BACKGROUND-COLOR: #FFFFFF; PADDING-LEFT:24px ; PADDING-TOP: 18px ; PADDING-RIGHT: 18px ; PADDING-BOTTOM: 18px}
+
+/* TABLE 기본 */
+.T_line    { BACKGROUND-COLOR: #595959 } /* 테이블라인 */
+.T_t1       { BACKGROUND-COLOR: #FFFFFF; PADDING-LEFT: 8px; PADDING-RIGHT: 5px; PADDING-TOP: 5px; PADDING-BOTTOM: 5px; FONT-SIZE: 8pt; color : #3D3D3D; font-weight: -50px; TEXT-ALIGN: JUSTIFY; LINE-HEIGHT:13pt} /* 줄안에 텍스프폼들어가는 경우 */
+.T_t2       { BACKGROUND-COLOR: #F3F4F3; PADDING-LEFT: 8px; PADDING-RIGHT: 5px; PADDING-TOP: 5px; PADDING-BOTTOM: 5px; FONT-SIZE: 8pt; color : #3D3D3D; font-weight: -50px; TEXT-ALIGN: JUSTIFY; LINE-HEIGHT:13pt} /* 줄안에 텍스프폼들어가는 경우(회색줄)*/
+
+
+/* TABLE 01 */
+.T01_memo    { BACKGROUND-COLOR: #EEEEEE; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; PADDING-TOP: 7px; PADDING-BOTTOM: 7px; FONT-SIZE: 8pt; FONT-WEIGHT: BOLD; color : #212121; height:28px } /* 사진보기제목 */
+.T01_name    { BACKGROUND-COLOR: #EEEEEE; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; PADDING-TOP: 7px; PADDING-BOTTOM: 7px; FONT-SIZE: 8pt; color : #212121; height:30px } /* 사진보기이름 */
+.TEXT  { BACKGROUND-COLOR: #FFFFFF; color : #7199EB ; FONT-WEIGHT: BOLD ;height:24px } /* 테이블헤더 */
+.T01_header  { BACKGROUND-COLOR: #C7D7E9; PADDING-LEFT: 3px; FONT-SIZE: 8pt; FONT-color : #FFFFFF ; PADDING-RIGHT: 3px; FONT-WEIGHT: BOLD } /* 테이블헤더 */
+.T01_header2  { BACKGROUND-COLOR: #C7D7E9; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; PADDING-TOP:3px } /* 테이블헤더 */
+.T01_1          { BACKGROUND-COLOR: #FFFFFF; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP:3px ; PADDING-BOTTOM: 3px; FONT-SIZE: 8pt; color : #434346; font-weight: -50px;height:22px ;LINE-HEIGHT:13pt} /* 첫번째 줄 */
+.T01_2          { BACKGROUND-COLOR: #EFFBFE; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 3px; PADDING-BOTTOM: 3px; FONT-SIZE: 8pt; color : #434346; font-weight: -50px; height:20px ; LINE-HEIGHT:13pt} /* 두번째 줄 */
+.T01             { BACKGROUND-COLOR: #FFFFFF; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP:15px ; PADDING-BOTTOM: 15px; FONT-SIZE: 8pt; color : #434346; font-weight: -50px;height:22px ;LINE-HEIGHT:13pt; TEXT-ALIGN: JUSTIFY} /* 첫번째 줄 */
+.T011            { BACKGROUND-COLOR: #FFFFFF; PADDING-LEFT: 45px; PADDING-BOTTOM: 15px }/* 첫번째 줄 */
+.T01_3          { BACKGROUND-COLOR: #EFFBFE; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 4px; PADDING-BOTTOM: 3px; FONT-SIZE: 8pt; color : #434346; height:25px} /* 공지 */
+.T01_4          {  PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 10px; FONT-SIZE: 8pt; color : #7A343E; FONT-WEIGHT: BOLD} /* 두번째 줄 */
+.C_0         { BACKGROUND-COLOR: #FFFFFF; PADDING-TOP: 5px;  } /* 첫번째 줄 */
+.C_1         { BACKGROUND-COLOR: #FFFFFF; PADDING-LEFT: 6px; PADDING-RIGHT: 3px; PADDING-TOP: 4px; PADDING-BOTTOM: 3px; FONT-SIZE: 8pt; color : #848A96; font-weight: -50px ; LINE-HEIGHT:12pt; TEXT-ALIGN: JUSTIFY} /* 첫번째 줄 */
+.C_2          { BACKGROUND-COLOR: #FFFFFF; PADDING-LEFT: 6px; PADDING-RIGHT: 3px; PADDING-TOP: 4px; PADDING-BOTTOM: 3px; FONT-SIZE: 8pt; color : #55607F; font-weight: -50px ; LINE-HEIGHT:12pt; TEXT-ALIGN: JUSTIFY} /* 두번째 줄 */
+
+
+/* TABLE 02 */
+.T02_memo    { BACKGROUND-COLOR: #E1FFF6; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 10px; PADDING-BOTTOM: 10px; FONT-SIZE: 8pt; color : #3D3D3D } /* 테이블설명 */
+.T02_header  { BACKGROUND-COLOR: #D7F1ED; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; FONT-SIZE:9pt ; color : #000000; height:22px } /* 테이블헤더 */
+.T02_1          { BACKGROUND-COLOR: #FFFFFF; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP:15px ; PADDING-BOTTOM: 15px; FONT-SIZE: 8pt; color : #434346; font-weight: -50px;height:22px ;LINE-HEIGHT:13pt; TEXT-ALIGN: JUSTIFY} /* 첫번째 줄 */
+.T02_2          { BACKGROUND-COLOR: #F3F4F3; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; PADDING-TOP: 3px; PADDING-BOTTOM: 3px; FONT-SIZE: 8pt; FONT-SIZE: 8pt; color : #737373; font-weight: -50px;height:22px;LINE-HEIGHT:13pt} /* 두번째 줄 */
+
+
+
+/* 입력폼 */
+.TEXTAREA {
+	OVERFLOW: auto; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 4px; PADDING-BOTTOM: 4px ; BACKGROUND-COLOR: #FFFFFF; BORDER-BOTTOM: #D7D7D7 1px solid; BORDER-LEFT: #BDBEBD 1px solid; BORDER-RIGHT: #D7D7D7 1px solid; BORDER-TOP: #BDBEBD 1px solid; FONT: 9pt 돋움
+}
+.INPUT  {
+	OVERFLOW: auto; BACKGROUND-COLOR: #FFFFFF; BORDER-BOTTOM: #D7D7D7 1px solid; BORDER-LEFT: #BDBEBD 1px solid; BORDER-RIGHT: #D7D7D7 1px solid; BORDER-TOP: #BDBEBD 1px solid; FONT: 8pt 돋움
+}
+.INPUT2  {
+	OVERFLOW: auto; BACKGROUND-COLOR: #EEEEEE; BORDER-BOTTOM: #D7D7D7 1px solid; BORDER-LEFT: #BDBEBD 1px solid; BORDER-RIGHT: #D7D7D7 1px solid; BORDER-TOP: #BDBEBD 1px solid; FONT: 9pt 돋움 }
+.INPUT_OFF {
+	BACKGROUND-COLOR: #FFFFFF ; BORDER-BOTTOM: #D7D7D7 1px solid; BORDER-LEFT: #8E8E8E solid; BORDER-RIGHT: #D7D7D7 1px solid; BORDER-TOP: #8E8E8E 1px solid; FONT: 9pt 돋움
+}

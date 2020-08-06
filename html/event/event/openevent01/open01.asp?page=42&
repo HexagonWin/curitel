@@ -1,0 +1,831 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/event.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<script language="JavaScript">  
+<!--  
+function Congratulation() {
+	
+    alert("이벤트가 종료 되었습니다.");
+	
+}
+
+function goModify(eidx, uid){
+	if("" == uid){
+		window.open("pop_comment.asp?pro=upd&idx="+eidx,"popup","width=470,height=430,left=50,top=50,scrollbars=no,resizable=no"); //추카추카 멘트수정
+	}
+}
+
+function goDel(eidx, uid){
+	if("" == uid){
+		if(confirm("삭제 하시겠습니까? 삭제하신후에는 되돌릴 수 없습니다.")){
+			var df = document.delForm;
+			df.idx.value=eidx;
+			df.target="delFrame";
+			df.action = "pop_comment_proc.asp";
+			df.submit();
+		}else return;
+	}
+}
+
+//-->  
+</script>    
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"></head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu7.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu7.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/event/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 830px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/event/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/event/event/openevent01/open01.asp?page=42&">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/event/event/openevent01/open01.asp?page=42&">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/event/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/event/index.asp" onfocus="this.blur()"><img src="/img/event/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr> 
+						<td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a> > <a href="/html/event/index.asp">Event</a> > 환상이벤트 > 지난 이벤트</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+						
+						<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="300">
+					               <param name="movie" value="/inc/flash/left/left_event.swf?html_Num=22">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_event.swf?html_Num=22" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="300"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">						
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+						<!-- #####Contents Start ##### -->
+	                  <table width="557" cellpadding="0" cellspacing="0" border="0" style="margin-left:26">
+	                    <tr> 
+	                      <td height="26">
+						  <img src="/img/event/subimg02.gif" width="537" height="97"></td>
+	                    </tr>
+	                    <tr>
+							<td><img src="mainimg.jpg" width="537" height="280" alt="" border="0"></td>
+	                    </tr>
+						<tr><td><img src="mainimg02.jpg" width="537" height="229" alt="" border="0" usemap="#congratulation"><map name="congratulation"><area alt="" coords="342,173,498,200" href="javascript:Congratulation()"></map></td></tr>
+						<tr>
+							<td valign="top">
+
+
+					  		<!-- 추카추카 큐리텔 01 -->
+								
+							  <table width="520" cellpadding="0" cellspacing="0" style="margin-left:8" bgcolor="#CFF4DF">
+							  	<tr><td height="10"></td></tr>
+
+								<!--//-->
+								<tr>
+									<td height="10" align="center" valign="top">
+										<!--/-->
+										<table width="496" cellpadding="0" cellspacing="0">
+											<tr>
+												<td width="5" height="5"><img src="/html/event/event/openevent01/edge01.gif" width="5" height="5" alt="" border="0"></td>
+												<td width="486" bgcolor="#ffffff"></td>
+												<td width="5"><img src="/html/event/event/openevent01/edge02.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td height="85"></td>
+												<td>
+													<table width="479" cellpadding="0" cellspacing="0">
+														<tr>
+															<td height="37">3753<img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><img src="ico01.gif" width="22" height="21" alt="" border="0" align="absmiddle"><img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><b><font color="#1C648F">Curian :</font></b> dewloving (04-06-27)   <b><font color="#1C648F">|   공감수 :</font></b> 0</td>
+															<td align="right">
+															
+																<!-- <a href="javascript:setRecomm(3895,'PC_EVENT_OPEN_1_1')"><img src="/html/event/event/openevent01/btn_sympathy.gif" width="29" height="16" alt="" border="0"></a> -->
+															
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2"><img src="/html/event/event/openevent01/bar01.gif" width="479" height="2" alt="" border="0"></td>
+														</tr>
+														<tr>
+															<td colspan="2" background="/html/event/event/openevent01/bar03.gif" height="40" valign="top" style="padding:14 12"><font style='font:10pt'>휴대폰도 이쁘고, 기능도 좋아서 <br>다음번 핸드폰 바꿀땐 큐리텔로 바꾸려 합니다.<br>가격도 저렴하고, 정말 너무너무 좋은것 같아요,,<br><br>홈페이지 리뉴얼 추카드리고요,,<br>발전하는 큐리텔이 되었으면 좋겠습니다[!]<br><br> 큐ㄹl텔 화ol팅[!!]</font></td>
+														</tr>
+														<tr><td colspan="2"><img src="/html/event/event/openevent01/bar02.gif" width="479" height="2" alt="" border="0"></td></tr>
+													</table>
+												</td>
+												<td></td>									
+											</tr>
+											<tr>
+												<td height="5"><img src="/html/event/event/openevent01/edge03.gif" width="5" height="5" alt="" border="0"></td>
+												<td bgcolor="#ffffff"></td>
+												<td><img src="/html/event/event/openevent01/edge04.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+										</table>
+										<!--/-->
+									</td>
+								</tr>
+								<tr>
+									<td height="5" align="center"><input type="hidden" value="3753"><!--<img src="plusline.gif" width="497" height="5" alt="" border="0">--></td>
+								</tr>
+
+
+								<!--//-->
+								<tr>
+									<td height="10" align="center" valign="top">
+										<!--/-->
+										<table width="496" cellpadding="0" cellspacing="0">
+											<tr>
+												<td width="5" height="5"><img src="/html/event/event/openevent01/edge01.gif" width="5" height="5" alt="" border="0"></td>
+												<td width="486" bgcolor="#ffffff"></td>
+												<td width="5"><img src="/html/event/event/openevent01/edge02.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td height="85"></td>
+												<td>
+													<table width="479" cellpadding="0" cellspacing="0">
+														<tr>
+															<td height="37">3752<img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><img src="ico01.gif" width="22" height="21" alt="" border="0" align="absmiddle"><img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><b><font color="#1C648F">Curian :</font></b> baer11 (04-06-27)   <b><font color="#1C648F">|   공감수 :</font></b> 0</td>
+															<td align="right">
+															
+																<!-- <a href="javascript:setRecomm(3894,'PC_EVENT_OPEN_1_1')"><img src="/html/event/event/openevent01/btn_sympathy.gif" width="29" height="16" alt="" border="0"></a> -->
+															
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2"><img src="/html/event/event/openevent01/bar01.gif" width="479" height="2" alt="" border="0"></td>
+														</tr>
+														<tr>
+															<td colspan="2" background="/html/event/event/openevent01/bar03.gif" height="40" valign="top" style="padding:14 12"><font style='font:10pt'>쓴지 얼마 안된듯 하지만 <br>쓰다보니 정이 많이가고 고장도 없어서 좋았어요<br>M-BANK기능도 좋은것 같아요...<br><br>더욱더 발전하는 큐리텔이 되었으면 좋겠습니다^^<br></font></td>
+														</tr>
+														<tr><td colspan="2"><img src="/html/event/event/openevent01/bar02.gif" width="479" height="2" alt="" border="0"></td></tr>
+													</table>
+												</td>
+												<td></td>									
+											</tr>
+											<tr>
+												<td height="5"><img src="/html/event/event/openevent01/edge03.gif" width="5" height="5" alt="" border="0"></td>
+												<td bgcolor="#ffffff"></td>
+												<td><img src="/html/event/event/openevent01/edge04.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+										</table>
+										<!--/-->
+									</td>
+								</tr>
+								<tr>
+									<td height="5" align="center"><input type="hidden" value="3752"><!--<img src="plusline.gif" width="497" height="5" alt="" border="0">--></td>
+								</tr>
+
+
+								<!--//-->
+								<tr>
+									<td height="10" align="center" valign="top">
+										<!--/-->
+										<table width="496" cellpadding="0" cellspacing="0">
+											<tr>
+												<td width="5" height="5"><img src="/html/event/event/openevent01/edge01.gif" width="5" height="5" alt="" border="0"></td>
+												<td width="486" bgcolor="#ffffff"></td>
+												<td width="5"><img src="/html/event/event/openevent01/edge02.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td height="85"></td>
+												<td>
+													<table width="479" cellpadding="0" cellspacing="0">
+														<tr>
+															<td height="37">3751<img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><img src="ico01.gif" width="22" height="21" alt="" border="0" align="absmiddle"><img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><b><font color="#1C648F">Curian :</font></b> lovesh86 (04-06-27)   <b><font color="#1C648F">|   공감수 :</font></b> 0</td>
+															<td align="right">
+															
+																<!-- <a href="javascript:setRecomm(3893,'PC_EVENT_OPEN_1_1')"><img src="/html/event/event/openevent01/btn_sympathy.gif" width="29" height="16" alt="" border="0"></a> -->
+															
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2"><img src="/html/event/event/openevent01/bar01.gif" width="479" height="2" alt="" border="0"></td>
+														</tr>
+														<tr>
+															<td colspan="2" background="/html/event/event/openevent01/bar03.gif" height="40" valign="top" style="padding:14 12"><font style='font:10pt'>큐리텔 ! <br>사용한지 1년 &amp;#46124는데,<br>정말정말 고장도 안나고, 기능이 너무 좋아요 - <br>특히 녹음이 다른 애들은 정말 부러워하던데 자랑스럽기 까지 했던걸요.<br>제꺼는 1년정도 된 거지만, 디자인도 좋고,<br>오래된거 같지 않아보여서 너무 좋아요 - <br><br>아직은 그리 큰 인지도가 높지 않은 제품이지만,<br>조금만 더 노력한다면, <br>최고의 제품이 될 꺼 같아요 - <br><br>화이팅이구요-! 홈페이지 리뉴얼 정말 축하드려요 - <br>더 예뻐졌어요 - !!!</font></td>
+														</tr>
+														<tr><td colspan="2"><img src="/html/event/event/openevent01/bar02.gif" width="479" height="2" alt="" border="0"></td></tr>
+													</table>
+												</td>
+												<td></td>									
+											</tr>
+											<tr>
+												<td height="5"><img src="/html/event/event/openevent01/edge03.gif" width="5" height="5" alt="" border="0"></td>
+												<td bgcolor="#ffffff"></td>
+												<td><img src="/html/event/event/openevent01/edge04.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+										</table>
+										<!--/-->
+									</td>
+								</tr>
+								<tr>
+									<td height="5" align="center"><input type="hidden" value="3751"><!--<img src="plusline.gif" width="497" height="5" alt="" border="0">--></td>
+								</tr>
+
+
+								<!--//-->
+								<tr>
+									<td height="10" align="center" valign="top">
+										<!--/-->
+										<table width="496" cellpadding="0" cellspacing="0">
+											<tr>
+												<td width="5" height="5"><img src="/html/event/event/openevent01/edge01.gif" width="5" height="5" alt="" border="0"></td>
+												<td width="486" bgcolor="#ffffff"></td>
+												<td width="5"><img src="/html/event/event/openevent01/edge02.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td height="85"></td>
+												<td>
+													<table width="479" cellpadding="0" cellspacing="0">
+														<tr>
+															<td height="37">3750<img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><img src="ico01.gif" width="22" height="21" alt="" border="0" align="absmiddle"><img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><b><font color="#1C648F">Curian :</font></b> nrlee87 (04-06-27)   <b><font color="#1C648F">|   공감수 :</font></b> 0</td>
+															<td align="right">
+															
+																<!-- <a href="javascript:setRecomm(3892,'PC_EVENT_OPEN_1_1')"><img src="/html/event/event/openevent01/btn_sympathy.gif" width="29" height="16" alt="" border="0"></a> -->
+															
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2"><img src="/html/event/event/openevent01/bar01.gif" width="479" height="2" alt="" border="0"></td>
+														</tr>
+														<tr>
+															<td colspan="2" background="/html/event/event/openevent01/bar03.gif" height="40" valign="top" style="padding:14 12"><font style='font:10pt'>12월에 처음만난 큐리텔,<br>디자인도 기능도 아주 맘에 들어요, <br>지금 S2를 사용하고 있거든요^^ 핑크색,<br>새로운 것들도 많이 나왔지만,<br>S2는 정말 질리지 않아요^^<br><br>큐리텔 사길 정말 잘했다는 생각도 들구요, <br>화질도 좋은편이고, 사진도 아주 잘나온답니다^^<br>큐리텔 화이팅!!!</font></td>
+														</tr>
+														<tr><td colspan="2"><img src="/html/event/event/openevent01/bar02.gif" width="479" height="2" alt="" border="0"></td></tr>
+													</table>
+												</td>
+												<td></td>									
+											</tr>
+											<tr>
+												<td height="5"><img src="/html/event/event/openevent01/edge03.gif" width="5" height="5" alt="" border="0"></td>
+												<td bgcolor="#ffffff"></td>
+												<td><img src="/html/event/event/openevent01/edge04.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+										</table>
+										<!--/-->
+									</td>
+								</tr>
+								<tr>
+									<td height="5" align="center"><input type="hidden" value="3750"><!--<img src="plusline.gif" width="497" height="5" alt="" border="0">--></td>
+								</tr>
+
+
+								<!--//-->
+								<tr>
+									<td height="10" align="center" valign="top">
+										<!--/-->
+										<table width="496" cellpadding="0" cellspacing="0">
+											<tr>
+												<td width="5" height="5"><img src="/html/event/event/openevent01/edge01.gif" width="5" height="5" alt="" border="0"></td>
+												<td width="486" bgcolor="#ffffff"></td>
+												<td width="5"><img src="/html/event/event/openevent01/edge02.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td height="85"></td>
+												<td>
+													<table width="479" cellpadding="0" cellspacing="0">
+														<tr>
+															<td height="37">3749<img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><img src="ico01.gif" width="22" height="21" alt="" border="0" align="absmiddle"><img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><b><font color="#1C648F">Curian :</font></b> sujin130 (04-06-27)   <b><font color="#1C648F">|   공감수 :</font></b> 0</td>
+															<td align="right">
+															
+																<!-- <a href="javascript:setRecomm(3891,'PC_EVENT_OPEN_1_1')"><img src="/html/event/event/openevent01/btn_sympathy.gif" width="29" height="16" alt="" border="0"></a> -->
+															
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2"><img src="/html/event/event/openevent01/bar01.gif" width="479" height="2" alt="" border="0"></td>
+														</tr>
+														<tr>
+															<td colspan="2" background="/html/event/event/openevent01/bar03.gif" height="40" valign="top" style="padding:14 12"><font style='font:10pt'>큐리텔을 사용하구 있는지..벌써 2년이 넘었네요~<br>요즘 신제품도 많이 나왔지만..<br>2년전부터 사용하고 있는 큐리텔..네오미..<br>아직도 멀쩡하답니다~<br>ㅋㅋ 가격도 저렴하고, 성능도 아주 좋아서..아직도 사용하고 있답니당!!<br>제 핸드폰 구형이지만..<br>어딜가나 자랑꺼리라구요!!<br>이폰 고장나서 바꾸게되면...또 큐리텔 사용할꺼예요~<br>큐리텔 화이팅!!!</font></td>
+														</tr>
+														<tr><td colspan="2"><img src="/html/event/event/openevent01/bar02.gif" width="479" height="2" alt="" border="0"></td></tr>
+													</table>
+												</td>
+												<td></td>									
+											</tr>
+											<tr>
+												<td height="5"><img src="/html/event/event/openevent01/edge03.gif" width="5" height="5" alt="" border="0"></td>
+												<td bgcolor="#ffffff"></td>
+												<td><img src="/html/event/event/openevent01/edge04.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+										</table>
+										<!--/-->
+									</td>
+								</tr>
+								<tr>
+									<td height="5" align="center"><input type="hidden" value="3749"><!--<img src="plusline.gif" width="497" height="5" alt="" border="0">--></td>
+								</tr>
+
+
+								<!--//-->
+								<tr>
+									<td height="10" align="center" valign="top">
+										<!--/-->
+										<table width="496" cellpadding="0" cellspacing="0">
+											<tr>
+												<td width="5" height="5"><img src="/html/event/event/openevent01/edge01.gif" width="5" height="5" alt="" border="0"></td>
+												<td width="486" bgcolor="#ffffff"></td>
+												<td width="5"><img src="/html/event/event/openevent01/edge02.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td height="85"></td>
+												<td>
+													<table width="479" cellpadding="0" cellspacing="0">
+														<tr>
+															<td height="37">3748<img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><img src="ico01.gif" width="22" height="21" alt="" border="0" align="absmiddle"><img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><b><font color="#1C648F">Curian :</font></b> verona91 (04-06-26)   <b><font color="#1C648F">|   공감수 :</font></b> 0</td>
+															<td align="right">
+															
+																<!-- <a href="javascript:setRecomm(3890,'PC_EVENT_OPEN_1_1')"><img src="/html/event/event/openevent01/btn_sympathy.gif" width="29" height="16" alt="" border="0"></a> -->
+															
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2"><img src="/html/event/event/openevent01/bar01.gif" width="479" height="2" alt="" border="0"></td>
+														</tr>
+														<tr>
+															<td colspan="2" background="/html/event/event/openevent01/bar03.gif" height="40" valign="top" style="padding:14 12"><font style='font:10pt'>지금 큐리텔 쓰는데, <br><br>정말 화질도 좋고 음질도 좋은거 같습니다.<br><br>큐리텔 홈페이지 리뉴얼 추카 드립니다^^</font></td>
+														</tr>
+														<tr><td colspan="2"><img src="/html/event/event/openevent01/bar02.gif" width="479" height="2" alt="" border="0"></td></tr>
+													</table>
+												</td>
+												<td></td>									
+											</tr>
+											<tr>
+												<td height="5"><img src="/html/event/event/openevent01/edge03.gif" width="5" height="5" alt="" border="0"></td>
+												<td bgcolor="#ffffff"></td>
+												<td><img src="/html/event/event/openevent01/edge04.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+										</table>
+										<!--/-->
+									</td>
+								</tr>
+								<tr>
+									<td height="5" align="center"><input type="hidden" value="3748"><!--<img src="plusline.gif" width="497" height="5" alt="" border="0">--></td>
+								</tr>
+
+
+								<!--//-->
+								<tr>
+									<td height="10" align="center" valign="top">
+										<!--/-->
+										<table width="496" cellpadding="0" cellspacing="0">
+											<tr>
+												<td width="5" height="5"><img src="/html/event/event/openevent01/edge01.gif" width="5" height="5" alt="" border="0"></td>
+												<td width="486" bgcolor="#ffffff"></td>
+												<td width="5"><img src="/html/event/event/openevent01/edge02.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td height="85"></td>
+												<td>
+													<table width="479" cellpadding="0" cellspacing="0">
+														<tr>
+															<td height="37">3747<img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><img src="ico01.gif" width="22" height="21" alt="" border="0" align="absmiddle"><img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><b><font color="#1C648F">Curian :</font></b> curltel (04-06-26)   <b><font color="#1C648F">|   공감수 :</font></b> 0</td>
+															<td align="right">
+															
+																<!-- <a href="javascript:setRecomm(3888,'PC_EVENT_OPEN_1_1')"><img src="/html/event/event/openevent01/btn_sympathy.gif" width="29" height="16" alt="" border="0"></a> -->
+															
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2"><img src="/html/event/event/openevent01/bar01.gif" width="479" height="2" alt="" border="0"></td>
+														</tr>
+														<tr>
+															<td colspan="2" background="/html/event/event/openevent01/bar03.gif" height="40" valign="top" style="padding:14 12"><font style='font:10pt'>팬택과 큐리텔, 드디어 조금 더 새로운 모습으로 고객에게 다가오는군요.<br><br>뛰어난 가격대 성능비, <br><br>미려한 디자인, <br><br>그리고 캠코더폰이나 디카폰같은 참신한 아이템으로<br><br>시중에 소비자의 선택을 더욱 넓혀준 큐리텔.<br><br>물론 아직 여러가지 면에서 큐리텔의 휴대폰이 고쳐나가야 할 점은 많습니다만,<br><br>1등이 아니기에 더욱더 노력하는 모습을 보일 수 있다고 생각합니다.<br><br>그럼 앞으로 창성할 큐리텔의 앞날을 기대하면서,<br><br>더 멋지고 합리적인 가격의 휴대폰을 만나보길 기대하면서,<br><br>팬텍엔 큐리텔 홈페이지 리뉴얼을 축하드립니다.</font></td>
+														</tr>
+														<tr><td colspan="2"><img src="/html/event/event/openevent01/bar02.gif" width="479" height="2" alt="" border="0"></td></tr>
+													</table>
+												</td>
+												<td></td>									
+											</tr>
+											<tr>
+												<td height="5"><img src="/html/event/event/openevent01/edge03.gif" width="5" height="5" alt="" border="0"></td>
+												<td bgcolor="#ffffff"></td>
+												<td><img src="/html/event/event/openevent01/edge04.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+										</table>
+										<!--/-->
+									</td>
+								</tr>
+								<tr>
+									<td height="5" align="center"><input type="hidden" value="3747"><!--<img src="plusline.gif" width="497" height="5" alt="" border="0">--></td>
+								</tr>
+
+
+								<!--//-->
+								<tr>
+									<td height="10" align="center" valign="top">
+										<!--/-->
+										<table width="496" cellpadding="0" cellspacing="0">
+											<tr>
+												<td width="5" height="5"><img src="/html/event/event/openevent01/edge01.gif" width="5" height="5" alt="" border="0"></td>
+												<td width="486" bgcolor="#ffffff"></td>
+												<td width="5"><img src="/html/event/event/openevent01/edge02.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td height="85"></td>
+												<td>
+													<table width="479" cellpadding="0" cellspacing="0">
+														<tr>
+															<td height="37">3746<img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><img src="ico02.gif" width="22" height="21" alt="" border="0" align="absmiddle"><img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><b><font color="#1C648F">Curian :</font></b> geongjin2 (04-06-26)   <b><font color="#1C648F">|   공감수 :</font></b> 0</td>
+															<td align="right">
+															
+																<!-- <a href="javascript:setRecomm(3887,'PC_EVENT_OPEN_1_1')"><img src="/html/event/event/openevent01/btn_sympathy.gif" width="29" height="16" alt="" border="0"></a> -->
+															
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2"><img src="/html/event/event/openevent01/bar01.gif" width="479" height="2" alt="" border="0"></td>
+														</tr>
+														<tr>
+															<td colspan="2" background="/html/event/event/openevent01/bar03.gif" height="40" valign="top" style="padding:14 12"><font style='font:10pt'>지금 큐리텔을 쓰고 잇는데요 <br><br>64 화음이라서 너무 좋고요 <br><br>기능도 넘 조아요...<br><br>ㅋㅋ<br><br>또 ㅡ.ㅡ<br><br>카메라 폰을 첨 가저보는거라 더 좋네요 <br><br>녹음기능도 되고요<br><br>넘 조아요^.^</font></td>
+														</tr>
+														<tr><td colspan="2"><img src="/html/event/event/openevent01/bar02.gif" width="479" height="2" alt="" border="0"></td></tr>
+													</table>
+												</td>
+												<td></td>									
+											</tr>
+											<tr>
+												<td height="5"><img src="/html/event/event/openevent01/edge03.gif" width="5" height="5" alt="" border="0"></td>
+												<td bgcolor="#ffffff"></td>
+												<td><img src="/html/event/event/openevent01/edge04.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+										</table>
+										<!--/-->
+									</td>
+								</tr>
+								<tr>
+									<td height="5" align="center"><input type="hidden" value="3746"><!--<img src="plusline.gif" width="497" height="5" alt="" border="0">--></td>
+								</tr>
+
+
+								<!--//-->
+								<tr>
+									<td height="10" align="center" valign="top">
+										<!--/-->
+										<table width="496" cellpadding="0" cellspacing="0">
+											<tr>
+												<td width="5" height="5"><img src="/html/event/event/openevent01/edge01.gif" width="5" height="5" alt="" border="0"></td>
+												<td width="486" bgcolor="#ffffff"></td>
+												<td width="5"><img src="/html/event/event/openevent01/edge02.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td height="85"></td>
+												<td>
+													<table width="479" cellpadding="0" cellspacing="0">
+														<tr>
+															<td height="37">3745<img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><img src="ico04.gif" width="22" height="21" alt="" border="0" align="absmiddle"><img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><b><font color="#1C648F">Curian :</font></b> hylo (04-06-26)   <b><font color="#1C648F">|   공감수 :</font></b> 0</td>
+															<td align="right">
+															
+																<!-- <a href="javascript:setRecomm(3886,'PC_EVENT_OPEN_1_1')"><img src="/html/event/event/openevent01/btn_sympathy.gif" width="29" height="16" alt="" border="0"></a> -->
+															
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2"><img src="/html/event/event/openevent01/bar01.gif" width="479" height="2" alt="" border="0"></td>
+														</tr>
+														<tr>
+															<td colspan="2" background="/html/event/event/openevent01/bar03.gif" height="40" valign="top" style="padding:14 12"><font style='font:10pt'>저는 군에서 전역하자마자 핸드폰을 구입했는데 <br><br>안타깝게도 큐리텔 제품이아닌 타업체의 제품을<br><br>구입했어요 <br><br>PG-K65000이나 PG-K6000V S4같은제품이 <br><br>조금만 일찍 출시됐으면하는 아쉬움이 드네요<br><br>그래도 아쉽지만.... 나중에 큐리텔 제품을 한번 꼭<br><br>써보고싶네요 <br><br>앞으로 고객들이 실망하지 않는 큐리텔로 거듭나시길<br><br>기원 합니다. <br><br></font></td>
+														</tr>
+														<tr><td colspan="2"><img src="/html/event/event/openevent01/bar02.gif" width="479" height="2" alt="" border="0"></td></tr>
+													</table>
+												</td>
+												<td></td>									
+											</tr>
+											<tr>
+												<td height="5"><img src="/html/event/event/openevent01/edge03.gif" width="5" height="5" alt="" border="0"></td>
+												<td bgcolor="#ffffff"></td>
+												<td><img src="/html/event/event/openevent01/edge04.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+										</table>
+										<!--/-->
+									</td>
+								</tr>
+								<tr>
+									<td height="5" align="center"><input type="hidden" value="3745"><!--<img src="plusline.gif" width="497" height="5" alt="" border="0">--></td>
+								</tr>
+
+
+								<!--//-->
+								<tr>
+									<td height="10" align="center" valign="top">
+										<!--/-->
+										<table width="496" cellpadding="0" cellspacing="0">
+											<tr>
+												<td width="5" height="5"><img src="/html/event/event/openevent01/edge01.gif" width="5" height="5" alt="" border="0"></td>
+												<td width="486" bgcolor="#ffffff"></td>
+												<td width="5"><img src="/html/event/event/openevent01/edge02.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td height="85"></td>
+												<td>
+													<table width="479" cellpadding="0" cellspacing="0">
+														<tr>
+															<td height="37">3744<img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><img src="ico02.gif" width="22" height="21" alt="" border="0" align="absmiddle"><img src="bar.gif" width="1" height="22" alt="" border="0" align="absmiddle" hspace="10"><b><font color="#1C648F">Curian :</font></b> eyi81 (04-06-26)   <b><font color="#1C648F">|   공감수 :</font></b> 0</td>
+															<td align="right">
+															
+																<!-- <a href="javascript:setRecomm(3885,'PC_EVENT_OPEN_1_1')"><img src="/html/event/event/openevent01/btn_sympathy.gif" width="29" height="16" alt="" border="0"></a> -->
+															
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2"><img src="/html/event/event/openevent01/bar01.gif" width="479" height="2" alt="" border="0"></td>
+														</tr>
+														<tr>
+															<td colspan="2" background="/html/event/event/openevent01/bar03.gif" height="40" valign="top" style="padding:14 12"><font style='font:10pt'>오~~ 필승 큐리텔~~<br>오~~ 필승 새홈피~~<br>오~~ 필승 큐리텔<br>오! 오! 레오레~~~<br><br>점점 큐텔이 좋아지고 있네염~~ 집도 단정하게 지었구~~<br><br>새로 나온 폰들두 넘 디자인이 이쁜거 있져~~ 기능두 다양하고~~<br><br>친구들이 부러워하는 폰이 &amp;#46124음당~~ ㅋㅋ<br><br>언제나 큐텔 화이팅이여~<br>자주 놀러 오고 싶네여~~ </font></td>
+														</tr>
+														<tr><td colspan="2"><img src="/html/event/event/openevent01/bar02.gif" width="479" height="2" alt="" border="0"></td></tr>
+													</table>
+												</td>
+												<td></td>									
+											</tr>
+											<tr>
+												<td height="5"><img src="/html/event/event/openevent01/edge03.gif" width="5" height="5" alt="" border="0"></td>
+												<td bgcolor="#ffffff"></td>
+												<td><img src="/html/event/event/openevent01/edge04.gif" width="5" height="5" alt="" border="0"></td>
+											</tr>
+										</table>
+										<!--/-->
+									</td>
+								</tr>
+								<tr>
+									<td height="5" align="center"><input type="hidden" value="3744"><!--<img src="plusline.gif" width="497" height="5" alt="" border="0">--></td>
+								</tr>
+
+
+
+
+								<tr><td align="center" height="70"><a href=open01.asp?page=40&><img src='/img/bbs/btn/btn_pre.gif' width='54' height='17' alt='' border='0' align='absmiddle' hspace='26'></a>&nbsp;<a href=open01.asp?page=41&>|41|</a>&nbsp;<b>|42|</b>&nbsp;<a href=open01.asp?page=43&>|43|</a>&nbsp;<a href=open01.asp?page=44&>|44|</a>&nbsp;<a href=open01.asp?page=45&>|45|</a>&nbsp;<a href=open01.asp?page=46&><img src='/img/bbs/btn/btn_next.gif' width='55' height='17' alt='' border='0' align='absmiddle' hspace='26'></a></td></tr>
+							  </table>
+							  <!--//-->
+							  <form name="delForm" method=post>
+								 <input type="hidden" name="idx" value="">
+								 <input type="hidden" name="pro" value="del">
+							  </form>
+							  <iframe name="delFrame" src="" width=0 height=0></iframe>
+							  <!--//-->
+
+					  		<!-- 추카추카 큐리텔 01 -->	
+
+							</td>
+						</tr>
+	                  </table>
+				  <table width="557" border=0 cellpadding=0 cellspacing="0" style="margin-left:26">
+					<tr><td style="padding:20 0 0 0"><img src="/img/common/notice.gif"  height="43" alt="" border="0"></td></tr>
+					<tr><td height=40 align=right valign=bottom style="padding:0 25 0 0"><a href="javascript:history.back(-1)"><img src="/html/event/event/tgi/btn_main.gif" width="80" height="26"></a></td></tr>
+					</table>
+		            <!-- #####//Contents End ##### -->
+		          </td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+<!-- SubFlash//Only SubMain Exist -->
+</body>
+</html>

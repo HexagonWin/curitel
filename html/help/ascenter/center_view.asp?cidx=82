@@ -1,0 +1,2084 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/help.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<script language='javascript'>
+function print(path)
+{
+     //window.print();
+}
+function _del(ccidx,writer)
+{
+     if(writer != "")
+     {
+          alert("작성자만 삭제가 가능합니다.");
+     }
+     else
+     {
+          location.href="center_comment_save.asp?ccidx=" + ccidx + "&writer="+writer+"&act=delete&cidx=82"
+     }
+
+}
+function comment_str(frm)
+{
+     if(frm.comment.value == "")
+     {
+          alert("코멘트를 입력해 주세요~");
+          frm.comment.focus();
+          return false
+     }
+
+     return true;
+}
+
+function search(frm)
+{
+     if(frm.sword.value=="")
+     {
+          alert("검색어를 입력하세요~");
+          frm.sword.focus();
+          return false;
+     }
+
+     return true;
+}
+</script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><script language="JavaScript">flash('/inc/flash/sub_menu7.swf?lnum=0','936','137');</script>
+		<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu7.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu7.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object> --></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+<tr> 
+	<td width="77" height="77" valign="top" style="background:url(/img/help/titleleftbg.gif) repeat-x left top">
+		<!-- SubTitle -->
+		<DIV id=divMenu 
+		style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/help/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/help/ascenter/center_view.asp?cidx=82">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/help/ascenter/center_view.asp?cidx=82">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/help/titleleftbg.gif">
+					
+					<script language="JavaScript">flash('/inc/flash/rollbar_1.swf?uid=0','77','65','1');</script>
+					<!-- <embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65> -->
+					</td>
+					<td width="164" align="right"><a href="/html/help/index.asp" onfocus="this.blur()"><img src="/img/help/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+		</DIV>
+	</td>
+	<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+    <table cellpadding="0" cellspacing="0" border="0" align="right">
+        <tr>
+            <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+                > <a href="/html/help/index.asp">HELP DESK</a> > <a href="/html/help/ascenter/index.asp">전국
+                서비스센터</a> > 지역별 서비스 센터</td>
+        </tr>
+    </table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+    <tr>
+        <td width="77"></td>
+        <td width="156" valign="top" align="right">
+            <!-- LeftMenu -->
+            <table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td valign="top">
+                        						<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+					       <td align="center">
+	
+							<script language="JavaScript">flash('/inc/flash/left/left_help.swf?html_Num=31&ismonitoring=','100','367');</script>
+							<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="367">
+					               <param name="movie" value="/inc/flash/left/left_help.swf?html_Num=31&ismonitoring=">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_help.swf?html_Num=31&ismonitoring=" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="367"></embed></object> -->
+
+
+								   </td>
+						</tr>
+		
+						<tr><td height="50" style="padding:0 0 0 14">
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td height="5" class="mubg_gra_btm"></td>
+                </tr>
+            </table></td>
+        <td width="597" valign="top"> <table width="597" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td valign="top" class="ctsmgn">
+                        <!-- #####Contents Start ##### -->
+                        <table width="537" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td><img src="/img/help/ascenter/subimg_seoul.gif" width="537" height="97"></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor=#ffffff height=2></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor=#F6F8F9 height=26></td>
+                            </tr>
+                            <tr>
+                                <td height="20"></td>
+                            </tr>
+                        </table>
+                        <!--센터 정보 시작-->
+                        <table width="537" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="em b 9">+ 금정구점</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:5 0 0 7"> <table cellpadding=0 cellspacing=0 border=0 width=530>
+                                        <tr>
+											<form method=post action="center_list.asp" name=clistfrm onsubmit="return search(this)">
+                                            <td style="padding:0 0 8 0" align=right colspan=2>
+												<select name="scategory" style="width:97">
+												<option value='title'>센타명
+												<option value='address'>센타주소 </select> <input name="sword" type="text" style="width:120">
+												<input type=image src="/img/bbs/btn/btn_search.gif" alt="" border="0" align="absmiddle">
+											<!--
+                                                <select name="select">
+                                                    <option value=''> 시/도 선택 </select>
+                                                <select name="select2">
+                                                    <option value=''> 구/군 선택 </select>
+                                                <a href="#"><img src="/img/bbs/btn/search.gif" width="46" height="17" align=absmiddle></a>
+											-->
+                                            </td>
+											</form>
+                                        </tr>
+                                        <tr valign=top>
+                                            <td width=139> <table cellpadding=0 cellspacing=0 border=0>
+                                                    <tR>
+                                                        <td style="padding:5 5;border:1px solid #D1D1D1">
+															<img src='/upload/center/금정구점.jpg' width='116' height='150' align=absmiddle style='border:1px solid #DEDEDE'>
+                                                            <!--<img src="/img/help/ascenter/centerimg.gif" width="118" height="150">-->
+														</td>
+                                                    </tr>
+                                                </table></td>
+                                            <td> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td height="1" bgcolor="#D1D1D1"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> <table width="385" border="0" cellspacing="0" cellpadding="0" style="margin:6 0">
+                                                                <tr>
+                                                                    <td width="75" height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view01.gif" height="11"></td>
+                                                                    <td width="315">부산</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="1" colspan="2" class="li_dotline"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view02.gif" height="11"></td>
+                                                                    <td>051-513-5580</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="1" colspan="2" class="li_dotline"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view03.gif" height="11"></td>
+                                                                    <td>
+051-513-5570
+																	</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="1" colspan="2" class="li_dotline"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view04.gif" height="11"></td>
+                                                                    <td><a href="mailto:cyslamen@curitel.com">to_eye@nate.com </a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="1" colspan="2" class="li_dotline"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view05.gif" height="11"></td>
+                                                                    <td>부산 금정구 장전3동 422-12 <!--서울시 강남구
+                                                                        역삼동 726-1번지--></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="1" colspan="2" class="li_dotline"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="2" colspan="2"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="21" bgcolor="#F4F6F7" style="border-left:#FFFFFF 3 solid;border-right:#FFFFFF 7 solid;padding-left:11"><img src="/img/help/ascenter/t_view06.gif" height="11"></td>
+                                                                    <td style="letter-spacing:-0.05em">
+																		비수기: 평일 AM09:00 ~ PM18:00 / 토요일 AM09:00 ~ PM13:00<br>
+성수기: 평일 AM09:00 ~ PM19:00 / 토요일 AM09:00 ~ PM13:00<br>
+(비수기: 9월 - 5월)<br>
+(성수기: 6월 - 8월)<br>
+
+																	<!--
+																		평일:
+                                                                        10:00
+                                                                        ~ 20:00
+                                                                        / 토요일:
+                                                                        10:00
+                                                                        ~ 13:00
+                                                                        / <font color=#009685>공휴일은
+                                                                        쉽니다</font>
+																	-->
+																	</td>
+                                                                </tr>
+                                                            </table></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="1" bgcolor="#D1D1D1"></td>
+                                                    </tr>
+                                                </table></td>
+                                        </tr>
+                                    </table></td>
+                            </tr>
+                        </table>
+                        <!--img src="/img/common/plusline.gif" width="557" height="11" vspace=20><br-->
+                        <!--센터 정보 끝-->
+                        <!--공지사항 시작-->
+                        <!--table width="537" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td><img src="/img/help/ascenter/view_tit02.gif" width="178" height="17" alt="" border="0"></td>
+                                <td align=right></td>
+                            </tr>
+                            <tr>
+                                <td style="padding:10 0 0 7" colspan=2>
+									<table cellpadding=0 cellspacing=0 border=0 width=530>
+<tr><td align=center>공지사항이 없습니다.</td></tr>
+                                   </table>
+								</td>
+                            </tr>
+                        </table-->
+                        <img src="/img/common/plusline.gif" width="557" height="11" vspace=20><br>
+                        <!--공지사항 끝-->
+                        <!--센터소개 시작-->
+                        <table width="537" cellpadding="0" cellspacing="0" border="0">
+                            <tr valign=bottom>
+                                <td><img src="/img/help/ascenter/view_tit03.gif" width="134" height="17" alt="" border="0"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding:10 0 0 7" colspan=2>
+                                    <!--소개글 센터맵 시작-->
+                                    <table cellpadding=0 cellspacing=0 border=0>
+                                        <tr height=133 valign=top>
+                                            <td width=254><img src='http://file.curitel.com/upload/center/b02.gif' width='254' height='133' alt='' border='0'></td>
+                                            <td width=21><img src="/img/help/ascenter/box_bg2.gif" width="21" height="133" alt="" border="0"></td>
+                                            <td width=254 background="/img/help/ascenter/bg_come.gif">
+                                                <table cellpadding=0 cellspacing=0 border=0 width=246>
+                                                    <tr>
+                                                        <td width="246" height="109" valign="top" style="padding:50 10 0 27;letter-spacing:-0.05em">
+															부산대학교 부산은행 온천장방향으로 진행, 장전제일교회 맞은편 장전3동 파출소 옆에 위치 
+															<!--
+                                                            지하철 2호선 삼성역 4번 출구
+                                                            <br>
+                                                            현대백화점 정문 맞은 편 현대자동차
+                                                            <br>
+                                                            영업소와 굿모닝 증권 사이의 <br>
+                                                            신도리코 건물 지하 1층
+															-->
+														</td>
+                                                    </tr>
+                                                </table>
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <td align=right style="padding:10 0 0 0">
+
+                                                <a href="javascript:PrintMap(82)"><img src="/img/btn/btn_detail.gif" align=absmiddle></a>
+
+                                            </td>
+                                            <td align=right style="padding:10 0 0 0">&nbsp;</td>
+                                            <td align=right style="padding:10 0 0 0">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                    <!--소개글 센터맵 끝-->
+                                </td>
+                            </tr>
+                            <!--tr>
+                                <td><img src="/img/help/ascenter/view_t01.gif" width="73" height="23" alt="" border="0"></td>
+                            </tr>
+                            <tr>
+                                <td>
+
+                                    <table width="533" cellpadding="0" cellspacing="0" border="0" bgcolor="#FCF9E4">
+                                        <tr>
+                                            <td width="4"><img src="/img/common/yedge01.gif" width="4" height="4" alt="" border="0"></td>
+                                            <td width="525" height="4" style="border-top:1px solid #F0EDDA" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+                                            <td width="4"><img src="/img/common/yedge02.gif" width="4" height="4" alt="" border="0"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="45" style="border-left:1px solid #F0EDDA"><img src="/img/b.gif" width="1" height="1"></td>
+                                            <td style="padding:5 10"> <table width="100%" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td> 지하철 2호선 삼성역 4번 출구
+                                                            <br>
+                                                            현대백화점 정문 맞은 편 현대자동차
+                                                            영업소와 굿모닝 증권 사이의 신도리코
+                                                            건물 지하 1층 </td>
+                                                    </tr>
+                                                </table></td>
+                                            <td style="border-right:1px solid #F0EDDA"><img src="/img/b.gif" width="1" height="1"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="/img/common/yedge03.gif" width="4" height="4" alt="" border="0"></td>
+                                            <td height="4" style="border-bottom:1px solid #F0EDDA" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+                                            <td><img src="/img/common/yedge04.gif" width="4" height="4" alt="" border="0"></td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr-->
+                        </table>
+                        <!--img src="/img/common/plusline.gif" width="557" height="11" vspace=20--><br>
+                        <!--센터소개 끝-->
+                        <!--고객님 말씀 시작-->
+                        <!--table width="537" cellpadding="0" cellspacing="0" border="0">
+                            <tr valign=bottom>
+                                <td><img src="/img/help/ascenter/view_tit04.gif" width="158" height="17" alt="" border="0"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding:10 0 0 7">
+									<table width="530" cellpadding="0" cellspacing="0" border="0">
+										<form method=post action="center_comment_save.asp" onsubmit="return comment_str(this)">
+										<input type=hidden name=cidx value="82">
+										<input type=hidden name=act value="insert">
+                                        <tr bgcolor=#F2F2F2>
+                                            <td width=80><img src="/img/bbs/i_comment.gif" height="33" alt="" border="0"></td>
+                                            
+                        <td width=375 height="19"><input type="text" name="comment" style="width:370;border:1px solid #C6C6C6;font-size:9pt"></td>
+                                            <td width=75 height=19><input type="image" src="/img/btn/btn_input.gif" style="height:19"  align=absmiddle ></a></td>
+                                        </tr>
+										</form>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-08-31 오후 8:14:29</font> <a href="javascript:_del(6213,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												★ 안녕하십니까? 저희 센터를 찾아주시는 여러분 언제나 행복한 일만 가득하세요~ ^^* 금일(08-31) 저희센터에 인터넷에 장애가 생겨 빠른 답변 못 드린점 사과드립니다... 항상 최선을 다하도록 하겠습니다. 감사합니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-08-31 오후 8:13:01</font> <a href="javascript:_del(6212,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												lovessun님 저희 서비스센터에서는 수리 못하는건 없다는 신념으로 고객님들을 맞이하고 있습니다.. 방문하시면 불편을 해소해 드리도록 하겠습니다... 감사합니다 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-08-31 오후 8:12:01</font> <a href="javascript:_del(6211,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												kwh214님 불편을 드려 대단히 죄송합니다... 아마도 그날 삽입했던 mini SD 카드에 문제가 발생하여 안돼는듯 보이네요.. 방문하시면 최대한 빠르시간내에 조치를 취해드리도록 하겠습니다... 거듭 죄송합니다. (__)
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-08-31 오후 8:10:34</font> <a href="javascript:_del(6210,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												nicebback님~ 아이디처럼 정말로 Nice 입니다~ 언제든지 궁굼하신것이 있으시다면 본페이지나.. 서비스센터로 문의 주시면 빠르게 안내해 드리겠습니다. 감사합니다 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lovessun </b> &nbsp; <font class=em>2005-08-31 오전 11:37:51</font> <a href="javascript:_del(6193,'lovessun')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												버튼두개가 보통은 잘눌러지는데 문자할때 가끔 안눌러져서 다시써야 할때가 많은데 고칠수잇나요?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>kwh214 </b> &nbsp; <font class=em>2005-08-30 오후 10:00:47</font> <a href="javascript:_del(6169,'kwh214')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												인증서비스 초기화해도 안되네요...ㅠ.ㅠ 다시 A／S맡기러 가야겠습니다...
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>nicebback </b> &nbsp; <font class=em>2005-08-30 오전 11:19:29</font> <a href="javascript:_del(6144,'nicebback')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												친구의 도움으로 잘 해결됐어요^^ 친절하게 신경써 주셔서 고맙네요 그럼 수고하세요^^
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-08-27 오전 10:48:11</font> <a href="javascript:_del(6034,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												kwh214님 안녕하십니까? 조치를 받으셨는데도 안되신다니 정말 죄송합니다... 가까운 LG 텔레콤 대리점에 신분증을 지참하시고..방문하셔서 ``인증서비스 초기화``를 먼저 진행해 보시소 마찬가지이면 저희쪽으로 전화 부탁드립니다. 감사합니다~ ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-08-27 오전 10:34:14</font> <a href="javascript:_del(6033,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												nicebback님 즐거우 주말 아침입니다.. 답변이 늦어 죄송합니다 ^^* 문의하신 내용 해결을 위해서는.. 컴퓨터 앞에서 대상핸드폰 이외의 전화기로 저희쪽으로 전화 주시면 친절하게 조치방법을 안내해 드리겠습니다 ^^* So Cooooool~~! 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>kwh214 </b> &nbsp; <font class=em>2005-08-26 오후 11:01:31</font> <a href="javascript:_del(6025,'kwh214')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												HS8000유저입니다. 얼마전 금정구점에서 업그레이드 맡겼는데 그거하다 잘못되서 수리받았는데 그뒤에 핸드폰 통화하면 조금 신호가 가다 저절로 꺼지네요... 그리고 핸드폰 껐다가 켜서 바로 문자보내거나 전화 안하면 등록이 안되어있다고 뜨네요... 어떡해 해야하죠?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>nicebback </b> &nbsp; <font class=em>2005-08-26 오후 12:50:54</font> <a href="javascript:_del(5996,'nicebback')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												얼마전에 핸드폰점검과 업그레이드 했는데요 USB는 분명 이상이 없는데 제 컴에선 인식이 안되는군요.. 왜그런거죠??
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-08-08 오전 10:00:48</font> <a href="javascript:_del(5180,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												first001love님 수리시간은 약 30 여분 정도면 처리가 가능할듯 보이는군요..불편을 드려 대단히 죄송합니다.. 방문하시면 최대한 빠른 시간내에 처리 해 드리도록 하겠습니다.  
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>first001love </b> &nbsp; <font class=em>2005-08-06 오후 9:54:47</font> <a href="javascript:_del(5084,'first001love')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												PG-K6500폰을 쓰고 있는데요 . 카메라가 고장이 났어요 ㅜ 카메라화면을 열면 이상한화면이 나오고 촬영을 누르면 디코딩오류 재촬영하세요 이렇게 나오는데, 이거 고치는데 오래 걸릴까요? ㅜ
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-08-05 오전 9:52:39</font> <a href="javascript:_del(4998,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												vampilo님 불편을 드려 대단히 죄송합니다. 말씀하신 증상은 센터쪽에서 확인후에 정확한 상담을 해 드릴 수 있을것 같습니다. 번거로우시더라도 가까운 서비스 센터로 내방을 부탁드립니다. 배터리 구입은 가능합니다 ^^* 즐거운 하루되세요~
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>vampilo </b> &nbsp; <font class=em>2005-08-04 오후 9:01:50</font> <a href="javascript:_del(4996,'vampilo')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												아.. 그리고 거기서 직접 베터리 구입도 가능한가요?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>vampilo </b> &nbsp; <font class=em>2005-08-04 오후 9:01:06</font> <a href="javascript:_del(4995,'vampilo')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												P1폰 쓰고 있는데요.. 켠상태로 그냥 가져있어도 한번씩 보면 꺼저 있어요. 다시 켤려면 베터리를 뺐다가 다시 꽂아야 켜지고요.. 사용중에도 그렇게 한번씩 꺼져서 먹통이 되는 경우가 있는데 왜그런가요..?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-08-01 오후 2:09:43</font> <a href="javascript:_del(4845,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												osw0424님 안녕하세요 ^^* 일단 정확한 고장부위 진단을 위해 방문을 부탁드려야 할 것 같네요 ^^* 최선을 다해서 점검해드리도록 하겠습니다.. 감사합니다 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-08-01 오후 2:08:18</font> <a href="javascript:_del(4844,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												shilver19님 안테나가 없으셔서 수신에 문제가 있으시겠군요.. 방문하시면 바로 해결해 드리도록 하겠습니다. 수리비는 3,700 원입니다 ^^* 즐거운 하루되세요 ^^* 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-08-01 오후 2:06:45</font> <a href="javascript:_del(4843,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												dbwls2809님 답변이 늦어서 대단히 죄송합니다. ^^* 수리는 대부분 바로 가능합니다. 또한 고객님의 과실이 없었거나 보증기간 이내시라면 수리비는 없을듯 보입니다. 정확한것은 방문후 상담해드리도록 하겠습니다. ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>osw0424 </b> &nbsp; <font class=em>2005-08-01 오전 9:04:18</font> <a href="javascript:_del(4840,'osw0424')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												위쪽네비키가 완전 고장났구요.ㅜㅜ  그리고 스피커는되는데 통화할때 수화음이 안들려요 오늘갈려구하는데 A／S비용 얼마나 할까요?  모델명은 PH-L3500C입니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>shilver19 </b> &nbsp; <font class=em>2005-08-01 오전 2:02:54</font> <a href="javascript:_del(4839,'shilver19')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												안테나가 쏙 빠져버렸는데 수리비는 얼마나 드나요? 시간은요? ㅠㅠ 빠진 안테나는 분실했구요, 모델은 PG-L4500 입니다. 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>dbwls2809 </b> &nbsp; <font class=em>2005-07-31 오후 5:04:56</font> <a href="javascript:_del(4834,'dbwls2809')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												안녕하세요^^ 액정은 나오는데 화면색상의 칼라가 확실히 안나오고 사진이 안떠서 A／S맡기려는데 당일날 바로찾을 수 있는지와 ,, 대략A／S비용이 얼만큼드는지 알고 싶습니다. 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-28 오전 10:06:52</font> <a href="javascript:_del(4780,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												jini2727님 안녕하십니까? 안테나가 부러져서 속상하시겠네요... 수리는 곧바로 가능하구요 비용은 정확한 부위를 판단한후에 결정해야하겠지만... 약 5,200원정도 합니다. 또한 usb cable 구입은 바로 가능합니다. 즐거운 하루되세요 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>jini2727 </b> &nbsp; <font class=em>2005-07-27 오후 9:15:30</font> <a href="javascript:_del(4770,'jini2727')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												그리고 USB 케이블선을 장전동지점에서 바로 살수있나요 ?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>jini2727 </b> &nbsp; <font class=em>2005-07-27 오후 9:14:42</font> <a href="javascript:_del(4769,'jini2727')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												P1 을 쓰고있는데요. 안테나가 땡강-_ -  부서져버렸는데 고치는데 비용이랑 시간이 얼마나 드나요 ?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-25 오전 10:05:37</font> <a href="javascript:_del(4674,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												aomm2002님 즐거운 월요일 아침입니다. 케이스 부분부분 교체가 가능하며 시간은 특별한 문제가 없는경우 30분 이내에 가능합니다. 가까운 서비스 센터 방문하시면 빠르게 응대해드리겠습니다. 감사합니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-25 오전 10:04:15</font> <a href="javascript:_del(4673,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												nicebback님 답변이 많이 늦어 죄송합니다. ^^* 문의하신 내용에 대한 견적을 정확하게 하기위해서는 고객님의 방문이 필요할것 같습니다. 가능하시면 가까운 서비스센터로 내방을 부탁드립니다. 즐거운 하루되세요 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>aomm2002 </b> &nbsp; <font class=em>2005-07-23 오후 9:35:25</font> <a href="javascript:_del(4671,'aomm2002')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												저 폰을 너무 험하게 다루어서 외장좀 바꾸려는데 가능한가요..? 가능하면 몇일정도구 가격도 얼마인지 알고잇퍼요
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>nicebback </b> &nbsp; <font class=em>2005-07-23 오전 11:39:32</font> <a href="javascript:_del(4662,'nicebback')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												모델은 hs6500 이구요 커피색인데.. 가능하면 블루로 바꾸고싶은데.. 아님 커피색이라도.. 가능하다면 깨끗한 케이스로 바꾸고 싶어요ㅠㅠ
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>nicebback </b> &nbsp; <font class=em>2005-07-23 오전 11:39:15</font> <a href="javascript:_del(4661,'nicebback')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												제가 갑자기 핸폰이 고장이 나는 바람에 돈도 없고 해서 중고로 폰을 하나 구입했어요.. 근데 조금 낡아 보여서 케이스를 교체했음 하는데 가능한가요?? 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-14 오후 8:27:07</font> <a href="javascript:_del(4447,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												kjm4457님 항상 고객님 한분 한분을 위해서 최선을 다하도록 하겠습니다.. 고객님의 한마디에 더욱 힘이 나는군요~ 언제나 고객님들의 곁에서 최선을 다하는 모습 계속하여 보여드리도록 노력하겠습니다. 즐거운 하루되세요 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>kjm4457 </b> &nbsp; <font class=em>2005-07-14 오후 4:29:25</font> <a href="javascript:_del(4444,'kjm4457')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												어제 휴대폰 열심히 고쳐주셔서 고맙습니다.^-^직원분들의 친절함에 정말감사합니다.계속 번창하세요^-^ 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>kjm4457 </b> &nbsp; <font class=em>2005-07-14 오후 4:27:17</font> <a href="javascript:_del(4443,'kjm4457')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												어제 휴대폰 열심히 고쳐주셔서 고맙습니다.^-^직원분들의 친절함에 정말감사합니다.계속 번창하세요^-^ 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-14 오후 12:04:33</font> <a href="javascript:_del(4432,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												s3000v님 안녕하세요 ^^* 정확하게 깨진 부분은 확인을 해보아야 할듯 보입니다. 본 서비스 센터로 내방 부탁드리겠습니다~ 감사합니다~ ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>shun5 </b> &nbsp; <font class=em>2005-07-13 오후 10:36:13</font> <a href="javascript:_del(4418,'shun5')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												s3000v 외부액정부분 케이스가 깨져서요 교체하려는데 무상수리 가능한지요 액정은 이상없구요 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-13 오전 10:16:34</font> <a href="javascript:_del(4380,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												inzjang님 서비스 받으시는데 시간이 많이 걸리셨다니 죄송합니다. 다음 방문 하셔서 업그레이드 받으실때는 아주빠른 서비스로 만족시켜드리도록 저희 직원들이 최선을 다하도록 하겠습니다. 즐거운 하루되세요 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-13 오전 10:14:17</font> <a href="javascript:_del(4379,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												lovessun님 안녕하십니까? 문의하신 내용은 고객님의 핸드폰 기계적으로는 문제가 없지만.. 요즘 컨텐츠가 다양하고 복잡해서 간혹 핸드폰 기본프로그램에 문제가 생기는 경우가 있습니다. 간단히 업그레이드 받으시면 해결됩니다. 서비스센터 방문 부탁드립니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>inzjang </b> &nbsp; <font class=em>2005-07-12 오후 11:03:53</font> <a href="javascript:_del(4377,'inzjang')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												오늘 방문한 s4 사용 잔대요  다 좋은대 한가지 안타까운 점이 있다면 A／S하는대 시간이 너무 오래 걸린거 같다서 쫌 안타 깝내요
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lovessun </b> &nbsp; <font class=em>2005-07-12 오후 2:26:43</font> <a href="javascript:_del(4360,'lovessun')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												그리구 제가 고칠수있는 건가요?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lovessun </b> &nbsp; <font class=em>2005-07-12 오후 2:23:23</font> <a href="javascript:_del(4359,'lovessun')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												휴대폰 전원이 있는 상태에서 사용도중에 전원이 나가버리더니..다시 켜보니깐 기존에 왔던 문자가 다 사라져 버리던데..왜 이런거죠??왜 전원이 자꾸 나가고 기존문자가 왜 다 지워지는걸까요?? 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-11 오전 10:17:26</font> <a href="javascript:_del(4327,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												whtngussla님 즐거운 월요일 아침입니다. 죄송합니다만.. 공휴일과 일요일은 업무를 하지 않습니다. 평일에 방문 해 주시거나.. 늦게되시면 기다려 드립니다. 감사합니다~   
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>whtngussla </b> &nbsp; <font class=em>2005-07-10 오전 8:38:42</font> <a href="javascript:_del(4315,'whtngussla')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												일요일은 문 안열어요.....ㅡㅡ?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-09 오전 9:15:27</font> <a href="javascript:_del(4284,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												woonggok님 즐거운 주말 아침입니다.  고객님의 따뜻한 한마디가 더욱 힘을 싫어주니 송구할따름입니다. 앞으로 더욱 밝고 친절하고 성실한 서비스센터가 되도록 최선을 다하겠습니다~ 즐거운 주말보내세요 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>woonggok </b> &nbsp; <font class=em>2005-07-09 오전 1:48:08</font> <a href="javascript:_del(4268,'woonggok')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												오늘(7월8일)에 PG-K6000V 수리한 사람입니다.직원들의 친절하고 성실한 근무자세를 칭찬하는데 전혀 시간이 아깝지 않군요.별도 게시판이 없어서 아쉬울 따름입니다.건강 하십시오. 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-06 오전 10:54:46</font> <a href="javascript:_del(4159,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												karibaek님 햇살이 눈부신 아침입니다... 전화상으로 궁굼하신점이 해결되셨는지 모르겠네요.. ^^* 가까운 서비스센터로 내방하시면 빠른시간안에 문제가 해결 될 것으로 보여집니다.. 즐거운 하루보내세요 ^^* 감사합니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>karibaek </b> &nbsp; <font class=em>2005-07-06 오전 8:30:35</font> <a href="javascript:_del(4153,'karibaek')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												2.그리고 사용도중 액정화면이 멈추어 버림..키 안먹히구 전원도 안꺼지구..그냥 확~ 밧데리 뽑고 다시 끼우면 전원이 들어옴..정말 환장하네.. 이거 어떻게 해야 하나요??????????????????? 참고로 전 PH-S3000V 사용자입니다. 010-3022-9141 연락주세요
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>karibaek </b> &nbsp; <font class=em>2005-07-06 오전 8:30:04</font> <a href="javascript:_del(4152,'karibaek')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												1.휴대폰 전원이 있는 상태에서 사용도중에 전원이 나가버리더니..다시 켜보니깐 기존에 왔던 문자가 다 사라져 버리던데..왜 이런거죠??왜 전원이 자꾸 나가고 기존문자가 왜 다 지워지는걸까요?? 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-04 오후 10:03:14</font> <a href="javascript:_del(4089,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												skyloveh35님 안녕하십니까? 불편을 드려 대단히 송구합니다. 말씀하시는 증상은 핸드폰에 다소 문제가 생긴듯 보이며.. 방문하시면 1시간 이내에 처리가 가능할듯 합니다. 물론 고객님의 과실 또는 보증기간이 경과하지 않았다면 무상입니다. 감사합니다. 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>skyloveh35 </b> &nbsp; <font class=em>2005-07-04 오후 4:59:47</font> <a href="javascript:_del(4070,'skyloveh35')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												참 그리고 폰 자체 결함 인것 같은 데 as 비용 드나요 ? 든다면 약 어느정도 ? 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>skyloveh35 </b> &nbsp; <font class=em>2005-07-04 오후 4:57:48</font> <a href="javascript:_del(4068,'skyloveh35')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												ph-k 2000 쓰고있는데요 화면이 자꾸 백화현상같은거생기구요 ㅎ 또 슬라이드 닫았는데도 ㅎ 액정이 안꺼지는 현상이그리고 PH-K2000  업그레이드 안내라고 ㅎㅎ 고객 공지사항에 두개나 있던데 이건 폰 업그레이드를 말하는 건가요 ?  맞다면 대리점에서 해주는 건가요 ? 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-04 오전 10:25:29</font> <a href="javascript:_del(4066,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												jwckul님 안녕하십니까? 장마비에 피해는 없으신지요? 말씀하신 모델의 액정 수리비용은 다른곳에 이상이 없을경우 86,000원 입니다. 정확한 견적을 위해 내방해주시면 친절하게 상담해 드리도록 하겠습니다~ 수리시간은 대략 30분 이내입니다. 연락 부탁드립니다~ ^^* 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>jwckul </b> &nbsp; <font class=em>2005-07-04 오전 8:43:19</font> <a href="javascript:_del(4053,'jwckul')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												PG-K2500 액정이 제 부주위로 깨져서 바꿔 끼울려고 합니다 액정 수리비용과 수리 기간이 궁금합니다. 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-07-02 오전 9:53:23</font> <a href="javascript:_del(4019,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												ljs_710님 즐거운 주말 아침입니다. 죄송합니다만 부산대학교 부근의 대리점에서 물량을 어느정도 보유한지에 대한 정보는 현재 가지고 있지 않습니다. 대리점의 사정에 따라 보유／미보유 또는 소량／대량 일수 있으니 대리점으로 내방하셔야 할듯합니다.대단히 죄송합니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>ljs_710 </b> &nbsp; <font class=em>2005-07-01 오후 8:58:20</font> <a href="javascript:_del(3999,'ljs_710')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												부산대학교 근처 대리점 여러곳에 티슬라이드 사러 갈건데, 물량이 많나요 ?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-06-28 오전 11:35:55</font> <a href="javascript:_del(3952,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												★ 애기들이 전화기를 입으로 가지고가서 빨아먹는 행동은 아주 위험한 행동입니다. 배터리 단자와 부품들의 주요 성분중 한가지가 납이기때문에 중금속을 빨아먹는것과 같은 것이기 때문에 애기들이 절대로 전화기를 빨지 못하도록 해야합니다~ ^^* So Cooooool ~~!!
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-06-28 오전 11:27:37</font> <a href="javascript:_del(3951,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												★ 핸드폰이 물에 빠졌을때 대처법 ★....☆ 상황대처 3 : 5분정도 탈수를 하신후에 드라이기로 전화기가 따끈따근 해질때까지 골고루 말려주시다음 가장 가까운 서비스 센터로 달려가시면 수리 성공 확율을 높이실 수 있습니다. 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-06-28 오전 11:25:42</font> <a href="javascript:_del(3949,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												★ 핸드폰이 물에 빠졌을때 대처법 ★....☆ 상황대처 2 : 수건으로 푹신하게 감싼후에 세탁기에 넣습니다.. 넣으실때는 전화기를 세로로 눕혀서 안테나가 세탁통 중앙을 보도록 하시고.. 빈공간을 다른수건으로 핸드폰이 움직이지 않도록 고정을 하신다음
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-06-28 오전 11:21:33</font> <a href="javascript:_del(3946,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												★ 핸드폰이 물에 빠졌을때 대처법 ★ 화장실 변기, 바닷물, 각종음식국물, 하수오물 등 깨끗하지 않은곳에 빠졌을때는... ☆ 상황대처 1 : 배터리 분리후 5분동안 수돗물에 흔들어서 세척  하신후에
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-06-28 오전 11:17:06</font> <a href="javascript:_del(3942,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												★ 안녕하십니까? ★ 금정구점 입니다. 여름 피서철과 장마철은 핸드폰이 물에 닿아 고장이 발생하는 경우가 빈번한 시기입니다. 고객님들의 핸드폰이 물에 들어가거나 물기에 닿지 않도록 각별한 주의가 필요할때 입니다~ 즐거운 하루되세요~ ^^* So Coooool ~!!
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>magu4016 </b> &nbsp; <font class=em>2005-06-15 오후 7:57:24</font> <a href="javascript:_del(3704,'magu4016')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												moonchu2님 안녕하세여 큐리텔 금정구점입니다. 사용상에 불편을 드려 죄송합니다 . 저희 센터에 내방하여주시면 친절하게 고객님의 불편사항을 해결해드리겠습니다 ~ 감사합니다 ..^*^ 행복한 하루되세여...
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>moonchu2 </b> &nbsp; <font class=em>2005-06-15 오후 7:31:23</font> <a href="javascript:_del(3702,'moonchu2')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												살때부턴지 몰라도... 이게 폰의 하드웨어적 결함인지... os의 결함인지는 모르겠으나.. 전원끄고 나서 폰 켜려고 하면 안켜지구 배터리 뺐다가 다시 꼽아야 켜지던데요 어떻게 안될까요??
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lbsno1 </b> &nbsp; <font class=em>2005-06-10 오후 7:18:29</font> <a href="javascript:_del(3609,'lbsno1')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												항상 저희 서비스센터에 관심을 가져주셔서 감사드립니다.더욱더 친절한 서비스센터가 되겠습니다
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-06-09 오전 11:08:20</font> <a href="javascript:_del(3578,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												jsmjang님 언제라도 저희서비스센터는 한분의 고객도 기다릴 준비가 되어 있습니다~ ^^* 다음에도 주저하지 마시고 연락주시면 친절하게 해결해 드리도록 하겠습니다~ 감사합니다 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>jsmjang </b> &nbsp; <font class=em>2005-06-09 오전 10:02:38</font> <a href="javascript:_del(3576,'jsmjang')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												어제 너무 고마워서 이렇게 글을 올립니다.. 마치는 시간이 훨씬 지났는데도 가시지 않고 한사람을 위해 기다려 주셔서 정말 감사합니다.. 더운데 수고하세요^^
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-06-07 오전 11:08:15</font> <a href="javascript:_del(3528,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												xman6388님 휴일에 핸드폰에 문제가 있어 유쾌하지 않은 날이셨겠군요.. 정말 죄송합니다. 저희 센터에서는 업무시간에 방문이 힘든 고객님들을 위해 고객님을 기다려드리고 있습니다. 방문가능한 시간을 전화로 알려주시면 대단히 감사하겠습니다. 전화주세요~ ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-06-07 오전 11:04:46</font> <a href="javascript:_del(3523,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												seo7942님 안녕하십니까? 방문하셨던 서비스에 만족하셨다니 저희가 오히려 감사드려야 겠네요~ ^^* 즐거운 하루 보내시구요~ 다음에도 더욱 친절한 서비스로 모시도록 하겠습니다. 감사합니다~
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>xman6388 </b> &nbsp; <font class=em>2005-06-06 오전 10:24:21</font> <a href="javascript:_del(3501,'xman6388')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												타 회사는 공휴일에도 3시까지 한다고 하던데 큐리텔은 안하네요 지금 화면이 하얗게 나와서 많이 불편합니다, 학생이라 갈시간두 없구요,
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>seo7942 </b> &nbsp; <font class=em>2005-06-04 오전 1:51:08</font> <a href="javascript:_del(3468,'seo7942')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												어제 낮에 두번 방문했던 서상우라고 합니다...  너무나 친절하신 금정점 근무자님께 감사에 말씀 전합니다..매우 만족스러운 서비스 감동 그자체입니다...
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-05-18 오후 9:40:11</font> <a href="javascript:_del(3185,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												lsy3208님 안녕하십니까?^^* 사용에 불편을 드려 대단히 죄송합니다. 그러한 증상은 네이트 접속시 설정해 놓으신 사진파일에 오류가 포함되어 있을 수 있습니다. 사진 설정을 초기화 해보시고.. 그래도 안되시면 방문 부탁드립니다. 감사합니다~ ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lsy3208 </b> &nbsp; <font class=em>2005-05-18 오후 2:00:45</font> <a href="javascript:_del(3179,'lsy3208')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												네이트만 누르면 폰이 리부팅됩니다.. a／s 센터로 가야하나요??
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-05-12 오후 1:15:50</font> <a href="javascript:_del(3061,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												kikiz00 님 안녕하십니까? 전화기를 충전기에 꽂으실때 정확하게 장착하여보시고, 그래도 안되신다면 충전기와 아답터(전기꽂는거) 를 가지고 내방해주시면 정확하게 확인하여 안내드리겠습니다. 휴대폰 사용에 불편을 드려 죄송합니다. 즐거운 하루되세요
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>kikiz00 </b> &nbsp; <font class=em>2005-05-11 오후 9:54:15</font> <a href="javascript:_del(3044,'kikiz00')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												충전기 사용 3달 정도 됐는데 벌써 마모 되었는지 어찌 되었는지 휴대폰 충전 시킬때 접촉이 잘 안되고 붕 떠서 계속 빨간불만 깜박거리고 충전이 안됩니다. 이거 수리가 됩니까?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-05-11 오전 10:17:10</font> <a href="javascript:_del(3031,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												moraech님 안녕하세요 ^^* 새로구입하신 전화기가 고장이셔서 고생이 많으셨겠네요~ 증상이 계속 발생되는것이라면 구입후 14일 이내에 대리점에서 새 제품으로 교환 가능합니다. 불편을 드려 대단히 죄송합니다~ 즐거운 하루되세요~
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>moraech </b> &nbsp; <font class=em>2005-05-10 오후 2:49:03</font> <a href="javascript:_del(3022,'moraech')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												ph-s5700 5월 8일에 구입했는데 오늘 첨 통화를 했어요. 상대방은 제 소리가 안 들린다며 계속 `여보세요`만 하다가 끊어서 통화를 할 수가 없어요. 저는 상대방 소리가 또렷이 들리는데 말이죠...마이크가 문제가 있지 않나 의심스럽군요...
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-05-02 오전 10:12:35</font> <a href="javascript:_del(2862,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												oinsomniao 님 전화번호를 잃으셔서 상심이 크시겠군요... 죄송합니다만 저희쪽에서도 폰과 컴퓨터쪽에 데이터가 저장되어있지 않다면 복구가 불가능합니다. 최근에 전화를 걸었던 기록은(3개월) 사업자에 요청하면 번호만 출력이 가능합니다.. 즐거운 하루보내세요^^* 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>oinsomniao </b> &nbsp; <font class=em>2005-05-02 오전 12:47:21</font> <a href="javascript:_del(2859,'oinsomniao')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												폰에디터로 주소록을 옮기다가 폰에도 컴에도 기록이 남아있지않게 되었습니다...딱히 백업을 하지 않았다면 주소록기록을 찾을수 없을까요?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lbsno1 </b> &nbsp; <font class=em>2005-04-30 오후 12:58:59</font> <a href="javascript:_del(2836,'lbsno1')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												항상 친절한 서비스센터가 되도록 하겠습니다.감사합니다
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-04-30 오전 11:00:00</font> <a href="javascript:_del(2832,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												hyunseoki님 즐거운 주말아침입니다 ^^* 우선 말씀드릴것은 고객과실로 인한것은 유상처리가 원칙이라는 것입니다 ^^* 번거로우시겠지만 저희 서비스센터쪽으로 전화 한통 주시겠습니까? ** 소포나 택배서비스로도 서비스가 물론 가능합니다 ^^* 즐거운 하루보내세요 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-04-30 오전 10:57:01</font> <a href="javascript:_del(2831,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												hun17533님 수신기 구입은 택배나 우체국 소포로도 가능하십니다. 금정구점으로 전화 연락주시면 자세히 안내해 드리도록 하겠습니다 ^^* 즐거운 주말 보내세요 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>hun17533 </b> &nbsp; <font class=em>2005-04-29 오후 11:58:08</font> <a href="javascript:_del(2819,'hun17533')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												수신기를 구입하고 싶은데 어떻게 하면 구입할수 있나요??!그리고 택배로 붙여주는지 궁굼합니다......
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>hyunseoki </b> &nbsp; <font class=em>2005-04-29 오후 5:07:49</font> <a href="javascript:_del(2805,'hyunseoki')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												산지 한달 조금 지났는데 내부 액정이 깨졌습니다. 무상 수리 가능 한가요? 그리고 제가 학생이라 갈 시간이 안돼서 그러는데 소포로 A／S 가 가능한가요 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-04-29 오후 3:36:25</font> <a href="javascript:_del(2803,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												snowey13님 안녕하세요 ^^* 대단히 죄송한 말씀입니다만. 서비스센터에서는 SD카드를 판매하지 않습니다~ 가까운 컴퓨터 상가나 인터넷검색으로 저렴하게 구매 가능하십니다 ^^* 가격은 메모리 크기에 따라 차이가 많이나니 원하시는것으로 구매하시면 될듯 합니다~ ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-04-29 오후 3:33:16</font> <a href="javascript:_del(2802,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												white5743님 답변이늦어 죄송합니다 ^^* 사용하시는 모델과 버젼을 확인 부탁드립니다. 가능하시면 전화를 먼저 주시면 정확하게 상담하여 드리도록 하겠습니다 ^^* 즐거운 하루되세요~
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>snowey13 </b> &nbsp; <font class=em>2005-04-29 오후 12:49:44</font> <a href="javascript:_del(2800,'snowey13')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												제폰 기기명이 S4 인데요~ 이 폰에 보면 SD 카드를 사용할 수 있게끔 되어 있습니다. SD 카드는 각자 구매하여 사용해야한다고 하던데~ 서비스 센터에서도 구매 가능한가요? 가격은 얼마정도인지 알려주세요
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>white5743 </b> &nbsp; <font class=em>2005-04-28 오후 12:08:23</font> <a href="javascript:_del(2788,'white5743')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												저기요~제가 사진을 83개이상 저장하닌깐 계속 지워지던데~메모리는 많이 남은듯하거든요?왜 계속 지워지는걸까요?ㅠ
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>white5743 </b> &nbsp; <font class=em>2005-04-28 오전 12:22:53</font> <a href="javascript:_del(2786,'white5743')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												오늘 컴퓨터에 사진 올리는 잭을 샀는데요 계속 컴퓨터와 케이블 연결이 끊어졌습니다라고 나옵니다.. 어떻게 해야할나요~-_ㅜ 첨 부터 상세히좀 갈켜주세요~
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-04-25 오후 6:25:43</font> <a href="javascript:_del(2770,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												moonchu2 님 정말 죄송합니다 ^^* 저희 센터 쪽으로 시간나실때 방문해주시면 곧바로 처리해드리겠습니다 ^^* 정말 죄송합니다 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>moonchu2 </b> &nbsp; <font class=em>2005-04-23 오전 2:25:07</font> <a href="javascript:_del(2752,'moonchu2')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												ph-k1500사용자입니다.. 얼마전 폰앞면을 교체했었는데요... 내부액정에 먼지가 보이구.. 약간 긁혔더군요.. 쩝...
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-04-09 오후 2:18:41</font> <a href="javascript:_del(2504,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												안녕하십니까? 금정구점 점장 이승진입니다. 항상 본 센터를 이용해주셔서 대단히 감사합니다. 고객 여러분의 불편해소와 만족서비스를 위해 초심(初心)의 마음으로 최선을 다하겠습니다. 항상 많은 질책과 칭찬을 겸허이 수용하겠습니다. 감사합니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-04-09 오후 2:13:07</font> <a href="javascript:_del(2502,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												shun5님 즐거운 주말입니다. 현재 고객님의 불량증상에 대한 업그레이드가 진행중에 있습니다. 가까운 서비스센터 방문해주시면 빠른시간내에 해결이 가능 할 것입니다. 불편해소를 위해 항상 최선을 다하겠습니다. 감사합니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-04-09 오후 2:11:44</font> <a href="javascript:_del(2501,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												yosuly님 안녕하십니까? 만족스러운 서비스를 받으셨어야 하셨을텐데 그렇지 못하게 응대해드린점 깊이 머리숙여 사과드리겠습니다. 시정조치와 같은 일이 반복되지않도록 최선을 다하겠습니다~ 즐거운 주말 보내십시오~ ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>shun5 </b> &nbsp; <font class=em>2005-04-08 오후 11:19:14</font> <a href="javascript:_del(2484,'shun5')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												3000V 폰에 어떤 버그가 있는지.. 저도 쓰고 있습니다만 친구가 가족 전화번호 저장하고 나서 전화오면 외부화면에 이름이 떠야하는데 안뜨는군요 분명히 이름저장 했는데요 문자왔을때도 마찮가지고요 이 폰 원래 그런가요? 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>yosuly </b> &nbsp; <font class=em>2005-04-08 오후 9:48:29</font> <a href="javascript:_del(2483,'yosuly')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												부산 장전 서비스센타 프론트의 여직원의 서비스마인드 즉각적인 개선을 요구합니다 짜증섞인 목소리와 손님구분하며 대하는건 서비스센타에 일하는사람으로서 최악입니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-04-06 오전 11:18:05</font> <a href="javascript:_del(2421,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												그리고 토요일 업무 시간은 1시까지이나 미리 전화주시면 4시까지는 상담가능합니다. 평일에는 7시 이전에 전화주시면 9시넘어서도 재택안내 가능합니다~ 항상 즐거운 시간되세요~ ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-04-06 오전 11:17:33</font> <a href="javascript:_del(2420,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												ksg6904님 답변이 늦어져 대단히 죄송합니다^^* 저희서비스 센터쪽으로 고객님 집에서 컴퓨터 사용가능할때 전화주시면 친절히 안내 드리도록 하겠습니다~ 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>ksg6904 </b> &nbsp; <font class=em>2005-04-02 오전 1:21:45</font> <a href="javascript:_del(2362,'ksg6904')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												그리고 일요일은 안하고 토요일은 1시까지니까 저 같은 경우는 평일 9시에 학교마치고 토요일도 1시쯤에 마쳐서 서비스센터 갈 시간이 없어요 ㅜ 토요일날 3시까지 하면 안되요 ? ㅎㅎ
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>ksg6904 </b> &nbsp; <font class=em>2005-04-02 오전 1:20:45</font> <a href="javascript:_del(2361,'ksg6904')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												제가요 ~ pg-k1200쓰는데요 ~ USB선꼽고 피씨씽크연결이 안되는데 부대에 큐리텔 서비스센터가면 해결해주나요 ? 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-03-14 오전 10:00:55</font> <a href="javascript:_del(2039,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												Kimtex님 저희서비스 센터쪽으로 전화 한통 부탁드려도 될까요? ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>kimtex </b> &nbsp; <font class=em>2005-03-13 오전 9:08:09</font> <a href="javascript:_del(2038,'kimtex')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												그럼새폰으로바꿀수는없는겁니까
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-03-12 오전 11:21:36</font> <a href="javascript:_del(2031,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												kimtex 님 휴대폰 사용에 불편을 드려 대단히 죄송한마음 금 할 수 없습니다. (__) 저희 쪽에서도 현재 최선을 다해 고객님들의 불편해소를 위해 최선을 다하고있습니다. 조만간에 업그레이드가 될것입니다. 대여폰이 필요하시면 방문부탁드립니다. ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>kimtex </b> &nbsp; <font class=em>2005-03-11 오후 11:44:48</font> <a href="javascript:_del(2017,'kimtex')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												밑에3000v사용잔데요 지금3000v쓰시는사용자들다그러니깐무작정기다려달라는말씀은좀그렇네요그럼임대폰이나지금새폰으로교체해주셔서사용을가능하게해주셔야되는거아닙니까새폰으로바꾸면괜찬을꺼아닌가요바로그런증상이나타나는게아니니깐요답답합니다
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-03-08 오전 9:45:44</font> <a href="javascript:_del(1982,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												mvpkings님 핸드폰이아파서 맘상하셨겠네요 ^^* 충격을 받아도 간단하게수리가 되는 경우도있고 수리가 어려운 경우도 있지만 충격정도에 따라 다릅니다. 휴대폰을 확인후에 진단하여야 수리비 또는 수리가부를 말씀드릴수 있겠네요.. 번거로우시더라도 방문부탁드립니다 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-03-08 오전 9:43:35</font> <a href="javascript:_del(1980,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												windymill 님 상쾌한 아침입니다 ^^* 저희제품을 이용해 주셔서 감사합니다 ^^* Upgrade소요시간은 약 30분정도이며 전화번호,사진,벨소리는 그대로 남아있습니다. mp3와 동영상은 복구는가능하나 시간이 오래걸립니다. 감사합니다 ^^
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>mvpkings </b> &nbsp; <font class=em>2005-03-07 오후 10:14:15</font> <a href="javascript:_del(1979,'mvpkings')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												저기..폰을 떨어뜨렸는데..전원이 안들어오는대..고칠수 있나요~?고칠수 있으면 얼마나 들까요?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>windymill </b> &nbsp; <font class=em>2005-03-07 오후 1:22:54</font> <a href="javascript:_del(1978,'windymill')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												s4구입하고 첨 업글하는데 시간은 얼마나 걸리고 안에 사진이나 mp3는 상관없습니까?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-03-07 오전 11:42:15</font> <a href="javascript:_del(1976,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												ngem님 안녕하십니까? 고객님의 모델 액정수리비용은 77,000 원 입니다~ ^^* 눈길조심하세요 ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-03-07 오전 10:21:18</font> <a href="javascript:_del(1973,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												kimtex님 핸드폰이 안되어서 많이 불편하셨겠네요 ~ 죄송합니다... 현재 많이 개선되어있기는하나.. 몇몇불량에대해서 연구중입니다. 고객님께서 다녀가신후로도 개선이 이루어졌습니다. 저희쪽으로 전화 연락 부탁드립니다..  바로 조치해 드리겠습니다. ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>ngem </b> &nbsp; <font class=em>2005-03-06 오후 1:44:39</font> <a href="javascript:_del(1960,'ngem')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												pd6000 내부액정꺠진거 수리하는데 얼마 하나요?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>kimtex </b> &nbsp; <font class=em>2005-03-06 오전 11:25:32</font> <a href="javascript:_del(1959,'kimtex')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												빨리조취를치해주십시요답답해죽겟습니다새학기라폰쓸일도많은데
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>kimtex </b> &nbsp; <font class=em>2005-03-06 오전 11:24:52</font> <a href="javascript:_del(1958,'kimtex')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												3000v사용자인데요폰에문제가있어서업그레이드를하면좋아질꺼라고해서했는데도불구하고문제가계속진행되어서버그를본사에올려보내셧고연락주신다고햇는데연락도없고폰을무려8일가량못쓰고있습니다산지도얼마안됬는데
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-03-05 오전 11:17:32</font> <a href="javascript:_del(1952,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												qhrtlffi님 좋은주말 보내고 계십니까? ^^* 액정이 흐려서 많이 불편하시겠네요^^* 우선 저희 서비스센터쪽으로 방문해주시면 깨진것인지.. 단순하게 액정이 흐리게 보이는건지 확인후에 상담을 하는것이 좋을듯 싶네요 ^^* 즐거운 주말보내세요 ~ ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>qhrtlffi </b> &nbsp; <font class=em>2005-03-04 오후 6:20:52</font> <a href="javascript:_del(1943,'qhrtlffi')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												큐리텔핸드폰을 쓴지 이제 10달 정도 됬는데요... 폰을 떨어뜨려서 그런지는 몰라도 액정이 꺼져서 약간 희미하게 보이고 다시 원래대로 액정이 밝게 안 켜지는데요... A／S 서비스가 되나요.. 그리고 카메라도 안되고요...답변 부탁드려요...^^
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-02-25 오전 9:48:28</font> <a href="javascript:_del(1857,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												peachcandy님 안녕하십니까? ^^* 만족스러우셨다니 오히려 제가 더 기쁩니다~ ..밤 늦은시간까지 힘들긴했지만 그래도 고객님의 불편보다야 더힘들겠습니까? ㅋㅋ 사용잘하시구요~문제있으면 언제든지 연락주세요 ^^* 감사합니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>peachcandy </b> &nbsp; <font class=em>2005-02-24 오후 11:07:56</font> <a href="javascript:_del(1847,'peachcandy')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												이승진님 오늘 아주 많이 고마웠어요.아침 부터 폰과 컴퓨터가 잘 연결되지 않아 여러번 전화 했는데도  친절하게 답변해주시고 그래도 잘되지 않아서 저희 집에 까지 찾아오셔서 밤 늦게까지 완벽하게 처리해 주셔서 감사합니다. 우리 아빠도 너무너무 고맙다고 하셨습니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-02-24 오후 12:05:51</font> <a href="javascript:_del(1837,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												xellossb님 계신곳에서 버스를 타시려면.. 301,80,49-1, 51,51-1, 29-1 등등 많이 있습니다. 하차하실곳은 부산대학 또는 부산대학교구정문 에서 하차하시고 내리신곳에서 거리는 약 3분이내거리입니다. 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-02-24 오후 12:02:08</font> <a href="javascript:_del(1834,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												sora0420님 안녕하십니까? 큐리텔 서비스센터 금정구점입니다. 액정색깔이 이상하게 나오는건 경미한 충격에서 발생 할 수 있는 조립이풀어진 현상이거나 다른문제가 있을듯 보입니다. 방문해주시면 빠른시간안에 확인후 처리가능합니다. ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>xellossb </b> &nbsp; <font class=em>2005-02-23 오후 4:36:51</font> <a href="javascript:_del(1828,'xellossb')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												구서동에서 버스 몇번 타면 갈 수 있죠? 그리고 어디쯤에서 내려야 하나요?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>sora0420 </b> &nbsp; <font class=em>2005-02-22 오후 8:27:28</font> <a href="javascript:_del(1817,'sora0420')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												큐리텔 쓴지 3개월 정도 됬구요..오늘 한번 떨어뜨렸는데... 액정 색깔이 이상해요..사진들도 이상하고..한번 떨어뜨렸는데...A／S 가면 바로 고쳐주시나요?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-02-17 오후 1:29:10</font> <a href="javascript:_del(1743,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												ssissiba 님~ 답변이 늦어 죄송합니다~ ^^* 폰의 모델에따라서 차이가 있으며... 짧은것은 5 분이내에도 끝나기는 하지만 데이터양이 많고 시간이 많이 걸리는것은 약 1 시간정도 소요되는 폰도 있습니다~ 감사합니다 즐거운 하루 보내세요 ^^
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>ssissida </b> &nbsp; <font class=em>2005-02-16 오후 11:34:22</font> <a href="javascript:_del(1736,'ssissida')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												근데 폰 업그레이드 받는데 얼마나 걸리죠?^^궁금하네염~
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>tocuritel </b> &nbsp; <font class=em>2005-02-05 오후 2:02:05</font> <a href="javascript:_del(1556,'tocuritel')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												shun5 님~~ 썰렁하셨나요? ^^* 다음번에는 좀더 편안한 분위기로 모시도록 하겠습니다. 또한 업그레이드 역시 빠른시간안에 완료 할 수 있도록 최선을 다하겠습니다. 즐거운 명절 보내시구요~ 행복하세요~ ^^*
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>shun5 </b> &nbsp; <font class=em>2005-02-04 오후 11:51:36</font> <a href="javascript:_del(1548,'shun5')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												썰렁해서 그렇지 친절하시던데요 그런데 업글 하는데 원래 시간이 많이 걸리나요 10분이면 될 줄 알았는데... 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>lbsno1 </b> &nbsp; <font class=em>2005-02-04 오후 1:26:23</font> <a href="javascript:_del(1535,'lbsno1')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												고객님들의 저희 서비스센터에 깊은 관심을 가져주셔서 너무 감사드립니다.앞으로 더좋은 서비스를 위해서 노력하겠습니다.
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>jh7078 </b> &nbsp; <font class=em>2005-01-31 오후 7:29:15</font> <a href="javascript:_del(1453,'jh7078')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												오늘 금정구점에 전화해서 폰사용 궁굼한거 문의 했는데 이승진씨가 너무 친절하게 오랫동안 알려줘서 너무 고마웠습니다. 역시 큐리텔 사기를 잘한것 같네요 ^^* 여러분도 금정구점 이용해보세요 ^^* 쏘쿨~~~
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>SKYTEAM09 </b> &nbsp; <font class=em>2004-12-29 오전 12:22:56</font> <a href="javascript:_del(1021,'SKYTEAM09')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												오늘 폰수리하러 방문했는데 제상현씨가 친절하게 서비스해주셔서 감사했습니다~새폰같이 변한걸 보니 너무 기쁩니다,,,
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>muhea2000 </b> &nbsp; <font class=em>2004-11-27 오전 10:09:59</font> <a href="javascript:_del(824,'muhea2000')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												헉 승진이형인가 ? ㅡㅡ
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>klazz </b> &nbsp; <font class=em>2004-11-07 오후 7:05:53</font> <a href="javascript:_del(721,'klazz')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												폰도 파나요?
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>hwan0675 </b> &nbsp; <font class=em>2004-10-15 오전 12:55:57</font> <a href="javascript:_del(612,'hwan0675')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												친절하고 서비스도 다 좋은데 악세사리도 전시했으면 좋겠습니다!!
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>skyzone82 </b> &nbsp; <font class=em>2004-09-29 오전 8:32:10</font> <a href="javascript:_del(504,'skyzone82')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												흠...썰렁해서 그렇지 아주 친절합니다...역시...만족
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>depravedsky </b> &nbsp; <font class=em>2004-09-27 오전 12:37:30</font> <a href="javascript:_del(501,'depravedsky')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												부대에 부산은행이 어딨어요 -_ -  365일 뭐시기 거기를 말하는건지 -_ - 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>qkskshk </b> &nbsp; <font class=em>2004-09-12 오전 11:53:24</font> <a href="javascript:_del(427,'qkskshk')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												^^ 큐리텔은 서비스가 없는줄 알고 걱정했는데 가까운데 있어서 좋아요^^ 저는 온천장에 살아서,,,^^
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>schna1222 </b> &nbsp; <font class=em>2004-09-08 오전 11:25:14</font> <a href="javascript:_del(406,'schna1222')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												저하고는 천지 차이네요. 
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td  bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px">
+                                                <b>jsm1014 </b> &nbsp; <font class=em>2004-09-06 오후 6:28:15</font> <a href="javascript:_del(398,'jsm1014')"><img src="/img/bbs/icon_trash.gif" width="13" height="14" align=absmiddle hspace=5></a><br>
+                                                <img src="/img/b.gif" width="1" height="5"><br>
+												방문까지 해주신 서비스에 너무너무 감사드립니다 항상 행복하세요..
+											</td>
+                                        </tr>
+                                        <tr>
+                                            <Td class=dotline colspan=3></TD>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan=3 bgcolor=#C8C8C8></td>
+                                        </tr>
+                                    </table></td>
+                            </tr>
+                        </table-->
+                        <!--고객님 말씀 끝-->
+                        <!-- #####//Contents End ##### -->
+                    </td>
+                </tr>
+            </table></td>
+    </tr>
+</table>
+<!-- <a href="center_notice.asp"><img src="/img/btn/btn_more.gif"  align=absmiddle hspace=10></a> -->
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<script language="JavaScript">flash('/inc/flash/search/search.swf?file_url=http://file.curitel.com','91','340');</script>
+<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object> -->
+
+<!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>-->
+</div>
+</body>
+</html>
+

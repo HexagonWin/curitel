@@ -1,0 +1,342 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/product.css">
+<script>
+	function chgService(ser){
+		var df = getDF();
+		df.service.value = ser
+		df.submit();
+	}
+	function getDF(){
+		return document.p_form;
+	}
+
+	var chk_p_list = "";	// 검색 대상이 될 폰 리스트
+	var chk_img_list = "";	// 검색 대상이 될 폰 이미지 리스트
+	var chk_p_size = 0;			// p_size가 4보다 클 수는 없으이얏!!
+
+	// check box 처리
+	function setGValue(bmode, chb_no, img_url){
+		var df = getDF();
+		var chkbox = eval("df.chk_"+chb_no);
+
+		if(bmode){	
+			if( chk_p_size < 4){
+				if(!chkSome(chkbox.value)){
+					chk_p_list += chkbox.value+";";
+					chk_img_list += img_url+";";
+
+					chk_p_size = chk_p_size + 1;					
+				}
+			}else{
+				alert("비교 제품은 4개 까지만 가능합니다.");
+				chkbox.checked = false;
+				return;
+			}
+		}else{
+			if(chkSome(chkbox.value)){
+				del(chkbox.value, img_url);
+				chk_p_size = chk_p_size - 1;
+			}
+		}
+		
+		df.p_list.value = chk_p_list;
+		df.img_list.value = chk_img_list;
+		df.p_size.value = chk_p_size;
+		parent.setP_list(df.p_list.value, df.img_list.value);
+//		alert(df.p_list.value);
+//		alert(df.p_size.value);
+	}
+	// 다른 페이지에서 비교 대상 제품이 넘어 온 경우 처리
+	function setGValue2(chb_no, img_url){
+		var df = getDF();	
+		chk_p_list +=  chb_no+";";
+		chk_img_list += img_url+";"
+		chk_p_size = chk_p_size + 1;
+
+		df.p_list.value = chk_p_list;
+		df.img_list.value = chk_img_list;
+		df.p_size.value = chk_p_size;
+		parent.setP_list(df.p_list.value, df.img_list.value);
+	}
+
+
+	//  가지고 있는 폰 리스트에 받은 폰이 있는 지 검사
+	function chkSome(chkVal){
+		var result = false;
+		var space = ";";
+		var split_goods_list = chk_p_list.split(space);
+		for(var i=0; i<split_goods_list.length; i++){
+			if(split_goods_list[i] == chkVal) result = true;
+		}
+		return result;
+	}
+	// 폰 목록에서 폰 삭제
+	function del(chkVal, img_url){
+		var space = ";";
+		var split_goods_list = chk_p_list.split(space);
+		for(var i=0; i<split_goods_list.length; i++){
+			if(split_goods_list[i] == chkVal){
+				chk_p_list = chk_p_list.replace(chkVal+";", "");
+			}
+		}
+
+		var split_img_list = chk_img_list.split(space);
+		for(var i=0; i<split_img_list.length; i++){
+			if(split_img_list[i] == img_url){
+				chk_img_list = chk_img_list.replace(img_url+";", "");
+			}
+		}
+	}
+
+	// 페이지 이동 메소드
+	function nextPage(p){
+		var df = getDF();
+		location.href="if_compare.asp?page="+p+"&service=KTF&p_list="+df.p_list.value +"&img_list="+df.img_list.value+"&p_size="+df.p_size.value
+	}
+</script>
+<script language="javascript" src="/inc/js/common.js"></script>
+
+</head>
+
+<body bgcolor="#ffffff">
+
+<form name="p_form" action="if_compare.asp" method="post">
+	<input type="hidden" name = "p_list" value="">
+	<input type="hidden" name = "p_size" value="0">
+	<input type="hidden" name = "img_list" value="">
+	<input type="hidden" name = "service" value="">
+
+
+
+<table width="529" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" height="29" background="/img/common/tabbg.gif">
+		<a href="javascript:chgService('SKT')"><img src="/img/product/tab01.gif" width="81" height="29" alt="" border="0"></a><a href="javascript:chgService('KTF')"><img src="/img/product/tab02_o.gif" width="81" height="29" alt="" border="0" hspace="1"></a><a href="javascript:chgService('LGT')"><img src="/img/product/tab03.gif" width="81" height="29" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td colspan="3" height="8"></td>
+	</tr>
+	<tr>
+		<td colspan="3" valign="top">
+
+<!--여기부터//-->
+			<table width="100%" height="100%" cellpadding="0" cellspacing="0" style="padding-bottom:10">
+				<tr><td>			
+					<!--//-->
+					<table width="262" height="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td height="6"><img src="/img/common/redge01.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" width="250" style="border-top:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge02.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td style="border-left:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td align="center" width="80" valign="top" style="padding:5 0"><img src="http://file.curitel.com/upload/product/img/A1_ph-k2500(1).gif" width="35" height="75"><br><img src="/img/b.gif" width="1" height="3"><br>
+							<font color="#497AA5"><b>PH-K2500V</b></font>
+							</td>
+							<td width="1" class="li_dotline02"></td>
+							<td width="159" style="padding:0 0 0 4" valign="top">
+								<table width="100%" height="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="padding:3 0 3 1">TTS ( TEXT TO SPEECH ) 기능<br>
+팬던트 타입 액세사리 폰<br>
+130만 화소 카메라 내장</td>
+									</tr>
+									<tr>
+										<td bgcolor="#F9F9F9" height="18" align="right" style="padding:0 0 0 5;color:#EE8D10">제품비교대상선택 <input type="Checkbox" name="chk_77" value="77" onclick="setGValue(this.checked, 77, 'A1_ph-k2500(1).gif')" ></td>
+									</tr>
+								</table>
+							</td>
+							<td style="border-right:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+						</tr>
+						<tr>
+							<td height="6"><img src="/img/common/redge03.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" style="border-bottom:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge04.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+					</table>			
+				</td><td  align=right>			
+					<!--//-->
+					<table width="262" height="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td height="6"><img src="/img/common/redge01.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" width="250" style="border-top:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge02.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td style="border-left:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td align="center" width="80" valign="top" style="padding:5 0"><img src="http://file.curitel.com/upload/product/img/a1.gif" width="35" height="75"><br><img src="/img/b.gif" width="1" height="3"><br>
+							<font color="#497AA5"><b>PH-K2700C</b></font>
+							</td>
+							<td width="1" class="li_dotline02"></td>
+							<td width="159" style="padding:0 0 0 4" valign="top">
+								<table width="100%" height="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="padding:3 0 3 1">모바일 뱅킹 서비스 K-bank <br>
+K-merce 기능 <br>
+교통카드 기능 </td>
+									</tr>
+									<tr>
+										<td bgcolor="#F9F9F9" height="18" align="right" style="padding:0 0 0 5;color:#EE8D10">제품비교대상선택 <input type="Checkbox" name="chk_75" value="75" onclick="setGValue(this.checked, 75, 'a1.gif')" ></td>
+									</tr>
+								</table>
+							</td>
+							<td style="border-right:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+						</tr>
+						<tr>
+							<td height="6"><img src="/img/common/redge03.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" style="border-bottom:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge04.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+					</table>			
+				</td></tr><tr><td colspan='2' height='4'></td></tr><tr><td>			
+					<!--//-->
+					<table width="262" height="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td height="6"><img src="/img/common/redge01.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" width="250" style="border-top:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge02.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td style="border-left:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td align="center" width="80" valign="top" style="padding:5 0"><img src="http://file.curitel.com/upload/product/img/a1_ph_k1500.gif" width="35" height="75"><br><img src="/img/b.gif" width="1" height="3"><br>
+							<font color="#497AA5"><b>PH-K1500</b></font>
+							</td>
+							<td width="1" class="li_dotline02"></td>
+							<td width="159" style="padding:0 0 0 4" valign="top">
+								<table width="100%" height="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="padding:3 0 3 1">Dica Look Design 슬라이드 인테나폰<br>
+200만 화소 내장형 카메라 <br>
+Auto Focus 접사기능 캠코더 기능 내장</td>
+									</tr>
+									<tr>
+										<td bgcolor="#F9F9F9" height="18" align="right" style="padding:0 0 0 5;color:#EE8D10">제품비교대상선택 <input type="Checkbox" name="chk_72" value="72" onclick="setGValue(this.checked, 72, 'a1_ph_k1500.gif')" ></td>
+									</tr>
+								</table>
+							</td>
+							<td style="border-right:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+						</tr>
+						<tr>
+							<td height="6"><img src="/img/common/redge03.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" style="border-bottom:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge04.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+					</table>			
+				</td><td  align=right>			
+					<!--//-->
+					<table width="262" height="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td height="6"><img src="/img/common/redge01.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" width="250" style="border-top:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge02.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td style="border-left:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td align="center" width="80" valign="top" style="padding:5 0"><img src="http://file.curitel.com/upload/product/img/a1_PH-K1000V(1).gif" width="35" height="75"><br><img src="/img/b.gif" width="1" height="3"><br>
+							<font color="#497AA5"><b>PH-K2000</b></font>
+							</td>
+							<td width="1" class="li_dotline02"></td>
+							<td width="159" style="padding:0 0 0 4" valign="top">
+								<table width="100%" height="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="padding:3 0 3 1">Blue Light 효과<br>
+Sliding Type Design<br>
+PC Camera 기능 </td>
+									</tr>
+									<tr>
+										<td bgcolor="#F9F9F9" height="18" align="right" style="padding:0 0 0 5;color:#EE8D10">제품비교대상선택 <input type="Checkbox" name="chk_67" value="67" onclick="setGValue(this.checked, 67, 'a1_PH-K1000V(1).gif')" ></td>
+									</tr>
+								</table>
+							</td>
+							<td style="border-right:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+						</tr>
+						<tr>
+							<td height="6"><img src="/img/common/redge03.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" style="border-bottom:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge04.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+					</table>			
+				</td></tr><tr><td>			
+					<!--//-->
+					<table width="262" height="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td height="6"><img src="/img/common/redge01.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" width="250" style="border-top:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge02.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td style="border-left:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td align="center" width="80" valign="top" style="padding:5 0"><img src="http://file.curitel.com/upload/product/img/a1_PH-K1000V.gif" width="35" height="75"><br><img src="/img/b.gif" width="1" height="3"><br>
+							<font color="#497AA5"><b>PH-K1000V/VT</b></font>
+							</td>
+							<td width="1" class="li_dotline02"></td>
+							<td width="159" style="padding:0 0 0 4" valign="top">
+								<table width="100%" height="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="padding:3 0 3 1">3.1M Pixel CMOS 카메라 내장<br>
+외장 Portable TV 기능<br>
+FM라디오 기능 </td>
+									</tr>
+									<tr>
+										<td bgcolor="#F9F9F9" height="18" align="right" style="padding:0 0 0 5;color:#EE8D10">제품비교대상선택 <input type="Checkbox" name="chk_66" value="66" onclick="setGValue(this.checked, 66, 'a1_PH-K1000V.gif')" ></td>
+									</tr>
+								</table>
+							</td>
+							<td style="border-right:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+						</tr>
+						<tr>
+							<td height="6"><img src="/img/common/redge03.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" style="border-bottom:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge04.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+					</table>			
+				</td><td  align=right>			
+					<!--//-->
+					<table width="262" height="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td height="6"><img src="/img/common/redge01.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" width="250" style="border-top:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge02.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td style="border-left:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td align="center" width="80" valign="top" style="padding:5 0"><img src="http://file.curitel.com/upload/product/img/a1_pg-k6500(2).gif" width="35" height="75"><br><img src="/img/b.gif" width="1" height="3"><br>
+							<font color="#497AA5"><b>PG-K6500</b></font>
+							</td>
+							<td width="1" class="li_dotline02"></td>
+							<td width="159" style="padding:0 0 0 4" valign="top">
+								<table width="100%" height="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="padding:3 0 3 1">130만 화소 내장형 모바일 카메라<br>
+Dual Look Design<br>
+FM 라디오 기능</td>
+									</tr>
+									<tr>
+										<td bgcolor="#F9F9F9" height="18" align="right" style="padding:0 0 0 5;color:#EE8D10">제품비교대상선택 <input type="Checkbox" name="chk_52" value="52" onclick="setGValue(this.checked, 52, 'a1_pg-k6500(2).gif')" ></td>
+									</tr>
+								</table>
+							</td>
+							<td style="border-right:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+						</tr>
+						<tr>
+							<td height="6"><img src="/img/common/redge03.gif" width="6" height="6" alt="" border="0"></td>
+							<td colspan="3" style="border-bottom:1px solid #DCDCDC"><img src="/img/b.gif" width="1" height="1"></td>
+							<td><img src="/img/common/redge04.gif" width="6" height="6" alt="" border="0"></td>
+						</tr>
+					</table>			
+				</td></tr>		
+				<tr><td colspan="3" height="40" align="center"><img src='/img/bbs/btn/btn_pre.gif' width='54' height='17' alt='' border='0' align='absmiddle' hspace='26'>&nbsp;<b>|1|</b>&nbsp;<a href='javascript:nextPage(2)'>|2|</a>&nbsp;<a href='javascript:nextPage(3)'>|3|</a> &nbsp;<a href='javascript:nextPage(2)'><img src='/img/bbs/btn/btn_next.gif' width='55' height='17' alt='' border='0' align='absmiddle' hspace='26'></a></td></tr>
+			</table>
+<!--//여기까지-->
+
+
+</form>
+<script>		setGValue2(49, 'a1_pg-k7000.gif');</script>
+
+</body>
+</html>

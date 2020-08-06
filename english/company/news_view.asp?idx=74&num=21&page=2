@@ -1,0 +1,154 @@
+
+<html>
+<head>
+<title>Curitel - The Power to be Your Best</title>
+
+<link href="/english/common/css/eng.css" rel="stylesheet" type="text/css">
+<script language='javascript' src="/english/common/js/model.js"></script>
+<script language='javascript' src="/english/common/js/URL.js"></script>
+<script language='javascript' src="/english/common/js/open_m04.js"></script>
+</head>
+
+<body marginwidth="0" marginheight="0">
+<!--수정 시작--><script language='javascript' src="/english/common/js/top.js"></script><!--수정 끝-->
+<table width="770" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr valign="top"> 
+    <td width="14" bgcolor="#DCD6C6"><img src="/english/images/blank.gif" width="14" height="1"></td>
+    <td style="padding:0 5 0 3"><img src="/english/company/images/title.gif" width="149" height="120"></td>
+    <!--수정 시작--><td width="404"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="404" height="120">
+  <param name="movie" value="/english/common/flash/t_company.swf">
+  <param name="quality" value="high">
+  <param name="menu" value="false">
+  <embed src="/english/common/flash/t_company.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="404" height="120"></embed></object></td><!--수정 끝-->
+    <td width="8" bgcolor="#DCD6C6"><img src="/english/images/blank.gif" width="8" height="1"></td>
+    <td width="11"><img src="/english/images/blank.gif" width="11" height="1"></td>
+    <td width="158" height="120" background="/english/images/quick_bg.gif" style="padding:7 22 0 13"> 
+      <!--Quick menu-->
+      <script language='javascript' src="/english/common/js/quickmenu.js"></script></td>
+    <td width="18"><img src="/english/images/blank.gif" width="18" height="1"></td>
+  </tr>
+  <tr> 
+    <td height="1" colspan="7"></td>
+  </tr>
+</table>
+<table width="770" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr valign="top"> 
+    <td class="l_px"><script language='javascript' src="/english/common/js/left_company.js"></script></td>
+    <td class="m_px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="393" height="20" valign="top" class="location"><a href="javascript:Fn_Home()">Home</a> 
+            &gt; <a href="javascript:Fn_Company()">Company</a> &gt; <font class="location_o">NEWS Center</font></td>
+          <td width="169" rowspan="3" align="right" valign="top"><table width="158" border="0" cellspacing="0" cellpadding="0">
+              <tr valign="top"> 
+                <td height="30" bgcolor="#D2DCE2" style="padding:8 0 0 8"><img src="/english/images/tit_search.gif" width="115" height="13"></td>
+              </tr>
+              <form>
+                <tr valign="top"> 
+                  <td height="53" bgcolor="#D2DCE2" style="padding:0 0 0 10"> 
+                    <Script Language='JavaScript'> 
+<!-- 
+document.write("<select class='input02' name='"+FirstSelectName+"' onChange='CreateSecondSelect()'>"); 
+for(var i=0; i < FirstSelectText.length; i++) 
+document.write("<option value='"+FirstSelectValue[i]+"'>"+FirstSelectText[i]+"</option>"); 
+document.write("</select>"); 
+//--> 
+</script> <br> <img src="images/blank.gif" width="1" height="5"><br> <Script Language='JavaScript'> 
+<!-- 
+document.write("<select class='input02' name='"+SecondSelectName+"' onChange='ChangeURL(this.options[this.selectedIndex].value)'>"); 
+document.write("<option value=''></option>"); 
+document.write("</select>"); 
+
+CreateSecondSelect(); 
+//--> 
+</script></td>
+                </tr>
+              </form>
+            </table></td>
+        </tr>
+        <tr> 
+          <td height="25" background="/english/images/tit_bg.gif"></td>
+        </tr>
+        <tr> 
+          <td height="38" background="/english/images/tit_bg02.gif"><img src="/english/company/images/title04.gif" width="123" height="38"></td>
+        </tr>
+        <tr> 
+          <td height="16" colspan="2"></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="2">
+            <!--NEWS View 테이블 시작-->
+            <table width="543" border="0" cellspacing="0" cellpadding="0">
+              <tr align="center"> 
+                <td colspan="2" width="65" height="21" class="bbs01">No.</td>
+                <td colspan="2" class="bbs02" width="388">Title</td>
+                <td width="90" class="bbs02_1">Date</td>
+              </tr>
+			  <tr>
+			    <td colspan="2"><img src="/english/images/blank.gif" width="55" height="1"></td>
+				<td colspan="2"><img src="/english/images/blank.gif" width="388" height="1"></td>
+				<td><img src="/english/images/blank.gif" width="100" height="1"></td>
+			  </tr>
+              <tr> 
+                <td width="55" height="21" align="center">21</td>
+				<td valign="bottom"><img src="/english/images/bbs_line.gif"></td>
+                <td align="left" style="padding:5 10" width="388"><font class="title01">Pantech Officially Launches Brand in China to Support Market Expansion</font> </td>
+				<td valign="bottom"><img src="/english/images/bbs_line.gif"></td>
+                <td width="100" align="center">Jul.16,2005</td>
+              </tr>
+			  <tr class="bbs05"> 
+                <td height="1" colspan="5"><img src="/english/images/blank.gif"></td>
+              </tr>
+              <tr class="bbs03"> 
+                <td colspan="2" height="21" align="center">&nbsp;</td>
+                <td colspan="3" align="left" style="padding:5 10">SEOUL, July 16, 2005 - Pantech, one of the world’s leading mobile communications groups - comprised of Pantech&Curitel Communications Inc., Pantech Co., Ltd. and Pantech C&I Inc. (“Pantech” hereafter) - has announced the official launch of the Pantech brand in China and the introduction of a range of GSM handsets to the Chinese market.<br>
+<br>
+At a ceremony in Beijing to launch the Pantech brand in China, Pantech outlined its strategy to target the Chinese mobile phone market, where 69 million handsets are expected to be sold this year. The company plans to introduce six GSM handsets - to be marketed and sold under the Pantech name - as part of its efforts to build the brand in this market.<br>
+<br>
+Sung-Kyu Lee, President & CEO, Pantech Co., Ltd., said: “China has one of the fastest growing mobile phone markets in the world, with Chinese customers demanding the highest level of quality. We are committed to establishing a firm foothold for the Pantech brand in this country over the coming years”. <br>
+<br>
+“With up to 70 new products being introduced every month, the creation of a strong brand is essential. We plan to build a recognizable, appealing, premium brand in China through the steady roll out of our world class sales and production infrastructure and the introduction of innovative, customer focused marketing initiatives,” said Mr. Lee.<br>
+<br>
+By the end of 2005, Pantech plans to be selling products through 500 retail outlets in 16 different cities in China. In 2006, the company will expand its sales presence to more than 40 cities, with a target of securing brand recognition of at least 30% by 2007.<br>
+<br>
+The six GSM phones to be introduced in China are among the leading handsets in the Pantech product portfolio. The PG-3000 is a slider model, with an extraordinary array of functionality, including a 1.3 mega pixel CMOS camera, while the PG-3200 is a super slim, ultra small model, aimed at style and trend conscious consumers. <br>
+<br>
+The GF500 also contains a 1.3 mega pixel camera and internal flash, along with wide ranging multimedia support capability, while the G670 is a “thermometer phone”, able to measure the body’s temperature. The GB200 is an extremely compact, stylish phone, weighing just 85g. The GF200 is a ‘3D sound phone’, with two big stereo speakers.<br>
+<br>
+*** more***<br>
+<br>
+<br>
+Pantech also plans to roll out CDMA products in China in the near future, in tandem with the development of the company’s sales and production infrastructure. Pantech secured a license in November 2004 to distribute CDMA phones in the Chinese market.<br>
+<br>
+The Pantech brand was initially introduced to the Chinese market in October 2004 when the company showcased its GI100 fingerprint technology handset at the PT/EXPO COMM trade show. Earlier this year, in March 2005, Pantech became the first foreign company to be awarded a GSM license in China.<br>
+<br>
+Pantech began operations in China in 2001, in cooperation with manufacturing company Daxian Co., Ltd. In 2003, the company formed a joint venture - Dalian Daxian-Pantech Communication Co., Ltd. - to operate a manufacturing facility, with the capacity to produce four million handsets annually.<br>
+<br>
+In terms of the company’s design credentials, Pantech’s reputation as a leading innovator in handset development was further enhanced earlier this month when it received a number of awards at the annual Red Dot Design Awards, one of the largest design competitions in the world. The company received the awards in recognition of three of its most notable models, the PH-L4000V, the P1 and the PH-S4000. <br>
+<br>
+</td>
+              </tr>
+              <tr class="bbs05"> 
+                <td height="2" colspan="5"></td>
+              </tr>
+		              
+			  <tr> 
+                <td colspan="2" height="27" align="center" class="list">&nbsp;</td>
+                <td colspan="2" height="49" class="list"><img src="/english/images/bbs/btn_next.gif" width="12" height="8" align="absmiddle">Prev<img src="/english/images/bbs/line.gif" width="1" height="11" hspace="9" vspace="3" align="absmiddle"><a href="news_view.asp?idx=73&num=20">Pantech Announces Launch of PG-6100 Phone, the “Complete Convergence Device”</a><br> <img src="/english/images/bbs/btn_next.gif" width="12" height="8" align="absmiddle">Next<img src="/english/images/bbs/line.gif" width="1" height="11" hspace="9" vspace="3" align="absmiddle"><a href="news_view.asp?idx=75&num=22">Pantech Launches Korea’s First Smartphone with Introduction of PH-S8000T, In Partnership with Microsoft and Intel</a></td>
+                <td height="50" align="right" valign="bottom" class="list"><a href="news_list.asp?page=2"><img src="/english/images/bbs/btn_list.gif" width="43" height="15" hspace="24" vspace="9" border="0"></a></td>
+              </tr>
+              <tr class="bbs04"> 
+                <td height="2" colspan="5"></td>
+              </tr>
+            </table>
+            <!--NEWS View 테이블 끝-->
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<script language='javascript' src="/english/common/js/copy.js"></script>
+<script language='javascript' src="/english/common/js/topbtn.js"></script>
+<script language='javascript' src="/english/common/js/topbtn_s.js"></script>
+</body>
+</html>
+ 

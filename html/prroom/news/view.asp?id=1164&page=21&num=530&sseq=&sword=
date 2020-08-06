@@ -1,0 +1,367 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu7.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu7.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/prroom/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/prroom/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1164&page=21&num=530&sseq=&sword=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1164&page=21&num=530&sseq=&sword=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/prroom/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/prroom/index.asp" onfocus="this.blur()"><img src="/img/prroom/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        > <a href="/html/prroom/index.asp">PR Room</a> > News</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="220">
+					               <param name="movie" value="/inc/flash/left/left_prroom.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_prroom.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="220"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">			
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->
+
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/img/prroom/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td height="1"></td>
+						</tr>
+						<tr>
+							<td height="26">
+								<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td bgcolor="#F6F8F9"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="25"></td>
+						</tr>
+						</table>
+
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="2" height="31" style="font-weight:bold;color:#599AA6;padding:0 0 0 10;font-size:9pt">
+							[ MP3폰 갈등, 확대 일로  ]
+							</td>
+						</tr>
+						<tr>
+							<td height="16" bgcolor="#F2F2F2" colspan="2"></td>
+						</tr>
+						<tr bgcolor="F2F2F2">
+							<td height="31" width="142" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 530</td>
+							<td width="376" style="padding:2 0 0 0">
+								<b><font color="#515151">&#8226;</font> 등록일</b> :
+								2004-03-10 <img src="/img/b.gif" width=80 height=1>
+								<b><font color="#515151">&#8226;</font> 출처</b> : inews24
+							</td>
+						</tr>
+						<tr><td height="1" colspan="2" bgcolor="#C9C9C9"></td></tr>
+						<tr>
+							<td colspan="2" style="padding:25 11;line-height:16px" valign="top" class="8">
+								<font style='font:10pt'>휴대폰으로(&)nbsp;MP3(&)nbsp;음악을(&)nbsp;들을(&)nbsp;수(&)nbsp;있는(&)nbsp;MP3폰이(&)nbsp;출시됨에(&)nbsp;따라(&)nbsp;음악저작권(&)nbsp;단체와(&)nbsp;이동통신사,(&)nbsp;휴대폰(&)nbsp;제조사(&)nbsp;등(&)nbsp;이해당사자들의(&)nbsp;갈등이(&)nbsp;확산되고(&)nbsp;있다.<br>MP3(&)nbsp;음악(&)nbsp;이용을(&)nbsp;둘러싼(&)nbsp;저작권(&)nbsp;문제는(&)nbsp;최근(&)nbsp;MP3(&)nbsp;플레이어(&)nbsp;업계와(&)nbsp;모바일(&)nbsp;콘텐츠(&)nbsp;제작사,(&)nbsp;그리고(&)nbsp;MP3(&)nbsp;음악을(&)nbsp;즐기는(&)nbsp;소비자들까지(&)nbsp;전방위로(&)nbsp;확대되면서(&)nbsp;급기야(&)nbsp;정통부(&)nbsp;문화부(&)nbsp;등(&)nbsp;관련부처들이(&)nbsp;사태해결에(&)nbsp;나서고(&)nbsp;있다.<br><br>◆(&)nbsp;MP3(&)nbsp;논란,(&)nbsp;(&)quot;확대(&)nbsp;일로(&)quot;<br><br>이동통신사,(&)nbsp;휴대폰(&)nbsp;제조사,(&)nbsp;음악(&)nbsp;저작권단체간(&)nbsp;첨예한(&)nbsp;갈등에(&)nbsp;따른(&)nbsp;진통이(&)nbsp;거듭되자(&)nbsp;정보통신부에(&)nbsp;이어(&)nbsp;문화관광부까지(&)nbsp;문제해결에(&)nbsp;가세했다.<br><br>문화부(&)nbsp;임원선(&)nbsp;저작권과장은(&)nbsp;10일(&)nbsp;"논란을(&)nbsp;빚는(&)nbsp;MP3폰(&)nbsp;출시와(&)nbsp;관련,(&)nbsp;정통부(&)nbsp;지식정보산업과장과(&)nbsp;함께(&)nbsp;공동으로(&)nbsp;문제해결에(&)nbsp;나서겠다는(&)nbsp;의견을(&)nbsp;모았다"고(&)nbsp;밝혔다.(&)nbsp;<br><br>문화부(&)nbsp;저작권과는(&)nbsp;이날(&)nbsp;오후(&)nbsp;정통부가(&)nbsp;주재한(&)nbsp;회의에(&)nbsp;참석해(&)nbsp;분위기(&)nbsp;파악에(&)nbsp;나서는(&)nbsp;한편(&)nbsp;오는(&)nbsp;12일에도(&)nbsp;정통부와(&)nbsp;함께(&)nbsp;MP3폰(&)nbsp;회의를(&)nbsp;가지기로(&)nbsp;했다.(&)nbsp;문화부는(&)nbsp;Mp3(&)nbsp;파일로(&)nbsp;저장되는(&)nbsp;음악콘텐츠(&)nbsp;주무(&)nbsp;부처다.<br><br>이런(&)nbsp;가운데(&)nbsp;이날(&)nbsp;정통부가(&)nbsp;주재한(&)nbsp;MP3폰(&)nbsp;관련(&)nbsp;회의가(&)nbsp;열렸다.(&)nbsp;SK텔레콤,(&)nbsp;LG텔레콤,(&)nbsp;LG전자,(&)nbsp;음원제작자협회(&)nbsp;등이(&)nbsp;참석한(&)nbsp;회의는(&)nbsp;그러나(&)nbsp;서로의(&)nbsp;입장만(&)nbsp;재확인한채(&)nbsp;결론을(&)nbsp;내지(&)nbsp;못했다.<br><br>음원제작자협회(&)nbsp;윤성우(&)nbsp;실장은(&)nbsp;"LG텔레콤이(&)nbsp;출시한(&)nbsp;MP3폰이(&)nbsp;실질적으로(&)nbsp;무료(&)nbsp;음악(&)nbsp;이용이(&)nbsp;가능하도록(&)nbsp;제작돼(&)nbsp;시판되고(&)nbsp;있다"며(&)nbsp;"인증받은(&)nbsp;음악만(&)nbsp;들을(&)nbsp;수(&)nbsp;있도록(&)nbsp;개선돼야만(&)nbsp;한다고(&)nbsp;주장했다"고(&)nbsp;말했다.<br><br>그는(&)nbsp;"LG텔레콤에(&)nbsp;현재(&)nbsp;서비스중인(&)nbsp;MP3폰(&)nbsp;판매를(&)nbsp;중단할(&)nbsp;것을(&)nbsp;요청했지만(&)nbsp;받아들여지지(&)nbsp;않았다"며(&)nbsp;"신규(&)nbsp;음원(&)nbsp;공급(&)nbsp;중단을(&)nbsp;비롯한(&)nbsp;법적(&)nbsp;대응도(&)nbsp;강구하겠다"고(&)nbsp;밝혔다.<br><br>삼성전자가(&)nbsp;애니콜(&)nbsp;이용자의(&)nbsp;경우(&)nbsp;PC에(&)nbsp;저장된(&)nbsp;음악을(&)nbsp;7일동안(&)nbsp;이용할(&)nbsp;수(&)nbsp;있도록(&)nbsp;한(&)nbsp;것도(&)nbsp;바뀌어야(&)nbsp;한다는(&)nbsp;것이(&)nbsp;음제협의(&)nbsp;주장이다.(&)nbsp;또다른(&)nbsp;음제협(&)nbsp;관계자는(&)nbsp;"7일이든(&)nbsp;3일이든(&)nbsp;PC에(&)nbsp;저장된(&)nbsp;음악을(&)nbsp;무조건(&)nbsp;들을(&)nbsp;수(&)nbsp;있다면(&)nbsp;복제음악을(&)nbsp;그대로(&)nbsp;들으라는(&)nbsp;얘기"라고(&)nbsp;강조한다.<br><br>특히(&)nbsp;음제협은(&)nbsp;이(&)nbsp;기회에(&)nbsp;MP3(&)nbsp;플레이어에도(&)nbsp;저작권보호장치(DRM)(&)nbsp;설치를(&)nbsp;의무화하겠다는(&)nbsp;생각이다.(&)nbsp;<br><br>서희덕(&)nbsp;음제협(&)nbsp;회장은(&)nbsp;"최근(&)nbsp;MP3기기(&)nbsp;업체들과도(&)nbsp;만나(&)nbsp;DRM(&)nbsp;설치(&)nbsp;의무화를(&)nbsp;요구하고(&)nbsp;있다"며(&)nbsp;"무료(&)nbsp;MP3(&)nbsp;음악파일의(&)nbsp;재생(&)nbsp;자체를(&)nbsp;하드웨어(&)nbsp;차원에서(&)nbsp;막겠다"고(&)nbsp;밝혔다.<br><br>◆(&)nbsp;"이해따라(&)nbsp;각양각색"<br><br>MP3(&)nbsp;저작권에(&)nbsp;대한(&)nbsp;이동통신사,(&)nbsp;휴대폰제조사(&)nbsp;등은(&)nbsp;각각의(&)nbsp;입장에(&)nbsp;따라(&)nbsp;복잡하게(&)nbsp;얽혀있다.(&)nbsp;우선(&)nbsp;(&)quot;MOD(&)quot;(&)nbsp;서비스중인(&)nbsp;SK텔레콤이나(&)nbsp;KTF는(&)nbsp;(&)quot;웬만하면(&)quot;(&)nbsp;저작권(&)nbsp;단체들의(&)nbsp;주장에(&)nbsp;손을(&)nbsp;들어주는(&)nbsp;분위기다.<br><br>MOD(&)nbsp;시장보호를(&)nbsp;위해(&)nbsp;복제음악을(&)nbsp;다운받도록(&)nbsp;하지(&)nbsp;않는(&)nbsp;편이(&)nbsp;회사에(&)nbsp;이익이라는(&)nbsp;계산서에(&)nbsp;따른(&)nbsp;것이다.(&)nbsp;SK텔레콤은(&)nbsp;출시시기를(&)nbsp;저울질(&)nbsp;중이고(&)nbsp;KTF는(&)nbsp;고객유혹의(&)nbsp;방편으로(&)nbsp;삼성전자의(&)nbsp;한시적(&)nbsp;무료(&)nbsp;파일(&)nbsp;이용(&)nbsp;정책을(&)nbsp;수용했다.<br><br>반면(&)nbsp;번호이동성(&)nbsp;시행에(&)nbsp;따른(&)nbsp;고객유치에(&)nbsp;사활을(&)nbsp;거는(&)nbsp;LG텔레콤은(&)nbsp;법적으로(&)nbsp;문제가(&)nbsp;되지(&)nbsp;않는(&)nbsp;한,(&)nbsp;일단(&)nbsp;MP3폰을(&)nbsp;출시한(&)nbsp;뒤(&)nbsp;저작권(&)nbsp;단체와의(&)nbsp;협의를(&)nbsp;진행한다는(&)nbsp;입장이다.(&)nbsp;<br><br>삼성전자는(&)nbsp;소비자가(&)nbsp;PC에(&)nbsp;저장해둔(&)nbsp;음악파일을(&)nbsp;휴대폰에서(&)nbsp;이용할(&)nbsp;수(&)nbsp;있어야(&)nbsp;하는(&)nbsp;것은(&)nbsp;기본적인(&)nbsp;권리라며(&)nbsp;한시적으로(&)nbsp;이용할(&)nbsp;수(&)nbsp;있도록(&)nbsp;하고(&)nbsp;있다.(&)nbsp;이러한(&)nbsp;결정은(&)nbsp;LG전자(&)nbsp;등(&)nbsp;경쟁사의(&)nbsp;(&)quot;돌발상황(&)quot;에(&)nbsp;대한(&)nbsp;대비책의(&)nbsp;성격도(&)nbsp;있는(&)nbsp;것으로(&)nbsp;풀이된다.<br><br>LG전자와(&)nbsp;SK텔레텍,(&)nbsp;팬택앤(&)nbsp;큐리텔(&)nbsp;등(&)nbsp;휴대폰(&)nbsp;제조사들은(&)nbsp;"이통사가(&)nbsp;원하는(&)nbsp;대로(&)nbsp;만들어(&)nbsp;줄(&)nbsp;뿐"이라며(&)nbsp;저작권(&)nbsp;시비에서(&)nbsp;비켜서(&)nbsp;있기를(&)nbsp;원한다.(&)nbsp;그러나(&)nbsp;실제(&)nbsp;속마음이(&)nbsp;이와(&)nbsp;같지는(&)nbsp;않아(&)nbsp;보인다.(&)nbsp;"왜(&)nbsp;MP3폰만(&)nbsp;문제냐"는(&)nbsp;것이다.(&)nbsp;<br><br>MP3폰을(&)nbsp;가장(&)nbsp;먼저(&)nbsp;출시한(&)nbsp;LG전자(&)nbsp;관계자는(&)nbsp;"저작권도(&)nbsp;중요하지만(&)nbsp;소비자의(&)nbsp;권리도(&)nbsp;무시해서는(&)nbsp;안된다"고(&)nbsp;지적하면서(&)nbsp;"강의내용이나(&)nbsp;다른(&)nbsp;콘텐츠를(&)nbsp;MP3(&)nbsp;파일로(&)nbsp;변환해(&)nbsp;듣을(&)nbsp;수도(&)nbsp;있는(&)nbsp;것인데(&)nbsp;소비자가(&)nbsp;비싼(&)nbsp;댓가를(&)nbsp;지불한(&)nbsp;제품만(&)nbsp;자유로운(&)nbsp;사용을(&)nbsp;막는(&)nbsp;것도(&)nbsp;어려운(&)nbsp;처사"라고(&)nbsp;말했다.<br><br>비공식적인(&)nbsp;대답에서(&)nbsp;대부분의(&)nbsp;제조사들은(&)nbsp;유료(&)nbsp;파일만을(&)nbsp;돌리는(&)nbsp;DRM을(&)nbsp;설치하라는(&)nbsp;것은(&)nbsp;MP3폰을(&)nbsp;만들어(&)nbsp;팔지(&)nbsp;말라는(&)nbsp;소리라고(&)nbsp;지적했다.<br><br>이동통신업체와(&)nbsp;음악(&)nbsp;저작권(&)nbsp;단체가(&)nbsp;MP3폰(&)nbsp;출시를(&)nbsp;놓고(&)nbsp;진통을(&)nbsp;거듭하고(&)nbsp;있다.(&)nbsp;하지만(&)nbsp;정작(&)nbsp;당사자(&)nbsp;중(&)nbsp;한(&)nbsp;축인(&)nbsp;음악(&)nbsp;콘텐츠(&)nbsp;제작사(CP)들은(&)nbsp;논의에서(&)nbsp;소외되고(&)nbsp;있는(&)nbsp;분위기다.<br><br>이통사의(&)nbsp;(&)quot;눈치(&)quot;도(&)nbsp;봐야(&)nbsp;하고(&)nbsp;음원(&)nbsp;저작권(&)nbsp;단체와도(&)nbsp;원만한(&)nbsp;관계(&)nbsp;유지가(&)nbsp;필수적인(&)nbsp;콘텐츠제작사(CP)들의(&)nbsp;입장도(&)nbsp;난감해졌다.(&)nbsp;저작권(&)nbsp;단체들이(&)nbsp;무료(&)nbsp;파일(&)nbsp;재생이(&)nbsp;가능한(&)nbsp;콘텐츠를(&)nbsp;이통사에(&)nbsp;제공할(&)nbsp;경우(&)nbsp;(&)quot;음원공급(&)nbsp;전면(&)nbsp;중단(&)quot;이라는(&)nbsp;극단의(&)nbsp;카드까지(&)nbsp;꺼냈기(&)nbsp;때문이다.<br><br>이날(&)nbsp;오후(&)nbsp;정통부에서(&)nbsp;열린(&)nbsp;(&)quot;이동통신사,(&)nbsp;휴대폰(&)nbsp;제조사,(&)nbsp;음악저작권(&)nbsp;단체(&)quot;간(&)nbsp;협의의(&)nbsp;자리나(&)nbsp;지난(&)nbsp;8일(&)nbsp;음원제작자협회가(&)nbsp;마련한(&)nbsp;(&)quot;모임(&)quot;에도(&)nbsp;CP들은(&)nbsp;초대받지(&)nbsp;못해(&)nbsp;불만이(&)nbsp;적지(&)nbsp;않다.<br><br>◆(&)nbsp;"소비자도(&)nbsp;불만"<br><br>업계가(&)nbsp;합의점을(&)nbsp;찾는데(&)nbsp;어려움이(&)nbsp;적지(&)nbsp;않지만(&)nbsp;이에(&)nbsp;못지않게(&)nbsp;소비자들의(&)nbsp;불만도(&)nbsp;높아가고(&)nbsp;있다.(&)nbsp;<br><br>국내(&)nbsp;최대(&)nbsp;MP3기기(&)nbsp;온라인(&)nbsp;커뮤니티인(&)nbsp;(&)quot;엠피마니아(www.mpmania.com)(&)quot;의(&)nbsp;이성윤(&)nbsp;운영자는(&)nbsp;"저작권(&)nbsp;단체들이(&)nbsp;MP3플레이어(&)nbsp;사용자가(&)nbsp;스스로(&)nbsp;만든(&)nbsp;음원(&)nbsp;조차(&)nbsp;이용치(&)nbsp;못하게(&)nbsp;하는(&)nbsp;것은(&)nbsp;사용자(&)nbsp;권익(&)nbsp;침해"라고(&)nbsp;못박았다.<br><br>그는(&)nbsp;"사용자는(&)nbsp;자신이(&)nbsp;구입한(&)nbsp;CD,(&)nbsp;카세트(&)nbsp;등에(&)nbsp;담겨(&)nbsp;있는(&)nbsp;음악을(&)nbsp;(&)quot;인코딩(&)quot;(&)nbsp;기능을(&)nbsp;이용해(&)nbsp;MP3(&)nbsp;파일로(&)nbsp;만들어(&)nbsp;플레이어에서(&)nbsp;듣는(&)nbsp;경우가(&)nbsp;많다"며(&)nbsp;"저작권(&)nbsp;단체들이(&)nbsp;이런(&)nbsp;것까지(&)nbsp;원천적으로(&)nbsp;봉쇄하겠다는(&)nbsp;것은(&)nbsp;사용자들을(&)nbsp;무시하는(&)nbsp;발상"이라고(&)nbsp;주장했다.<br><br>더욱이(&)nbsp;"저작권단체들이(&)nbsp;MP3(&)nbsp;기기(&)nbsp;업체들에게(&)nbsp;DRM이(&)nbsp;걸린(&)nbsp;음악(&)nbsp;파일만(&)nbsp;재생토록(&)nbsp;한다면(&)nbsp;MP3기기(&)nbsp;사용자들과(&)nbsp;똘똘(&)nbsp;뭉쳐(&)nbsp;실력으로(&)nbsp;저지하는(&)nbsp;것도(&)nbsp;불사하겠다"고(&)nbsp;덧붙였다.<br><br>휴대폰(&)nbsp;이용자(&)nbsp;커뮤니티인(&)nbsp;세티즌의(&)nbsp;ID(&)nbsp;(&)quot;윤태운(&)quot;씨는(&)nbsp;"MP3폰이(&)nbsp;출시되면(&)nbsp;우리나라(&)nbsp;음반시장이(&)nbsp;망할것처럼(&)nbsp;얘기하는(&)nbsp;음반협회에(&)nbsp;일부(&)nbsp;유저들이(&)nbsp;선동되어(&)nbsp;휘말리는것(&)nbsp;같은데(&)nbsp;결론을(&)nbsp;말하면(&)nbsp;아무(&)nbsp;상관없다"는(&)nbsp;주장을(&)nbsp;펴기도(&)nbsp;했다.<br><br>논란이(&)nbsp;불거진(&)nbsp;것은(&)nbsp;(&)quot;소비자(&)nbsp;권리와(&)nbsp;저작권(&)nbsp;보호(&)quot;라는(&)nbsp;묵은(&)nbsp;숙제를(&)nbsp;해결하지(&)nbsp;못한(&)nbsp;탓이(&)nbsp;크다.<br><br>지난(&)nbsp;몇(&)nbsp;년간(&)nbsp;MP3(&)nbsp;플레이어는(&)nbsp;PC와(&)nbsp;플레이어간(&)nbsp;콘텐츠(&)nbsp;연동이나(&)nbsp;음악(&)nbsp;외의(&)nbsp;콘텐츠(&)nbsp;이용이(&)nbsp;가능했지만(&)nbsp;음원저작권(&)nbsp;문제는(&)nbsp;휴대폰으로까지(&)nbsp;공이(&)nbsp;넘어올때까지(&)nbsp;(&)quot;사각지대(&)quot;나(&)nbsp;다름없었던(&)nbsp;것.<br><br>업계(&)nbsp;전문가들은(&)nbsp;(&)quot;인터넷에서(&)nbsp;PC로(&)nbsp;음악을(&)nbsp;다운받는(&)nbsp;과정에서(&)nbsp;저작권(&)nbsp;보호장치가(&)nbsp;마련(&)nbsp;것이(&)nbsp;마땅하지만,(&)nbsp;현재로선(&)nbsp;업계의(&)nbsp;합의가(&)nbsp;우선(&)nbsp;필요하다고(&)nbsp;말했다.(&)nbsp;<br><br>그러나(&)nbsp;MP3폰을(&)nbsp;둘러싼(&)nbsp;업계의(&)nbsp;이해관계가(&)nbsp;워낙(&)nbsp;첨예하게(&)nbsp;대립되어(&)nbsp;있어(&)nbsp;앞으로(&)nbsp;갈(&)nbsp;길은(&)nbsp;쉽지(&)nbsp;않아(&)nbsp;보인다.<br><br>/강호성기자(&)nbsp;chaosing@inews24.com<br><br>(&)nbsp;<br></font>
+							</td>
+						</tr>
+						<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+						<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+						<tr><td colspan="2" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=21&sseq=&sword="><img src="/img/prroom/btn_list.gif" height="19" alt="" border="0" hspace="8"></a></td></tr>
+						<tr>
+							<td colspan="2" height="60" style="padding:0 0 0 8">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="21" class="minilist">			
+
+									</td>
+								</tr>
+									<td height="21" class="minilist">
+
+									<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1295&num=531&page=21&sseq=&sword="><font class="minilist">[Cover Story] 송문섭 팬텍앤큐리텔 사장 </font></a>
+
+									</td>
+								</table>
+							</td>
+						</tr>
+						</table>
+						<!------- READ End ------------->
+
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+
+
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner1.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner1.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,364 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/prroom/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/prroom/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=958&page=34&num=324&sseq=&sword=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=958&page=34&num=324&sseq=&sword=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/prroom/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/prroom/index.asp" onfocus="this.blur()"><img src="/img/prroom/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        > <a href="/html/prroom/index.asp">PR Room</a> > News</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="220">
+					               <param name="movie" value="/inc/flash/left/left_prroom.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_prroom.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="220"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">			
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->
+
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/img/prroom/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td height="1"></td>
+						</tr>
+						<tr>
+							<td height="26">
+								<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td bgcolor="#F6F8F9"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="25"></td>
+						</tr>
+						</table>
+
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="2" height="31" style="font-weight:bold;color:#599AA6;padding:0 0 0 10;font-size:9pt">
+							[ [겨울여행] 휴대폰ㆍ인터넷ㆍ신용카드…알뜰스키 '할인 궁합'을 찾아라 ]
+							</td>
+						</tr>
+						<tr>
+							<td height="16" bgcolor="#F2F2F2" colspan="2"></td>
+						</tr>
+						<tr bgcolor="F2F2F2">
+							<td height="31" width="142" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 324</td>
+							<td width="376" style="padding:2 0 0 0">
+								<b><font color="#515151">&#8226;</font> 등록일</b> :
+								2004-01-14 <img src="/img/b.gif" width=80 height=1>
+								<b><font color="#515151">&#8226;</font> 출처</b> : 한국경제
+							</td>
+						</tr>
+						<tr><td height="1" colspan="2" bgcolor="#C9C9C9"></td></tr>
+						<tr>
+							<td colspan="2" style="padding:25 11;line-height:16px" valign="top" class="8">
+								 <br><> 휴대폰 =이동통신업체와 휴대폰업체들은 올해도 자사 고객에게 스키장에서 다양한 혜택을 제공하는 이벤트를 전개하고 있다.<br>SK텔레콤 고객들은 내달 1일까지 용평 무주 보광 대명 성우 등 5개 스키장에서 무료 또는 할인된 금액으로 리프트를 이용할 수 있다.<br><br>또 이들 5개 스키장에서 운영되는 011/017고객 전용라운지에서는 음료제공,인터 넷서핑,휴대폰충전 등의 서비스를 제공한다.<br><br>이와함께 용평 무주 보광에서는 스키.스노보드 무료강습,장비렌탈 할인 등도 제 공한다.<br><br>LG텔레콤은 올해 스키시즌이 끝날때까지 용평 보광 성우 지산 양지 강촌 베어스 타운 등 7개 스키장에서 리프트권 최대 30%할인,콘도및 팬션 20~60%할인서비스 를 제공한다.<br><br>또 스키행사 이용고객 중 카메라폰으로 촬영한 후 사진을 등록한 고객에게는 추 첨을 통해 괌 여행권,국내 특급호텔 숙박권 등 경품을 주는 이벤트를 진행한다 .<br><br>삼성전자는 16일부터 내달 15일까지 한달동안 보광 피닉스파크에서 "스키이벤트 "를 연다.<br><br>이벤트에서는 핸드폰으로 사진을 촬영하고 즉석에서 출력을 해주는 서비스를 제 공하고 경품추첨을 통해 리프트권 등을 제공할 예정이다.<br><br>또 삼성 애니콜의 최신 메가픽셀 캠코더폰(SCH-V4200)을 전시하고 시연하는 행 사도 연다.<br><br>팬택앤큐리텔은 2월말까지 자사 단말기를 가진 고객에게 양지파인리조트 심야스 키 무료이용권을 제공한다.<br><br>큐리텔 휴대폰을 가진 고객은 팬택앤큐리텔 홈페이지(www.curitel.com) 에서 인 적사항과 보유 단말기의 시리얼 넘버만 확인 받으면 누구나 동반 1인까지 밤 1 0시부터 새벽 1시까지 무료 심야스키를 즐길 수 있다.<br><br>행사기간 동안 횟수 제한 없이 무료 심야스키 이용이 가능하며 스키렌탈과 리프 트 사용은 모두 무료다.<br><br>주간에는 리프트 할인권이 제공된다.<br><br>또 스키장내에 큐리텔 고객을 위한 휴식 공간 "쿨센터"를 마련해놓고 신제품 시 연,카메라폰 촬영사진 인화,휴대폰 A/S 서비스 등을 제공한다.<br><br><> 인터넷 =인터넷몰에도 스키장 할인상품이 많이 있다.<br><br>리프트 이용권이나 스키 렌탈권,강습권 등이 최고 50%까지 할인되며 한꺼번에 여러 장 사면 추가할인도 받을 수 있다.<br><br>CJ몰(www.CJmall.com)은 스키.스노보드 할인.예약 전문 숍인 "CJ몰 스키존"을 운영하고 있다.<br><br>성우 용평 대명 강촌 보광 알프스 등 전국 유명 스키장의 리프트 이용권,스키 렌탈권,강습 쿠폰 등을 할인 판매한다.<br><br>이곳에선 스키장 안내,초보자 가이드 등 스키어들을 위한 각종 정보도 제공한다 .<br><br>롯데닷컴(www.lotte.com)은 이달 말까지 스키 스노보드 리프트권 등을 최고 50 % 할인 판매하는 "스키 스노보드 페스티벌"을 벌인다.<br><br>용평 비발디파크 현대성우 등 전국 유명 스키장의 이용권을 할인판매한다.<br><br>대명 비발디파크 전일 세트권(리프트.곤도라 교환권)은 3만5천원,용평 스키장 대인 세트권은 3만8천원,강촌리조트 대인 세트권은 3만3천원이다.<br><br>우리닷컴(www.woori.com)은 2월말까지 "스키 세트권 할인 기획전"을 열고 보광 대명 알프스 강촌 등의 스키 세트권과 장비 렌탈권을 최고 50%까지 할인해서 판매한다.<br><br>대명 LG강촌 세트권 3장을 9만9천원(대인,전일권)에,알프스 세트권 3장을 7만6 천5백원(대인,반일권)에 판매하고 있다.<br><br>또 휘닉스파크 양지 대명 비발디 등 전국 4대 스키장과 제휴된 렌탈 숍에서 사 용할 수 있는 스키 렌탈 통합권을 정가보다 50% 할인된 가격에 내놓았다.<br><br>스키 시즌에 계속 쓸 수 있는 스노보드권은 7만9천원,카빙스키권은 5만9천원이 다.<br><br>LG이숍(www.lgeshop.com)은 세트권 3~5장을 묶은 패키지권을 판매한다.<br><br>패키지권을 사면 낱장 구매보다 10% 이상 가격이 내려간다.<br><br>용평이나 보광 패키지권은 5장에 19만원,4장에 15만2천원,3장에 11만4천원이고 현대 성우 패키지권은 5장에 18만5천원,4장에 14만8천원,3장에 11만1천원이다 .<br><br><> 신용카드 =신용카드만 잘 써도 스키장을 저렴하게 이용할 수 있다.<br><br>자신이 소지하고 있는 신용카드와 제휴되어 있는 스키장에 가면 비용을 20% 이 상 절감할 수 있다.<br><br>현대카드는 용평 성우 휘닉스파크 양지 강촌 지산 등 6개 스키장 이용 고객에게 할인혜택을 준다.<br><br>현대카드 홈페이지를 통해 예약하면 리프트권,스키 렌탈권,객실 이용룔 등을 3 0~50% 할인받을 수 있다.<br><br>외환카드는 3월 스키 시즌 종료시까지 현대 성우리조트의 리프트권과 스키 렌탈 권,수영장 이용권 등을 30% 할인해준다.<br><br>현장에서 외환카드로 결제하면 곧바로 할인혜택을 받을 수 있다.<br><br>스키장에 마련된 외환카드 고객 라운지도 이용할 수 있다.<br><br>KB카드는 2월 말까지 국민 KB KB체크 카드 회원(국민BC카드 제외)을 대상으로 용평과 무주 스키장 리프트권 20% 할인 행사를 벌인다.<br><br>리프트 이용권 할인 혜택은 한 사람당 하루 2매까지 받을 수 있다.<br><br>우리카드는 대명 비발디파크,알프스 리조트와 제휴,할인행사를 벌이고 있다.<br><br>우리카드로 결제할 경우 스키.스노보드 렌탈권과 리프트권을 20% 할인받을 수 있다.<br><br>1인 4매까지 할인티켓 이용이 가능하다.<br><br>사우나 요금은 동반 1인까지 20% 할인된다.<br><br>한미카드는 여행사 투어포인트와 제휴,용평 성우 강촌 대명 등 4개 스키장의 리 프트권을 20일까지 할인판매한다.<br><br>할인 폭은 10% 내외다.<br><br>지난 12월20일부터 31일 사이 한미카드로 20만원 이상을 결제한 고객에겐 추가 로 할인 혜택을 준다.<br><br>김태완.송형석 기자 twkim@hankyung.com<br><br> <br>
+							</td>
+						</tr>
+						<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+						<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+						<tr><td colspan="2" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=34&sseq=&sword="><img src="/img/bbs/btn/btn_list.gif" width="70" height="18" alt="" border="0" hspace="8"></a></td></tr>
+						<tr>
+							<td colspan="2" height="60" style="padding:0 0 0 8">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="21" class="minilist">			
+
+									</td>
+								</tr>
+									<td height="21" class="minilist">
+
+									<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1295&num=325&page=34&sseq=&sword="><font class="minilist">[Cover Story] 송문섭 팬텍앤큐리텔 사장 </font></a>
+
+									</td>
+								</table>
+							</td>
+						</tr>
+						</table>
+						<!------- READ End ------------->
+
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+
+
+</body>
+</html>
+

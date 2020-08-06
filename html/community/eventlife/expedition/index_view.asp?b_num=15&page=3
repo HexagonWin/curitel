@@ -1,0 +1,345 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/community.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<script>
+function _del(b_num){
+  if(confirm("정말 삭제하시겠습니까?")){
+	document.location.href="event_process.asp?prc_seq=D&b_num="+b_num
+  }
+  }
+  </script>
+</head>
+
+<body bgcolor="#ffffff">
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/community/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:3"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" !background="/img/community/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/community/eventlife/expedition/index_view.asp?b_num=15&page=3">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/community/eventlife/expedition/index_view.asp?b_num=15&page=3">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/community/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right" background="/img/community/titleleftbg.gif"><a href="/html/community/index.asp" onfocus="this.blur()"><img src="/img/community/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" valign="top" style="padding:2 0 0 0"><div style="zindex:0"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="589" height="51"><param name=wmode value=transparent>
+                <param name="movie" value="/inc/flash/community/submenu.swf?html_Num=40">
+                <param name="quality" value="high">
+                <embed src="/inc/flash/community/submenu.swf?html_Num=40" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="589" height="51"></embed></object></div></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit();</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr> 
+						<td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a> > <a href="/html/community/index.asp">Community</a> > <a href="/html/community/eventlife/index.asp">이벤트라이프</a> > 불가사의 원정대</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"><img src="/img/b.gif" width="83" height="1"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="140">
+					               <param name="movie" value="/inc/flash/left/left_community04.swf?html_Num=10">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_community04.swf?html_Num=10" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="140"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top" class="ctsmgn">
+		<!-- #####Contents##### -->			    
+            
+			<table width="557" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td height="26"> <table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr> 
+								<td><img src="/img/community/eventlife/expedition/subimg00.gif" width="537" height="97" alt="" border="0"></td>
+							</tr>
+							<tr> 
+								<td height="1"></td>
+							</tr>
+							<tr> 
+								<td height="26" bgcolor="#F6F8F9"></td>
+							</tr>
+						</table></td>
+				</tr>
+				<tr> 
+					<td height="20"></td>
+				</tr>
+				<tr> 
+					<td class="pad8"><img src="/img/community/eventlife/expedition/img_expedition.gif" width="530" height="117"></td>
+				</tr>
+				<tr> 
+					<td height="20"></td>
+				</tr>
+				<tr> 
+					<td class="pad8"> 
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+							<tr> 
+								<td colspan="4" height="31" style="font-weight:bold;color:#C83789;padding:0 0 0 10;font-size:9pt">해가 지고있는 나라 이집트...</td>
+							</tr>
+							<tr> 
+								<td height="16" bgcolor="#F2F2F2" colspan="4"></td>
+							</tr>
+							<tr> 
+								<td height="31" bgcolor="F2F2F2" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 15</td>
+								<td bgcolor="F2F2F2" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font> 아이디</b> : interpot</td>
+								<td bgcolor="F2F2F2" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font> 등록일</b> : 2004.01.03</td>
+								<td bgcolor="F2F2F2" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font> 조회수</b> : 916</td>
+							</tr>
+							<tr> 
+								<td height="1" colspan="4" bgcolor="#C9C9C9"></td>
+							</tr>
+							<tr> 
+								<td colspan="4" style="padding:25 11;line-height:16px" valign="top" class="8"> <img src="http://www.curitel.com/upload/old_event/_15.jpg" width="480"><br>
+									<br>
+									<font style='font:10pt'>이번 이집트 여행을 준비하면서 이집트에 대해 한번 곰곰이 생각해 보았다.<br>나일강을 끼고 있는 고대 4대문명 발상지 중의 하나인 이집트...<br>그리고 누구나 떠올리는 피라미드...<br>이런 막연한 기대감속에 이집트행 비행기에 올랐다.<br>장시간의 비행끝에 도착한 이집트...<br>새벽이었음에도 불구하고 수많은 사람들로 공항은 분주했다.<br><br>첫날 카이로 탐험...<br>오전에 간 세계 7대 불가사의 중의 하나인 쿠푸왕의 피라미드는 정말 불가사의 그 자체였다.<br>엄청난 규모와 현재의 과학으로도 어려운 건축양식 및 방향성(피라미드 3기의 배치는 1만 5천년전 하늘의 오리온 자리의 세별의 위치 바로 그대로 배치되었으며, 전체적으로 기자지구의 피라미드와 나일강은 하늘의 오리온과 은하수의 위치에 대비되었다고 한다. 또한 피라미드는 정확히 지구의 북반구를 형상화했으며(비율에 의해) 90도의 직각이 쓰이는 한편 황금비율도 함께 쓰였다.  모든 건축물에대한 건축적 오차의 비율(예를 들면 피라미드 각각의 변은 정확히 동서남북을 가르킨다)은 1%이내 이며 이는 현재의 기술로도 이룩하기 어려운 작품이라고 한다.) 이 모든 것들이 탄성을 자아내기에 부족함이 없었다.<br>오후에는 이집트 박물관을 구경했다.<br>수많은 유물(하나를 1초씩만 본다고 해도 9개월이 걸린다고 한다^^;)에 놀라웠지만, 유물에 대한 설명이 부족해서 조금 아쉬웠다.<br><br>둘째날 룩소 탐험...<br>먼저 간 곳은 하셉수트 장제전...<br>(하셉수트는 원래 왕비였으나 남편이 죽고 아들이 왕이되자 그를 감금시키고 스스로 파라오가 된 최초의 여성 파라오이다.)<br>계곡을 깍아만든 이곳은 피라미드만큼이나 대단한 건축물이었다.<br>그다음은 카르낙 신전...<br>하늘을 찌르는 2개의 오벨리스크와 파라오 거상들, 몇사람이 껴안아도 다 껴안을 수 없는 석주들...<br>정말 입을 다물 수가 없었다.<br>세번째로 룩소 신전...<br>신전의 전체적인 모습은 람세스2세의 업적으로 생각될 만큼 람세스 2세를 기념한 작품들이 많았다.<br>(룩소르 신전엔 오벨리스크가 1개 밖에 없다. 나머지 1개는 파리의 콩코드 광장에 있다고 한다. 역사적으로 이슬람 통치시대에 무하마드 알리가 프랑스에게 기증했다고 한다.)<br>마지막으로 나일강에서의 돛단배 승선...<br>나일강에서 보는 석양은 우리 모두를 엄숙하게 만들었다.<br><br>세째날 알렉산드리아 탐험...<br>먼저 카타콤을 구경했다.<br>1~2세기경에 만들어진 이집트 최대의 지하분묘로, 로마 양식이며 지하 3층까지 있었다.<br>원래는 귀족들의 묘지였으나, 3세기 이후는 일반 시민의 공동묘지로 사용되었다. <br>또한 기독교인들이 여기서 은둔생활을 했다고 한다.<br>나선형 계단을 내려가면 공물대가 놓인 방, 예배당, 석관이 놓인 방 등 천장이 낮은 석조의 방들이 차례로 있었다.<br>두번째로 파로스의 등대에 갔다.<br>파로스의 등대는 세계 7대 불가사의 중의 하나로 지진으로 인해 지금은 흔적만 남아있고 그곳에 카이트 베이 요새가 있었다.<br>마지막으로 간 곳은 몬타자 궁전...<br>원래 왕가의 여름 별장으로 세워졌는데, 지금은 호텔로 쓰이고 있었다. <br>정원에는 수백 그루의 야자나무가 있었고, 스포츠 시설이며 레스토랑.매점 따위도 갖추어져 있었다.<br><br>삼일간의 이집트 여행을 마치고 인천행 비행기에 올랐다.<br>여행기간 동안 과거 화려했던 문명에 비해 현재의 이집트는 너무나 퇴보된 것같다는 느낌을 받았다.<br>일하기를 싫어하는 것같았고(오후 2시반 퇴근에 주 5일제 근무) 짓다만 건물(철근이 솟아있는 건물은 세금이 없다고 한다)과 난폭운전 및 무단횡단은 그들의 의식을 다시금 생각하게 만들었다.<br>선조들이 수 많은 문화 유산을 남겼지만 시간이 갈수록 그들은 나태해져가고 결국엔 많은 사람들이 가난하게 사는 것같았다.<br>그들의 모습을 한마디로 하자면 '인샬라'였다.<br>현재 그들에게 닥친 모든 상황이 모두 신의 뜻이라는 것이다.<br>그들이 정말 많이 쓰는 말인 '인샬라'가 이집트를 현재의 모습으로 만들어버린것 같았다.<br>과거의 영화를 잃어버린 이집트...<br>이집트의 태양은 그들의 파라오와 함께 지고있다는 생각을 하고 있을 때 비행기는 인천공항에 착륙하고 있었다......<br></font></td>
+							</tr>
+							<tr> 
+								<td colspan="4" bgcolor="#cacaca"></td>
+							</tr>
+							<tr> 
+								<td colspan="4" bgcolor="#eaeaea" height="5"></td>
+							</tr>
+							<tr> 
+								<td colspan="4" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=3"><img src="/img/bbs/btn/btn_list.gif" width="70" height="18" alt="" border="0" hspace="8"></a></td>
+							</tr>
+							<tr>
+								<td colspan="4" height="20"></td>
+							</tr>
+						</table>
+						<!------- READ End ------------->
+						<!-------------- 코멘트 시작 ---------->
+						<table width="530" cellpadding="0" cellspacing="0" border="0">
+							
+							<tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>박종호 </b> &nbsp; <br>	
+									<img src="/img/b.gif" width="1" height="5"><br>
+									와~ 노을이 작살이네요..^^</td>
+							</tr>
+							<tr> 
+								<Td class=dotline colspan=3></TD>
+							</tr>
+							
+							<tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>박재철 </b> &nbsp; <br>	
+									<img src="/img/b.gif" width="1" height="5"><br>
+									나일강의 일몰...정말 멋지더라구요^^</td>
+							</tr>
+							<tr> 
+								<Td class=dotline colspan=3></TD>
+							</tr>
+
+						</table>
+						<!-------------- 코멘트 끝---------->
+					</td>
+				</tr>
+			</table>
+		<!-- #####//Contents##### -->
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+</body>
+</html>

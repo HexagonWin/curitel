@@ -1,0 +1,49 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/product.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<script>
+	function goParent(usNo){
+		parent.location.href='/html/product/download/search.asp?serial_no='+usNo;		
+	}
+</script>
+<table width="548" border="0" cellspacing="0" cellpadding="0">
+	<!--- 텝메뉴 "해당파일_o" --->
+	<tr>
+		<td height="29" background="/img/common/tabbg.gif">
+			
+		<a href="if_dmb.asp?tab=SKT&sector=help"><img src="/img/help/tab01.gif" width="81" height="29" alt="" border="0"></a><a href="if_dmb.asp?tab=KTF&sector=help"><img src="/img/help/tab02.gif" width="81" height="29" alt="" border="0" hspace="1"></a><a href="if_dmb.asp?tab=LGT&sector=help"><img src="/img/help/tab03_o.gif" width="81" height="29" alt="" border="0"></a></td>
+	</tr>
+   <tr>
+  	<td>
+			<table width="" border="0" cellspacing="0" cellpadding="0">
+				<tr align="center">
+
+					<td align="" width="109" height="100" class="lgray"><img src="http://file.curitel.com/upload/product/img/A1_PT-L1800.gif" width="60" height="120" vspace="3"><br>
+					<b>PT-L1800</b></td>
+ 
+				</tr>
+			</table>	
+		</td>
+	  </tr>
+</table>
+
+<!--
+<table width="548" height="60" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+		<td align="center">
+			 
+		</td>
+	</tr>
+    </table>
+-->
+
+</body>
+</html>

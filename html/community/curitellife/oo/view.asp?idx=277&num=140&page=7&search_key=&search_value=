@@ -1,0 +1,454 @@
+
+<!--
+     <script language='javascript'>
+          alert("잘못된 접근 방식입니다.");
+     </script>
+-->
+
+
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&amp;CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/community.css">
+<script type="text/javascript" language="javascript" src="/inc/js/common.js"></script>
+<SCRIPT type="text/javascript" language="javascript">
+function _del()
+{
+	if( ! confirm( "본 게시물을 정말로 삭제하시겠습니까?" ) )
+		return;
+	document.location.href = "add_execute.asp?act=delete&idx=277";
+	//open( 'add_execute.asp?act=delete&idx=277', '_self' );
+}
+</SCRIPT>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/community/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:3"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" !background="/img/community/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/community/curitellife/oo/view.asp?idx=277&num=140&page=7&search_key=&search_value=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/community/curitellife/oo/view.asp?idx=277&num=140&page=7&search_key=&search_value=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/community/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right" background="/img/community/titleleftbg.gif"><a href="/html/community/index.asp" onfocus="this.blur()"><img src="/img/community/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" valign="top" style="padding:2 0 0 0"><div style="zindex:0"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="589" height="51"><param name=wmode value=transparent>
+                <param name="movie" value="/inc/flash/community/submenu.swf?html_Num=10">
+                <param name="quality" value="high">
+                <embed src="/inc/flash/community/submenu.swf?html_Num=10" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="589" height="51"></embed></object></div></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit();</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        &gt; <a href="/html/community/index.asp">Community</a> &gt; 큐리안라이프 &gt; 헬로우 오오 &gt; 오오에게 속닥속닥</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="200">
+					               <param name="movie" value="/inc/flash/left/left_community01.swf?html_Num=31">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_community01.swf?html_Num=31" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="200"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">						
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="564" valign="top" class="ctsmgn">
+		<!-- #####Contents##### -->
+
+      <table width="557" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td height="26"> <table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td><img src="/img/community/curitellife/subimg06.gif" width="536" height="97" alt="" border="0"></td>
+              </tr>
+              <tr>
+                <td height="1"></td>
+              </tr>
+              <tr>
+                <td height="26" bgcolor="#F6F8F9"></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td style="padding:19 0 4 10"><img src="/img/community/curitellife/oo/txt_01.gif" alt=""></td>
+        </tr>
+        <tr>
+          <td style="padding:10 0"><img src="/img/common/plusline.gif" width="557" height="11" alt="" border="0" vspace="2"></td>
+        </tr>
+        <tr>
+          <td style="padding:10 0 0 8">
+            <!------- READ Start ------------>
+            <table width="530" cellpadding="0" cellspacing="0">
+              <tr>
+                <td colspan="4" height="31" style="font-weight:bold;color:#C83789;padding:0 0 0 10;font-size:9pt">
+
+				[여자한테 인기있는 남자 되는 법]
+				</td>
+              </tr>
+              <tr>
+                <td height="16" bgcolor="#F2F2F2" colspan="4"></td>
+              </tr>
+              <tr bgcolor="#F2F2F2">
+                <td width="88" height="31" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font>
+                  번호</b> : 140</td>
+                <td width="138" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font>
+                  등록일</b> : 2004-08-07</td>
+                <td width="215" style="padding:2 0 0 0">
+				&nbsp;<b><font color="#515151">&#8226;</font>curian </b> : atria&nbsp;&nbsp;
+				<b><font color="#515151">&#8226;</font>
+                  조회 </b> : 27</td>
+                <td width="87" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font>
+                  공감</b> : 2</td>
+              </tr>
+              <tr>
+                <td height="1" colspan="4" bgcolor="#C9C9C9"></td>
+              </tr>
+              <tr>
+                <td colspan="4" style="padding:25 11;line-height:16px" valign="top" class="8">
+				<font style='font:10pt'>1) 남자가 선물이라고 이런 건 제발 주지 말았으면 좋겠다 <br><br><br>1위 속옷 30% 2위 책 17% 3위 인형 14% 4위 꽃 10% 5위 화장품 7% <br><br>역시 속옷은 여자들이 제일 싫어하는 선물. 혹시 변태가 아닌가 하는 의심을 불러일으키기 충분하다. 속옷은 대학생보다 고등학생이 압도적인 혐오 선물로 꼽았고 대학생은 속옷보다 인형을 더 많이 혐오 선물로 꼽았다. <br><br>(2) 못생긴 남자-처음에는 별로였는데-에게 갑자기 없던 정이 생기는 순간은? <br><br><br>1위 나를 너무 좋아해주는구나 하는 생각이 들 때 31% 2위 너무 재미있게 말을 잘할 때 15% 3위 내 말이라면 껌뻑 죽을 때 13% 4위 날 위해 돈을 팍팍 쓸 때, 어느 날 갑자기 옷을 너무 멋있게 입고 나왔을 때 10% <br><br>역시 좋다는 남자 마다할 여자 없다. 말 잘하는 남자는 대학생보다 고등학생한테 2배 이상 인기가 많았고 돈 팍팍 쓰는 남자는 고등학생보다 대학생한테 2배 이상 인기가 많았다. 역시 씀씀이 많아 돈 아쉬운 줄 아는 대학생이 돈 많은 남자에게 약했다. <br><br>(3) 얼굴 빼고 남자의 몸 중 제일 눈여겨 보는 곳은? <br><br><br>1위 떡 벌어진 어깨 30% 2위 곧고 잘 빠진 다리 23% 3위 손가락 19% 4위 배가 나왔나 안 나왔다 9% 기타 팔다리가 가늘고 길다, 눈, 엉덩이 <br><br>대체로 고등학생과 대학생의 취향이 비슷한 항목. 엉덩이는 대학생에게, 잘 빠진 다리는 고등학생에게 많은 성원(?)을 받았다. 의외로 남자 손가락에 목숨 거는 여자들이 많았다. 남자가 길고 가는 섬세한 손만 가지고 있다면 배가 나와도 다리가 짧아도 용서할 수 있다는 말씀. <br><br>(4) 내 남자라면 이런 옷차림을… <br><br><br>1위 깔끔한 대학생, 폴로 스타일 37% 2위 세련된 힙합 보이 28% 3위 아르마니풍의 세미 정장 17% 기타 스포츠맨 패션 <br><br>폴로 스타일은 고등학생 대학생 모두에게 골고루 지지를 받았고 힙합 스타일은 고등학생에게 10% 정도 더 지지를 받았다. 이제 완전히 복고 패션의 시대는 갔다. 단 한 명도 복고 스타일이 멋지다고 대답하지 않았다. 오히려 세련된 아르마니풍에 눈길을…. <br><br>(5) 절대 용서할 수 없는 남자의 옷차림? <br><br><br>1위 뜯어질 것같이 딱 붙는 쫄바지 44% 2위 귀고리, 팔찌, 목걸이, 반지 등 액세서리 치장맨 16% 3위 목욕탕 가는 것 같은 ‘추리닝’에 티셔츠 차림 11% 4위 양아치 같은 힙합 스타일 8% 기타 머리부터 발끝까지 브랜드 <br><br>고등학생, 대학생 모두 만장 일치. 실밥 터질 것같이 끼는 바지 입은 남자 보고 여자는 아예 눈을 감아버린다. 게다가 다리까지 휜 남자라면 일고의 여지도 없다. 지저분한 옷차림, 치렁치렁한 옷차림도 너무 싫다. <br><br>(6) 이럴 때 있던 정도 뚝 떨어진다 <br><br><br>1위 지저분한 모습 보일 때-트림, 방귀, 이 쑤심 38% 2위 자기가 잘난 줄 알고 잘난 척할 때-나랑 사귀는 게 행운인 줄 알아라, 나 여자한테 인기 무지 않다 등등 28% 3위 깡패처럼 욕할 때 18% 4위 매번 더치 페이 하거나 심지어 나한테 돈 내라고 할 때 10% <br><br>여자한테 정 떨어질 때가 어떤 때인지 잘 생각해보고 그대로만 안하면 된다. 여자가 자기 앞에서 트림하고 방귀 끼면 좋을까? 아님 매번 만날때마다 자기가 남자한테 인기 많다고 자랑하면 좋을까? 심지어는 맨날 비싼 거 사달라고 졸라대면 좋을까? 남이 하면 싫은 거 자기도 안하면 된다. <br><br>(7) 외모가 같은 수준이라면 어떤 남자를 선택하겠는가? <br><br><br>1위 나 잘 챙겨주는 자상한 남자 31% 2위 재미있고 말 잘하는 남자 27% 3위 애교 많고 귀여운 남자, 잘 노는 남자 15% 4위 돈 많은 남자 13% <br><br>자상한 남자와 말 잘하는 남자는 모든 여자들의 이상형. 단 돈 많고 세련되게 옷 입는 남자는 대학생들한테, 춤 잘 추고 노래 잘 부르는 잘 노는 남자와 애교 많은 남자는 고등학생들한테 인기가 더 많았다. <br><br>(8) 사귀고 있는 남자한테 들으면 제일 기분 좋은 말은? <br><br><br>1위 매일매일 봐도 너무 보고 싶어 33% 2위 사랑해 16% 3위 오늘 정말 예쁘다 15% 4위 넌 몸만 오면 돼 10% 기타 나, 너랑 헤어지면 죽을지도 몰라, 넌 뭘 입어도 예뻐 <br><br>고등학생들 매일매일 보고 싶다는 말이 압도적으로 많았지만 대학생들은 보고 싶다는 말과 예쁘다는 말이 거의 같은 비율로 나왔다. 또 대학생들은 남자가 이벤트를 준비해놨으니 몸만 오라는 말을, 고등학생들은 사랑한다는 말을 듣고 싶어했다. 재미있는 것은 착하다는 말을 듣고 싶다는 사람은 한 명도 없었다는 것이다. <br><br>(9) 사귀지는 않지만 그냥 아는 남자한테 들으면 기분 좋은 말은? <br><br><br>1위 오늘따라 네 생각 많이 나더라 47% 2위 너랑 있으면 정말 편해 17% 3위 너랑 있으면 항상 즐거워, 넌 정말 성격 좋고 착한 거 같아 10% 4위 오늘 정말 예쁘다 8% 기타 친구들이 너 칭찬 많이 해, 둘이서만 영화 보러 갈까? <br><br>모든 여자들이 똑같이 대답했다. 역시 생각난다는 말에 제일 가슴 떨린다. 이런 말 들으면 이 남자가 날 좋아하나 하고 생각하게 된다. 여자한테 좋아한다는 눈치 주고 싶을 때 이런 말 자주 하자. <br><br>(10) 남자친구한테 들으면 진짜 열받는 말은? <br><br><br>1위 자기 아는 친구의 여자친구랑 비교하는 말 38% 2위 옷이 그게 뭐냐? 21% 3위 너 살찐 거 같아, 그만 좀 먹어라 16% 4위 저 여자 진짜 예쁘지 않냐? 10% 기타 너, 어제 그 시간에 어디서 뭐 했어? 화장이 왜 그러냐? <br><br>부모님이 옆집 아이나 친척과 비교하는 말 할 때 제일 열받듯, 여자도 마찬가지다. 다른 여자랑 비교할 때 제일 열받는다. 그 다음이 남 옷 입은 거 갖고 뭐라고 그럴 때. <br><br>(11) TV 드라마 극중 인물 중 가장 좋아하는 스타일은? <br><br><br>1위 「해피 투게더」의 가진 건 없지만 낙천적이고 한없이 착한 이병헌 24% 2위 「세상 끝까지」의 침착하고 부드럽고 믿음직한 류시원, 「눈물이 보일까봐」의 사랑과 일에 모두 소신있는 재벌 2세 김태우 17% 3위 「토마토」의 똑똑하고 반듯한 변호사 역의 김석훈 10% 4위 「해피 투게더」의 냉정해 보이면서도 모성본능을 자극하는 검사 역의 송승헌 7% <br><br>여자들 만날 돈 많은 남자 좋다고 하지만 의외로 가진 것 하나 없는 이병헌이 제일 좋다고 말한다. 한마디로 인간 하나 멀쩡하다면 그의 배경 쯤은 용서할 수 있다는 얘기. <br><br>(12) 얼굴, 몸, 성격 빼고 내 남자가 가졌으면 하는 것을 고르라면? <br><br><br>1위 자기 일에 몰두하는 열정 21% 2위 예쁘게 웃는 거 18% 3위 노래 잘 부르는 거, 돈 많은 거 15% 4위 스타일 좋아 옷발 잘 사는 거 8% 기타 웃기는 거, 운동 잘하는 거, 목소리 좋은 거… <br><br>남자들이 여자 착한 걸 중요하게 여기듯 여자들도 남자 열정 있는 걸 중요하게 생각한다. 자기 일에 몰두하고 있는 모습에 여자들은 뿅 간다. 돈보다 스타일보다 여자를 반하게 하는 건 바로 이것. 단 돈 많은 것도 대학생들의 압도적 지지를 받았다. <br><br>(13) 남자와의 스킨십 중 가장 좋아하는 것은? <br><br><br>1위 다닐 때 손 꼭 잡고 다니는 거 39% 2위 남자가 어깨 감싸거나 어깨 동무하는 것 16% 팔짱 끼는 거 10% 기타 볼에다 뽀뽀하는 거, 허리 감는 거, 머리 쓰다듬어 주는 거… <br><br>여자들은 확실히 남자들보다 스킨십에 약하다. 키스나 포옹 같은 조금 더 센 스킨십은 별로라고 대답. 조금더 간적접이고 일상적인 스킨십에 마음이 더 편해지는 게 여자들이다. <br><br>(14) 키스할 때 기분 좋은 장소는? <br><br><br>1위 한적한 공원이나 캠퍼스 26% 2위 우리집 앞 골목 23% 3위 카페 구석 자리 15% 4위 공공장소에서 사람들 별로 없을 때 몰래! 14% <br><br>예상을 별로 빗나가지 않은 대답. 역시 키스는 사람들 없는 데서 제대로 분위기 잡고 하는 게 최고. 조금 스릴 있게 하는 게 공공장소에서 사람들 안 볼 때 몰래 하는 정도. <br><br>(15) 키스할 때 가장 짜증나는 장소는? <br><br><br>1위 사람들 다니는 길거리나 공공장소 27% 2위 노래방이나 비디오방 16% 3위 우리집 앞 골목, 자기 방이나 남자친구 방, 자취방 각 12% 4위 어두컴컴한 극장 안 10% <br><br>대학생과 고등학생 모두 일치. 여기가 외국도 아니고 키스하는 거 누가 보는 건 싫다. 다음으로 노래방이나 비디오방이 차지했는데 몰래 카메라 사건도 있고 아무래도 꺼림칙하다. 남자친구 방이나 자취방도 무슨 일이 일어날지 몰라 싫다. <br><br>(16) 이런 취미를 가진 남자가 좋다!! <br><br><br>1위 수영, 스키, 농구 등 만능 스포츠맨 43% 2위 바람처럼 자유로운 남자, 여행가 14% 3위 재즈에서 힙합까지 완전 마스터, 음악박사 11% 4위 피아노, 드럼, 기타… 프로만큼 악기 다루기 10% 5위 못 다루는 프로그램이 없다! 해커 수준의 컴퓨터 맨 9% <br><br>예상했던 대로 남성미 한껏 나는 만능 스포츠맨이 나이를 불문하고 압도적. 운동 후 땀 흘리는 그의 모습이 아름답다…. 그러나 2위에서 대학생은 여행가가 많았던 반면, 고등학생은 음악박사가 많았다. <br><br>(17) 남자친구랑 가고 싶은 데이트 코스? <br><br><br>1위 기차 타고 또는 버스 타고 떠나는 둘만의 서울 근교 외출 29% 2위 시내에서 함께 쇼핑하고 밥 먹고 영화 보기 18% 3위 대학로에서 산책하고 야외공연 보고 또는 연극이나 뮤지컬 보기 13% 4위 에버랜드, 롯데월드 등의 놀이동산 놀러 가기 10% 5위 관심있는 가수나 그룹 사운드의 콘서트 구경 6% <br><br>데이트 코스는 역시 뻔한 것이기에 거의 대답이 비슷. 청명한 하늘과 빨강 노랑 낙엽진 가을은 역시 야외로 나가고만 싶은가보다. 대학생 고등학생 둘 다 서울 근교 외출이 1위. 다음으론 가장 무난한 시내 데이트 코스인 쇼핑하고 밥 먹고 영화 보고. 남녀가 만나서 할 수 있獵?일이 너무 한정돼 있다는 게 드러나는 순간! <br><br>(18) 좋아하는 남자랑 같이 먹고 싶은 거, 먹으러 가고 싶은 곳? <br><br><br>1위 분위기 있는 바에서 마시는 맥주 21% 공동 2위 아이스크림, 패밀리 레스토랑 각 16% 3위 피자나 스파게티 15% 4위 길거리 군것질 13% <br><br>분위기 있는 조명의 바에서 그와 함께 마시는 병맥주. TV에 자주 등장하는 이 장면이 당당 1위(고등학생이 술 마셔도 되나요?). 2위부턴 의견이 갈리는데 대학생들은 깔끔하고 고급스런 패밀리 레스토랑, 고등학생들은 아이스크림이나 길거리 군것질의 응답이 많았다. 대학생들과 고등학생과의 씀씀이 스케일의 차이를 알 수 있다. <br><br>(19) 여자를 많이 사귀어봐서 잘해주는 남자 or 많이 사귀지 못해 순진한 남자 중 누구를 선택하겠습니까? <br><br><br>1위 많이 사귀어본 남자 52% 2위 순진한 남자 48% <br><br>거의 막상막하. 많이 사귀어본 남자를 선택하겠다는 편이 조금 더 많았다. 여자를 많이 사귀어봤으니 알아서 능숙하게 잘 해줄 것이란 의견이 가장 큰 이유. 순진한 남자를 택한 이유엔 여자를 많이 사귀어봤으면 바람둥이일 것 같아서 싫다는 의견이 지배적. 그 밖에 사귀면서 내가 가르치면 된다는 의견도 있었다. <br><br>(20) 내가 원하는 남자친구의 머리 스타일은? <br><br><br>1위 차태현처럼 뒷머리는 깔끔, 앞머리는 긴 머리 34% 2위 「카이스트」 이민우처럼 짝 달라붙은 짧게 친 머리 21% 3위 「비트」의 정우성같이 한쪽 눈 가리는 머리 14% 4위 Y2K 같은 긴 머리, 컬러풀한 염색머리 10% 기타 어울리기만 하면 뭐든지 좋다, H.O.T 토니 스타일 <br><br>대학생들은 차태현 같은 머리를 선호했고, 고등학생은 「카이스트」 이민우처럼 짝 달라붙은 짧게 친 머리를 선호했다. 3위는 「비트」 정우성의 한쪽 눈 가리는 만화 주인공의 머리이고 공동 4위론 긴 머리, 노랗게 파랗게 염색한 컬러풀 머리가 차지했다. 컬러풀 머리는 고등학생에게 인기. <br><br>(21) 사귀는 남자친구가 하루에 몇 번 정도 전화해 주길 바라는가? <br><br><br>1위 심심할 때나 자투리 시간 날 때마다 43% 2위 3~4번 15% 3위 아침저녁 두 번 12% 4위 하루에 딱 한 번 11% 5위 2~3일에 한 번 10% 기타 내 생각 날 때마다 <br><br>여자는 나이에 불문하고 전화 횟수와 애정 정도가 비례한다고 생각한다. 자투리 시간 날 때마다 계속 전화해서 내가 널 이만큼 생각한다는 걸 보여주자. 하위로 갈수록 전화 횟수가 줄어드는 것으로 보아 전화는 자주자주 하는것이 그녀에게 사랑받는 비결 <br></font>
+				</td>
+              </tr>
+              <tr>
+                <td colspan="4" bgcolor="#cacaca"></td>
+              </tr>
+              <tr>
+                <td colspan="4" bgcolor="#eaeaea" height="5"></td>
+              </tr>
+              <tr>
+                <td height="40" colspan="2" bgcolor="#F2F2f2" style="padding:0 0 0 5"><a href="cartoon_list.asp"><img src="/img/community/curitellife/oo/btn_listall.gif"  height="19" hspace="5" border="0" alt="오오툰 목록"></a>
+
+				<a href="javascript:setRecomm(277,'pc_ct_ootoon')"><img src="/img/community/curitellife/oo/btn_sympathy.gif" width="48" height="19" border="0" alt="공감하기"></a>
+				</td>
+                <td height="40" colspan="2" align="right" bgcolor="#F2F2f2" style="padding:0 5 0 0">
+<a href="write.asp"><img src="/img/community/curitellife/oo/btn_talk.gif" height="19" hspace="5" border="0" alt="속닥속닥 거리기"></a><a href="list.asp?page=7&search_key=&search_value="><img src="/img/btn/btn_list.gif" height="19" alt="" border="0"></a>
+				</td>
+              </tr>
+              <tr>
+                <td colspan="4" height="60" style="padding:0 0 0 8">
+				<table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="21" class="minilist">
+
+					  <img src="/img/bbs/txt_prev.gif" width="48" height="11" alt="" border="0" hspace="8">
+					  <a href="view.asp?idx=276&num=139&page=7&search_key=&search_value="><font class="minilist">남자는 이런 여자 싫어한대요~~</font></a>
+
+					  </td>
+                    </tr>
+                    <tr>
+                    <td height="21" class="minilist">
+
+					<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8">
+					<a href="view.asp?idx=278&num=141&page=7&search_key=&search_value="><font class="minilist">연인과 ㅎ ㅏ고싶은일 100ㄱ ㅏ지^^</font></a>
+
+
+					 </td>
+					 </tr>
+                  </table></td>
+              </tr>
+            </table>
+            <!------- READ End ------------->
+            <br>
+            <!-------------- 코멘트 시작 ---------->
+
+			
+
+<script src="/common/comment/cmt.js"></script>
+<a name="#cmt"></a>
+<form name=cmtform method=post action="/common/comment/process.asp" 
+	onsubmit="return cmtcheckIt(this,'')" style="margin:0">
+<input type=hidden name="act">
+<input type=hidden name="c_idx">
+<input type=hidden name="table_name" value="pc_ct_ootoon">
+<input type=hidden name="t_idx" value="277">
+<input type=hidden name="r_url" value="/html/community/curitellife/oo/view.asp?idx=277&num=140&page=7&search_key=&search_value=">
+
+<table width="530" cellpadding="0" cellspacing="0" border="0">
+<tr bgcolor=#F2F2F2> 
+<td width=62><img src="/img/bbs/i_opinion.gif" width="80" height="33" alt="" border="0"></td>
+<td width=383><input type='text' name='comment' style='width:375;border:1px solid #C6C6C6;font-size:8pt'  onkeyup='checkTextLen(form)' onchange='checkTextLen(form)'></td>
+<td width=75><input type=image src="/img/btn/btn_input.gif" width="70" align=absmiddle style="height:19"></td>
+</tr>
+</table>
+<table width="530" cellpadding="0" cellspacing="0" border="0">
+
+
+<!-- <tr> 
+<td colspan=3 bgcolor=#C8C8C8></td>
+</tr> -->
+</table>
+
+<form>
+
+
+            <!------- LIST ------------->
+<!--
+<table width="530" cellpadding="0" cellspacing="0" border="0">
+  <colgroup>
+  <col align="center" class="bbsfield">
+  <col align="center" class="bbsfield">
+  <col align="left" style="padding:0 0 0 15">
+  <col align="center" class="bbsfield">
+  </colgroup>
+  <tr align="center">
+    <td height="42" colspan="4"><a href="#"><img src="pre.gif" width="54" height="17" alt="" border="0" align="absmiddle" hspace="26"></a><a href="#"><b>|1|</b></a>
+      |2| |3| |4| |5| |6| |7| |8| |9| |10|<a href="#"><img src="next.gif" width="55" height="17" alt="" border="0" align="absmiddle" hspace="26"></a></td>
+  </tr>
+</table>
+-->
+</td>
+        </tr>
+      </table>
+		    <!-- #####//Contents##### -->
+            <!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+        </td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script type="text/javascript" language="javascript" src="/inc/js/copy.js"></script>
+</body>
+</html>
+

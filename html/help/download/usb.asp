@@ -1,0 +1,535 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/help.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"></head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><script language="JavaScript">flash('/inc/flash/sub_menu.swf?lnum=0','936','137');</script>
+		<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object> --></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+<tr> 
+	<td width="77" height="77" valign="top" style="background:url(/img/help/titleleftbg.gif) repeat-x left top">
+		<!-- SubTitle -->
+		<DIV id=divMenu 
+		style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/help/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/help/download/usb.asp">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/help/download/usb.asp">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/help/titleleftbg.gif">
+					
+					<script language="JavaScript">flash('/inc/flash/rollbar_1.swf?uid=0','77','65','1');</script>
+					<!-- <embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65> -->
+					</td>
+					<td width="164" align="right"><a href="/html/help/index.asp" onfocus="this.blur()"><img src="/img/help/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+		</DIV>
+	</td>
+	<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+  <table cellpadding="0" cellspacing="0" border="0" align="right">
+    <tr> 
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a> 
+        > <a href="/html/help/index.asp">HELP DESK</a> > <a href="/html/help/download/index.asp">다운로드</a> 
+        > USB Driver</td>
+    </tr>
+  </table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+					       <td align="center">
+	
+							<script language="JavaScript">flash('/inc/flash/left/left_help.swf?html_Num=53&ismonitoring=','100','367');</script>
+							<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="367">
+					               <param name="movie" value="/inc/flash/left/left_help.swf?html_Num=53&ismonitoring=">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_help.swf?html_Num=53&ismonitoring=" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="367"></embed></object> -->
+
+
+								   </td>
+						</tr>
+		
+						<tr><td height="50" style="padding:0 0 0 14">
+						<!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td valign="top" class="ctsmgn"> 
+						<!-- #####Contents Start ##### -->
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+							<tr> 
+								<td><img src="/img/help/download/subimg03.gif" width="537" height="97"></td>
+							</tr>
+							<tr> 
+								<td height="1" colspan="2"></td>
+							</tr>
+							<tr> 
+								<td height="26" colspan="2"> <table width="537" height="100%" cellpadding="0" cellspacing="0">
+										<tr> 
+											<td bgcolor="#F6F8F9"></td>
+										</tr>
+									</table></td>
+							</tr>
+							<tr> 
+								<td style="padding:20 0 11 10"><img src="/img/help/download/txt_usb.gif">
+								<div id="btn" style="position:absolute;visibility:visible;top:375;left:668;z-index:1"><a href="usb_guide1.asp"><img src="/img/btn/btn_driver_guide.gif"></a></div>
+								</td>
+							</tr>
+							<!-- include virtual = "/common/open_db.asp"-->
+<!-- include virtual = "/common/M4ViewClass.asp"-->
+<script>
+	function OnChange_list(nowpage){
+		location.href = nowpage + Select_frm.company.value ;   
+	}
+
+	function OnChange_page(){
+		location.href = "search.asp?serial_no="+ Select_frm.model.value
+	}
+</script>
+
+							<tr>
+								<td style="padding:0 0 0 8">
+								<!--/-->
+								<table width="533" cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td><img src="/img/common/gredge01.gif" width="5" height="5" alt="" border="0"></td>
+										<td width="523" background="/img/common/grabg01.gif" height="5"><img src="/img/b.gif" width="1" height="1"></td>
+										<td><img src="/img/common/gredge02.gif" width="5" height="5" alt="" border="0"></td>
+									</tr>
+									<tr>
+									<form name="Select_frm">
+										<td height="33" background="/img/common/grabg02.gif"><img src="/img/b.gif" width="1" height="1"></td>
+										<td bgcolor="#F1F1F1" style="padding:0 0 0 22"><img src="/img/help/download/txt_selmodel.gif" width="182" height="13" alt="" border="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<select name="company" onChange="OnChange_list('./usb.asp?p_code=')" style="width:90">
+											<option value="SKT" selected>SKT</option>
+											<option value="KTF" >KTF</option>
+											<option value="LGT" >LGT</option>
+										</select>
+										<select name="model" onChange="OnChange_page()" style="width:184">
+										<option>제품명을 선택해주세요.</option>
+<option value=20>C-500</option><option value=22>DD-630</option><option value=24>DD-600</option><option value=25>PS-E100</option><option value=26>PS-E200</option><option value=31>PG-S1200</option><option value=32>PS-E100A</option><option value=33>S1  </option><option value=39>S2M</option><option value=42>PG-S5000</option><option value=44>PG-S4600</option><option value=45>PG-S4100</option><option value=48>PG-S5500M</option><option value=57>PH-S1500</option><option value=61>S4</option><option value=62>PH-S1000</option><option value=63>PG-S5000A</option><option value=65>PH-S2700</option><option value=68>P1</option><option value=69>PH-S3500</option><option value=70>PH-S3000V</option><option value=73>PH-S5700</option><option value=74>PH-S5000V</option><option value=79>PH-S2000M</option><option value=80>PH-S4000</option><option value=81>PH-S6500</option><option value=85>PH-S7000V</option><option value=86>PT-S100</option><option value=87>PH-S6000</option><option value=90>PT-S110</option><option value=93>PH-S8000T</option><option value=96>PT-S130</option><option value=98>PT-S120</option><option value=101>PT-S140</option><option value=104>PT-S170</option><option value=109>PT-S160</option><option value=111>PT-S210</option><option value=113>PT-S200</option><option value=118>PT-S280</option>					
+										</select>
+										</td>
+										<td  background="/img/common/grabg03.gif" height="5"><img src="/img/b.gif" width="1" height="1"></td>
+									</form>
+									</tr>
+									<tr>
+										<td><img src="/img/common/gredge03.gif" width="5" height="5" alt="" border="0"></td>
+										<td  background="/img/common/grabg04.gif" height="5"><img src="/img/b.gif" width="1" height="1"></td>
+										<td><img src="/img/common/gredge04.gif" width="5" height="5" alt="" border="0"></td>
+									</tr>
+								</table>	
+								</td>
+							</tr>
+							<tr> 
+								<td><img src="/img/common/plusline.gif" width="557" height="11" alt="" border="0" vspace="10"></td>
+							</tr>
+							<tr><td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td style="padding:0 0 25 0">
+		<img src="/img/help/download/txt_usb02.gif" border="0" align="absmiddle"><br>
+		<img src="/img/product/download/txt_usb02_1.gif" border="0" align="absmiddle" style="margin:3 0 0 17">
+		</td>
+		<td valign=bottom align=right style="padding:0 10 0 0">
+			<a href="javascript:download('product/down/USB/USBDriver_Kor.zip')"><img src="/img/btn/btn_usbdriver_kor.gif" width="141" height="24" style="margin:0 0 5 0" hspace="2"></a><br>
+			<a href="javascript:download('product/down/USB/USBDriver_Eng.zip')"><img src="/img/btn/btn_usbdriver_eng.gif" width="141" height="24" hspace="2"></a><br>
+		</td>
+	</tr>
+	<!--tr style="padding:15 10 0 0">
+		<td><img src="/img/help/download/txt_usb03.gif" border="0" align="absmiddle"></td>
+		<td valign=top align="right"><a href="javascript:download('product/down/USB/Curitel_USB_driver_Uninstaller_ver4_22.zip')"><img src="/img/btn/btn_usbdriver_del.gif" width="141" height="24" alt="" border="0" hspace="2"></a></td>
+	</tr-->
+
+	<tr><td colspan=2><img src="/img/common/plusline.gif" width="557" height="11" alt="" border="0" vspace="10"></td></tr>
+	<tr><td colspan=2 align="right" height="97" style="padding:0 35 0 0;background:url(/img/product/download/txt_ctu.gif) no-repeat left top"><a href="javascript:download('product/down/USB/ctu.zip')"><img src="/img/btn/btn_ctudriver.gif" border="0"></a></td></tr>
+		<tr><td height=10></td></tr>
+
+	<tr><td colspan=2 align="right" height="97" style="padding:0 35 0 0;background:url(/img/product/download/txt_tapi.gif) no-repeat left top"><img src="/img/product/download/b.gif" width=350 height=97 align=left usemap=#1><a href="javascript:download('product/down/USB/SetTAPI.zip')"><img src="/img/btn/btn_tapi.gif" border="0" style="margin-top:35"></a></td></tr>
+
+	<map name=1>
+	<AREA SHAPE=RECT COORDS="130,67,220,82" href="/html/help/download/usb_guide1.asp">
+	<AREA SHAPE=RECT COORDS="238,66,319,83" href="/html/help/download/pcsync_guide1.asp">
+	</map>
+
+	<!--tr><td colspan=2><img src="/img/common/plusline.gif" width="557" height="11" alt="" border="0" vspace="10"></td></tr>
+	<tr>
+		<td colspan=2 height="35" style="padding:10 0 0 15" valign=top><img src="/img/help/download/title_model.gif"></td>
+	</tr-->
+	</table>
+							</td></tr>
+							<!--tr> 
+								<td style="padding:0 0 0 8"> 
+									<!-- 제품 목록 -->
+									<!--iframe src="/html/product/download/if_usb.asp?sector=help" scrolling="No" frameborder="0" width="557" height="200"></iframe> 
+									<!-- 제품 목록 -->
+								<!--/td>
+							</tr-->
+							<!---------------------- hardcoding ---------------------------->
+							<!--               <tr> 
+                <td style="padding:0 0 0 8" >
+					<table width="548" border="0" cellspacing="0" cellpadding="0">
+                    <tr><td height="10" colspan="6"></td></tr>
+                    <tr> 
+                      <td colspan="6" height="1" bgcolor="#E9E9E9"></td>
+                    </tr>
+					<tr><td height="15" colspan="6"></td></tr>
+                    <tr> 
+                      <td width="40" align="right" class="lgray" style="padding:15 0">&nbsp;</td>
+                      <td width="60" height="100" align="center" class="lgray" style="padding:15 0"><img src="http://dev.curitel.com/upload/product/img/type_a1(2).gif" width="60" height="120"><br>
+                        PG-S5000</td>
+                      <td width="210" height="100" class="lgray" style="padding:15 0"><a href="#"><img src="/img/product/download/usb.gif" width="128" height="30" hspace="10"></a></td>
+                      <td width="60" height="100" align="center" class="lgray" style="padding:15 0"><img src="http://dev.curitel.com/upload/product/img/type_a1(2).gif" width="60" height="120"><br>
+                        PG-S5000</td>
+                      <td height="100" class="lgray" style="padding:15 0"><a href="#"><img src="/img/product/download/usb.gif" width="128" height="30" hspace="10"></a></td>
+                    </tr>
+                  </table>
+				</td>
+              </tr> -->
+							<!---------------------- hardcoding ---------------------------->
+							<!---------------------- hardcoding ---------------------------->
+							<tr> 
+								<td style="padding:0 0 0 0" > 
+									<!--/-->
+									<table width="557" border="0" cellspacing="0" cellpadding="0">
+										<tr> 
+											<td colspan=2><img src="/img/common/plusline.gif" width="557" height="11" alt="" border="0" vspace="10"></td>
+										</tr>
+										<tr> 
+											<td> <table border=0 width="533">
+													<tr> 
+														<td colspan=4 height=25 valign=top><img src="/img/help/download/title_usbmodel.gif"></td>
+													</tr>
+													<tr> 
+														<td align=center ><img src="http://file.curitel.com/upload/product/img/a1_hs-6000.gif"  width="60" height="120" vspace="3"><br>
+															HS6000</td>
+														<td align=center ><img src="http://file.curitel.com/upload/product/img/a1_hs6550.gif"  width="60" height="120" vspace="3"><br>
+															HS6500 / HS6550</td>
+														<td align=center ><img src="http://file.curitel.com/upload/product/img/a1_my5000.gif"  width="60" height="120" vspace="3"><br>
+															my5000</td>
+														<td align=center ><img src="http://file.curitel.com/upload/product/img/a1-canU502s.gif"  width="60" height="120" vspace="3"><br>
+															canU 502S</td>
+													</tr>
+													<tr>
+														<td align=center style="padding:8 0 8 0"><a href="http://www.canu.com/html/our/hs6000_lst01.jsp?pgm_id=CANU000030" target="_new"><img src="/img/btn/btn_downdriver.gif" alt="" border="0"a align=center></a></td>
+														<td align=center style="padding:18 0 18 0"><a href="http://www.canu.com" target="_new"><img src="/img/btn/btn_downdriver.gif" alt="" border="0"a align=center></a></td>
+														<td align=center style="padding:18 0 18 0"><a href="http://www.driveras.co.kr/board/down_index.asp?category=my5000" target="_new"><img src="/img/btn/btn_downdriver.gif" alt="" border="0"a align=center></a></td>
+														<td align=center style="padding:18 0 18 0"><a href="http://www.canu.com/html/our/canu502s_lst01.jsp?pgm_id=CANU000015" target="_new"><img src="/img/btn/btn_downdriver.gif" alt="" border="0"a align=center></a></td>
+													</tr>
+												</table></td>
+										</tr>
+
+
+										<tr> 
+											<td colspan=2><img src="/img/common/plusline.gif" width="557" height="11" alt="" border="0" vspace="10"></td>
+										</tr>
+
+										<tr> 
+											<td> <table border=0 width="533">
+													<tr> 
+														<td colspan=4 height=25 valign=top><img src="/img/help/download/title_sktusb.gif"></td>
+													</tr>
+													<tr> 
+														<td colspan=2 width=300 style="padding:0 0 0 30"><img src="/img/help/download/pt-s130.gif" vspace="3"></td>
+														<td colspan=2><a href="javascript:download('product/down/USB/UniUSBDriver_1.1.6_NEW.zip')"><img src="/img/help/download/btn_sktusb.gif" vspace="3"></a><br>
+														<img src="/img/help/download/txt_sktusb.gif" vspace="10"></td>
+													</tr>
+
+												</table></td>
+										</tr>
+
+									</table></td>
+							</tr>
+							<!--tr> 
+								<td style="padding:0 0 0 8" ><table width="533" cellpadding="0" cellspacing="0">
+										<tr> 
+											<td height="35" style="padding:0 0 0 6"><img src="/img/help/download/title04.gif" width="157" height="14" alt="" border="0"></td>
+										</tr>
+									</table>
+									<table width="533" cellpadding="0" cellspacing="0" border="0" bgcolor="#F2F2F2">
+										<tr> 
+											<td width="3"><img src="/img/common/gredge01.gif" width="3" height="3" alt="" border="0"></td>
+											<td width="527" height="3"></td>
+											<td width="3"><img src="/img/common/gredge02.gif" width="3" height="3" alt="" border="0"></td>
+										</tr>
+										<tr> 
+											<td height="50"></td>
+											<td style="padding:5"> <table width="100%" cellpadding="0" cellspacing="0">
+													<tr> 
+														<td style="padding:7 0 0 10">USB 드라이버의 설치와 관련된 매뉴얼을 PDF로 제공해 드리고 있습니다. USB 드라이브 설치  <br>
+															시, 참고하시기 바랍니다. USB Driver 설치시 핸드폰에서도 통신포트 설정을 하여야 합니다.<br> <br> <font color="#548E1C">핸드폰에서의 환경설정방법<br>
+															메뉴 -> 휴대폰 설정 -> 데이터 설정 -> 통신포트(포트를 USB로 설정)</font><br> <br>
+															윈도우즈 사양에 따라 설치 방법이 조금씩 차이가 있기 때문에 window 98, window 2000, <br>
+															window XP로 구별하여 매뉴얼을 제작하였습니다. 따라서 지금 사용하시는 컴퓨터 운영체제 <br>
+															의 매뉴얼을 다운 받으십시오.</td>
+													</tr>
+													<tr> 
+														<td style="padding:10 10 3 10"> 
+ 
+															<table width="497" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
+																<tr> 
+																	<td width="3"><img src="/img/common/gyedge01.gif" width="3" height="3" alt="" border="0"></td>
+																	<td width="527" height="3"></td>
+																	<td width="3"><img src="/img/common/gyedge02.gif" width="3" height="3" alt="" border="0"></td>
+																</tr>
+																<tr> 
+																	<td height="50"></td>
+																	<td style="padding:5"> <table width="100%" cellpadding="0" cellspacing="0">
+																		<tr> 
+																				<td width="239" height="127" style="color:#7E7E7E;padding:0 0 0 10"> <a href="javascript:download('product/down/USB/USB Driver 설치시 주의사항 20040427.pdf')"><img src="/img/product/download/btn_download.gif" width="66" height="17" vspace="3" align="absmiddle" border=0></a> 
+																					USB 드라이버 설치 주의사항<br> <a href="javascript:download('product/down/USB/USB Driver Windows98 설치매뉴얼 20040427.pdf')"><img src="/img/product/download/btn_download.gif" width="66" height="17" vspace="3" align="absmiddle" border=0></a> 
+																					Window 98<br> <a href="javascript:download('product/down/USB/USB Driver Windows2000 설치매뉴얼 20040427.pdf')"><img src="/img/product/download/btn_download.gif" width="66" height="17" vspace="3" align="absmiddle" border=0></a> 
+																					Window 2000<br> <a href="javascript:download('product/down/USB/USB Driver WindowsXP 설치매뉴얼 20040427.pdf')"><img src="/img/product/download/btn_download.gif" width="66" height="17" vspace="3" align="absmiddle" border=0></a> 
+																					Window XP<br> <a href="javascript:download('product/down/USB/USB Driver 재설치방법 20040427.pdf')"><img src="/img/product/download/btn_download.gif" width="66" height="17" vspace="3" align="absmiddle"></a> 
+																					USB 드라이버 재설치 방법 </td>
+																				<td>&nbsp; </td>
+																			</tr>
+																		</table></td>
+																	<td></td>
+																</tr>
+																<tr> 
+																	<td><img src="/img/common/gyedge03.gif" width="3" height="3" alt="" border="0"></td>
+																	<td height="3"></td>
+																	<td><img src="/img/common/gyedge04.gif" width="3" height="3" alt="" border="0"></td>
+																</tr>
+															</table>
+ 
+															<img src="/img/event/b.gif" height="7"><br>
+															※ HS6000과 HS5000, HS6500 모델의 경우 이에 해당되지 않습니다. </td>
+													</tr>
+												</table></td>
+											<td></td>
+										</tr>
+										<tr> 
+											<td><img src="/img/common/gredge03.gif" width="3" height="3" alt="" border="0"></td>
+											<td height="3"></td>
+											<td><img src="/img/common/gredge04.gif" width="3" height="3" alt="" border="0"></td>
+										</tr>
+									</table></td>
+							</tr>
+<!-- 							<tr> 
+								<td><img src="/img/common/plusline.gif" width="557" height="11" alt="" border="0" vspace="10"></td>
+							</tr>
+							<tr> 
+								<td style="padding:0 0 0 8" ><table width="533" cellpadding="0" cellspacing="0">
+										<tr> 
+											<td height="35" style="padding:0 0 0 6"><img src="/img/help/download/title06.gif" width="87" height="13" alt="" border="0"></td>
+											<td align="right"> 
+											</td>
+										</tr>
+									</table>
+									<table width="533" cellpadding="0" cellspacing="0" border="0" bgcolor="#FCF9E4">
+										<tr> 
+											<td width="4"><img src="/img/common/yedge01.gif" width="4" height="4" alt="" border="0"></td>
+											<td width="525" height="4" style="border-top:1px solid #F0EDDA" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+											<td width="4"><img src="/img/common/yedge02.gif" width="4" height="4" alt="" border="0"></td>
+										</tr>
+										<tr> 
+											<td height="50" style="border-left:1px solid #F0EDDA"><img src="/img/b.gif" width="1" height="1"></td>
+											<td style="padding:5 13" valign="top">  -->
+											<!--include virtual = "/common/tip/tail_tip.asp" --> 
+<!-- 											</td>
+											<td style="border-right:1px solid #F0EDDA"><img src="/img/b.gif" width="1" height="1"></td>
+										</tr>
+										<tr> 
+											<td><img src="/img/common/yedge03.gif" width="4" height="4" alt="" border="0"></td>
+											<td height="4" style="border-bottom:1px solid #F0EDDA" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+											<td><img src="/img/common/yedge04.gif" width="4" height="4" alt="" border="0"></td>
+										</tr>
+									</table></td>
+							</tr> -->
+						</table>
+						<!--/-->
+					</td>
+				</tr>
+				<!---------------------- hardcoding ---------------------------->
+				<!--            			<tr><td><img src="/img/common/plusline.gif" width="557" height="11" alt="" border="0" vspace="10"></td></tr> -->
+			</table>
+						<!-- #####//Contents End ##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<script language="JavaScript">flash('/inc/flash/search/search.swf?file_url=http://file.curitel.com','91','340');</script>
+<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object> -->
+
+<!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>-->
+</div>
+
+
+</body>
+</html>

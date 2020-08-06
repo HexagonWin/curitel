@@ -1,0 +1,381 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/event.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<SCRIPT type="text/javascript" language="javascript">
+function _del()
+{
+	if( ! confirm( "본 게시물을 정말로 삭제하시겠습니까?" ) )
+		return;
+	document.location.href  = "open_2_1_add_execute.asp?act=delete&idx=321";
+}
+</SCRIPT>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/event/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 830px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/event/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/event/event/openevent02/open01_view.asp?idx=321&num=293&page=22&search_key=&search_value=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/event/event/openevent02/open01_view.asp?idx=321&num=293&page=22&search_key=&search_value=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/event/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/event/index.asp" onfocus="this.blur()"><img src="/img/event/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr> 
+						
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a> 
+        > <a href="/html/event/index.asp">Event</a> > 환상이벤트 > 지난 이벤트</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+						
+						<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="300">
+					               <param name="movie" value="/inc/flash/left/left_event.swf?html_Num=22">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_event.swf?html_Num=22" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="300"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">						
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+						<!-- #####Contents Start ##### -->
+	                  
+            <table width="557" border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td height="26"> <table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td><img src="/img/event/subimg02_2.gif" width="537" height="97"></td>
+                    </tr>
+                    <tr> 
+                      <td height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td height="26" bgcolor="#F6F8F9"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td><img src="titimg01.gif" width="568" height="337" border="0" usemap="#Map"></td>
+              </tr>
+              <tr>
+                <td><table width="520" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><img src="table01.gif" width="520" height="31"></td>
+                    </tr>
+                    <tr>
+                      <td align="center" background="table03.gif" style="padding:20 0">
+				<!--- 이벤트2 게시판 --->
+						<table width="479" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td colspan="2" height="35" style="padding:0 0 0 20"><font color="#8569BE"><b>Cooooooolest &amp; Dirty story........<!--얼마나 
+                              So Cool한지.. 견줄자가 없다! 나의 So Cool한 에피소드, 개봉박두~--></b></font></td>
+                          </tr>
+						  <tr> 
+                            <td width="479" colspan="6"> <table height="31" width="100%" border="0" cellspacing="0" cellpadding="0" background="table_view01.gif">
+                                <tr> 
+                                  <td width="40%" style="padding:0 0 0 63"><font color="#FFFFFF"><b>293<!--244--></b></font></td>
+                                  <td width="60%" style="padding:0 0 0 60"><b><font color="#FFFFFF">2004-06-21<!--2004-03-20--></font></b></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="padding:20 10" colspan="6"><font style='font:10pt'>그러니까, 대학시절  어깨에 힘만 잔뜩 들어간 사이비 락커로 통하던... 머리가 길었던 시절의 이야기이니 한 10년은 된 이야기 입니다.<br><br><br>이름도 잘 기억이 나질 않지만 하여간 지명도도 꽤 있었던 올드락 취향의 모 그룹에서 멤버를 구한다는 구인광고를 보고 연락을 했고 오디션 날짜까지 잡았습니다.<br><br>그래도 그 당시는 나름대로 자신감으로 충만했던 젊은 시절이라 그랬는지 같잖은 실력에 대한 자만심으로 가득찬, 사이비 락커였던 시절이라서 오디션을 앞두고도 연습한번 하지 않은 채 방탕한 시간을 보냈습니다. <br><br>별 신경쓰지 않고 언제나 그렇듯 방탕한 생활속에서 허우적 거리던 와중 오디션 날짜는 다가왔고...<br><br>마침내 당일 아침 전날의 과음때문에 쓰린속을 달래려 우유나 한잔 마시고 오디션보고 와야지 싶었는데, 엄마가 달걀을 하나 챙겨주는 <br>것이었습니다.<br><br>노래시험보러 가는데 목청이라도 틔우라고 날계란 하나 먹고 가라길래 귀찮은 생각에 먹던 우유에 깨 넣고 마시려는데, 날계란 특유의 역한 비린내가 풍겨 참기름까지 한방울 쳐서 후루룩 마시고는 친구를 만나 함께 갔습니다.<br><br>제가 유명해지면 열심히 차도 몰아주고, 옷도 챙겨주겠다는 자칭 매니저타입의 그 녀석과 함께 합주실에 도착하니 사람들이 꽤 있었고, 경계의 눈초리로  저와 친구를 한번 흘겨보고는 열심히 악보를 들여다 보는 그 분위기는 흡사 학력고사장에서 느낄수 있는 그런 분위기 였지요.<br><br><br>순번을 받고 친구와 전날 있었던 술자리 에서의 무용담을 나누던 중 갑자기 아랫배에서 약간의 미동을 느꼈으나 아침에 먹은 우유와 날계란의 혼합물때문에 잠시 그러는 것이겠지 싶어 무시한채 대장속의 농축된 기체를 방출하는 것으로 속을 달래었지만, 그것은 제 큰 착오였답니다.<br><br>쇼파에 앉아있던 사람들이 하던일을 멈추고 자리를 피하거나, 담배를 빼물기 시작했고, 친구녀석은 제게 귓속말을 건네었습니다.<br><br>``야 너 혹시 바지에 흘렸냐``<br><br>그말이 떨어지기가 무섭게, 바로 아랫배에서 통증을 느낄수 있었으며, 아스팔트를 부수는 굴착기의 진동과도 흡사한 격렬한 진동이 오기 시작했습니다.<br><br>정신이 아득해지고 식은땀이 흐르며 커다란 위기감을 느껴, 급히 화장실을 향하려 했으나 오디션을 진행하고 있는 방의 방음판으로 되어있는 문이 빼꼼히 열리면서 누군가 머리를 내밀고 다음차례 들어오시라고 하는 것이 아니겠습니까....<br><br><br>``벌써 네 차례다. 짜식 잘 해라``<br><br>라면서 저의 엉덩이를 툭 치는 그녀석 때문에 순간 아주 미량의 액상 엑기스가 분출된것 같았습니다.. 저의 포커페이스도 그 상황에서는 아무런 소용이 없었습니다. <br><br>상기된 얼굴로 최대한 고개를 숙이면서 다리를 꼬며 진땀을 흘리고 있는 제게 그룹의 리더는 이렇게 묻더군요.<br><br>`많이 긴장되시나 봐요, 편안하게 하세요`<br><br><br>``너도 한번 설사 참아봐. 얼마나 죽을맛인지``  라고 말하고 싶었으나, <br><br>그냥 어색한 웃음을 지으면서 ``하하 좀 덥군요``라고 말하고 말았습니다.<br><br><br>그때는 한참 추울 2월이었는데 말이지요.<br><br>그는 제게 마이크를 건네어 주며 지정곡을 부르라고 했습니다. 조금의 생략도 없이, 세상에서 가장 길게만 느껴진 그 노래의 전주가 나오는 동안 저의 대장속은 아비규환이 무엇인지를 보여주었으며, 그 와중 조금씩 저의 자제력은 무너져가고만 있었습니다.<br><br>눈알이 뒤집어지고 다리가 후들거리는 와중에서 노래가사가 맞는지, 음정과 박자는 맞는지 전혀 알수가 없었다. 오로지 어서빨리 이 지옥의 순간이 끝나고 대장속의 이물질들과 이별을 맞이하고 싶었습니다.<br><br>노래의 클라이막스 부분..... 잠깐의 정적이 흐른후, 절규하는 부분에서는 전 아예 무릎을 꿇고 몸을 뒤로 젖히는 오버액션을 펼쳐보였습니다.<br><br>그러나 그 동작은 멋있게 보이려는 의도에서였거나, 감정을 참지못해 벌인 퍼포먼스가 아니었고,  오로지 폭발 직전의 그 상태를 막기 위한 행동이었고, 외부와의 단절을 더이상 참지못해 바깥공기와 접촉하려는 대장속 이물질들의 분출을 발뒤꿈치로 틀어막기 위한 고통의 몸짓 이었던 것이었습니다.<br><br><br>그리고 그들의 마지막 반주가 다 끝나기도 전에 전 황급히 그 방을 빠져나가 화장실로 달려갔습니다. 그러나... 이중문도 아닌, 단 한칸뿐인 합주실 한가운데 위치한, 그것도 문 위에 한뼘쯤의 공간이 있는 방음이나, 방향과는 전혀 상관이 없는 그 조악한 화장실은 설상가상으로 문도 잠기질 않았던 것이었지요.<br><br><br>어쨌든 문을 부수듯 황급히 들어가 한손으로 문고리를 부여잡고, 얼른 자켓을 벗어 문고리를 단단히 붙잡고 있는 한쪽팔에 걸쳐놓은후 한손만으로 바지를 내리려 애를 썼습니다..  아아 그러나 왜 그날따라 지퍼도 아닌 4개의 은색의 단추로 여미어져 있는 바지를 입고 온 것일까요. 단단히 잠겨있는 4개의 단추를 한손만으로 푼다는 것은 역부족이었으며, 저의 인내는 이미 한계를 넘어서 있었습니다.<br><br>그리고 가까스로 단추를 쥐어뜯듯 하며 풀러버리고 바지를 내린후 포즈를 잡으려 하는 그 찰나.......  아직 쪼그려 앉아서 자세를 잡지도 못했는데.....  마치 화장실의 타일벽과 바닥을 굴착기로 부수는 듯한 우뢰와 같은 소리를 내면서, 대장과 소장을 통해 직장으로 내려와 항문에서 잔뜩 움츠리고만 있던 황색의 점액질 액체는 드디어 폭발하고야 만 것입니다.<br><br><br>순간, 문고리를 잡고 있던 한쪽 팔에 걸쳐진 자켓 이외의 모든 옷은 무용지물이 되어버렸으며, 저의 복부를, 아니 저의 정신까지도 지배하고 있던 그 고통은 사라졌고 일순간 평온이 찾아 왔지만 또 다른 고난이 찾아오고야 만것입니다.<br><br><br>순간 그 자리에 주저앉고 싶었고, 이 세상의 모든 슬픔과 고통을 한몸에 짊어지고 있는 처절한 패배자가 된듯한 기분이었지요. 그러나 이럴때일수록 이성을 찾고 위기를 넘겨야만 한다는 생각에 일단 창피함을 무릅쓰고 소리높여 친구를 불렀습니다.<br><br><br>방음과는 전혀 상관없는 그 화장실의 여건때문이었는지 오디션을 대기중인 사람들은 사태를 파악한듯, 밖에서는 자지러지는 웃음소리가 끊어지질 않았으며 친구녀석의 말소리가 들렸습니다.<br><br>``이 화장실 문 안잠기는줄 아까부터 알고, 네가 들어가자 마자 문앞에서 지키고  있었으니까, 걱정하지마``<br><br><br><br>친구 녀석의 말을 듣는 순간 더더욱 억울하고 속이 터질 듯 했습니다.<br><br><br>친구녀석이 문앞을 지키고 있는줄 알았다면 전 한손만으로 모든일을 처리하려는 노력을 하지도 않았을 것이고, 저의 옷과 체면을 이렇게 망쳐 버리는 일도 없었을 것인데...<br><br>그러나 이미 후회를 하기엔 너무 늦어버린 일이기에, 다급히 그 친구에게 말했습니다.<br><br><br>``나 지금 대형 사고 터뜨렸거든, 빨리 집에가서 네 옷좀 가져와, 바지하고 셔츠면 된다.<br><br> 그리고 오는길에 쇼핑백하고 물티슈도 준비해와라``<br><br><br><br>친구를 기다리던 한시간이라는 시간이 그렇게 길줄은  몰랐습니다.<br>그 한시간동안  인간 본연의 순수한 모습에 대한 고찰을 했으며, 다시는 달걀을 입에도 대지 않겠다는 맹세를 했습니다.<br><br><br><br>``저기요, 휴지라도 좀 드릴까요``<br><br>웃음을 참는듯한 어떤 여성의 목소리와 노크소리가 함께 들렸지만, 아무런 대답조차 할수 없었습니다. 그 상황에서 휴지를 받으려 문을 조금 여는것 조차 용납될수 없는 상황이었으며, 문을 열고 휴지를 받는 것은 또 다른 엄청난 웃음거리가 된다는 것을 알고 있었기 때문입니다.<br><br><br>그리고 마침내 그녀석이 도착했습니다.<br><br><br>``미안하다. ``<br><br>오히려 미안하다는 말을 해야할 사람은 저인데, 그녀석이 미안하다는 말을 하니 무언가 이상하다는 것을 느꼈지만, 어쨌든....<br><br>``미안하다니, 정말 넌 진정한 친구다, 고마워 정말. 나중에 술한번 거하게 사마``<br><br><br>물론 고마움의 표시가 아닌 입막음으로써의 술대접을 약속하면서, 쇼핑백을 받아들었습니다. 그리고 물티슈로 대충 몸을 닦아낸후 한때는 `옷`이라는 이름으로 제 몸을 감싸고 있었던, 지금은 무용지물이 되어버린 천조각들을 담은후, <br><br><br>그녀석이 가져온 옷을 입으려 꺼내는 순간.... <br><br><br><br>전 그자리에서 쓰러지고 싶었습니다. 아니 그냥 알몸으로 뛰쳐나가고 싶었습니다.<br><br>쇼핑백 안에 들어있던 옷들은 바로.....<br><br><br><br>60년대에나 입었을법한 무척이나 농촌지향적인 디자인과 가을하늘 보다도 더욱 짙고 깊은 푸른색, 그리고 팔에는 약동적인 기상을 보이는 흰색 두줄이 그려져 있는, 지퍼마저 고장난 츄리닝 웃도리....<br><br>그리고 역시 같은 색깔로 채색되어진, 마치 거들과도 비슷해 보이는, 노팬티에 착용하면 남성의 윤곽이 환히 들여다 보이는 사이클선수들이 입는 바로  그 반바지 였던 것이었습니다.<br><br>그 친구의 배려에 너무도 감동받은 저는 일단 그 복장이나마 챙겨입고 한시간만에 그곳에서 벗어날수 있었으며, 아까의 ``미안하다``라는 말의 의미를 그제서야 깨달을수 있었습니다.  눈물겨운 우정을 보여준 친구는 이미 그곳을 뜨고 없었으며,<br><br>결국 저는 많은이들의 환호를 받으며 그 합주실을 뛰쳐나갔습니다.<br><br><br>지퍼가 여미어 지지 않아서 아랫부분을 묶어버린 파란색 츄리닝과 거들같은 사이클 반바지위로 검은색 가죽가켓을 입고, 부츠를 신은 긴 머리의 사내가 악취를 풍기며 만원 지하철으로 들어서자, 하나의 기적을 볼수 있었습니다. 구약성서에 등장하는 ``모세의 기적``이 바로 이것이다 라는 것을 말이지요.<br><br><br>더이상 어떠한 단 한명의 진입조차도 거부할것만 같았던.. 틈새하나 없던 그곳이 바닷물이 갈라지듯 갈라지면서 제 주위에 공간을 마련해 주었고, 그 승객들의 따뜻한 배려로 인하여  편안한 귀가를 할수 있었답니다.<br><br><br>전 그날 이후로 머리를 자르고, 어린시절의 꿈을 접은채 바로 입대를 했습니다.<br><br><br><br>그 합주실은 그 사건이후로 화장실을 증축하였고, 그 밴드는 그날의 악몽 때문인지 음반 한장 내지 못한채 해체 하였다는 것을 제대후에야 뒤 늦게 전해 듣게 되었지요.<br><br>이젠 기억조차 희미해진 그때 그 친구는 지금 어디에서 무엇을 하고 있으며 그 합주실은 아직도 번창하고 있을지....하는 옛 생각에 잠을 이루지 못하는 한 청년은.....<br><br>오늘도 그 시절의 추억에 잠겨 옷깃을 적시며, 이렇게 10년전 그날의 아픔을 말해봅니다.<br><br>내 인생에서 가장 Cooooooooooool 했던 날의 기억은 여전히 제 얼굴을 붉게 타오르도록 만듭니다........ ㅠ.ㅠ<br><br></font><!--세계 최대규모의 정보통신·컴퓨터·사무기기 
+                              전시회인 ‘세빗(CeBIT) 2004’가 독일 하노버에 18일 개막된다.<br>
+                              오는 24일까지 열리는 이번 세빗 전시회에는 전세계 64개국 6400여개의 업체들이 , 
+                              통신·네트<br>
+                              워크·인터넷 솔루션·소프트웨어·사무기기 분야 등에서 첨단기술과 제품을 선보인다. <br>
+                              국내 업체로는 삼성전자·LG전자·팬택계열 등이 독립관을 마련해 휴대폰 단말기와 평면 디스 
+                              플레이 등을 출품한다. 한글과 컴퓨터, 이미지퀘스트 등 정보기술 150여개 업체도 공동관을 
+                              구성 해 IT 관련 신제품을 선보인다.<br>-->
+							</td>
+                          </tr>
+						  <tr>
+                            <td height="1" align="center"><img src="line.gif" width="470" height="1"></td>
+                          </tr>
+						  <tr>
+                            <td align="right" style="padding:15 8 0 0">
+							<!-- <a href="javascript:setRecomm(321,'pc_event_open_2_1')"><img src="/img/community/curitellife/oo/btn_sympathy.gif" width="48" height="18" border="0" alt="공감하기"></a> -->
+							<a href="open01_list.asp?page=22&search_key=&search_value="><img src="/img/btn/btn_list02.gif" width="70" height="18" border="0"></a></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="table02.gif" width="520" height="16"></td>
+                    </tr>
+                  </table>
+				  <table border=0 cellpadding=0 cellspacing="0">
+			<tr><td style="padding:20 0 0 0"><img src="/img/common/notice.gif"  height="43" alt="" border="0"></td></tr></table>	
+				<!--- //이벤트2 게시판 --->
+				 </td>
+              </tr>
+					<tr><td height=40 align=right valign=bottom style="padding:0 40 0 0"><a href="javascript:history.back(-1)"><img src="/html/event/event/tgi/btn_main.gif" width="80" height="26"></a></td></tr>
+            </table>
+            <!-- #####//Contents End ##### -->
+          </td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+<!-- SubFlash//Only SubMain Exist -->
+<map name="Map">
+<area shape="rect" coords="309,288,477,314" href="open01_write.asp">
+</map>
+</body>
+</html>
+

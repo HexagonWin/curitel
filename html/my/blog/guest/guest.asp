@@ -1,0 +1,1 @@
+<script language='javascript'>document.domain = 'curitel.com';   alert('에러입니다~');   location.href='javascript:history.back();'</script>

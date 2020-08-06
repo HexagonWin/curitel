@@ -1,0 +1,571 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/community.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><script language="JavaScript">flash('/inc/flash/sub_menu.swf?lnum=0','936','137');</script>
+		<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object> --></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/community/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" !background="/img/community/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/community/movielife/broadcasting/index.asp">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/community/movielife/broadcasting/index.asp">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/community/titleleftbg.gif">
+					
+					<script language="JavaScript">flash('/inc/flash/rollbar_1.swf?uid=0','77','65','1');</script>
+					<!-- <embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65> -->
+					</td>
+					<td width="164" align="right" background="/img/community/titleleftbg.gif"><a href="/html/community/index.asp" onfocus="this.blur()"><img src="/img/community/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" valign="top" style="padding:2 0 0 0"><div style="zindex:0">
+			<script language="JavaScript">flash('/inc/flash/community/submenu.swf?html_Num=30','589','51','1');</script>
+			<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="589" height="51"><param name=wmode value=transparent>
+                <param name="movie" value="/inc/flash/community/submenu.swf?html_Num=30">
+                <param name="quality" value="high">
+                <embed src="/inc/flash/community/submenu.swf?html_Num=30" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="589" height="51"></embed></object> --></div></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit();</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr> 
+						<td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a> > <a href="/html/community/index.asp">Community</a> > <a href="/html/community/movielife/index.asp">영상라이프</a> ></td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+					       <td align="center">
+							<script language="JavaScript">flash('/inc/flash/left/left_community03.swf?html_Num=20','100','190');</script>
+							<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="190">
+					               <param name="movie" value="/inc/flash/left/left_community03.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_community03.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="190"></embed></object> --></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">
+						
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="564" valign="top" class="ctsmgn">
+		<!-- #####Contents##### -->			        
+            <table width="557" cellpadding="0" cellspacing="0" border="0">
+	            <tr> 
+	            	<td height="26">
+						<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr><td><img src="/img/community/movielife/subimg02.gif" width="537" height="97" alt="" border="0"></td></tr>
+	 						<tr><td height="1"></td></tr>
+	                        <tr><td height="26" bgcolor="#F6F8F9"></td></tr>
+	                    </table>
+					</td>
+	            </tr>
+                <tr> 
+                    <td><img src="/img/community/movielife/broadcasting/txt_movie.gif" width="291" height="29"></td>
+                </tr>
+                <tr> 
+                    <td class="pad8">
+											<table width="529" border="0" cellspacing="0" cellpadding="0">
+<form name=channelFrm method=get action="channel.asp">
+                            <tr> 
+                                <td width="11"><img src="/img/community/movielife/broadcasting/edge01.gif" width="11" height="51"></td>
+                                <td width="507" align="center" background="/img/community/movielife/broadcasting/edge03.gif">
+
+								<a href="javascript:confirmLogin()"><img src="/img/community/movielife/broadcasting/btn_mkprogram.gif" width="117" height="28" border="0" align="absmiddle"></a> 
+
+                                    <input type="checkbox" name="sp" value="1"> 
+                                    <img src="/img/community/movielife/broadcasting/txt01.gif" width="25" height="12" align="absmiddle"> 
+                                    <input type="checkbox" name="ss" value="1" checked> 
+                                    <img src="/img/community/movielife/broadcasting/txt02.gif" width="40" height="12" align="absmiddle"> 
+                                    &nbsp;&nbsp; <select name="channel">
+                                        <option value=1>연예/오락채널</option>
+                                        <option value=2>게임/스포츠채널</option>
+                                        <option value=3>시사/교양채널</option>
+                                        <option value=4>영화/공연채널</option>
+                                    </select> <input type="text" name="sword" class="input03" style="width:80"> 
+                                    <input type=image src="/img/btn/btn_search02.gif" width="46" hspace="4" align="absmiddle" style="height:17"> 
+                                </td>
+                                <td width="11"><img src="/img/community/movielife/broadcasting/edge02.gif" width="11" height="51"></td>
+                            </tr>
+</form>
+                        </table>		
+				
+					</td>
+                </tr>
+                <tr> 
+                    <td height="18"></td>
+                </tr>
+                <tr> 
+                    <td class="pad8"><table width="529" border="0" cellspacing="0" cellpadding="0">
+                            <tr> 
+                                <td height="29" colspan="2" valign="bottom" background="/img/common/tabbg.gif"><a href="channel.asp"><img src="/img/community/movielife/broadcasting/tab01.gif" width="104" height="31" alt="" border="0"></a><a href="channel.asp?channel=1"><img src="/img/community/movielife/broadcasting/tab02.gif" alt="" width="105" height="31" hspace="1" border="0"></a><a href="channel.asp?channel=2"><img src="/img/community/movielife/broadcasting/tab03.gif" width="105" height="31" alt="" border="0"></a><a href="channel.asp?channel=3"><img src="/img/community/movielife/broadcasting/tab04.gif" alt="" width="105" height="31" hspace="1" border="0"></a><a href="channel.asp?channel=4"><img src="/img/community/movielife/broadcasting/tab05.gif" width="105" height="31" alt="" border="0"></a></td>
+                            </tr>
+                            <tr> 
+                                <td height="23" colspan="2"></td>
+                            </tr>
+
+                        </table></td>
+                </tr>
+                <tr> 
+                    <td height="30" style="padding:5 0 0 0"><img src="/img/community/movielife/broadcasting/title02.gif" width="143" height="14"></td>
+                </tr>
+                <tr> 
+                    <td height="23" class="pad8"><table width="530" border="0" cellspacing="0" cellpadding="0">
+
+                            <tr> 
+                                <td colspan="3" height="2" bgcolor="#F0EFEE"></td>
+                            </tr>
+                            <tr bgcolor="#F7F7F7"> 
+                                <td width="18" height="20" align="center"><img src="/img/community/movielife/arrow.gif" width="4" height="5" align="absmiddle"></td>
+                                <td width="410"><font color="#805F3A">[연예/오락 채널]</font> 
+                                    신비한 마술의 세계..(Welcome to Magic World-Coin) </td>
+                                <td width="102">2004-08-03 </td>
+                            </tr>
+                            <tr bgcolor="#F7F7F7"> 
+                                <td height="20"></td>
+                                <td><a href="channel_read.asp?idx=91">1메가로 줄여서 올리려니 화질이 딸리고 시간도 부족해서 어렵군요..ㅠ_ㅠ 업로드용량 늘리면 안되나용? 흑</a></td>
+                                <td></td>
+                            </tr>
+
+                            <tr> 
+                                <td colspan="3" height="2" bgcolor="#F0EFEE"></td>
+                            </tr>
+                            <tr bgcolor="#F7F7F7"> 
+                                <td width="18" height="20" align="center"><img src="/img/community/movielife/arrow.gif" width="4" height="5" align="absmiddle"></td>
+                                <td width="410"><font color="#805F3A">[연예/오락 채널]</font> 
+                                    신비한 마술의 세계..(Welcome to Magic World-Coin) </td>
+                                <td width="102">2004-08-02 </td>
+                            </tr>
+                            <tr bgcolor="#F7F7F7"> 
+                                <td height="20"></td>
+                                <td><a href="channel_read.asp?idx=91">일주일 안으로 올릴 예정이며 지속적으로 업데이트 하겠습니다. 기대해주세요.^0^</a></td>
+                                <td></td>
+                            </tr>
+
+                        </table></td>
+                </tr>
+                <tr> 
+                    <td height="20"></td>
+                </tr>
+                <tr> 
+                    <td height="25"><img src="/img/community/movielife/broadcasting/title03.gif" height="14" alt="" border="0"></td>
+                </tr>
+                <tr> 
+                    <td class="pad8">
+						<table width="530" cellpadding="0" cellspacing="0">
+                            <tr> 
+                                <td class="bbsline" colspan="3" height="1"></td>
+                            </tr>
+                            <tr> 
+                                <td height="5" colspan="3" bgcolor="#EAEAEA"></td>
+                            </tr>
+                            <colgroup>
+                            <col width="100" align="center" style="padding:0 0 0 2">
+                            <col width="286" style="padding:5 5 5 0">
+                            <col width="144">
+                            </colgroup>
+
+                            <tr bgcolor='#F4F6F7'> 
+                                <td height=75><a href="channel_read.asp?idx=1099"><img src="http://file.curitel.com/upload/CKBS/photo_0039.jpg" width="80" height="59" border="0" class="imgbdr"></a></td>
+                                <td><img src="/img/community/movielife/channel02.gif" alt="" border="0" align="absmiddle"> 
+                                    <b>탁구 [0]</b><br>아들의 방학특강모습을 담았습니다...
+아마도 미래의탁구선수가되려나?
+제가좋아서시킨...</td>
+                                <td> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작일 : 2006-05-20 <br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작자 : jhm0105<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    추천수 : 0<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    모델 : ..... </td>
+                            </tr>
+                            <tr>
+                                <td class="bbsline" colspan="3" height="1"></td>
+                            </tr>
+
+                            <tr > 
+                                <td height=75><a href="channel_read.asp?idx=1097"><img src="http://file.curitel.com/upload/CKBS/False" width="80" height="59" border="0" class="imgbdr"></a></td>
+                                <td><img src="/img/community/movielife/channel04.gif" alt="" border="0" align="absmiddle"> 
+                                    <b>z [0]</b><br>z...</td>
+                                <td> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작일 : 2006-04-02 <br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작자 : qlflflrhd<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    추천수 : 0<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    모델 : z </td>
+                            </tr>
+                            <tr>
+                                <td class="bbsline" colspan="3" height="1"></td>
+                            </tr>
+
+                            <tr bgcolor='#F4F6F7'> 
+                                <td height=75><a href="channel_read.asp?idx=1092"><img src="http://file.curitel.com/upload/CKBS/P1050667_c.jpg" width="80" height="59" border="0" class="imgbdr"></a></td>
+                                <td><img src="/img/community/movielife/channel01.gif" alt="" border="0" align="absmiddle"> 
+                                    <b>코리아페스티발 [0]</b><br>우리음악을세계에알리고싶어 이런프로그램을만들려고합니다...</td>
+                                <td> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작일 : 2005-10-22 <br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작자 : kjhkr20<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    추천수 : 0<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    모델 : 코리아 </td>
+                            </tr>
+                            <tr>
+                                <td class="bbsline" colspan="3" height="1"></td>
+                            </tr>
+
+                            <tr > 
+                                <td height=75><a href="channel_read.asp?idx=1091"><img src="http://file.curitel.com/upload/CKBS/wall2_1024(1).jpg" width="80" height="59" border="0" class="imgbdr"></a></td>
+                                <td><img src="/img/community/movielife/channel01.gif" alt="" border="0" align="absmiddle"> 
+                                    <b>전지현 라네즈 CF [0]</b><br>전지현 백만불짜리 뭄매만들기 라네즈 CF 화제집중...</td>
+                                <td> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작일 : 2005-06-17 <br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작자 : junlur<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    추천수 : 10<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    모델 : 전지현 </td>
+                            </tr>
+                            <tr>
+                                <td class="bbsline" colspan="3" height="1"></td>
+                            </tr>
+
+                            <tr bgcolor='#F4F6F7'> 
+                                <td height=75><a href="channel_read.asp?idx=1090"><img src="http://file.curitel.com/upload/CKBS/wall1_1024.jpg" width="80" height="59" border="0" class="imgbdr"></a></td>
+                                <td><img src="/img/community/movielife/channel01.gif" alt="" border="0" align="absmiddle"> 
+                                    <b>전지현백만불짜리몸매만들기 [0]</b><br>전지현 팬이고 신문기사에도 나오고
+화제가 됀 cf니까
+Gooooood~!!...</td>
+                                <td> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작일 : 2005-06-17 <br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작자 : junlur<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    추천수 : 1<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    모델 : 전지현 </td>
+                            </tr>
+                            <tr>
+                                <td class="bbsline" colspan="3" height="1"></td>
+                            </tr>
+
+                            <tr > 
+                                <td height=75><a href="channel_read.asp?idx=1088"><img src="http://file.curitel.com/upload/CKBS/20054803521[20050408095927].jpg" width="80" height="59" border="0" class="imgbdr"></a></td>
+                                <td><img src="/img/community/movielife/channel01.gif" alt="" border="0" align="absmiddle"> 
+                                    <b>[마술속으로]지니의 마술여행! [0]</b><br>간단한 마술을 통해,
+심심한 일상으로 부터 탈피!
+
+누구나 배울수있다....</td>
+                                <td> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작일 : 2005-06-09 <br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작자 : jini24<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    추천수 : 0<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    모델 : 찌니 </td>
+                            </tr>
+                            <tr>
+                                <td class="bbsline" colspan="3" height="1"></td>
+                            </tr>
+
+                            <tr bgcolor='#F4F6F7'> 
+                                <td height=75><a href="channel_read.asp?idx=1086"><img src="http://file.curitel.com/upload/CKBS/9(1).jpg" width="80" height="59" border="0" class="imgbdr"></a></td>
+                                <td><img src="/img/community/movielife/channel01.gif" alt="" border="0" align="absmiddle"> 
+                                    <b>채연 클루 귀걸이 하고 나온모습~ [0]</b><br>요즘 연예인들이 많이 하고나오는 클루 귀걸이 저도 샀답니다 ^^
+귀걸이 너무 에쁘죠...</td>
+                                <td> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작일 : 2005-05-14 <br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작자 : jin80<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    추천수 : 6<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    모델 : PH-K2500V </td>
+                            </tr>
+                            <tr>
+                                <td class="bbsline" colspan="3" height="1"></td>
+                            </tr>
+
+                            <tr > 
+                                <td height=75><a href="channel_read.asp?idx=1085"><img src="http://file.curitel.com/upload/CKBS/★오ㅓ빠5.jpg" width="80" height="59" border="0" class="imgbdr"></a></td>
+                                <td><img src="/img/community/movielife/channel01.gif" alt="" border="0" align="absmiddle"> 
+                                    <b>★경준오빵~ [0]</b><br>논스톱5에 출연중이신 경준오빠에 대해서 만들려고 합니다~...</td>
+                                <td> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작일 : 2005-05-12 <br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작자 : dkgusl<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    추천수 : 4<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    모델 : PG-K3000 </td>
+                            </tr>
+                            <tr>
+                                <td class="bbsline" colspan="3" height="1"></td>
+                            </tr>
+
+                            <tr bgcolor='#F4F6F7'> 
+                                <td height=75><a href="channel_read.asp?idx=1081"><img src="http://file.curitel.com/upload/CKBS/somtuc_22.jpg" width="80" height="59" border="0" class="imgbdr"></a></td>
+                                <td><img src="/img/community/movielife/channel02.gif" alt="" border="0" align="absmiddle"> 
+                                    <b>좋은 프로그램~ [0]</b><br>좋은 프로그램으로 하려고.
+꼭 뽑아주세요~~!...</td>
+                                <td> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작일 : 2005-05-07 <br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작자 : rkfhxh<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    추천수 : 5<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    모델 : 나 </td>
+                            </tr>
+                            <tr>
+                                <td class="bbsline" colspan="3" height="1"></td>
+                            </tr>
+
+                            <tr > 
+                                <td height=75><a href="channel_read.asp?idx=1079"><img src="http://file.curitel.com/upload/CKBS/사진0021.jpg" width="80" height="59" border="0" class="imgbdr"></a></td>
+                                <td><img src="/img/community/movielife/channel01.gif" alt="" border="0" align="absmiddle"> 
+                                    <b>ㅇㅇㅇ [0]</b><br>ㅇㅇㅇ...</td>
+                                <td> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작일 : 2005-04-23 <br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    제작자 : jeremy456<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    추천수 : 2<br> <img src="/img/common/orgdot.gif" width="5" height="5" alt="" border="0" align="absmiddle"> 
+                                    모델 : S4 </td>
+                            </tr>
+                            <tr>
+                                <td class="bbsline" colspan="3" height="1"></td>
+                            </tr>
+
+                            <tr> 
+                                <td height="5" colspan="3" bgcolor="#EAEAEA"></td>
+                            </tr>
+                            <tr> 
+                                <td height="42" align="center" colspan="3">&nbsp;<b>|1|</b>&nbsp;<a href=?page=2&channel=&ss=&sp=&sword=>|2|</a>&nbsp;<a href=?page=3&channel=&ss=&sp=&sword=>|3|</a>&nbsp;<a href=?page=4&channel=&ss=&sp=&sword=>|4|</a>&nbsp;<a href=?page=5&channel=&ss=&sp=&sword=>|5|</a>&nbsp;<a href=?page=6&channel=&ss=&sp=&sword=>|6|</a></td>
+                            </tr>
+                        </table></td>
+                </tr>
+            </table>
+			<table border="0" cellpadding="0" cellspacing="0"><tr><td style="padding:20 0 0 0"><img src="/img/common/notice_community.gif"></td></tr></table>
+		    <!-- #####//Contents##### -->
+            <!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<script language="JavaScript">flash('/inc/flash/search/search.swf?file_url=http://file.curitel.com','91','340');</script>
+<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object> -->
+
+<!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>-->
+</div>
+        </td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+</body>
+</html>
+
+

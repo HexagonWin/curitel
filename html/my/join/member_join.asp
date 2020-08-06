@@ -1,0 +1,1 @@
+<script language='javascript'>alert('이미 가입된 주민등록번호 입니다.');location.href='/'</script>

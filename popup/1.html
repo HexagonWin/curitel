@@ -1,0 +1,104 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+    <title>팬택&큐리텔 </title>
+    
+    <style type="text/css">
+a:link { text-decoration: none; font-size: 12px; font-family: 돋움, Verdana; }
+a:visited { text-decoration: none; font-size: 12px; font-family: 돋움, Verdana; }
+a:active { text-decoration: none; font-size: 12px;font-family: 돋움, Verdana; }
+a:hover {  text-decoration:underline; font-size: 12px;font-family: 돋움, Verdana;}    
+    
+td {font-family: 돋움, Verdana; font-size: 12px; color: #8B8B8B;}
+    </style>
+<script language="javascript">
+
+function setCookie( name, value, expiredays ) 
+{ 
+        var todayDate = new Date(); 
+        todayDate.setDate( todayDate.getDate() + expiredays ); 
+        document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+}
+
+function closeWin() 
+{ 
+        if(document.myform.notice.checked )
+        {
+        	setCookie( "sms", "done" , 1); 
+        	self.close(); 
+	}
+	else
+	{
+		self.close();
+	}
+}
+
+function view_form(p_id,re_id){
+	opener.document.event.table.value = "Notice";
+	opener.document.event.mode.vlaue="view";
+	opener.document.event.id.value = p_id;
+	opener.document.event.reid.value = re_id;
+	opener.document.event.action = "/Footer/bbs_content.asp";		
+	opener.document.event.submit();		
+	self.close();
+}
+
+</SCRIPT>
+</head>
+<body topmargin="0" leftmargin="0">
+<!-- 팝업창사이즈 439 x 457 -->
+
+<form name=myform>
+<table width="439" border="0" cellpadding="0" cellspacing="0">
+    <tR>
+        <tD><img src="images/top.gif" width="439" height="61" alt="" border="0"></td>
+    </tr>
+    
+    <tR>
+        <tD align="center">
+        <table width="417" border="0" cellpadding="0" cellspacing="0">
+            <tR>
+                <td bgcolor="#DFDFDF" colspan="3"></td>
+            </tr>
+            
+            <tR>
+                <td bgcolor="#DFDFDF"></td>
+                <td width="415">
+                <table width="417" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="40">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="center"><img src="images/pic.gif"  border="0"></td>
+                    </tr>
+                    <tR>
+                        <td height="36">&nbsp;</td>
+                    </tr>
+                </table>
+                </td>
+                <td bgcolor="#DFDFDF"></td>
+            </tr>
+            
+            <tR>
+                <td bgcolor="#DFDFDF" colspan="3"></td>
+            </tr>
+        </table>
+        
+        <table width="417" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <tD align="right" height="33">오늘은 이창을 열지 않음&nbsp;
+                <input type="Checkbox" name=notice>
+                <a href="javascript:closeWin();" style="color:#00728F">닫기</a></td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+    
+    
+</table>
+</form>
+
+</body>
+</html>

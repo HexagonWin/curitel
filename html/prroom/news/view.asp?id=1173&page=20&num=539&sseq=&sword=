@@ -1,0 +1,367 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu7.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu7.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/prroom/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/prroom/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1173&page=20&num=539&sseq=&sword=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1173&page=20&num=539&sseq=&sword=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/prroom/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/prroom/index.asp" onfocus="this.blur()"><img src="/img/prroom/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        > <a href="/html/prroom/index.asp">PR Room</a> > News</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="220">
+					               <param name="movie" value="/inc/flash/left/left_prroom.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_prroom.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="220"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">			
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->
+
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/img/prroom/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td height="1"></td>
+						</tr>
+						<tr>
+							<td height="26">
+								<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td bgcolor="#F6F8F9"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="25"></td>
+						</tr>
+						</table>
+
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="2" height="31" style="font-weight:bold;color:#599AA6;padding:0 0 0 10;font-size:9pt">
+							[ 휴대폰업계, 인도시장 공략 강화  ]
+							</td>
+						</tr>
+						<tr>
+							<td height="16" bgcolor="#F2F2F2" colspan="2"></td>
+						</tr>
+						<tr bgcolor="F2F2F2">
+							<td height="31" width="142" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 539</td>
+							<td width="376" style="padding:2 0 0 0">
+								<b><font color="#515151">&#8226;</font> 등록일</b> :
+								2004-03-12 <img src="/img/b.gif" width=80 height=1>
+								<b><font color="#515151">&#8226;</font> 출처</b> : 디지털타임즈
+							</td>
+						</tr>
+						<tr><td height="1" colspan="2" bgcolor="#C9C9C9"></td></tr>
+						<tr>
+							<td colspan="2" style="padding:25 11;line-height:16px" valign="top" class="8">
+								<font style='font:10pt'>올(&)nbsp;가입자(&)nbsp;4000만…(&)nbsp;CDMAㆍGSM(&)nbsp;모두(&)nbsp;급성장(&)nbsp;전망(&)nbsp;<br>카메라폰(&)nbsp;등(&)nbsp;고가(&)nbsp;제품(&)nbsp;공급(&)nbsp;공격적(&)nbsp;마케팅(&)nbsp;전략<br><br><br>삼성전자,(&)nbsp;LG전자(&)nbsp;등(&)nbsp;휴대폰(&)nbsp;업체들이(&)nbsp;최근(&)nbsp;급부상하고(&)nbsp;있는(&)nbsp;인도의(&)nbsp;휴대폰(&)nbsp;시장(&)nbsp;공략을(&)nbsp;강화하고(&)nbsp;있다.<br><br>인도(&)nbsp;이동통신(&)nbsp;시장은(&)nbsp;지난해(&)nbsp;말까지(&)nbsp;가입자가(&)nbsp;2200만(&)nbsp;명이었으며,(&)nbsp;올해(&)nbsp;4000만명,(&)nbsp;오는(&)nbsp;2005년에는(&)nbsp;5000만명을(&)nbsp;상회할(&)nbsp;것으로(&)nbsp;예상되고(&)nbsp;있다.(&)nbsp;모건스탠리에(&)nbsp;따르면(&)nbsp;오는(&)nbsp;2007년까지(&)nbsp;인도(&)nbsp;이동통신(&)nbsp;시장은(&)nbsp;세계적으로도(&)nbsp;가장(&)nbsp;높은(&)nbsp;연평균(&)nbsp;40%의(&)nbsp;고도(&)nbsp;성장률이(&)nbsp;전망된다.<br><br>삼성전자는(&)nbsp;지난해(&)nbsp;300만대(&)nbsp;이상의(&)nbsp;휴대폰을(&)nbsp;인도시장에(&)nbsp;판매한데(&)nbsp;이어(&)nbsp;올해(&)nbsp;인도시장의(&)nbsp;급성장에(&)nbsp;따라(&)nbsp;휴대폰(&)nbsp;판매량을(&)nbsp;두(&)nbsp;배(&)nbsp;가량(&)nbsp;대폭(&)nbsp;늘릴(&)nbsp;계획이다.<br><br>지난(&)nbsp;2000년에(&)nbsp;인도(&)nbsp;휴대폰(&)nbsp;시장에(&)nbsp;진출한(&)nbsp;삼성전자는(&)nbsp;인도시장이(&)nbsp;코드분할다중접속(CDMA),(&)nbsp;유럽형이동통신(GSM)(&)nbsp;양(&)nbsp;부문에서(&)nbsp;급성장할(&)nbsp;것으로(&)nbsp;전망하고,(&)nbsp;이(&)nbsp;지역에서(&)nbsp;삼성전자의(&)nbsp;브랜드(&)nbsp;입지를(&)nbsp;강화하고(&)nbsp;다양한(&)nbsp;제품을(&)nbsp;출시할(&)nbsp;방침이다.<br><br>회사(&)nbsp;관계자는(&)nbsp;"앞으로(&)nbsp;인도시장(&)nbsp;성장이(&)nbsp;무선메시지,(&)nbsp;사진서비스(&)nbsp;등(&)nbsp;고부가가치(&)nbsp;서비스에(&)nbsp;의해(&)nbsp;견인될(&)nbsp;것으로(&)nbsp;전망됨에(&)nbsp;따라(&)nbsp;카메라폰(&)nbsp;등(&)nbsp;고급(&)nbsp;브랜드(&)nbsp;제품으로(&)nbsp;시장공략을(&)nbsp;가속화할(&)nbsp;것이며,(&)nbsp;지난해부터(&)nbsp;운영하고(&)nbsp;있는(&)nbsp;삼성(&)nbsp;휴대폰(&)nbsp;전용(&)nbsp;브랜드숍을(&)nbsp;3개(&)nbsp;확대해(&)nbsp;인도(&)nbsp;소비자에게(&)nbsp;삼성(&)nbsp;휴대폰을(&)nbsp;접할(&)nbsp;수(&)nbsp;있는(&)nbsp;기회를(&)nbsp;제공할(&)nbsp;계획"이라고(&)nbsp;말했다.<br><br>삼성전자는(&)nbsp;올해(&)nbsp;특히(&)nbsp;그동안(&)nbsp;저가시장이라는(&)nbsp;이유로(&)nbsp;소극적으로(&)nbsp;대응해온(&)nbsp;인도(&)nbsp;CDMA(&)nbsp;시장에(&)nbsp;대한(&)nbsp;공세를(&)nbsp;강화할(&)nbsp;전망이다.(&)nbsp;이는(&)nbsp;고가(&)nbsp;브랜드(&)nbsp;위주의(&)nbsp;전략을(&)nbsp;구사해온(&)nbsp;삼성전자가(&)nbsp;일부(&)nbsp;국가(&)nbsp;특정(&)nbsp;고객측을(&)nbsp;대상으로(&)nbsp;저가(&)nbsp;제품을(&)nbsp;공급하기로(&)nbsp;한데다(&)nbsp;인도(&)nbsp;CDMA(&)nbsp;사업자인(&)nbsp;릴러이언스의(&)nbsp;휴대폰(&)nbsp;모델군이(&)nbsp;저가(&)nbsp;중심에서(&)nbsp;중가(&)nbsp;제품으로(&)nbsp;바뀌고(&)nbsp;있어(&)nbsp;중가(&)nbsp;휴대폰인(&)nbsp;키메라(&)nbsp;등의(&)nbsp;비중을(&)nbsp;지속적으로(&)nbsp;확대할(&)nbsp;것으로(&)nbsp;예상된다.<br><br>지난해(&)nbsp;인도(&)nbsp;CDMA(&)nbsp;시장에(&)nbsp;380만대를(&)nbsp;공급해(&)nbsp;50%(&)nbsp;이상의(&)nbsp;시장점유율을(&)nbsp;기록한(&)nbsp;LG전자는(&)nbsp;올해(&)nbsp;450만~500만대의(&)nbsp;휴대폰을(&)nbsp;판매해(&)nbsp;900만대로(&)nbsp;예상되는(&)nbsp;인도(&)nbsp;CDMA(&)nbsp;시장에서(&)nbsp;점유율(&)nbsp;50%를(&)nbsp;지킨다는(&)nbsp;방침이다.<br><br>LG전자는(&)nbsp;올해(&)nbsp;인도(&)nbsp;CDMA(&)nbsp;시장(&)nbsp;공략의(&)nbsp;일환으로(&)nbsp;현지(&)nbsp;연구개발(&)nbsp;역량을(&)nbsp;집중시키고(&)nbsp;다양한(&)nbsp;소비자(&)nbsp;욕구를(&)nbsp;충족시킬(&)nbsp;수(&)nbsp;있는(&)nbsp;6~7종의(&)nbsp;카메라폰,(&)nbsp;컬러폰을(&)nbsp;적기에(&)nbsp;공급해(&)nbsp;입지를(&)nbsp;강화할(&)nbsp;계획이다.<br><br>또(&)nbsp;CDMA에(&)nbsp;비해(&)nbsp;시장이(&)nbsp;큰(&)nbsp;GSM(&)nbsp;휴대폰(&)nbsp;공급을(&)nbsp;적극적으로(&)nbsp;검토하고(&)nbsp;있다.<br><br>LG전자(&)nbsp;관계자는(&)nbsp;"인도는(&)nbsp;최근(&)nbsp;가장(&)nbsp;부상하고(&)nbsp;있는(&)nbsp;중요한(&)nbsp;시장"이라며(&)nbsp;"주도권을(&)nbsp;유지하기(&)nbsp;위해(&)nbsp;올해(&)nbsp;더욱(&)nbsp;공격적인(&)nbsp;마케팅을(&)nbsp;펼칠(&)nbsp;것"이라고(&)nbsp;말했다.<br><br>이밖에(&)nbsp;현지(&)nbsp;사업자를(&)nbsp;통해(&)nbsp;중저가의(&)nbsp;CDMA(&)nbsp;단말기를(&)nbsp;판매해온(&)nbsp;팬택앤큐리텔이(&)nbsp;올해(&)nbsp;GSM(&)nbsp;단말기(&)nbsp;시장(&)nbsp;공략에(&)nbsp;나설(&)nbsp;계획이며,(&)nbsp;텔슨전자,(&)nbsp;브이케이(&)nbsp;등도(&)nbsp;인도(&)nbsp;시장(&)nbsp;공략을(&)nbsp;강화할(&)nbsp;계획이다.<br><br>한편,(&)nbsp;최근(&)nbsp;인도시장에(&)nbsp;대한(&)nbsp;해외(&)nbsp;휴대폰(&)nbsp;업체들의(&)nbsp;공략(&)nbsp;역시(&)nbsp;거세지고(&)nbsp;있어(&)nbsp;올해(&)nbsp;인도(&)nbsp;휴대폰(&)nbsp;시장은(&)nbsp;관련업체들의(&)nbsp;최대(&)nbsp;격전지(&)nbsp;중(&)nbsp;하나로(&)nbsp;부상할(&)nbsp;전망이다.<br><br>대만의(&)nbsp;밴큐가(&)nbsp;지난해(&)nbsp;말부터(&)nbsp;인도에(&)nbsp;제품을(&)nbsp;출시하기(&)nbsp;시작했으며,(&)nbsp;중국의(&)nbsp;버드(&)nbsp;인터내셔널,(&)nbsp;대만의(&)nbsp;DBTEL,(&)nbsp;일본의(&)nbsp;교세라(&)nbsp;등이(&)nbsp;인도시장에(&)nbsp;진출하거나(&)nbsp;재진출했으며,(&)nbsp;노키아,(&)nbsp;지멘스,(&)nbsp;소니(&)nbsp;에릭슨,(&)nbsp;필립스(&)nbsp;등(&)nbsp;세계(&)nbsp;주요(&)nbsp;휴대폰(&)nbsp;업체들도(&)nbsp;인도(&)nbsp;내의(&)nbsp;점유율을(&)nbsp;높이기(&)nbsp;위해(&)nbsp;신모델을(&)nbsp;경쟁적으로(&)nbsp;내놓고(&)nbsp;제품(&)nbsp;가격을(&)nbsp;인하하는(&)nbsp;등(&)nbsp;공격적인(&)nbsp;마케팅을(&)nbsp;전개하고(&)nbsp;있다.<br><br>(&)nbsp;<br><br></font>
+							</td>
+						</tr>
+						<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+						<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+						<tr><td colspan="2" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=20&sseq=&sword="><img src="/img/prroom/btn_list.gif" height="19" alt="" border="0" hspace="8"></a></td></tr>
+						<tr>
+							<td colspan="2" height="60" style="padding:0 0 0 8">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="21" class="minilist">			
+
+									</td>
+								</tr>
+									<td height="21" class="minilist">
+
+									<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1295&num=540&page=20&sseq=&sword="><font class="minilist">[Cover Story] 송문섭 팬텍앤큐리텔 사장 </font></a>
+
+									</td>
+								</table>
+							</td>
+						</tr>
+						</table>
+						<!------- READ End ------------->
+
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+
+
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner2.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+
+
+</body>
+</html>
+

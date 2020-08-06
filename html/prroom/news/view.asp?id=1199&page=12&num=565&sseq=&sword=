@@ -1,0 +1,365 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/prroom/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/prroom/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1199&page=12&num=565&sseq=&sword=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1199&page=12&num=565&sseq=&sword=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/prroom/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/prroom/index.asp" onfocus="this.blur()"><img src="/img/prroom/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        > <a href="/html/prroom/index.asp">PR Room</a> > News</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="220">
+					               <param name="movie" value="/inc/flash/left/left_prroom.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_prroom.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="220"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">			
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->
+
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/img/prroom/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td height="1"></td>
+						</tr>
+						<tr>
+							<td height="26">
+								<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td bgcolor="#F6F8F9"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="25"></td>
+						</tr>
+						</table>
+
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="2" height="31" style="font-weight:bold;color:#599AA6;padding:0 0 0 10;font-size:9pt">
+							[ [세빗 2004] 세계 최대 IT전시회, '세빗 2004' 개막  ]
+							</td>
+						</tr>
+						<tr>
+							<td height="16" bgcolor="#F2F2F2" colspan="2"></td>
+						</tr>
+						<tr bgcolor="F2F2F2">
+							<td height="31" width="142" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 565</td>
+							<td width="376" style="padding:2 0 0 0">
+								<b><font color="#515151">&#8226;</font> 등록일</b> :
+								2004-03-17 <img src="/img/b.gif" width=80 height=1>
+								<b><font color="#515151">&#8226;</font> 출처</b> : 아이뉴스24
+							</td>
+						</tr>
+						<tr><td height="1" colspan="2" bgcolor="#C9C9C9"></td></tr>
+						<tr>
+							<td colspan="2" style="padding:25 11;line-height:16px" valign="top" class="8">
+								IT분야 세계 최대, 최고의 전시회인 세빗(CeBIT)2004'가 18일 오전 9시(한국시간 18일 오후 5시) 독일 하노버에서 개막된다.<br>'내일의 정신을 갖자(Get the Spirit of Tomorrow)'라는 주제로 오는 24일까지 열릴 이번 행사에는 3천419개 독일 현지 업체를 포함해 세계 72개국 총 6천411개 업체가 참여한다. 지난해는 총 6천602개 업체가 참가했으며 약 60만명의 관람객이 몰렸었다.<br><br>올해는 지난해보다 1만5천평방미터가 준 총 33만4천168평망미터 규모의 전시장에 ▲정보통신 장비 및 시스템 ▲텔레콤, 무선&네트워크 ▲소프트웨어 및 서비스 ▲인력자원 ▲보안 및 카드 기술 ▲금융기술 및 서비스 ▲전자정부 같은 공공부문 등 다양한 분야의 업체들이 각사의 최첨단 주력제품을 전시하고 수출 상담도 벌인다.<br><br>이번 전시회의 분야별 참여업체 수는 소프트웨어 및 서비스 업체가 2천58개로 가장 많고, 다음으로 IT장비 및 시스템 업체가 1천706개다. 이어 텔레콤, 무선 및 네트워크 업체가 1천294개, 보안 및 카드기술 업체 453개사, 미래 신기술 관련업체 243개사, 공공부문 237개사 등의 순이다.<br><br>우리나라는 삼성전자, 팬택계열, LG전자 등 대기업과 맥슨텔레콤, 이노스트림 등 중소 단말기 제조업체, 레인콤, 넥스트웨이, 거원시스템 등 MP3플레이어 업체등 총 167개 업체가 참가한다. 또 한글과컴퓨터도 휴대용 MP3플레이어와 USB 드라이브에 오피스패키지 소프트웨어인 씽크프리 오피스를 탑재한 제품을 전시할 예정이다. 한국 참여업체 수는 지난해 148개 업체보다 19개가 늘어났다.<br><br>특히 지난해는 한국기업이 6천만달러의 계약고를 올려 화제가 된 바 있어 올해도 상당한 수출계약이 이뤄질 것으로 참가 업체들은 기대하고 있다.<br><br>한국전자산업진흥회는 82개사로 한국관을, 한국소프트웨어산업협회도 별도로 19개사를 대상으로 한국관을 운영할 계획이다.<br><br>한편 지난해 세빗행사의 주 관심분야는 '통합단말기'와 '통합네트워크'였다. 올해도 컨버전스의 추세는 더욱 뚜렷하게 나타날 것으로 보이며 고화소 휴대폰 단말기, 카메라폰, 3세대 휴대폰 등이 주목을 받을 것으로 예상된다.<br><br>◆국내기업 어떤 제품 출품하나<br><br>유럽시장 공략을 목표로 사실상 세빗전시회에 처음 나가는 팬택은 GSM 휴대폰을 주력으로 내세우고 있다.<br><br>팬택은 사용자의 지문을 인식 보안기능을 강화한 지문인식 폰(모델명 GI 100)을 가지고 나간다. 이 제품은 키패드 상단에 있는 지문인식 창에 사용자의 지문을 10종류 입력할 수 있다. 문자나 음성메시지 등의 비밀은 물론, 모바일 뱅킹, 모바일 커머스 등에서 보안문제를 해결한다는 점이 특정이다.<br><br>팬택은 또 게임기처럼 보이는 FM라디오 겸용 게임폰(모델명 GA-400B)도 선보인다. 이 제품은 휴대폰 케이스를 다양한 컬러로 바꿀 수 있어 '나만의 휴대폰'을 연출할 수 있다.<br><br>이와 함께 팬택은 블루투스 칩이 내장돼 헤드셋을 원격 조정하는 블루투스 폰(모델명 G800)도 공개한다. 기존 휴대폰으로 이어폰을 사용하는 경우 유선으로 휴대폰과 이어폰을 연결해야 하지만 이 제품은 연결선 없이 원격으로 제어해 데이터를 주고받을 수 있다.<br><br>삼성전자는 CDMA와 GSM 영역에서 모두 통화가 가능한 월드폰(모델명 SCH-A790)을 세계 최초로 선보인다. 이 제품은 800/1900MHz의 CDMA 영역과 900/1800MHz GSM을 커버하기 때문에 한 개의 휴대폰으로 세계 어디에서나 통화가 가능한 제품이다.<br><br>삼성은 또 유럽의 3세대 통신환경의 본격화에 대비해 보다폰, T모바일의 네트워크를 이용해 UMTS(범용이동통신시스템)폰(모델명 SGH-Z105)을 이용해 실시간 동영상 통화를 시연하는 한편 CDMA 방식 최초의 200만 화소 카메라폰(모델명 SPH-V4400)도 소개한다.<br><br>GSM방식의 최초 100만 화소급 카메라폰(모델명 SGH-P730)은 QVGA급 고화질 LCD를 탑재하고 있으며 MMC카드를 이용해 최대 512Mb까지 메모리 확장이 가능한 제품으로 이번에 처음 선보인다.<br><br>삼성은 또 세계 최대 크기인 80인치 PDP TV와 57인치 LCD TV를 비롯해 DVD레코더, 캠코더, MP3플레이어, 노트북 PC 등 컨버전스 가속화에 따른 IT/AV 복합제품도 대폭 소개한다.<br><br>이밖에 세계에서 가장 소음이 적은 컬러레이저 프린터(모델명 CLP-500)도 출품한다.<br><br>LG전자는 PDP, LCD 등 디스플레이 전 제품과 GSM·GPRS/WCDMA 겸용 듀얼밴드 휴대폰 30여종, 고성능 카메라폰 등을 출품한다.<br><br>특히 독자 개발한 홈네트워킹 프로토콜인 LnCP(Living Network Control Protocol)을 통한 편리한 생활모습을 보여줄 계획이다.<br><br>이밖에 LG전자는 123만 화소의 카메라폰, 270도 액정회전형 카메라폰 등 다양한 GSM 단말기도 선보인다.<br><br>한편, MP3플레이어 업체들도 각자 주력제품을 출품한다.<br><br>아이리버는 이번에 유럽시장을 겨냥해 내놓은 DAB기능이 있는 iDA-100을 새롭게 선보이고, 거원시스템도 MP3업계 최장수 모델인 iAUDO 시리즈를 들고 유럽시장을 노크한다.<br><br>넥스트웨이도 기존의 '넥스트웨이' 대신에 유럽시장 공략용으로 새로 내놓은 뉴브랜드 'D 큐브'를 중심으로 다양한 MP3플레이어를 출품할 예정이다.<br><br>◆세빗은 어떤 전시회<br><br>미국 라스베이거스에서 열리는 컴덱스와 함께 세계 IT전시회의 양대 축중 하나인 세빗은 최근 들어 컴덱스가 위축됨에 따라 가장 주목받는 행사로 부상했다.<br><br>세빗은 1970년 하노버 산업박람회로 시작됐다가 규모가 너무 커지자 주최 측인 도이체 메세 AG는 86년부터 세빗을 별도 행사로 분리해 매년 3월에 열기로 했다.<br><br>세빗 전시장의 '홀 1'은 1984년에 단층 전시장으로서는 가장 큰 규모(7만300평방미터)로 기네스북에 올랐다.<br><br>세빗은 처음에는 'Center for Office and IT'의 독일어 약어인 'CeBOT'로 제안되기도 했으나 전시회 자문위원회에서 'CeBIT'으로 이름을 정했다. 'CeBIT'에서 'BIT'는 컴퓨터 최소 정보단위인 비트를 의미하기도 한다.<br><br>전시회가 열리는 독일 하노버는 니더작센주의 주도로 일년 내내 크고 작은 산업박람회가 열린다. 매년 3월에 열리는 세빗외에도 공업기계박람회, 엑스포 등 연간 50여개의 전시회가 개최돼 전시회 수익이 도시 수입의 대부분을 차지할 정도다.<br><br>하노버는 일년 내내 맑은 날씨인 라스베이거스와 달리 특히 3월에는 춥고 눈이 많다. 지난 87년에는 세빗 행사 불과 이틀 전에 갑작스런 눈보라가 몰아쳐 1미터가 넘게 눈이 쌓였다. 'SnowBIT'로 불렸던 당시 행사는 그러나 많은 사람의 노력으로 무사히 치러졌다.<br><br>세빗은 현재 하노버 뿐만 아니라 터키, 아시아, 오스트레일리아 등에서도 열린다.<br> <br>
+							</td>
+						</tr>
+						<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+						<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+						<tr><td colspan="2" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=12&sseq=&sword="><img src="/img/prroom/btn_list.gif" height="19" alt="" border="0" hspace="8"></a></td></tr>
+						<tr>
+							<td colspan="2" height="60" style="padding:0 0 0 8">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="21" class="minilist">			
+
+									</td>
+								</tr>
+									<td height="21" class="minilist">
+
+									<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1295&num=566&page=12&sseq=&sword="><font class="minilist">[Cover Story] 송문섭 팬텍앤큐리텔 사장 </font></a>
+
+									</td>
+								</table>
+							</td>
+						</tr>
+						</table>
+						<!------- READ End ------------->
+
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+A {color: #5E5E5D;text-decoration:none;}
+A:link {color: #5E5E5D; }
+A:visited {color: #5E5E5D;}
+A:active {color: #5E5E5D;}
+A:hover { color:#9B9B9B;}
+.em {color: #0A9CAD;text-decoration:none;}
+.em A {color: #0A9CAD;text-decoration:none;}
+.em A:link {color: #0A9CAD; }
+.em A:visited {color: #0A9CAD;}
+.em A:hover { color:#0A9CAD;}
+body {margin:0;color: #5E5E5D;FONT-FAMILY: µ¸¿ò, arial; FONT-SIZE: 9pt; 
+		SCROLLBAR-bace-COLOR: #E5E5E4;
+		scrollbar-track-color: #E5E5E4 ;
+		SCROLLBAR-FACE-COLOR: #B0B0AF;
+		SCROLLBAR-SHADOW-COLOR: #E5E5E4;
+		scrollbar-highlight-color: #E5E5E4;
+		SCROLLBAR-3DLIGHT-COLOR: #E5E5E4;
+		SCROLLBAR-ARROW-COLOR: #f4f4f4;
+		SCROLLBAR-DARKSHADOW-COLOR: #E5E5E4;}
+td,form {color: #4d4d4d;FONT-FAMILY: µ¸¿ò, arial; FONT-SIZE: 9pt; text-decoration:none;line-height:12pt}
+select,textarea {FONT-FAMILY:µ¸¿ò,arial; color: #666666; FONT-SIZE: 8pt;}
+input {height:20;font-size:9pt;letter-spacing:-0.02em;}
+.input01 {border:#C8C8C8 1px solid;font:9pt;letter-spacing:-0.02em;;color:#5E5E5D}
+img {border:0}
+.w {color:#ffffff}
+.7 {font:7pt} .8 {font:9pt;letter-spacing:-0.02em;} .9 {font:9pt;letter-spacing:-0.02em;}
+.b {font-weight:bold}
+.title {color:#975941;font-size:12pt;font-family: ±¼¸²}
+.id_over {position:absolute; display:none; width:60;height:50;border:1px solid black; background-color:white; }
+
+/* tooltip */
+.tolltip A {color: #5E5E5D;text-decoration:none;font-size:9pt;letter-spacing:-0.02em;} 
+.tolltip A:link {color: #5E5E5D; }
+.tolltip A:visited {color: #5E5E5D;} 
+.tooltip A:hover { color:#FE4902;}
+
+.dotline02 {background:url(/img/common/dotline02.gif) repeat-y center}
+

@@ -1,0 +1,70 @@
+<!--  프로젝트명 :
+        화일명       :
+        작성자       : 김철현
+        작성일자    : 2002
+        비고          :
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <title>게임만 잘해도 -경품이 와르르</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<script language="javascript">
+function setCookie( name, value, expiredays ) 
+{ 
+        var todayDate = new Date(); 
+        todayDate.setDate( todayDate.getDate() + expiredays ); 
+        document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+}
+
+function closeWin() 
+{ 
+        if(document.myform.notice.checked )
+        {
+        	setCookie( "game", "game" , 1); 
+        	self.close(); 
+	}
+	else
+	{
+		self.close();
+	}
+}
+
+function view_form(p_id,re_id){
+	opener.document.event.table.value = "Notice";
+	opener.document.event.mode.vlaue="view";
+	opener.document.event.id.value = p_id;
+	opener.document.event.reid.value = re_id;
+	opener.document.event.action = "/Footer/bbs_content.asp";		
+	opener.document.event.submit();
+	self.close();
+}
+</script>
+  <style type="text/css">
+  td { font-size: 12px;  font-family: 굴림,굴림체, Arial ;color:#666666;}
+  </style>
+</head>
+
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" bgcolor="#FFFFFF">
+
+<table cellpadding="0" cellspacing="0" border="0" width="441">
+<form name=myform action='' method=post>
+<input type=hidden name=table>
+<input type=hidden name=mode>
+<input type=hidden name=id>
+<input type=hidden name=reid>
+<input type=hidden name=b_subnum>
+  <tr>
+    <td colspan="2"><img src="http://www.curitel.co.kr/Event/img/p_gameevent03.gif" width="441" height="311" alt="" border="0" usemap="#gameevent"></td>
+  </tr>
+  <tr bgcolor="#F3F3F3">
+    <td height="30" align="right" width="371">
+    오늘 이창을 열지않음 <input type="Checkbox" name="notice" value="">&nbsp;</td>
+    <td width="70"><a href="javascript:closeWin();" onfocus="this.blur();"><img src="http://www.curitel.co.kr/Event/img/pbtn_close02.gif" width="44" height="17" alt="" border="0"></a></td>
+  </tr>
+  </form>
+</table>
+
+<map name="gameevent"><area alt="" coords="312,271,414,299" href="javascript:view_form('1305','15')" onfocus="this.blur();"></map>
+</body>
+</html>

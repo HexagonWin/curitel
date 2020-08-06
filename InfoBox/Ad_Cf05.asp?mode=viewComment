@@ -1,0 +1,555 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>PANTECH&CURITEL</title>
+	<link href="/Common/css/basic.css" rel="stylesheet" type="text/css">
+	<link href="/Common/css/board.css" rel="stylesheet" type="text/css">
+	<script language="javascript">
+	<!--
+		function comment( obj, cfid, obj1 )
+		{
+			if ( obj == "add" )
+			{
+				if ("" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else if ( document.board.comment_content.value == "" )
+				{
+					alert("내용을 입력하세요");
+					document.board.comment_content.focus();
+					return;
+				}
+			} else if ( obj == "del" )
+			{
+				if ( "" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else
+				{
+					var ck_confirm = confirm( "삭제하시겠습니까?" );
+					if ( ck_confirm == false )
+					{
+						return false;
+					}
+				}
+			}
+			document.boardComment.table.value = "Ad";
+			document.boardComment.mode.value = obj;
+			document.boardComment.ck_num.value = obj1;
+			document.boardComment.id.value = cfid;
+			document.boardComment.comment_content.value = document.board.comment_content.value;
+			document.boardComment.action = "AdCommentSave.asp";
+			document.boardComment.submit();
+		}
+	/-->
+	</script>
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td colspan="3"><!--mg src="/common/images/fake_flash.gif" width="782" height="222"-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="782" HEIGHT="222" id="Untitled-2" ALIGN="top">
+	<param name="movie" value="/common/header/curitel_sub.swf?colorSetNum=2"><!-- 여기예요.-->
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=salign VALUE=T>
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	<EMBED src="/Common/header/curitel_sub.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+</OBJECT></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/Common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->		
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+	> <a href="/InfoBox/"><font color="#FFFFFF">Info Box</font></a>
+ 
+		
+</td>
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include --><!-- 레프트 메뉴 START -->
+
+<td width="197" valign="top" align="center" background="/Common/images/left_bg.gif">
+
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="10" bgcolor="#FFFFFF"><img src="/Common/images/spacer.gif" width="197" height="10"></td>
+		</tr>
+		<tr>
+			<td><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="197" HEIGHT="600" id="Untitled-2" ALIGN="top">
+					<PARAM NAME=movie VALUE="/Common/menu/info_box_before.swf">
+					<PARAM NAME=quality VALUE=high>
+					<PARAM NAME=salign VALUE=T>
+					<PARAM NAME=bgcolor VALUE=#FFFFFF>
+					<EMBED src="/Common/menu/info_box_before.swf" quality=high salign=T  WIDTH="197" HEIGHT="600" NAME="Untitled-2" ALIGN="top"
+					TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+				</OBJECT></td>
+		</tr>
+	</table>	
+
+</td>
+<!-- // 레프트 메뉴 END   -->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+
+
+
+
+<table width="585" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td colspan="4"><img src="images/curi_ad_img01.gif" border="0"></td>
+    </tr>
+    <tr>
+        <td width="5" bgcolor="#BDE2E2"></td>
+        <td width="30"></td>
+        <td width="533"><img src="images/curi_cf_menu.gif" border="0" usemap="#menu"></td>
+        <td width="17"></td>
+    </tr>
+    <tr>
+        <td bgcolor="#BDE2E2"></td>
+        <td></td>
+        <td> 
+          <!-- contents -->
+          <table width="533" border="0" cellpadding="0" cellspacing="0">
+            <tr> 
+              <td width="533" height="25"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf05_img01.gif" border="0" usemap="#cf01Map" width="533" height="169"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf05_img02.gif" width="533" height="145"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf05_img03.gif" width="533" height="254"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf05_img04.gif" width="533" height="375"></td>
+            </tr>
+			<tr> 
+              <td><img src="images/cf05_img05.gif" width="533" height="350"></td>
+            </tr>
+            <tr> 
+              <td height="23"></td>
+            </tr>
+            <tr> 
+              <td align="right" style="padding-right: 30px;"><a href="ad_cf.asp"><img src="images/btn_list.gif" border="0" align="absmiddle"></a>&nbsp;<a href="#"><img src="images/btn_top.gif" border="0" align="absmiddle"></a></td>
+            </tr>
+            <tr> 
+              <td height="20"></td>
+            </tr>
+          </table>
+          <map name="cf01Map"> 
+            <area alt="" shape="CIRCLE" coords="446,148,21" href="javascript: history.back(-1);"onFocus="this.blur()">
+            <area alt="" shape="CIRCLE" coords="465,101,29" href="images/adtitle/S2.mpg"onFocus="this.blur()">
+          </map>
+          <!-- 한줄답변보기 -->
+          
+        <!-- 한줄 답변 -->
+        <table width="533" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td colspan="2" height="1" background="images/dot_hline01.gif"></td>
+            </tr>
+            <tr>
+                <td width="25" height="10"></td>
+                <td width="508"><a name="oneline"></a></td>
+            </tr>
+
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">몇화음인가여? - <span style="color: #779696;"><b>류제희</b></span> <a href="javascript:comment('del', '5', '1');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">64화음인데여.... 3D 사운드 하고는 차원이 다른만큰 소리가 좀 떨어지네여^^ - <span style="color: #779696;"><b>민철홍</b></span> <a href="javascript:comment('del', '5', '2');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">조금 기다렸다가 살껄..ㅜ.ㅜ 좋은게 너무 빨리나오네. - <span style="color: #779696;"><b>신동훈</b></span> <a href="javascript:comment('del', '5', '3');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">....별로 안좋아요......동영상질이 너무 떨어져...... - <span style="color: #779696;"><b>이성진</b></span> <a href="javascript:comment('del', '5', '4');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">..정말 안좋아  기본적인게 떨어지내요 - <span style="color: #779696;"><b>심재석</b></span> <a href="javascript:comment('del', '5', '5');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">나도 샀는데-_- 쫌; 실망이야.ㅎ - <span style="color: #779696;"><b>박선정</b></span> <a href="javascript:comment('del', '5', '6');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">64화음인데 소리가 찌어지고 좀작네요 , 그리고 폰메일 보낼수있는가요. 생각도다 조금실망 - <span style="color: #779696;"><b>박창국</b></span> <a href="javascript:comment('del', '5', '7');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">핸드폰을 구입하려고 하는데 정말 사면 후회하나요????? - <span style="color: #779696;"><b>심연화</b></span> <a href="javascript:comment('del', '5', '8');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">아뇨 저는요 이거 샀는데 정말 좋아요 카메랑 기능 좋은걸로 사려면 차라리 디카를 사지 그러셨어요?ㅋ 기능도 아주 간편하고요 정말 딱 필요한기능만 있어요 참 편리해요! - <span style="color: #779696;"><b>권보아</b></span> <a href="javascript:comment('del', '5', '9');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">동영상 화질이 별루 안조으네여 ;; - <span style="color: #779696;"><b>장현희</b></span> <a href="javascript:comment('del', '5', '10');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">ㅡㅡ 내껀 껍대기끼니까 전화오면 벨소리가.......ㅠ매우작음 --; - <span style="color: #779696;"><b>안나정</b></span> <a href="javascript:comment('del', '5', '11');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">정말 볼때마다 재밌고 기억에남는광고,,,모델이 좋아서그런가,, - <span style="color: #779696;"><b>박은혜</b></span> <a href="javascript:comment('del', '5', '12');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">저희 아기(9개월)가 광고방송을 즐겨보고 있습니다. 그런데, 규리텔의 머리를 벗기는 장면이 너무 자극적이고 정서상 않 좋을 것 같아서 선전만 나오면 가립니다. 다른걸로 바꿔주시면 정말 감사하겠습니다. - <span style="color: #779696;"><b>유재성</b></span> <a href="javascript:comment('del', '5', '13');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">좋구만;;난리노..ㅡ.ㅡ - <span style="color: #779696;"><b>김해진</b></span> <a href="javascript:comment('del', '5', '14');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">-_- 근데 디자인은 이뿐가요 디자인도 별로 -_-;; - <span style="color: #779696;"><b>이유정</b></span> <a href="javascript:comment('del', '5', '15');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">다른건 아 좋은데, 동영상이 별로예요, 색깔은 흰색이 잴 이뿐거 같구요, 핸드폰도 나름대로 짝고 이뻐요 - <span style="color: #779696;"><b>김지영</b></span> <a href="javascript:comment('del', '5', '16');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">뭐라고들 하지마 좋은데 뭐라고 그래 - <span style="color: #779696;"><b>백현호</b></span> <a href="javascript:comment('del', '5', '17');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">흰색보다분홍색이더이뿌던데,,,, - <span style="color: #779696;"><b>신윤희</b></span> <a href="javascript:comment('del', '5', '18');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">깔끔한것이 정말괜찮습니다...... - <span style="color: #779696;"><b>변종원</b></span> <a href="javascript:comment('del', '5', '19');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">가지고싶은 폰입니다 - <span style="color: #779696;"><b>양형석</b></span> <a href="javascript:comment('del', '5', '20');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이번에 삿는데 너무 좋아요^-^근데 진짜 동앙상이 별로ㅠ-ㅠ - <span style="color: #779696;"><b>오수비</b></span> <a href="javascript:comment('del', '5', '21');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">좋기만하구만...불만쟁이들.니네들응.단거써두 불만일ㄲㅓ댜. - <span style="color: #779696;"><b>최지애</b></span> <a href="javascript:comment('del', '5', '22');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">동영상화질이 어떤데요 ? - <span style="color: #779696;"><b>김소람</b></span> <a href="javascript:comment('del', '5', '23');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">그러게욛//;;모듀 자기 맘에..만들게 하고 싶으시면 직접 만드시지..불만들도 많으시네//단점이란건...핸드폰을..더 발전 되게 만듀는건데..넘 안좋게 말한다 사람들이~ - <span style="color: #779696;"><b>김보미</b></span> <a href="javascript:comment('del', '5', '24');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">저도이폰샀는데..다만족합니다...카메라화질은낮에찍으면깨끗하던데요..그렇게카메라따지실꺼면130만화소사시지그러셨어요ㅡㅡ;;;;;;ㅎ - <span style="color: #779696;"><b>강창욱</b></span> <a href="javascript:comment('del', '5', '25');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">불편~! 기본 적인것이않되엽 - <span style="color: #779696;"><b>박태호</b></span> <a href="javascript:comment('del', '5', '26');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이 제품 정말 안 좋아요...2번이나 교환했는데 핸폰 전원 지 맘대로 나가조... 짜증나여~ - <span style="color: #779696;"><b>류해성</b></span> <a href="javascript:comment('del', '5', '27');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">동영상이 자연스럽지가 않아요~~ 다른건 다 맘에 들구요~^^ 후레쉬기능으로 밤에 불도 밝혀주고~^^64화음짱~ - <span style="color: #779696;"><b>장현진</b></span> <a href="javascript:comment('del', '5', '28');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">빨랑 S2로 바꿔야 할낀데... - <span style="color: #779696;"><b>김재우</b></span> <a href="javascript:comment('del', '5', '29');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">근데이거왜라이브벨이왜안데요?쌍.ㅠ - <span style="color: #779696;"><b>차선진</b></span> <a href="javascript:comment('del', '5', '30');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">동영상너무끊겨요, - <span style="color: #779696;"><b>이성희</b></span> <a href="javascript:comment('del', '5', '31');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">동영상은 화질이 조금 안좋아요, 근데 다른건 다 괜찮아요^-^ 벨소리도 좋고^-^ ** - <span style="color: #779696;"><b>김현경</b></span> <a href="javascript:comment('del', '5', '32');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">좋아요~ ^^;;; - <span style="color: #779696;"><b>송현미</b></span> <a href="javascript:comment('del', '5', '33');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">소리가 너무 작아서 좀 불만이지만 그 외에는 괜찮은것 같아요^-^ - <span style="color: #779696;"><b>이혜림</b></span> <a href="javascript:comment('del', '5', '34');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">저는 동영상만 빼고는 다 좋은데요...전 후회 안합니다^^ - <span style="color: #779696;"><b>김병용</b></span> <a href="javascript:comment('del', '5', '35');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">소리큰데 -.-다조음 ㅋㅋㅋ - <span style="color: #779696;"><b>배다혜</b></span> <a href="javascript:comment('del', '5', '36');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">너무 안좋아여 전 사고 바로 후회했어여 - <span style="color: #779696;"><b>호종훈</b></span> <a href="javascript:comment('del', '5', '37');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">동영상 문제는 불만 하실거면 다른거 130만화소라고 선전하는 다른회사걸 사시지-_-   화질도 낮에 찍으면 열라 깨끗하게 나오더라구요. 밤에찍는건 아니다 싶지만. 그래도 만족해요 - <span style="color: #779696;"><b>김미리</b></span> <a href="javascript:comment('del', '5', '38');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이거 분홍색, 진짜 이뻐요,ㅎ 소리가 좀 작긴 해도......넘넘 좋아용ㅋ - <span style="color: #779696;"><b>이루리</b></span> <a href="javascript:comment('del', '5', '39');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">좋아요...저도 아내도 S2  정말 좋아요...윤도현이 아니라 저는 애기 사진으로.했는데... - <span style="color: #779696;"><b>김성환</b></span> <a href="javascript:comment('del', '5', '40');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">신랑이 결혼기념 선물이라면서 건내주었어요 - <span style="color: #779696;"><b>임난영</b></span> <a href="javascript:comment('del', '5', '41');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">은행이 더 친밀하게 다가오더군요 - <span style="color: #779696;"><b>임난영</b></span> <a href="javascript:comment('del', '5', '42');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">M-Bank - <span style="color: #779696;"><b>임난영</b></span> <a href="javascript:comment('del', '5', '43');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">근데 이거 전자책 기능 되나요? - <span style="color: #779696;"><b>이희정</b></span> <a href="javascript:comment('del', '5', '44');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">-_- 흰색삿는데 사람들이 카이폰(박지윤-옛날꺼)하얀색으로 오해하더군여.. 소리 작은거뺴고 다좋아요 6^ - <span style="color: #779696;"><b>홍지선</b></span> <a href="javascript:comment('del', '5', '45');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">동영상이 끊기는 것 빼곤..만족^^  근데 가끔 핸폰 닫을때 지혼자 에티켓모드로 됨..이상혀..ㅡ.ㅡ;; - <span style="color: #779696;"><b>조윤정</b></span> <a href="javascript:comment('del', '5', '46');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">괜찮은거같은데ㅋㅋ 전 PG-S5000삿는데 ㅋ이거살껄하는후회가 ㅠㅠ 그건 130만화소라서훨씬비싸요 ㅠㅠ - <span style="color: #779696;"><b>김정화</b></span> <a href="javascript:comment('del', '5', '47');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">나는 윤도현이 선전해서 좋기만 하구만=ㅁ=// - <span style="color: #779696;"><b>이진실</b></span> <a href="javascript:comment('del', '5', '48');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">저두 이폰 샀는데요,, 덮게 어디서 살수 있어요..여러군데 다녀봐두 음써요..ㅠㅠ - <span style="color: #779696;"><b>유영준</b></span> <a href="javascript:comment('del', '5', '49');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">이거  실은 카매라11만 화소..... - <span style="color: #779696;"><b>이윤정</b></span> <a href="javascript:comment('del', '5', '50');">x</a></td>
+            </tr>
+
+            <tr>
+            <form name="board" method="post">
+                <td colspan="2" style="padding-left: 7px;">
+                <input type="text" name="comment_content"  value="먼저 로그인을 하세요" readonly style="width: 400px;"> 
+                <a href="/Footer/Login.asp?REQUEST_METHOD=GET&file=/InfoBox/Ad_Cf.asp&GetQueryStr=mode★viewComment">
+                <img src="images/btn_reply_line.gif" border="0" align="absmiddle"></a></td>
+            </tr>
+            </form>
+        </table>        
+
+
+
+<Form name="boardComment" method="post" action="AdCommentSave.asp">
+<input type="hidden" name="table" value="Ad">
+<input type="hidden" name="mode">
+<input type="hidden" name="page" value="">
+<input type="hidden" name="ck_num">
+<input type="hidden" name="id">
+<input type="hidden" name='comment_name' value="">
+<input type="hidden" name="comment_id" value="">
+<input type="hidden" name="comment_content">
+</form>
+        <!-- 한줄 답변 -->
+
+
+
+        <!-- map -->
+        <map name="menu">
+        <area alt="" shape="poly" coords="130,30,100,0,0,0,0,30" href="#" onFocus="this.blur">
+        <area alt="" shape="poly" coords="221,30,198,5,105,5,130,30" href="ad_print_main.asp" onFocus="this.blur">
+        </map>
+
+        <map name="cf01">
+            <area alt="" shape="CIRCLE" coords="466,101,25" href="images/adtitle/curitel_socool.mpg"onFocus="this.blur()">
+        <area alt="" shape="CIRCLE" coords="446,152,17" href="javascript: history.back(-1);"onFocus="this.blur()">
+        </map>
+        
+        <!-- contents -->
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+
+<!-- 푸터 include -->	</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		
+  <td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestFinanc_03.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="534,61,631,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="646,62,693,80" href="/footer/partner.asp">
+  <area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>

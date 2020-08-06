@@ -1,0 +1,745 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>PANTECH&CURITEL</title>
+	<link href="/common/css/basic.css" rel="stylesheet" type="text/css">
+	<script language="JavaScript">
+	<!--
+		function comment( obj, obj1 )
+		{
+			if ( obj == "add" )
+			{
+				if ("" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else if ( document.board.comment_content.value == "" )
+				{
+					alert("내용을 입력하세요");
+					document.board.comment_content.focus();
+					return;
+				}
+			} else if ( obj == "del" )
+			{
+				if ( "" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else
+				{
+					var ck_confirm = confirm( "삭제하시겠습니까?" );
+					if ( ck_confirm == false )
+					{
+						return false;
+					}
+				}
+			}
+			document.boardComment.table.value = "Phone";
+			document.boardComment.mode.value = obj;
+			document.boardComment.ck_num.value = obj1;
+			document.boardComment.id.value = 55;
+			document.boardComment.comment_content.value = document.board.comment_content.value;
+			document.boardComment.action = "CommentSave.asp";
+			document.boardComment.submit();
+		}
+
+		function OpenRecommend()
+		{
+			window.open( "./Recommend.asp?id=55", "추천하기", "status=no,width=500,height=570" );
+		}
+		function openSar() {
+			window.open("./SAR/p_sar01.asp?id=55&model=PS-E100A","view","width=421,height=560,marginwidth=0,marginheight=0,resizable=0,scrollbars=no,toolbar=no,location=no");
+		}
+		function openAccessory() {
+			window.open("./accessory/accessory.asp?id=55","view","width=600,height=560,marginwidth=0,marginheight=0,resizable=0,scrollbars=yes,toolbar=no,location=no");
+		}
+	//-->
+	</script>
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td colspan="3"><!-- 헤더 플래시 include --><!--mg src="/common/images/fake_flash.gif" width="782" height="222"-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="782" HEIGHT="222" id="Untitled-2" ALIGN="top">
+	<param name="movie" value="/common/header/curitel_sub.swf?colorSetNum=2"><!-- 여기예요.-->
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=salign VALUE=T>
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	<EMBED src="/Common/header/curitel_sub.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+</OBJECT></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+	> <a href="/InfoBox/"><font color="#FFFFFF">Info Box</font></a>
+ 
+	
+	> <font color="#FFFFFF">제품정보</font>
+		
+</td>
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include --><!-- 레프트 메뉴 START -->
+
+<td width="197" valign="top" align="center" background="/Common/images/left_bg.gif">
+
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="10" bgcolor="#FFFFFF"><img src="/Common/images/spacer.gif" width="197" height="10"></td>
+		</tr>
+		<tr>
+			<td><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="197" HEIGHT="600" id="Untitled-2" ALIGN="top">
+					<PARAM NAME=movie VALUE="/Common/menu/info_box_before.swf">
+					<PARAM NAME=quality VALUE=high>
+					<PARAM NAME=salign VALUE=T>
+					<PARAM NAME=bgcolor VALUE=#FFFFFF>
+					<EMBED src="/Common/menu/info_box_before.swf" quality=high salign=T  WIDTH="197" HEIGHT="600" NAME="Untitled-2" ALIGN="top"
+					TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+				</OBJECT></td>
+		</tr>
+	</table>	
+
+</td>
+<!-- // 레프트 메뉴 END   -->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+			<table width="580" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td class="main_first" style="padding-top:15px" align="center">
+<script language="javascript">
+function openwin(obj)
+{ 
+	noticeWindow  =  window.open("/InfoBox/"+obj , "가격비교", "menubar=0,resiable=0,scrollbars=0 , width=500,height=275,left="+(screen.width-550)+",top=40");
+	noticeWindow.opener = self;
+}
+
+function imgpd5000()
+{
+	document.location.href='ProductDetail/pd-5000.zip';
+}
+
+function imgpd6000()
+{
+	document.location.href='ProductDetail/pd-6000.zip';
+}
+</script>					
+						<table width="548" cellpadding="0" cellspacing="0" border="0">						
+							<tr>
+							<td>
+								<table width="548" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+	<td><img src="images/011_017.gif" width="257" height="50"></td>
+	<td background="images/header_bg.gif"><img src="/common/images/spacer.gif" width="291" height="1"></td>
+	</tr>
+	
+	<tr>
+    <td colspan="2"> 
+      <!--mg src="/common/images/fake_flash.gif" width="782" height="222"-->
+      <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="548" HEIGHT="448" id="Untitled-2" ALIGN="top">
+        <param name="movie" value="/InfoBox/ProductDetail/PS-E100A.swf"><!-- 여기예요.-->
+	
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=salign VALUE=T>
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	<EMBED src="/InfoBox/ProductDetail/PS-E100A.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+</OBJECT></td></tr>
+	
+	<tr>
+	<td colspan="2">
+</table>
+
+								
+								<table width="548" cellpadding="0" cellspacing="0" border="0" background="images/middle_bg.gif">
+									<tr align="center">
+									<td height="70"><a href="#01"><img src="images/middle_01.gif" border="0"></a></td>
+									<td><a href="#02"><img src="images/middle_02.gif" border="0"></a></td>
+									<td><a href="#03"><img src="images/middle_03.gif" border="0"></a></td>
+									<td><a href="#04"><img src="images/middle_04.gif" border="0"></a></td>
+									<td>
+<!--
+									
+										<a href="javascript:openwin('compare_dd600.htm');">
+									
+										<a href="javascript:openwin('compare_c500.htm');">
+									
+-->                                    
+									<a href="/curitelzone/pricecompare.asp"><img src="images/middle_05.gif" border="0"></a></td>
+									<td>
+
+										<a href="javascript:alert('로그인 하세요');"><img src="images/middle_06.gif" border="0"></a>
+
+									</td>
+									<td><a href="javascript:openSar();"><img src="images/middle_07.gif" border="0"></a></td>
+									<td><a href="javascript:openAccessory();"><img src="images/middle_08.gif" border="0"></a></td>
+									</tr>
+								</table>
+							</td>
+							</tr>
+						</table>
+						<table width="548" cellpadding="0" cellspacing="0" border="0">
+							<!-- 특징 START -->
+							<tr><a name="01"></a>
+								<td colspan="2" background="images/title_bg.gif" height="63" style="padding-left:20px"><img src="images/title_01.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0 width=520 align=center><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/cdma2000.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ EV-DO로 맞이하는 초고속 IMT-2000 세상 &#8211; CDMA2000 1x EV-DO 방식</b></font><br>큐리텔 PS-E100A에 기다림은 없다. 팬택&큐리텔의 기술력으로 완성한 CDMA2000 1x EV-DO 방식은 기존의 CDMA2000 1x 방식보다 16배 빠른 2.4Mbps의 전송 속도를 지원하여 더욱 빠르게 무선 인터넷을 사용할 수 있습니다. 즐거움과 유익함이 있는 무선 인터넷 세상, 이제 더욱 빠르게 만나세요.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/tft.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 업그레이드 모바일 카메라 &#8211; 33만 화소 내장형 모바일 카메라 기능</b></font><br>큐리텔 PS-E100A은 33만 화소 모바일 카메라를 내장하여 언제 어디서나 선명하고 깨끗한 사진을 편리하게 촬영할 수 있습니다. 사진으로 큐리텔 대기 화면을 예쁘게 꾸미고 포토메일 기능을 이용하여 친구들에게 편리하게 사진을 보내보세요. 640 * 480 pixel 크기의 사진까지 촬영하여 홈페이지에 간단히 올릴 수 있는 기능까지, 카메라폰의 막강 지존 PS-E100A으로 이제 폼나게 찍으세요~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/40poly.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 모바일 카메라가 날개를 달았다 &#8211; 세계 최초 PC Camera 기능까지</b></font><br>모바일 카메라로 사진만 찍는다? 큐리텔 PS-E100A은 세계 최초 USB PC 카메라 기능 구현으로 전용 거치대와 USB 케이블(별도 구매)만 있으면 컴퓨터와 연결하여 인터넷 화상 채팅은 물론 동영상 저장 및 CCTV 기능까지 사용 가능합니다. PC 카메라를 따로 구매할 필요없이 간단한 조작만으로 PS-E100A을 PC 카메라처럼 사용하세요.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/avatar.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 이제 끊김없이 매끄럽게 본다 &#8211; 국내 최초 33 frame 기능</b></font><br>인체 공학적으로 사람의 눈은 초당 30 frame 이상으로 동작하면 끊긴다는 느낌을 받지 않는다는 거 알고 계세요? 큐리텔 PS-E100A의 모바일 카메라는 국내 최초로 초당 33 frame 기능을 구현하여 사진 촬영 Preview, 화상 채팅, 동영상 촬영 시에도 끊김없이 부드러운 화면을 보실 수 있습니다. PS-E100A만의 자랑 33 frame 기능으로 모바일 카메라 이제 더욱 편리하게 사용하세요.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/note.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 내가 있는 곳, 하늘이 알고 땅이 알고 PS-E100A이 안다! &#8211; NATE GPS 서비스 기능 적용</b></font><br>초정밀 GPS칩이 내장된 PS-E100A은 NATE GPS 서비스를 통해 언제 어디서나 위치 파악과 관련된 다양한 서비스를 이용할 수 있습니다. 24개의 NATE GPS 위성이 빈틈없이 정확하게 위치를 파악하여 최고 10미터 이내 정확도의 지도 기반 서비스를 제공합니다. 차세대 LBS(Location-based Service 위치 기반 서비스)의 기반이 되는 획기적인 기능을 가진 PS-E100A은 단순한 위치 확인에 그치지 않고, GPS 기능을 통해 그 위치에 맞는 차별화되고 다양한 무선 인터넷 서비스를 제공받을 수 있습니다. 주변 지도, 지역 정보, 길 안내는 물론이고, 긴급 상황시에는 내 위치 파악으로 긴급 구조를 문제없이 할 수 있습니다. 생활에 큰 도움을 주는 NATE GPS 서비스를 이제 PS-E100A에서 만나보세요. 유익한 무선 인터넷 세상으로 가는 길을 안내해드립니다.<b><<< NATE GPS 특화 서비스 >>></b><br>(1) ‘MY NAVI’ 서비스 : PS-E100A상에서 지도에 표시된 자신의 위치를 조회할 수 있으며 목적지를 설정하면 현재 위치로부터의 경로를 지도에 표시해주는 서비스<br> (2) 버스 알림이 서비스 : GPS를 장착한 일반 노선버스의 현재 위치와 가까운 정류장까지의 정확한 거리를 알려주는 서비스<br> (3) 모바일 시큐리티 서비스 : 위급한 상황이 발생되면 휴대폰의 특정 버튼 하나만 눌러 고객의 현지 위치를 파악해 긴급 출동하는 서비스 (사업자 서비스 준비중)<br>* GPS (Global Positioning System) 란? 비행기·선박·자동차뿐만 아니라 세계 어느 곳에서든지 인공위성을 이용하여 자신의 위치를 정확히 알 수 있는 시스템을 말합니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/on_line.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 아바타가 새로워졌다! 이젠 혼자가 아닌 커플로 뜬다!</b></font><br> 휴대폰 속에 나와 내 친구가 산다. PS-E100A은 큐리텔의 자랑 ‘아바타 편집 기능’을 통해 다양한 아바타를 조합할 수 있습니다. PS-E100A은 아바타 배경화면 설정 기능을 업그레이드 해 친구의 아바타를 대기 화면에 설정하거나 나와 친구의 아바타를 커플로 하여 대기화면에 설정할 수 있습니다. 전화번호부에 있는 사람들마다 개성있는 아바타를 만들어 보세요. 전화 수신시 반가운 아바타의 모습이 화면에 나타납니다. 아바타 만드는 재미에 전화받는 재미까지~ 이제 휴대폰이 더욱 즐거워집니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/nate_air.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 고선명 Color에 전력 소모는 더 적게 - 국내 최초 6만5천 컬러 Two-Way TFT LCD</b></font><br>자체 LCD와 햇빛을 모두 활용하는 Two-Way TFT 방식은 실내와 실외에서 모두 밝고 선명한 화면을 유지시켜 줍니다. 햇빛을 활용하기 때문에 1개의 백라이트 만으로도 화면의 밝기를 유지할 수 있어 다른 TFT LCD에 비해 배터리가 적게 소모되는 Two-Way TFT LCD. 이제 배터리 걱정없이 더욱 선명하고 생생한 Color로 다양한 Color Contents를 마음껏 즐기세요~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/nate.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 멜로디는 살아있다 - Yamaha 40 Poly의 생생한 선율</b></font><br>전화 오는 것이 즐겁다? Yamaha 40 Poly 멜로디 칩을 통해 울려 퍼지는 큐리텔 PS-E100A의 멜로디는 원음에 가깝게 생생하게 울려 퍼집니다. 다양한 내장 멜로디와 개성에 맞게 다운로드한 멜로디로 나만의 오케스트라를 지휘해보세요. 잠깐! 아무리 멜로디가 좋아도 공공장소에선 진동으로 해야 겠죠?</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/moive.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 통화 중에도 두손은 자유! 핸즈프리가 필요없다 - 스피커폰 기능 지원</b></font><br>운전중이나 회의시 또는 양손이 자유롭지 못한 상황에서 사용할 때 간이 핸즈프리 기능으로 사용이 가능하여 휴대폰에 손을 대지 않은 채로 편하게 통화하거나 여러 명이 통화할 수도 있습니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/small.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 너의 음성을 오래오래 간직하고 싶어!  &#8211; 음성녹음 기능 지원 (최대 10분 녹음 가능)</b></font><br>오늘따라 너의 목소리가 감동이야! 이 순간 오래오래 간직해서 듣고싶어~ 오래도록 듣고 싶은 연인의 목소리를 오래도록 간직해 보세요~ 그리움이 쌓이는 순간 다시 들어보는 그 때의 감동을 PS-E100A의 음성 녹음 기능으로 느껴보세요~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/bell.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 받기 싫은 메시지는 이제 안녕~ SPAM 메시지 차단 기능</b></font><br>때와 장소를 가리지 않고 날아드는 SPAM 메시지로 당황한 적 없으세요? PS-E100A은 전화번호/ 문자열/ 메시지 보관/ 기능 선택 방법을 통해 불필요한 메시지를 차단시켜 드립니다. 받기 싫은 메시지는 이제 안녕~ PS-E100A은 이제 메시지 청정지대!</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/cdma2000.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 나만의 이미지? 나만의 멜로디! - PC Synk 기능 지원</b></font><br>PC와 휴대폰을 케이블로 연결하여 PC로 작성한 데이터를 휴대폰으로 옮기거나, 휴대폰의 데이터를 PC로 읽어 들여 편집할 수 있는 기능입니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/tft.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 전자수첩이 새로워졌다 - 주요 기능 사용성 강화</b></font><br>달라진 Window UI에 의한 강화된 전자다이어리 기능은 스케쥴, 메모장, 전자계산기, D-day 플러스, 단위환산 기능 등 전자수첩의 기능을 보다 실용적으로 개선했습니다. </TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/40poly.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 큐리텔로 온라인 결재까지 - 전자지갑 서비스(M-Wallet) 지원</b></font><br>PS-E100A은 모바일 상거래의 필수 사항인 결재기능을 휴대폰 하나로 수행하는 전자지갑 서비스(M-Wallet)를 지원, 휴대전화를 통해 간단한 키 입력만으로 상품대금 지불은 물론, 상품을 원하는 배송지에서 받을 수 있는 새로운 환경의 모바일 상거래 서비스까지 가능하게 되어 휴대폰의 사용성을 더욱더 극대화 합니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/avatar.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 원하는 방송채널만 받아준다 - NATE Air 서비스 지원</b></font><br>NATE Air 서비스는 모바일 멀티미디어 방송서비스로 미리 등록해둔 방송채널을 통해 정보를 받아볼 수 있는 방송형 멀티미디어 서비스 기능입니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR></table>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+															<br><br>※ 제품의 외관, 사양등은 제품개량을 위해 사전예고 없이 변경될 수 있습니다.
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 특징 END -->
+							<!-- 기능 START -->
+							<tr><a name="02"></a>
+								<td colspan="2" background="images/title_bg.gif" height="63" style="padding-left:20px"><img src="images/title_02.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0 width=520 align=center><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>초고속 무선데이터통신 지원 (최대 2.4Mbps)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>33만 화소, 33프레임급 내장형 디지털 카메라</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>GPS 서비스 지원 (비상호출, 내 위치 알림, 지도보기, 쿠폰 저장, 길 안내 기능, 교통정보 알림 기능 등)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>고급 블루 /키패드 백라이팅 채용</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>단문메시지 송수신(SMS)/멜로디·이미지 Download 기능 등 사업자 부가서비스 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>대용량 전화번호부 (2000개) / SMS 수신 (50개)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>스피커폰 기능 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>스케쥴, 모닝콜, 메모장, 전자계산기, D-Day 플러스, 세계시간, 단위환산 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>시작 메뉴 편집 기능 (나만의 메뉴 편집)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>시작/종료/착신/평상시/브라우저 접속 컬러 Animation 변경기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>외부 LED를 통한 휴대폰상태 표시</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>원음에 가까운 40 화음 멜로디 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>자동 잠금/원터치 진동모드/사생활보호기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>절전조명 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>초대형 6만5천 컬러 TFT LCD 탑재 (128 * 160)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>Call Rejection 기능 (수신 제한 기능 )</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>Color Graphic UI ( 컬러 그래픽 유저 인터페이스)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>무선인터넷 (NATE) 기능 및 E-mail 기능 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>방송형 서비스 (NATE Air 서비스 지원 )</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>NATE 마법사 I, II 지원 (게임 다운로드 및 네트워크 게임 지원 )</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>NATE 멀티미디어 동영상 기능 지원 (Wavelet 기능 탑재)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>WAP 브라우저 탑재에 의한 인터넷 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>WAP Push 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>전자지갑 서비스(M-Wallet) 기능 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>개인정보관리 데이터 PC 호환 기능</TD></TR></table>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 기능 END -->
+							<!-- 사양 START -->
+							<tr><a name="03"></a>
+								<td colspan="2" background="images/title_bg_02.gif" height="51" style="padding-left:20px; padding-top:20px" valign="top"><img src="images/title_03.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#E5E2E2><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_01.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>크기(mm)</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px bgcolor=#FFFFFF>86 × 46 × 18.9 (표준용량)</TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>무게(g)</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>91 g(표준용량)</TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>LCD 사양</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>내장 LCD :TFT 6만5천 컬러 LCD (128 × 160)<br>외장 LCD :4 Line (96 × 64) </TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_09.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>색상</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>Metallic Silver/ Royal Blue </TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_13.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD colspan=2><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#F0F0F0 height=120><TR><TD bgcolor=#F0F0F0 style=padding-left:10px width=34% >구 분</TD><TD bgcolor=#F0F0F0 align=center width=33% >표준용량</TD><TD bgcolor=#F0F0F0 align=center width=33% >대용량</TD></TR><TR><TD bgcolor=#F0F0F0 style=padding-left:10px>연속통화시간</TD><TD align=center bgcolor=#ffffff>약 135분 </TD><TD align=center bgcolor=#ffffff>약 179분 </TD></TR><TR><TD bgcolor=#F0F0F0 style=padding-left:10px>연속대기시간</TD><TD align=center bgcolor=#ffffff>약 96시간 </TD><TD align=center bgcolor=#ffffff>약 126시간 </TD></TR><TR><TD colspan=3  bgcolor=#ffffff style=padding-left:10px>◆ CDMA2000 1x 및 Slot Cycle 1.2 기준, 휴대폰 실사용 시간은 휴대폰 사용환경에 따라 차이가 있을 수 있습니다</TD>	</TR></TABLE></TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_23.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD colspan=2 bgcolor=#FFFFFF style=padding-left:80px><BR><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#ffffff height=120><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>휴대폰 본체</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>휴대용 고리</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>거치대</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>사용설명서</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>배터리 2개</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10></TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10></TD></TR></TABLE><BR></TD></TR></TABLE>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 사양 END -->
+							<!-- 리뷰 START -->
+							<tr><a name="04"></a>
+								<td colspan="2" background="images/title_bg_02.gif" height="51" style="padding-left:20px; padding-top:20px" valign="top"><img src="images/title_04.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<table width="536" cellpadding="1" cellspacing="0" border="0">
+													<tr bgcolor="#7EADB4">
+														<td width="85" height="22" style="color:white;padding-left:10px">작성자</td>
+														<td width="420" style="color:white">내&nbsp;&nbsp;용</td>
+														<td width="31" align="center" style="color:white">삭제</td>
+													</tr>
+
+						<!-- 한줄답변 START -->
+													<Form name="boardComment" method="post" action="CommentSave.asp">
+													<input type="hidden" name="table" value="Phone">
+													<input type="hidden" name="mode">
+													<input type="hidden" name="id">
+													<input type="hidden" name="b_subnum">
+													<input type="hidden" name='comment_name' value="">
+													<input type="hidden" name="comment_id" value="">
+													<input type="hidden" name="ck_num">
+													<input type="hidden" name="comment_content">
+													</form>
+													<form name="board" method="post" action="javascript:comment('add','0');">
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">김형석</td>
+														<td width="420">좋다~~~~~~~~~나1등</td>
+														<td width="31" align="center"><a href="javascript:comment('del','1');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">서동훈</td>
+														<td width="420">별루.... 2등</td>
+														<td width="31" align="center"><a href="javascript:comment('del','2');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">이동화</td>
+														<td width="420">나 3등</td>
+														<td width="31" align="center"><a href="javascript:comment('del','3');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">강지성</td>
+														<td width="420">별루다,,,나 4등~!</td>
+														<td width="31" align="center"><a href="javascript:comment('del','4');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">함태혁</td>
+														<td width="420">이게 ps-e100이랑 틀린게 아바타랑 외형밖에 없네요..</td>
+														<td width="31" align="center"><a href="javascript:comment('del','5');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">윤성원</td>
+														<td width="420">이게뭐야  6등..  이런걸 만들어 놓다니...</td>
+														<td width="31" align="center"><a href="javascript:comment('del','6');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">도상호</td>
+														<td width="420">안녀하세여 오늘도 한마디 하겟습니다 .      이폰은TV폰 인것같습니다 겉으로는 멀정하지만 써보면 단점도 나오겠지요.  삼성꺼는염 세로운모델이 나오면 동여상기능 강화나 좀 중요한걸 가지고 나오는데요 큐리텔은 요즘에 소비자들이 중요하게 여기는 것을 잘 모르는 것같은 생각이 들어여 이폰도 역시 내부 액정이 작군요 큐리텔도 삼성의 액정최고크기인2.2인치를 능가하는2.3인치가 나오면 아마도 성공하지 않을까하는 생각이 듭니다 . 제생각에는 아무래도 큐리텔이 액정이 작으니까 우리눈으로 볼때 안의 그림이나 등등의 것들이 좀 선명하지 않은것 같습니다 .  삼성꺼는 액정이커서 참 정말 TV를 보는 느낌이듭니다 하지만 큐리텔것은 액정이 작아서 좀 보는 데 문제가 있습니다</td>
+														<td width="31" align="center"><a href="javascript:comment('del','7');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">서봉규</td>
+														<td width="420">제가여 지금 어제 사서 쓰고 있는데여 장점은여.. e100에 비해 디자인이 좀 세련됐고여 아바타가 대기화면에여 2개가 떠여 동영상재생기능도 있구여. 카메라 화질도 다른폰에 비해서 좋은거 같구 단점을 들자면..안테나가.ㅡㅡ; 최신폰 보면은 슬라이드형으로 뽑히는거 말구 고정되어있잖아여. 이거는 옜날폰처럼 툭 뽑히는게 쫌 그렇더라구여.또 카메라 줌기능이 없구여 외부액정이 유기액정이 아닌게 아쉬워여..머..종합적으로 보면 가격도 싸고 기능도 많고 카메라 화질도 좋고 하니깐 맘에 드는데..삼성이나 엘지와 대항할려면 세심한 부분까지 신경을 써야할거 같아요(안테나, 외부액정,내부화면 26만칼라등등)</td>
+														<td width="31" align="center"><a href="javascript:comment('del','8');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">송재은</td>
+														<td width="420">e100도 대기화면에 아바타 2개 나온답니다...ㅡㅡ; 차이라면 아바타 배경 설정여부이져...</td>
+														<td width="31" align="center"><a href="javascript:comment('del','9');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">김대용</td>
+														<td width="420">저 이거 쌌는지 5일짼데여. 제 입장에서는 쓰기편하고 좋습니다..</td>
+														<td width="31" align="center"><a href="javascript:comment('del','10');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">윤인경</td>
+														<td width="420">모양이별루에여 색상는?!</td>
+														<td width="31" align="center"><a href="javascript:comment('del','11');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">이찬형</td>
+														<td width="420">이거 산지..20일째입니다...가격면에 비해...성능은 넘 좋아여!!!...하지만 한가지 넘 아쉬운건...사진저장이30개밖에 안된다는사실(ㅜㅜ)..그것이 넘 슬퍼여...사진을 마니 가지고 싶은데...</td>
+														<td width="31" align="center"><a href="javascript:comment('del','12');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">서봉규</td>
+														<td width="420">이거 버전넘버확인하니깐..왜 ps- e100a라구안나오고..ps-e100이라구 나와여?..</td>
+														<td width="31" align="center"><a href="javascript:comment('del','13');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">조윤</td>
+														<td width="420">흠</td>
+														<td width="31" align="center"><a href="javascript:comment('del','14');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">전영민</td>
+														<td width="420">어제 USB 케이블 사러 대리점에 갔더니 27500원이라는데 너무 한거 아닙니까, 어떻게 그런 케이블 하나에 원가가 얼마나 한다구 그렇게 비싸게 바가지 씌워 파는지...더 웃긴건 만원 가격이 인하된 거라나여? 안 살 수도 없어 울며 겨자먹기로 샀는데 시간이 지날수록 짜증이 나네요.결코 큐리텔이 싸다고 생각이 안드네요. 충전기두 따로 구매해야하구...제품에 비해 가격이 싸다고 느껴지지 않네여.다해서 40만원들었습니다. (보상판매가격임)</td>
+														<td width="31" align="center"><a href="javascript:comment('del','15');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">이현렬</td>
+														<td width="420">충전기 따로 구매는 정보통신부에서 지시한 사항입니다,큐리텔만 그런것이 아닌것으로 아는데,,,요즘은 큐리텔도 안테나를 뽑지 않고 쓰는 폰을 출시 중인데,,,PG-S1200,S1등 나오는 중인데,전국에 A/S 점도 다 있고요,,</td>
+														<td width="31" align="center"><a href="javascript:comment('del','16');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">이현렬</td>
+														<td width="420">요즘은 가격대비 성능으로 보는 것이 현명하지 않을까요? 같은가격대에서의 기능 등,,,전 가격대비 성능을 주로 보는데? A/S도 요즘은 좋아  졌던데???</td>
+														<td width="31" align="center"><a href="javascript:comment('del','17');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">정예성</td>
+														<td width="420">어째 큐리텔은 26만 칼라능 안만들지? 전부 6만 5천이네.. 시대에 뒤떨어져..;; 카메라는 줌도 안되고 화질은 조금만 햇빛없으면 화질 정말 구립니다..; 사진도 벨소리 그림 받고 나면 사진 저장 얼마 못해여.. 저는 PD-6000유저 인되요.. 산거 후회됩니다.. 차라리 카메라는 없어도 삼성이나 엘지 또는 에버 사는 거였는데 후회 막심합니다..;;;; 카메라 폰이라는 말만 그렇지 순 날강도 같네요..;</td>
+														<td width="31" align="center"><a href="javascript:comment('del','18');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">전승경</td>
+														<td width="420">오늘 샀어요~ 은색 대박 이쁘네요 디자인두.. 특히 카메라 화질이 맘에 드네요. 밤에도 불빛만 있음 예쁘게 나오구.. 직원분이 그러시는데 PS-E100과 E100A의 차이점은 디자인이라고 하시네요. A가 좀더 신형이라죠~^^ 사실 분들 참고하세요~</td>
+														<td width="31" align="center"><a href="javascript:comment('del','19');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">김문강</td>
+														<td width="420">..그다지 죠은건 아닌듯..하네요.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','20');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">김남현</td>
+														<td width="420">저도 이모텔 샀어요~ 안좋다고 불평말고 자신에폰에 애정을...</td>
+														<td width="31" align="center"><a href="javascript:comment('del','21');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">최민규</td>
+														<td width="420">제가 2틀 됬는데 컬러하고 디자인은 멋있습니다. 근데 카메라 줌 기능이 없는게 좀 아쉽네요..화질도 윤도현이 선전하는 열기않고 찍늑거 보다 나쁨</td>
+														<td width="31" align="center"><a href="javascript:comment('del','22');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">한상준</td>
+														<td width="420">핸드폰도  버전 업이 있습니까 ??0 없겠죠??</td>
+														<td width="31" align="center"><a href="javascript:comment('del','23');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">김대룡</td>
+														<td width="420">+______________________+  이쁘다 쌤쁠 ? ㅋ</td>
+														<td width="31" align="center"><a href="javascript:comment('del','24');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">김대용</td>
+														<td width="420">저 이거 산지 1달 다되 가는데 쓰기 편하고 불편한점은 거의 없네요.. 강추~~~~</td>
+														<td width="31" align="center"><a href="javascript:comment('del','25');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">백정호</td>
+														<td width="420">난 E100인데....좋다고 생각하고 사용하구있떠염...</td>
+														<td width="31" align="center"><a href="javascript:comment('del','26');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">백기일</td>
+														<td width="420">전 E100A를 7월16일날 샀습니다. 제가 무식해서 그런지는 몰라도 너무 좋네요. 먼저 삼성 애니콜을 쓰고 있었는데, 액정화면이 작아 답답했었어요. 많은 기능이 추가된 제품이면서도 삼성제품보다 가격이 저렴해 부담도 줄었습니다. 처음 살때 후발업체 제품이라 반신반의 했지만...잘 샀다는 생각이 듭니다. 아껴 써야죠!!</td>
+														<td width="31" align="center"><a href="javascript:comment('del','27');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">박종연</td>
+														<td width="420">이거 제품사양에는 전화번호부가 2000개라더니 200개밖에 안 됩니다. 사기^^</td>
+														<td width="31" align="center"><a href="javascript:comment('del','28');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">양원섭</td>
+														<td width="420">E100A를 쓰고 있는데... 편리한 기능이 많은것같네요! 몇가지 중~~ 스피커폰을 설정하면 운전중에도편하고 긴통화시에 팔이 아프거나 폰이 뜨거워져서 얼굴에 땀날일도 없네요!!  번호와함께 사진이 뜨는것도 맘에 드는 기능입니다.아쉬운점은 사진을 30개밖에 저장할수가 없다는게 너무 서운하네요ㅡ.ㅡ참!!!전화번호부는 500개까지 되던데요??E100A쓰시는분들 행복한통화 많이하세요^^~~~~</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">이상화</td>
+														<td width="420">E100을 사려고 하다가 그냥 신형 E100A 를 샀는데 별로 차이는 없는것 같습니다. 글구 디자인이 더 세련된거 가태서 지금 만족하구여,ㅋ 좋은가격에 사서 그런지 너무 행복합니다.ㅋ 단점이라면 기능이 거의 E100 이랑 비슷하다는거죠..이폰사신분 잘쓰세요.ㅋ 전 이폰에 대해 흡족합니다^^</td>
+														<td width="31" align="center"><a href="javascript:comment('del','30');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">정성훈</td>
+														<td width="420">가격대비 성능 디자인 만족합니다. 그러나 한가지 흠이라면 좀 크군요.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','31');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85" height="22" style="padding-left:10px">김일구</td>
+														<td width="420">크기와 모양은 샤프하게 생겨서 괜챦은데 밧데리가 너무빨리 약해지네요</td>
+														<td width="31" align="center"><a href="javascript:comment('del','32');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<tr bgcolor="#7EADB4">
+														<td colspan="3" style="color:white;padding-left:10px">나도 한마디...</td>
+													</tr>
+													<tr>
+														<td colspan="3" style="padding-left:15px; padding-top:6px">
+															내용&nbsp;&nbsp;<input size="75" name="comment_content">
+														</td>
+													</tr>
+													<tr>
+														<td colspan="3" style="padding:6px,0,10px,15px">
+															<img src="images/warning_01.gif">
+															<a href="javascript:comment('add','0');"><img src="images/btn_write.gif" border="0"></a>
+														</td>
+													</tr>
+													</form>
+													<tr><td colspan="3" height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td colspan="3" bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+										<tr>
+											<td width="10"></td>
+											<td colspan="3" height="6" bgcolor="#707070"></td>
+										</tr>
+										<tr align="right">
+											<td width="10"></td>
+											<td colspan="3" height="35" background="images/list_bottom_bg.gif" style="padding-right:20px">
+												<a href="./ProductList.asp"><img src="/common/images/btn_list.gif" border="0"></a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 리뷰 END -->
+						</table>
+					</td>
+				</tr>
+			</table><br><br><br>
+		<!-- // 메인 컨텐츠 END -->
+		</td>
+<!-- 푸터 include -->	</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		<td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestIntro.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="467,61,564,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="581,61,628,79" href="/footer/partner.asp">
+<area alt="이용문의" coords="644,62,694,79" href="/footer/qna.asp?table=askhow">
+<area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>
+</body>
+</html>

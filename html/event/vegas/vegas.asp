@@ -1,0 +1,1 @@
+<script>alert('큐리베가스 입장권을 받아야 합니다!');location.href='/html/event/vegas/index.asp';</script>

@@ -1,0 +1,279 @@
+
+<html>
+<head>
+	<title>큐리텔제목</title>
+	<link href="/Common/css/basic.css" rel="stylesheet" type="text/css">
+	<script language=javascript>
+	function view_form(p_id,re_id){
+		document.myform.table.value = "Notice";
+		document.myform.mode.vlaue="view";
+		document.myform.id.value = p_id;
+		document.myform.reid.value = re_id;
+		document.myform.action = "bbs_content.asp";
+		document.myform.submit();
+	}
+	function update_form(obj,a){
+		document.myform.table.value = "Notice";		
+		document.myform.mode.value=obj;
+		document.myform.id.value = a;
+		if (obj == "delete") {
+			ck_confirm = confirm("삭제 하시겠습니까?");
+			if (ck_confirm == true) {
+				document.myform.action = "bbs_delete_save.asp";
+				document.myform.submit();
+			}else {
+				return;
+			}
+		}else {		
+			document.myform.action = "bbs_update.asp";
+			document.myform.submit();
+		}
+	}
+	function write_form(a,b){
+		if (a=="") {
+			document.myform.table.value = "Notice";
+			document.myform.mode.value="write";			
+			document.myform.action = "bbs_write.asp";
+			document.myform.submit();
+		}else{
+			document.myform.table.value = "Notice";
+			document.myform.mode.value="rewrite";
+			document.myform.id.value = a;
+			document.myform.b_subnum.value=b;
+			document.myform.action = "bbs_write.asp";
+			document.myform.submit();
+		}
+	}
+	function list_form(){
+		document.myform.table.value = "Notice";
+		document.myform.mode.value="list";
+		document.myform.action = "bbs_list.asp";
+		document.myform.submit();
+	}
+	function download(obj){		
+		document.myform.table.value = "Notice";
+		document.myform.mode.value = "download";
+		document.myform.id.value=obj;	
+		document.myform.action = "download.asp";					
+		document.myform.submit();
+	}
+	</script>
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr><td colspan="3"><EMBED src="images/curitel_footer.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED></td>
+
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/Common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+> <font color="#FFFFFF">공지,이벤트</font>
+
+</td>
+
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include START-->
+		<td width="197" valign="top" background="images/left_bg.gif">
+			<!-- 레프트 메뉴 include-->
+			<table width="197" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top"><img src="images/left_image_07.gif"></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+
+				<tr>
+					<td align="center"><a href="/Footer/Member_info.asp"><img src="images/left_menu_01.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+
+				<tr>
+					<td align="center"><a href="/Footer/bbs_list.asp?table=Notice"><img src="images/left_menu_03.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<!--<tr>
+					<td align="center"><a href="/Footer/qna.asp?table=askhow"><img src="images/left_menu_04.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>-->
+				<tr>
+					<td align="center"><a href="/Footer/privacy.asp"><img src="images/left_menu_05.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/Footer/partner.asp"><img src="images/left_menu_06.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/Footer/qna.asp?table=toadmin"><img src="images/left_menu_07.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<tr>
+					<td align="center" bgcolor="#ffffff"><img src="/common/images/spacer.gif" height="6"></td>
+				</tr>
+			</table>
+		
+		</td>
+		<!-- 레프트 메뉴 include END-->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+			<table width="580" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td class="main_first">
+						<table width="550" cellpadding="0" cellspacing="0" border="0" style="margin:15px">
+							<form name=myform action='' method=post>
+							<input type=hidden name=table>
+							<input type=hidden name=mode>
+							<input type=hidden name=id>
+							<input type=hidden name=reid>
+							<input type=hidden name=b_subnum>
+							<tr>
+								<td colspan="2">
+			                 <TABLE cellpadding="0" cellspacing="0" border=0 width=550 align=center>
+									
+										<tr><td bgcolor="#4F4F4F" height="1" colspan="4"></td></tr>
+										<tr bgcolor="#707070">
+											<td height="30" width="60" align="center" style="color:#ccc">제목</td>
+											<td width="2"><img src="/Common/images/list_sep.gif"></td>
+											<td colspan="2" style="color:#fff; padding-left:15px" width=518>[이벤트] 아이디어 이벤트를 공모합니다. </td>
+										</tr>
+										<tr bgcolor="#CFCFCF">
+											<td style="padding-right:20px" align="left" colspan="4" height="30">
+											<span style="color:#888">번호</span><img src="/Common/images/list_sep.gif" align="absmiddle" hspace="6">27
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span style="color:#888">날짜</span><img src="/Common/images/list_sep.gif" align="absmiddle" hspace="6">2002-12-30 오후 4:46:18
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span style="color:#888">조회수</span><img src="/Common/images/list_sep.gif" align="absmiddle" hspace="6">10765</td>
+										</tr>
+										<tr><td bgcolor="White" height="2" colspan="4"></td></tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="550" cellpadding="0" cellspacing="1" border="0" bgcolor="#C1C1C1">
+										<tr>
+											<td>
+												<table width="548" cellpadding="0" cellspacing="0" border="0">
+
+													<tr bgcolor="White"><td colspan="2" height="1" background="/Common/images/list_dots.gif"></td></tr>
+													<tr bgcolor="White">
+														<td colspan="2" style="padding:20px,10px,20px,10px">
+															        <!-- top image -->        <table width="520" border="0" cellpadding="0" cellspacing="0">            <tr>                <td><img src="http://www.curitel.co.kr/event/images/idea_img01.gif" border="0"></td>            </tr>            <tr>                <td height="7"></td>            </tr>            <tr>                <td align="center"><img src="http://www.curitel.co.kr/event/images/idea_img02.gif" border="0"></td>            </tr>            <tr>                <td align="center"><img src="http://www.curitel.co.kr/event/images/idea_img03.gif" border="0"></td>            </tr>            <tr>                <td align="center"><img src="http://www.curitel.co.kr/event/images/idea_img04.gif" border="0"></td>            </tr>        </table>        <!-- top image -->                        <!-- 아이디어 공모 참여하기 -->        <table width="520" border="0" cellpadding="0" cellspacing="0">            <tr>                <td width="10" height="8"></td>                <td width="304"></td>                <td width="1"></td>                <td width="205"></td>            </tr>            <tr>                <td colspan="4" height="1" bgcolor="#DFDFDF"></td>            </tr>            <tr>                <td></td>                <td valign="top">                                <table width="260" border="0" cellpadding="0" cellspacing="0">                    <tr>                        <td width="122" height="14"></td>                        <td width="138"></td>                    </tr>                    <tr>                        <td colspan="2"><img src="http://www.curitel.co.kr/event/images/idea_title01.gif" border="0"></td>                    </tr>                    <tr>                        <td colspan="2" height="13"></td>                    </tr>                    <tr>                        <td valign="baseline" style="color: #333333; padding-left: 30px;"><b>공모기간 : </b>&nbsp;</td>                        <td style="color: #FF6F3D;">2002년 12월 30일 (월) ~ 2003년 1월 31일 (금)</td>                    </tr>                    <tr>                        <td colspan="2" height="5"></td>                    </tr>                    <tr>                        <td valign="baseline" style="color: #333333; padding-left: 30px;"><b>당선작 발표 : </b>&nbsp;</td>                        <td>2003년 2월 17일 (월)<br>팬택&큐리텔 홈페이지</td>                    </tr>                </table>                                </td>                <td bgcolor="#D9D9D9"></td>                <td valign="top">                                <table width="205" border="0" cellpadding="0" cellspacing="0">                    <tr>                        <td width="30" height="14"></td>                        <td width="175"></td>                    </tr>                    <tr>                        <td colspan="2"><img src="http://www.curitel.co.kr/event/images/idea_title02.gif" border="0"></td>                    </tr>                    <tr>                        <td colspan="2" height="13"></td>                    </tr>                    <tr>                        <td></td>                        <td style="color: #333333;">팬택&큐리텔 홈페이지<br><a href="http://www.curitel.com/" target="_new" style="color: #0059BD; text-decoration: underline;">www.curitel.com</a> 온라인 접수</td>                    </tr>                    <tr>                        <td colspan="2" height="5"></td>                    </tr>                    <tr>                        <td></td>                        <td style="color: #FF6F3D;">* 디자인 부문은 반드시 사진이<br>&nbsp;&nbsp;나 그림파일을 첨부해야 접수<br>&nbsp;&nbsp;가능함</td>                    </tr>                </table>                                </td>            </tr>            <tr>                <td colspan="4" height="11"></td>            </tr>            <tr>                <td colspan="4" height="1" bgcolor="#DFDFDF"></td>            </tr>        </table>        <!-- 아이디어 공모 참여하기 -->                <!-- 공모분야 -->        <table width="520" border="0" cellpadding="0" cellspacing="0">            <tr>                <td width="10" height="20"></td>                <td width="120"></td>                <td width="390"></td>            </tr>            <tr>                <td></td>                <td colspan="2"><img src="http://www.curitel.co.kr/event/images/idea_title03.gif" border="0"></td>            </tr>            <tr>                <td colspan="3" height="8"></td>            </tr>            <tr>                <td></td>                <td valign="baseline" style="color: #333333; padding-left: 30px; letter-spacing: -1;"><b>제품 부문</b></td>                <td> : &nbsp;Hit 제품 아이디어</td>            </tr>            <tr>                <td></td>                <td valign="baseline" style="color: #333333; padding-left: 30px; letter-spacing: -1;"><b>디자인 부문</b></td>                <td> : &nbsp;큐리텔 제품 New Design Concept (사진이나 그림화일 첨부)</td>            </tr>            <tr>                <td></td>                <td valign="baseline" style="color: #333333; padding-left: 30px; letter-spacing: -1;"><b>광고/판촉 부문</b></span></td>                <td> : &nbsp;큐리텔 제품 광고, 이벤트, 판매촉진 아이디어</td>            </tr>            <tr>                <td colspan="3" height="20"></td>            </tr>            <tr>                <td></td>                <td colspan="2" height="1" background="http://www.curitel.co.kr/event/images/dot_hline01.gif"></td>            </tr>        </table>        <!-- 공모분야 -->                <!-- 시상내역 -->        <table width="520" border="0" cellpadding="0" cellspacing="0">            <tr>                <td width="384">                                <table width="370" border="0" cellpadding="0" cellspacing="0">                    <tr>                        <td width="40" height="15"></td>                        <td width="37"></td>                        <td width="293"></td>                    </tr>                    <tr>                        <td colspan="3"><img src="http://www.curitel.co.kr/event/images/idea_title04.gif" border="0"></td>                    </tr>                    <tr>                        <td colspan="3" height="8"></td>                    </tr>                    <tr>                        <td height="18"></td>                        <td colspan="2"><span style="color: #333333;"><b>대<img src="http://www.curitel.co.kr/event/images/trans.gif" border="0" align="absmiddle" width="26" height="1">상 1명</b> </span>: 현금 200만원</td>                    </tr>                    <tr>                        <td height="18"></td>                        <td colspan="2"><span style="color: #333333;"><b>최우수상 1명</b> </span>: 현금 100만원</td>                    </tr>                    <tr>                        <td height="18"></td>                        <td colspan="2"><span style="color: #333333;"><b>우<img src="http://www.curitel.co.kr/event/images/trans.gif" border="0" align="absmiddle" width="7" height="1">수<img src="http://www.curitel.co.kr/event/images/trans.gif" border="0" align="absmiddle" width="6" height="1">상 4명</b> </span>: 현금 50만원</td>                    </tr>                    <tr>                        <td colspan="3" height="10"></td>                    </tr>                    <tr>                        <td></td>                        <td colspan="2" style="color: #FF6F3D;">* 제세공과금 수혜자 부담<img src="http://www.curitel.co.kr/event/images/trans.gif" border="0" align="absmiddle" width="10" height="1">* 응모분야 및 건수 제한 없음</td>                    </tr>                    <tr>                        <td colspan="3" height="40"></td>                    </tr>                    <tr>                        <td colspan="2" align="right"><b>문의 :</b>&nbsp;</td>                        <td>팬택&큐리텔 홈페이지 담당자</td>                    </tr>                </table>                                </td>                <td width="150" valign="top">                                <table width="150" border="0" cellpadding="0" cellspacing="0">                    <tr>                        <td height="30"></td>                    </tr>                    <tr>                        <td><img src="http://www.curitel.co.kr/event/images/btn_entry.gif" border="0" align="absmiddle">&nbsp;&nbsp;&nbsp;<img src="http://www.curitel.co.kr/event/images/btn_regist.gif" border="0" align="absmiddle"></td>                    </tr>                </table>                                </td>            </tr>            <tr>                <td colspan="2">                <table width="520" border="0" cellpadding="0" cellspacing="0">                    <tr>                        <td width="77" valign="baseline" align="right"><b>기타 :</b>&nbsp;</td>                        <td width="443">응모 접수된 작품은 반환되지 않으며, 당선작의 저작권은 팬택&큐리텔에 귀속됨.<br>응모 접수된 작품은 순수창작물 이어야 하며 표절 및 모방작일 경우 당선이 취소될<br>수 있고, 그로 인해 발생된 책임은 팬택&큐리텔이 지지 않음</td>                    </tr>                </table>                </td>            </tr>        </table>        <!-- 시상내역 --><br>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr><td bgcolor="White" height="2" colspan="2"></td></tr>
+							<tr><td bgcolor="#707070" height="5" colspan="2"></td></tr>
+							<tr>
+								<td colspan="2" height="35" background="/Common/images/list_view_bottom.gif" align="right" style="padding-right:15px">
+									<a href="javascript:list_form();"><img src='/Common/images/btn_list.gif' border='0' hspace='5'></a>
+								</td>
+							</tr>
+							<tr><td bgcolor="White" height="30" colspan="2"></td></tr>
+
+							<tr><td bgcolor="#969696" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr>
+								<td colspan="2">
+									<table width="550" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="80" height="24" align="center" bgcolor="#969696" style="color:White">이전글</td>
+											<td style="padding-left:15px"><a href="javascript:view_form('5568','28');" class='list_zone'>[당첨자발표] 게임만 잘해도</a></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="#969696" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr>
+								<td colspan="2">
+									<table width="550" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="80" height="24" align="center" bgcolor="#969696" style="color:White">다음글</td>
+											<td style="padding-left:15px"><a href="javascript:view_form('5061','26');" class='list_zone'>[이벤트] 영화 "아이스파이"에 초대합니다.  </td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="#969696" height="1" colspan="2"></td></tr>
+						</table><br><br><br>
+					</td>
+				</tr>
+			</table>
+</td>
+<!-- 푸터 include -->	</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		
+  <td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestFinanc_03.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="534,61,631,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="646,62,693,80" href="/footer/partner.asp">
+  <area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>
+</body>
+</html>

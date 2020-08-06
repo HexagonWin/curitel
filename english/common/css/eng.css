@@ -1,0 +1,79 @@
+body {margin:0;
+	  background-attachment: scroll;
+	  background-image: url(/english/images/bg.gif);
+	  background-repeat: repeat-x;
+	  }
+body,td {color: #706F6F;font-family: arial;font-size:8pt; text-decoration:none;line-height:12pt}
+				 
+A {color: #646464;text-decoration:none;}
+A:link {color: #646464; }
+A:visited {color: #646464;}
+A:active {color: #646464;}
+A:hover { color:#8A9854;}
+				 
+img {border:0}
+.input01{background:#EFF2F4;font-size:8pt;height:19;width:152}
+.input02{background:#EFF2F4;font-size:8pt;height:19;width:140}
+.input03{color:#646464;font-size:8pt;height:19;}
+.input04{color:#646464;font-size:8pt;}
+/*우측 패턴*/
+.r_bg {background:url('/images/m_bg.gif');background-repeat:repeat-x;}
+.l_px {width:149;padding:0 0 0 17}
+.m_px {width:584;padding:2 18 0 24}
+
+/*우측 Quick Menu*/
+.quick A {color: #9EC5D3;text-decoration:none;font-weight:bold;}
+.quick A:link {color: #9EC5D3;font-weight:bold}
+.quick A:visited {color: #9EC5D3;font-weight:bold}
+.quick A:active {color: #9EC5D3;font-weight:bold}
+.quick A:hover { color:#9EC5D3;font-weight:bold}
+
+/*Left Menu*/
+.left {color: #898989;text-decoration:none;font-weight:bold;padding:0 0 0 9;cursor:hand}
+.left A {color: #898989;text-decoration:none;font-weight:bold;}
+.left A:link {color: #898989;font-weight:bold}
+.left A:visited {color: #898989;font-weight:bold}
+.left A:active {color: #898989;font-weight:bold}
+.left A:hover { color:#FF8A00;font-weight:bold}
+.left_o {background-color:#E9EEF0;color:#FF8A00;text-decoration:none;font-weight:bold;padding:0 0 0 9;cursor:hand}
+.left_o A {color:#FF8A00;text-decoration:none;font-weight:bold;}
+.left_o A:link {color:#FF8A00;font-weight:bold;}
+.left_o A:visited {color:#FF8A00;font-weight:bold;}
+.left_o A:active {color:#FF8A00;font-weight:bold;}
+.left_o A:hover {color:#FF8A00;font-weight:bold;}
+
+/*location */
+.location {color: #4A8BA0;text-decoration:none;padding:1 0 0 1}
+.location A {color: #4A8BA0;text-decoration:none}
+.location A:link {color: #4A8BA0;}
+.location A:visited {color: #4A8BA0;}
+.location A:active {color: #4A8BA0;}
+.location A:hover  { color:#4A8BA0;}
+.location_o {color:#949494;text-decoration:none;font-weight:bold}
+
+.green01{color:#8A9854}
+.title01{color:#8A9854;font-weight:bold}
+.txt01 {color:#8A9854;font-weight:bold;padding:3 0 3 18}
+.txt02 {color:#8A9854;padding:3 0 3 18}
+.product01 {color:#588A98;font-weight:bold}
+.product02 {color:#51893D;font-weight:bold}
+.product03 {color:#507BB2;font-weight:bold}
+.product03_1 {color:#588A98;font-weight:bold}
+.product04 {color:#758C06;font-size:26px;font-weight:bold;line-height:28pt}
+.product05 {color:#7E7E7E;font-size:16px;font-weight:bold;line-height:17pt}
+.product06 {color:#000000;font-size:21px;font-weight:bold;}
+
+/*게시판 리스트*/
+.list {color:#8A9854}
+.list A {color: #8A9854;text-decoration:none;}
+.list A:link {color: #8A9854;}
+.list A:visited {color: #8A9854;}
+.list A:active {color: #8A9854;}
+.list A:hover { color:#8A9854;text-decoration:underline;}
+
+.bbs01 {background:#A6B376 url('/english/images/bbs_l.gif') no-repeat fixed left top;color:#FFFFFF;font-weight:bold}
+.bbs02 {background:#CAD3B3;color:#FFFFFF;font-weight:bold}
+.bbs02_1 {background:#CAD3B3 url('/english/images/bbs_r.gif') no-repeat fixed right top;color:#FFFFFF;font-weight:bold}
+.bbs03 {background-color:#F1F6EF;}
+.bbs04 {background-color:#CAD3B3;}
+.bbs05 {background-color:#DCE6D9;}

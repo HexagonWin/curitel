@@ -1,0 +1,914 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/community.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<script>
+function _del(b_id){
+  if(confirm("정말 삭제하시겠습니까?")){
+	document.location.href="event_process.asp?prc_seq=D&b_id="+b_id
+  }
+  }
+  </script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/community/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:3"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" !background="/img/community/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/community/eventlife/sailer/index_view.asp?b_id=29&page=1&num=25">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/community/eventlife/sailer/index_view.asp?b_id=29&page=1&num=25">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/community/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right" background="/img/community/titleleftbg.gif"><a href="/html/community/index.asp" onfocus="this.blur()"><img src="/img/community/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" valign="top" style="padding:2 0 0 0"><div style="zindex:0"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="589" height="51"><param name=wmode value=transparent>
+                <param name="movie" value="/inc/flash/community/submenu.swf?html_Num=40">
+                <param name="quality" value="high">
+                <embed src="/inc/flash/community/submenu.swf?html_Num=40" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="589" height="51"></embed></object></div></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit();</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr> 
+						<td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a> > <a href="/html/community/index.asp">Community</a> > <a href="/html/community/eventlife/index.asp">이벤트라이프</a> > 범선여행 스케치</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"><img src="/img/b.gif" width="83" height="1"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="140">
+					               <param name="movie" value="/inc/flash/left/left_community04.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_community04.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="140"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top" class="ctsmgn">
+		<!-- #####Contents##### -->			    
+            
+			<table width="557" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td height="26"> <table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr> 
+								<td><img src="/img/community/eventlife/sailer/subimg00.gif" alt="" border="0"></td>
+							</tr>
+							<tr> 
+								<td height="1"></td>
+							</tr>
+							<tr> 
+								<td height="26" bgcolor="#F6F8F9"></td>
+							</tr>
+						</table></td>
+				</tr>
+				<tr> 
+					<td height="20"></td>
+				</tr>
+				<tr> 
+					<td class="pad8"><img src="/img/community/eventlife/sailer/img_sailer.gif"></td>
+				</tr>
+				<tr> 
+					<td height="20" class="pad8"></td>
+				</tr>
+				<tr> 
+					<td class="pad8"> 
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+							<tr> 
+								<td colspan="3" height="31" style="font-weight:bold;color:#C83789;padding:0 0 0 10;font-size:9pt">☆★초강추 Luxury M.T (강촌편)Full Version</td>
+							</tr>
+							<tr> 
+								<td height="16" bgcolor="#F2F2F2" colspan="3"></td>
+							</tr>
+							<tr> 
+								<td height="31" bgcolor="F2F2F2" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 25</td>
+								<td bgcolor="F2F2F2" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font> 등록일</b> : 2003.09.09</td>
+								<td bgcolor="F2F2F2" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font> 조회수</b> : 1108</td>
+							</tr>
+							<tr> 
+								<td height="1" colspan="3" bgcolor="#C9C9C9"></td>
+							</tr>
+							<tr> 
+								<td colspan="3" style="padding:25 11;line-height:16px" valign="top" class="8"> <img src="http://file.curitel.com/upload/old_event/이창욱팀장님.JPG" width="480"><br>
+									<br>
+									<font style='font:10pt'><br>
+ 저희 큐리텔 범선 1기 35명중 21명이 강촌으로 엠티를 9. 6(토)-7(일)다녀왔습니다~이 <br>
+<br>
+글은 그 당시 제가 다녀왔던 감상을 후기로 cyworld.com의 &quot;큐리텔 범선 1기&quot; 클럽에<br>
+<br>
+게시한 글을 그대로 옮겨온 것입니다~ 혹시 못 보신 분이시나 저희 모임이 어떤 분위<br>
+<br>
+기이신지 그리고 아직까지 범선여행이후 계속 연락하며 모임을 지속해나가는 과정을<br>
+<br>
+알려드리고 보여드리기 위해 올린 것입니다~ 그럼, 즐감하세요~~*^^*<br>
+<br>
+자아~~이제서야 엠티 후기 올리시는 이유 다들 아시져? 다들 주무시고 계실때 저랑 민<br>
+<br>
+호는 8시 30분에 기상해서 부스스~~짐 챙겨서 강촌역가서 설 도착하자마자 집에 들러 <br>
+<br>
+샤워하고 옷갈아입구~ 의정부까지 과외갔다가 6기 30분에 끝나고 집에 8시 도착해서 다<br>
+<br>
+시 샤워하고 옷갈아입구(누가 보면 연옌인줄 알듯..-.-;;) 홍대로 가서 친구들 모임(커플 <br>
+<br>
+10명)에 가서 또 술마시고 게임하고 12시가 되어서야 집에 돌아와서 간단하게 싸이월드<br>
+<br>
+(사이월드 아님~명덕쓰~그치?? ㅋㅋ) 게시판 보구 리플달구~ㅎㅎ 지금은 어디냐구<br>
+<br>
+요??? 10시에 마케팅 수업듣구~ 점심먹기전 공강시간이어서 후기 쓰러 컴터실루 왔<br>
+<br>
+답니다~ 물론 이 아까운 글들 순식간에 날라갈까봐 옆에 메모장 띄워놨죠..ㅋㅋ ^^V 오<br>
+<br>
+늘은 평소보다 더 길지두 모르니 Scroll 압박 심할지두 모릅니다~ (먼말인지 모르시는 분<br>
+<br>
+은 엠파스에게 물어보도록!!)캬캬~~ 영식형~ 나 잘했쮜? 흐흐~ &quot;네이버는 암껏두 모른<br>
+<br>
+다~~ 엠파스는 쪼~매 안다~~&quot; ㅋㅋ암튼 지금까진 갠적인 얘기였구~ 자아~ 이제 슬슬 <br>
+<br>
+달려볼까요~~ 음~ 우선 저희가 11시 즈음해서 청량리 롯데백화점 정문에서 만났습니<br>
+<br>
+다..이때 장보는 멤버들은 저랑 철이, 승연이, 정선이, 은쥬(채팅버젼..--;;), 미영이, 활훈<br>
+<br>
+이, 부규..이렇게 총 8명이었구요~ 회비를 다 걷은 다음에 롯데백화점 지하 슈퍼로 가서 <br>
+<br>
+소주 1박스, 라면,쏘세지, 고기 등등해서 철이가 올린 것처럼 13만 4천원인가 사구요~ 거<br>
+<br>
+기 계산하시는 아가씨가 15만원치 사면 1만 5천원짜리 상품권을 준다길래 얼른 고기<br>
+<br>
+를 &quot;아짐마~ 고기 1만 4천원어치만 더 주셔용~&quot;해서 15만원 꾹~ 꾹 ~ 눌러서 채워서 상<br>
+<br>
+품권 받아와서 다시금 양념고기를 또 샀습니다~역시 이벤트로 모인 모임아니랠까봐~ 공<br>
+<br>
+짜로 챙길건 다 챙겨옵니당~~흐흐~~구렇게 해서 1차로 장보는 것은 끝~ 글구 김밥천<br>
+<br>
+국에서 김밥 사와서 저희들은 기차에서 점심으로 김밥을 먹었구요~ 강촌행 무궁화호는 <br>
+<br>
+12시 35분이었구~ 혹시나 학생할인이 되나해서 학생증을 모두 회수한 담에 철이랑 제가 <br>
+<br>
+총~~총~~ 기차표 사러 갔습니다..역시나 구간이 짧아서 학생할인 안된다는군요~ 그래<br>
+<br>
+도 회원카드 할인 혜택받아서 300원 할인받고~ 덕분에 애들 학생증 구경 자알~하고..<br>
+<br>
+ㅋㅋ 딱 8명이기에 숫자두 맞았죠..남자 넷, 여자 넷..그럴 줄 알았으면 기차서 시트콤 찍<br>
+<br>
+는건데..ㅎ.ㅎ 왼쪽편에 앉은 멤버는 미영이, 정선이, 철이, 활훈이이구~ 저희쪽은 부규<br>
+<br>
+랑 저랑 은쥬랑, 승연이였슴당.. 통일호가 아니라 무궁화호이기에 아무래도 저희들의 사<br>
+<br>
+회적 지위와 체면을 생각해서 쪼끔만~떠 들구 갔습니다..그래두 승무원 아자씨 지나가시<br>
+<br>
+면서 넘 떠들지 마라구 주의주시더군요~~난 말두제대루 못했는데..ㅠ.ㅠ 아자씨~넘 해<br>
+<br>
+잉~~-.-;;; 김밥먹구 과자먹구 음료수 먹구 고렇게 떠들며 웃다가다보니 어느 새 강촌에 <br>
+<br>
+다왔더군요... 강촌역에서 저희들을 데리러 오는 &quot;열린 민박&quot; 의 봉고차를 기다리며 철이<br>
+<br>
+가 손수 만든(100% 수제품.. 배달가능. 3세~29세. 어린아이의 입에 들어가지 않도록 주<br>
+<br>
+의 요망) 알루미늄 호일 공으로 역에서 야구하며 놀았습니다..미영이가 그렇게 잘 칠줄이<br>
+<br>
+야~~(다 먹은 음료수 페트병으로 김밥쌌던 은박지 공을 치는 놀이~--;; 어찌나 알뜰한<br>
+<br>
+지..ㅠ.ㅠ) 흐흐~~ 자아~어느덧 시간이 다되어 모두 봉고에 짐을 싣고 몸도 싣고 기대<br>
+<br>
+도 싣고 떠났습니다..탄 지 2분만에 장소 도착~ㅋㅋ 저희의 숙소는 3층이었씁니다..제가 <br>
+<br>
+6월달에 머물렀떤 방은 2층이었는데~ 거기에 비교해서 방하나를 더 주셔서 방2개와 거<br>
+<br>
+실하나 주방 2개, 냉장고 2개, 안전망 없는 위험한 선풍기 2대(--.), 욕실 2개로 아주 넓<br>
+<br>
+게 공간을 사용할 수 있어서 좋았습니다~ 우선 정선이랑 활훈일 시켜서 반짝반짝 마루와<br>
+<br>
+방들 닦게 만들어 놓구~ 나머지 7명은 농협 하나로 마트에 가서 못 다본 장을 봤답니다<br>
+<br>
+~ 삼겹살 7근추가적으로 사고~ 음료수와 김치두..아스쿠림두 하나씩 사구~~흐흐~~ 냉<br>
+<br>
+장고에 소주와 고기를 넣어두며 속으로 뿌듯뿌듯~~ 대청마루에 다들 걸터앉아서 노닥노<br>
+<br>
+닥 수다떨면서 곧 도착하실 혜영누나와 봉석형님을 기다리구~ 아..맞다~그전에 저희가 <br>
+<br>
+강촌역에 도착했을때 아주 낯익은 얼굴이 하나있떠군요..강촌역까지 마중나온 우리의 정<br>
+<br>
+표군...빨간 티(강백호 얼굴이 그려진..--;;)에 머리는 역쉬나 빠짝세운 머리..흐흐~ 우리<br>
+<br>
+의 정표군 숙소에 들어오더니만 이것저것 만지다가 어디서 비닐 봉다리(일명 &quot;비니루&quot; <br>
+<br>
+비닐봉지의 사투리)를 들고 오더니만 플라스틱 페트병은 다 거기다 담으라고 하더군요~<br>
+<br>
+크크~ 우린 다 이 민박집 주인 아들인 줄 알구 진짜 웃겼답니다~ 어찌나 잘 어울리던<br>
+<br>
+지... 아마 방학때 대학생 주인집 아들이 고향에 내려와서 아버지 민박집 도와주는 것 같<br>
+<br>
+은 풍경..상상이 가시져? 흐흐~--;; 암튼 이제 혜영누나랑 봉석형 와서 삶은 계란과 잘 <br>
+<br>
+익은 바나나와 사과를 주셨습니당~~간식으로 걔들 먹고..아~ 글구 우리의 정선양 어찌<br>
+<br>
+나 사과를 맛나게 깎는지..진짜 맛있었습니다~~ 모양은 감자껍질 벗겨놓은 것과 흡사한<br>
+<br>
+~~보다 못한 철이~~ 어~ 나랑 깎는 스타일이 비슷하다 -> 이말을 해석하자면 어~ 나<br>
+<br>
+만큼 울퉁불퉁 못깎네...라고 들은 사람은 다들 직독직해 한 거라 볼 수 있죠...--;; 근데<br>
+<br>
+사과가 진짜 맛있었기에 다들 별 말 없더군요..크크~ 역시 다 잘할 순 없다고 나중에 설<br>
+<br>
+겆이 솜씨를 보여주겠다며 벼르고 벼르던 정선양!!! ㅋㅋ 나중에 설겆이 솜씨 나옵니다<br>
+<br>
+~~이따 언급하죠~~쿠쿠..<br>
+<br>
+암튼 그렇게 먹을 거 먹는데 또 우리의 우범형과 민호가 와서 맥주와 백세주를 옮기구 본<br>
+<br>
+격적으로 자전거를 타러 갔습니다~ &quot;열린 민박&quot;에 대해서 소개를 하자면 2층과 3층은 민<br>
+<br>
+박을 할 수 있게 계단을 올라가서 사용하고 1층은 닭갈비와 식당, 옆엔 &quot;열린 마트&quot;라는 <br>
+<br>
+슈퍼가 있고 지하엔 노래방이 앞마당엔 자전거 대여까지 다할 수 있는 One-stop 개념의 <br>
+<br>
+테마 민박집이죠..흐흐~ 머~갖다 붙이면 다 말이되지 않겠습니까...쿄쿄쿄~ <br>
+<br>
+암튼 2달 전에 여기서 자전거 빌려서 타다가 구곡폭포 가기 5분도 안돼서 자전거 체인 끊<br>
+<br>
+어지고 앞브레이크 작동안되고 또 한번은 바꾼 체인 다시 빠지고..암튼 3번이나 다시 왔<br>
+<br>
+따갔따 하는 바람에 질린터라 그냥 여기서 안빌리고 조금 걸어가서 새 자전거를 빌리려 <br>
+<br>
+했건만 눈치빠른 우리의 사장님 저희가 대규모로 이동하는 것을 보시고 자전거 안타냐<br>
+<br>
+구 얘기하시길래 당당하게 저 앞에 가서 빌릴라구요~했더니..당황하시더니 에이~ 여기<br>
+<br>
+서 그냥 타라구...하시더라구요..그래서 전에 타봤는데 다 자전거가 오래되서 상태가 안<br>
+<br>
+좋다했떠니 새 자전거도 들어왔고 잘해주시겟따고 하더군요..원래 이집이 젊은<br>
+<br>
+아자씨가 세분이서 거의 공동으로 같이 운영하는데 한명은 슈퍼담당, 한명은 기사 겸 숙<br>
+<br>
+박담당, 또 한명은 자전거 렌트 담당임다...흐흐~ 암튼 원래 자전거는 1인에 1시간 2000<br>
+<br>
+원이 표준 가격이구, 새 자전거는 3000원이거든요... 첨에 2시간이니 시간별로 다 돈받을<br>
+<br>
+려구 하는거 제가 아~ 그러면 못탄다구 가격 후려쳐서 결국 시간은 무제한, 1인용은 2처<br>
+<br>
+넌씩, 대신 새자전거 2인용짜리 3대만 3처넌씩치고 총 34000원으로 합의봤슴다... 2인용 <br>
+<br>
+자전거는 자전거를 전혀 못 타는 승연양과 제가 1호, 글구 철이와 은쥬가 2호, 혜영누나<br>
+<br>
+와 봉석형님이 커플 자전거 3호였구요~ 나머지 정표, 민호, 우범형, 활훈이, 정선이, 미<br>
+<br>
+영이, 부규, 정철이는 1인용으로 타구요.. 어차피 구곡폭포 올라갈거라서 자물쇠도 6개<br>
+<br>
+받구~ 힘차게 출발했습니다~ 역쉬 혼자 타는 멤버들이 빨리 가더군요~ 전 승연이랑 같<br>
+<br>
+이 열씨미 자전거 전용도로로 갔는데~ 경치두 좋구 공기두 좋구~ 거기다 날씨두 넘 좋아<br>
+<br>
+서 자전거 하이킹에 딱 좋더라구요~~*^^* 사람두 생각외로 별루 없었구~ 지나가면서 <br>
+<br>
+한명씩 사람들 제낄때마다 아~싸 하고 승연이랑 둘이 외치는데... 우리 뒤에 따라오시는 <br>
+<br>
+아줌마도 똑같이 따라하시더군요~~아~싸..ㅠ.ㅠ 전국 유행어가 되어버린..아~싸!!! ㅋ<br>
+<br>
+ㅋ 암튼 그렇게 저흰 땀을 뻘뻘 흘려가며 구곡폭포 입구까지 도착해서 자전거를 Parking <br>
+<br>
+시킨 담에 입장료를 끊어서 들어가려는데 단체는 30인부터 할인이 되는데 다른 곳에선 <br>
+<br>
+쉽게 볼 수 없는 &quot;춘천시민 50% 할인&quot;이라고 붙여져 있는 것이 아닙니까..춘천에 사는 우<br>
+<br>
+리의 정표군...이를 그냥 지나칠 수 없죠... 정표군 성큼성큼 매표소에 다가서서 관리 아<br>
+<br>
+자씨에게 대뜸 하는 말~ &quot;저~어~기...저는 춘.천. 시. 민. 이~거~든~요~~ (부산 사투리<br>
+<br>
+버젼..)&quot; 듣고있떤 우리 뒤집어 집니다... 아니~ 무슨 춘천시민인 사람이 경상도 사투리<br>
+<br>
+를 쓴단 말입니까..민증도 없고 학생증을 보여주면 몰라도...아자씨~ 그냥 불쌍해 보였는<br>
+<br>
+지 800원에 그냥 들여보내줍니다..흐흐~~저같앴으면 아마 &quot;에라이~~욘석아!!!&quot; 하고 꿀<br>
+<br>
+밤주고 깎아줬을텐데 말이죠..ㅋㅋ 암튼 그렇게 저흰 14명이서 15분정도의 코스인 구곡<br>
+<br>
+폭포까지 주변 경치를 쫄래~쫄래~ 구경하며 올라갔습니다~근데 조금씩 조금씩 뒤쳐지<br>
+<br>
+던 정선양~ 아~힘들다며 투덜투덜~~댑니다..무슨 투덜이 스머프 데려온 것두 아니구..<br>
+<br>
+뒤에서 두번째로 어린 것이...--;;; 그래서 막 갈구면서 델꾸 갑니다~~ㅋㅋ 그러다가 구<br>
+<br>
+곡폭포 도착..최근에 내린 강수량이 많은 관계로 꽤 괜찮은 물줄기가 쏟아집니다~ 이야<br>
+<br>
+~ 폭포 밑에 있느니 누가 계속 분무기로 제 얼굴에 뿌려주는 것같이 션~합니당..쿠쿠~ <br>
+<br>
+거기서 단체사진 한 번 찍고 좀 놀다가 다시 내려왔슴당...이제 시간이 거의 저녁 6시 무<br>
+<br>
+렵이고 내려갈 자전거 타고 가는 기분 최고입니다~~그거땜시 힘들게 올라오는 거져...쿠<br>
+<br>
+쿠~ 승연이랑 둘이서 신나게 달리며 저희가 1등으로 골인하는 줄 알았는데 1인용 자전<br>
+<br>
+거 가 두대가 슈~~웅 하고 지나갑니다..그래두 저희가 2인용 자전거중 에선 1등임당..홍<br>
+<br>
+홍~~*^^* 이제 민박집에 도착해서 저녁 준비 하려구 합니다~ 저녁 메뉴는 참치김치 찌<br>
+<br>
+개와 햄 부대찌개, 그리고 력셔리 삼겹살,(녹차삼겹살, 된장삼겹살과 같은 류입니다..붙<br>
+<br>
+이면 삼겹살 이름이죠..쿠쿠~^^) 임당... 준비조는 우범이형과 혜영누나, 미영이, 은주등<br>
+<br>
+등이 하구~ 나머진 설겆이 조라서 노닥노닥 노가리와 한쪽에선 고스톱치며 놀고~ 그렇<br>
+<br>
+게 이제 밥이 다 되고 찌개두 다되고 테이블 셋팅해서 거의 저녁 먹어도 될 무렵..여기서 <br>
+<br>
+한 가지 사건이 터집니다..아~ 근데 그전에 우범형이 도착했을 당시 정표군이 한 말부터 <br>
+<br>
+다시 곱씹어 보도록 하죠...당시 그때상황으로 돌아가자면 우린 3층 테라스에서 노닥노<br>
+<br>
+닥 하고 있을때 우범형이 도착했었&#52012;~ 그래서 짐들어주려고 철이와 저, 활훈이, 아마 정<br>
+<br>
+철이까지 내려갔나..암튼 그랬는데 형이 차에서 짐꺼내고 트렁크 열고 그랬을때..저희가 <br>
+<br>
+와서 저부터 아~형 오셨어요..오시느라 힘드셨&#52012;? 등등 안부인사를 하구 있는데...다른 <br>
+<br>
+애들두 마찬가지 그런 비슷한 말 하구 있는데..어디선가 들려오는 말~~&quot;야~~아~~ 오<br>
+<br>
+랜만이다...&quot; 허걱!!! ㅠ.ㅠ 이 무슨 버릇없는 말인가..해맑은 정표 나름대로 인사멘트를<br>
+<br>
+준비하다가 갑자기 차안에서 나온 우범형을 보고 넘 반가워서 혼자 감탄사를 내뱉었는<br>
+<br>
+데 하필이면 우범형이 차에서 나와서 정표 바로 앞에 서버리니까..상황이 정표가 바로 대<br>
+<br>
+놓구 우범형을 보면서 야아~ 오랜만이다..반말이 되어버린거죠... -.-;;; 진짜 난감했습니<br>
+<br>
+다..그 소식을 3층의 애들한테 얘기해주니 다 뒤집어지고..쿠쿠~~ 하긴 오랜만이긴 하<br>
+<br>
+져..캬캬~~ 암튼 에피소드 1탄이 그것이구~2탄은 바로 은쥬가 혜영누나에게 한 하극상<br>
+<br>
+임다..후훗~ 아까로 다시 돌아가서 밥 먹을 저녁 무렵...저랑 은주, 철이, 미영이가 오십<br>
+<br>
+세주 만든다구 소주와 백세주 따서 펫트병에 적절히 혼합하다가 전 그 작업을 마치고 이<br>
+<br>
+제 밥먹으려구 이동하는 순간~ 은쥬가 말합니다~ &quot;이야~ 너 뭐해?&quot; 그 순간모두 정적..<br>
+<br>
+동작을 멈추고 무언갈 하고 있는 사람을 찾아보았습니다~ 아무리 둘러보아도 무언갈 하<br>
+<br>
+는 사람은 전기밥통에 쪼그리구 앉아서 열쒸미 밥을 휘젓고 퍼려고 하는 혜영누나 밖에 <br>
+<br>
+없었습니다..또한 은주의 시선과 몸의 방향 역시 혜영누날 향하고 있었떤 겁니다..또 한<br>
+<br>
+번 모두들 뒤집어지고 이것이 의도된 정표와 은주의 하극상이란 말인가...--;; 그 우연을 <br>
+<br>
+가장한 치밀함에 다들 경탄하고 있었&#52012;...후훗~ 아마 은쥬는 혜영누나가 밥을 이리저리 <br>
+<br>
+휘젓고 있는 것이 마냥 신기햇떤 모양..그래서 속으로 언니~ 뭐해요? 라고 하고 싶었찌<br>
+<br>
+만 그 생각과는 달리 편하게 &quot;이야~ 너 뭐해?&quot;로 나온 것이죠...,홍홍~ 본 작가는 사람의 <br>
+<br>
+심리상태까지 읽을 수 있는 거의 1인칭 주인공 화자 시점까지 커버가 가능하답니다~~홍<br>
+<br>
+홍~~^^;;; 다시 1인칭 관찰자 시점으로 가서~~ 흠.. 그렇게 다들 모여서 불판 세 개에다<br>
+<br>
+가 고기 구워먹으며 우범형님이 너무나 예술적으로 승화시킨 참치김치찌개와 햄 부대찌<br>
+<br>
+개를 먹었죠..여기서 우범형님은 공인된 1등신랑감으로 낙점됩니다~ 기혼이신 관계로 <br>
+<br>
+후보는 아닌거죠..후훗~모든 여인네들이 놓친 우범형을 보며 한탄을 했지만 어쩌겠습니<br>
+<br>
+까~이제와서 물어달라 한들..크크~~남은 신랑감 후보들을 잘 훈련시키는 수밖에~~홍<br>
+<br>
+홍~~ 근데 넘 넘 마니 먹는 바람에 다들 배터져 주글라 함당~~ 구래서 일부는 대청마루<br>
+<br>
+에, 일부는 훌라랑 고스톱에...각자 편하게 자유시간을 갖는 동안 처음오로 모임에 오는 <br>
+<br>
+장미양이 대전서 온 것입니당~그동안 부러워만 하다가 드디어 합류!!! 일단 배고프대서 <br>
+<br>
+옆에서 승연인 섞어찌개 끓여주고(여기서 섞어찌개 = 부대찌개+참치김치찌개) 전 옆에<br>
+<br>
+서 고기 구워주고 콜라서비스에 녹차와 커피서비스까지 제공했습니다~ 고기 요리조리 <br>
+<br>
+뒤집어주고 골라주고 했는데두 야박하게 팁 천원도 안줍니다..ㅠ.ㅠ 난 어찌 먹구살라구<br>
+<br>
+~흠..고기를 안잘라줘서 그런가..유명 갈비집가면 팁두 주는데..--;; 암튼 그렇게 시중들<br>
+<br>
+어 가며 밥 다 먹이고(제가 먹여준 것은 아님..ㅠ.ㅠ) 그러다가 또 대구서 명덕이 오고~ <br>
+<br>
+여전히 명덕인 즐겁게 룰~루~랄~라 신나게 왔습니다~~ 땀을 무지 마니 닦더군요...여<br>
+<br>
+전한 컨셉...글구 새로운 버젼의 무언갈 말했는데..제겐 잘 전달이 안되었습니다..머시<br>
+<br>
+가..머래더라..&quot;송글~송글...쭈우욱~~머시기..머시기..==;;&quot; 암튼 그 주문같은 걸 외워대<br>
+<br>
+면서 이미지 굳히기에 한창이었고~ 참..맞다..아까 낮에 도착한 우리의 정철이..알고보<br>
+<br>
+니 저희 27살 동기들이 무지 많더군요..무려 4명씩이나 참석했으니..ㅋㅋ 정철인 그전날 <br>
+<br>
+밤새며 리포트쓰느라 원래 타야할 버스 놓치고 조금 늦게 도착했구요~ 명덕이나 정철이<br>
+<br>
+역시 멀리서 왔찌만 후회없이 잘 놀구 좋은 기억 남길 수 있어서 좋았다구 하더군요...<br>
+<br>
+이제 멤버가 마니들 모였습니다~ 봉석형님이 제안해서 한명씩 손가락으로 사람을 지목<br>
+<br>
+해서 술래가 숫자를 부르면 그 숫자대로 왔따갔다하다가 걸린 사람이 술먹기로 했습니다<br>
+<br>
+~물론 옵션은 세종대왕 에다가 손가락으로 지목하면 안되고 이름도 부르면 안되기..등등<br>
+<br>
+으로 해서 마니들 술을 마셨죠...&quot;게임의 지존&quot; 저 역시 외래어 땜시 다 걸렸습니다..입에 <br>
+<br>
+배어버린 &quot;오케이&quot; ㅠ.ㅠ &quot;99 퍼센트&quot; 등등 으로 걸리고.. 역쉬나 또 말 많은 사람이 잘 걸<br>
+<br>
+리더군용...쿠쿠~ 구렇게 시간을 보내다가 이제 이창욱팀장님과 정창환 팀장님이 도착하<br>
+<br>
+셨습니다..(이하 형이라 지칭함....ㅋㅋ) 그 두분이 무려 회비대신 찬조금으로 8마넌이나 <br>
+<br>
+주셔서 더욱 더 력셔리한 자리가 되었구요~ 그담에 또 12시 무렵에 훈이형과 우리의 회<br>
+<br>
+장님 영식형 그리고 선리가 도착해서 총 21명이 다모였습니다~ 글구 저흰 자전거 타고 <br>
+<br>
+후로 다들 오렌지색 반바지 유니폼을 입구 있었구요~ 긴팔은 새벽에 잘 때 이불대용으<br>
+<br>
+로 마니들 쓰더군용..후훗~사진보시면 알겁니당..쿠쿠~~ <br>
+<br>
+다들 이제 모여서 역쉬나 정표얘기를 합니다~ 영식형이 주말만 되면 정표가 문자메시지 <br>
+<br>
+와서 형~주말에 머해요? 머..등등 안부를 묻곤 한답니다..저나 훈이형 역시 같은 메시질 <br>
+<br>
+보내곤 하죠..후훗~근데 영식형이 &quot;아~ 형은 주말인데 데이트두 못하구 진짜 죽겟따..&quot; <br>
+<br>
+이렇게 답문을 보내면 정표는 이렇게 문자를 보낸다는군요...&quot;와~~아(천진난만한 웃음) <br>
+<br>
+진짜 형~ 데이트두 하구 좋겠어요..&quot; =.=&quot;&quot; 이 무슨 해괴망칙한 말인가...데이트 못한다는 <br>
+<br>
+얘기인데..그래서 영식형이 다시금 차근차근 문자를 이렇게 보냈땁니다..&quot;아니~ 데이트 <br>
+<br>
+할 여자도 없고...죽겠다...&quot; 그러니 우리의 정표군..다시금 카운터 펀치 날립니다~~&quot;야<br>
+<br>
+아~~그래두 형은 데이트할 여자두 있구 좋겠어요...&quot; 듣구 있는 우리 뒤집어집니다..어<br>
+<br>
+쩜 이리 뒷북을 잘 치는지..아마 고등학교때 밴드부였나봅니다... 우리의 영식형 열받아<br>
+<br>
+서 &quot;야야~~ 데이트할 여자두 없다니까...&quot; 정표군 질세라...마지막 마무리~~&quot;예~~에~<br>
+<br>
+형..구럼 데이트 잘하세요..꾸벅..(-.-)(_._) &quot; 정표군 Win(승)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!<br>
+<br>
+머..이런 얘기들이 오가며 백세주와 맥주, 소주, 백세주 원액, 요쿠르트 소주 등등 별의<br>
+<br>
+별 술이 다등장합니다..이&#46468; 제조창은 Made by 남궁철, 전미영 으로 추정됨... 암튼 그렇<br>
+<br>
+게 술 마시다가 이때 명덕이가 사온 폭죽으로 다같이 3층 테라스에서 불꽃놀이하면서 색<br>
+<br>
+다른 기분을 즐겼습니다... 쿠쿠~그리구선 야외에서 번개탄과 숯을 사와서 바베큐 삼겹<br>
+<br>
+살과 양념 갈비를 먹엇는데~ 진짜 &quot;와퍼&quot; 불고기 지글~~지글~~쟈글~쟈글~~ 최고였숨<br>
+<br>
+당...조금 타서 쓴 맛두 있긴했지만~암튼 그렇게 먹다가 갑자기 창욱이형이 큰 사발에대<br>
+<br>
+가(코펠에서 있는 흰색 플라스틱 밥그릇임..--;;) 소주를 따라줍니다~사랑하는 만큼 따<br>
+<br>
+라주라더니 진짜 꽉 채웁니다..어쩔 수 없이 원샷하고 창욱형이 훈이형에게 주더니 이제 <br>
+<br>
+분위기 걷잡을수 없습니다..철이도 원샷, 그담에 미영이도 원샷, 정선이두 원샷, 머..분위<br>
+<br>
+기 엄합니다~~=.=&quot;&quot; 전 더 이상 먹으면 뻗어서 기자로서의 역할을 수행하지 못할 거 같기<br>
+<br>
+에 방으로 살짝 들어갔떠니 포카멤버들 모였습니다..100원 기본 베이스에다가 Maximum <br>
+<br>
+1인당 2처넌까지 제한걸고 포카부터 천원,스티플 2천원, 로얄은 3천원까지 걸었습니<br>
+<br>
+다... 멤버는 민호, 창환이형, 명덕이, 봉석형, 부규, 저 이렇게 6명이었&#52012;... 그렇게 딱 1<br>
+<br>
+시간 놀았는데~봉석형은 한 번도 못이기시구 중간에 포기..아무래도 운이 진짜 없는 듯..<br>
+<br>
+전 중간에 평생 몇 번 잡기두 힘든 Poker가 떠서 상금까지 받았습니당...후훗~ 명덕이두 <br>
+<br>
+의 다 잃었구 부규가 2만 8천원따고 민호가 3천원 정도 따고 전 8천원정도 딴 거 같슴<br>
+<br>
+당...그 돈으로 부규가 나중에 맥주도 쏘고 아스크림도 쏘구 아마 자기돈이 더 나갔을 겁<br>
+<br>
+니다..배보다 배꼽이 더 큰 법이죠..--;;; 암튼 그렇게 다 끝내구 일어났는데 주변에 아무<br>
+<br>
+도 없는 겁니다...알고보니 다들 길건너편 노래방에서 젊음을 불사르고 있떠군요...우리<br>
+<br>
+도 다들 합류~~가보니 진짜 분위기 예술이었습니다..특히 훈이형..(형~ 기억없다구 하<br>
+<br>
+지마~ 증거로 사진까지 잇으니..ㅋㅋ) 영식형...모~거의 머리 신경안쓰고 둘 다 윗 상의 <br>
+<br>
+티에다가 머리집어놓구..일명 &quot;꼽사춤&quot;과 비슷한 형태의 현진영 춤을 추면서 분위기를 띄<br>
+<br>
+우고 또 영식형은 특기인빨간 소화전 들고 카메라맨 흉내내고...또 창욱이형도 D.J Doc <br>
+<br>
+노래부르면서 춤추고~ 사진은 제가 올리지 않는다는 조건하에 맘놓구 찍었기에 여기다 <br>
+<br>
+올리진 않겠습니다~ 대신 엠에센 하다가 영식형과훈이형의 꼽사 콤비춤을 보구 싶으시<br>
+<br>
+면 보내드리겠습니당..쿠쿠~ 그렇게 노래방서 신나게 흔들다가 밖에 나오니 새벽 5시정<br>
+<br>
+도였고 부규가 아스크림 사와서 같이먹구~또 맥주도 사서 다시 숙소로 향했습니당~~ <br>
+<br>
+밖을 보니 어슴푸레 날이 밝아오더군요..사상최초로 &quot;21인의 전사&quot;가 탄생하는 순간이었<br>
+<br>
+&#52012;..제가 학교다니면서 또 평생 엠티를 수십번 가봤지만 전원 밤샌적은 단 한번도 없었습<br>
+<br>
+니다..그치만 저희 가족은 해냈습니다...바로 범선 1기가 해낸거죠!!! 후훗~ 감동의 물결<br>
+<br>
+이..ㅠ.ㅠ 주르륵~~ 아마 이 기록은 그 어떤 팀두 깨지 못할 그런 사상초유의 불멸의 기<br>
+<br>
+록인셈이죠... 거실에 모여 다시 맥주를 마시고 그럴 즈음에 전 아까 언급한대로 민호랑 9<br>
+<br>
+시 19분 아침차를 타고 올라가서 또 과외 4시간에, 저녁 8시에 단체모임이 또 있었기에 <br>
+<br>
+더 즐길 순 없구 수면모드로 전환했습니다..그래서 새벽 5시 30분이후의 일들에 대해선 <br>
+<br>
+전 기억이 없구요~ 다만 제가 8시 30분에 눈을 떳을땐 전쟁이 끝난 폐허와 같은 그러한 <br>
+<br>
+풍경이 아침 햇살과 함께 제 눈에 비쳐졌습니다.. 우선 제가 잤던 방쪽엔 우범이형, 꼭 붙<br>
+<br>
+어서 껴안구 자구있는 혜영누나와 봉석형, 대짜로 뻗은 우리의 정사장님, 민호 이렇게 <br>
+<br>
+잔 거 같구요...대청마루엔 부규와 창환이형, 거실엔 베걔하나로 다정하게 샴쌍둥이 처<br>
+<br>
+럼 신기하게 잔 명덕일와 승연이(머리와 몸은 반대방향임) ㅋㅋ 글구 역쉬 대짜로 뻗은<br>
+<br>
+찰스 배큼(배 진짜 큼니다~`--;;) 정철이~ 또 다른방엔 주로 여인네들인 미영이, 은쥬, <br>
+<br>
+정선이, 장미,선리 등등과 영식형, 활훈이 정도가 있엇던 걸로 기억납니다...다들 이불<br>
+<br>
+에, 큐리텔 흰색 긴팔 점퍼에 가려져서 잘 안보였지만..암튼 민호랑 간단하게 씻구 짐을 <br>
+<br>
+챙겨서 우범형님에게만 먼저 간다구 전하고 저흰 걸어서 강촌역까지 갔습니다..9시 19분<br>
+<br>
+기차를 타고 청량리에 10시 52분쯤도착...거기서 민호는 기차를 타고 가고 전 버스를 타<br>
+<br>
+고 신촌으로 향했습니다...11시 40분에 도착...해서 씻구 옷갈아입구 1시에 의정부로 출발<br>
+<br>
+해서 과외를 가던 도중...지하철에서 계속 꾸벅꾸벅 졸구~ 그래도 철이랑 통화하구 멀리<br>
+<br>
+서 온 명덕이와 정철이,장미, 창환이형, 창욱이형께 문자 날리구...창욱형이 교대근처로 <br>
+<br>
+오면 곱창쏜다구 하더군요..그때 제가 또 부르져..각오하세요~~창욱형..ㅋㅋ 우리 애들 <br>
+<br>
+열라~ 잘 뭉칩니다..세시간전에 불러도 12명 기본모입니다..크크~~ 수원가는 훈이형과 <br>
+<br>
+영식형에게 전화드리고~ 아마훈이형이 운전하느라 젤 고생한 거 같습니다.. 영식형 바래<br>
+<br>
+다주고, 선리, 그리고 정선이까지..아직술도 덜 깻을텐데..형~내가 대신 차마니 팔아줄게<br>
+<br>
+~~ 구럼, 나 수원 또 가두 되지??? 흐흐~~^^V 담엔 꼭 길.림.성 갈꼬양~~쿄쿄쿄~~<br>
+<br>
+글구 또 마지막으로 회계 및 총무하느라 엠티가서도 계속 신경쓰구 수고해준 나의 오른<br>
+<br>
+팔 철이에게두고맙구~(아싸~나도 오른팔 생겼다..흐흐`~)글구 음식과 준비물 꼼꼼이 챙<br>
+<br>
+겨준 내 딸~미영이..(아싸~영식형~미안해..속도위반해서..0.- 근데 엄마가 없어..ㅠ.ㅠ) <br>
+<br>
+글구 또 청량리 근처 쇼핑센타와 각종정보 수집해준 내 막내 동생 정선이~ 또 항상 물심<br>
+<br>
+양면 신경써주고 힘든 상황에도 엠티에 참석해준 우리 은쥬~(오빠가 외로움에 부대낄 <br>
+<br>
+때 꼭 소개팅 시켜줘~아직보류야.ㅋㅋ), 글구 우리 신촌지부의귀염둥이, 마스코트 승연<br>
+<br>
+이~ 나땜에 4등 신랑감으로 밀려난 우리 활훈이~^^;;; (참고로 2등신랑감은탁월한 요리<br>
+<br>
+솜씨로 여인네들을 사로잡은 우리 창환이형~ㅋㅋ) 또 벌써 안티팬까지 생겨버린 우리<br>
+<br>
+럭셔리 부규~~ 항상 부부동반으로 저희들 즐겁게 해주고 잘 챙겨주시는 혜영누나와 봉<br>
+<br>
+석형, 글구 오셔서 요리해주고 저희가 해야할 일까지 다챙겨주고 맥주에 백세주까지 챙<br>
+<br>
+겨오신 우리 우범형,강남지부의 회원으로서 늘 끝까지 남아서 훈이형과 콤비로 우리를 <br>
+<br>
+즐겁게 해주는 선리~그리구 범선여행이후로 목 부상에 시달리면서 물리치료까지 받아가<br>
+<br>
+며 병마를 이겨내고 끝까지 참석해준 우리동기 민호~또 대전서 열씨미 온라인으로 활동<br>
+<br>
+하던 우리의 장미~(잠안자려구 노력하는 모습이 인상적이였어..ㅋㅋ), 춘천서 나이트 가<br>
+<br>
+던 댄스로 늘 즐겁게 해주던 우리의 마스코트 정표~ 역쉬나 기대를충족시켜줘서 최고<br>
+<br>
+야!!! 대구에서 내 친구의 친구인 정철이 역시 한다리 건너면 다안다니까~맨날엠에센으<br>
+<br>
+로 얘기하다 직접 보니 넘 반가&#50911;어~ 대구가서 또보자~ㅋㅋ 글구 우리 화끈하고 성격좋<br>
+<br>
+은명덕이~ 덕분에 불꽃놀이두 하구 맥주도 잘마셨어~ ^^* 글구 또 나의 두번째형 우리 <br>
+<br>
+훈이형~ 역시 형이 절 위해 무료 시식권 두장 꼬불쳐놨따면서 애들 앞에선 말못하고 문<br>
+<br>
+자 보내&#51499;을때 나 그&#46468; 감동받아서 울뻔했짢아...ㅠ.ㅠ 근데 나중에 9월 4일 찍힌게 발행<br>
+<br>
+일인지 모르고 행사만료일인지 알고찢어버렸을때 얼마나 가슴아프던지..--;; 형~나 그<br>
+<br>
+거 아직두 갖구있어..스카치 테잎으로 붙일라구~또 너무 멋진 우리 창욱이형~ 저 교대 <br>
+<br>
+꼭 갑니다~아시져~다들 제 성격..쿠쿠~ 한다면 하는거..간다면 가는거..지킬건 지킨다<br>
+<br>
+는 거..긴장하세용..홍홍~ 또 우리 창환이형~ 늘 저희를 잘 챙겨주시고넘 잘놀아주셔서 <br>
+<br>
+넘 고마워용.~~ 근데 결혼 하실때 제게 2등신랑감 자리를 넘겨주시길..ㅋㅋ흐흐~~글구 <br>
+<br>
+마지막으로 우리 회장님~영식형.. 형이 구심점으로 있기 때문에 저희 모임이 있는거알<br>
+<br>
+죠?흐흐~ 저는 형의 일부일 뿐입니다..(오른팔 임을 강조!!쿠쿠~) 여기서 변태성, 아부성<br>
+<br>
+이라고 머라고 하면 바로 아뒤 삭제조치들어감당~~쿠쿠~~^^;;; 암튼 형이 있어서 모든<br>
+<br>
+게 전 안심입니다~~^__^다들 너무 너무 수고하셨구요~ 참고로 추석때 서울에 계신 분<br>
+<br>
+들은 저희는 한가족이기에 일정잡아서또 모입니다~~흐흐~ 일정 잡히는대로 또 공지하<br>
+<br>
+겠습니당~~ 크크~~ <br>
+                                                  이상 큐리텔 범선 1기 클럽짱이었슴당~~ <br>
+<br>
+<br>
+<br>
+<br>
+</font></td>
+							</tr>
+							<tr> 
+								<td colspan="3" bgcolor="#cacaca"></td>
+							</tr>
+							<tr> 
+								<td colspan="3" bgcolor="#eaeaea" height="5"></td>
+							</tr>
+							<tr> 
+								<td colspan="3" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=1"><img src="/img/bbs/btn/btn_list.gif" width="70" alt="" border="0" hspace="8"></a></td>
+							</tr>
+							<tr>
+								<td colspan="3" height="20"></td>
+							</tr>
+						</table>
+						<!------- READ End ------------->
+						<!-------------- 코멘트 시작 ---------->
+						<table width="530" cellpadding="0" cellspacing="0" border="0">
+							
+							<tr> 
+								<td colspan=3 style="padding:9 13;line-height:16px" > <b>mdmiung</b> &nbsp; <font class=em>2003-09-09</font><br>	
+									<img src="/img/b.gif" width="1" height="5"><br>
+									발 괜찬은지..걱정 난 괜찬은데..ㅋㅋㅋ 
+아줌마 넘 아프게 때린것은 사실..^^* </td>
+							</tr>
+							<tr> 
+								<Td class=dotline colspan=3></TD>
+							</tr>
+							
+							<tr> 
+								<td colspan=3 style="padding:9 13;line-height:16px"  bgcolor=#F9F9F9> <b>niceguyc</b> &nbsp; <font class=em>2003-09-09</font><br>	
+									<img src="/img/b.gif" width="1" height="5"><br>
+									 넘 귀여워요~ 순진무구 그 자체!!! ㅋ.ㅋ
+</td>
+							</tr>
+							<tr> 
+								<Td class=dotline colspan=3></TD>
+							</tr>
+							
+							<tr> 
+								<td colspan=3 style="padding:9 13;line-height:16px" > <b>niceguyc</b> &nbsp; <font class=em>2003-09-09</font><br>	
+									<img src="/img/b.gif" width="1" height="5"><br>
+									아래 사진은 엠티와서 애꿎게두 발바닥 맞은 우리의 이창욱 팀장님!!!</td>
+							</tr>
+							<tr> 
+								<Td class=dotline colspan=3></TD>
+							</tr>
+
+
+						</table>
+						<!-------------- 코멘트 끝---------->
+					</td>
+				</tr>
+			</table>
+		<!-- #####//Contents##### -->
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+</body>
+</html>

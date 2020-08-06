@@ -1,0 +1,92 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/product.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<script>
+	function goParent(usNo){
+		parent.location.href='/html/product/download/search.asp?serial_no='+usNo;		
+	}
+</script>
+<!--- 사용가능한 모델 --->
+<table width="548" height="310" border="0" cellspacing="0" cellpadding="0">
+        <!--- 텝메뉴 "해당파일_o" --->
+    <tr> 
+        <td colspan="3" height="29" background="/img/common/tabbg.gif">
+			
+		<a href="if_manual.asp?tab=SKT&sector=product"><img src="/img/product/tab01_o.gif" width="81" height="29" alt="" border="0"></a><a href="if_manual.asp?tab=KTF&sector=product"><img src="/img/product/tab02.gif" width="81" height="29" alt="" border="0"></a><a href="if_manual.asp?tab=LGT&sector=product"><img src="/img/product/tab03.gif" width="81" height="29" alt="" border="0"></a>
+		</td>
+    </tr>
+
+    <tr> 
+        <td height="15"></td>
+    </tr>
+    <tr align = "left" valign = "top"> 
+        <td> <table width="" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+
+                    <td width="182" align="left" valign="top"><img src="http://file.curitel.com/upload/product/img/a1_ph-s1000.gif" width="60" height="120" hspace="8"><a href="javascript:download('product/down/manual/PH-S1000_SKT_M_040610_REV[1].01.pdf')"><img src="/img/btn/btn_pdfmanual.gif" width="95" height="19" border="0" align="absmiddle"></a><br> 
+                    <div style="padding:0 0 0 10"><b>PH-S1000</b></div></td>
+                    <td width="1" valign="top" style="padding-top:25"><img src="/img/b.gif" width="1" height="47" style="background:#D9D9D9"></td>
+
+                    <td width="182" align="left" valign="top"><img src="http://file.curitel.com/upload/product/img/a1_s4(1).gif" width="60" height="120" hspace="8"><a href="javascript:download('product/down/manual/S4_매뉴얼.zip')"><img src="/img/btn/btn_pdfmanual.gif" width="95" height="19" border="0" align="absmiddle"></a><br> 
+                    <div style="padding:0 0 0 10"><b>S4</b></div></td>
+                    <td width="1" valign="top" style="padding-top:25"><img src="/img/b.gif" width="1" height="47" style="background:#D9D9D9"></td>
+
+                    <td width="182" align="left" valign="top"><img src="http://file.curitel.com/upload/product/img/a1_ph-s1500.gif" width="60" height="120" hspace="8"><a href="javascript:download('product/down/manual/PH-S1500 9차 매뉴얼 20040512.pdf')"><img src="/img/btn/btn_pdfmanual.gif" width="95" height="19" border="0" align="absmiddle"></a><br> 
+                    <div style="padding:0 0 0 10"><b>PH-S1500</b></div></td>
+                    <td width="1" valign="top" style="padding-top:25"><img src="/img/b.gif" width="1" height="47" style="background:#D9D9D9"></td>
+              
+				</tr>
+            </table></td>
+    </tr>
+    <tr> 
+        <td height="15"></td>
+    </tr>
+    <tr align = "left" valign = "top"> 
+        <td> <table width="" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+
+                    <td width="182" align="left" valign="top"><img src="http://file.curitel.com/upload/product/img/a1_pg-s5500m.gif" width="60" height="120" hspace="8"><a href="javascript:download('product/down/manual/PG-S5500C.pdf')"><img src="/img/btn/btn_pdfmanual.gif" width="95" height="19" border="0" align="absmiddle"></a><br> 
+                    <div style="padding:0 0 0 10"><b>PG-S5500M</b></div></td>
+                    <td width="1" valign="top" style="padding-top:25"><img src="/img/b.gif" width="1" height="47" style="background:#D9D9D9"></td>
+
+                    <td width="182" align="left" valign="top"><img src="http://file.curitel.com/upload/product/img/a1_pg-s5500a.gif" width="60" height="120" hspace="8"><a href="javascript:download('product/down/manual/PG-S5000A_SKT_M_040402.pdf')"><img src="/img/btn/btn_pdfmanual.gif" width="95" height="19" border="0" align="absmiddle"></a><br> 
+                    <div style="padding:0 0 0 10"><b>PG-S5000A</b></div></td>
+                    <td width="1" valign="top" style="padding-top:25"><img src="/img/b.gif" width="1" height="47" style="background:#D9D9D9"></td>
+
+                    <td width="182" align="left" valign="top"><img src="http://file.curitel.com/upload/product/img/a1_pg-s5000_s5000a.gif" width="60" height="120" hspace="8"><a href="javascript:download('product/down/manual/PG-S5000.pdf')"><img src="/img/btn/btn_pdfmanual.gif" width="95" height="19" border="0" align="absmiddle"></a><br> 
+                    <div style="padding:0 0 0 10"><b>PG-S5000</b></div></td>
+                    <td width="1" valign="top" style="padding-top:25"><img src="/img/b.gif" width="1" height="47" style="background:#D9D9D9"></td>
+              
+				</tr>
+            </table></td>
+    </tr>
+    <tr> 
+        <td height="15"></td>
+    </tr>
+    <tr align = "left" valign = "top"> 
+        <td> <table width="" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+
+			</tr>
+        </table></td>
+    </tr>
+</table>
+
+<table width="548" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+		<td align="center">
+			&nbsp;<b>|1|</b>&nbsp;<a href=if_manual.asp?page=2&tab=SKT&sector=product>|2|</a>&nbsp;<a href=if_manual.asp?page=3&tab=SKT&sector=product>|3|</a> 
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>

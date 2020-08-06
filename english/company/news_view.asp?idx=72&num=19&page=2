@@ -1,0 +1,150 @@
+
+<html>
+<head>
+<title>Curitel - The Power to be Your Best</title>
+
+<link href="/english/common/css/eng.css" rel="stylesheet" type="text/css">
+<script language='javascript' src="/english/common/js/model.js"></script>
+<script language='javascript' src="/english/common/js/URL.js"></script>
+<script language='javascript' src="/english/common/js/open_m04.js"></script>
+</head>
+
+<body marginwidth="0" marginheight="0">
+<!--수정 시작--><script language='javascript' src="/english/common/js/top.js"></script><!--수정 끝-->
+<table width="770" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr valign="top"> 
+    <td width="14" bgcolor="#DCD6C6"><img src="/english/images/blank.gif" width="14" height="1"></td>
+    <td style="padding:0 5 0 3"><img src="/english/company/images/title.gif" width="149" height="120"></td>
+    <!--수정 시작--><td width="404"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="404" height="120">
+  <param name="movie" value="/english/common/flash/t_company.swf">
+  <param name="quality" value="high">
+  <param name="menu" value="false">
+  <embed src="/english/common/flash/t_company.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="404" height="120"></embed></object></td><!--수정 끝-->
+    <td width="8" bgcolor="#DCD6C6"><img src="/english/images/blank.gif" width="8" height="1"></td>
+    <td width="11"><img src="/english/images/blank.gif" width="11" height="1"></td>
+    <td width="158" height="120" background="/english/images/quick_bg.gif" style="padding:7 22 0 13"> 
+      <!--Quick menu-->
+      <script language='javascript' src="/english/common/js/quickmenu.js"></script></td>
+    <td width="18"><img src="/english/images/blank.gif" width="18" height="1"></td>
+  </tr>
+  <tr> 
+    <td height="1" colspan="7"></td>
+  </tr>
+</table>
+<table width="770" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr valign="top"> 
+    <td class="l_px"><script language='javascript' src="/english/common/js/left_company.js"></script></td>
+    <td class="m_px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="393" height="20" valign="top" class="location"><a href="javascript:Fn_Home()">Home</a> 
+            &gt; <a href="javascript:Fn_Company()">Company</a> &gt; <font class="location_o">NEWS Center</font></td>
+          <td width="169" rowspan="3" align="right" valign="top"><table width="158" border="0" cellspacing="0" cellpadding="0">
+              <tr valign="top"> 
+                <td height="30" bgcolor="#D2DCE2" style="padding:8 0 0 8"><img src="/english/images/tit_search.gif" width="115" height="13"></td>
+              </tr>
+              <form>
+                <tr valign="top"> 
+                  <td height="53" bgcolor="#D2DCE2" style="padding:0 0 0 10"> 
+                    <Script Language='JavaScript'> 
+<!-- 
+document.write("<select class='input02' name='"+FirstSelectName+"' onChange='CreateSecondSelect()'>"); 
+for(var i=0; i < FirstSelectText.length; i++) 
+document.write("<option value='"+FirstSelectValue[i]+"'>"+FirstSelectText[i]+"</option>"); 
+document.write("</select>"); 
+//--> 
+</script> <br> <img src="images/blank.gif" width="1" height="5"><br> <Script Language='JavaScript'> 
+<!-- 
+document.write("<select class='input02' name='"+SecondSelectName+"' onChange='ChangeURL(this.options[this.selectedIndex].value)'>"); 
+document.write("<option value=''></option>"); 
+document.write("</select>"); 
+
+CreateSecondSelect(); 
+//--> 
+</script></td>
+                </tr>
+              </form>
+            </table></td>
+        </tr>
+        <tr> 
+          <td height="25" background="/english/images/tit_bg.gif"></td>
+        </tr>
+        <tr> 
+          <td height="38" background="/english/images/tit_bg02.gif"><img src="/english/company/images/title04.gif" width="123" height="38"></td>
+        </tr>
+        <tr> 
+          <td height="16" colspan="2"></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="2">
+            <!--NEWS View 테이블 시작-->
+            <table width="543" border="0" cellspacing="0" cellpadding="0">
+              <tr align="center"> 
+                <td colspan="2" width="65" height="21" class="bbs01">No.</td>
+                <td colspan="2" class="bbs02" width="388">Title</td>
+                <td width="90" class="bbs02_1">Date</td>
+              </tr>
+			  <tr>
+			    <td colspan="2"><img src="/english/images/blank.gif" width="55" height="1"></td>
+				<td colspan="2"><img src="/english/images/blank.gif" width="388" height="1"></td>
+				<td><img src="/english/images/blank.gif" width="100" height="1"></td>
+			  </tr>
+              <tr> 
+                <td width="55" height="21" align="center">19</td>
+				<td valign="bottom"><img src="/english/images/bbs_line.gif"></td>
+                <td align="left" style="padding:5 10" width="388"><font class="title01">Pantech Strengthens Brand in Asia Pacific with the Launch of Cutting Edge Models in Thailand</font> </td>
+				<td valign="bottom"><img src="/english/images/bbs_line.gif"></td>
+                <td width="100" align="center">Jun.24,2005</td>
+              </tr>
+			  <tr class="bbs05"> 
+                <td height="1" colspan="5"><img src="/english/images/blank.gif"></td>
+              </tr>
+              <tr class="bbs03"> 
+                <td colspan="2" height="21" align="center">&nbsp;</td>
+                <td colspan="3" align="left" style="padding:5 10">SEOUL, June 24, 2005 - Pantech, one of the world’s leading mobile communications groups - comprised of Pantech&Curitel Communications, Inc., Pantech Co., Ltd., Pantech C&I Inc., and SK Teletech Inc.(“Pantech” hereafter) - has further strengthened its brand in the Asia Pacific region with the launch of a range of cutting edge handsets in Thailand.<br>
+<br>
+Pantech today announced plans to roll out four of its flagship models - the GI-100, the world’s first mobile handset with fingerprint recognition technology, the PG-3000 and GB200 camera phones, and the user-friendly G750 - in Thailand. The introduction of the new models is expected to significantly boost Pantech’s share of the fast growing Thai mobile phone market. <br>
+<br>
+Sung-Kyu Lee, President & CEO of Pantech Co., said: “We are in the process of growing the Pantech brand across all global markets and our presence in Thailand is will continue to advance since our first entry last year. We are looking forward to providing Thai mobile phone users with the customized, cutting edge mobile technology that Pantech has to offer”.<br>
+<br>
+Pantech plans to support its increased presence in Thailand with the imminent opening of a regional office in the capital, Bangkok, and will work in partnership with two main distributors. Pantech’s marketing strategy in Thailand, which incorporates an innovative advertising campaign designed by McCann Erickson, will be geared towards premium mobile phone users in the 18-35 age group.<br>
+<br>
+The GI-100, first released last year, is the world’s first ‘fingerprint-recognition’ phone and is designed for user-friendly security and convenience. The user’s fingerprints are used for lock-in keys and memory dials. By sweeping fingerprints, instead of pushing in keys, users can enjoy a range of games installed on the phone. <br>
+<br>
+Due to the groundbreaking nature of the technology developed for the GI-100, Pantech was recently honored with the Best Mobile Phone Application accolade at the Asian Mobile News Awards, the most influential awards ceremony for the mobile/telecoms sector in the Asia Pacific region. The winners were chosen by the readership of the respected Asian Mobile News magazine. <br>
+<br>
+*** more***<br>
+<br>
+Pantech’s unique expertise in the camera phone area is expected to create particular interest among Thai consumers. The PG-3000 is a slim - just 21.9mm thick - slider model, with an extraordinary array of functionality, including a 1.3 MP CMOS camera that also works like a semi-camcorder, supporting MJPEG files. The model also contains an internal antenna concealed by rounded silver edges.<br>
+<br>
+The GB200 is designed to appeal to young consumers, providing for frequent use of multimedia messaging and camera functionality. Consumers can send images and music to other users using the MMS services. The model weighs just 85g and also supports Java and WAP technology.<br>
+<br>
+Lastly, the G750 is a user-friendly mobile phone especially designed for users looking for a convenient, economical handset. Weighing just 80g, the model features an external LED lamp that flashes in seven different tropical colors when the phone rings. SMS and EMS with group messaging are also provided.<br>
+<br>
+Pantech has substantially enhanced its global presence in 2005. In April, the company established a subsidiary in Mexico, with a view to increasing its market share in Latin America. In March, Pantech became the first foreign company to be awarded a GSM license in China following changes in the Chinese government’s mobile licensing policy.<br>
+</td>
+              </tr>
+              <tr class="bbs05"> 
+                <td height="2" colspan="5"></td>
+              </tr>
+		              
+			  <tr> 
+                <td colspan="2" height="27" align="center" class="list">&nbsp;</td>
+                <td colspan="2" height="49" class="list"><img src="/english/images/bbs/btn_next.gif" width="12" height="8" align="absmiddle">Prev<img src="/english/images/bbs/line.gif" width="1" height="11" hspace="9" vspace="3" align="absmiddle"><a href="news_view.asp?idx=71&num=18">Pantech GI-100 Fingerprint Technology Phone Honored at Asian Mobile News Awards</a><br> <img src="/english/images/bbs/btn_next.gif" width="12" height="8" align="absmiddle">Next<img src="/english/images/bbs/line.gif" width="1" height="11" hspace="9" vspace="3" align="absmiddle"><a href="news_view.asp?idx=73&num=20">Pantech Announces Launch of PG-6100 Phone, the “Complete Convergence Device”</a></td>
+                <td height="50" align="right" valign="bottom" class="list"><a href="news_list.asp?page=2"><img src="/english/images/bbs/btn_list.gif" width="43" height="15" hspace="24" vspace="9" border="0"></a></td>
+              </tr>
+              <tr class="bbs04"> 
+                <td height="2" colspan="5"></td>
+              </tr>
+            </table>
+            <!--NEWS View 테이블 끝-->
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<script language='javascript' src="/english/common/js/copy.js"></script>
+<script language='javascript' src="/english/common/js/topbtn.js"></script>
+<script language='javascript' src="/english/common/js/topbtn_s.js"></script>
+</body>
+</html>
+ 

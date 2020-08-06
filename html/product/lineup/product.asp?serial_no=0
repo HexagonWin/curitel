@@ -1,0 +1,1 @@
+<script>		alert('잘못된 인수 입니다.');		history.go(-1);</script><script>	   location.href='feature.asp?service=&page=&serial_no=0'</script>

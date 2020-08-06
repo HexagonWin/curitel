@@ -1,0 +1,652 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/knowledge.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"></head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/knowledge/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 837px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/knowledge/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/knowledge/info/info_view.asp?qidx=4744">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/knowledge/info/info_view.asp?qidx=4744">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/knowledge/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/knowledge/index.asp" onfocus="this.blur()"><img src="/img/knowledge/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr> 
+						<td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a> > <a href=/html/knowledge/index.asp>지식 Room</a> > 지식공유</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="100">
+					               <param name="movie" value="/inc/flash/left/left_knowledge.swf?html_Num=10">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_knowledge.swf?html_Num=10" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="100"></embed></object></td>
+						</tr>
+						<tr>
+					       <td align="center" style="padding:30 0 0 2"><a href="/html/my/action/room/question.asp"><img src="/img/knowledge/btn_myinfo.gif" width="115" height="27" alt="" border="0"></a></td></tr>
+						<tr><td height="50" style="padding:0 0 0 14">
+						<table width="119" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="34" valign="bottom"><img src="/img/knowledge/l_title01.gif" width="119" height="16" alt="" border="0"></td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge01.gif" width="119" height="5" alt="" border="0"></td></tr>
+	<tr>
+		<td bgcolor="#E7EDF0" style="padding:2 0 2 10">
+						&#8226;<a href='/html/knowledge/info/info.asp?cate=2'>제품관련<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=5'>프로그램／악세서리<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=6'>웹사이트 이용<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=7'>통신／기술동향<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=8'>A／S 및 서비스센터<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=12'>이벤트<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=13'>광고<br>
+	
+		</td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge02.gif" width="119" height="5" alt="" border="0"></td></tr>
+</table>
+
+
+<table width="119" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="34" valign="bottom"><img src="/img/knowledge/l_title02.gif" width="119" height="16" alt="" border="0"></td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge01.gif" width="119" height="5" alt="" border="0"></td></tr>
+	<tr>
+		<td bgcolor="#E7EDF0" style="padding:2 0 2 10">
+&#8226;<a href='/html/knowledge/tip/tip.asp?cate=9'>제품관련<br>
+&#8226;<a href='/html/knowledge/tip/tip.asp?cate=10'>프로그램<br>
+&#8226;<a href='/html/knowledge/tip/tip.asp?cate=11'>악세서리<br>
+
+		</td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge02.gif" width="119" height="5" alt="" border="0"></td></tr>
+</table>
+<table width="119" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="34" valign="bottom"><img src="/img/knowledge/l_title03.gif" width="119" height="17" alt="" border="0"></td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge01.gif" width="119" height="5" alt="" border="0"></td></tr>
+	<tr>
+		<td bgcolor="#E7EDF0" style="padding:2 0 2 10">
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('rkrl','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>rkrl</A><br>
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('popo890210','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>popo890210</A><br>
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('zoazoa','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>zoazoa</A><br>
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('tkfkaemf','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>tkfkaemf</A><br>
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('iamjang','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>iamjang</A><br>
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('goo3813','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>goo3813</A><br>
+
+		</td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge02.gif" width="119" height="5" alt="" border="0"></td></tr>
+</table><script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="564" valign="top" class="ctsmgn">
+		<!-- #####Contents##### -->			
+                  <table width="557" cellpadding="0" cellspacing="0" border="0">
+		                <tr> 
+		                    <td height="26">
+							 <table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+	                            <tr><td><img src="/img/knowledge/subimg00.gif" width="537" height="97"></td></tr>
+	                            <tr><td height="1"></td></tr>
+	                            <tr><td height="26" bgcolor="#F6F8F9"></td></tr>
+	                        </table>
+							</td>
+		                </tr>
+                    <tr> 
+                      <td style="padding:8 0 0 0">
+					<!--- 검색 --->
+					    <table width="530" border="0" cellspacing="0" cellpadding="0">
+						  <tr valign="top"> 
+							<td width="350"><img src="/img/my/action/room/tit_room.gif" align="absmiddle"></td>
+							<td width="91"><a href="/html/knowledge/info/guide_room.asp" onfocus="this.blur()"><img src="/img/my/action/room/img_info01.gif" border="0"></a></td>
+							<td><a href="/html/knowledge/info/guide_curi.asp" onfocus="this.blur()"><img src="/img/my/action/room/img_info02.gif" border="0"></a></td>
+						  </tr>
+						  <tr valign="top"> 
+							<td><!--- 검색 ---><SCRIPT LANGUAGE="JavaScript">
+<!--
+	function main_scheck(){
+		if(document.main_know_search.sword.value == "" || document.main_know_search.sword.value =="궁금하신 내용을 검색해보세요!"){
+			alert("검색어를 입력해주세요!");
+			document.main_know_search.sword.focus();
+			return false;
+		}
+		
+	}
+//-->
+</SCRIPT>
+
+	<table width="337" border="0" cellspacing="0" cellpadding="0" style="border:#DCDADA 1 solid;padding:4">
+	<form name="main_know_search" method="post" action="/html/knowledge/info/result.asp" onsubmit="return main_scheck(this)">
+	<tr> 
+	<td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
+	<tr> 
+	<td height="32" style="padding:0 0 0 5"><input type="text" name="sword" class="input03" style="width:267;color:white;background:#3992A3" value="궁금하신 내용을 검색해보세요!" onfocus="this.value=''">
+	<input type="image" src="/img/bbs/btn/btn_search.gif" width="46" height="17" border="0" align="absmiddle" style="height:17"><!--&nbsp;<a href="/html/knowledge/info/myquestion.asp"><img src="/img/btn/ans.gif" width="70" border="0" align="absmiddle"></a>--></td>
+	</tr>
+	</table></td>
+	</tr>
+	</form>
+	</table></td>
+							<td colspan="2" style="padding:6 0 0 0"><a href="/html/knowledge/info/myquestion.asp" onfocus="this.blur()"><img src="/img/my/action/room/btn_q.gif" width="119" height="32" hspace="8" border="0"></a></td>
+						  </tr>
+						</table>
+					<!--- //검색 --->
+					  </td>
+                    </tr>
+                    <tr> 
+                      <td> 
+                        <!----- 나의 답변/통계 전체 ----->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:15">
+                          <tr valign="top"> 
+
+							<td width="352" height="23"><img src="/img/knowledge/tit_unsolve.gif"></td>
+                          
+						  </tr>
+                        </table></td>
+                    </tr>
+                    <tr> 
+                      <td style="padding:0 0 0 8"> <table width="529" border="0" cellspacing="0" cellpadding="0">
+                          <tr valign="bottom"> 
+                            <td height="28" style="padding:10 0 6 0;color:#3595B1;font-size:9pt"><font color="#FF5F2E"><b>[제품관련]</b></font><b> 
+                              큐리텔 제품 사지 맙시다!!!</b> <font style="font-size:8pt;color:#757575;"> 
+                              &nbsp;(추가 Curi : 0, 답변 : 1, 조회수 : 832 )</font></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+
+                    <tr> 
+                      <td style="padding:0 0 0 8"><table width="529" border="0" cellspacing="0" cellpadding="0">
+                          <tr valign="bottom" bgcolor="#F2F2F2"> 
+                            <td width="181" height="38" style="padding:0 0 0 10"><font class="sem"><b>&#149; 
+                              작성자</b></font> : <A HREF=javascript:; onmouseover=snMenu('yamm4u','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>yamm4u</A> </td>
+                            <td width="192"><font class="sem"><b>&#149; 작성일</b></font> 
+                              : 2004-10-18 </td>
+                            <td width="167"><font class="sem"><b> &#149; 채택기한 초과</b></font> </td>
+                          </tr>
+                          <tr bgcolor="#F2F2F2"> 
+                            <td colspan="3" height="5"></td>
+                          </tr>
+                          <tr bgcolor="#C9C9C9"> 
+                            <td colspan="3" height="1"></td>
+                          </tr>
+                          <tr> 
+                            <td colspan="3" style="padding:15 11"><font style='font:10pt'>전 이번에 큐리텔과 처음으로 인연을 맺었는데 실망 그 자체입니다<br><br>지금 사용하고 있는 모델은 PH-k1000v 입니다.<br><br>이 모델 우리나라 축구경기라도 있을때면 광고에 윤도현이 나와서 티비보면서 <br><br>광고합니다. 씨팔 무슨 티비냐구요 욕 않하구 싶어도 열받아서...<br><br>10월초에 여기다 글을 남겼는데 큐리텔에서 삭제하였더군요<br><br>자기네들 회사비방이 들어갔다고 지운것 같은데 참 어이 없습니다.<br><br>어줍지 않은 300만화소폰 무슨 300만이냐고 33만화소나 될까<br><br>아 짜증납니다 돈은 80만원이나 넘게 주고 산것인데  조금만 더 기다려서<br><br>삼성S2300을 살것을 이제와 정말 후회됩니다.<br><br>그전까지 쭈욱 삼성이었는데...<br><br>PH-K1000V 이 모델이 사기치는 내용은 이렇습니다<br><br>1.TV수신이 가능하다 좆까 광고에서 수신기 별매라는 내용은 나오지 않는다<br>-그리고 핸폰두 탱크인데 수신기까지 달면 무전기 거기다 루프안테나(일명 휴대폰목걸이)까지  달면 과관이죠 이 루프 안테나를 달아야 탁트인 공간에서 움직이지 않는 상태에서 흐릿하게 나옵니다. 가격은 77000원 거금입니다. <br>서비스센터에서도 극구 말립니다 티비에서 이런점은 한마디도 언급되지 않고있습니다. 과장 허위광고에 해당하는 것입니다 참고로 삼성인가 엘지 모델중에 티비 안테나 같이 쭉빼서 티비 보는모델이 있는데 그게 휄씬 잘나옵니다<br>절대로 티비 광고 믿지 마세여..<br><br>2.300만화소다 ---->절대 아니다<br>같은 300만화소 타사제품비교시 차이가 크다<br>이것은 고객을 우롱하는 처사이다 화소얘기는 하고 싶지않다 화만 난다<br><br>3.용량의 문제<br>MP3 Fimm 등을 한메모리로 사용하는데 밑에 어떤분이 올리신 내용과 같이 10곡정도 들어가면 메모리가 가득찬다 너무나 용량이 적다<br>지나다니다 보면 뭐 대용량이라고 광고한다 거짓이다 지금 저는 이것저것 불필요한 거 다지우고 하니 13곡정도 들어가는 것 같습니다. 정말 불편합니다<br>외장메모리  채택하고 티비 뭐 그런거 필요없습니다 티비수신기 살돈이면 128MB정도는 사고도 남습니다. 외장메모리채택이 되어야 합니다 <br><br>4.베터리<br>베터리 이제 두달되어가는데 하루를 못갑니다 어떻게 된게 처음에만 MP3듣구 <br>지금은 거의 않듣는데도 베터리가 금방 방전됩니다 전 매일완충해도 저녁이면 한칸겨우남습니다 전에쓰던거는 한번충전하면 3일을 갑니다<br>대용량은 4일가구요 베터리 너무 수명이 짧습니다.<br><br>5.PC와 연결, 통화시 단말기 불덩이<br>피씨와 연결했을때 음악파일 다운받고 접속을 끊을때 단말기가 다운이 됩니다 이거 매번 그럽니다 정말 짜증납니다 <br><br>그리고 일정시간 통화하면 단말기 너무나 뜨겁습니다 적당히 뜨거워여야지 조금  심한것 같습니다. <br><br>큐리텔은 왜 이런점에대해서 한마디 언급이 없는 것입니까 최소한의 양심이<br>있다면 이런식으로 고객을 우롱해서는 않되는 것입니다.<br><br>지금은 이거 쓰고 있는데 여유가 생기면 꼭 바꿀것입니다<br>다시는 여기제품 않씁니다 삼성은 a/s최고입니다 물론 품질도 최고구요<br><br>어서 돈을 벌어서 삼성으로 넘어가야지 지겹습니다<br>여러분 생각잘하세요!!!!</font></td>
+                          </tr>
+                          <tr align="right" bgcolor="#F4F6F7"> 
+                           <td colspan="3" style="border-top:#E6E8E8 1px solid;border-bottom:#E6E8E8 1px solid;">
+                            <a href="reply.asp?qidx=4744"><img src="/img/btn/btn_answer.gif"  hspace="6" vspace="6" border="0"></a><a href="javascript:LoginMsg()"><img src="/img/knowledge/btn_notice.gif" width="72" height="19" hspace="6" vspace="6" border="0"></a>&nbsp;</td>
+                          </tr>
+
+
+						  <tr> 
+                            <td colspan="3" style="padding:1 0 5 0">
+
+							  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr valign="top"> 
+                                  <td height="15" colspan="2"></td>
+                                </tr>
+                                <tr valign="top"> 
+                                  <td width="50"><img src="/img/knowledge/ico_reply.gif" width="38" height="16" hspace="10"></td>
+                                  <td><b><font class="sem">아무래도,,큐리텔 측은,,</font></b><br>
+                                    [ 등록일 : 2004-10-22&nbsp;&nbsp;&nbsp;&nbsp;<b> 
+                                    답변자</b> : <A HREF=javascript:; onmouseover=snMenu('lmslms','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>lmslms</A> ]<br> <br>
+                                    <font style='font:10pt'>개선해야할듯,,,<br>고객을 위해서라면,,,<br><br></font><br>
+									
+									</td>
+                                </tr>
+                                <tr> 
+                                  <td></td>
+                                  <td align="right"><a href="javascript:LoginMsg()"><img src="/img/knowledge/btn_notice.gif" width="70" hspace="6" vspace="6" border="0"></a></td>
+                                </tr>
+
+								</table>
+ 							  
+							  </td>
+                          </tr>
+                         
+						  <tr> 
+                            <td colspan="3" height="1" bgcolor="#d7d7d7"></td>
+                          </tr>
+                          <tr> 
+                            <td colspan="3" height="5" bgcolor="#eaeaea"></td>
+                          </tr>
+                          <tr align="right" valign="top" bgcolor="#F2F2F2"> 
+                                <td height="42" colspan="3"><a href="/html/knowledge/info/info.asp"><img src="/img/knowledge/btn_list.gif" width="72" height="19" hspace="6" vspace="9" border="0" align="absmiddle"></a></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr> 
+                      <td style="padding:20 0 0 6"> 
+                        <!-------------- 코멘트 시작 ---------->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function comm_prcosess(){
+		if(document.comment.comment.value == ""){
+			alert("한줄 리플 내용을 입력해주세요!");
+			document.comment.comment.focus();
+			return false;
+		}
+	}
+
+	function del(div_seq,cidx){
+		if(confirm("정말로 삭제하시겠습니까?")){
+			document.location = "/html/knowledge/comment_process.asp?prc_seq=D&div_seq="+div_seq+"&pidx=4744&cidx="+cidx
+		}
+	}
+//-->
+</SCRIPT>
+
+						   <table width="530" cellpadding="0" cellspacing="0" border="0">
+							 <form name="comment" method="post" action="../comment_process.asp" onsubmit="return comm_prcosess(this)">
+							 <tr bgcolor=#F2F2F2> 
+								<td width=62><img src="/img/bbs/i_re.gif" width="72" height="33" alt="" border="0"></td>
+								
+								<td width=383><input type="text" name="comment" style="width:382;border:1px solid #C6C6C6;font-size:8pt" readonly></td>
+								<td width=75>&nbsp;<img src="/img/btn/btn_input.gif" width="70" align=absmiddle onclick="javascrip:alert('로그인해주세요')"></td>
+
+							 </tr>
+							 <input type="hidden" name="div_seq" value="K">
+                             <input type="hidden" name="pidx" value="4744">
+							 </form>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('noask7','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>noask7</A> 
+								 </b> &nbsp; <font class=em>2004-11-17 오전 8:49:43</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 화소는 절대 300만 맞음. 다만 다른 100만들이랑 비교되는 이유는 폰으로 보기 때문이죠. 컴으로 옮겨서 확대시키면 100만같은건 다 갈라짐...</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('gurapi','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>gurapi</A> 
+								 </b> &nbsp; <font class=em>2004-11-13 오전 12:17:25</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 맞아여.. 나 핸드폰 산지 2개월 됐는데.. 별로 고장 나지도 안은거 같은데.. A／s비가 30만원이 나오다니.. 장난 하는 것도 아니고.. 참 어이가 없더라구여.. 절대.. 안사..이제부턴..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('chunsaing','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>chunsaing</A> 
+								 </b> &nbsp; <font class=em>2004-11-09 오후 1:28:01</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 나도 이번엔 첨으로 큐리텔샀는데...300만화소폰이라 해서 샀구만..완전사기같군여. 진짜 30만화소보다 선명도가 더 떨어지니..원...이거 산지 일주일정도됐는데..환불하고 싶군요</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('agnol','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>agnol</A> 
+								 </b> &nbsp; <font class=em>2004-10-28 오전 12:25:01</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 흠~~구입하려구 했는데 다시 생각해봐야 할 것 같네여~ 저두 삼성 디카폰이랑 이거랑 둘이 비교하다가 이거 살라구 했는데.. 역시 삼성으루 해야겠네여~ ^^*</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('songchul77','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>songchul77</A> 
+								 </b> &nbsp; <font class=em>2004-10-20 오후 8:41:54</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 a／s가 문제가 아니구 문제가 없어야 겠죠.저도 똑같은 폰을 샀는데요~정말 엉망진창 입니다.삼성거만 쓰다가 모처럼 큐리텔거 썼는데.실망!! 화날만도 하지요. 광고는 그럴사하게하구 한대팔면 그만이라는 생각인것 같습니다. 큐리텔이란..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('lucky5238','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>lucky5238</A> 
+								 </b> &nbsp; <font class=em>2004-10-18 오후 6:56:44</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 맞아요,,저도 버튼이 잘안눌려서 수리맡겻는데 또 그러네요다시 폰을 사면 큐리텔것은 사고 싶지 않네요..많은 개선이 필요할듯 합니다..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('llpppll','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>llpppll</A> 
+								 </b> &nbsp; <font class=em>2004-10-18 오후 2:11:08</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 몇달있으면 버튼도 잘 안눌릴텐데.. 그럼 저분 폭팔하시겠다- 저도 뭐 동영상에 속았어요-_- 자꾸 끊기고 완젼 사진이어놓은듯-ㅁㅠ서비스 센터 가서 핸드폰 너무 뜨겁다고도 하면 알아서 뭐뭐 해줄꺼예요／／ 잘되길바래요~</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('ekgml7','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>ekgml7</A> 
+								 </b> &nbsp; <font class=em>2004-10-18 오후 1:47:45</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 참.....전 님과동일제품쓰고있는데....문제없이 쓰고있거든요..^^ 서비스센타가셔서...화만 내시지마시구...차근차근 설명들어보시구..서비스받으세요~~^^</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('ekgml7','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>ekgml7</A> 
+								 </b> &nbsp; <font class=em>2004-10-18 오후 1:44:20</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 구로공단점은 무지 친절하시던데..^^ 다른점은 잘모르겠지만...^^ 저두 방전잘되서 가봤는데요....그만한 이유가 다 있더라구요..ㅎㅎ 휴대폰사용량에 따라..방전되는걸거에요..님도 빨리 방전되는만큼 사용한다는 얘기죠..^^</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('swchoi','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>swchoi</A> 
+								 </b> &nbsp; <font class=em>2004-10-18 오후 12:28:56</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 쎄티즌가서 공부좀하셈</td>
+							 </tr>
+							 
+							 <tr> 
+								<td colspan=3 bgcolor=#C8C8C8></td>
+							 </tr>
+							</table>
+                      </td>
+                    </tr>
+                  </table> 
+                  <!-- #####//Contents End ##### -->
+                </td>
+              </tr>
+            </table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+<!-- SubFlash//Only SubMain Exist -->
+</body>
+</html>

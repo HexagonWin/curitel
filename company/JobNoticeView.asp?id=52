@@ -1,0 +1,273 @@
+
+<html>
+<head>
+<title>팬택&amp;큐리텔</title>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<link rel="stylesheet" type="text/css" href="css/company.css">
+<script language="javascript" src="./ImagePreload.js"></script>
+</head>
+
+<body bgcolor=#ffffff leftmargin=0 topmargin=0 marginwidth=0 onLoad="MM_preloadImages('images/button_co_2.gif','images/button_inv_2.gif','images/button_press_2.gif','images/button_contact_2.gif','images/button_job_2.gif','images/sub_menu/co_bis_2.gif','images/sub_menu/co_history_2.gif','images/sub_menu/co_r&amp;d_2.gif','images/sub_menu/co_ci_2.gif','images/sub_menu/co_ceo_2.gif')">
+<center>
+<!--	Begin: Top Menu -->
+<TABLE width="100%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+  <TR> 
+    <TD><IMG SRC="images/main_top_11.gif" WIDTH=73 HEIGHT=226></TD>
+    <TD><map name="aaa">
+<area alt="" coords="631,11,743,32" href="http://www.curitel.co.kr">
+<area alt="" coords="7,18,115,79" href="http://www.curitel.co.kr">
+</map>
+<img src="images/main_top_10.gif" width="744" height="226" border="0" usemap="#aaa"></TD>
+    <TD><IMG SRC="images/main_top_08.gif" WIDTH=81 HEIGHT=226 BORDER=0></TD>
+    <TD WIDTH="100%"><img src="images/main_top_09.gif" WIDTH="100%" height="226"></TD>
+  </TR>
+</TABLE>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="images/main_menu_left.gif" width=74 height=32></td>
+    <td><img src="images/main_english.gif" width="172" height="32" border="0" usemap="#Map"></td>
+    <td><a href="CoIntro.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button_co','','images/button_co_2.gif',1)"><img src="images/button_co_1.gif" name="button_co" width="95" height="32" border="0"></a><a href="InvestFinanc_03.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('info_investment','','images/button_inv_2.gif',1)"><img src="images/button_inv_1.gif" name="info_investment" width="95" height="32" border="0"></a><a href="/Company/bbs_list.asp?table=press" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('press','','images/button_press_2.gif',1)"><img src="images/button_press_1.gif" name="press" width="95" height="32" border="0"></a><a href="JobIntro.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job','','images/button_job_2.gif',1)"><img src="images/button_job_1.gif" name="job" width="96" height="32" border="0"></a><a href="Contact.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact','','images/button_contact_2.gif',1)"><img src="images/button_contact_1.gif" name="contact" width="95" height="32" border="0"></a><img src="images/button_empty.gif" width="95" height="32"></td>
+    <td width="100%"><img src="images/button_empty2.gif" width="100%" height="32"></td>
+  </tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="60,6,112,28" href="english/overview/index.html" target="_self">
+</map>
+<!--	//End: Top Menu -->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr background="images/line_bg.gif">
+		<td width="76">
+			<table border="0" width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><img src="images/line_dot.gif" width="76" height="1"></td>
+				</tr>
+				<tr>
+					<td><img src="images/line.gif" width="77" height="76"></td>
+				</tr>
+				<tr>
+					<td><img src="images/line_dot.gif" width="76" height="1"></td>
+				</tr>
+			</table>
+
+		</td>
+		<td width="168" height="100%"><img src="images/pic_job.gif" width="168" height="78"></td>
+		<td width="1"><img src="images/line_dot.gif" width="1" height="76"></td>
+		<td width="570" valign="top">
+			<table width="570" height="78" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="570" valign="top"><img src="images/title_dot.gif"></td>
+				</tr>
+				<tr>
+					<td width="570"><img src="images/title_job.gif"></td>
+				</tr>
+				<tr>
+					<td width="570" height="13"><img src="images/white_dot.gif" width="40" height="3"><font color="#999999" size="2"><a href="http://www.curitel.co.kr">Home</a> &gt; <a href="JobIntro.asp">채용정보</a> &gt; <b>모집공고</b></font></td>
+				</tr>
+				<tr>
+					<td width="570" height="2" valign="bottom"><img src="images/line_dot.gif" width="570" height="1"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="1" height="100%"><img src="images/line_dot.gif" width="1" height="78"></td>
+		<td width="100%" height="78" valign="top" background="images/line_bg.gif"></td>
+	</tr>
+  <tr>
+    <td rowspan="2" height="100%"><img src="images/line.gif" width="77" height="100%"></td>
+    <td width="168" rowspan="2" valign="top"><p><a href="JobNotice.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image41','','images/sub_menu/job_notice_2.gif',1)"><img src="images/sub_menu/job_notice.gif" name="Image41" width="168" height="32" border="0"></a><a href="JobInfo.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job_sub','','images/sub_menu/job_info_2.gif',1)"><img src="images/sub_menu/job_info.gif" name="job_sub" width="168" height="32" border="0"></a><a href="http://www.pantech.co.kr" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job_onilne','','images/sub_menu/job_online_2.gif',1)"><img src="images/sub_menu/job_online.gif" name="job_onilne" width="168" height="32" border="0"></a><!--a href="JobModi.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job_modi','','images/sub_menu/job_modi_2.gif',1)"><img src="images/sub_menu/job_modi.gif" name="job_modi" width="168" height="32" border="0"></a--><a href="JobWelfare.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image42','','images/sub_menu/job_welfare_2.gif',1)"><img src="images/sub_menu/job_welfare.gif" name="Image42" width="168" height="32" border="0"></a><!--a href="JobTest.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job_test','','images/sub_menu/job_test_2.gif',1)"><img src="images/sub_menu/job_test.gif" name="job_test" width="168" height="32" border="0"></a--><a href="JobFaq.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job_faq','','images/sub_menu/job_faq_2.gif',1)"><img src="images/sub_menu/job_faq.gif" name="job_faq" width="168" height="32" border="0"></a></p>
+
+<!--<a href="JobOnline.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job_onilne','','images/sub_menu/job_online_2.gif',1)"><img <!--src="images/sub_menu/job_online.gif" name="job_onilne" width="168" height="32" border="0"></a>--></td>
+    <td width="1" height="100%"><img src="images/line_dot.gif" width="1" height="100%"></td>
+    <td width="570" rowspan="2">
+		<table border="0" width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="39">&nbsp;</td>
+				<td width="513">
+<!-- 본문 START -->
+					<table border="0" width="100%" cellspacing="0" cellpadding="0" valign="top">
+						<tr>
+							<td><img src="images/spacer.gif" height="28"></td>
+						</tr>
+						<tr>
+							<td><img src="images/text_title_job_02.gif"></td>
+						</tr>
+						<tr>
+							<td><img src="images/spacer.gif" height="25"></td>
+						</tr>
+						<tr>
+							<td class="tk_red_b">새로운 모바일 혁명의 리더 팬택&큐리텔의 최신 온라인 채용 정보를 제공합니다.<br><br></td>
+						</tr>
+						<tr>
+							<td>
+								<table border="0" width="100%" cellspacing="1" cellpadding="5" valign="top" class="tk_bbs">
+									<tr>
+										<td height="31" background="images/press_bbs_bg.gif" class="tk_white_b" colspan="4">내용보기</td>
+									</tr>
+									<tr>
+										<td bgcolor="#DAE3EC" align="center">제목</td>
+										<td bgcolor="#F7FBFF" colspan="3">2003년 하반기 대졸 경력/신입사원 공채 실시</td>
+									</tr>
+									<tr>
+										<td bgcolor="#DAE3EC" align="center">기간</td>
+										<td bgcolor="#EFF3F7">
+
+2003-10-07 ~ 2003-10-22
+
+										</td>
+										<td bgcolor="#DAE3EC" align="center">조회수</td>
+										<td bgcolor="#EFF3F7">5401</td>
+									</tr>
+									<tr>
+										<td bgcolor="#DAE3EC" align="center">게시자</td>
+										<td bgcolor="#F7FBFF">유정근</td>
+										<td bgcolor="#DAE3EC" align="center">이메일주소</td>
+										<td bgcolor="#F7FBFF">recruit@pantech.co.kr</td>
+									</tr>
+									<tr>
+										<td colspan="4" bgcolor="#EFF3F7" style="padding:10px">
+											<pre>(주)팬택, (주)팬택앤큐리텔에서 2003년도 하반기 대졸 경력/신입사원 공채를 실시합니다.
+
+[ 지원서 작성 및 접수는 (주)팬택 홈페이지에서 10월 13일(월)부터 가능합니다.(www.pantech.co.kr) ]
+
+1 모집부문
+ 
+ ① 연구개발 : 이동통신단말기 SW, HW, 기구개발
+
+   - 모집구분 : 신입/경력 
+   - 모집인원 : 000명
+   - 근무지역 : 서울
+
+ ② 생산기술 : 이동통신단말기 SW, HW, 기구개발 관련 생산기술 업무 
+ 
+   - 모집구분 : 신입
+   - 모집인원 : 00명
+   - 근무지역 : 김포
+
+ ③ 품질기술 : 품질기획/관리(신입), 신뢰성평가, SW검증
+
+   - 모집구분 : 신입/경력
+   - 모집인원 : 00명
+   - 근무지역 : 서울/김포
+
+ ④ 구매/자재 : 구매기획/관리(내자,외자), 자재관리/출하관리
+
+   - 모집구분 : 신입/경력
+   - 모집인원 : 00명
+   - 근무지역 : 서울/김포
+
+ ⑤ 영업/마케팅 : 국내/해외영업/영업정책/마케팅/상품기획/Promotion
+
+   - 모집구분 : 신입/경력
+   - 모집인원 : 00명
+   - 근무지역 : 서울
+
+ ⑥ 디자인 : 제품 디자인
+
+   - 모집구분 : 신입/경력
+   - 모집인원 : 00명
+   - 근무지역 : 서울
+
+ ⑦ 연구기획,특허 : 선행기술정보 분석/프로젝트관리/신규사업기획/특허관리
+
+   - 모집구분 : 신입/경력
+   - 모집인원 : 00명
+   - 근무지역 : 서울
+
+ ⑧ 교육/법무/홍보/IR : 교육과정 개발/운영(경력), 법무(신입), 홍보/IR(경력)
+   
+   - 모집구분 : 신입/경력
+   - 모집인원 : 00명
+   - 근무지역 : 서울 
+
+2. 지원자격
+
+  ① 경력사원 : 4년제 정규대학 이상 졸업 후, 해당분야 1년이상 실무경력을 
+                보유하신 분
+  ② 신입사원 : 4년제 정규대학 학사학위 이상 소지하신 분 또는 2004년 2월
+                졸업예정이신 분
+  ③ 해외여행에 결격사유가 없으신 분
+  ④ 병역필 또는 면제이신 분
+
+3. 서류접수
+
+  ① 접수기한 : 2003.10.13(월) ~ 10.22(수)
+  ② 접수방법 : (주)팬택 홈페이지에서 지원서 작성 및 등록
+
+     www.pantech.co.kr 접속 후 [사원모집]에서 [모집요강] 클릭 후
+     [입사지원 작성/수정]버튼 클릭!
+   → 우편 및 방문접수는 받지 않습니다.
+
+4. 전형방법 및 일정
+
+  ① 서류전형 : 합격자 발표(합격자에 한하여 개별통보합니다.)
+  ② 면접전형 : 합격자 발표
+  ③ 신체검사
+
+5. 기타사항
+
+  ① 보훈대상자는 관계법에 의거 우대합니다.
+  ② 제출서류는 채용목적 이외에는 사용하지 않으며, 일체 반환하지 않습니다.
+  ③ 자세한 내용은 아래의 연락처로 문의바랍니다.
+
+   팬택계열 채용팀(Tel:02-3774-8300)이나 메일(recruit@pantech.co.kr)로
+   연락 주시기 바랍니다.
+  
+
+
+
+
+ </pre>
+											<div align="right">
+
+												<a href="http://www.pantech.co.kr/"><img src="images/button_orange.gif" border="0"></a>
+
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td bgcolor="#94BED6" height="10" colspan="4"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="images/spacer.gif" height="3"></td>
+						</tr>
+						<tr align="center">
+							<td><a href="javascript:history.back()"><img src="images/button_list.gif" border="0"></a></td>
+						</tr>
+						<tr>
+							<td><img src="images/spacer.gif" height="53"></td>
+						</tr>
+				</table>
+<!-- 본문 END -->
+				</td>
+				<td width="28">&nbsp;</td>
+			</tr>
+		</table>
+	</td>
+    <td width="1" height="100%"><img src="images/line_dot.gif" width="1" height="100%"></td>
+    <td width="100%" rowspan="2"></td>
+  </tr>
+  <tr>
+    <td width="1" height="100%"><img src="images/line_dot.gif" width="1" height="100%"></td>
+    <td width="1" height="100%"><img src="images/line_dot.gif" width="1" height="100%"></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#adadad"></td>
+    <td colspan="3" bgcolor="#adadad"><img src="images/main_bott.gif" width="740" height="45" border="0" usemap="#bottom_map"></td>
+    <td width="1" bgcolor="#adadad"></td>
+    <td width="100%" bgcolor="#adadad"></td>
+  </tr>
+<map name="bottom_Map">
+  <area shape="rect" coords="10,14,102,29" href="/footer/privacy.asp" target="_self">
+  <area shape="rect" coords="121,14,167,29" href="/footer/partner.asp" target="_self">
+  <area shape="rect" coords="185,14,231,29" href="/footer/qna.asp?table=askhow" target="_self">
+  <area shape="rect" coords="250,14,307,29" href="/footer/qna.asp?table=ToAdmin" target="_self">
+</map>
+</table>
+
+</center>
+</BODY>
+</HTML>

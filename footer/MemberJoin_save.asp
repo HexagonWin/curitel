@@ -1,0 +1,1 @@
+<script language='javascript'>alert('축하합니다. 일반회원으로 가입되었습니다.');location.href='./MemberPhone.asp?p_type=new';</script>

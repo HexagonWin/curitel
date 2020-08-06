@@ -1,0 +1,365 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/prroom/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/prroom/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=701&page=65&num=67&sseq=&sword=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=701&page=65&num=67&sseq=&sword=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/prroom/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/prroom/index.asp" onfocus="this.blur()"><img src="/img/prroom/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        > <a href="/html/prroom/index.asp">PR Room</a> > News</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="220">
+					               <param name="movie" value="/inc/flash/left/left_prroom.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_prroom.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="220"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">			
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->
+
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/img/prroom/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td height="1"></td>
+						</tr>
+						<tr>
+							<td height="26">
+								<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td bgcolor="#F6F8F9"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="25"></td>
+						</tr>
+						</table>
+
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="2" height="31" style="font-weight:bold;color:#599AA6;padding:0 0 0 10;font-size:9pt">
+							[ IT 별들 '뜨고 지고' .. 2002년 CEO 경영성적 喜悲 쌍곡선  ]
+							</td>
+						</tr>
+						<tr>
+							<td height="16" bgcolor="#F2F2F2" colspan="2"></td>
+						</tr>
+						<tr bgcolor="F2F2F2">
+							<td height="31" width="142" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 67</td>
+							<td width="376" style="padding:2 0 0 0">
+								<b><font color="#515151">&#8226;</font> 등록일</b> :
+								2002-12-11 <img src="/img/b.gif" width=80 height=1>
+								<b><font color="#515151">&#8226;</font> 출처</b> : 한국경제
+							</td>
+						</tr>
+						<tr><td height="1" colspan="2" bgcolor="#C9C9C9"></td></tr>
+						<tr>
+							<td colspan="2" style="padding:25 11;line-height:16px" valign="top" class="8">
+								휴대폰업체인 팬택의 박병엽 부회장은 지난 10월부터 술과 골프를 끊었다.<br><br>두주불사형인 박 부회장의 "금주"선언은 주위사람들을 어리둥절케 했다. <br><br>하지만 현대큐리텔을 인수한 후 삼성전자 LG전자 등과 함께 국내휴대폰 "3강"체제 구축에 나선 박 부회장로서는 몸과 마음을 추스려 내수시장에 승부수를 던진다는 결연한 의지의 표현이었다. <br><br>그의 승부수는 주위의 예상보다 빨리 결실을 맺어가고 있다. <br><br>제품을 출시한 지 얼마 지나지 않아 국내시장 점유율 5%를 돌파하며 돌풍을 예고하고 있는 것. <br><br>이에 힘입어 팬택은 올해 연말까지 약 1조5천억원의 매출을 예상하고 있다. <br><br>박 부회장에게 올 한해에는 새로운 도약의 원년이었다. <br><br>만년 중견 휴대폰업체에 그쳤던 팬택의 위상을 삼성전자,LG전자와 어깨를 나란히 할 수 있는 초석을 다지는 데 성공했기 때문이다. <br><br>올 한해동안 IT업계에는 많은 CEO들이 화려한 비상에 성공했다. <br><br>당초 기대치를 뛰어넘는 실적이나 아무도 실현가능성을 믿지 않았던 사업모델을 정착시키며 새 바람을 일으켰다. <br><br>반면 상당한 CEO들이 한때의 부와 명예를 뒤로 한채 쓸쓸하게 퇴장하기도 했다. <br><br>그래서 한해의 성적표를 눈앞에 두고 있는 CEO들에게 12월은 "잔인한 달"인지 모른다. <br><br><br><>화려한 비상의 2002년 <br><br>삼성전자 이기태 정보통신 총괄사장은 올해 최고의 한해를 보냈다. <br><br>이 사장은 연초까지 전세계 휴대폰 시장에서 불안한 3위자리를 지켰던 삼성전자의 위치를 확고한 3위업체로 자리매김하는 데 성공했다. <br><br>시장점유율도 10%대 벽을 깨는 초유의 기록을 세웠다. <br><br>특히 삼성 휴대폰은 "부의 상징"으로 통할 만큼 명품 대접을 받고 있기 때문에 삼성 전체의 브랜드 인지도는 물론이고 국가 신인도까지 높였다는 평가다. <br><br>삼성맨 답지 않은 저돌적 성격의 이 사장은 내년에도 5천7백만대 이상의 휴대폰을 판매한다는 목표를 세웠다. <br><br>파워콤 인수에 성공한 박운서 데이콤 부회장은 통신업계의 새로운 뉴스메이커로 부상했다. <br><br>지난해 데이콤 부회장으로 취임한 뒤 그는 엄청난 구조조정끝에 6백88억원의 적자기업을 올해 3백30억원의 흑자로 바꿔놓을 전망이다. <br><br>이정도 실적이면 "구조조정 전도사"라는 별명이 어색하지 않다. <br><br>특히 한국전력의 통신자회사인 파워콤 인수에서 강력한 추진력과 협상능력을 과시하기도 했다. <br><br>파워콤 인수로 LG그룹이 LG텔레콤-데이콤-파워콤의 3각 트리오를 형상할 수 있게된 만큼 앞으로 국내 통신시장에서 박 부회장의 영향력은 커질 것으로 보인다. <br><br>인터넷벤처업계에서는 NHN의 이해진 사장과 넷마블의 방준혁 사장의 비상이 두드러졌다. <br><br>네이버와 한게임이 결합한 NHN은 올해 약 6백50억원의 매출과 약 2백억원의 순이익으로 닷컴업계 최고의 순이익률을 낼 것으로 보인다. <br><br>이 사장의 오랜 숙원이던 코스닥등록도 삼수끝에 통과해 현재 NHN은 다음을 밀어내고 닷컴업계의 간판주로 자리를 잡았다. <br><br>넷마블의 방준혁 사장은 올해 게임업계에 혜성처럼 등장한 "기린아"다. <br><br>웹게임사이트 넷마블을 앞세워 지난 3월부터 본격적으로 유료화에 뛰어들어 올해 약 2백50억원의 매출과 1백30억원의 순이익 달성을 눈앞에 두고 있다. <br><br>지난해 매출 7억원과 7억원의 적자를 기록한데 비하면 가히 "경이적"인 변신이다. <br><br>게다가 올해 중반부터는 한게임을 제치고 국내 1위 웹게임사이트로 자리를 굳히는 대약진을 기록하고 있다. <br><br>보안업계에서는 권석철 사장이 이끄는 하우리의 약진이 두드러졌다. <br><br>하우리는 경쟁사인 안철수 연구소가 통합보안업체로 사업영역을 넓혀가는 틈을 노려 안티바이러스 전문업체로의 입지를 다지는 데 성공했다는 평가를 받고 있다. <br><br>특히 국내의 안 연구소,해외의 시만텍 등에 가려져있던 회사 인지도를 이들과 어깨를 견줄 정도로 끌어올린 점은 그가 올해 거둔 가장 큰 성과다. <br><br><br><>잔인한 2002년 <br><br>새롬기술의 오상수 전 사장과 프리챌의 전제완 사장은 가장 힘든 나날을 보내고 있다. <br><br>한때 대한민국 최고의 벤처기업가로 주목받았던 오상수 전 사장은 지난 99년 유상증자 당시의 허위공시와 배임혐의로 검찰에 기소되는 몸이 됐다. <br><br>한때 2백만원을 호가했던 주가도 3천7백억원에 달했던 유동자금도 한바탕 꿈에 지나지 않은 셈이다. <br><br>아이러니컬하게도 새롬기술의 경영권을 넘겨받은 새롬벤처투자의 홍기태 사장은 새롬기술을 통해 큰돈을 벌었던 개인투자자출신이다. <br><br>최근 터진 프리챌의 전제완 사장의 구속사태도 적지 않은 충격이었다. <br><br>사업자금 고갈로 어려움을 겪고 있는 점은 익힌 알려진 사실이지만 프리챌마저 CEO가 배임 및 가장납입혐의로 구속될 줄은 몰랐다는 반응이 대부분이다. <br><br>사업초기 막대한 자금을 쏟아부으며 인터넷커뮤니티사업을 의욕적으로 벌였던 전 사장은 다음에 이어 커뮤니티 2위 업체로의 진입에는 성공했지만 뚜렷한 사업모델이 없어 그동안 고전해왔다. <br><br>지난 11월 최후의 수단으로 커뮤니티 전면 유료화에 나서 12월 현재 약 15만명의 유료회원을 확보하는 "절반의 성공"에 그치고 있다. <br><br>이런 상황에서 터져나온 전 사장의 구속으로 프리챌은 현재 내우외환을 겪고 있다. <br><br>인터넷전도사로 명성을 날렸던 이금룡 전 옥션사장도 지난 7월 대표이사직을 내놓으면서 세인의 관심에서 멀어졌다. <br><br>인터넷붐 초기이던 지난 99년 인터넷경매업체 옥션의 전문경영인으로 영입된 그는 한국인터넷기업협회 설립을 주도,국내 인터넷발전에 공헌하기도 했다. <br><br>그러나 옥션 사이트내 카드깡 문제가 불거져 곤혹을 치르기도 했다. <br><br>그는 옥션을 국내 최대 e마켓플레이스로 성장시켰다는 평가를 받지만 대주주인 이베이와의 불협화음을 견뎌내지 못하고 결국 지난 7월 중도 하차했다. <br><br>더군다나 KT커머스로부터 대표이사직을 제의받고도 퇴사후 1년 이내에 동종업종에서 일할 수 없다는 이베이측과의 계약조건으로 이러지도 저리지도 못하는 상태다. <br><br>세원텔레콤의 홍성범 회장도 고통스런 한해를 보내고 있다. <br><br>한때 벤처 신화의 주인공 대접을 받았지만 최근 매출과 영업이익 감소로 어려움을 겪고있고 업친데 덥친격으로 검찰에 고발까지 당하는 등 액운이 겹쳤다. <br><br>증권선물위원회가 홍 회장과 현직 임원 2명이 내부 미공개정보를 이용해 지분을 매각,손실을 미리 회피했다는 혐의로 검찰에 고발했으며 최대주주와 임원에게 회사 자금을 빌려주고 유가증권신고서와 사업보고서에 이 사실을 누락시킨 것까지 적발돼 과징금까지 부과당했다. <br><br>특히 홍 회장이 평소 벤처기업의 도덕성을 강조해왔다는 점에서는 이번 사건으로 인한 수난의 강도는 클 수밖에 없다. <br><br>파워콤 인수에 실패한 신윤식 하나로통신 회장도 통신시장 이슈메이커에서 점차 멀어지고 있다. <br><br>신 회장은 최근 하나로통신 경영의 전권을 행사할 수 있는 사장에 이인행 부사장을 내정,은퇴를 기정사실화했다. <br><br>그동안 "통신3강정책" "동기식 IMT-2000사업자 선정" 등에서 영향력을 발휘해온 신 회장은 내년 3월께 대표이사직을 물러날 예정이다. <br><br>정리=김형호 기자 chsan@hankyung.com  <br>게재일: 2002-12-11  
+							</td>
+						</tr>
+						<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+						<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+						<tr><td colspan="2" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=65&sseq=&sword="><img src="/img/prroom/btn_list.gif" height="19" alt="" border="0" hspace="8"></a></td></tr>
+						<tr>
+							<td colspan="2" height="60" style="padding:0 0 0 8">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="21" class="minilist">			
+
+									</td>
+								</tr>
+									<td height="21" class="minilist">
+
+									<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1295&num=68&page=65&sseq=&sword="><font class="minilist">[Cover Story] 송문섭 팬텍앤큐리텔 사장 </font></a>
+
+									</td>
+								</table>
+							</td>
+						</tr>
+						</table>
+						<!------- READ End ------------->
+
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,152 @@
+
+<html>
+<head>
+<title>Curitel - The Power to be Your Best</title>
+
+<link href="/english/common/css/eng.css" rel="stylesheet" type="text/css">
+<script language='javascript' src="/english/common/js/model.js"></script>
+<script language='javascript' src="/english/common/js/URL.js"></script>
+<script language='javascript' src="/english/common/js/open_m04.js"></script>
+</head>
+
+<body marginwidth="0" marginheight="0">
+<!--수정 시작--><script language='javascript' src="/english/common/js/top.js"></script><!--수정 끝-->
+<table width="770" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr valign="top"> 
+    <td width="14" bgcolor="#DCD6C6"><img src="/english/images/blank.gif" width="14" height="1"></td>
+    <td style="padding:0 5 0 3"><img src="/english/company/images/title.gif" width="149" height="120"></td>
+    <!--수정 시작--><td width="404"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="404" height="120">
+  <param name="movie" value="/english/common/flash/t_company.swf">
+  <param name="quality" value="high">
+  <param name="menu" value="false">
+  <embed src="/english/common/flash/t_company.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="404" height="120"></embed></object></td><!--수정 끝-->
+    <td width="8" bgcolor="#DCD6C6"><img src="/english/images/blank.gif" width="8" height="1"></td>
+    <td width="11"><img src="/english/images/blank.gif" width="11" height="1"></td>
+    <td width="158" height="120" background="/english/images/quick_bg.gif" style="padding:7 22 0 13"> 
+      <!--Quick menu-->
+      <script language='javascript' src="/english/common/js/quickmenu.js"></script></td>
+    <td width="18"><img src="/english/images/blank.gif" width="18" height="1"></td>
+  </tr>
+  <tr> 
+    <td height="1" colspan="7"></td>
+  </tr>
+</table>
+<table width="770" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr valign="top"> 
+    <td class="l_px"><script language='javascript' src="/english/common/js/left_company.js"></script></td>
+    <td class="m_px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="393" height="20" valign="top" class="location"><a href="javascript:Fn_Home()">Home</a> 
+            &gt; <a href="javascript:Fn_Company()">Company</a> &gt; <font class="location_o">NEWS Center</font></td>
+          <td width="169" rowspan="3" align="right" valign="top"><table width="158" border="0" cellspacing="0" cellpadding="0">
+              <tr valign="top"> 
+                <td height="30" bgcolor="#D2DCE2" style="padding:8 0 0 8"><img src="/english/images/tit_search.gif" width="115" height="13"></td>
+              </tr>
+              <form>
+                <tr valign="top"> 
+                  <td height="53" bgcolor="#D2DCE2" style="padding:0 0 0 10"> 
+                    <Script Language='JavaScript'> 
+<!-- 
+document.write("<select class='input02' name='"+FirstSelectName+"' onChange='CreateSecondSelect()'>"); 
+for(var i=0; i < FirstSelectText.length; i++) 
+document.write("<option value='"+FirstSelectValue[i]+"'>"+FirstSelectText[i]+"</option>"); 
+document.write("</select>"); 
+//--> 
+</script> <br> <img src="images/blank.gif" width="1" height="5"><br> <Script Language='JavaScript'> 
+<!-- 
+document.write("<select class='input02' name='"+SecondSelectName+"' onChange='ChangeURL(this.options[this.selectedIndex].value)'>"); 
+document.write("<option value=''></option>"); 
+document.write("</select>"); 
+
+CreateSecondSelect(); 
+//--> 
+</script></td>
+                </tr>
+              </form>
+            </table></td>
+        </tr>
+        <tr> 
+          <td height="25" background="/english/images/tit_bg.gif"></td>
+        </tr>
+        <tr> 
+          <td height="38" background="/english/images/tit_bg02.gif"><img src="/english/company/images/title04.gif" width="123" height="38"></td>
+        </tr>
+        <tr> 
+          <td height="16" colspan="2"></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="2">
+            <!--NEWS View 테이블 시작-->
+            <table width="543" border="0" cellspacing="0" cellpadding="0">
+              <tr align="center"> 
+                <td height="21" class="bbs01">No.</td>
+                <td class="bbs02">Title</td>
+                <td class="bbs02">Date</td>
+              </tr>
+			  <tr>
+			    <td><img src="/english/images/blank.gif" width="55" height="1"></td>
+				<td><img src="/english/images/blank.gif" width="388" height="1"></td>
+				<td><img src="/english/images/blank.gif" width="100" height="1"></td>
+			  </tr>
+              <tr> 
+                <td width="55" height="21" align="center">0</td>
+                <td align="left" style="padding:5 10" width="388"><font class="title01">New Camera Phone for Sprint</font> </td>
+                <td width="100" align="center">Jul.14,2004</td>
+              </tr>
+              <tr class="bbs03"> 
+                <td height="21" align="center">&nbsp;</td>
+                <td colspan="2" align="left" style="padding:5 10">ASIA : Curitel Communications Inc. (M.S. Song, President & CEO), Korea’s major producer of mobile phone, shipped off 1.3 Mpix camera phones (PM8920) to Sprint, a leading edge in the US telecommunication services.<br>
+<br>
+The PM8920, equipped with 1.3 mega-pixel CMOS sensor, is considered to be the finest so far in the U.S. mobile phone market. This clamshell phone sets off multi-features like voice dialing, voice memo, 32-poly ring tone, etc. <br>
+<br>
+“I’m proud that our R&D is capable of developing the world-leading mobile phones. The PM8920 proves our competence in that we strengthen our position as a world leader in the mobile technology. We will continue to strive for the best through brand marketing and upscale product development” says, M.S. Song, President & CEO of Curitel Communications Inc.(‘Curitel’ hereafter).<br>
+<br>
+From the world’s first 330,000 pixel camera phone (PD-6000) introduced in 2002 to CDMA 1x slim bar camera phone (CDM-8450) shipped out early this year, Curitel has served the customers with newer and better products. As a result, the gradual recognition by North American end users makes it possible to reach 6 million mark on the mobile exports by year end. In turn, on July 1st, 2004, Curitel brought to the market the world’s first camera phone with 2x optical zoom with embedded CCD of 2 Mpix. Apparently, the company will remain a major provider of mobile phone for the U.S. carriers like Verizon Wirelss and Sprint PCS, and its exports to North America will soon amount to 9.8 million units in 2005 and 14 million units in 2006 respectively. <br>
+<br>
+About Curitel Communications Inc.<br>
+Curitel Communications Inc(President & CEO Song, Moon-Seob). is the third largest handset manufacturer in Korea(name in Korea : Pantech&Curitel). Curitel designs and manufactures wireless products for the global market. Curitel has been developing Analog, CDMA, and GSM/GPRS products since the 1980's and has been gaining market share with years of design and manufacturing excellence. For more information, visit www.curitel.com.<br>
+<br>
+Item CDM-8920 Picture<br>
+Mode Dual Band Tri Mode <br>
+Type Clamshell <br>
+Size 87.6X47X23.5mm <br>
+(3.45”X1.85”X0.93”) <br>
+Weight Around 95g (3.35oz) <br>
+LCD Main 260K TFT 1.8” <br>
+(128x160 dots) <br>
+Sub 260K TFT 1” (96x64 dots) <br>
+Camera Sensor 1.3 Mega Pixels CMOS <br>
+Flash Embedded Flash w <br>
+Illuminant Sensor <br>
+(for Auto Flash) <br>
+Memory 128X64M <br>
+Speaker Phone Two-way Speaker Phone <br>
+USB Available <br>
+GPS Available <br>
+</td>
+              </tr>
+              <tr class="bbs05"> 
+                <td height="1" colspan="3"></td>
+              </tr>
+		              
+			  <tr> 
+                <td height="27" align="center" class="list">&nbsp;</td>
+                <td height="49" class="list"><img src="/english/images/bbs/btn_next.gif" width="12" height="8" align="absmiddle">Prev<img src="/english/images/bbs/line.gif" width="1" height="11" hspace="9" vspace="3" align="absmiddle"><a href="news_view.asp?idx=39&num=-1">Curitel Unveils 3 Mega-pixel CMOS Camera Phone Module</a><br> <img src="/english/images/bbs/btn_next.gif" width="12" height="8" align="absmiddle">Next<img src="/english/images/bbs/line.gif" width="1" height="11" hspace="9" vspace="3" align="absmiddle"><a href="news_view.asp?idx=41&num=1">Curitel launches video, TV toting PH-S5000V and PH-K1000V</a></td>
+                <td height="50" align="right" valign="bottom" class="list"><a href="news_list.asp?page="><img src="/english/images/bbs/btn_list.gif" width="43" height="15" hspace="24" vspace="9" border="0"></a></td>
+              </tr>
+              <tr class="bbs04"> 
+                <td height="2" colspan="3"></td>
+              </tr>
+            </table>
+            <!--NEWS View 테이블 끝-->
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<script language='javascript' src="/english/common/js/copy.js"></script>
+<script language='javascript' src="/english/common/js/topbtn.js"></script>
+<script language='javascript' src="/english/common/js/topbtn_s.js"></script>
+</body>
+</html>
+ 

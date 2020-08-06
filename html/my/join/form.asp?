@@ -1,0 +1,1005 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function foreignMemberJoin()
+{
+	document.all.normalMember1.style.display = "none";
+	document.all.normalMember2.style.display = "none";
+	document.all.normalMember3.style.display = "none";
+	document.all.foreignMember1.style.display = "block";
+	document.all.foreignMember2.style.display = "block";
+	document.all.foreignMember3.style.display = "block";
+	document.myform.jmode.value = "F";
+}
+function normalMemberJoin()
+{
+	document.all.normalMember1.style.display = "block";
+	document.all.normalMember2.style.display = "block";
+	document.all.normalMember3.style.display = "block";
+	document.all.foreignMember1.style.display = "none";
+	document.all.foreignMember2.style.display = "none";
+	document.all.foreignMember3.style.display = "none";
+	document.myform.jmode.value = "N";
+}
+
+function eng_ck(obj)
+{
+	var ck_ok = "true";
+	var str_check = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";		
+	for (i=0;i<obj.length; i++){
+		idcheck = obj.charAt(i);
+		for (j=0;j<str_check.length;j++) if (idcheck == str_check.charAt(j)) break;
+		if (j == str_check.length) {						
+			ck_ok = "false";		
+			return ck_ok ;
+		}
+	}
+}
+function num_ck(obj)
+{
+	var ck_ok = "true";
+	var str_check = "0123456789";		
+	for (i=0;i<obj.length; i++){
+		idcheck = obj.charAt(i);
+		for (j=0;j<str_check.length;j++) if (idcheck == str_check.charAt(j)) break;
+		if (j == str_check.length) {						
+			ck_ok = "false";		
+			return ck_ok ;
+		}
+	}
+}
+function IsValidSocNumber(n)
+{
+	var snu,k,c,remainder,check_sum;
+	var sn = new String(n);    
+   check_num=sn.substr(12,1);
+   sum=0;
+   k=0;
+
+   for (var i=0; i<12; i++) {
+		j = sn.substr(i, 1);
+		c = i + 2;
+		if (c > 9) { c = c - 8; }
+	k = c * j;
+	sum = sum + k;
+   }
+
+   remainder = sum % 11;
+   check_sum = 11 - remainder;
+   if (check_sum > 9) {
+	   check_sum = check_sum - 10;
+   }
+
+   if (check_num == check_sum) return true;
+   else return false;
+}
+
+function IsValidSocNumber(n)
+{
+	var snu,k,c,remainder,check_sum;
+	var sn = new String(n);    
+   check_num=sn.substr(12,1);
+   sum=0;
+   k=0;
+
+   for (var i=0; i<12; i++) {
+		j = sn.substr(i, 1);
+		c = i + 2;
+		if (c > 9) { c = c - 8; }
+	k = c * j;
+	sum = sum + k;
+   }
+
+   remainder = sum % 11;
+   check_sum = 11 - remainder;
+   if (check_sum > 9) {
+	   check_sum = check_sum - 10;
+   }
+
+   if (check_num == check_sum) return true;
+   else return false;
+}
+
+function checkid(obj)
+{
+	var str;
+	str = document.myform.uid.value;
+	if (!str) {
+		alert ("사용하실 아이디를 입력해주세요.");
+		selectAll(document.myform.uid);
+		return false;
+	}
+	else if(str.length < 4) {
+		alert("아이디는 최소한 4자이상 입니다.");
+		selectAll(document.myform.uid);
+		return false;
+	}
+	else if(str=="admin"||str=="master"||str=="webmaster"){
+		alert("사용할 수 없는 아이디 입니다.");
+		selectAll(document.myform.uid);
+		return false;		
+	}
+	ck_ok = eng_ck(str);
+	if ( ck_ok == "false"){
+		alert("ID는 영문자와 숫자만으로 적어주세요.");
+		selectAll(document.myform.uid);		
+		return false;				
+	}else{
+		if (obj == "ck"){
+		window.open("checkid.asp?uid="+str, "checkid", "scrollbars=no, resizeable=no,width=400, height=200");
+		}
+	}			
+}	
+
+function selectAll(obj)
+{
+		if (obj.type!='hidden'&&obj.style.display!='none') {
+			obj.focus();
+			if (!obj.readOnly) obj.select();
+		}
+}
+
+function oldmember()
+{
+	var str;
+	str = document.myform.uid.value;
+	if (!str) {
+		alert ("사용하실 아이디를 입력해주세요.");
+		selectAll(document.myform.uid);
+		return false;
+	}
+	else if(str.length < 4) {
+		alert("아이디는 최소한 4자이상 입니다.");
+		selectAll(document.myform.uid);
+		return false;
+	}
+	else if(str=="admin"||str=="master"||str=="webmaster"){
+		alert("사용할 수 없는 아이디 입니다.");
+		selectAll(document.myform.uid);
+		return false;		
+	}
+	window.open("checkid.asp?mode=oldid&uid="+str, "checkid", "scrollbars=no, resizeable=no,width=400, height=200");			
+}
+
+function zipcodesearch()
+{
+document.domain = "curitel.com";	window.open("/common/zipcode.asp?frmName=myform&zipcode1=zipcode1&zipcode2=zipcode2&address1=address1&address2=address1","POST","width=480,height=300,marginwidth=0,marginheight=0,resizable=0,scrollbars=yes");
+	return;	   
+}
+
+function submitto()
+{	
+	var form = document.myform		
+	str = document.myform.uid.value;
+	if (!str) {
+		alert ("사용하실 아이디를 입력해주세요.");
+		selectAll(document.myform.uid);
+		return false;
+	}
+	else if(str.length < 4) {
+		alert("아이디는 최소한 4자이상 입니다.");
+		selectAll(document.myform.uid);
+		return false;
+	}
+	else if(str=="admin"||str=="master"||str=="webmaster"){
+		alert("사용할 수 없는 아이디 입니다.");
+		selectAll(document.myform.uid);
+		return false;		
+	}
+	ck_ok = eng_ck(str);
+	if ( ck_ok == "false"){
+		alert("ID는 영문자와 숫자만으로 적어주세요.");
+		selectAll(document.myform.uid);		
+		return false;	
+	}	
+	
+	if(form.jmode.value == "N")
+	{
+		if (!form.name.value) {
+			alert ("이름을 확인해주세요\n이름은 필수사항이며 한글외에는 들어갈수 없습니다.");
+			selectAll(document.myform.name);
+			return false;
+		}else {
+				for(i=0;i<form.name.value.length;i++) { 
+					var a=form.name.value.charCodeAt(i); 
+					if (a < 128) { 
+						alert ("이름을 확인해주세요\n이름은 필수사항이며 한글외에는 들어갈수 없습니다.");
+						form.name.value=""; 
+						form.name.focus(); 
+						return false;
+					} 
+				}
+		}		
+	} else {
+		if (!form.name.value) {
+			alert ("이름을 입력하세요.");
+			selectAll(document.myform.name);
+			return false;
+		}
+	}
+
+	if(form.jmode.value == "N")
+	{
+		if(form.ssn1.value.length < 6 || form.ssn2.value.length < 7 ){
+			alert("주민등록 번호를 입력해 주세요.");
+			selectAll(document.myform.ssn1);
+			return false;
+		}
+		var SN = form.ssn1.value+form.ssn2.value;
+		if (!IsValidSocNumber(SN)) {
+			alert("주민등록번호를 정확하게 입력해 주세요.");
+			selectAll(document.myform.ssn1);
+			return false;
+		}
+	} else {
+		if(form.passportno.value == "")
+		{
+			alert("Passport No.를 입력하세요.");
+			form.passportno.foscus();
+			return false;
+		}
+	}
+
+	if(!form.passwd.value || !form.passwd2.value){
+		alert("비밀번호를 입력하세요.");
+		selectAll(document.myform.passwd);
+		return false;
+	}
+
+	if(form.passwd.value != form.passwd2.value){
+		alert("비빌번호가 일치하지 않습니다.");
+		document.myform.passwd.value = "";
+		document.myform.passwd2.value = "";
+		selectAll(document.myform.passwd);
+		return false;
+	}
+
+	if(!form.zipcode1.value || !form.zipcode2.value || !form.address1.value){
+	  alert("주소를 입력하세요.");
+	  return false;
+  }	
+/*
+	if(!form.address2.value){
+	  alert("주소를 입력하세요.");
+		selectAll(document.myform.address2);
+	  return false;
+  }	
+*/
+	if(!form.tel1.value || !form.tel2.value || !form.tel3.value){
+	  alert("전화번호를 확인해주세요.");
+	  selectAll(document.myform.tel1);
+	  return false;
+  }
+	if ( !isNumber(form.tel2) ){
+		alert("전화번호는 숫자형식으로 입력해 주십시오.");
+		form.tel2.value = "";
+		form.tel2.focus();
+		return false;
+	}else if ( form.tel2.value.length < 3 ){
+		alert("올바른 전화번호 형식(국번길이)이 아닙니다.확인해 주시기 바랍니다.");
+		form.tel2.focus();
+		return false;
+	}
+	if ( !isNumber(form.tel3) ){
+		alert("전화번호는 숫자형식으로 입력해 주십시오.");
+		form.tel3.value = "";
+		form.tel3.focus();
+		return false;
+	}else if ( form.tel3.value.length < 4 ){
+		alert("올바른 전화번호 형식이 아닙니다.확인해 주시기 바랍니다.");
+		form.tel3.focus();
+		return false;
+	}
+
+	if(!form.mobile2.value || !form.mobile3.value){
+	  alert("핸드폰번호를 확인해주세요.");
+	  selectAll(document.myform.mobile2);
+	  return false;
+  }
+	if ( !isNumber(form.mobile2) ){
+		alert("전화번호는 숫자형식으로 입력해 주십시오.");
+		form.mobile2.value = "";
+		form.mobile2.focus();
+		return false;
+	}else if ( form.mobile2.value.length < 3 ){
+		alert("올바른 전화번호 형식(국번길이)이 아닙니다.확인해 주시기 바랍니다.");
+		form.mobile2.focus();
+		return false;
+	}
+	if ( !isNumber(form.mobile3) ){
+		alert("전화번호는 숫자형식으로 입력해 주십시오.");
+		form.mobile3.value = "";
+		form.mobile3.focus();
+		return false;
+	}else if ( form.mobile3.value.length < 4 ){
+		alert("올바른 전화번호 형식이 아닙니다.확인해 주시기 바랍니다.");
+		form.mobile3.focus();
+		return false;
+	}
+
+	if (!form.email.value){
+	  alert("E-mail을 확인해주세요.");
+	  selectAll(document.myform.email);
+	  return false;
+  } else {
+		if ( !isValidEmail( form.email) ){
+				alert("올바른 이메일 형식이 아닙니다. 확인하시고 다시 입력해 주시기 바랍니다.");
+				selectAll(document.myform.email);
+				return false;
+			}
+/*			
+		if (form.email.value.indexOf("@hanmail.net") > -1 || form.email.value.indexOf("@daum.net") >-1) {
+			alert ("당사는 e-Mail로 고객에 대해 각종 정보를 제공하고 있으나, \n"+
+				   "입력하신 '다음' 계정(@hanmail.net, @daum.net)은 \n"+
+				   "'다음'의 온라인 우표제 시행으로 회원님에게 정보를 \n"+
+				   "원활하게 제공할 수 없어 등록을 받지 않습니다.\n"+
+				   "회원등록시 다른 메일계정으로 등록을 하여 주십시오");
+			form.email.value = "";
+			selectAll(document.myform.email);
+			return false;			
+		}
+*/		
+	}
+
+	if (form.uid.value == form.recomm_id.value){
+		alert("자신을 추천 할수는 없습니다.");
+		form.recomm_id.value = "";
+		selectAll(document.myform.recomm_id);
+		return false;
+	}
+}
+function isValidEmail(input) {
+//    var format = /^(\S+)@(\S+)\.([A-Za-z]+)$/;
+    var format = /^((\w|[\-\.])+)@((\w|[\-\.])+)\.([A-Za-z]+)$/;
+    return isValidFormat(input,format);
+}
+function isValidFormat(input,format) {
+    if (input.value.search(format) != -1) {
+        return true; //올바른 포맷 형식
+    }
+    return false;
+}
+function isNumber(input) {
+    var chars = "0123456789";
+    return containsCharsOnly(input,chars);
+}
+function containsCharsOnly(input,chars) {
+    for (var inx = 0; inx < input.value.length; inx++) {
+       if (chars.indexOf(input.value.charAt(inx)) == -1)
+           return false;
+    }
+    return true;
+}
+
+//-----------웹하드 이벤트------------------
+function ADopen()
+{
+	var left = window.screen.availWidth-1000;
+	window.open("/html/event/event/webhard/pop_2.asp","tr","width=300,height=243");
+}
+//-----------웹하드 이벤트------------------
+
+//-->
+</SCRIPT>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"></head>
+
+<body bgcolor="#ffffff" onload="ADopen();">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><script language="JavaScript">flash('/inc/flash/sub_menu.swf?lnum=0','936','137');</script>
+		<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object> --></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/my/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/my/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/my/join/form.asp">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/my/join/form.asp">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/my/titleleftbg.gif">
+					
+					<script language="JavaScript">flash('/inc/flash/rollbar_1.swf?uid=0','77','65','1');</script>
+					<!-- <embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65> -->
+					</td>
+					<td width="164" align="right"><a href="/html/my/index.asp" onfocus="this.blur()"><img src="/img/my/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr> 
+						
+      <td height="15" align="right" class="rpath"><div id="normalMember1" style="display:none"><a href="/html/index.asp">Home</a> 
+        > <a href="/html/my/index.asp">My Curitel</a> > 회원가입 > 일반회원가입</div><div id="foreignMember1" style="display:none"><a href="/html/index.asp">Home</a> 
+        > <a href="/html/my/index.asp">My Curitel</a> > 회원가입 > 외국인 회원가입</div></td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center">
+							<script language="JavaScript">flash('/inc/flash/left/left_mycuritel.swf?html_Num=00','100','380');</script>
+							<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="380">
+					               <param name="movie" value="/inc/flash/left/left_mycuritel.swf?html_Num=00">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_mycuritel.swf?html_Num=00" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="380"></embed></object> --></td>
+						</tr>
+						<!--tr>
+							<td align="center"><a href="javascript:openMySympathy('')"><img src="/img/common/go_minihome.gif" width="120" height="34" alt="" border="0"></a></td>
+						</tr-->
+						<tr><td height="50" style="padding:0 0 0 14">						
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>			
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->			
+
+			<table width="557" cellpadding="0" cellspacing="0" border="0">
+<form name="myform" method="post" action="member_join.asp" onSubmit="return submitto()">
+<input type="hidden" name="jmode" value="">
+<input type="hidden" name="old_id">
+<input type="hidden" name="old_pp">
+			 <tr> 
+				<td><img src="/img/my/join/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+			 </tr>
+			 <tr> 
+				<td height="1"></td>
+			 </tr>
+			 <tr> 
+				<td height="26"> <table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+					<tr> 
+					 <td bgcolor="#F6F8F9"></td>
+					</tr>
+				 </table></td>
+			 </tr>
+			 <tr> 
+				<td height="40"></td>
+			 </tr>
+			 <tr> 
+				<td height="40" valign="top" style="padding:0 0 0 8">회원정보는 다양한 정보 제공 및 
+				 경품발송등에 사용하오니 정확한 자료를 입력하셔야 합니다.<br>
+				 회원보호정책에 따라 이용자님이 동의하지 않은 정보는 절대 공개하지 않음을 알려드립니다.</td>
+			 </tr>
+			 <tr> 
+				<td height="20"><table width="537" height="20" border="0" cellpadding="0" cellspacing="0">
+					<tr> 
+					 <h3></h3>
+					 <td align="right"><div id="normalMember2" style="display:none"><font color="#3992A3">일반 회원가입</font> | <a href="javascript:foreignMemberJoin()">외국인 
+						회원가입</a></div><div id="foreignMember2" style="display:none"><a href="javascript:normalMemberJoin()">일반 회원가입</a> | <font color="#3992A3">외국인 회원가입</font></a>
+						</td>
+					</tr>
+				 </table></td>
+			 </tr>
+			 <tr> 
+				<td height="20"></td>
+			 </tr>
+			 <tr> 
+				<td style="padding:0 0 0 8">
+
+
+					<!--수정//-->
+					<table width="530" cellpadding="0" cellspacing="0" bgcolor="#f2f2f2" style="font:8pt">
+					<colgroup>
+					<col width="80" height="39" class="bbsfield">
+					<col width="450">
+					</colgroup>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> ID</td>
+						<td><span class="bx">
+							<input type="text" name="uid" size=18> <img src="/img/my/join/btn_overlap.gif" width="57" height="19" align="absmiddle"  onclick="javascript:checkid('ck');" style="cursor:hand"> 
+							<img src="/img/my/join/btn_certify.gif" width="69" height="19" align="absmiddle" onclick="oldmember()" style="cursor:hand">
+						</span></td>
+					</tr>
+					<tr> 
+					 <td width=80>&nbsp;</td>
+					 <td width=450 style="padding-bottom:5">
+						<table border="0" cellspacing="0" cellpadding="0" bgcolor="#D9D9D9">
+						 <tr> 
+							<td width="3" height="3" class="round_a1"></td>
+							<td></td>
+							<td width="3" class="round_a2"></td>
+						 </tr>
+						 <tr> 
+							<td></td>
+							<td width=415 style="padding:2 5">영문 대소문자(구분),숫자,”=” 조합하여 4자리 이상 16자리이내 입력가능.<br>
+							 2002년 09월 16일 이전에 가입하신 회원님께서는 구회원 인증을 통해 가입가능합니다.</td>
+							<td></td>
+						 </tr>
+						 <tr> 
+							<td width="3" height="3" class="round_a3"></td>
+							<td></td>
+							<td width="3" class="round_a4"></td>
+						 </tr>
+						</table>
+					 </td>
+					</tr>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 이름</td>
+						<td><span class="bx">
+							<input type="text" name="name" size=18 maxlength="5">
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					</table>
+
+<div id="normalMember3" style="display:none">
+					<table width="530" cellpadding="0" cellspacing="0" bgcolor="#f2f2f2" style="font:8pt">
+					<colgroup>
+					<col width="80" height="39" class="bbsfield">
+					<col width="450">
+					</colgroup>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 주민번호</td>
+						<td><span class="bx">
+							<input type="text" name="ssn1" size=7 maxlength=6 onblur="javascript:this.form.birth_yy.value='19'+this.form.ssn1.value.substr(0,2); this.form.birth_mm.value=this.form.ssn1.value.substr(2,2); this.form.birth_dd.value=this.form.ssn1.value.substr(4,2);">
+							- <input type="text" name="ssn2" size=7 maxlength=7>
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					</table>
+</div>
+<div id="foreignMember3" style="display:none">
+					<table width="530" cellpadding="0" cellspacing="0" bgcolor="#f2f2f2" style="font:8pt">
+					<colgroup>
+					<col width="80" height="39" class="bbsfield">
+					<col width="450">
+					</colgroup>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 성별</td>
+						<td><span class="bx">
+							<input type="radio" name="gender" value="M" checked>남&nbsp; 
+							<input type="radio" name="gender" value="F">여
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> Passport <br>&nbsp;&nbsp; No.</td>
+						<td><span class="bx">
+							<input type="text" name="passportno" size=18>
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					</table>
+</div>
+					<table width="530" cellpadding="0" cellspacing="0" bgcolor="#f2f2f2" style="font:8pt">
+					<colgroup>
+					<col width="80" height="39" class="bbsfield">
+					<col width="450">
+					</colgroup>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 비밀번호</td>
+						<td><span class="bx">
+							<input type="password" name="passwd" size=18 maxlength=50> &nbsp;&nbsp;
+							<font color="#515151">&#8226;</font> 비밀번호 확인 <input type="password" name="passwd2" size=18 maxlength=50>
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 생년월일</td>
+						<td><span class="bx">
+							<input type="text" name="birth_yy" size="4" maxlength="4"> - <input type="text" name="birth_mm" size="2" maxlength="2"> - <input type="text" name="birth_dd" size="2" maxlength="2">
+							&nbsp; <input type="radio" name="issolar" value="1" checked>양력
+							&nbsp; <input type="radio" name="issolar" value="0">음력
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 우편번호</td>
+						<td><span class="bx">
+							<input type="text" name="zipcode1" size=7 readonly>- <input type="text" name="zipcode2" size=7 readonly>
+							<img src="/img/my/join/btn_zipcode.gif" width="57" height="19" align="absmiddle" onClick="zipcodesearch()" style="cursor:hand"> 
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 집주소</td>
+						<td><span class="bx">
+							<input type="text" name="address1" size=40>
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 집전화</td>
+						<td><span class="bx">
+							<input type="text" name="tel1" size=4 maxlength=4>
+							- <input type="text" name="tel2" size=4 maxlength=4>
+							- <input type="text" name="tel3" size=4 maxlength=4>
+							(자택 전화번호 기입시 숫자만 기입해 주세요!!) 
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 핸드폰</td>
+						<td><span class="bx">
+                          <select name="mobile_type">
+                            <option value="1" >SKT</option>
+                            <option value="2" >KTF</option>
+                            <option value="3" >LGT</option>
+                          </select>
+							<select name="mobile1">
+							 <option>010</option>
+							 <option>011</option>
+							 <option>016</option>
+							 <option>017</option>
+							 <option>018</option>
+							 <option>019</option>
+							</select>
+							- <input type="text" name="mobile2" size=4 maxlength=4>
+							- <input type="text" name="mobile3" size=4 maxlength=4>
+							(핸드폰 번호 기입시 숫자만 기입해 주세요!!)
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> e-mail</td>
+						<td><span class="bx">
+							<input type="text" name="email" size=24 maxlength=50>
+						</span></td>
+					</tr>
+					<tr> 
+						<td height="39" class="bbstxt">&nbsp;</td>
+						<td style="padding-bottom:5"><span class="bx">
+							<input type="checkbox" name="curimail" value="y" checked> Curitel의 홍보메일을 받겠습니다.<br>
+							<input type="checkbox" name="curisms" value="y" checked> Curitel의 홍보 SMS를 받겠습니다. 
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 직업</td>
+						<td><span class="bx">
+							<select name="vocation">
+
+                         		<option value=""> --선택--
+	
+                          		<option value="01">초중고등학생	
+                          		<option value="02">대학(원)생	
+                          		<option value="03">사무직	
+                          		<option value="04">연구/개발직	
+                          		<option value="05">기술직	
+                          		<option value="06">경영/관리직	
+                          		<option value="07">영업/마케팅	
+                          		<option value="08">전문직	
+                          		<option value="09">자영업	
+                          		<option value="10">판매직	
+                          		<option value="11">노무직	
+                          		<option value="12">서비스직	
+                          		<option value="13">농업	
+                          		<option value="14">축산업	
+                          		<option value="15">임업	
+                          		<option value="16">수산업	
+                          		<option value="17">공무원	
+                          		<option value="18">군경	
+                          		<option value="19">교직	
+                          		<option value="20">예술	
+                          		<option value="21">주부	
+                          		<option value="22">무직	
+                          		<option value="99">기타			
+						</select>
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 결혼여부</td>
+						<td><span class="bx">
+							<input type="radio" name="wedding" value="0" class="checkbox" checked>미혼&nbsp;&nbsp;
+							<input type="radio" name="wedding" value="1" class="checkbox">기혼 &nbsp;&nbsp;
+							<font color="#515151">&#8226;</font> 결혼기념일 
+							<input type="text" name="wedding_yy" size="4" maxlength="4"> 년 
+							<input type="text" name="wedding_mm" size="2" maxlength="2"> 월 
+							<input type="text" name="wedding_dd" size="2" maxlength="2"> 일
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+					<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+					<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+					<tr> 
+						<td height="39" class="bbstxt"><font color="#515151">&#8226;</font> 추천인<br>&nbsp; 아이디</td>
+						<td><span class="bx">
+							<input type="text" name="recomm_id" size=18>
+						</span></td>
+					</tr>
+					<tr> <td colspan="2" bgcolor="#ffffff" height="1"></td></tr>
+				 </table>
+				<!--//수정-->
+			 <tr> 
+				<td height="20"></td>
+			 </tr>
+			 <tr> 
+				<td height="20" align="center"><input type=image src="/img/my/join/btn_submit.gif" width="50" height="19" border="0" style="height:19">&nbsp;
+					<img src="/img/my/join/btn_cancel.gif" width="50" height="19" onClick="javascript:document.myform.reset();"></td>
+			 </tr>
+			</table> 
+
+
+					</td>
+				</tr>
+			</table>
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</form>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<script language="JavaScript">flash('/inc/flash/search/search.swf?file_url=http://file.curitel.com','91','340');</script>
+<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object> -->
+
+<!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>-->
+</div>
+
+
+</body>
+</html>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+		foreignMemberJoin()
+
+//-->
+</SCRIPT>

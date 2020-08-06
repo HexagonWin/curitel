@@ -1,0 +1,152 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/product.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+
+<script>
+	function chgService(ser){
+		var df = getDF();
+		df.service.value = ser
+		df.submit();
+	}
+
+	function getDF(){
+		return document.p_form;
+	}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"></head>
+
+<body bgcolor="#ffffff">
+
+
+
+<form name="p_form" action="if_pcsync.asp" method="post">
+	<input type="hidden" name = "service" value="">
+	<input type="hidden" name = "sector" value="product">
+</form>
+
+<script>
+	function goParent(usNo){
+		parent.location.href='/html/product/download/search.asp?serial_no='+usNo;		
+	}
+</script>
+<table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr><!--- 텝메뉴 "해당파일_o" --->
+		<td height="29" background="/img/common/tabbg.gif">
+			
+			<a href="javascript:chgService('SKT')"><img src="/img/product/tab01_o.gif" width="81" height="29" alt="" border="0"></a><a href="javascript:chgService('KTF')"><img src="/img/product/tab02.gif" width="81" height="29" alt="" border="0" hspace="1"></a><a href="javascript:chgService('LGT')"><img src="/img/product/tab03.gif" width="81" height="29" alt="" border="0"></a></td>
+	</tr>
+  <tr>
+    <td height="15"></td>
+  </tr>
+  <tr>
+  	<td>		
+		<table width="529" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td><img src="/img/common/redge01.gif" width="6" height="6" alt="" border="0"></td>
+				<td width="517" style="border-top:1px solid #DCDCDC" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+				<td><img src="/img/common/redge02.gif" width="6" height="6" alt="" border="0"></td>
+			</tr>
+			<tr>
+				<td height="50" style="border-left:1px solid #DCDCDC" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+				    <td>
+					<table width="506" border="0" cellspacing="0" cellpadding="0">
+					 <tr><td height="15" colspan="5"></td></tr>
+<tr align='center'> 
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/A1_ph-s2000m(1)(1)(1).gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>PH-S2000M</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PCSync_PH-S2000M_Setup_V3.15.zip')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 
+						 </div>
+						</td>
+						<td width='1' class='li_dotline02'></td>
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/PH-S7000V_a1_(1)(1).gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>PH-S7000V</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PCSync_PH-S7000V_Setup_V3.16.zip')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 
+						 </div>
+						</td>
+						<td width='1' class='li_dotline02'></td>
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/A1_ph-s6500(2).gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>PH-S6500</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PCSync_PH-S6500_Setup_V3.20.zip')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 
+						 </div>
+						</td>
+						</tr><tr><td height='15' colspan='5'></td></tr><tr align='center'> 
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/A1_ph-s4000.gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>PH-S4000</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PCSync_PH-S4000_Setup_V3.17.zip')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 
+						 </div>
+						</td>
+						<td width='1' class='li_dotline02'></td>
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/A1_ph-s5000v.gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>PH-S5000V</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PCSync_PH-S5000V_Setup_V3.15.zip')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 
+						 </div>
+						</td>
+						<td width='1' class='li_dotline02'></td>
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/a1_5700.gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>PH-S5700</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PC Sync  PH-S5700_Setup_V210.zip')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 
+						 </div>
+						</td>
+						</tr><tr><td height='15' colspan='5'></td></tr>
+                 </table>
+				</td>
+				<td style="border-right:1px solid #DCDCDC" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+			</tr>
+			<tr>
+				<td><img src="/img/common/redge03.gif" width="6" height="6" alt="" border="0"></td>
+				<td style="border-bottom:1px solid #DCDCDC" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+				<td><img src="/img/common/redge04.gif" width="6" height="6" alt="" border="0"></td>
+			</tr>
+		</table>
+	</td>
+  </tr>
+  <tr><td height="42" align="center">
+  &nbsp;<a href=if_pcsync.asp?page=1&service=SKT&sector=product>|1|</a>&nbsp;<a href=if_pcsync.asp?page=2&service=SKT&sector=product>|2|</a>&nbsp;<b>|3|</b>&nbsp;<a href=if_pcsync.asp?page=4&service=SKT&sector=product>|4|</a>&nbsp;<a href=if_pcsync.asp?page=5&service=SKT&sector=product>|5|</a>&nbsp;<a href=if_pcsync.asp?page=6&service=SKT&sector=product>|6|</a>&nbsp;<a href=if_pcsync.asp?page=7&service=SKT&sector=product>|7|</a>
+  </td></tr>
+	<tr><td>
+<!--* PT-K1100 모델의 M.05 버젼의 고객님들은 Two way PC-Sync를 다운로드 이용 부탁드립니다. 
+* SKT P1의 경우, S/W Ver.M12인 단말기에서 피시싱크 Ver.3.11의 싱크를 사용하면 컨텐츠 사용이 안되오니 필히 새로 배포된 PC-Sync Ver.3.22를 다운받아 설치후 사용하시기 바랍니다. <br><img src="/img/common/b.gif" width=1 height=5><br>
+* S5500, S2 제품의 경우, PC-Sync 설치후 프로그램 실행 전 유의사항 파일을 꼭 읽어 주시기 바랍니다.<br><img src="/img/common/b.gif" width=1 height=5><br>
+* MP3를 지원하는 휴대폰의 <b>MP3 저장 프로그램은 각 사업자에서 제공하고 있습니다.</b><br>
+<b>SKT</b>는 네이트(<a href="http://www.nate.com" target="_blank">http://www.nate.com</a>)에서, <B>KTF</B>는 매직엔(<a href="http://goodtimemusic.magicn.com" target="_blank">http://goodtimemusic.magicn.com</a>) <B>LGT</B>는 뮤직온(<a href="http://www.music-on.co.kr" target="_blank">http://www.music-on.co.kr</a>)을 통해 다운로드 받으시기 바랍니다.<br>
+사용법 및 설치법은 각 사이트 및 <b>SKT : 011-114, KTF : 016-114, LGT : 019-114</b>로 문의하세요.<br>
+<b>(휴대폰 MP3 지원여부에 대한 사항은 홈페이지 PRODUCT를 통해 확인바랍니다.) </b>
+* <b>PT-K1000 모델의 M.11 버전은 Two way PC-Sync를 M.12 버전 이상은 PC-Sync를 다운로드 이용 바랍니다.</b><br>-->
+* <b>PT-K1000 모델의 M.11 이하 버전은 Two way PC-Sync를 M.12 버전 이상은 PC-Sync를 다운로드 이용 바랍니다.</b><br>
+* <b>PH-K3000V 모델의 M.08 이하 버전은 Two way PC-Sync를 M.09 버전 이상은 PC-Sync를 다운로드 이용 바랍니다.</b><br>
+* <b>PH-K2500V 모델의 M.12 이하 버전은 Two way PC-Sync를 M.13 버전 이상은 PC-Sync를 다운로드 이용 바랍니다.</b><br>
+* <b>PH-L4000V M.15 이하 버젼은 Two way pc sync를 M.18 이상은 pc-sync를 다운로드 이용 바랍니다.</b><br>
+* <b>PT-K1100 모델의 M.05 버전은 Two way PC-Sync를 M.06 버전 이상은 PC-Sync를 다운로드 이용 바랍니다.</b><br>
+* SKT P1의 경우, S/W Ver.M12인 단말기에서 피시싱크 Ver.3.11의 싱크를 사용하면 컨텐츠 사용이 안되오니 필히 새로 배포된 PC-Sync Ver.3.22를 다운받아 설치후 사용하시기 바랍니다. <br><img src="/img/common/b.gif" width=1 height=5><br>
+* S5500, S2 제품의 경우, PC-Sync 설치후 프로그램 실행 전 유의사항 파일을 꼭 읽어 주시기 바랍니다.<br><img src="/img/common/b.gif" width=1 height=5><br>
+* MP3 이용 프로그램 및 사용 방법 문의는 SKT 멜론(<a href="http://www.melon.com" target=_new>http://www.melon.com</a>), KTF 도시락 (<a href="http://www.dosirak.com" target=_new>http://www.dosirak.com</a>),
+ LGT 뮤직온 (<a href="http://www.music-on.co.kr" target=_new>http://www.music-on.co.kr</a>)을 통해 확인하시기 바랍니다.<br>
+ (휴대폰 MP3 지원여부에 대한 사항은 홈페이지 PRODUCT를 통해 확인바랍니다.) 
+	</td></tr>
+
+</table>
+
+</body>
+</html>

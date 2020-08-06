@@ -1,0 +1,291 @@
+<!--
+'▶ DB 검색하는 부분
+	sql = "SELECT * FROM board where b_num=" & id
+	Set  Result = Dbconn.Execute(Sql)
+	write_id = Result("uid")
+	b_title =  CheckWord(Result("b_title"))
+	b_content = CheckWord(Result("b_content"))
+	b_date = Result("b_date")
+	count = Result("b_count")
+
+'▶ 조회수 증가
+	sql = "UPDATE board set b_count=(b_count+1) WHERE b_num=" & id
+	set str = Dbconn.Execute(Sql)
+%--><html>
+<head>
+	<title>큐리텔제목</title>
+	<link href="/Common/css/basic.css" rel="stylesheet" type="text/css">
+	<script language=javascript>
+	function view_form(p_id,re_id){
+		document.myform.table.value = "Notice";
+		document.myform.mode.vlaue="view";
+		document.myform.id.value = p_id;
+		document.myform.reid.value = re_id;
+		document.myform.action = "bbs_content.asp";
+		document.myform.submit();
+	}
+	function update_form(obj,a){
+		document.myform.table.value = "Notice";		
+		document.myform.mode.value=obj;
+		document.myform.id.value = a;
+		if (obj == "delete") {
+			ck_confirm = confirm("삭제 하시겠습니까?");
+			if (ck_confirm == true) {
+				document.myform.action = "bbs_delete_save.asp";
+				document.myform.submit();
+			}else {
+				return;
+			}
+		}else {		
+			document.myform.action = "bbs_update.asp";
+			document.myform.submit();
+		}
+	}
+	function write_form(a,b){
+		if (a=="") {
+			document.myform.table.value = "Notice";
+			document.myform.mode.value="write";			
+			document.myform.action = "bbs_write.asp";
+			document.myform.submit();
+		}else{
+			document.myform.table.value = "Notice";
+			document.myform.mode.value="rewrite";
+			document.myform.id.value = a;
+			document.myform.b_subnum.value=b;
+			document.myform.action = "bbs_write.asp";
+			document.myform.submit();
+		}
+	}
+	function list_form(){
+		document.myform.table.value = "Notice";
+		document.myform.mode.value="list";
+		document.myform.action = "bbs_list.asp";
+		document.myform.submit();
+	}
+	function download(obj){		
+		document.myform.table.value = "Notice";
+		document.myform.mode.value = "download";
+		document.myform.id.value=obj;	
+		document.myform.action = "download.asp";					
+		document.myform.submit();
+	}
+	</script>
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr><td colspan="3"><EMBED src="images/curitel_footer.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED></td>
+
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/Common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+> <font color="#FFFFFF">공지,이벤트</font>
+
+</td>
+
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include START-->
+		<td width="197" valign="top" background="images/left_bg.gif">
+			<!-- 레프트 메뉴 include-->
+			<table width="197" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top"><img src="images/left_image_07.gif"></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+
+				<tr>
+					<td align="center"><a href="/Footer/Member_info.asp"><img src="images/left_menu_01.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+
+				<tr>
+					<td align="center"><a href="/Footer/bbs_list.asp?table=Notice"><img src="images/left_menu_03.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/Footer/qna.asp?table=askhow"><img src="images/left_menu_04.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/Footer/privacy.asp"><img src="images/left_menu_05.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/Footer/partner.asp"><img src="images/left_menu_06.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/Footer/qna.asp?table=toadmin"><img src="images/left_menu_07.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<tr>
+					<td align="center" bgcolor="#ffffff"><img src="/common/images/spacer.gif" height="6"></td>
+				</tr>
+			</table>
+		
+		</td>
+		<!-- 레프트 메뉴 include END-->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+			<table width="580" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td class="main_first">
+						<table width="550" cellpadding="0" cellspacing="0" border="0" style="margin:15px">
+							<form name=myform action='' method=post>
+							<input type=hidden name=table>
+							<input type=hidden name=mode>
+							<input type=hidden name=id>
+							<input type=hidden name=reid>
+							<input type=hidden name=b_subnum>
+							<tr>
+								<td colspan="2">
+			                 <TABLE cellpadding="0" cellspacing="0" border=0 width=550 align=center>
+									
+										<tr><td bgcolor="#4F4F4F" height="1" colspan="4"></td></tr>
+										<tr bgcolor="#707070">
+											<td height="30" width="60" align="center" style="color:#ccc">제목</td>
+											<td width="2"><img src="/Common/images/list_sep.gif"></td>
+											<td colspan="2" style="color:#fff; padding-left:15px" width=518>[이벤트] X-mas에 경품이 왕창      </td>
+										</tr>
+										<tr bgcolor="#CFCFCF">
+											<td style="padding-right:20px" align="left" colspan="4" height="30">
+											<span style="color:#888">번호</span><img src="/Common/images/list_sep.gif" align="absmiddle" hspace="6">18
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span style="color:#888">날짜</span><img src="/Common/images/list_sep.gif" align="absmiddle" hspace="6">2002-11-26 오전 2:10:03
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span style="color:#888">조회수</span><img src="/Common/images/list_sep.gif" align="absmiddle" hspace="6">34646</td>
+										</tr>
+										<tr><td bgcolor="White" height="2" colspan="4"></td></tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="550" cellpadding="0" cellspacing="1" border="0" bgcolor="#C1C1C1">
+										<tr>
+											<td>
+												<table width="548" cellpadding="0" cellspacing="0" border="0">
+
+													<tr bgcolor="White"><td colspan="2" height="1" background="/Common/images/list_dots.gif"></td></tr>
+													<tr bgcolor="White">
+														<td colspan="2" style="padding:20px,10px,20px,10px">
+															<table cellpadding="0" cellspacing="0" border="0" width="441"><br>  <tr><br>    <td><img src="http://www.curitel.co.kr/Event/img/p_xmas01.gif" width="520" height="544" alt="" border="0" usemap="#xmas"></td><br>  </tr><br></table><br><map name="xmas"><!--<area alt="" coords="16,455,105,530" href="/common/include/logon.asp?EMode=movie&Mname=021224" onfocus="this.blur();">--></map><br>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr><td bgcolor="White" height="2" colspan="2"></td></tr>
+							<tr><td bgcolor="#707070" height="5" colspan="2"></td></tr>
+							<tr>
+								<td colspan="2" height="35" background="/Common/images/list_view_bottom.gif" align="right" style="padding-right:15px">
+									<a href="javascript:list_form();"><img src='/Common/images/btn_list.gif' border='0' hspace='5'></a>
+								</td>
+							</tr>
+							<tr><td bgcolor="White" height="30" colspan="2"></td></tr>
+
+							<tr><td bgcolor="#969696" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr>
+								<td colspan="2">
+									<table width="550" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="80" height="24" align="center" bgcolor="#969696" style="color:White">이전글</td>
+											<td style="padding-left:15px"><a href="javascript:view_form('1586','19');" class='list_zone'>[이벤트] 색즉시공 영화 시사회에 초대합니다.              </a></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="#969696" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr>
+								<td colspan="2">
+									<table width="550" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="80" height="24" align="center" bgcolor="#969696" style="color:White">다음글</td>
+											<td style="padding-left:15px"><a href="javascript:view_form('1394','17');" class='list_zone'>[이벤트] "스토커" 무료영화시사회에 초대합니다                </td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="#969696" height="1" colspan="2"></td></tr>
+						</table><br><br><br>
+					</td>
+				</tr>
+			</table>
+</td>
+<!-- 푸터 include -->	</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		<td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestIntro.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="467,61,564,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="581,61,628,79" href="/footer/partner.asp">
+<area alt="이용문의" coords="644,62,694,79" href="/footer/qna.asp?table=askhow">
+<area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>
+</body>
+</html>

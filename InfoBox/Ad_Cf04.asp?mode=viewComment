@@ -1,0 +1,342 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>PANTECH&CURITEL</title>
+	<link href="/Common/css/basic.css" rel="stylesheet" type="text/css">
+	<link href="/Common/css/board.css" rel="stylesheet" type="text/css">
+	<script language="javascript">
+	<!--
+		function comment( obj, cfid, obj1 )
+		{
+			if ( obj == "add" )
+			{
+				if ("" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else if ( document.board.comment_content.value == "" )
+				{
+					alert("내용을 입력하세요");
+					document.board.comment_content.focus();
+					return;
+				}
+			} else if ( obj == "del" )
+			{
+				if ( "" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else
+				{
+					var ck_confirm = confirm( "삭제하시겠습니까?" );
+					if ( ck_confirm == false )
+					{
+						return false;
+					}
+				}
+			}
+			document.boardComment.table.value = "Ad";
+			document.boardComment.mode.value = obj;
+			document.boardComment.ck_num.value = obj1;
+			document.boardComment.id.value = cfid;
+			document.boardComment.comment_content.value = document.board.comment_content.value;
+			document.boardComment.action = "AdCommentSave.asp";
+			document.boardComment.submit();
+		}
+	/-->
+	</script>
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td colspan="3"><!--mg src="/common/images/fake_flash.gif" width="782" height="222"-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="782" HEIGHT="222" id="Untitled-2" ALIGN="top">
+	<param name="movie" value="/common/header/curitel_sub.swf?colorSetNum=2"><!-- 여기예요.-->
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=salign VALUE=T>
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	<EMBED src="/Common/header/curitel_sub.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+</OBJECT></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/Common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->		
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+	> <a href="/InfoBox/"><font color="#FFFFFF">Info Box</font></a>
+ 
+		
+</td>
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include --><!-- 레프트 메뉴 START -->
+
+<td width="197" valign="top" align="center" background="/Common/images/left_bg.gif">
+
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="10" bgcolor="#FFFFFF"><img src="/Common/images/spacer.gif" width="197" height="10"></td>
+		</tr>
+		<tr>
+			<td><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="197" HEIGHT="600" id="Untitled-2" ALIGN="top">
+					<PARAM NAME=movie VALUE="/Common/menu/info_box_before.swf">
+					<PARAM NAME=quality VALUE=high>
+					<PARAM NAME=salign VALUE=T>
+					<PARAM NAME=bgcolor VALUE=#FFFFFF>
+					<EMBED src="/Common/menu/info_box_before.swf" quality=high salign=T  WIDTH="197" HEIGHT="600" NAME="Untitled-2" ALIGN="top"
+					TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+				</OBJECT></td>
+		</tr>
+	</table>	
+
+</td>
+<!-- // 레프트 메뉴 END   -->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+
+
+
+
+<table width="585" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td colspan="4"><img src="images/curi_ad_img01.gif" border="0"></td>
+    </tr>
+    <tr>
+        <td width="5" bgcolor="#BDE2E2"></td>
+        <td width="30"></td>
+        <td width="533"><img src="images/curi_cf_menu.gif" border="0" usemap="#menu"></td>
+        <td width="17"></td>
+    </tr>
+    <tr>
+        <td bgcolor="#BDE2E2"></td>
+        <td></td>
+        <td> 
+          <!-- contents -->
+          <table width="533" border="0" cellpadding="0" cellspacing="0">
+            <tr> 
+              <td width="533" height="25"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf04_img01.gif" border="0" usemap="#cf01Map" width="533" height="208"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf04_img02.gif" width="533" height="248"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf04_img03.gif" width="533" height="298"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/cf04_img04.gif" width="533" height="371"></td>
+            </tr>
+            <tr> 
+              <td height="23"></td>
+            </tr>
+            <tr> 
+              <td align="right" style="padding-right: 30px;"><a href="ad_cf.asp"><img src="images/btn_list.gif" border="0" align="absmiddle"></a>&nbsp;<a href="#"><img src="images/btn_top.gif" border="0" align="absmiddle"></a></td>
+            </tr>
+            <tr> 
+              <td height="20"></td>
+            </tr>
+          </table>
+          <map name="cf01Map"> 
+            <area alt="" shape="CIRCLE" coords="446,171,21" href="javascript: history.back(-1);"onFocus="this.blur()">
+            <area alt="" shape="CIRCLE" coords="465,108,31" href="images/adtitle/3dsound.mpg"onFocus="this.blur()">
+          </map>
+          <!-- 한줄답변보기 -->
+          
+        <!-- 한줄 답변 -->
+        <table width="533" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td colspan="2" height="1" background="images/dot_hline01.gif"></td>
+            </tr>
+            <tr>
+                <td width="25" height="10"></td>
+                <td width="508"><a name="oneline"></a></td>
+            </tr>
+
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">와우~~ 이쁘다 - <span style="color: #779696;"><b>김태종</b></span> <a href="javascript:comment('del', '4', '1');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">나두 사구싶은데.... 어제 병기통에 전화기 빠트렸는데....ㅜ,.ㅜ이기회에 저질러? - <span style="color: #779696;"><b>최은진</b></span> <a href="javascript:comment('del', '4', '2');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">오늘 샀는데...정말 짱입니다...^^ - <span style="color: #779696;"><b>원윤덕</b></span> <a href="javascript:comment('del', '4', '3');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">저는 어제 샀는데 역시..좋더군여.. - <span style="color: #779696;"><b>조현규</b></span> <a href="javascript:comment('del', '4', '4');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">ㅠ.ㅠ  이거 광고에서 나오는앞액정에 시계 못하나여? 광고는 색도멋지던데.. - <span style="color: #779696;"><b>정준수</b></span> <a href="javascript:comment('del', '4', '5');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">외붕 액정은 칼라가 아님 절라 아쉬븜 칼라 나오면 싼가격에 바꿔주세여 - <span style="color: #779696;"><b>김상근</b></span> <a href="javascript:comment('del', '4', '6');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">삿는데 상대방과 통화할때 제말이 안들린데요 하루됫는데. - <span style="color: #779696;"><b>유영진</b></span> <a href="javascript:comment('del', '4', '7');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">016되믄... 살껀뎅.... 안되나? - <span style="color: #779696;"><b>이근주</b></span> <a href="javascript:comment('del', '4', '8');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">되요...41만원... - <span style="color: #779696;"><b>이송배</b></span> <a href="javascript:comment('del', '4', '9');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">큐리텔은 첨인데...  좋아요.... 일단은 음향이.... - <span style="color: #779696;"><b>고선미</b></span> <a href="javascript:comment('del', '4', '10');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">소리는 짱인데,,, 문자가 잘 가지 않아요~~ ㅜ.ㅜ - <span style="color: #779696;"><b>진성록</b></span> <a href="javascript:comment('del', '4', '11');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">글구 화질이 별루예염.. - <span style="color: #779696;"><b>장수연</b></span> <a href="javascript:comment('del', '4', '12');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">큐리텔이요 ㅋ 벨소리가쫌,짝아서 - <span style="color: #779696;"><b>박세미</b></span> <a href="javascript:comment('del', '4', '13');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">저도 큐리텔을 샀는데.. 산지 얼마안돼서 안좋은 점을 모리겠어요.. - <span style="color: #779696;"><b>남경주</b></span> <a href="javascript:comment('del', '4', '14');">x</a></td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="padding: 6, 0;"><img src="images/bu01.gif" border="0" align="absmiddle"></td>
+                <td style="padding: 6, 0;">화질은 진짜 별루네요.. 애들이  벨소리 크다고 부럽다던데..내가 들었을때도 크던데.. - <span style="color: #779696;"><b>신효정</b></span> <a href="javascript:comment('del', '4', '15');">x</a></td>
+            </tr>
+
+            <tr>
+            <form name="board" method="post">
+                <td colspan="2" style="padding-left: 7px;">
+                <input type="text" name="comment_content"  value="먼저 로그인을 하세요" readonly style="width: 400px;"> 
+                <a href="/Footer/Login.asp?REQUEST_METHOD=GET&file=/InfoBox/Ad_Cf.asp&GetQueryStr=mode★viewComment">
+                <img src="images/btn_reply_line.gif" border="0" align="absmiddle"></a></td>
+            </tr>
+            </form>
+        </table>        
+
+
+
+<Form name="boardComment" method="post" action="AdCommentSave.asp">
+<input type="hidden" name="table" value="Ad">
+<input type="hidden" name="mode">
+<input type="hidden" name="page" value="">
+<input type="hidden" name="ck_num">
+<input type="hidden" name="id">
+<input type="hidden" name='comment_name' value="">
+<input type="hidden" name="comment_id" value="">
+<input type="hidden" name="comment_content">
+</form>
+        <!-- 한줄 답변 -->
+
+
+
+        <!-- map -->
+        <map name="menu">
+        <area alt="" shape="poly" coords="130,30,100,0,0,0,0,30" href="#" onFocus="this.blur">
+        <area alt="" shape="poly" coords="221,30,198,5,105,5,130,30" href="ad_print_main.asp" onFocus="this.blur">
+        </map>
+
+        <map name="cf01">
+            <area alt="" shape="CIRCLE" coords="466,101,25" href="images/adtitle/curitel_socool.mpg"onFocus="this.blur()">
+        <area alt="" shape="CIRCLE" coords="446,152,17" href="javascript: history.back(-1);"onFocus="this.blur()">
+        </map>
+        
+        <!-- contents -->
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+
+<!-- 푸터 include -->	</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		
+  <td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestFinanc_03.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="534,61,631,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="646,62,693,80" href="/footer/partner.asp">
+  <area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>

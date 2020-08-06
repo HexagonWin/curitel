@@ -1,0 +1,6 @@
+
+		<script language="JavaScript">
+			alert("\n회원가입후 이용 가능합니다.");
+		  location.href="/Footer/Login.asp";
+		</script>
+		

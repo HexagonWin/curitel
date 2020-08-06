@@ -1,0 +1,564 @@
+
+<HTML>
+<HEAD>
+<TITLE>:::: Curitel 온라인 설문조사 ::::</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=euc-kr">
+<link href="/common/css/basic.css" rel="stylesheet" type="text/css">
+<style>
+    td	 {font-size:12px; font-family:굴림; color:#626262; line-height:18px}
+</style>
+<SCRIPT LANGUAGE="JavaScript" SRC="/Event/research/common.js"></SCRIPT>
+<script language="JavaScript">
+<!--
+var Inp_Time ="20040224130638" ;
+var user_id ="" ;
+var member_ok ="no" ;
+var event_ok ="no" ;
+
+
+function CheckSubmit()
+{
+
+	if (user_id == "")
+		{
+			alert("먼저 로그인을 해주세요!");	//로그인페이지로 이동
+			document.location.href="/Footer/login.asp?ev_flag=research" ;
+			return false ;
+		}
+
+	if (member_ok == "no")
+		{
+			var cof = confirm('팬택&큐리텔 단말기 보유고객만 응모할 수 있습니다.\n\n큐리텔 휴대폰 추가 등록 하시겠습니까?');
+			if(cof)
+
+			{
+				document.location.href="/Footer/MemberPhone.asp?ev_flag=research";
+				return false ;
+			}
+
+			else
+			{
+				 return false ;
+			}
+		}
+	if (event_ok == "yes")
+		{
+			alert("이미 설문에 응해주셨습니다.!");	//로그인페이지로 이동
+			return false ;
+		}
+
+
+
+		var form = document.research_form;
+
+		var	 job_value = form.job.options[form.job.options.selectedIndex].value ;
+		var	 local_value = form.local.options[form.local.options.selectedIndex].value ;
+		var	 company_value = form.company.options[form.company.options.selectedIndex].value ;
+		var	 yr_value = form.yr.options[form.yr.options.selectedIndex].value ;
+		var  mh_value = form.mh.options[form.mh.options.selectedIndex].value ;
+
+	//		alert(job_value);			
+	//		alert(local_value);			
+	//		alert(yr_value);			
+	//		alert(mh_value);
+	 var blnans1 = false ;
+	 var blnans2 = false ;
+	 var blnans3 = false ;
+	 var blnans4 = false ;
+	 var blnans5 = false ;
+	 var blnans6 = false ;
+
+
+
+//	for (var j=1; j < 6; j++)
+//	{
+//		for (var i=0; i < eval("document.research_form.ans"+j+".length"); i++)
+//		{
+//			if (eval("document.research_form.ans"+j+"["+i+"].checked") == true)
+//			{
+//				eval("blnans"+j)  = true;
+//				alert(eval("blnans"+j));
+//			}
+//		}
+//	}
+
+
+		for (var i=0; i < document.research_form.ans1.length; i++)
+		{
+			if (eval("document.research_form.ans1["+i+"].checked") == true)
+			{
+				blnans1  = true;
+			}
+		}
+		for (var i=0; i < document.research_form.ans2.length; i++)
+		{
+			if (eval("document.research_form.ans2["+i+"].checked") == true)
+			{
+				blnans2  = true;
+			}
+		}
+		for (var i=0; i < document.research_form.ans3.length; i++)
+		{
+			if (eval("document.research_form.ans3["+i+"].checked") == true)
+			{
+				blnans3  = true;
+			}
+		}
+		for (var i=0; i < document.research_form.ans4.length; i++)
+		{
+			if (eval("document.research_form.ans4["+i+"].checked") == true)
+			{
+				blnans4  = true;
+			}
+		}
+		for (var i=0; i < document.research_form.ans5.length; i++)
+		{
+			if (eval("document.research_form.ans5["+i+"].checked") == true)
+			{
+				blnans5  = true;
+			}
+		}
+		for (var i=0; i < document.research_form.ans6.length; i++)
+		{
+			if (eval("document.research_form.ans6["+i+"].checked") == true)
+			{
+				blnans6  = true;
+			}
+		}
+
+		if (blnans1 == false)
+		{
+			alert ("1번 설문문항을 선택하세요");
+			form.ans1[0].focus();
+			return false;
+		}
+		if (blnans2 == false)
+		{
+			alert ("2번 설문문항을 선택하세요");
+			form.ans2[0].focus();
+			return false;
+		}
+		if (blnans3 == false)
+		{
+			alert ("3번 설문문항을 선택하세요");
+ 			form.ans3[0].focus();
+			return false;
+		}
+		if (blnans4 == false)
+		{
+			alert ("4번 설문문항을 선택하세요");
+			form.ans4[0].focus();
+			return false;
+		}
+		if (blnans5 == false)
+		{
+			alert ("5번 설문문항을 선택하세요");
+			form.ans5[0].focus();
+			return false;
+		}
+		if (blnans6 == false)
+		{
+			alert ("6번 설문문항을 선택하세요");
+			form.ans6[0].focus();
+			return false;
+		}
+
+
+		if (job_value == "")
+		{
+			alert("직업을 선택하세요.");			
+			form.job.focus();
+			return false;
+		}
+		if (local_value == "")
+		{
+			alert("지역을 선택하세요.");			
+			form.local.focus();
+			return false;
+		}
+
+		if (company_value == "")
+		{
+			alert("핸드폰 종류를 선택하세요.");			
+			form.company.focus();
+			return false;
+		}
+		var	 model_value = form.model.options[form.model.options.selectedIndex].value ;
+		if (model_value == "")
+		{
+			alert("모델을 선택하세요.");			
+			form.model.focus();
+			return false;
+		}
+
+
+		if (yr_value == "")
+		{
+			alert("구입 년도를 선택하세요.");			
+			form.yr.focus();
+			return false;
+		}
+
+		if (mh_value == "")
+		{
+			alert("구입 월을 선택하세요.");			
+			form.mh.focus();
+			return false;
+		}
+
+		if ( (yr_value == "2004")&&((mh_value=="03")||(mh_value=="04")||(mh_value=="05")||(mh_value=="06")||(mh_value=="07")||(mh_value=="08")||(mh_value == "09")||(mh_value == "10")||(mh_value == "11")||(mh_value == "12")))
+		{
+			alert("잘못된 년 월 입니다.");			
+			form.mh.focus();
+			return false;
+		}
+
+
+
+		return true;
+	}
+
+//-->
+</script>
+</HEAD>
+<BODY onLoad="init();"  BGCOLOR=BDE2E2 LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<form name="research_form" method="post" action="insert_data.asp" onsubmit="return CheckSubmit();"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="35" background="/Event/skicamp/images/ski_left_bg.gif"></td>
+          <td width="780">
+            <table width="780" border="0" cellspacing="0" cellpadding="0">
+                <td width="780"><img src="images/survey_top.jpg" width="780" height="233" border=0 usemap="#Map"></td>
+              <tr> 
+                <td><img src="images/survey_title.gif" width="780" height="76" ></td>
+              </tr>
+              <tr> 
+                <td background="images/survey_bg_01.gif"> 
+                  <table width="780" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="40">&nbsp;</td>
+                      <td width="540">큐리텔이 내수 시장에 진입한지 어느새 1년이 넘었습니다.<br>
+                        그동안 큐리텔을 사랑해주시고 아껴주신 고객 여러분께 진심으로 감사의 말씀을 드립니다.<br>
+                        <br>
+                        저희 큐리텔은 고객님의 살아있는 생생한 의견과 따끔한 지적을 겸허히 받아들이고, <br>
+                        고객 여러분께 더 나은 제품 개발과 서비스 만족을 드리고자 이번 설문을 진행하려고 합니다.<br>
+                        <br>
+                        설문에 응해주시는 모든 회원님들께 <b><font color="209AD5">포인트 200점</font></b>을 
+                        추가로 적립해드립니다.<br>
+                        회원님의 많은 참여를 부탁드립니다.<br>
+                        <br>
+                        앞으로도 고객 여러분들과 항상 함께하는 큐리텔이 되겠습니다.<br>
+                        감사합니다. </td>
+                      <td width="200" valign="top"><img src="images/survey_title_img.gif" width="200" height="236"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr> 
+                <td align="center" valign="top"><img src="images/survey_table_title.gif" width="780" height="96"></td>
+              </tr>
+              <tr> 
+                <td background="images/survey_table_bg.gif" height="408" valign="top"> 
+                  <table width="636" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr> 
+                      <td height="58" valign="top"> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                          <tr> 
+                            <td>1. 지금 사용하시고 있는 큐리텔폰에 만족하십니까?</td>
+                          </tr>
+                          <tr> 
+                            <td> 
+                              <input type="radio" name="ans1" value="1">
+                              아주 만족한다 
+                              <input type="radio" name="ans1" value="2">
+                              만족한다 
+                              <input type="radio" name="ans1" value="3">
+                              보통이다 
+                              <input type="radio" name="ans1" value="4">
+                              만족하지않는다 
+                              <input type="radio" name="ans1" value="5">
+                              아주 만족하지 않는다</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td background="images/survey_table_dotline.gif" height="1"></td>
+                    </tr>
+                  </table>
+                  <table width="636" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr> 
+                      <td height="66"> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                          <tr> 
+                            <td>2. 큐리텔폰의 가장 큰 장점은 무엇이라고 생각하십니까?</td>
+                          </tr>
+                          <tr> 
+                            <td> 
+                              <input type="radio" name="ans2" value="1">
+                              카메라 성능 
+                              <input type="radio" name="ans2" value="2">
+                              저렴한 가격 
+                              <input type="radio" name="ans2" value="3">
+                              디자인 
+                              <input type="radio" name="ans2" value="4">
+                              새로운 기능 </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td background="images/survey_table_dotline.gif" height="1"></td>
+                    </tr>
+                  </table>
+                  <table width="636" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr> 
+                      <td height="66"> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                          <tr> 
+                            <td>3. 큐리텔폰 구매 후, 불만족한 점은 무엇입니까?</td>
+                          </tr>
+                          <tr> 
+                            <td> 
+                              <input type="radio" name="ans3" value="1">
+                              제품고장 
+                              <input type="radio" name="ans3" value="2">
+                              A/S 불만 
+                              <input type="radio" name="ans3" value="3">
+                              기능 
+                              <input type="radio" name="ans3" value="4">
+                              디자인 
+                              <input type="radio" name="ans3" value="5">
+                              기타</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td background="images/survey_table_dotline.gif" height="1"></td>
+                    </tr>
+                  </table>
+                  <table width="636" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr> 
+                      <td height="66"> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                          <tr> 
+                            <td>4. 다시 폰을 구매한다면 큐리텔폰을 재구매 할 의사가 있습니까?</td>
+                          </tr>
+                          <tr> 
+                            <td> 
+                              <input type="radio" name="ans4" value="1">
+                              있다 
+                              <input type="radio" name="ans4" value="2">
+                              없다 
+                              <input type="radio" name="ans4" value="3">
+                              보통이다 </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td background="images/survey_table_dotline.gif" height="1"></td>
+                    </tr>
+                  </table>
+                  <table width="636" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr> 
+                      <td height="66"> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                          <tr> 
+                            <td>5. 다른 제조사의 폰을 구매한다면 어느 회사의 제품을 구입하고 싶으십니까?</td>
+                          </tr>
+                          <tr> 
+                            <td> 
+                              <input type="radio" name="ans5" value="1">
+                              애니콜 
+                              <input type="radio" name="ans5" value="2">
+                              싸이언 
+                              <input type="radio" name="ans5" value="3">
+                              모토로라 
+                              <input type="radio" name="ans5" value="4">
+                              에버 </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td background="images/survey_table_dotline.gif" height="1"></td>
+                    </tr>
+                  </table>
+                  <table width="636" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr> 
+                      <td height="66"> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                          <tr> 
+                            <td> 6. 다음 중 구매하고 싶거나 관심있는 휴대폰 기능은 무엇입니까? </td>
+                          </tr>
+                          <tr> 
+                            <td> 
+                              <input type="radio" name="ans6" value="1">
+                              카메라/동영상 
+                              <input type="radio" name="ans6" value="2">
+                              디자인 
+                              <input type="radio" name="ans6" value="3">
+                              벨소리 화음수 
+                              <input type="radio" name="ans6" value="4">
+                              LCD 사양 
+                              <input type="radio" name="ans6" value="5"> 
+                              기타</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr> 
+                <td height="8"><img src="images/survey_table_foot.gif" width="780" height="8"></td>
+              </tr>
+              <tr> 
+                <td background="images/survey_bg_01.gif" height="37">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="cccccc" height="1"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="f4f4f4"> 
+                  <table width="780" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="146">&nbsp;</td>
+                      <td width="72" valign="top"><img src="images/survey_my_01.gif" width="72" height="222"></td>
+                      <td width="562" valign="top"><img src="images/survey_my_02.gif" width="362" height="67"><br>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+                          <tr> 
+                            <td>설문에 응해 주셔서 감사합니다. 아래의 간단한 정보를 입력해 주시기 바랍니다.</td>
+                          </tr>
+                          <tr> 
+                            <td> 
+                              <table width="500" border="0" cellspacing="0" cellpadding="3">
+                                <tr> 
+                                  <td width="80"><b>직업</b></td>
+                                  <td width="420"> 
+                                    <select name="job">
+                                        <option value="">----------직업----------</option>
+										<option value="초중고등학생">초중고등학생</option>	
+										<option value="대학(원)생">대학(원)생</option>		
+										<option value="사무직">사무직</option>	
+										<option value="연구/개발직">연구/개발직</option>		
+										<option value="기술직">기술직	</option>	
+										<option value="경영/관리직">경영/관리직</option>	
+										<option value="영업/마케팅">영업/마케팅</option>	
+										<option value="전문직">전문직</option>	
+										<option value="자영업">자영업</option>	
+										<option value="판매직">판매직</option>	
+										<option value="노무직">노무직</option>	
+										<option value="서비스직">서비스직</option>	
+										<option value="농업">농업	</option>	
+										<option value="축산업">축산업	</option>	
+										<option value="임업">임업	</option>	
+										<option value="수산업">수산업	</option>	
+										<option value="공무원">공무원	</option>	
+										<option value="군경">군경	</option>	
+										<option value="교직">교직	</option>	
+										<option value="예술">예술	</option>	
+										<option value="주부">주부	</option>	
+										<option value="무직">무직	</option>	
+										<option value="기타">기타</option>	
+                                    </select>
+                                  </td>
+                                </tr>
+                                <tr> 
+                                  <td width="80"><b>주소</b></td>
+                                  <td width="420"> 
+                                    <select name="local">
+                                      <option value="">----------주소----------</option>
+									  <option value="강원도">강원도</option>	
+									  <option value="경기도">경기도</option>	
+									  <option value="충청도">충청도</option>	
+									  <option value="경상도">경상도</option>	
+									  <option value="전라도">전라도</option>	
+									  <option value="제주도">제주도</option>	
+									  <option value="서울">서울</option>
+									  <option value="인천">인천</option>
+									  <option value="대전">대전</option>	 									  
+									  <option value="대구">대구</option>	
+									  <option value="부산">부산</option>	
+									  <option value="울산">울산</option>	
+									  <option value="광주">광주</option>	
+                                    </select>
+                                  </td>
+                                </tr>
+                                <tr> 
+                                  <td width="80"><b>사용모델</b></td>
+                                  <td width="420"> 
+									<select name="company" onChange="cateChange(this.options.selectedIndex-1)"><option value="">--종류--</option></select>&nbsp;&nbsp;<select name="model"></select>
+                                  </td>
+                                </tr>
+                                <tr> 
+                                  <td width="80"><b>구매시기</b></td>
+                                  <td width="420"> 
+                                    <select name="yr">
+                                      <option value="">구 입 년 도</option>
+                                      <option value="2004">2004</option>
+                                      <option value="2003">2003</option>
+                                      <option value="2002">2002</option>
+                                    </select>년
+									<select name="mh">
+                                      <option value="">구 입 월</option>
+                                      <option value="01">1</option>
+                                      <option value="02">2</option>
+                                      <option value="03">3</option>
+                                      <option value="04">4</option>
+                                      <option value="05">5</option>
+                                      <option value="06">6</option>
+                                      <option value="07">7</option>
+                                      <option value="08">8</option>
+                                      <option value="09">9</option>
+                                      <option value="10">10</option>
+                                      <option value="11">11</option>
+                                      <option value="12">12</option>
+                                    </select>월</td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr> 
+                <td bgcolor="e0e0e0" height="1"></td>
+              </tr>
+			  <tr> 
+                <td bgcolor="#FFFFFF" height="90" valign="top"> 
+                  <div align="center"><br>
+                    <input type=image src="images/survey_my_btn.gif" border="0" width="61" height="28"></div>
+                </td>
+              </tr>
+              <tr> 
+                <td><img src="../skicamp/images/ski_footer.gif" width="780" border="0" usemap="#Map2" height="110"> 
+                  <map name="Map2"> 
+                    <area shape="rect" coords="103,20,184,86" href="/mycuritel">
+                    <area shape="rect" coords="185,21,258,86" href="/InfoBox">
+                    <area shape="rect" coords="261,21,340,86" href="/curitelzone">
+                    <area shape="rect" coords="341,21,421,87" href="/PhoneDeco">
+                  </map>
+				  
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td width="35" valign="top" background="/Event/skicamp/images/ski_right_bg.gif"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</form>
+</BODY>
+</HTML>
+<map name="Map">
+	<area shape="rect" coords="2,2,161,59" href="/">
+</map>

@@ -1,0 +1,128 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/product.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+
+<script>
+	function chgService(ser){
+		var df = getDF();
+		df.service.value = ser
+		df.submit();
+	}
+
+	function getDF(){
+		return document.p_form;
+	}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"></head>
+
+<body bgcolor="#ffffff">
+
+
+
+<form name="p_form" action="if_pcsync.asp" method="post">
+	<input type="hidden" name = "service" value="">
+	<input type="hidden" name = "sector" value="">
+</form>
+
+<script>
+	function goParent(usNo){
+		parent.location.href='/html/product/download/search.asp?serial_no='+usNo;		
+	}
+</script>
+<table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr><!--- 텝메뉴 "해당파일_o" --->
+		<td height="29" background="/img/common/tabbg.gif">
+			
+			<a href="javascript:chgService('SKT')"><img src="/img//tab01_o.gif" width="81" height="29" alt="" border="0"></a><a href="javascript:chgService('KTF')"><img src="/img//tab02.gif" width="81" height="29" alt="" border="0" hspace="1"></a><a href="javascript:chgService('LGT')"><img src="/img//tab03.gif" width="81" height="29" alt="" border="0"></a></td>
+	</tr>
+  <tr>
+    <td height="15"></td>
+  </tr>
+  <tr>
+  	<td>		
+		<table width="529" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td><img src="/img/common/redge01.gif" width="6" height="6" alt="" border="0"></td>
+				<td width="517" style="border-top:1px solid #DCDCDC" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+				<td><img src="/img/common/redge02.gif" width="6" height="6" alt="" border="0"></td>
+			</tr>
+			<tr>
+				<td height="50" style="border-left:1px solid #DCDCDC" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+				    <td>
+					<table width="506" border="0" cellspacing="0" cellpadding="0">
+					 <tr><td height="15" colspan="5"></td></tr>
+
+					<tr align='center'> 
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/a1_s4(1).gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>S4</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PCSync_S4_Setup_V3.03.zip')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 </div>
+						</td>
+						<td width='1' class='li_dotline02'></td>
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/a1_ph-s1500.gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>PH-S1500</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PC Sync PH-S1500_Setup_V2[1].53.zip')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 </div>
+						</td>
+						<td width='1' class='li_dotline02'></td>
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/a1_pg-s5500m.gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>PG-S5500M</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PC Sync_PG-S5500C_Setup_V2.67.exe')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 </div>
+						</td>
+						</tr><tr><td height='15' colspan='5'></td></tr><tr align='center'> 
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/a1_pg-s5500a.gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>PG-S5000A</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PCSync_PG-S5000(A)_Setup_V265.exe')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 </div>
+						</td>
+						<td width='1' class='li_dotline02'></td>
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/a1_pg-s5000_s5000a.gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>PG-S5000</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PCSync_PG-S5000(A)_Setup_V265.exe')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 </div>
+						</td>
+						<td width='1' class='li_dotline02'></td>
+                         <td width="168"><img src="http://file.curitel.com/upload/product/img/a1_pg-s4600.gif" width="60" height="120" hspace="5" align="left"><br><br>
+						 <div align="left" style="color:#A2A2A2;padding:5 0 0 0"><img src="/img/common/b_arw.gif" style="background:#1E805A" align="absmiddle"> <b>PG-S4600</b><br>
+						 <a href="javascript:download('product/down/pc_sync/PCSync_PG-S4600_Setup_V263.exe')">
+							<img src="/img/btn/btn_pcsync01.gif" width="95" height="19" alt="" border="0" align="absmiddle" vspace="4">
+						 </a>
+						 </div>
+						</td>
+						</tr><tr><td height='15' colspan='5'></td></tr>
+                 </table>
+				</td>
+				<td style="border-right:1px solid #DCDCDC" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+			</tr>
+			<tr>
+				<td><img src="/img/common/redge03.gif" width="6" height="6" alt="" border="0"></td>
+				<td style="border-bottom:1px solid #DCDCDC" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+				<td><img src="/img/common/redge04.gif" width="6" height="6" alt="" border="0"></td>
+			</tr>
+		</table>
+	</td>
+  </tr>
+  <tr><td height="42" align="center">
+  &nbsp;<b>|1|</b>&nbsp;<a href=if_pcsync.asp?page=2&service=SKT&sector=>|2|</a>&nbsp;<a href=if_pcsync.asp?page=3&service=SKT&sector=>|3|</a>
+  </td></tr>
+	<tr><td>* S5500, S2 제품의 경우, PC-Sync 설치후 프로그램 실행 전 유의사항 파일을 꼭 읽어 주시기 바랍니다.</td></tr>
+
+</table>
+
+</body>
+</html>

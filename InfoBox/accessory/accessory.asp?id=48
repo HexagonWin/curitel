@@ -1,0 +1,5 @@
+
+	<script>
+		alert('해당 제품에 악세사리가 등록되어 있지 않습니다. \n관리자에게 문의 하십시요!');
+		window.close();
+	</script>

@@ -1,0 +1,514 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/knowledge.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+
+	function setRecomm(tidx){
+		if(!window.ifahidden)
+			document.body.innerHTML+="<iframe id=ifahidden style='display:none'></iframe>";
+			ifahidden.location.href="recomm.asp?tidx="+ tidx ;
+	}
+
+
+//-->
+</SCRIPT>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/knowledge/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 837px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/knowledge/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/knowledge/tip/tip_view.asp?tidx=32&p=4">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/knowledge/tip/tip_view.asp?tidx=32&p=4">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/knowledge/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/knowledge/index.asp" onfocus="this.blur()"><img src="/img/knowledge/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr> 
+						
+	 <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a> 
+		> <a href=/html/knowledge/index.asp>지식 Room</a> > 큐리텔 Tip</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="100">
+					               <param name="movie" value="/inc/flash/left/left_knowledge.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_knowledge.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="100"></embed></object></td>
+						</tr>
+						<tr>
+					       <td align="center" style="padding:30 0 0 2"><a href="/html/my/action/room/question.asp"><img src="/img/knowledge/btn_myinfo.gif" width="115" height="27" alt="" border="0"></a></td></tr>
+						<tr><td height="50" style="padding:0 0 0 14">
+						<table width="119" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="34" valign="bottom"><img src="/img/knowledge/l_title01.gif" width="119" height="16" alt="" border="0"></td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge01.gif" width="119" height="5" alt="" border="0"></td></tr>
+	<tr>
+		<td bgcolor="#E7EDF0" style="padding:2 0 2 10">
+						&#8226;<a href='/html/knowledge/info/info.asp?cate=2'>제품관련<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=5'>프로그램／악세서리<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=6'>웹사이트 이용<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=7'>통신／기술동향<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=8'>A／S 및 서비스센터<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=12'>이벤트<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=13'>광고<br>
+	
+		</td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge02.gif" width="119" height="5" alt="" border="0"></td></tr>
+</table>
+
+
+<table width="119" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="34" valign="bottom"><img src="/img/knowledge/l_title02.gif" width="119" height="16" alt="" border="0"></td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge01.gif" width="119" height="5" alt="" border="0"></td></tr>
+	<tr>
+		<td bgcolor="#E7EDF0" style="padding:2 0 2 10">
+&#8226;<a href='/html/knowledge/tip/tip.asp?cate=9'>제품관련<br>
+&#8226;<a href='/html/knowledge/tip/tip.asp?cate=10'>프로그램<br>
+&#8226;<a href='/html/knowledge/tip/tip.asp?cate=11'>악세서리<br>
+
+		</td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge02.gif" width="119" height="5" alt="" border="0"></td></tr>
+</table>
+<table width="119" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="34" valign="bottom"><img src="/img/knowledge/l_title03.gif" width="119" height="17" alt="" border="0"></td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge01.gif" width="119" height="5" alt="" border="0"></td></tr>
+	<tr>
+		<td bgcolor="#E7EDF0" style="padding:2 0 2 10">
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('zoazoa','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>zoazoa</A><br>
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('iamjang','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>iamjang</A><br>
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('gtsgogo','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>gtsgogo</A><br>
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('popo890210','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>popo890210</A><br>
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('xfist2x','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>xfist2x</A><br>
+
+		&#8226; <A HREF=javascript:; onmouseover=snMenu('bankcity','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>bankcity</A><br>
+
+		</td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge02.gif" width="119" height="5" alt="" border="0"></td></tr>
+</table><script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="564" valign="top" class="ctsmgn">
+		<!-- #####Contents##### -->			      
+					 <table width="557" cellpadding="0" cellspacing="0" border="0">
+		                <tr> 
+		                    <td height="26">
+							 <table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+	                            <tr><td><img src="/img/knowledge/tip/subimg00.gif" width="537" height="97"></td></tr>
+	                            <tr><td height="1"></td></tr>
+	                            <tr><td height="26" bgcolor="#F6F8F9"></td></tr>
+	                        </table>
+							</td>
+		                </tr>
+						<tr> 
+						 <td height="20"></td>
+						</tr>
+						<tr> 
+						 <td style="padding:0 0 0 8">
+<table width="529" border="0" cellspacing="0" cellpadding="0"><tr><td height="29" background="/img/common/tabbg.gif"><a href="tip.asp"><img src="/img/knowledge/tip/tab01_o.gif" width="95" height="30" alt="" border="0"></a><a href="tip.asp?cate=9"><img src="/img/knowledge/tip/tab02.gif" alt="" width="95" height="30" hspace="1" border="0"></a><a href="tip.asp?cate=10"><img src="/img/knowledge/tip/tab03.gif" alt="" width="95" height="30" hspace="1" border="0"></a><a href="tip.asp?cate=11"><img src="/img/knowledge/tip/tab04.gif" alt="" width="95" height="30" hspace="1" border="0"></a></td></tr><tr> 
+<td height="25">&nbsp;</td>
+</tr>
+</table>
+
+</td>
+						</tr>
+						<tr>
+						 <td style="padding:0 0 0 8"> 
+							<!-- BBS -->
+							<table width="530" cellpadding="0" cellspacing="0">
+							 <tr> 
+								<td colspan="4" height="31" style="font-weight:bold;color:#3595B1;padding:0 0 0 10;font-size:9pt"><font color="#FF5F2E">[제품관련]</font> 
+								 카메라의 CCD／CMOS 차이는?</td>
+							 </tr>
+							 <tr> 
+								<td height="16" bgcolor="#F2F2F2" colspan="4"></td>
+							 </tr>
+							 <tr bgcolor="F2F2F2"> 
+								<td width="150" height="31" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 
+								 작성자</b> : <A HREF=javascript:; onmouseover=snMenu('lee1000','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>lee1000</A></td>
+								<td width="180" style="padding:2 0 0 8"><b><font color="#515151">&#8226;</font> 
+								 등록일</b> : 2004-06-25</td>
+								<td width="100" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font> 
+								 조회수</b> : 277</td>
+								 <td width="100" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font> 
+								 추천수</b> : 1</td>
+							 </tr>
+							 <tr> 
+								<td height="1" colspan="4" bgcolor="#C9C9C9"></td>
+							 </tr>
+							 <tr> 
+								<td colspan="4" style="padding:25 11;line-height:16px" valign="top"><font style='font:10pt'>★ CCD／CMOS차이점 <br><br>(1) cmos와 ccd를 센서라고 하지만 사실은 센서가 아닙니다. <br><br>ccd는 charge coupled devices의 약자죠. 일종의 전하 전송수단입니다. <br>전하를 전송하는 방법이 좀 특이하죠. <br>일종의 전하 우물 즉 potential well의 깊이를 전하를 전달하고자 하는 방향으로<br>연속적으로 조절하여 전하를 전송하는 소자를 ccd라고 합니다. <br>이쯤하죠. 결국 ccd는 전하우물의 깊이를 대체로 3단계 정도로 연속적으로 <br>조절해서 전하를 전송하는 소자입니다. <br>그러니까, ccd 소자는 단독으로 존재한다면 아무런 의미가 없고 적어도 <br>3개의 소자를 연속적으로 배치하여 전하를 전송하도록 합니다. <br>보통 촬상소자에서 ccd는 포토센서(광전변환소자)의 라인에 일렬로 설치되서<br>하나의 라인에서 생성되는 전하를 촬상소자의 아래로 전달하는 소자입니다.<br>그리고, 좔상소자에는 각 라인에서 소자의 아래로 전송된 전하를 다시 한쪽으로<br>전송하는 ccd가 있습니다.<br><br>cmos는 complementary metal oxide semiconductor field effect transistor<br>(상보형 트랜지스터) 의 약자죠. 일종의 트랜지스터죠. <br>트랜지스터는 뭐하는 거냐하면, 신호를 온오프 시키거나 증폭회로를 구성하는<br>소자라고 할 수 있죠.<br>촬상소자에서 cmos는 전하를 전송선으로 공급하기 위한 스위칭 소자의 역할을<br>하거나, 전하를 증폭하기 위한 회로의 구성 소자로 사용됩니다.<br><br><br>(2) 그렇다면, 센서는 뭐냐?<br><br>센서는 광센서 즉 광을 전하로 변환시키는 소자죠. <br>광전변환소자가 센서라 할 수 있죠. 포토다이오드가 주로 사용됩니다. <br>렌즈를 통해서 들어온 광이 광전변환소자(보통 CdS 카드늄 설파이트등 사용)에<br>전달되면 여기서 광이 전하로 변환됩니다. <br>이 변환된 전하는 ccd나 coms를 통해서 각픽셀 위치의 광의 세기를 DSP<br>(digital signal processing)을 통하여 중앙처리장치로 전달되어<br>화상을 구현하게 됩니다. <br><br><br><br>(3) 그러면, ccd와 cmos는 뭐가 다른가?<br><br>즉, 전송 방식 또는 전송 소자가 다른 이유와 특징은 무엇인가?<br><br>ccd에도 전송 방식에는 3가지가 있습니다.<br>인터라인 방식, 프레임 전송 방식, 프레임-터라인전송 방식이 있습니다. <br>이중에서 케논 D시리즈에 사용되는 방식은 이중 가장 전송속도가 느린<br>인터라인 방식으로 대신 촬상소자가 가장 작죠. <br>하나의 화소 라인별로 설치된 ccd로 라인 별로 전송을 합니다.<br>즉, 발생된 전하를 그대로 전송합니다. 전하의 손실이 별로 없죠.<br><br>그런데, cmos의 경우는 발생된 전하가 mos소자의 게이트가 ON되는 순간<br>쏘스단으로 입력되어 드레인단으로<br>출력됩니다. 이때 쏘스 전극에 입력된 전하는 반도체 웨이퍼에 형성된 P 또는 N형 반도체(쏘스)를 거쳐<br>다시 N또는 P형 게이트 채널을 통과해서 다시 P또는 N형 반도체(드레인)으로 출력되는 과정에서 원래의<br>전하가 손실되거나 변형되게 됩니다. <br>그 이유는 cmos는 전하를 전송하는 소자가 아니라 디지털 신호를 전송하기 위해서 개발된 소자이기 <br>？？문입니다. 예를 들면, cmos소자는 디지털 메모리 소자에 사용되는데 여기서는 주로 5V 또는 0V 사이의<br>신호차만 전달하면 됩니다. 즉, 3.5 내지 7V 정도 절단되어도 이것은 디지털로는 모두 1로 인식하고,<br>-1 내지 1.5 V 인 경우 모두 0으로 인식되면 그만이죠. 따라서, 그만큼 오차 및 노이즈에 별로 정확성을<br>가지지 못합니다.<br><br>그래서, 개발된 목적이 다르므로 ccd 촬상소자는 cmos 촬상소자에 비하여 훨씬 정확한 전하량을 전달할<br>수 있다고 보면 됩니다. <br><br>그만큼, 촬상소자에서는 광전변환소자(광센서) 보다는 발생된 전하를 전송하는 전송수단이 매우 중요하기<br>때문에 일반적으로 촬상소자를 전하전송수단에 따라 ccd나 cmos라고 부르죠. 그래서, 일반인들은 ccd나<br>cmos가 센서인줄 알고 있는 경우가 많습니다.<br><br>(4) 그런데 왜 캐논에서는 주로 cmos를 사용하는가?<br><br>최근에 cmos 촬상소자의 수요에 부흥하여 이분야의 급속한 기술의 발전으로 cmos의 전하 전송방식이 <br>혁신적으로 개선되었습니다. 광전변환소자에서 발생된 전하를 source follower라는 일종의 신호 증폭<br>회로를 도입하여 전에 비하여 상당히 노이즈 및 잔류전하량을 개선시켜서 거의 ccd의 수준에 육박하게<br>되었습니다.<br>또한, cmos는 기존의 반도체 소자 제조 프로세스(DRAM 등)와 동일한 프로세스로 제조가 가능하여 가격이<br>ccd의 약 1／4정도로 제조하게 되었죠. 그리고, 집적도면에서도 앞으로 급속한 변화가 예상됩니다. <br>메모리의 경우를 예로들면, 현재 DRAM의 경우 손톱만한 면적에서 1Giga(1.000,000,000)의 집적도를 <br>보이고 있습니다. cmos의 경우 현재 D60에는 훨씬 큰 면적에도 600만(6,000,000x3=18,000,000) 정도이니<br>화소수의 증가는 시간 문제로 생각됩니다. 구조면에서 본다면 cmos의 경우 flash memory와 매우 유사한 <br>구조를 가진다.<br><br>(5) ccd와 cmos의 장단점.<br><br>ccd는 여전히 화질에서 주로 노이즈나 잔상에서 단연 우수할 수 밖에 없는<br>구조를 가집니다. 그러나, 소비전력이 cmos의 거의 50-100배이고, <br>전하 전송 방식이 라인방식이므로 각 화소별로 전송하는 cmos에 비하여 <br>2-5배 정도 빠르며(연사속도와 관련), 가격이 약5배 이상될 것으로 예상되며, <br>현재 촬상소자의 제조회사의 제조추세로는 ccd의 존립이 위태로울 정도입니다.<br><br>반면에, cmos는 새로운 회소의 개발로 노이가 현저히 감소하였고, <br>수율의 향상으로 full size 양산이 조만간 실현될 것이나, <br>전하 전송 방식에 치명적인 약점이 있어서 연사속도를 확보하기 위해서 <br>화소수의 증가에는 어느정도 한계가 있을 것으로 예상됩니다.<br><br><br>앞으로는 ccd의 경우 지금도 그렇치만 고도의 전문 분야, 천체 관측 분야, <br>우주 설비용, 군사용 등의 경우와 일부 최고급 사진용으로 개발이 진행될 것으로 <br>생각되며, cmos의 경우는 일반 사진용으로 널리 쓰이게 될 것으로 예상됩니다. <br>그러나, 이는 어디까지나 지금 현재의 기술수준에 의한 예상일뿐 만일 <br>ccd의 공정과 집적도가 혁신되어 대량생산과 가격이 안정된다면...<br>희망사항이지만. <br><br><br><br>6) 맺으며<br><br>글쎄, 얼마나 이해가 되셨는지 모르겠네요. <br>간단히 몇가지만 염두에 두셔도 좋을 듯 하네요.<br><br>- ccd와 cmos는 센서가 아니라 전송 소자다. <br>   그런데 쵤상소자는 전송소자가 매우 중요해서 일반적으로 ccd나 cmos로<br>   불리운다.<br><br>- ccd는 cmos에 비하여 노이즈가 적고 전하전송 속도가 빠른 소자이나,<br>  제조공정이 복잡하고 수율이 낮아 가격이 높고 소비전력이 많아 <br>  배터리 소모가 많다.<br><br>- cmos는 노이즈가 많이 개선되었으며, 가격이 싸고 소비전력이 낮으며, <br>  곧 full size(35mm) 양산이 가능한 제조 공정을 가지는 소자다.<br><br><br><br>* 위 내용은 제가 어디에선가 보구 퍼왔는데요..작성하신 분의 출처를 알 수 없어..<br>  출처작성인을 못 올립니다. 너무 좋은 정보 같아서요..<br>  올리는데 이거 작성하신분 기분 나쁘시면~ 연락주세용~~</font></td>
+							 </tr>
+							 <tr> 
+								<td colspan="4" bgcolor="#cacaca"></td>
+							 </tr>
+							 <tr> 
+								<td colspan="4" bgcolor="#eaeaea" height="5"></td>
+							 </tr>
+							 <tr> 
+								<td colspan="4" bgcolor="#F2F2f2" height="40" align="right" style="padding:0 8 0 0">
+								 
+								 <a href="tip.asp?page=4&cate=9"><img src="/img/bbs/btn/btn_list.gif" width="70" alt="" border="0"></a>
+								 
+								 </td>
+							 </tr>
+							</table>
+							<!------- READ End -----추천하기 신고하기 수정하기 삭제 하기 목록보기-------->
+						 </td>
+						</tr>
+						<tr> 
+						 <td height="20"></td>
+						</tr>
+						<tr> 
+						 <td style="padding:0 0 0 8">
+							<!-------------- 코멘트 시작 ---------->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function comm_prcosess(){
+		if(document.comment.comment.value == ""){
+			alert("한줄 리플 내용을 입력해주세요!");
+			document.comment.comment.focus();
+			return false;
+		}
+	}
+
+	function del(div_seq,cidx){
+		if(confirm("정말로 삭제하시겠습니까?")){
+			document.location = "/html/knowledge/comment_process.asp?prc_seq=D&div_seq="+div_seq+"&pidx=32&cidx="+cidx
+		}
+	}
+//-->
+</SCRIPT>
+
+						   <table width="530" cellpadding="0" cellspacing="0" border="0">
+							 <form name="comment" method="post" action="../comment_process.asp" onsubmit="return comm_prcosess(this)">
+							 <tr bgcolor=#F2F2F2> 
+								<td width=62><img src="/img/bbs/i_re.gif" width="72" height="33" alt="" border="0"></td>
+								
+								<td width=383><input type="text" name="comment" style="width:382;border:1px solid #C6C6C6;font-size:8pt" readonly></td>
+								<td width=75>&nbsp;<img src="/img/btn/btn_input.gif" width="70" align=absmiddle onclick="javascrip:alert('로그인해주세요')"></td>
+
+							 </tr>
+							 <input type="hidden" name="div_seq" value="T">
+                             <input type="hidden" name="pidx" value="32">
+							 </form>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('haneulduri','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>haneulduri</A> 
+								 </b> &nbsp; <font class=em>2004-07-15 오후 8:24:48</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 궁금했던 내용인데 고맙군요~ 잘 봤어요~</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('haneulduri','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>haneulduri</A> 
+								 </b> &nbsp; <font class=em>2004-07-15 오후 8:24:48</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 궁금했던 내용인데 고맙군요~ 잘 봤어요~</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b><A HREF=javascript:; onmouseover=snMenu('ryuichi','')  onmouseout=Osn=0;setTimeout('hsnMenu()',200)>ryuichi</A> 
+								 </b> &nbsp; <font class=em>2004-07-01 오후 11:31:05</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 잘 봤습니다^^</td>
+							 </tr>
+							 
+							 <tr> 
+								<td colspan=3 bgcolor=#C8C8C8></td>
+							 </tr>
+							</table>
+							<!-------------- 코멘트 end  ---------->
+							<!-- BBS -->
+						 </td>
+						</tr>
+					 </table> 
+	                  <!-- #####//Contents End ##### -->
+	                </td>
+	              </tr>
+	            </table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+<!-- SubFlash//Only SubMain Exist -->
+</body>
+</html>

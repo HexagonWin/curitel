@@ -1,0 +1,367 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu7.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu7.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/prroom/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/prroom/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1106&page=27&num=472&sseq=&sword=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1106&page=27&num=472&sseq=&sword=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/prroom/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/prroom/index.asp" onfocus="this.blur()"><img src="/img/prroom/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        > <a href="/html/prroom/index.asp">PR Room</a> > News</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="220">
+					               <param name="movie" value="/inc/flash/left/left_prroom.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_prroom.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="220"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">			
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->
+
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/img/prroom/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td height="1"></td>
+						</tr>
+						<tr>
+							<td height="26">
+								<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td bgcolor="#F6F8F9"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="25"></td>
+						</tr>
+						</table>
+
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="2" height="31" style="font-weight:bold;color:#599AA6;padding:0 0 0 10;font-size:9pt">
+							[ [e라이프] 범죄속 휴대폰 `빛과 그림자`  ]
+							</td>
+						</tr>
+						<tr>
+							<td height="16" bgcolor="#F2F2F2" colspan="2"></td>
+						</tr>
+						<tr bgcolor="F2F2F2">
+							<td height="31" width="142" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 472</td>
+							<td width="376" style="padding:2 0 0 0">
+								<b><font color="#515151">&#8226;</font> 등록일</b> :
+								2004-02-26 <img src="/img/b.gif" width=80 height=1>
+								<b><font color="#515151">&#8226;</font> 출처</b> : 디지털타임스
+							</td>
+						</tr>
+						<tr><td height="1" colspan="2" bgcolor="#C9C9C9"></td></tr>
+						<tr>
+							<td colspan="2" style="padding:25 11;line-height:16px" valign="top" class="8">
+								<font style='font:10pt'>범인추적(&)nbsp;수사(&)nbsp;도우미로(&)nbsp;맹활약<br><br>국내(&)nbsp;휴대폰(&)nbsp;서비스(&)nbsp;가입자가(&)nbsp;3400만(&)nbsp;명을(&)nbsp;넘었다.(&)nbsp;전(&)nbsp;국민(&)nbsp;10명(&)nbsp;중(&)nbsp;7명(&)nbsp;이상이(&)nbsp;휴대폰을(&)nbsp;사용하고(&)nbsp;있는(&)nbsp;것이다.<br><br>이처럼(&)nbsp;`생활(&)nbsp;필수품(&)quot;으로(&)nbsp;확고히(&)nbsp;자리잡은(&)nbsp;휴대폰은(&)nbsp;혁명적(&)nbsp;진화를(&)nbsp;거듭하면서(&)nbsp;다양한(&)nbsp;삶의(&)nbsp;영역에서(&)nbsp;생활의(&)nbsp;편익을(&)nbsp;증대시키고(&)nbsp;있다.<br><br>하지만(&)nbsp;빛이(&)nbsp;밝으면(&)nbsp;그늘도(&)nbsp;깊은(&)nbsp;법.(&)nbsp;휴대폰이(&)nbsp;각종(&)nbsp;범죄에(&)nbsp;악용되면서(&)nbsp;이를(&)nbsp;추적하기(&)nbsp;위한(&)nbsp;수사(&)nbsp;기법도(&)nbsp;첨단을(&)nbsp;달리고(&)nbsp;있다.<br><br>다음은(&)nbsp;최근(&)nbsp;사례들.<br><br>(사례(&)nbsp;1)(&)nbsp;지난해(&)nbsp;사기대출(&)nbsp;사건을(&)nbsp;저지르고(&)nbsp;잠적한(&)nbsp;용의자(&)nbsp;김(&)nbsp;모씨를(&)nbsp;추적하던(&)nbsp;검찰은(&)nbsp;그가(&)nbsp;애인과(&)nbsp;수시로(&)nbsp;휴대폰으로(&)nbsp;통화해온(&)nbsp;사실을(&)nbsp;포착,(&)nbsp;애인의(&)nbsp;휴대폰(&)nbsp;통화내역과(&)nbsp;발신자(&)nbsp;위치추적을(&)nbsp;통해(&)nbsp;경기도(&)nbsp;안산시로(&)nbsp;포위망을(&)nbsp;좁혔고,(&)nbsp;잠복(&)nbsp;근무(&)nbsp;끝에(&)nbsp;결국(&)nbsp;용의자를(&)nbsp;체포하는(&)nbsp;데(&)nbsp;성공했다.<br><br>(사례(&)nbsp;2)(&)nbsp;2002년(&)nbsp;12월(&)nbsp;서울(&)nbsp;강남의(&)nbsp;한(&)nbsp;은행(&)nbsp;앞에서(&)nbsp;한(&)nbsp;여성으로부터(&)nbsp;현금(&)nbsp;1000만원이(&)nbsp;든(&)nbsp;가방을(&)nbsp;날치기한(&)nbsp;2인조(&)nbsp;오토바이(&)nbsp;날치기범들은(&)nbsp;지난해(&)nbsp;10월(&)nbsp;또다시(&)nbsp;같은(&)nbsp;오토바이를(&)nbsp;타고(&)nbsp;날치기를(&)nbsp;시도하던(&)nbsp;중(&)nbsp;경찰에게(&)nbsp;덜미를(&)nbsp;잡히고(&)nbsp;말았다.(&)nbsp;오리발을(&)nbsp;내밀며(&)nbsp;혐의를(&)nbsp;부인하던(&)nbsp;이들에게,(&)nbsp;경찰은(&)nbsp;몇(&)nbsp;달(&)nbsp;전(&)nbsp;이들이(&)nbsp;범행장소를(&)nbsp;물색할(&)nbsp;당시(&)nbsp;이를(&)nbsp;수상히(&)nbsp;여겨(&)nbsp;카메라폰으로(&)nbsp;찍어둔(&)nbsp;사진들을(&)nbsp;눈앞에(&)nbsp;들이밀어(&)nbsp;혐의를(&)nbsp;자백(&)nbsp;받았다.<br><br>(사례(&)nbsp;3).(&)nbsp;박(&)nbsp;모씨로부터(&)nbsp;딸을(&)nbsp;납치했으니(&)nbsp;거액의(&)nbsp;돈을(&)nbsp;송금하라는(&)nbsp;협박전화를(&)nbsp;받았다는(&)nbsp;신고를(&)nbsp;받은(&)nbsp;경찰은,(&)nbsp;바로(&)nbsp;이통업체를(&)nbsp;통해(&)nbsp;박씨의(&)nbsp;딸인(&)nbsp;이씨의(&)nbsp;휴대폰(&)nbsp;위치를(&)nbsp;추적해(&)nbsp;신촌(&)nbsp;일대에(&)nbsp;있음을(&)nbsp;확인했다.(&)nbsp;경찰은(&)nbsp;추가(&)nbsp;탐문수사를(&)nbsp;통해(&)nbsp;카드(&)nbsp;빚을(&)nbsp;진(&)nbsp;애인과(&)nbsp;한(&)nbsp;모텔에(&)nbsp;묵고(&)nbsp;있던(&)nbsp;이씨를(&)nbsp;찾아내는(&)nbsp;데(&)nbsp;성공했다.(&)nbsp;이번(&)nbsp;사건은(&)nbsp;애인의(&)nbsp;카드(&)nbsp;빚(&)nbsp;변제를(&)nbsp;노린(&)nbsp;자작극이었다.<br><br>◇휴대폰은(&)nbsp;범죄(&)nbsp;수사의(&)nbsp;도우미<br><br>휴대폰은(&)nbsp;경찰의(&)nbsp;각종(&)nbsp;범죄수사에(&)nbsp;도우미(&)nbsp;역할을(&)nbsp;톡톡히(&)nbsp;한다.(&)nbsp;특히(&)nbsp;모든(&)nbsp;이통업체들에서(&)nbsp;지원되는(&)nbsp;휴대폰(&)nbsp;위치확인(&)nbsp;서비스와(&)nbsp;통화내역조회는(&)nbsp;수사방향(&)nbsp;설정에(&)nbsp;상당한(&)nbsp;도움을(&)nbsp;주고(&)nbsp;있다.<br><br>이통네트워크는(&)nbsp;10초마다(&)nbsp;기지국(&)nbsp;망을(&)nbsp;통해(&)nbsp;모든(&)nbsp;휴대폰의(&)nbsp;위치를(&)nbsp;자동으로(&)nbsp;확인한다.(&)nbsp;가입자(&)nbsp;휴대폰에(&)nbsp;언제라도(&)nbsp;통화를(&)nbsp;연결할(&)nbsp;수(&)nbsp;있도록(&)nbsp;하기(&)nbsp;위한(&)nbsp;것이(&)nbsp;목표이지만,(&)nbsp;그(&)nbsp;덕에(&)nbsp;휴대폰이(&)nbsp;켜져(&)nbsp;있기만(&)nbsp;하면(&)nbsp;도심지역에서는(&)nbsp;반경(&)nbsp;1km,(&)nbsp;근교에서는(&)nbsp;반경(&)nbsp;2∼4㎞(&)nbsp;내까지(&)nbsp;그(&)nbsp;위치를(&)nbsp;잡아낼(&)nbsp;수(&)nbsp;있다.<br><br>이같은(&)nbsp;위치정보는(&)nbsp;개인정보보호를(&)nbsp;위해(&)nbsp;법률적으로(&)nbsp;엄격히(&)nbsp;보호받고(&)nbsp;있다.(&)nbsp;가입자가(&)nbsp;원하는(&)nbsp;경우(&)nbsp;위치기반서비스(LBS)를(&)nbsp;제공하는(&)nbsp;것(&)nbsp;외에는(&)nbsp;그(&)nbsp;사용이(&)nbsp;철저히(&)nbsp;제한되는(&)nbsp;것이다.(&)nbsp;그렇지만(&)nbsp;범죄수사에(&)nbsp;필요할(&)nbsp;경우(&)nbsp;검찰의(&)nbsp;영장발부(&)nbsp;등(&)nbsp;절차를(&)nbsp;거치면(&)nbsp;검찰과(&)nbsp;경찰에(&)nbsp;정보를(&)nbsp;제공하는(&)nbsp;게(&)nbsp;가능하다.(&)nbsp;향후에(&)nbsp;본격적으로(&)nbsp;보급될(&)nbsp;위성측위시스템(GPS)(&)nbsp;지원(&)nbsp;휴대폰들에서는(&)nbsp;인공위성을(&)nbsp;이용해(&)nbsp;오차범위를(&)nbsp;10m(&)nbsp;수준까지(&)nbsp;크게(&)nbsp;줄일(&)nbsp;수(&)nbsp;있게(&)nbsp;된다.(&)nbsp;이(&)nbsp;때가(&)nbsp;되면(&)nbsp;검경의(&)nbsp;범죄(&)nbsp;수사에(&)nbsp;더(&)nbsp;적극적으로(&)nbsp;활용될(&)nbsp;수(&)nbsp;있을(&)nbsp;것이다.<br><br>검경(&)nbsp;등(&)nbsp;수사기관의(&)nbsp;휴대폰(&)nbsp;통화내역조회(&)nbsp;건수는(&)nbsp;2002년(&)nbsp;19만여(&)nbsp;건에서(&)nbsp;지난해(&)nbsp;30만여(&)nbsp;건으로(&)nbsp;대폭(&)nbsp;증가했다.(&)nbsp;이(&)nbsp;때문에(&)nbsp;인권침해(&)nbsp;논란이(&)nbsp;일고(&)nbsp;있지만,(&)nbsp;그만큼(&)nbsp;범죄수사에서의(&)nbsp;유용성이(&)nbsp;증대되고(&)nbsp;있다고(&)nbsp;볼(&)nbsp;수도(&)nbsp;있다.<br><br>반면(&)nbsp;카메라폰은(&)nbsp;초상권(&)nbsp;등(&)nbsp;개인권리(&)nbsp;침해(&)nbsp;소지가(&)nbsp;있어(&)nbsp;아직까지(&)nbsp;경찰에서(&)nbsp;크게(&)nbsp;활용되지(&)nbsp;못하고(&)nbsp;있다.(&)nbsp;하지만(&)nbsp;최근(&)nbsp;해외도주를(&)nbsp;시도하던(&)nbsp;한(&)nbsp;용의자의(&)nbsp;체포를(&)nbsp;위해(&)nbsp;동사무소의(&)nbsp;주민등록원부(&)nbsp;컬러사진을(&)nbsp;카메라폰으로(&)nbsp;촬영,(&)nbsp;공항(&)nbsp;현지의(&)nbsp;경찰(&)nbsp;및(&)nbsp;보안요원들에게(&)nbsp;전송함으로써(&)nbsp;용의자(&)nbsp;검거에(&)nbsp;성공한(&)nbsp;사례도(&)nbsp;나와,(&)nbsp;장차(&)nbsp;카메라폰도(&)nbsp;상당히(&)nbsp;유용한(&)nbsp;수사도구로(&)nbsp;사용될(&)nbsp;것으로(&)nbsp;보인다.<br><br>이동통신(&)nbsp;최선진국인(&)nbsp;이웃나라(&)nbsp;일본에서는(&)nbsp;흉악범의(&)nbsp;신체특징과(&)nbsp;연령,(&)nbsp;사진을(&)nbsp;무선인터넷서비스에(&)nbsp;띄워(&)nbsp;공개(&)nbsp;수배하는(&)nbsp;경우까지(&)nbsp;나오고(&)nbsp;있다.<br><br>◇휴대폰을(&)nbsp;이용한(&)nbsp;위기(&)nbsp;탈출(&)nbsp;사례(&)nbsp;줄이어<br><br>그런가(&)nbsp;하면,(&)nbsp;범죄의(&)nbsp;표적이(&)nbsp;된(&)nbsp;사람들이(&)nbsp;휴대폰을(&)nbsp;이용해(&)nbsp;위기에서(&)nbsp;벗어나는(&)nbsp;사례도(&)nbsp;줄을(&)nbsp;잇고(&)nbsp;있다.<br><br>다음은(&)nbsp;대표적(&)nbsp;사례들.<br><br>(사례(&)nbsp;1)(&)nbsp;최근(&)nbsp;납치범(&)nbsp;홍(&)nbsp;모씨는(&)nbsp;피해자(&)nbsp;김(&)nbsp;모씨와(&)nbsp;함께(&)nbsp;은행에(&)nbsp;가서(&)nbsp;김씨의(&)nbsp;계좌에서(&)nbsp;돈을(&)nbsp;빼내기(&)nbsp;위해(&)nbsp;통장(&)nbsp;재발급을(&)nbsp;신청했다.(&)nbsp;하지만(&)nbsp;피해자가(&)nbsp;몰래(&)nbsp;은행창구(&)nbsp;직원에게(&)nbsp;이같은(&)nbsp;사실을(&)nbsp;알렸고,(&)nbsp;직원은(&)nbsp;시간을(&)nbsp;끌면서(&)nbsp;미리(&)nbsp;범죄신고(&)nbsp;번호를(&)nbsp;지정해놓은(&)nbsp;휴대폰(&)nbsp;단축번호(&)nbsp;1번을(&)nbsp;눌러(&)nbsp;바로(&)nbsp;경찰에(&)nbsp;신고,(&)nbsp;범인을(&)nbsp;현장에서(&)nbsp;검거하는(&)nbsp;개가를(&)nbsp;올렸다.<br><br>(사례(&)nbsp;2)(&)nbsp;새벽에(&)nbsp;아파트에(&)nbsp;침입한(&)nbsp;강도에게(&)nbsp;손발이(&)nbsp;묶인(&)nbsp;임산부(&)nbsp;최(&)nbsp;모씨는(&)nbsp;범인(&)nbsp;몰래(&)nbsp;휴대폰으로(&)nbsp;출장간(&)nbsp;남편에게(&)nbsp;전화를(&)nbsp;걸고는(&)nbsp;휴대폰을(&)nbsp;구석에(&)nbsp;숨겨놓았다.(&)nbsp;최씨의(&)nbsp;남편(&)nbsp;김(&)nbsp;모씨는(&)nbsp;아내의(&)nbsp;번호가(&)nbsp;찍힌(&)nbsp;휴대폰에서(&)nbsp;괴한의(&)nbsp;목소리를(&)nbsp;듣고(&)nbsp;바로(&)nbsp;경찰에(&)nbsp;신고,(&)nbsp;현장에서(&)nbsp;검거토록(&)nbsp;했다.<br><br>(사례(&)nbsp;3)(&)nbsp;지난해(&)nbsp;여름(&)nbsp;만취해(&)nbsp;길에서(&)nbsp;잠들었다가(&)nbsp;지갑을(&)nbsp;털린(&)nbsp;이(&)nbsp;모씨는(&)nbsp;바로(&)nbsp;그(&)nbsp;날(&)nbsp;휴대폰(&)nbsp;문자메시지로(&)nbsp;들어온(&)nbsp;신용카드(&)nbsp;사용내역(&)nbsp;정보를(&)nbsp;통해(&)nbsp;범인이(&)nbsp;훔친(&)nbsp;신용카드로(&)nbsp;서울에서(&)nbsp;여관비를(&)nbsp;지불한(&)nbsp;사실을(&)nbsp;확인,(&)nbsp;경찰에(&)nbsp;신고해(&)nbsp;여관에서(&)nbsp;바로(&)nbsp;범인을(&)nbsp;체포토록(&)nbsp;했다.<br><br>◇문자메시지(&)nbsp;통보서비스도(&)nbsp;효과(&)nbsp;만점<br><br>은행에(&)nbsp;따라(&)nbsp;무료(&)nbsp;또는(&)nbsp;소액으로(&)nbsp;지원되는(&)nbsp;신용카드(&)nbsp;사용내역(&)nbsp;문자메시지(&)nbsp;통보(&)nbsp;서비스는(&)nbsp;신용카드(&)nbsp;분실(&)nbsp;도난에(&)nbsp;따른(&)nbsp;경제적(&)nbsp;피해를(&)nbsp;최소화할(&)nbsp;수(&)nbsp;있는(&)nbsp;좋은(&)nbsp;수단으로(&)nbsp;널리(&)nbsp;확산되고(&)nbsp;있다.(&)nbsp;여기에(&)nbsp;최근(&)nbsp;국내경제의(&)nbsp;불황이(&)nbsp;지속되면서(&)nbsp;생계형(&)nbsp;범죄가(&)nbsp;급증하는(&)nbsp;데다(&)nbsp;납치ㆍ살해(&)nbsp;등(&)nbsp;흉악(&)nbsp;범죄도(&)nbsp;기승을(&)nbsp;부리고(&)nbsp;있다.(&)nbsp;이(&)nbsp;때문에(&)nbsp;어린(&)nbsp;자녀들의(&)nbsp;안위로(&)nbsp;마음을(&)nbsp;놓지(&)nbsp;못하고(&)nbsp;있는(&)nbsp;부모들이(&)nbsp;긴급상황에(&)nbsp;대비,(&)nbsp;휴대폰을(&)nbsp;사주는(&)nbsp;사례도(&)nbsp;늘고(&)nbsp;있다.<br><br>LG텔레콤과(&)nbsp;팬택(&)amp;큐리텔은(&)nbsp;이같은(&)nbsp;소비자들을(&)nbsp;겨냥,(&)nbsp;긴급버튼(&)nbsp;하나만(&)nbsp;누르면(&)nbsp;보호자(&)nbsp;등(&)nbsp;3개(&)nbsp;휴대폰으로(&)nbsp;GPS(&)nbsp;위치전송(&)nbsp;및(&)nbsp;동시통화가(&)nbsp;연결되고,(&)nbsp;내장(&)nbsp;카메라에(&)nbsp;찍힌(&)nbsp;영상이(&)nbsp;바로(&)nbsp;전송돼(&)nbsp;위급한(&)nbsp;순간에(&)nbsp;바로(&)nbsp;도움을(&)nbsp;요청할(&)nbsp;수(&)nbsp;있는(&)nbsp;카메라폰(&)nbsp;신제품(&)nbsp;`알라딘(&)quot;(모델명(&)nbsp;PG-L5000)을(&)nbsp;출시해(&)nbsp;호평을(&)nbsp;받고(&)nbsp;있다.(&)nbsp;SK텔레콤과(&)nbsp;KTF도(&)nbsp;모두(&)nbsp;GPS(&)nbsp;기반의(&)nbsp;위치확인(&)nbsp;부가서비스를(&)nbsp;제공하고(&)nbsp;있어,(&)nbsp;이를(&)nbsp;이용하면(&)nbsp;가족들간에(&)nbsp;실시간(&)nbsp;위치정보를(&)nbsp;확인하면서(&)nbsp;위기시에(&)nbsp;신속하고(&)nbsp;적절한(&)nbsp;대응을(&)nbsp;할(&)nbsp;수(&)nbsp;있다.<br><br>◇휴대폰(&)nbsp;악용(&)nbsp;범죄도(&)nbsp;늘어<br><br>하지만(&)nbsp;휴대폰을(&)nbsp;이용한(&)nbsp;범죄에(&)nbsp;대해(&)nbsp;우려하는(&)nbsp;분위기도(&)nbsp;빠르게(&)nbsp;확산되고(&)nbsp;있다.(&)nbsp;카메라폰을(&)nbsp;이용한(&)nbsp;학생들의(&)nbsp;커닝과(&)nbsp;사생활(&)nbsp;침해는(&)nbsp;보통이고,(&)nbsp;이통서비스ㆍ휴대폰ㆍ모바일(&)nbsp;뱅킹(&)nbsp;등의(&)nbsp;전문지식을(&)nbsp;악용한(&)nbsp;범죄까지(&)nbsp;기승을(&)nbsp;부리고(&)nbsp;있다.(&)nbsp;뿌리를(&)nbsp;내린(&)nbsp;지(&)nbsp;몇(&)nbsp;년(&)nbsp;안된(&)nbsp;이통(&)nbsp;문화에서(&)nbsp;갖가지(&)nbsp;부작용들이(&)nbsp;드러나고(&)nbsp;있는(&)nbsp;셈이다.<br><br>첨단(&)nbsp;기능을(&)nbsp;갖춘(&)nbsp;고가(&)nbsp;휴대폰은(&)nbsp;그(&)nbsp;자체가(&)nbsp;하나의(&)nbsp;귀중품으로서(&)nbsp;도둑과(&)nbsp;장물아비들의(&)nbsp;표적이(&)nbsp;되고(&)nbsp;있다.(&)nbsp;대규모(&)nbsp;절도사건이(&)nbsp;끊이지(&)nbsp;않는(&)nbsp;것도(&)nbsp;그(&)nbsp;때문이다.<br><br>국내에서(&)nbsp;사용자의(&)nbsp;부주의로(&)nbsp;분실되는(&)nbsp;휴대폰(&)nbsp;댓수가(&)nbsp;연(&)nbsp;7만∼8만(&)nbsp;여대에(&)nbsp;이르고,(&)nbsp;이처럼(&)nbsp;분실된(&)nbsp;휴대폰들은(&)nbsp;불법복제를(&)nbsp;통해(&)nbsp;저가의(&)nbsp;신형(&)nbsp;중고폰을(&)nbsp;찾는(&)nbsp;소비자들에게(&)nbsp;공급되고(&)nbsp;있다.(&)nbsp;업자들은(&)nbsp;전문장비를(&)nbsp;이용해(&)nbsp;소비자가(&)nbsp;사용중인(&)nbsp;휴대폰에(&)nbsp;내장된(&)nbsp;고유번호(ESN)를(&)nbsp;그대로(&)nbsp;장물(&)nbsp;휴대폰에(&)nbsp;입력,(&)nbsp;정당한(&)nbsp;기기변경절차를(&)nbsp;회피해(&)nbsp;장물을(&)nbsp;유통시키고(&)nbsp;있다.(&)nbsp;또한(&)nbsp;국내에서(&)nbsp;조달한(&)nbsp;장물을(&)nbsp;중국(&)nbsp;등지에(&)nbsp;수출하는(&)nbsp;사례도(&)nbsp;늘고(&)nbsp;있다.<br><br>카메라폰을(&)nbsp;몰래카메라로(&)nbsp;사용해(&)nbsp;여성들의(&)nbsp;사생활을(&)nbsp;침해하는(&)nbsp;범죄는(&)nbsp;지하철(&)nbsp;공중화장실ㆍ수영장ㆍ찜질방(&)nbsp;등은(&)nbsp;물론,(&)nbsp;대학(&)nbsp;도서관에서까지(&)nbsp;적발되고(&)nbsp;있다.(&)nbsp;아예(&)nbsp;이런(&)nbsp;몰카(&)nbsp;사진(&)nbsp;동영상을(&)nbsp;공유하기(&)nbsp;위한(&)nbsp;동호회들까지(&)nbsp;극성을(&)nbsp;부리고(&)nbsp;있다.(&)nbsp;여기에(&)nbsp;일부(&)nbsp;젊은(&)nbsp;층에서는(&)nbsp;연예인(&)nbsp;누드(&)nbsp;열풍과(&)nbsp;성개방(&)nbsp;풍조를(&)nbsp;타고(&)nbsp;연인끼리(&)nbsp;낯(&)nbsp;뜨거운(&)nbsp;사진이나(&)nbsp;동영상을(&)nbsp;공유하는(&)nbsp;풍조까지(&)nbsp;등장,(&)nbsp;범죄에(&)nbsp;악용되는(&)nbsp;사례들도(&)nbsp;나타나고(&)nbsp;있다.<br><br>위치확인서비스를(&)nbsp;이용하는(&)nbsp;범죄도(&)nbsp;늘고(&)nbsp;있다.(&)nbsp;윤락업주가(&)nbsp;고용(&)nbsp;여성들에게(&)nbsp;자신의(&)nbsp;이름으로(&)nbsp;개통한(&)nbsp;휴대폰을(&)nbsp;주고는(&)nbsp;위치확인서비스를(&)nbsp;통해(&)nbsp;감시하는(&)nbsp;경우도(&)nbsp;있고,(&)nbsp;현직(&)nbsp;이통사(&)nbsp;직원까지(&)nbsp;가세한(&)nbsp;범죄조직이(&)nbsp;휴대폰(&)nbsp;불법복제를(&)nbsp;이용해(&)nbsp;가입자(&)nbsp;몰래(&)nbsp;위치확인서비스를(&)nbsp;신청해(&)nbsp;감시토록(&)nbsp;해주고(&)nbsp;돈을(&)nbsp;받다가(&)nbsp;적발되기도(&)nbsp;했다.<br><br>초고속(&)nbsp;인터넷과(&)nbsp;함께(&)nbsp;IT강국(&)nbsp;대한민국의(&)nbsp;대표산업이(&)nbsp;되고(&)nbsp;있는(&)nbsp;휴대폰(&)nbsp;이동통신산업.(&)nbsp;새로운(&)nbsp;문화가(&)nbsp;급속도로(&)nbsp;전파되면서(&)nbsp;예상치(&)nbsp;못한(&)nbsp;각종(&)nbsp;현상들이(&)nbsp;대두되고(&)nbsp;있다.(&)nbsp;이같은(&)nbsp;새로운(&)nbsp;문화를(&)nbsp;가능한(&)nbsp;한(&)nbsp;긍정적인(&)nbsp;방향으로(&)nbsp;이끌면서(&)nbsp;부작용을(&)nbsp;최소화할(&)nbsp;수(&)nbsp;있도록(&)nbsp;정부와(&)nbsp;업계,(&)nbsp;소비자들까지(&)nbsp;지혜를(&)nbsp;모아야(&)nbsp;할(&)nbsp;때다.<br><br>주범수기자<br><br>(&)nbsp;<br></font>
+							</td>
+						</tr>
+						<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+						<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+						<tr><td colspan="2" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=27&sseq=&sword="><img src="/img/prroom/btn_list.gif" height="19" alt="" border="0" hspace="8"></a></td></tr>
+						<tr>
+							<td colspan="2" height="60" style="padding:0 0 0 8">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="21" class="minilist">			
+
+									</td>
+								</tr>
+									<td height="21" class="minilist">
+
+									<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1295&num=473&page=27&sseq=&sword="><font class="minilist">[Cover Story] 송문섭 팬텍앤큐리텔 사장 </font></a>
+
+									</td>
+								</table>
+							</td>
+						</tr>
+						</table>
+						<!------- READ End ------------->
+
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+
+
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner1.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner1.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+
+
+</body>
+</html>
+

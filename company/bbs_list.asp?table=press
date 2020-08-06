@@ -1,0 +1,272 @@
+<html>
+<head>
+<title>팬택&amp;큐리텔</title>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<link rel="stylesheet" type="text/css" href="css/company.css">	
+<script language="javascript" src="./ImagePreload.js"></script>
+	<script language=javascript>			
+		function schecked(){
+			if (myform.search.value == ""){
+				alert('검색어를 입력해주세요.');
+			} else {
+				document.myform.table.value = "press";
+				document.myform.mode.value="list";
+				document.myform.action = "bbs_list.asp";
+				document.myform.submit();
+			}
+		}
+		function view_form(p_id,re_id){
+			document.myform.table.value = "press";
+			document.myform.mode.vlaue="view";
+			document.myform.id.value = p_id;
+			document.myform.reid.value = re_id;
+			document.myform.action = "bbs_content.asp";
+			document.myform.submit();
+		}
+		function write_form(){
+			document.myform.table.value = "press";
+			document.myform.mode.value="write";
+			document.myform.id.value="";
+			document.myform.action = "bbs_write.asp";
+			document.myform.submit();
+		}
+		function list_form(){
+			document.myform.table.value = "press";
+			document.myform.mode.value="list";
+			document.myform.action = "bbs_list.asp";
+			document.myform.submit();
+		}
+		function list_page(a,check,obj){
+			document.myform.table.value = "press";
+			document.myform.mode.value="list";
+			document.myform.s_check.value = check;
+			document.myform.search.value = obj;
+			document.myform.action = "bbs_list.asp?page="+a;
+			document.myform.submit();
+		}
+	</script>
+</head>
+
+<body bgcolor=#ffffff leftmargin=0 topmargin=0 marginwidth=0 onLoad="MM_preloadImages('images/button_co_2.gif','images/button_inv_2.gif','images/button_press_2.gif','images/button_contact_2.gif','images/button_job_2.gif','images/sub_menu/co_bis_2.gif','images/sub_menu/co_history_2.gif','images/sub_menu/co_r&amp;d_2.gif','images/sub_menu/co_ci_2.gif','images/sub_menu/co_ceo_2.gif')">
+<center>
+<!--	Begin: Top Menu -->
+<TABLE width="100%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+  <TR> 
+    <TD><IMG SRC="images/main_top_11.gif" WIDTH=73 HEIGHT=226></TD>
+    <TD><map name="aaa">
+<area alt="" coords="631,11,743,32" href="http://www.curitel.co.kr">
+<area alt="" coords="7,18,115,79" href="http://www.curitel.co.kr">
+</map>
+<img src="images/main_top_10.gif" width="744" height="226" border="0" usemap="#aaa"></TD>
+    <TD><IMG SRC="images/main_top_08.gif" WIDTH=81 HEIGHT=226 BORDER=0></TD>
+    <TD WIDTH="100%"><img src="images/main_top_09.gif" WIDTH="100%" height="226"></TD>
+  </TR>
+</TABLE>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="images/main_menu_left.gif" width=74 height=32></td>
+    <td><img src="images/main_english.gif" width="172" height="32" border="0" usemap="#Map"></td>
+    <td><a href="CoIntro.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button_co','','images/button_co_2.gif',1)"><img src="images/button_co_1.gif" name="button_co" width="95" height="32" border="0"></a><a href="InvestFinanc_03.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('info_investment','','images/button_inv_2.gif',1)"><img src="images/button_inv_1.gif" name="info_investment" width="95" height="32" border="0"></a><a href="/Company/bbs_list.asp?table=press" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('press','','images/button_press_2.gif',1)"><img src="images/button_press_1.gif" name="press" width="95" height="32" border="0"></a><a href="JobIntro.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job','','images/button_job_2.gif',1)"><img src="images/button_job_1.gif" name="job" width="96" height="32" border="0"></a><a href="Contact.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact','','images/button_contact_2.gif',1)"><img src="images/button_contact_1.gif" name="contact" width="95" height="32" border="0"></a><img src="images/button_empty.gif" width="95" height="32"></td>
+    <td width="100%"><img src="images/button_empty2.gif" width="100%" height="32"></td>
+  </tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="60,6,112,28" href="english/overview/index.html" target="_self">
+</map>
+<!--	//End: Top Menu -->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr background="images/line_bg.gif"> 
+		<td width="76">
+			<table border="0" width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><img src="images/line_dot.gif" width="76" height="1"></td>
+				</tr>
+				<tr>
+					<td><img src="images/line.gif" width="77" height="76"></td>
+				</tr>
+				<tr>
+					<td><img src="images/line_dot.gif" width="76" height="1"></td>
+				</tr>
+			</table>
+		
+		</td>
+		<td width="168" height="100%"><img src="images/pic_pres.gif" width="168" height="78"></td>
+		<td width="1"><img src="images/line_dot.gif" width="1" height="76"></td>
+		<td width="570" valign="top"> 
+			<table width="570" height="78" border="0" cellpadding="0" cellspacing="0">
+				<tr> 
+					<td width="570" valign="top"><img src="images/title_dot.gif"></td>
+				</tr>
+				<tr> 
+					<td width="570"><img src="images/title_press.gif"></td>
+				</tr>
+				<tr> 
+					<td width="570" height="13"><img src="images/white_dot.gif" width="40" height="3"><font color="#999999" size="2"><a href="http://www.curitel.co.kr">Home</a> &gt; <b>Press Room</b></font></td>
+				</tr>
+				<tr> 
+					<td width="570" height="2" valign="bottom"><img src="images/line_dot.gif" width="570" height="1"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="1" height="100%"><img src="images/line_dot.gif" width="1" height="78"></td>
+		<td width="100%" height="78" valign="top" background="images/line_bg.gif"></td>
+	</tr>
+  <tr> 
+    <td rowspan="2" height="100%"><img src="images/line.gif" width="77" height="100%"></td>
+    <td width="168" rowspan="2" valign="top"> <p><a href="/Company/bbs_list.asp?table=press" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','images/sub_menu/press_2.gif',1)"><img src="images/sub_menu/press.gif" name="Image35" width="168" height="32" border="0"></a></p></td>
+    <td width="1" height="100%"><img src="images/line_dot.gif" width="1" height="100%"></td>
+    <td width="570" rowspan="2">
+		<table border="0" width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="39">&nbsp;</td>
+				<td width="513">
+		<!-- 메인 컨텐츠 START -->
+			<form action="" method="post" name="myform">
+			<input type=hidden name=table>
+			<input type=hidden name=mode>
+			<input type=hidden name=id>
+			<input type=hidden name=reid>
+			<table border="0" width="100%" cellspacing="0" cellpadding="0" valign="top">
+						<tr>
+							<td><img src="images/spacer.gif" height="28"></td>
+						</tr>
+						<tr>
+							<td><img src="images/text_title_12.gif"></td>
+						</tr>
+						<tr>
+							<td><img src="images/spacer.gif" height="25"></td>
+						</tr>
+						<tr>
+							<td>
+								<table border="0" width="100%" cellspacing="1" cellpadding="5" valign="top" class="tk_bbs">
+									<tr>
+										<td width="7%" align="center" background="images/press_bbs_bg.gif" class="tk_white_b">번호</td>
+										<td width="60%" align="center" background="images/press_bbs_bg.gif" class="tk_white_b">제목</td>
+										<td width="18%" align="center" background="images/press_bbs_bg.gif" class="tk_white_b">출처</td>
+										<td width="15%" align="center" background="images/press_bbs_bg.gif" class="tk_white_b">일자</td>
+									</tr>
+ 		
+									<tr bgcolor=#EFF3F7>
+										<td align=center>656</td>
+										<td class="tk_bbs"><a href=javascript:view_form('69362','656'); class='list_zone'>팬택앤큐리텔, 200만화소폰 출시기념 '행운 복권 페스티벌' </a></td>
+										<td align=center>스포츠조선</td>
+										<td align=center>2004-06-07</td>
+									</tr>		
+ 		
+									<tr bgcolor=#EFF3F7>
+										<td align=center>655</td>
+										<td class="tk_bbs"><a href=javascript:view_form('69361','655'); class='list_zone'>"한국의 모범기업가 유럽 정복 시동걸다" </a></td>
+										<td align=center>한국경제</td>
+										<td align=center>2004-06-03</td>
+									</tr>		
+ 		
+									<tr bgcolor=#EFF3F7>
+										<td align=center>654</td>
+										<td class="tk_bbs"><a href=javascript:view_form('69360','654'); class='list_zone'>박병엽 팬택 부회장 "나는 새로운 기업가 전형될것" </a></td>
+										<td align=center>매일경제 </td>
+										<td align=center>2004-06-03</td>
+									</tr>		
+ 		
+									<tr bgcolor=#EFF3F7>
+										<td align=center>653</td>
+										<td class="tk_bbs"><a href=javascript:view_form('69359','653'); class='list_zone'>팬택앤큐리텔, 행운복권 페스티벌 이벤트 실시… 신제품 ...</a></td>
+										<td align=center>스탁데일리 </td>
+										<td align=center>2004-05-31</td>
+									</tr>		
+ 		
+									<tr bgcolor=#EFF3F7>
+										<td align=center>652</td>
+										<td class="tk_bbs"><a href=javascript:view_form('69358','652'); class='list_zone'>팬택앤큐리텔, 200만화소 카메라폰 판촉전 '가세' </a></td>
+										<td align=center>아이뉴스24</td>
+										<td align=center>2004-05-31</td>
+									</tr>		
+ 		
+									<tr bgcolor=#EFF3F7>
+										<td align=center>651</td>
+										<td class="tk_bbs"><a href=javascript:view_form('69357','651'); class='list_zone'>팬택, 지역주민과 한마음 경영 </a></td>
+										<td align=center>경향신문</td>
+										<td align=center>2004-05-27</td>
+									</tr>		
+ 		
+									<tr bgcolor=#EFF3F7>
+										<td align=center>650</td>
+										<td class="tk_bbs"><a href=javascript:view_form('69356','650'); class='list_zone'>팬택큐리텔, 은행업무서 모바일커머스까지 </a></td>
+										<td align=center>머니투데이</td>
+										<td align=center>2004-05-27</td>
+									</tr>		
+ 		
+									<tr bgcolor=#EFF3F7>
+										<td align=center>649</td>
+										<td class="tk_bbs"><a href=javascript:view_form('69354','649'); class='list_zone'>팬택앤큐리텔, 디카폰 출시… 컨버전스 메가픽셀 버전 </a></td>
+										<td align=center>스탁데일리</td>
+										<td align=center>2004-05-24</td>
+									</tr>		
+									
+									</table>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="images/spacer.gif" height="10"></td>
+						</tr>
+						<tr>
+							<td>
+								<table border="0" width="100%" cellspacing="0" cellpadding="0" valign="top" class="tk_bbs_num">
+									<tr>
+										<td valign="top">
+										<a href="javascript:list_page('1','','');" class="white"><img src="/Common/images/btn_list_01.gif" border="0" hspace="3" align="absmiddle"></a><font class='list_zone'>이전</font>  <font class=this_page>1</font> <a href="javascript:list_page('2','','');" class='list_zone'>2</a> <a href="javascript:list_page('3','','');" class='list_zone'>3</a> <a href="javascript:list_page('4','','');" class='list_zone'>4</a> <a href="javascript:list_page('5','','');" class='list_zone'>5</a> 
+		&nbsp;<a href="javascript:list_page('6','','');" class="white">&nbsp;&nbsp;<font color='white'>다음</font><img src='/Common/images/btn_list_03.gif' border='0' hspace='3' align='absmiddle'></a>
+
+								<a href="javascript:list_page('82','','');" class="white"><img src="/Common/images/btn_list_04.gif" border="0" hspace="3" align="absmiddle"></a>
+								</td>
+										<td align="right">
+											<SELECT NAME="s_check">
+												<OPTION VALUE="title">&nbsp;---- 제목 ----&nbsp;
+												<OPTION VALUE="writer">&nbsp;--- 출처 ---&nbsp;
+											</SELECT>&nbsp;
+											<INPUT TYPE=TEXT NAME="search" SIZE=15 VALUE="">&nbsp;
+											<a href="javascript:schecked()"><img src="images/button_go.gif" align="absmiddle" border="0"></a>
+											</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="images/spacer.gif" height="15"></td>
+						</tr>
+						<tr>
+							<td align="right"><a href="#top"><img src="images/button_top.gif" border="0"></a></td>
+						</tr>
+						<tr>
+							<td><img src="images/spacer.gif" height="53"></td>
+						</tr>
+				</table>
+		<!-- // 메인 컨텐츠 END --></td>
+				<td width="28">&nbsp;</td>
+			</tr>
+		</table>
+	</td>
+    <td width="1" height="100%"><img src="images/line_dot.gif" width="1" height="100%"></td>
+    <td width="100%" rowspan="2"></td>
+  </tr>
+  <tr> 
+    <td width="1" height="100%"><img src="images/line_dot.gif" width="1" height="100%"></td>
+    <td width="1" height="100%"><img src="images/line_dot.gif" width="1" height="100%"></td>
+  </tr>
+    <tr> 
+    <td bgcolor="#adadad"></td>
+    <td colspan="3" bgcolor="#adadad"><img src="images/main_bott.gif" width="740" height="45" border="0" usemap="#bottom_map"></td>
+    <td width="1" bgcolor="#adadad"></td>
+    <td width="100%" bgcolor="#adadad"></td>
+  </tr>
+<map name="bottom_Map">
+  <area shape="rect" coords="10,14,102,29" href="/footer/privacy.asp" target="_self">
+  <area shape="rect" coords="121,14,167,29" href="/footer/partner.asp" target="_self">
+  <area shape="rect" coords="185,14,231,29" href="/footer/qna.asp?table=askhow" target="_self">
+  <area shape="rect" coords="250,14,307,29" href="/footer/qna.asp?table=ToAdmin" target="_self">
+</map>
+</table>
+</center>
+</BODY>
+</HTML>

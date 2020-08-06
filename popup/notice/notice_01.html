@@ -1,0 +1,68 @@
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<title>팬택&큐리텔 </title>
+<style>
+    td	 {font-size:12px; font-family:굴림; color:#818080; line-height:18px}
+</style>
+<script language="javascript">
+
+function setCookie( name, value, expiredays ) 
+{ 
+        var todayDate = new Date(); 
+        todayDate.setDate( todayDate.getDate() + expiredays ); 
+        document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+}
+
+function closeWin() 
+{ 
+        if(document.myform.notice.checked )
+        {
+        	setCookie( "pds", "done" , 1); 
+        	self.close(); 
+	}
+	else
+	{
+		self.close();
+	}
+}
+
+function view_form(p_id,re_id){
+	opener.document.event.table.value = "Notice";
+	opener.document.event.mode.vlaue="view";
+	opener.document.event.id.value = p_id;
+	opener.document.event.reid.value = re_id;
+	opener.document.event.action = "/Footer/bbs_content.asp";		
+	opener.document.event.submit();		
+	self.close();
+}
+
+</SCRIPT>
+
+<body leftmargin="0" topmargin="0">
+<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center">
+        
+        <table width="428" border="0" cellpadding="0" cellspacing="1" bgcolor="#DFDFDF">
+        <tr> 
+          <td bgcolor="#FFFFFF" style="padding: 2, 2;"><img src="images/notice_01.gif" width="424" height="477" border="0"></td>
+        </tr>
+      </table>        
+        </td>
+    </tr>
+</table>
+<table width="428" border="0" cellpadding="0" cellspacing="0">
+<form name=myform action='' method=post>
+<input type=hidden name=table>
+<input type=hidden name=mode>
+<input type=hidden name=id>
+<input type=hidden name=reid>
+<input type=hidden name=b_subnum>
+    <tr>
+        <td width="424" height="33" align="right">오늘은 이창을 열지 않음 <input type="checkbox" name="notice" value="" style="margin-bottom:-1px;margin-right:1px;"> <a href="javascript:closeWin();" onfocus="this.blur();" style="color: #00728F; text-decoration: none;">닫기</a></td>
+        <td width="15"></td>
+    </tr>
+</form>
+</table>
+</body>
+
+

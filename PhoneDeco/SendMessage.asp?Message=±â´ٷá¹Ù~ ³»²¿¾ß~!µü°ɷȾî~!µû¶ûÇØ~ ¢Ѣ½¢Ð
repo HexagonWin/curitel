@@ -1,0 +1,8 @@
+<Script>
+ location.replace('./new_sms_send.asp');
+</Script>
+<script>
+		alert("로그인을 하셔야합니다.");
+	</script>
+	<meta http-equiv='refresh' content="0; url=/Footer/Login.asp?REQUEST_METHOD=GET&
+file=/PhoneDeco/SendMessage.asp&GetQueryStr=Message★%b1%e2%b4%d9%b7%e1%b9%d9~+%b3%bb%b2%bf%be%df~!%b5%fc%b0%c9%b7%c8%be%ee~!%b5%fb%b6%fb%c7%d8~+%a2%d1%a2%bd%a2%d0&oriReferer=">

@@ -1,0 +1,865 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>PANTECH&CURITEL</title>
+	<link href="/common/css/basic.css" rel="stylesheet" type="text/css">
+	<script language="JavaScript">
+	<!--
+		function comment( obj, obj1 )
+		{
+			if ( obj == "add" )
+			{
+				if ("" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else if ( document.board.comment_content.value == "" )
+				{
+					alert("내용을 입력하세요");
+					document.board.comment_content.focus();
+					return;
+				}
+			} else if ( obj == "del" )
+			{
+				if ( "" == "" )
+				{
+					alert("로그인후 이용가능합니다.");
+					return;
+				} else
+				{
+					var ck_confirm = confirm( "삭제하시겠습니까?" );
+					if ( ck_confirm == false )
+					{
+						return false;
+					}
+				}
+			}
+			document.boardComment.table.value = "Phone";
+			document.boardComment.mode.value = obj;
+			document.boardComment.ck_num.value = obj1;
+			document.boardComment.id.value = 64;
+			document.boardComment.comment_content.value = document.board.comment_content.value;
+			document.boardComment.action = "PrevCommentSave.asp";
+			document.boardComment.submit();
+		}
+
+		function beforeSearch()
+		{
+			document.myform.action = "./PrevProductList.asp";
+			document.myform.submit();
+		}
+
+		function ChangeCompany()
+		{
+			document.myform.action = "./PrevProductDetail.asp"
+			document.myform.submit();
+		}
+
+		function ChangeModel()
+		{
+			window.location.href = "./PrevProductDetail.asp?id=" + document.myform.modelType.value;
+		}
+	//-->
+	</script>
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td colspan="3"><!-- 헤더 플래시 include --><!--mg src="/common/images/fake_flash.gif" width="782" height="222"-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="782" HEIGHT="222" id="Untitled-2" ALIGN="top">
+	<param name="movie" value="/common/header/curitel_sub.swf?colorSetNum=2"><!-- 여기예요.-->
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=salign VALUE=T>
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	<EMBED src="/Common/header/curitel_sub.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+</OBJECT></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->		
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+	> <a href="/InfoBox/"><font color="#FFFFFF">Info Box</font></a>
+ 
+	
+	> <font color="#FFFFFF">모델찾기</font>
+		
+</td>
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include --><!-- 레프트 메뉴 START -->
+
+<td width="197" valign="top" align="center" background="/Common/images/left_bg.gif">
+
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="10" bgcolor="#FFFFFF"><img src="/Common/images/spacer.gif" width="197" height="10"></td>
+		</tr>
+		<tr>
+			<td><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="197" HEIGHT="600" id="Untitled-2" ALIGN="top">
+					<PARAM NAME=movie VALUE="/Common/menu/info_box_before.swf">
+					<PARAM NAME=quality VALUE=high>
+					<PARAM NAME=salign VALUE=T>
+					<PARAM NAME=bgcolor VALUE=#FFFFFF>
+					<EMBED src="/Common/menu/info_box_before.swf" quality=high salign=T  WIDTH="197" HEIGHT="600" NAME="Untitled-2" ALIGN="top"
+					TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED>
+				</OBJECT></td>
+		</tr>
+	</table>	
+
+</td>
+<!-- // 레프트 메뉴 END   -->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+			<table width="580" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+				<td class="main_first" style="padding-top:15px" align="center">
+					<table width="548" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+						<td>
+							<table width="548" border="0" cellspacing="0" cellpadding="0">
+								<form name="myform" method="post">
+								<tr>
+								<td height="48" colspan="2" background="images/topbg.gif">
+									<input type="hidden" name="id" value="64">
+									<table width="100%" height="100%" border="0" cellpadding="10" cellspacing="0">
+										<tr>
+										<td width="56%">
+											<select name="companyType" onchange="javascript:ChangeCompany();">
+												<option value="">이동통신사 선택</option>
+												<option value="C" >011/017</option>
+												<option value="P" >016/018</option>
+												<option value="L" >019</option>
+											</select>&nbsp;&nbsp;
+											<select name="modelType" style="width:140px" onchange="javascript:ChangeModel();">
+												<option value="">모델명 선택</option>
+
+												<option value="49">PD-E1100</option>
+
+												<option value="64">PG-K3500</option>
+
+											</select>
+										</td>
+										<td width="44%"><input name="search" type="text" size="20">
+											<a href="javascript:beforeSearch();"><img src="images/searchbtn.gif" width="48" height="17" border="0" align="absmiddle"></a>
+										</td>
+										</tr>
+									</table>
+								</td>
+								</tr>
+								</form>
+								
+								<tr>
+								<td width="255" valign="top">
+									<table width="252" height="382" border="0" cellpadding="0" cellspacing="0" bgcolor="#C1C1C1">
+										<tr>
+										<td valign="middle">
+											<table width="250" height="380" border="0" align="center" cellpadding="0" cellspacing="0">
+												<tr>
+												<td valign="top" bgcolor="#FFFFFF">
+													<div align="center">
+													<table width="250" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+														<td height="66" background="images/pd600_title.gif" style="padding-left: 30px; padding-top: 24px;">
+															<b>PG-K3500</b>
+														</td>
+														</tr>
+													</table>
+													<table width="100%" height="311" border="0" cellpadding="15" cellspacing="0" class="text">
+														<tr><td valign="top">
+														64화음으로 감동, 33만화소 카메라로 또 감동~ <br>“엔터테이너 카메라폰 PG-K3500”<br>
+														</td></tr>
+														
+														<tr>
+														<td height="50" valign="bottom">
+
+															<a href="./ManualDownload.asp?id=64&filename=PG-K300035000904rev.01.pdf"><img src="images/dl_manual.gif" vspace="2" border="0"></a>
+
+														</td>
+														</tr>
+													</table>
+													</div>
+												</td>
+												</tr>
+											</table>
+										</td>
+										</tr>
+									</table>
+								</td>
+								<td width="293" height="383" background="images/productbg.gif">
+									<div align="center">
+
+										<img src="/UploadData/Goods/pg_k3500_white_s.jpg"  border="0">
+
+									</div>
+								</td>
+								</tr>
+								
+								<tr>
+								<td height="71" colspan="2" background="images/btmbg.gif">
+									<div align="center">
+									<table width="100%" height="71" border="0" cellpadding="0" cellspacing="0">
+										<tr align="center">
+										<td><a href="#01"><img src="images/btn01.gif" border="0" width="52" height="52"></a></td>
+										<td><a href="#02"><img src="images/btn02.gif" border="0" width="58" height="52"></a></td>
+										<td><a href="#03"><img src="images/btn03.gif" border="0" width="56" height="52"></a></td>
+										<td><a href="#04"><img src="images/btn04.gif" border="0" width="65" height="52"></a></td>
+										<td><a href="javascript:alert('준비중입니다.');"><img src="images/btn05.gif" border="0" width="52" height="52"></a></td>
+										</tr>
+									</table>
+									</div>
+								</td>
+								</tr>
+							</table>
+						</td>
+						</tr>
+					</table>
+						
+						<table width="548" cellpadding="0" cellspacing="0" border="0">
+							<!-- 특징 START -->
+							<tr><a name="01"></a>
+								<td colspan="2" background="images/title_bg.gif" height="63" style="padding-left:20px"><img src="images/title_01.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0 width=520 align=center><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/cdma2000.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 이제 64개 악기로 연주한다 &#8211; 64화음 적용</b></font><br>큐리텔 PG-K3500은 Yamaha 64Poly 멜로디 칩을 채택하여 원음에 가까운 생생한 멜로디를 들려줍니다. 다양한 내장 멜로디와 개성에 맞게 다운로드한 멜로디로 나만의 오케스트라를 지휘해보세요. 잠깐! 아무리 멜로디가 좋아도 공공장소에선 진동으로 해야겠죠?</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/tft.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 전자수첩이 새로워졌다 - 주요 기능 사용성 강화</b></font><br>달라진 Window UI에 의한 강화된 전자다이어리 기능은 스케쥴, 메모장, 전자계산기, D-day 플러스, 단위환산 기능 등 전자수첩의 기능을 보다 실용적으로 개선했습니다. </TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/40poly.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 업그레이드 모바일 카메라 &#8211; 33만화소 내장형 모바일 카메라 기능</b></font><br>큐리텔 PG-K3500은 33만 화소 모바일 카메라를 내장하여 언제 어디서나 선명하고 깨끗한 사진을 편리하게 촬영할 수 있습니다. 사진으로 큐리텔 대기 화면을 예쁘게 꾸미고 MMS(Multi-media Messaging Service) 기능을 이용하여 친구들에게 편리하게 사진을 보내보세요. 640 * 480 pixel 크기의 사진까지 촬영하여 홈페이지에 간단히 올릴 수 있는 기능까지, 카메라폰의 막강 지존 PG-K3500으로 이제 폼나게 찍으세요~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/avatar.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 모바일 카메라가 날개를 달았다 &#8211; 세계 최초 PC Camera 기능까지</b></font><br>모바일 카메라로 사진만 찍는다? 큐리텔 PG-K3500은 세계 최초 USB PC 카메라 기능 구현으로 전용 거치대와 USB 케이블(별도 구매)만 있으면 컴퓨터와 연결하여 인터넷 화상 채팅은 물론 동영상 저장 및 CCTV 기능까지 사용 가능합니다. PC 카메라를 따로 구매할 필요없이 간단한 조작만으로 PG-K3500을 PC 카메라처럼 사용하세요.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/note.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 이제 끊김없이 매끄럽게 본다 &#8211; 국내 최초 33 frame 기능</b></font><br>인체 공학적으로 사람의 눈은 초당 30 frame 이상으로 동작하면 끊긴다는 느낌을 받지 않는다는 거 알고 계세요? 큐리텔 PG-K3500의 모바일 카메라는 국내 최초로 초당 33 frame 기능을 구현하여 사진 촬영 Preview, 화상 채팅, 동영상 촬영 시에도 끊김없이 부드러운 화면을 보실 수 있습니다. PG-K3500만의 자랑 33 frame 기능으로 모바일 카메라 이제 더욱 편리하게 사용하세요.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/on_line.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ PG-K3500, 깜깜한 밤에 더욱 빛난다! &#8211; 외장형 플래쉬 장착 기능</b></font><br>PG-K3500! 해가 져물어도, 조명이 꺼져도 문제 없다. 큐리텔 PG-K3500은 강력한 카메라 플래쉬(외장형, 별도 판매)를 장착할 수 있어 조명이 없는 어두운 곳에서도 깨끗하고 선명한 사진을 촬영할 수 있게 해줍니다. 밤낮없이 함께하는 모바일 카메라로 사진 촬영을 더욱 신나게 즐기세요.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/nate_air.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 아바타가 새로워졌다! 이젠 혼자가 아닌 커플로 뜬다!</b></font><br>휴대폰 속에 나와 내 친구가 산다. PG-K3500은 큐리텔의 자랑 ‘아바타 편집 기능’을 통해 무려 3억 159만 3600가지 아바타를 조합할 수 있습니다. PG-K3500은 아바타 배경화면 설정 기능을 업그레이드 해 친구의 아바타를 대기 화면에 설정하거나 나와 친구의 아바타를 커플로 하여 대기화면에 설정할 수 있습니다. 전화번호부에 있는 사람들마다 개성있는 아바타를 만들어 보세요. 전화 수신시 반가운 아바타의 모습이 화면에 나타납니다. 아바타 만드는 재미에 전화받는 재미까지~ 이제 휴대폰이 더욱 즐거워집니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/nate.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 고선명 Color에 전력 소모는 더 적게 - 국내 최초 6만5천 컬러 Two-Way TFT LCD</b></font><br>자체 LCD와 햇빛을 모두 활용하는 Two-Way TFT 방식은 실내와 실외에서 모두 밝고 선명한 화면을 유지시켜 줍니다. 햇빛을 활용하기 때문에 1개의 백라이트 만으로도 화면의 밝기를 유지할 수 있어 다른 TFT LCD에 비해 배터리가 적게 소모되는 Two-Way TFT LCD. 이제 배터리 걱정없이 더욱 선명하고 생생한 Color로 다양한 Color Contents를 마음껏 즐기세요~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/moive.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 나만의 이미지? 나만의 멜로디! - PC Link 기능 지원</b></font><br>PC와 휴대폰을 케이블로 연결하여 PC로 작성한 데이터를 휴대폰으로 옮기거나, 휴대폰의 데이터를 PC로 읽어 들여 편집할 수 있는 기능입니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/small.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 이제 Stereo로 듣는다 - 4 Pin Stereo Ear-Jack 구현 (별도 구매)</b></font><br>이제 Ear-Jack도 Stereo, 양쪽 귀에 꽂으니까 더 선명하게 더 또렷하게 들린다. 노래방 사용 시 스테레오에 맞춰 더욱 신나게, 더욱 흥겹게 즐기세요~ PG-K3500만 있으면 여기가 바로 노래방~</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR><TR><TD width=85 valign=top><IMG SRC=/Infobox/images/bell.gif hspace=10></TD><TD><font color=#05B4CE><b>◈ 통화중에도 두손은 자유! 핸즈프리가 필요없다 - 스피커폰 기능 지원</b></font><br>운전중이나 회의시 또는 양손이 자유롭지 못한 상황에서 사용할 때 간이 핸즈프리 기능으로 사용이 가능하며, 녹화중 상대방 목소리 녹음은 물론 평상시에는 중요한 회의내용, 해야할 일, 갑자기 생각난 아이디어 등을 간편하게 녹음할 수 있는 녹음기능도 지원 합니다.</TD></TR><TR><TD background=/Infobox/images/tag1_05.gif colspan=2></TD></TR></table>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+															<br><br>※ 제품의 외관, 사양등은 제품개량을 위해 사전예고 없이 변경될 수 있습니다.
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 특징 END -->
+							<!-- 기능 START -->
+							<tr><a name="02"></a>
+								<td colspan="2" background="images/title_bg.gif" height="63" style="padding-left:20px"><img src="images/title_02.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0 width=520 align=center><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>Yamaha 64화음</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>33만 화소, 33프레임급 내장형 디지털 카메라</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>초대형 6만5천 컬러 TFT LCD 탑재 (128 * 160)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>아바타 설정 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>고급 블루 /키패드 백라이팅 채용</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>스피커폰 기능 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>4Pin Stereo Ear Jack</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>단문메시지 송수신(SMS)/멜로디·이미지 Download 기능 등 사업자 부가서비스 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>방송형 서비스(Multi-Q)지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>MMS(Multimedia Messaging Service)기능 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>대용량 전화번호부 (500개) / SMS 수신 (50개)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>Call Rejection 기능 (수신 제한 기능)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>무선인터넷 (Magic ⓝ) 기능 및 E-mail 기능 지원</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>게임 및 어플리케이션 다운로드 기능 (Magic ⓝ 지원 기능)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>스케쥴, 모닝콜, 메모장, 전자계산기, D-Day 플러스, 단위환산 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>자동잠금/ 원터치 진동모드/ 사생활보호기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>절전조명 기능</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>시작 메뉴 편집 기능 (나만의 메뉴 편집)</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>외부 LED를 통한 휴대폰상태 표시</TD></TR><TR><TD align=center><IMG SRC=/Infobox/images/dot_arrow.gif></TD><TD align=left>개인정보관리 데이터 PC 호환 기능</TD></TR></table>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 기능 END -->
+							<!-- 사양 START -->
+							<tr><a name="03"></a>
+								<td colspan="2" background="images/title_bg_02.gif" height="51" style="padding-left:20px; padding-top:20px" valign="top"><img src="images/title_03.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr>
+														<td width="105"><img src="images/stitle_01.gif" width="105" height="23"></td>
+														<td bgcolor="#7EADB4" width="431"></td>
+													</tr>
+												</table>
+												<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#E5E2E2><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_01.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>크기(mm)</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px bgcolor=#FFFFFF>87 × 45 × 18 (표준용량)</TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>무게(g)</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>80g대(표준용량)</TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>LCD 사양</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>내장 LCD :TFT 6만5천 컬러 LCD (128 × 160)외장 LCD :4 Line (96 × 64) </TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_09.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD width=88 height=24 style=padding-left:10px bgcolor=#F0F0F0>색상</TD><TD background=/InfoBox/images/tag3_04.gif width=432 style=padding-left:10px>Blue Silver/ White Pearl</TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_13.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD colspan=2><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#F0F0F0 height=120><TR><TD bgcolor=#F0F0F0 style=padding-left:10px width=34% >구 분</TD><TD bgcolor=#F0F0F0 align=center width=33% >표준용량</TD><TD bgcolor=#F0F0F0 align=center width=33% >대용량</TD></TR><TR><TD bgcolor=#F0F0F0 style=padding-left:10px>연속통화시간</TD><TD align=center bgcolor=#ffffff>약 123분 </TD><TD align=center bgcolor=#ffffff>약 162분 </TD></TR><TR><TD bgcolor=#F0F0F0 style=padding-left:10px>연속대기시간</TD><TD align=center bgcolor=#ffffff>약 183시간 </TD><TD align=center bgcolor=#ffffff>약 226시간 </TD></TR><TR><TD colspan=3  bgcolor=#ffffff style=padding-left:10px>◆ CDMA2000 1x 및 Slot Cycle 1.2 기준, 휴대폰 실사용 시간은 휴대폰 사용환경에 따라 차이가 있을 수 있습니다</TD>	</TR></TABLE></TD></TR><TR><TD colspan=2 bgcolor=#7EADB4><IMG SRC=/InfoBox/images/tag3_23.gif WIDTH=106 HEIGHT=23></TD></TR><TR><TD colspan=2 bgcolor=#FFFFFF style=padding-left:80px><BR><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 width=100% bgcolor=#ffffff height=120><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>휴대폰 본체</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>휴대용 고리</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>거치대</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>사용설명서</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10>배터리 2개</TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10></TD></TR><TR><TD><IMG SRC=/InfoBox/images/bullet_small.gif hspace=10></TD></TR></TABLE><BR></TD></TR></TABLE>
+												<table width="536" cellpadding="0" cellspacing="0" border="0">
+													<tr><td height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 사양 END -->
+							<!-- 리뷰 START -->
+							<tr><a name="04"></a>
+								<td colspan="2" background="images/title_bg_02.gif" height="51" style="padding-left:20px; padding-top:20px" valign="top"><img src="images/title_04.gif" width="180" height="24"></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="548" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="10"></td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+											<td width="536">
+												<table width="536" cellpadding="1" cellspacing="0" border="0">
+													<tr bgcolor="#7EADB4">
+														<td width="85" height="22" style="color:white;padding-left:10px">작성자</td>
+														<td width="420" style="color:white">내&nbsp;&nbsp;용</td>
+														<td width="31" align="center" style="color:white">삭제</td>
+													</tr>
+
+						<!-- 한줄답변 START -->
+													<Form name="boardComment" method="post" action="PrevCommentSave.asp">
+													<input type="hidden" name="table" value="Phone">
+													<input type="hidden" name="mode">
+													<input type="hidden" name="id">
+													<input type="hidden" name="b_subnum">
+													<input type="hidden" name='comment_name' value="">
+													<input type="hidden" name="comment_id" value="">
+													<input type="hidden" name="ck_num">
+													<input type="hidden" name="comment_content">
+													</form>
+													<form name="board" method="post" action="javascript:comment('add','0');">
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김연식</td>
+														<td width="420">무슨넘에 신제품이 일주일마다 출시되네...</td>
+														<td width="31" align="center"><a href="javascript:comment('del','1');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김현서</td>
+														<td width="420">음 , 신제품이라기보다는 . 기존의 기술로 . 여러가지를 , ㅋㄷ , 신제품이 맞지만용  .  원 이래서양 . -ㅅ- 오히려 하나 마음에 드는게 있어도 몇일지나면 또 모가 나오겟지란 생각때문에 , 제대로 구입을 못할수도</td>
+														<td width="31" align="center"><a href="javascript:comment('del','2');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김건용</td>
+														<td width="420">요건 다 좋긴 좋넹</td>
+														<td width="31" align="center"><a href="javascript:comment('del','3');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김건용</td>
+														<td width="420">저번에 나온 s2는 11만 화소라서 왠지 맘에 안들구</td>
+														<td width="31" align="center"><a href="javascript:comment('del','4');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김건용</td>
+														<td width="420">이번엔 016꺼라서 좀 그렇구 아 그래도 이건 다 좋은 버젼이당</td>
+														<td width="31" align="center"><a href="javascript:comment('del','5');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김건용</td>
+														<td width="420">헛 이번은 6만5천이넹 왜 글케 나요냐... 26만이 아니잖아!</td>
+														<td width="31" align="center"><a href="javascript:comment('del','6');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김건용</td>
+														<td width="420">거기에다 용량 부족해</td>
+														<td width="31" align="center"><a href="javascript:comment('del','7');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">강지성</td>
+														<td width="420">흠...거의다 비슷비슷..</td>
+														<td width="31" align="center"><a href="javascript:comment('del','8');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">윤승현</td>
+														<td width="420">? s2가 11만 화소라구요? 그럴일은 없을텐데요... 큐리텔은 거의다 33만화소인데...</td>
+														<td width="31" align="center"><a href="javascript:comment('del','9');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김광중</td>
+														<td width="420">아직도 큐리텔 폰을 사시고 계십니까? 주변에서 얘기 안해줍니까? 큐리텔 사지 말라고? 64 화음 33만화소 카메라 ... 다 좋습니다. 기본 기능이라도 제되로 돌아 가게 만들란 말야 ! 문자쓰기는 왜케 번거로워 ! 소리는왜케 작아? 진동은 또 울리긴 하는거냐? 음질도 지저분하구 ! 메뉴도 그지같구 ! 내 돈 돌려줘 !</td>
+														<td width="31" align="center"><a href="javascript:comment('del','10');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김광중</td>
+														<td width="420">아직도 큐리텔 폰을 사시고 계십니까? 주변에서 얘기 안해줍니까? 큐리텔 사지 말라고? 64 화음 33만화소 카메라 ... 다 좋습니다. 기본 기능이라도 제되로 돌아 가게 만들란 말야 ! 문자쓰기는 왜케 번거로워 ! 소리는왜케 작아? 진동은 또 울리긴 하는거냐? 음질도 지저분하구 ! 메뉴도 그지같구 ! 내 돈 돌려줘 !</td>
+														<td width="31" align="center"><a href="javascript:comment('del','11');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김광중</td>
+														<td width="420">아직도 큐리텔 폰을 사시고 계십니까? 주변에서 얘기 안해줍니까? 큐리텔 사지 말라고? 64 화음 33만화소 카메라 ... 다 좋습니다. 기본 기능이라도 제되로 돌아 가게 만들란 말야 ! 문자쓰기는 왜케 번거로워 ! 소리는왜케 작아? 진동은 또 울리긴 하는거냐? 음질도 지저분하구 ! 메뉴도 그지같구 ! 내 돈 돌려줘 !</td>
+														<td width="31" align="center"><a href="javascript:comment('del','12');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김광중</td>
+														<td width="420">아직도 큐리텔 폰을 사시고 계십니까? 주변에서 얘기 안해줍니까? 큐리텔 사지 말라고? 64 화음 33만화소 카메라 ... 다 좋습니다. 기본 기능이라도 제되로 돌아 가게 만들란 말야 ! 문자쓰기는 왜케 번거로워 ! 소리는왜케 작아? 진동은 또 울리긴 하는거냐? 음질도 지저분하구 ! 메뉴도 그지같구 ! 내 돈 돌려줘 !</td>
+														<td width="31" align="center"><a href="javascript:comment('del','13');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김광중</td>
+														<td width="420">아직도 큐리텔 폰을 사시고 계십니까? 주변에서 얘기 안해줍니까? 큐리텔 사지 말라고? 64 화음 33만화소 카메라 ... 다 좋습니다. 기본 기능이라도 제되로 돌아 가게 만들란 말야 ! 문자쓰기는 왜케 번거로워 ! 소리는왜케 작아? 진동은 또 울리긴 하는거냐? 음질도 지저분하구 ! 메뉴도 그지같구 ! 내 돈 돌려줘 !</td>
+														<td width="31" align="center"><a href="javascript:comment('del','14');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김광중</td>
+														<td width="420">아직도 큐리텔 폰을 사시고 계십니까? 주변에서 얘기 안해줍니까? 큐리텔 사지 말라고? 64 화음 33만화소 카메라 ... 다 좋습니다. 기본 기능이라도 제되로 돌아 가게 만들란 말야 ! 문자쓰기는 왜케 번거로워 ! 소리는왜케 작아? 진동은 또 울리긴 하는거냐? 음질도 지저분하구 ! 메뉴도 그지같구 ! 내 돈 돌려줘 !</td>
+														<td width="31" align="center"><a href="javascript:comment('del','15');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김광중</td>
+														<td width="420">아직도 큐리텔 폰을 사시고 계십니까? 주변에서 얘기 안해줍니까? 큐리텔 사지 말라고? 64 화음 33만화소 카메라 ... 다 좋습니다. 기본 기능이라도 제되로 돌아 가게 만들란 말야 ! 문자쓰기는 왜케 번거로워 ! 소리는왜케 작아? 진동은 또 울리긴 하는거냐? 음질도 지저분하구 ! 메뉴도 그지같구 ! 내 돈 돌려줘 !</td>
+														<td width="31" align="center"><a href="javascript:comment('del','16');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김광중</td>
+														<td width="420">아직도 큐리텔 폰을 사시고 계십니까? 주변에서 얘기 안해줍니까? 큐리텔 사지 말라고? 64 화음 33만화소 카메라 ... 다 좋습니다. 기본 기능이라도 제되로 돌아 가게 만들란 말야 ! 문자쓰기는 왜케 번거로워 ! 소리는왜케 작아? 진동은 또 울리긴 하는거냐? 음질도 지저분하구 ! 메뉴도 그지같구 ! 내 돈 돌려줘 !</td>
+														<td width="31" align="center"><a href="javascript:comment('del','17');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김광중</td>
+														<td width="420">아직도 큐리텔 폰을 사시고 계십니까? 주변에서 얘기 안해줍니까? 큐리텔 사지 말라고? 64 화음 33만화소 카메라 ... 다 좋습니다. 기본 기능이라도 제되로 돌아 가게 만들란 말야 ! 문자쓰기는 왜케 번거로워 ! 소리는왜케 작아? 진동은 또 울리긴 하는거냐? 음질도 지저분하구 ! 메뉴도 그지같구 ! 내 돈 돌려줘 !</td>
+														<td width="31" align="center"><a href="javascript:comment('del','18');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김광중</td>
+														<td width="420">아직도 큐리텔 폰을 사시고 계십니까? 주변에서 얘기 안해줍니까? 큐리텔 사지 말라고? 64 화음 33만화소 카메라 ... 다 좋습니다. 기본 기능이라도 제되로 돌아 가게 만들란 말야 ! 문자쓰기는 왜케 번거로워 ! 소리는왜케 작아? 진동은 또 울리긴 하는거냐? 음질도 지저분하구 ! 메뉴도 그지같구 ! 내 돈 돌려줘 !</td>
+														<td width="31" align="center"><a href="javascript:comment('del','19');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김광중</td>
+														<td width="420">아직도 큐리텔 폰을 사시고 계십니까? 주변에서 얘기 안해줍니까? 큐리텔 사지 말라고? 64 화음 33만화소 카메라 ... 다 좋습니다. 기본 기능이라도 제되로 돌아 가게 만들란 말야 ! 문자쓰기는 왜케 번거로워 ! 소리는왜케 작아? 진동은 또 울리긴 하는거냐? 음질도 지저분하구 ! 메뉴도 그지같구 ! 내 돈 돌려줘 !</td>
+														<td width="31" align="center"><a href="javascript:comment('del','20');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김현서</td>
+														<td width="420">ㅇㅇ 아직도 큐리텔폰 사고있고요 주변에서 . 사지말란 소리 들은 적없어요 . 문자쓰는거 익히시고여 소리가 작게 느껴지면 귀를 파시고 진동도 몸의 감각을 살려보세요 . 아 그리고 . 끝에 내돈 돌려죠 . 음 . 이핸드폰 사셧나봐요 . 님이 사실땐 주변에서 . 사지말란 소리 안하셧나보져 ? ㅋㄷ , 그럼 수고하세요</td>
+														<td width="31" align="center"><a href="javascript:comment('del','21');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">서재형</td>
+														<td width="420">연락처는 1000개정도는 되야..문자 메세지 넘적게 저장된다! 300개정도는 되야..글구 직전통화번호저장도 100개는 되야..</td>
+														<td width="31" align="center"><a href="javascript:comment('del','22');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">윤승현</td>
+														<td width="420">마저요... 큐리텔 쓰다보면 꾀 괞찮은 폰인데 님이 이상하게 생각 해서 그러는 거에요. 앞에 어떤님 말대로 님이 사실때는 주위에서 큐리텔 사지 말라는 소리 안했나 보죠?~~?~!!ㅋ</td>
+														<td width="31" align="center"><a href="javascript:comment('del','23');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">박소현</td>
+														<td width="420">핸드폰 산지 겨우 4달됐다. 1번 기계 교환. 2번 수리. 3번 다 같은 증상(?)으로 고장났다. 젠장!!!! 근데 오늘 또 고장났다. 이유도 없이. 껐다 키기만 하면 핸드폰이 안테나도 안뜬다. 오늘은 가서 담판을 지어야 곘다. 젠장. 큐리텔 절대 사지마세요. 정말</td>
+														<td width="31" align="center"><a href="javascript:comment('del','24');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">장준</td>
+														<td width="420">이상하네 나는 왜 잘 되지 음.. 아직 얼마 안되서 그런가..</td>
+														<td width="31" align="center"><a href="javascript:comment('del','25');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">박재양</td>
+														<td width="420">이거여 가격데가 얼마정도하나여?? 궁금해요..제발.누가좀갈켜주세욥 ㅜㅜ</td>
+														<td width="31" align="center"><a href="javascript:comment('del','26');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">전민선</td>
+														<td width="420">이거 얼마예요?</td>
+														<td width="31" align="center"><a href="javascript:comment('del','27');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">장세호</td>
+														<td width="420">아주 도배를 했군... 나는 PD-6000으로 잘만 사용하고 있는데. 마누라가 쓰는 삼성 준폰보다 사용하기 편하고, 작고 가볍고, 아직 고장없고. 이정도면 좋은건데.^^ 저렇게 도배하면 뭐 좋은 일이 생기는걸까?</td>
+														<td width="31" align="center"><a href="javascript:comment('del','28');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">문지상</td>
+														<td width="420">큐리텔 안좋다는 사람은 다른폰도</td>
+														<td width="31" align="center"><a href="javascript:comment('del','29');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">문지상</td>
+														<td width="420">써보시죠...그것들도 불만일꺼 같은데...자기의 구미에 맞는것이 세상에 어딧답니까? 글구 잘고장나시는 분은 사용습관을 고치시는게 좋을듯싶네요.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','30');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">이한종</td>
+														<td width="420">이폰 사신분 계신가요? 계시면 가격대를 좀 알려주셨음합니다. 글구 저도 PD-6000쓰고 있는데 만족하고 쓰고있는데요... 광중님이 좀 이상한듯. 한글을 제대로 몰라서 문자 못쓰시는것은 아닌지요...ㅋㄷ</td>
+														<td width="31" align="center"><a href="javascript:comment('del','31');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">전효선</td>
+														<td width="420">나도.. 사고 싶다.. 난 pd-k600 쓰다 모토로라로 바꿨는데... 다시 큐리텔 사려구요..S2같은 모델은 016으로안나오나요??지금 이 폰은 얼마 정도 하나요??아시는 분이나 구입하신 분 좀 알려 주세요~!!</td>
+														<td width="31" align="center"><a href="javascript:comment('del','32');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김수훈</td>
+														<td width="420">ㅎㅎ 전 이거 일주일 샀는데 정확하게 말하면 직원이 몇개 전시용으로 가지구 오는걸 샀어요 모델은 pg-3000 이지만 디자인만 다르고 같은거 같네요.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','33');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">김수훈</td>
+														<td width="420">pg-k3000 을 380,000원 정도에 샀으니깐 이것도 그정도 할것 같네요. 외장형 플래쉬를 그냥 주니깐 한 4만 정도 이득이구 64화음이지만 스피크가 하나 뿐이라 스테레오를 느끼기에는(3D)부족 하네요. 그래도 가격대 성능비에서는 가장 좋은것 같습니다. LCD 창도 깔끔하구 음~~ 만족 합니다.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','34');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">임재용</td>
+														<td width="420">3000보단 비싸네요. 제가 여기저기 찾아 봤는데요 싸게 파는데가 30만원대 후반이고 보통 40만원이 넘습니다.</td>
+														<td width="31" align="center"><a href="javascript:comment('del','35');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">박재휘</td>
+														<td width="420">40만원이요? 인터넷 싼곳에서 S2가 368000원이던데 ㅡㅡ차라리 S2를 쓰겠네요. 큐리텔 너무 안 좋습니다. 다음부터 안 삽니다. 특히 고객서비스!! 욕이 막 나옵디다 ㅡㅡ씁</td>
+														<td width="31" align="center"><a href="javascript:comment('del','36');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">정영수</td>
+														<td width="420">히히</td>
+														<td width="31" align="center"><a href="javascript:comment('del','37');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">방은경</td>
+														<td width="420">무슨 소린지... 고객서비스도 좋구요, 핸드폰 질도 이정도면 최고에요. 그럼 님은 안 좋은거 알면서 왜 사셨죠? 어이가 없어서 -_- 글고 다음부터 사지 마세요. 님 아니여도 살 사람 많을걸요</td>
+														<td width="31" align="center"><a href="javascript:comment('del','38');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<!-- start_loop -->
+													<tr>
+														<td width="85"height="22" style="padding-left:10px">방은경</td>
+														<td width="420">진짜 여기와서 큐리텔 욕하는 사람 이해가 안 된다-_- 그렇게 시간이 남아 도나? ㅎㅎㅎㅎㅎㅎ 안 좋으면 쓰지 말던가</td>
+														<td width="31" align="center"><a href="javascript:comment('del','39');"><img src="images/icon_delete.gif" border="0"></a></td>
+													</tr>
+													<tr align="center">
+														<td colspan="3"><img src="images/comment_dots.gif"></td>
+													</tr>
+													<!-- end_loop -->
+
+													<tr bgcolor="#7EADB4">
+														<td colspan="3" style="color:white;padding-left:10px">나도 한마디...</td>
+													</tr>
+													<tr>
+														<td colspan="3" style="padding-left:15px; padding-top:6px">
+															내용&nbsp;&nbsp;<input size="75" name="comment_content">
+														</td>
+													</tr>
+													<tr>
+														<td colspan="3" style="padding:6px,0,10px,15px">
+															<img src="images/warning_01.gif">
+															<a href="javascript:comment('add','0');"><img src="images/btn_write.gif" border="0"></a>
+														</td>
+													</tr>
+													</form>
+													<tr><td colspan="3" height="1" bgcolor="#D9DADA"></td></tr>
+													<tr>
+														<td colspan="3" bgcolor="#F8F8F8" align="right" style="padding:10px,10px,15px,0">
+															<a href="#top"><img src="/common/images/btn_top_small.gif" border="0"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="1" bgcolor="#C0C0C0"></td>
+										</tr>
+										<tr>
+											<td width="10"></td>
+											<td colspan="3" height="6" bgcolor="#707070"></td>
+										</tr>
+										<tr align="right">
+											<td width="10"></td>
+											<td colspan="3" height="35" background="images/list_bottom_bg.gif" style="padding-right:20px">
+												<a href="./PrevProductList.asp"><img src="/common/images/btn_list.gif" border="0"></a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<!-- // 리뷰 END -->
+						</table>
+					</td>
+				</tr>
+			</table><br><br><br>
+		<!-- // 메인 컨텐츠 END -->
+		</td>
+<!-- 푸터 include -->		</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		<td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestFinanc_03.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="467,61,564,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="581,61,628,79" href="/footer/partner.asp">
+<area alt="이용문의" coords="644,62,694,79" href="/footer/qna.asp?table=askhow">
+<area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>
+
+</body>
+</html>

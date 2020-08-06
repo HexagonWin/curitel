@@ -1,0 +1,37 @@
+		select { font-size: 12px; LINE-HEIGHT: 17px; font-family: "verdana" ; color: #464646; letter-spacing: -0.5px}
+		FORM { font-size: 12px; color: #464646; LINE-HEIGHT: 15px; font-family: verdana; text-decoration: none ; letter-spacing: -0.5px} 
+		body {scrollbar-face-color:#ffffff; scrollbar-highlight-color: #889BB9 ; scrollbar-shadow-color: #889BB9 ; scrollbar-3dlight-color: #ffffff ; scrollbar-darkshadow-color: #ffffff ; scrollbar-track-color: #ffffff ; }	
+		td { font-size: 12px; LINE-HEIGHT: 20px; font-family: "µ¸¿ò"; color: #464646}
+		
+		a:visited { font-size: 12px; color: #666666; text-decoration: none ; font-family: "±¼¸²"; letter-spacing: -0.5px}
+		a:hover   { font-size: 12px; color: #000000; text-decoration: underline; font-family: "±¼¸²"; letter-spacing: -0.5px} 
+		a:link    { font-size: 12px; color: #3E70C1; text-decoration: none ; font-family: "±¼¸²"; letter-spacing: -0.5px}
+
+.link_white A:visited {	FONT-SIZE: 11px;	COLOR: #FFFFFF;	TEXT-DECORATION: none;	font-family: "±¼¸²", "arial";	font-weight: bold;} 
+.link_white A:hover {	FONT-SIZE: 12px;	COLOR: #000000;	TEXT-DECORATION: none;	font-family: "Arial", "±¼¸²";	font-weight: bold;} 
+.link_white A:link {	FONT-SIZE: 11px;	COLOR: #F5F5F5;	TEXT-DECORATION: none;	font-family: "±¼¸²", "arial";	font-weight: bold;}
+
+.t_faq_b { font-size: 12px; LINE-HEIGHT: 20px; font-family: "µ¸¿ò"; color: #5B4AA5}
+.t_faq { font-size: 12px; LINE-HEIGHT: 20px; font-family: "µ¸¿ò"; color: #3D3464}
+
+
+.textarea {	border: 1px #CCCCCC double;	font-family: "Verdana";	font-size: 12px;	color: #6C6560;}
+
+.tableB10 {	margin-bottom: 10px;}
+.tableB20 {	margin-bottom: 20px;}
+.tableB30 {padding-top: 30px;
+           padding-left: 35px;}
+
+.padL30 {	padding-left: 30px;}
+.padL20 {	padding-left: 20px;}
+.padL15 {	padding-left: 15px;}
+.padL10 {	padding-left: 10px;}
+.padL6 {	padding-left: 6px;}
+
+.INPUT {
+	font-size: 11px;
+	font-family: "µ¸¿ò";
+	color: #666666;
+	border: 1px solid #CCCCCC;
+	height: 15px;
+}

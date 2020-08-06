@@ -1,0 +1,1 @@
+<script language='javascript'>alert('파일이 존재하지 않습니다');history.back();</script>D:\curitel\upload\

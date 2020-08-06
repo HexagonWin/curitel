@@ -1,0 +1,72 @@
+
+
+<script>
+//Æò°¡ÇÏ±â
+function go_rate(){
+
+//	for(var j=0;j<6;j++) { 
+//           if (document.rating.rate[j].checked=true) {
+//				document.rating.submit();  
+//			}	
+//		   else{
+  //                 	alert("Æò°¡ÇÏ±â¸¦ ¼±ÅÃÇÏ¿©¾ß ÇÕ´Ï´Ù.");
+	//				return;
+      //     } 
+   // }
+	document.rating.submit();  
+}
+</script>
+
+<Meta name="keywords" content="ÆÒÅÃ¾ØÅ¥¸®ÅÚ, Å¥¸®ÅÚ, ÈÞ´ëÆù, ÇÚµåÆù, Ä¿¹Â´ÏÆ¼, µ¿¿µ»óÆù, Ä«¸Þ¶óÆù">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<!-- ############       Æò°¡ÇÏ±â      ############# -->
+<form name="rating" method="post" action="tvcf_rating.asp?act=rating">
+<input type="hidden" name="idx" value="5">
+<input type="hidden" name="title" value="`Ã‡ÃšÂµÃ¥Ã†Ã¹?ÃŒÂ¾ÃŸ~ Ã„Â·Ã„ÃšÂ´ÃµÂ¾ÃŸ~`">
+
+		<table cellpadding=0 cellspacing=0 border=0>
+		<!-- <tr><td colspan=2 height=20></td></tr>
+		<tr><td colspan=2 align=right style="padding-right:20"><a href="tvcf.asp"><img src="list.gif" vspace=5></a></td></tr>
+		<tr><td colspan=2><img src="/img/common/plusline.gif"></td></tr>
+		<tr><td colspan=2 height=20></td></tr>
+		<tr height=30 valign=top>
+			<td><img src="/img/prroom/t_tvcf.gif"></td>
+			<td align=right style="padding-right:25"><a href="#"><img src="/img/prroom/btn_product.gif"> </a></td>
+		</tr> -->
+		<tr><td colspan=2>
+				<table width="530" cellpadding="0" cellspacing="0" border="0" bgcolor="#FCF9E4">
+				<tr>
+					<td width="3"><img src="/img/common/yedge01.gif" width="3" height="3" alt="" border="0"></td>
+					<td width="527" height="3" style="border-top:1px solid #F0EDDA" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+					<td width="3"><img src="/img/common/yedge02.gif" width="3" height="3" alt="" border="0"></td>
+				</tr>
+				<tr>
+					<td height="30" style="border-left:1px solid #F0EDDA"><img src="/img/b.gif" width="1" height="1"></td>
+					<td style="padding:5 25">
+						<table width="100%" cellpadding="0" cellspacing="0">
+						<tr>
+							<td><input type="radio" name="rate" value="5" id="5"><img src="/img/my/minihome/icon_face01.gif" width="22" height="21" alt="" border="0" align="absmiddle"> ¸Å¿ì¸¸Á·</td>
+							<td><input type="radio" name="rate" value="4" id="4"><img src="/img/my/minihome/icon_face02.gif" width="22" height="21" alt="" border="0" align="absmiddle"> ¸¸Á·</td>
+							<td><input type="radio" name="rate" value="3" id="3" checked><img src="/img/my/minihome/icon_face03.gif" width="22" height="21" alt="" border="0" align="absmiddle"> º¸Åë</td>
+							<td><input type="radio" name="rate" value="2" id="2" ><img src="/img/my/minihome/icon_face04.gif" width="22" height="21" alt="" border="0" align="absmiddle"> ºÒ¸¸Á·</td>
+							<td><input type="radio" name="rate" value="1" id="1"><img src="/img/my/minihome/icon_face05.gif" width="22" height="21" alt="" border="0" align="absmiddle"> ¸Å¿ì ºÒ¸¸Á·</td>
+						</tr>
+						</table>
+					</td>
+					<td style="border-right:1px solid #F0EDDA"><img src="/img/b.gif" width="1" height="1"></td>
+				</tr>
+				<tr>
+					<td><img src="/img/common/yedge03.gif" width="3" height="3" alt="" border="0"></td>
+					<td height="3" style="border-bottom:1px solid #F0EDDA" valign="top"><img src="/img/b.gif" width="1" height="1"></td>
+					<td><img src="/img/common/yedge04.gif" width="3" height="3" alt="" border="0"></td>
+				</tr>
+				</table>
+		</td></tr>
+		<tr><td colspan=2 height=20></td></tr>
+		<tr><td colspan=2 align=right style="padding-right:25">
+			<a href="javascript:go_rate();"><img src="/img/prroom/btn_value.gif" align=absmidde></a>&nbsp;<a href="javascript:void(0)" onclick="window.open('/html/popup/adpoll_result.asp?model_title=`Ã‡ÃšÂµÃ¥Ã†Ã¹?ÃŒÂ¾ÃŸ~ Ã„Â·Ã„ÃšÂ´ÃµÂ¾ÃŸ~`&idx=5','ad','width=445,height=280');"><img src="/img/prroom/btn_result.gif" align=absmidde></a>
+		</td></tr>
+		<tr><td colspan=3 height=30>¡Ø ·Î±×ÀÎÇÏ¼Å¾ß¸¸ ±ÛÀ» ³²±â½Ç ¼ö ÀÖ½À´Ï´Ù</td></tr>
+		</table>
+</form>

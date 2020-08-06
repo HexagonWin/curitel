@@ -1,0 +1,364 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/prroom/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/prroom/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=919&page=38&num=285&sseq=&sword=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=919&page=38&num=285&sseq=&sword=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/prroom/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/prroom/index.asp" onfocus="this.blur()"><img src="/img/prroom/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        > <a href="/html/prroom/index.asp">PR Room</a> > News</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="220">
+					               <param name="movie" value="/inc/flash/left/left_prroom.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_prroom.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="220"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">			
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->
+
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/img/prroom/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td height="1"></td>
+						</tr>
+						<tr>
+							<td height="26">
+								<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td bgcolor="#F6F8F9"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="25"></td>
+						</tr>
+						</table>
+
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="2" height="31" style="font-weight:bold;color:#599AA6;padding:0 0 0 10;font-size:9pt">
+							[ "하이테크 차이나"…휴대전화 반도체 기술 급성장…한국 위협  ]
+							</td>
+						</tr>
+						<tr>
+							<td height="16" bgcolor="#F2F2F2" colspan="2"></td>
+						</tr>
+						<tr bgcolor="F2F2F2">
+							<td height="31" width="142" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 285</td>
+							<td width="376" style="padding:2 0 0 0">
+								<b><font color="#515151">&#8226;</font> 등록일</b> :
+								2003-12-31 <img src="/img/b.gif" width=80 height=1>
+								<b><font color="#515151">&#8226;</font> 출처</b> : 동아일보
+							</td>
+						</tr>
+						<tr><td height="1" colspan="2" bgcolor="#C9C9C9"></td></tr>
+						<tr>
+							<td colspan="2" style="padding:25 11;line-height:16px" valign="top" class="8">
+								《‘뛰는 코끼리가 날개까지 달았다.’ 첨단 기술로 빠르게<br><br>무장하고 있는 ‘세계의 공장’ 중국을 두고 하는 말이다. <br><br>값싼 노동력과 방대한 시장에 기술력까지 축적되면서 2004년 중국 경제는 새로운 도약을 예고하고 있다. 각국의 첨단 기술이 몰리면서 중국 경제의 성장 속도는 더욱 탄력을 받는 모습이다. <br><br>기존 조립생산 위주의 산업구조도 첨단 업종 중심으로 바뀌고 있다. 낮은 원가가 무기였던 중국은 기술력까지 갖춰 한국을 위협하고 있다. 휴대전화 전자 반도체 등 첨단산업 분야에서도 마침내 한국을 넘보기 시작했다. <br><br>삼성경제연구소 유진석 수석연구원은 “중국 산업의 경쟁력 강화로 아시아 산업구조가 빠르게 재편될 전망”이라며 “한국은 유망하고 경쟁력 있는 분야에 집중하는 전략으로 입지 축소에 대비해야 한다”고 강조했다.》 <br><br>▽‘세계의 공장’, 첨단 기술의 날개를 달다=“이대로 가다간 중국에 반도체까지 따라잡힌다.” 지난해 노무현 대통령의 중국 방문을 수행한 진대제 정보통신부 장관은 이같이 보고했다. <br><br>한국이 중국에 대해 기술 우위를 지키려면 뼈를 깎는 기술혁신 노력이 필요하다는 것이었다. 국가기술위원회는 얼마 전 청와대 보고를 통해 “한국과 중국의 기술격차 연한이 1.7년밖에 안 돼 5년 이내에 추월당할 수 있다”고 지적했다. <br><br>글로벌 기업들의 각축장인 중국에는 전 세계 기업의 첨단기술이 붐빈다. 베이징에는 세계 상위 100대 기업 가운데 49개사 이상이 연구개발(R&D) 센터를 두고 있다. 외국기업의 R&D센터를 찾아보기 어려운 한국의 현실과는 대조적이다. 유진석 수석연구원은 “러시아 미국에 이어 세계 3번째로 유인 우주선을 쏘아올린 중국의 탄탄한 기초과학은 첨단산업과 연계돼 강력한 힘을 발휘할 것”이라고 말했다. <br><br>각종 지표에서도 기술후진국의 흔적은 찾아보기 힘들다. 삼성경제연구소에 따르면 중국의 국내총생산(GDP)에서 정보기술(IT) 산업이 차지하는 비중은 1997년 2.3%에서 2002년 5.7%로 상승했다. IT 제품 수출은 지난해 처음으로 1000억달러를 돌파했다. 경제 성장의 축이 전통산업에서 첨단산업으로 급격히 이동하고 있는 것. <br><br>IT 산업의 생산 규모는 미국, 일본에 이어 벌써 세계 3위. 중국 내 100대 기업 중 4분의 3은 컴퓨터, 반도체, 통신 등 첨단 신기술 분야에 집중돼 있다. 2000년 이후 중국에 진출한 외국 자본은 40% 이상이 첨단 분야에 투자됐다.<br><br>해외 선진기술 습득을 통한 기술력 축적은 중국 경제의 새로운 성장 동력으로 주목받고 있다. 대외경제정책연구원(KIEP)의 지만수 박사는 “시장을 무기로 외국 기업의 경쟁을 유발해 선진기술을 습득하는 ‘기술 우물’ 정책은 급속한 기술생산성 향상으로 이어지고 있다”고 말했다. 풍부한 노동력과 투자 확대로 고도성장을 구가해온 중국 경제가 기술력의 날개까지 달았다는 설명이다. <br><br>▽중국 태생의 글로벌 기업이 몰려온다=지난해 11월 세계 TV 시장에는 ‘빅뱅’이 일어났다. 프랑스의 톰슨과 중국의 TV업체 TCL이 TV사업부를 합병해 연 매출 35억달러 규모의 공룡기업이 탄생한 것. 값싼 노동력과 광활한 시장을 배경으로 갖춘 TCL로서는 톰슨의 확고한 브랜드 인지도를 등에 업고 세계 시장을 공략한다는 전략. 중국 최대의 백색가전 업체 하이얼(海爾)은 2002년 10조원이 넘는 매출을 올렸으며 미국을 중심으로 13개 해외공장을 가동하고 있다. 산요와 제휴해 일본 시장에도 진출한 데 이어 한국 시장에도 상륙했다. 기술 장벽이 높기로 유명한 통신장비 분야에서 중국 업체인 화웨이(華爲)의 부상은 더욱 극적이다. 88년 창업 이후 교환기, 데이터 통신 분야에서 급성장을 거듭해 연매출 40억달러의 글로벌 업체로 성장했다. 퀄컴, 마이크로소프트, 지멘스, 마쓰시타 등 해외 글로벌 기업으로부터 습득한 첨단기술을 바탕으로 해외시장 공략에 나서 시스코, 알카텔 등의 최대 라이벌로 떠올랐다. 화웨이는 중국이 독자적으로 추진하는 3세대 이동통신 표준 기술 연구를 주도해 차세대 이동통신 시장을 독점할 태세다.<br><br>▽중국 기업들의 추격=휴대전화 자동차 조선 반도체 등 그동안 우위를 유지해 온 분야에서도 중국은 한국의 턱밑까지 쫓고 있다. 조용백 대신경제연구소 이사는 “중국에 가서 보니 반도체를 제외한 모든 산업이 5년내 추월당할지 모른다는 위기감이 들었다”고 밝혔다. 중국은 최근에는 기술을 지닌 한국 업체를 통째로 인수하는 전략으로 한국을 옥죄고 있다. 비오이그룹이 하이닉스의 LCD 사업부문인 하이디스를 인수한데 이어 란싱 그룹이 쌍용차 인수에 나서고 있는 것. 중국 기업들은 오리온전기 PDP부문에도 군침을 흘리고 있다. 휴대전화는 한국이 세계 최강의 경쟁력을 갖춘 분야지만 중국은 닝보버드, TCL 등을 앞세워 자국 시장 점유율을 60%대로 끌어올렸다. 자동차 분야에서도 조만간 중국산 자동차의 해외수출이 본격화될 것이란 전망이 잇따른다. 중국산 자동차가 한국에 등장할 시기도 얼마 남지 않은 셈이다. 중국은 이미 자동차 생산대수가 2002년에 325만대를 넘어 314만대의 한국을 제치고 세계 5위의 자동차 대국으로 성장했다. 롭 레가트 GM대우 부사장은 “2020년에는 중국의 자동차 생산대수가 1250만대에 이르러 세계 1위 자리를 놓고 미국과 겨룰 전망”이라고 밝혔다. <br><br>조선과 철강 분야도 비슷한 상황이다. 전국경제인연합회는 “중국의 철강분야 기술력이 한국의 94%까지 쫓아왔다”며 3년 내 추월 가능성을 경고했다. 반도체의 경우 중국에 비해 2∼3년 앞서있지만 선진기업의 생산시설과 R&D센터가 잇따라 중국에 진출해 한중간 격차는 갈수록 줄어들고 있다. <br><br>김태한기자 freewill@donga.com<br><br>이나연기자 larosa@donga.com<br><br>▼中진출 기업 생존 전략은 ▼<br><br>중국 기업들이 기술력까지 겸비하기 시작하자 그동안 저렴한 인건비와 큰 시장만 바라보고 중국에 진출해 온 한국 기업들이 품질 경쟁에 돌입하고 있다.<br><br>이미 국내외 시장에서 인정받은 고급 기술을 현지화하는 한편, 현지 법인을 만들어 ‘중국인에 의한 한국기업’으로 거듭나기 시작한 것. 세계 시장에서 중국이 차지하는 규모가 워낙 커서 중국 기업과 경쟁하기 위해서는 중국시장 장악이 필수적이기 때문이다.<br><br>현대자동차는 2002년 12월 중형차 쏘나타를 중국 현지에서 생산하기 시작한 데 이어 작년 12월에는 아반떼XD(현지 명 ‘엘란트라’)를 생산하기 시작했다. 쏘나타는 작년 1월 1135대, 11월에는 5033대가 팔리는 등 작년 11월 말까지 4만7320대가 팔리며 성공적인 현지 생산모델로 정착했으며 아반떼XD가 상승세를 이어갈 전망. 현대차는 2008년 베이징올림픽을 전후해 연간 60만대 생산체제를 갖추고 중국을 핵심 거점으로 삼을 계획이다. <br><br>오디오 통신기기 컬러TV 반도체 모니터 등 10개 제품을 현지 생산하는 삼성전자는 경영학석사(MBA) 출신 등 현지 우수인력을 채용하고 있다. 베이징(北京)에서는 통신연구소도 운영 중이다. 1998년 16억달러(약 1조9000억원)였던 매출액은 작년에 사스(SARS·중증급성호흡기증후군) 파동에도 불구하고 64억달러(약 7조7000억원)로 증가했다.<br><br>삼성전자측은 “브랜드 고급화 전략이 들어맞은 데다 99년 이후 휴대전화 컬러모니터 CDMA 통신사업 등 신규사업에 성공적으로 진출했기 때문”이라고 분석. 유통망을 늘리고 판매점을 고급화해 중국 시장 장악에 나선다는 전략이다.<br><br>포스코차이나 현지법인을 두고 있는 포스코는 ‘한국적 중국회사’를 만들고 있다. 일부 요직을 제외한 대부분의 보직을 중국인이 맡고 있으며 신입 사원은 2주간 합숙교육, 1주간 군부대 훈련 등을 통해 직장예절과 한국의 전통문화, 회사의 경영이념을 체득시킨다. 조만간 포스코차이나 현지 법인 사장도 중국인에게 맡길 방침. 포스코측은 “중국은 세계 최고 철강기업들이 경쟁을 벌이는 세계 최대 규모의 시장”이라며 “중국 기업이 되지 않고는 중국 내 경쟁에서 이길 수 없다”고 설명했다.<br><br>국내 2위 카메라폰 생산업체인 팬택&큐리텔은 중국 다롄(大連)시에 건평 1만3000평에 연간 300만대 생산 능력을 갖춘 현지 공장을 준공했다. 모바일서비스 업체 로커스 이모션즈는 작년 말 중국 현지법인 로커스커뮤니케이션서비스(LCS)를 만들어 중국 이동통신 사업자 차이나 유니콤의 무선인터넷 서비스 운영 사업을 시작했다.이 회사 박낙원(朴樂源) 사장은 “올해 중국 시장에서 100억원 매출 달성이 무난하다”며 “중국은 앞으로도 많은 기회를 제공하는 동시에 많은 경쟁자가 모이는 ‘위기와 기회의 땅’이 될 것”이라고 말했다.<br><br>나성엽기자 cpu@donga.com<br><br><br><br> <br>
+							</td>
+						</tr>
+						<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+						<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+						<tr><td colspan="2" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=38&sseq=&sword="><img src="/img/bbs/btn/btn_list.gif" width="70" height="18" alt="" border="0" hspace="8"></a></td></tr>
+						<tr>
+							<td colspan="2" height="60" style="padding:0 0 0 8">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="21" class="minilist">			
+
+									</td>
+								</tr>
+									<td height="21" class="minilist">
+
+									<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1295&num=286&page=38&sseq=&sword="><font class="minilist">[Cover Story] 송문섭 팬텍앤큐리텔 사장 </font></a>
+
+									</td>
+								</table>
+							</td>
+						</tr>
+						</table>
+						<!------- READ End ------------->
+
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+
+
+</body>
+</html>
+

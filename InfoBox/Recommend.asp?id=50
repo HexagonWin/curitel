@@ -1,0 +1,82 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>PANTECH&CURITEL</title>
+	<link href="/Common/css/basic.css" rel="stylesheet" type="text/css">
+	<script language="javascript" src="/Company/TotalCheck.js"></script>
+	<script language="JavaScript">
+	<!--
+		function beforeSubmit()
+		{
+			if( document.myform.title.value.length < 2 )
+			{
+				alert( "제목을 넣어주세요" );
+				document.myform.title.focus();
+				document.myform.title.select();
+			} else if( document.myform.contents.value.length < 1 )
+			{
+				alert( "내용을 적어주세요" );
+				document.myform.contents.focus();
+			} else if( !verifyEmail( document.myform.receiver.value ) || ( document.myform.receiver.value.length < 10 ) )
+			{
+				alert( "받는 사람의 E-Mail을 정확하게 적어주세요" );
+				document.myform.receiver.focus();
+				document.myform.receiver.select();
+			} else
+			{
+				document.sendform.title.value = document.myform.title.value
+				document.sendform.contents.value = document.myform.contents.value
+				document.sendform.receiver.value = document.myform.receiver.value
+				document.sendform.submit();
+			}
+		}
+	//-->
+	</script>
+</head>
+
+<body topmargin="0" leftmargin="0">
+<table width="504" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td colspan="2"><img src="images/recommend_01.gif" width="504" height="185"></td>
+	</tr>
+	<tr>
+		<td><img src="images/recommend_02.gif" width="157" height="257"></td>
+		<td background="images/recommend_03.gif" width="347" valign="top">
+			<form name="sendform" method="post" action="SendRecommendMail.asp">
+			<input type="hidden" name="title">
+			<input type="hidden" name="contents">
+			<input type="hidden" name="receiver">
+			<input type="hidden" name="id" value="50">
+			<input type="hidden" name="sender" value="">
+			<input type="hidden" name="curi_id" value="">
+			<input type="hidden" name="sender_name" value="">
+			</form>
+			<form name="myform" method="post" action="javascript:beforeSubmit();">
+			<table width="347" cellpadding="0" cellspacing="4" border="0">
+				<tr>
+					<td><input name="title" size="20"></td>
+				</tr>
+				<tr>
+					<td><textarea name="contents" cols="40" rows="7"></textarea></td>
+				</tr>
+				<tr>
+					<td><input name="receiver" size="20"></td>
+				</tr>
+				<tr align="right">
+					<td style="padding-right:50px; padding-top:15px">
+						<a href="javascript:beforeSubmit();"><img src="images/btn_recommend.gif" border="0"></a>&nbsp;
+						<a href="javascript:self.close();"><img src="images/btn_cancel.gif" border="0"></a>
+					</td>
+				</tr>
+			</table>
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2"><img src="images/recommend_04.gif" width="504" height="128"></td>
+	</tr>
+</table>
+</body>
+</html>

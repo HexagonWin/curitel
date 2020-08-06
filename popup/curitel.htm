@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>★☆::★☆::EVENT::★☆::★☆</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<META NAME="Author" CONTENT="duonet.com.">
+<META NAME="keyword" content="결혼,미팅,결혼정보,만남,사랑,연애,결혼정보 서비스">
+<META NAME="description" content="국내 최고의 결혼정보 서비스를 제공합니다.">
+<link rel="Stylesheet" type="text/css" media="all" href="http://duo.duonet.com/common/marriage.css">
+<link rel="stylesheet" href="http://duo.duonet.com/common/marriage.css" type="text/css">
+
+<script language="javascript">
+
+function setCookie( name, value, expiredays ) 
+{ 
+        var todayDate = new Date(); 
+        todayDate.setDate( todayDate.getDate() + expiredays ); 
+        document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+}
+
+function closeWin() 
+{ 
+        if(document.myform.notice.checked )
+        {
+        	setCookie( "duo", "duo" , 1); 
+        	self.close(); 
+	}
+	else
+	{
+		self.close();
+	}
+}
+
+function gotourl() {
+	parent.opener.location="/duo/duo.asp";
+	this.close();
+}
+
+function view_form(p_id,re_id){
+	opener.document.event.table.value = "Notice";
+	opener.document.event.mode.vlaue="view";
+	opener.document.event.id.value = p_id;
+	opener.document.event.reid.value = re_id;
+	opener.document.event.action = "/Footer/bbs_content.asp";		
+	opener.document.event.submit();		
+	self.close();
+}
+
+</SCRIPT>
+</head>
+
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" onLoad="">
+<table width="400" border="0" cellspacing="0" cellpadding="0">
+<form name=myform action='' method=post>
+<input type=hidden name=table>
+<input type=hidden name=mode>
+<input type=hidden name=id>
+<input type=hidden name=reid>
+<input type=hidden name=b_subnum>
+  <tr> 
+    <td bgcolor="F5F5F5" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="23%"><img src="img_01.jpg" width="207" height="110"></td>
+          <td width="50%"><img src="img_02.jpg" width="193" height="110"></td>
+        </tr>
+        <tr> 
+          <td width="23%"><img src="img_03.jpg" width="207" height="89"></td>
+          <td width="50%"><img src="img_04.jpg" width="193" height="89"></td>
+        </tr>
+        <tr> 
+          <td width="23%"><img src="img_05.jpg" width="207" height="85"></td>
+          <td width="50%"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td><img src="img_06.gif" width="83" height="85" onClick=view_form('1299','14') style="cursor:hand;"></td>
+                <td><img src="img_07.jpg" width="110" height="85"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td width="23%"><img src="img_08.gif" width="207" height="137"></td>
+          <td width="50%"><img src="img_09.jpg" width="193" height="136"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td bgcolor="#B1B1B1" height="25"> 
+      <table width="332" border="0" cellspacing="0" cellpadding="0" align="center" class="text2">
+        <tr> 
+            <td> 
+              <input type=CHECKBOX name="notice" value="1">
+              <img src="http://meeting.duonet.com/popup/20506_horse/img_4.gif" width="215" height="23" align="absmiddle"><a href="javascript:closeWin();"><img src="http://meeting.duonet.com/popup/chat/close.gif" width="43" height="15" border="0" align="absmiddle" style="cursor:hand;"></a></td>
+          </form>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

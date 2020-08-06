@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>aladdin</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<link href="css/aladdin.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+//-->
+</script>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function mailsend()
+{
+
+    if(document.mail_form.title.value == "" )
+     {                    
+         alert('제목이 입력되지 않았습니다');	
+         document.mail_form.title.focus();
+         return false;
+     }                
+
+    if(document.mail_form.content.value == "" )
+     {                    
+         alert('내용이 입력되지 않았습니다');	
+         document.mail_form.content.focus();
+         return false;
+     }                
+
+     if(document.mail_form.name.value == "" )
+     {                    
+         alert('이름이 입력되지 않았습니다');	
+         document.mail_form.name.focus();
+         return false;
+     }
+	 
+     if(document.mail_form.hp1.value == "" )
+     {                    
+         alert('전화번호가 입력되지 않았습니다');	
+         document.mail_form.hp1.focus();
+         return false;
+     }
+	 if (isNaN(document.mail_form.hp1.value))
+	 {
+    	 alert('숫자만 입력하여 주시기 바랍니다.')
+		 document.mail_form.hp1.focus()
+		 return false;
+	 }
+
+
+     if(document.mail_form.hp2.value == "" )
+     {                    
+         alert('전화번호가 입력되지 않았습니다');	
+         document.mail_form.hp2.focus();
+         return false;
+     }                
+	if (isNaN(document.mail_form.hp2.value))
+	{
+		alert('숫자만 입력하여 주시기 바랍니다.')
+		document.mail_form.hp2.focus()
+		return false;
+	} 
+
+     if(document.mail_form.hp3.value == "" )
+     {                    
+         alert('전화번호가 입력되지 않았습니다');	
+         document.mail_form.hp3.focus();
+         return false;
+     }  
+	if (isNaN(document.mail_form.hp3.value))
+	{
+		alert('숫자만 입력하여 주시기 바랍니다.')
+		document.mail_form.hp3.focus()
+	    return false;
+	}
+
+     if(document.mail_form.email.value == "" )
+     {                    
+         alert('이메일이 입력되지 않았습니다');	
+         document.mail_form.email.focus();
+         return false;
+     }                
+	if(/^[_0-9a-zA-Z-]+(\.[_0-9a-zA-Z-]+)*@[_0-9a-zA-Z-]+(\.[_0-9a-zA-Z-]+)+$/.test(document.mail_form.email.value) == false)
+	{
+		alert('이메일이 정확하지 않습니다.');
+		document.mail_form.email.focus();
+		return false;
+	} 
+}
+
+function reset()
+{
+         document.mail_form.reset();
+}	
+//-->
+</SCRIPT>
+</head>
+
+<body leftmargin="0" topmargin="0">
+<div id="Layer1" style="position:absolute; left:1px; top:331px; width:760px; height:190; z-index:1; overflow: visible; visibility: visible;"> 
+<table width="100" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td valign="top"> 
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="760" height="188">
+                <param name="movie" value="images/navi_sub_04.swf">
+                <param name="quality" value="high">
+                <param name="wmode" value="transparent">
+                <embed src="images/navi_sub_04.swf" width="760" height="188" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</div>
+<div id="Layer2" style="position:absolute; left:41px; top:169px; width:496px; height:216px; z-index:2; visibility: visible;"> 
+<form name="mail_form" method=post action="mail_send_ok.asp"  onsubmit="return mailsend();">
+  <table width="515" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="86"><img src="images/blank.gif" width="1" height="1"></td>
+      <td colspan="3"><img src="images/blank.gif" width="1" height="1"></td>
+    </tr>
+    <tr> 
+      <td><img src="images/blank.gif" width="1" height="2"></td>
+      <td colspan="3"><img src="images/blank.gif" width="1" height="2"></td>
+    </tr>
+    <tr> 
+      <td height="27" align="center">&nbsp;</td>
+      <td colspan="3" class="padL10">
+      <!--------------------제목 입력 ---------------->
+	  <input name="title" class="INPUT" type="text" size="40">
+      </td>
+    </tr>
+    <tr> 
+      <td><img src="images/blank.gif" width="1" height="1"></td>
+      <td colspan="3"><img src="images/blank.gif" width="1" height="1"></td>
+    </tr>
+    <tr> 
+      <td><img src="images/blank.gif" width="1" height="2"></td>
+      <td colspan="3"><img src="images/blank.gif" width="1" height="2"></td>
+    </tr>
+    <tr> 
+      <td align="center" valign="top"><br>
+      </td>
+      <td colspan="3">
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+          <tr> 
+            <td height="122"> 
+              <!--------------------내용 입력 ---------------->
+              <textarea name="content" cols="53" rows="6"></textarea>
+            </td>
+          </tr>
+        </table></td>
+    </tr>
+    <tr> 
+      <td><img src="images/blank.gif" width="1" height="1"></td>
+      <td colspan="3"><img src="images/blank.gif" width="1" height="1"></td>
+    </tr>
+    <tr> 
+      <td><img src="images/blank.gif" width="1" height="2"></td>
+      <td colspan="3"><img src="images/blank.gif" width="1" height="2"></td>
+    </tr>
+    <tr> 
+      <td height="27" align="center">&nbsp;</td>
+      <td width="135" class="padL10"> 
+        <!--------------------이름 입력 ---------------->
+        <input name="name" class="INPUT" type="text" size="15">
+      </td>
+      <td width="75" align="center">&nbsp;</td>
+      <td width="216"> 
+        <!--------------------핸드폰 번호 입력 ---------------->
+        <input name="hp1" class="INPUT" type="text" maxlength=4 size="7">
+        - 
+        <input name="hp2" class="INPUT" type="text" maxlength=4 size="7">
+        - 
+        <input name="hp3" class="INPUT" type="text" maxlength=4 size="7">
+      </td>
+    </tr>
+    <tr> 
+      <td><img src="images/blank.gif" width="1" height="1"></td>
+      <td colspan="3"><img src="images/blank.gif" width="1" height="1"></td>
+    </tr>
+    <tr> 
+      <td><img src="images/blank.gif" width="1" height="2"></td>
+      <td colspan="3"><img src="images/blank.gif" width="1" height="2"></td>
+    </tr>
+    <tr> 
+      <td height="27" align="center">&nbsp;</td>
+      <td colspan="3" class="padL10"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="55%"> 
+              <!--------------------이메일 입력 ---------------->
+              <input name="email" class="INPUT" type="text" size="35">
+            </td>
+            <td><table width="87%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="51%" align="right"><input type=image src="images/consult_button_01_b.gif" width="64" height="20" border="0"></td>
+                  <td width="49%" class="padL10"><a href="javascript:reset()"><img src="images/consult_button_02_b.gif" width="64" height="20" border="0"></a></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table></td>
+    </tr>
+    <tr> 
+      <td><img src="images/blank.gif" width="1" height="1"></td>
+      <td colspan="3"><img src="images/blank.gif" width="1" height="1"></td>
+    </tr>
+  </table>
+  </form>
+</div>
+<table width="760" border="0" cellspacing="0" cellpadding="0" style="border:#000000; border-style:solid; border-width:1px">
+  <tr>
+    <td><img src="/aladdin/images/top.gif" width="760" height="53" border="0" usemap="#Map"></td>
+  </tr>
+  <tr>
+    <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="760" height="61">
+        <param name="movie" value="images/sub04_help_navi_03.swf">
+        <param name="quality" value="high">
+        <embed src="images/sub04_help_navi_03.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="760" height="61"></embed></object></td>
+  </tr>
+  <tr>
+    <td height="323" valign="top"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="29">&nbsp;</td>
+          <td valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td height="11">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td><img src="images/sub_tit_consult.gif" width="367" height="26"></td>
+              </tr>
+              <tr> 
+                <td height="8"><img src="images/blank.gif" width="1" height="8"></td>
+              </tr>
+              <tr> 
+                <td valign="top" class="padL10"> 
+                  <table width="500" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="86" bgcolor="#716EA9"><img src="images/blank.gif" width="1" height="1"></td>
+                      <td colspan="3" bgcolor="#BEBCE6"><img src="images/blank.gif" width="1" height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td><img src="images/blank.gif" width="1" height="2"></td>
+                      <td colspan="3"><img src="images/blank.gif" width="1" height="2"></td>
+                    </tr>
+                    <tr> 
+                      <td height="27" align="center" bgcolor="#F5F5F5"><img src="images/consult_table_txt01.gif" width="22" height="13"></td>
+                      <td colspan="3" bgcolor="#FBFBFB" class="padL10">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td bgcolor="#EFEFEF"><img src="images/blank.gif" width="1" height="1"></td>
+                      <td colspan="3" bgcolor="#EDEDED"><img src="images/blank.gif" width="1" height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td><img src="images/blank.gif" width="1" height="2"></td>
+                      <td colspan="3"><img src="images/blank.gif" width="1" height="2"></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" valign="top" bgcolor="#EEEEEE"><br> <img src="images/consult_table_txt02.gif" width="21" height="13"></td>
+                      <td colspan="3" bgcolor="#FBFBFB"><table width="100%" border="0" cellspacing="0" cellpadding="10">
+                          <tr> 
+                            <td height="122">&nbsp;</td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr> 
+                      <td bgcolor="#EFEFEF"><img src="images/blank.gif" width="1" height="1"></td>
+                      <td colspan="3" bgcolor="#EDEDED"><img src="images/blank.gif" width="1" height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td><img src="images/blank.gif" width="1" height="2"></td>
+                      <td colspan="3"><img src="images/blank.gif" width="1" height="2"></td>
+                    </tr>
+                    <tr> 
+                      <td height="27" align="center" bgcolor="#F5F5F5"><img src="images/consult_table_txt03.gif" width="21" height="13"></td>
+                      <td width="130" bgcolor="#FBFBFB" class="padL10">&nbsp; </td>
+                      <td width="82" align="center" bgcolor="#F5F5F5"><img src="images/consult_table_txt04.gif" width="57" height="13"></td>
+                      <td width="221" bgcolor="#FBFBFB" class="padL10">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td bgcolor="#EFEFEF"><img src="images/blank.gif" width="1" height="1"></td>
+                      <td colspan="3" bgcolor="#EDEDED"><img src="images/blank.gif" width="1" height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td><img src="images/blank.gif" width="1" height="2"></td>
+                      <td colspan="3"><img src="images/blank.gif" width="1" height="2"></td>
+                    </tr>
+                    <tr> 
+                      <td height="27" align="center" bgcolor="#EEEEEE"><img src="images/consult_table_txt05.gif" width="37" height="11"></td>
+                      <td colspan="3" bgcolor="#FBFBFB" class="padL10">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td bgcolor="#EFEFEF"><img src="images/blank.gif" width="1" height="1"></td>
+                      <td colspan="3" bgcolor="#EDEDED"><img src="images/blank.gif" width="1" height="1"></td>
+                    </tr>
+					<tr> 
+                      <td width="86" bgcolor="#716EA9"><img src="images/blank.gif" width="1" height="1"></td>
+                      <td colspan="3" bgcolor="#BEBCE6"><img src="images/blank.gif" width="1" height="1"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr> 
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+          <td width="224" align="right" valign="bottom"><img src="images/consult_r_img.jpg" width="224" height="323"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="83" bgcolor="#042159">&nbsp;</td>
+  </tr>
+</table>
+<map name="Map">
+  <area shape="rect" coords="20,9,94,47" href="/index.html">
+  <area shape="rect" coords="561,14,674,42" href="http://www.lgtelecom.com/main.html" target="_blank">
+  <area shape="rect" coords="684,12,745,45" href="http://www.curitel.com/" target="_blank">
+</map>
+</body>
+</html>

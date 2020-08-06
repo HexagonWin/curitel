@@ -1,0 +1,463 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/product.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<script language="javascript" src="/inc/js/product/DropDown.js"></script>
+<script language="javascript" src="/inc/js/product/OpMenu02.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><script language="JavaScript">flash('/inc/flash/sub_menu.swf?lnum=0','936','137');</script>
+		<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object> --></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="66" valign="top" style="background:url(/img/product/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/product/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/product/lineup/feature.asp?service=&page=&serial_no=112">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/product/lineup/feature.asp?service=&page=&serial_no=112">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/product/titleleftbg.gif">
+					
+					<script language="JavaScript">flash('/inc/flash/rollbar_1.swf?uid=0','77','65','1');</script>
+					<!-- <embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65> -->
+					</td>
+					<td width="164" align="right"><a href="/html/product/index.asp" onfocus="this.blur()"><img src="/img/product/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+    <table cellpadding="0" cellspacing="0" border="0" align="right">
+        <tr>
+            <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+                > <a href="/html/product/index.asp">Product</a> > <a href="/html/product/lineup/index.asp">제품소개</a> > <a href="/html/product/lineup/LGT.asp">LGT</a> > PT-L2200 > 제품특징</td>
+        </tr>
+    </table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td valign="top" align="right">
+		<script>
+	function goWish(pro){
+		df = document.procForm;
+		
+				confirmLogin();			
+		
+	}
+	function goList(service,page){
+		var nUrl;
+		if(service=="SKT")
+			nUrl = 'skt.asp';
+		if(service=="KTF")
+				nUrl = 'ktf.asp';
+		if(service=="LGT")
+				nUrl = 'lgt.asp';
+		if(service=="")
+				nUrl = 'index.asp';
+		nUrl = nUrl + '?page='+page;
+		location.href=nUrl;
+	}
+</script>
+<!-- LeftMenu -->
+<table width="232" height="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr> 
+        <td valign="top" style="padding:50 0 0 0"><!--좌측 상단 이미지 : --><img src="http://file.curitel.com/upload/product/page/leftimg_type1.gif" width="77" height="279" alt="" border="0"></td>
+		<td valign="top" align="right"> 
+			<table width="155" cellspacing="0" cellpadding="0" border="0">
+<tr>
+	<td align="right"><a href="javascript:choiceMenu(1,'');" onFocus="this.blur()"><img src="/img/product/lineup/addmenu.gif" width="148" height="17" alt="" border="0"></a></td>
+</tr>
+<tr id="subMenuBlock1" style="display:none;margin:0px;border:0px;">
+	<td height="150" style="background:url(/img/common/topmenubg02.gif) repeat-y right top">
+							<table width="148" cellspacing="0" cellpadding="0" border="0" align="right">
+						<tr>							
+					       <td align="center">
+							<script language="JavaScript">flash('/inc/flash/left/left_product.swf?html_Num=00','100','350');</script>
+							<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="350">
+					               <param name="movie" value="/inc/flash/left/left_product.swf?html_Num=00">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_product.swf?html_Num=00" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="350"></embed></object> --></td>
+						</tr>
+						</table></td>
+</tr>
+<tr><td height="4" align="right"><img src="/img/product/lineup/addmu02.gif" width="148" height="4" alt="" border="0"></td></tr>
+</table>
+<table width="155" cellpadding="0" cellspacing="0">
+	<tr>
+		<td style="padding:29 0 0 0"><!-- 제품이름 ---><img src="http://file.curitel.com/upload/product/page/PT-L2200.gif" width="155" height="37" alt="" border="0"></td></tr>
+	<tr>
+		<td style="padding:0 0 0 18"><img src="/img/product/lineup/titlebar.gif" width="127" height="5" alt="" border="0"></td>
+	</tr>
+	<tr>
+		<td style="padding:0 0 0 23">
+			<table width="116" cellpadding="0" cellspacing="0">
+				<tr><td height="16"></td></tr>
+
+				<tr id="tr_menu_1">
+					<td><a href="/html/product/lineup/product.asp?serial_no=112" onMouseOver="changemu('1','on');" onmouseout="changemu('1','off');"><img src="/img/product/lineup/left01.gif" width="116" height="28" alt="" border="0" name="left1"></a></td>
+				</tr>
+				<tr id="tr_line_1"><td height="1" bgcolor="#DBDCDD"></td></tr>
+
+				<tr>
+					<td><a href="/html/product/lineup/feature.asp?serial_no=112" onMouseOver="changemu('2','on');" onmouseout="changemu('2','off');"><img src="/img/product/lineup/left02.gif" width="116" height="28" alt="" border="0" name="left2"></a></td>
+				</tr>
+				<tr><td height="1" bgcolor="#DBDCDD"></td></tr>
+				<tr>
+					<td><a href="/html/product/lineup/function.asp?serial_no=112" onMouseOver="changemu('3','on');" onmouseout="changemu('3','off');"><img src="/img/product/lineup/left03.gif" width="116" height="28" alt="" border="0" name="left3"></a></td>
+				</tr>
+				<tr><td height="1" bgcolor="#DBDCDD"></td></tr>
+				<tr>
+					<td><a href="/html/product/lineup/package.asp?serial_no=112" onMouseOver="changemu('4','on');" onmouseout="changemu('4','off');"><img src="/img/product/lineup/left04.gif" width="116" height="28" alt="" border="0" name="left4"></a></td>
+				</tr>
+				<tr><td height="1" bgcolor="#DBDCDD"></td></tr>
+				<tr>
+					<td><a href="/html/product/lineup/accessory.asp?serial_no=112" onMouseOver="changemu('5','on');" onmouseout="changemu('5','off');"><img src="/img/product/lineup/left05.gif" width="116" height="28" alt="" border="0" name="left5"></a></td>
+				</tr>
+				<tr><td height="48"></td></tr>
+			</table>
+		
+		</td>
+	</tr>
+	<tr><td height="89"></td></tr>
+	
+	<tr><td height="50" style="padding:0 0 0 14">
+	<script>
+	function downCatalog(){
+		form = document.catalogForm;
+		catalogFile  = form.catalogue.options[form.catalogue.selectedIndex].value;
+		download("product/down/catalog/"+catalogFile);
+	}
+</script>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<!--<tr>
+		<td height="20" valign="top"><img src="/img/common/tit_catalogue.gif" width="116" height="7" alt="" border="0"></td>
+	</tr>-->
+	<tr><td height="27" style="background:url(/img/common/bg_catalogue.gif) no-repeat left top;padding:4 0 0 25;border-bottom:1px solid #ffffff">
+	<form name="catalogForm">
+	<select name=catalogue width="93" onChange="downCatalog()" bgcolor="#FFFFFF"  bordercolor="#ffffff">
+		<option value="">카탈로그선택</option>
+		<option value="05겨울종카.pdf">2005 겨울호</option>
+		<option value="2005가을.pdf">2005 가을호</option>
+		<option value="2005여름.pdf">2005 여름호</option>
+		<option value="2005봄.pdf">2005 봄호</option>
+		<option value="겨울종합카다로그.zip">2004 겨울호</option>
+		<option value="2004가을종합카다로그.zip">2004 가을호</option>
+		<option value="6월호 종합카달로그[1].pdf.zip">2004 여름호</option>
+	</select>
+	</form><script>setSelectBox("catalogue")</script>
+	</td></tr>
+	<tr><td height="13"></td></tr>
+</table><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+	</td></tr>
+</table>
+<script>
+	function popBrochure(popupurl){
+		window.open(popupurl, 'Brochure', 'width=, height=, scrollbars=no, status=no, resizable=no');
+	}
+</script>
+        </td>
+    </tr>
+</table></td>
+<td width="597" valign="top">
+<form name="procForm">
+	<input type="hidden" name="serial_no" value="112">
+</form>
+<table width="597" cellpadding="0" cellspacing="0" border="0">
+    <tr> 
+        <td valign="top" class="pdtctsmgn"> 
+            <!-- #####Contents##### -->
+            <table width="590" cellpadding="0" cellspacing="0" border="0">
+                <tr><td><!--product_flash--><script language="JavaScript">flash('/inc/flash/product/mainflash/PT-L2200.swf','596','284');</script><!--//product_flash-->
+				<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="596" height="284">
+                        <param name="movie" value="/inc/flash/product/mainflash/PT-L2200.swf">
+                        <param name="quality" value="high">
+                        <embed src="/inc/flash/product/mainflash/mainflash/PT-L2200.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="596" height="284"></embed></object> --></td></tr>
+                <tr> 
+					<td>
+						<table width="100%" height="36" style="padding:0 5 0 0">
+							<tr>
+								<td align="left"><a href="javascript:goList('','');"><img src="/img/product/lineup/list.gif" border="0"></a></td>
+								<td align="right">
+									<a href="/html/product/compare/index.asp?serial_no=112"><img src="/img/btn/btn_pdtcompare.gif"  height="19" alt="" border="0"></a>
+									<a href="javascript:goWish('R')"><img src="/img/btn/btn_pdtrecommd.gif" height="19" alt="" border="0" hspace="2"></a>
+									<a href="javascript:goWish('W')"><img src="/img/btn/btn_pdtpick.gif" height="19" alt="" border="0"></a>
+									<iframe name="procFrame" src="#" width="0" height="0"></iframe>
+								</td>
+							</tr>
+						</table>
+					</td>
+                </tr>
+                <tr>
+                    <td height="24"></td>
+                </tr>
+                <tr> 
+                    <td valign="top">
+								<table width="590" cellpadding="0" cellspacing="0">
+                                        <tr valign="top">
+                                            <td width="448" height="200"><table width="425" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td headers="1" class="pdtline"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><img src="/img/product/lineup/tit_feature.gif" width="435" height="50"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="1" class="pdtline"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+														<TABLE cellSpacing=0 cellPadding=0 width=425 border=0>
+<TBODY>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="http://file.curitel.com/img/product/lineup/PT-L2200/m1.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">고급스러우면서도 편안한 디자인~ -</SPAN> <SPAN class=em>Slim intenna Slide Design&nbsp; </SPAN><BR></STRONG>큐리텔 PT-L2200은 한손으로 쉽게 열고 닫을 수 있는 반자동 인테나 슬라이드 폰입니다. 또한 compact한 디자인을 통해 고급스러움을 주며 인체공학적 설계로 그립감에서의 편안함을 자랑합니다. 이제 큐리텔 PT-L2200과 함께 여러분의 디지털 라이프를 완성하세요!! 고급스러운 아름다움과 편안함이 여러분의 스타일도 완성합니다.</TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="http://file.curitel.com/img/product/lineup/PT-L2200/m2.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">한 손으로 편리하게~ -</SPAN>&nbsp;<SPAN class=em>Wheel Navigation Key&nbsp;&nbsp;</SPAN><BR></STRONG>더 이상 버튼을 여러 번 누르지 않아도 된다~~!!! PT-L2200은 Wheel Navigation key를 적용하여 메뉴이동, MP3볼륨 조절, 카메라 줌 조절 기능 등을 보다 빠르게 보다 편리하게 사용할 수 있습니다. </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="http://file.curitel.com/img/product/lineup/PT-L2200/m3.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px">
+<P><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">더욱 편리해진 추억 저장소~!! -</SPAN>&nbsp;<SPAN class=em>130만 화소 / 카메라 덮개 채용 / 사진화질보정효과&nbsp;</SPAN><BR></STRONG>큐리텔 PT-L2200은 130만 화소 카메라를 지원하고 있습니다. 또한 카메라 덮개를 채용하여 위로 살짝만 올리면 바로 촬영이 가능하며 덮개만 닫으면 촬영모드를 종료할 수 있습니다. PT-L2200은 카메라 덮개를 채용하여 촬영의 편리성을 더할 뿐만 아니라 평상시 카메라 렌즈를 보호하며 디자인상의 깔끔함까지~~~ 일석삼조~~!!!<BR>PT-L2200은 여러 가지 해상도, W/B(자동/형광등/백열등/태양광), 특수효과(흑백/네가티브/세피아) 뿐만 아니라 타이머, 연속촬영, 다양한 촬영모드(일반/스티커/매트릭스/배경주소록/동영상) 등을 사용자가 설정할 수 있도록 지원합니다. 또한 사용자가 앨범에 저장되어 있는 사진 화질을 보정하여 아름다운 사진으로 바꿀 수 있습니다. 포토그래퍼 PT-L2200이 여러분의 추억저장에 함께 합니다~!!</P></TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="http://file.curitel.com/img/product/lineup/PT-L2200/m4.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">블루투스 기능 구현 -</SPAN> <SPAN class=em>무선 Printing / 기분Zone </SPAN><BR></STRONG>큐리텔 PT-L2200은 블루투스를 지원합니다. 100m 밖에서도 무선 PictBridge로 사진을 출력하고 데이터 전송에 통화까지~!!! 이젠 큐리텔 PT-L2200을 통해 선에 얽매이지 않고 자유롭게 즐기세요. <BR>또한 PT-L2200은 블루투스 기능을 활용한 새로운 통화 서비스인 기분Zone 서비스를 지원합니다. 기분Zone ‘알리미’ 지역에서는 PT-L2200의 블루투스를 이용하여 저렴한 요금으로 통화할 수 있습니다. 기분Zone 통화는 역시 큐리텔입니다~!!<BR>(* 단, 블루투스 이용가능거리는 사용환경에 따라 달라질 수 있습니다)</TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="http://file.curitel.com/img/product/lineup/PT-L2200/m5.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">한번에 할 수 있다~!! -</SPAN> <SPAN class=em>Multi Tasking 기능 지원&nbsp; </SPAN><BR></STRONG>큐리텔 PT-L2200은 멀티태스킹 기능을 지원하고 있습니다. 한번에 하나만 해서 재미없었던 시대는 이제 갔다~!! 이제는 MP3를 주욱~ 끝까지 듣자~!! 큐리텔 PT-L2200은 멀티태스킹 기능으로 MP3를 들으면서 문자 메시지의 수신, 발신의 기능을 사용할 수 있습니다. 큐리텔 PT-L2200이 여러분의 즐거움을 더해드립니다~~!!&nbsp; <BR>(※ 단, 본 Multi-tasking은 MP3 기능 구현 도중 SMS 기능에 대해서만 구현 됩니다.) </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="http://file.curitel.com/img/product/lineup/PT-L2200/m6.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">리듬과 멜로디 속 즐거움~!! -</SPAN>&nbsp;<SPAN class=em>MP3 Player 지원&nbsp;</SPAN><BR></STRONG>너무나 심심해서 견딜 수 없을 때~?? 음악을 들으면서 심심함을 날려보세요~!! 큐리텔 PT-L2200은 MP3 플레이어 기능을 지원하여 나만이 원하는 음악을 휴대폰에 저장하여 즐길 수 있습니다. PT-L2200의 MP3 Player 기능은 다양한 스킨을 선택하여 여러가지 재생모드 (반복재생/1회랜덤재생/1회재생/반복랜덤재생)로 음악을 이용할 수 있도록 지원합니다. PT-L2200과 함께 내가 좋아하는 음악이 생생하게 살아난다~!! 이제는 갖출 것을 갖춘 큐리텔 PT-L2200과 함께 여러분만의 음악을 즐겨보세요~!!</TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="http://file.curitel.com/img/product/lineup/PT-L2200/m7.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">이제는 나도 단어 척척박사~ -</SPAN> <SPAN class=em>영한 사전, 한자 사전 기능&nbsp;</SPAN><BR></STRONG>큐리텔 PT-L2200 은 영한, 한자 사전 기능을 지원합니다. 많이 본 듯 하나 정확한 뜻이 잘 안 떠올라 곤란할 때, 혹은 이 단어를 꼭 써야 하는데 잘 기억이 나지 않을 때~!! 큐리텔 PT-L2200으로 이제는 이러한 불편함을 덜어보세요~!! 전자 사전을 가지고 나오지 않았을 때, 편리하게 간단하게 단어를 찾아볼 수 있도록 도와드립니다. PT-L2200 이 전자 사전 내장으로 여러분을 걸어다니는 사전으로 만들어 드립니다~!! 든든한 척척박사 큐리텔 PT-L2200 과 함께 하세요~!!</TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="http://file.curitel.com/img/product/lineup/PT-L2200/m8.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">내 손안의 지하철 -</SPAN> <SPAN class=em>지하철 노선도 지원</SPAN><BR></STRONG>지하철 역 내에서 두리번 두리번?? 아니면 실례지만 여기가 어디죠?? 라고 말씀하셨었다구요??이제는 그만~!! 큐리텔 PT-L2200 은 수도권, 대구, 부산, 광주, 대전 5대 도시의 지하철 노선도 기능을 지원하여 첫차, 막차 정보, 목적지까지 정차역 수, 소요 시간, 출구 정보, 등을 제공합니다. 출발역과 도착역을 입력하면 최소 환승, 최단 시간, 두 가지 방법으로 복잡했던 머릿속 노선이 눈 앞에 간단하고 쉽게 계산할 것도 없이 샤르륵~ 나타납니다. 편리한 지하철 노선 기능을 가진 큐리텔 PT-L2200~!! 여러분만의 짧은 도심 여행을 똑똑한 안내자 큐리텔 PT-L2200 과 함께 떠나보세요~</TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="http://file.curitel.com/img/product/lineup/PT-L2200/m9.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">내 손안의 은행 -</SPAN> <SPAN class=em>Bank On 기능 지원 </SPAN><BR></STRONG>은행 마감시간을 놓쳐 당황했던 적이 많다구요?? 혹은 결제일 때문에 은행에 달려간 적이 많다구요?? 이제는 내 손안에 은행이 펼쳐지니 그럴 걱정이 없다~!! 큐리텔 PT-L2200은 Bank On 기능을 지원합니다. 휴대폰 안으로 들어온 모바일 은행~!!! 언제 어디서나 은행까지 가야 할 수고를 덜어드립니다. 각종 은행 관련 일들이 휴대폰 속에서 척척~!! 큐리텔 PT-L2200이 함께 합니다~!!</TD></TR></TBODY></TABLE>
+														</td>
+                                                    </tr>
+                                                </table></td>
+                                            <td class="dotline02"><img src="/img/b.gif" width="1" height="1"></td>
+                                            <td width="141" align="right">
+											<table width="126" border="0" cellspacing="0" cellpadding="0">
+<tr><td height='36' valign='top'><a href="javascript:download('product/down/high_quality/high_pt-l2200.zip');"><img src='/img/product/btn_high.gif' width='128' height='30'></a></td></tr><tr><td height='36' valign='top'><a href="javascript:download('product/down/pc_sync/PCSync(LGT_SE)_Setup_v3.16.zip');"><img src='/img/product/btn_pcsync.gif' width='128' height='30'></a></td></tr><tr><td height='36' valign='top'><a href="javascript:download('product/down/manual/PT-L2200_LGT_M_200_060424.zip');"><img src='/img/product/btn_pdf.gif' width='128' height='30'></a></td></tr>
+    <tr>
+        <td height="64" bgcolor="#F3F3F3" style="padding:0 0 0 4;line-height:13pt">
+			&#8226; <a href='/html/product/lineup/review.asp?serial_no=112'><u>사용자 리뷰</u></a><br>&#8226; <a href='/html/product/lineup/electronic.asp?serial_no=112'><u>전자파 흡수율</u></a></td>
+    </tr>
+	<!-- 제품 FAQ -->
+	
+	<!-- 제품 FAQ -->
+    <tr>
+        <td height="59" valign="top"><a href="/html/community/photolife/studio/index.asp"><img src="/img/product/lineup/bnr01.gif" width="131" height="46"></a></td>
+    </tr>
+    <tr>
+        <td><a href="/html/community/movielife/studio/preview.asp"><img src="/img/product/lineup/bnr02.gif" width="131" height="46"></a></td>
+    </tr>
+</table>
+											</td>
+                                        </tr>
+                                    </table></td>
+                            </tr>
+							<tr><td height=40 valign=bottom style="color:FA6C04">※ 제품의 외관, 사양등은 제품개량을 위해 사전 예고없이 변경될 수 있습니다.</td></tr>
+							<table width="425">
+							<tr>
+								<td align=right><a href="javascript:goList('','');"><img src="/img/btn/list.gif" border="0"></a></td>
+							</tr>
+						</table>
+                        </table>
+                        <!-- #####//Contents##### -->
+                    </td>
+                </tr>
+            </table></td>
+    </tr>
+</table>
+
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<script language="JavaScript">flash('/inc/flash/search/search.swf?file_url=http://file.curitel.com','91','340');</script>
+<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object> -->
+
+<!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>-->
+</div>
+</body>
+</html>
+

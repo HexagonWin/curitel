@@ -1,0 +1,279 @@
+
+<html>
+<head>
+	<title>큐리텔제목</title>
+	<link href="/Common/css/basic.css" rel="stylesheet" type="text/css">
+	<script language=javascript>
+	function view_form(p_id,re_id){
+		document.myform.table.value = "Notice";
+		document.myform.mode.vlaue="view";
+		document.myform.id.value = p_id;
+		document.myform.reid.value = re_id;
+		document.myform.action = "bbs_content.asp";
+		document.myform.submit();
+	}
+	function update_form(obj,a){
+		document.myform.table.value = "Notice";		
+		document.myform.mode.value=obj;
+		document.myform.id.value = a;
+		if (obj == "delete") {
+			ck_confirm = confirm("삭제 하시겠습니까?");
+			if (ck_confirm == true) {
+				document.myform.action = "bbs_delete_save.asp";
+				document.myform.submit();
+			}else {
+				return;
+			}
+		}else {		
+			document.myform.action = "bbs_update.asp";
+			document.myform.submit();
+		}
+	}
+	function write_form(a,b){
+		if (a=="") {
+			document.myform.table.value = "Notice";
+			document.myform.mode.value="write";			
+			document.myform.action = "bbs_write.asp";
+			document.myform.submit();
+		}else{
+			document.myform.table.value = "Notice";
+			document.myform.mode.value="rewrite";
+			document.myform.id.value = a;
+			document.myform.b_subnum.value=b;
+			document.myform.action = "bbs_write.asp";
+			document.myform.submit();
+		}
+	}
+	function list_form(){
+		document.myform.table.value = "Notice";
+		document.myform.mode.value="list";
+		document.myform.action = "bbs_list.asp";
+		document.myform.submit();
+	}
+	function download(obj){		
+		document.myform.table.value = "Notice";
+		document.myform.mode.value = "download";
+		document.myform.id.value=obj;	
+		document.myform.action = "download.asp";					
+		document.myform.submit();
+	}
+	</script>
+</head>
+
+<body topmargin="4" leftmargin="0" bgcolor="#BDE2E2">
+<div class="main">
+<table width="782" cellpadding="0" cellspacing="0" border="0">
+	<tr><td colspan="3"><EMBED src="images/curitel_footer.swf" quality=high salign=T  WIDTH="782" HEIGHT="222" NAME="Untitled-2" ALIGN="top"
+	TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" bgcolor=#FFFFFF></EMBED></td>
+
+	</tr>
+	<tr>
+		<td colspan="3" align="center" bgcolor="White">
+			<table cellpadding="0" cellspacing="0" border="0" width="768">
+				<tr bgcolor="White">
+					<td><img src="/Common/images/spacer.gif" width="195" height="1"></td>
+					<td height="1" colspan="3"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+				<tr>
+					<!-- 로그인 include -->
+	<td bgcolor="#3C3C3C" width="195" class="login" height="26"><a href="/Footer/login.asp"><span class="cell"><font color="#ffffff">로그인</font></span></a></td>
+
+					<!-- 히스토리바 include -->	 
+<td bgcolor="#555555" width="560" class="history">
+<A href="/"><font color="#FFFFFF">Home</font></A> 
+
+> <font color="#FFFFFF">공지,이벤트</font>
+
+</td>
+
+					<td bgcolor="#555555" width="11" align="right" valign="bottom"><img src="/Common/images/corner_right_bottom.gif"></td>
+					<td bgcolor="#7D7D7D" width="2"></td>
+				</tr>
+				<tr bgcolor="#7D7D7D">
+					<td height="2" colspan="4"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr bgcolor="#BDE2E2">
+		<td colspan="3" height="7"></td>
+	</tr>
+	<tr bgcolor="White">
+		<!-- 레프트 메뉴 include START-->
+		<td width="197" valign="top" background="images/left_bg.gif">
+			<!-- 레프트 메뉴 include-->
+			<table width="197" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top"><img src="images/left_image_07.gif"></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+
+				<tr>
+					<td align="center"><a href="/Footer/Member_info.asp"><img src="images/left_menu_01.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+
+				<tr>
+					<td align="center"><a href="/Footer/bbs_list.asp?table=Notice"><img src="images/left_menu_03.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<!--<tr>
+					<td align="center"><a href="/Footer/qna.asp?table=askhow"><img src="images/left_menu_04.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>-->
+				<tr>
+					<td align="center"><a href="/Footer/privacy.asp"><img src="images/left_menu_05.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/Footer/partner.asp"><img src="images/left_menu_06.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/Footer/qna.asp?table=toadmin"><img src="images/left_menu_07.gif" border="0"></a></td>
+				</tr>
+				<tr>
+					<td align="center"><img src="images/left_bar.gif"></td>
+				</tr>
+				<tr>
+					<td align="center" bgcolor="#ffffff"><img src="/common/images/spacer.gif" height="6"></td>
+				</tr>
+			</table>
+		
+		</td>
+		<!-- 레프트 메뉴 include END-->
+		<td rowspan="2" width="5" bgcolor="#BDE2E2"></td>
+		<td rowspan="2" width="580" valign="top">
+		<!-- 메인 컨텐츠 START -->
+			<table width="580" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td class="main_first">
+						<table width="550" cellpadding="0" cellspacing="0" border="0" style="margin:15px">
+							<form name=myform action='' method=post>
+							<input type=hidden name=table>
+							<input type=hidden name=mode>
+							<input type=hidden name=id>
+							<input type=hidden name=reid>
+							<input type=hidden name=b_subnum>
+							<tr>
+								<td colspan="2">
+			                 <TABLE cellpadding="0" cellspacing="0" border=0 width=550 align=center>
+									
+										<tr><td bgcolor="#4F4F4F" height="1" colspan="4"></td></tr>
+										<tr bgcolor="#707070">
+											<td height="30" width="60" align="center" style="color:#ccc">제목</td>
+											<td width="2"><img src="/Common/images/list_sep.gif"></td>
+											<td colspan="2" style="color:#fff; padding-left:15px" width=518>[이벤트] 윤도현밴드 2003 투어 페스티발!!!     </td>
+										</tr>
+										<tr bgcolor="#CFCFCF">
+											<td style="padding-right:20px" align="left" colspan="4" height="30">
+											<span style="color:#888">번호</span><img src="/Common/images/list_sep.gif" align="absmiddle" hspace="6">109
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span style="color:#888">날짜</span><img src="/Common/images/list_sep.gif" align="absmiddle" hspace="6">2003-12-08 오전 10:03:37
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span style="color:#888">조회수</span><img src="/Common/images/list_sep.gif" align="absmiddle" hspace="6">12499</td>
+										</tr>
+										<tr><td bgcolor="White" height="2" colspan="4"></td></tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<table width="550" cellpadding="0" cellspacing="1" border="0" bgcolor="#C1C1C1">
+										<tr>
+											<td>
+												<table width="548" cellpadding="0" cellspacing="0" border="0">
+
+													<tr bgcolor="White"><td colspan="2" height="1" background="/Common/images/list_dots.gif"></td></tr>
+													<tr bgcolor="White">
+														<td colspan="2" style="padding:20px,10px,20px,10px">
+															<link href="/common/css/basic.css" rel="stylesheet" type="text/css"><Script Language=JavaScript>function goevent(){ frm = document.all; if(frm.event.value=="no"){  alert('  \n\n  페스티벌 참석일자를 선택해 주세요.  \n\n  '); }else{  mname = frm.event.value;    location.href="http://www.curitel.com/common/include/logon.asp?EMode=movie&Mname="+mname; } frm.event.focus(); return;}</Script><table width="520" border="0" cellpadding="0" cellspacing="0"><tr><td width="17" height="9"><img src="images/blank.gif" border="0" width="17" height="1"></td><td width="398"><img src=" http://www.curitel.com/Footer/images/blank.gif" border="0" width="398" height="1"></td><td width="1"><img src="images/blank.gif" border="0" width="1" height="1"></td><td width="104"><img src="http://www.curitel.com/Footer/images/blank.gif" border="0" width="104" height="1"></td></tr><tr><td colspan="4" height="5" bgcolor="#00A5BD"></td></tr><tr><td colspan="4" height="1" bgcolor="#DFDFDF"></td></tr><tr><td colspan="4" height="1" bgcolor="#00A5BD"></td></tr><tr><td height="48" bgcolor="#F2F4F4"></td><td bgcolor="#F2F4F4"><img src="http://www.curitel.com/Footer/images/title_yuntour.gif" border="0" width="271" height="22"></td>    <td bgcolor="#DFDFDF"></td><td bgcolor="#FFFFFF"><img src="http://www.curitel.com/Footer/images/title_movie_top02.gif" width="104" height="48" border="0"></td></tr><tr><td colspan="4" height="1" bgcolor="#DFDFDF"></td></tr><tr><td colspan="4" height="10"></td>  </tr></table><!-- top Title --><!-- movie infomation --><table width="520" border="0" cellpadding="0" cellspacing="0" valign="top"><tr><td colspan="3"><img src="http://www.curitel.com/Footer/images/touryun_img.gif" width="520" border="0"></td></tr><tr><td colspan="3"> </td></tr><tr><td colspan="3"><table width="520" border="0" cellspacing="0" cellpadding="0"><tr><td width="16"></td><td width="504"><span style="color: #FF6F3D;"><b>팬택&큐리텔</b>에서 협찬 지원하는 <b>윤도현밴드 2003 투어 페스티발!!!</b></span> <span style="color: #00A5BD;">12월 한달동안 진행되는 공연신청을 받습니다. </span><table width="480" border="0" cellpadding="0" cellspacing="0"><tr><td width="15" height="14"></td><td width="465"></td></tr><tr><td colspan="2"><img src="http://www.curitel.com/Footer/images/yuntour_subtitle.gif" width="156" height="20" border="0"></td></tr><tr><td colspan="2" height="15"></td></tr> <tr><td height="16" width="15"></td><td valign="top" width="465"><table width="480" border="0" cellspacing="0" cellpadding="0"><tr><td width="480"><span style="color: #333333; letter-spacing: -1;"><b>응모기간 :</b></span><span style="color: #FF6F3D;"> <span style="color: #FF6F3D;">2003년 12월 8일(월)<b>~</b> 2003년 12월 25일(목) </span> </span></td></tr><tr><td width="480"><span style="color: #333333; letter-spacing: -1;"><b>응모대상                         :</b></span>큐리텔회원 누구나 신청가능합니다</td></tr><tr><td width="480"><span style="color: #333333; letter-spacing: -1;"><b>추첨방법  :</b></span>응모하시면 추첨을통하여 매회5명을 초대합니다.(1인2매) <table width="450" border="0" cellspacing="0" cellpadding="0"><tr><td width="80"> </td><td width="370"></td> </tr></table></td></tr><tr><td width="274" valign="top"><table width="470" border="0" cellspacing="0" cellpadding="0"><tr><td width="79" height="5"></td> <td colspan="2" height="5"></td></tr><tr><td width="79"><span style="color: #333333; letter-spacing: -1;"><b>발<img src="images/blank.gif" width="6" height="1" border="0" align="absmiddle">표<img src="images/blank.gif" width="6" height="1" border="0" align="absmiddle">일 : </b></span> <span style="color: #FF6F3D;"></span></td><td colspan="2" align=left><span style="color: #FF6F3D;">       <br><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr> <td><span style="color: #FF6F3D">서울</span></td><br><td height="18">-12월 <span style="color: #FF6F3D">20</span>일</td></tr><tr> <td width="58"><span style="color: #FF6F3D">대구</span></td><td width="333" height="18">-12월 <span style="color: #FF6F3D">20</span>일</td></tr><br><tr> <td width="58"><span style="color: #FF6F3D">부산</span></td><td width="333" height="18">-12월 <span style="color: #FF6F3D">26</span>일</td></tr><tr> <td width="58" height="5"></td><td width="333" height="5"></td></tr></table></span> </td></tr><tr><td width="79" height="5"></td><td colspan="2" height="5">* 발표일 하루전까지 신청받습니다,</td></tr></table></td></tr><tr><td width="274"> </td></tr></table><span style="color: #333333; letter-spacing: -1;"><b>공연 일시 및 장소: </b></span> 아래 전체 공연 일정표를 참조하시기 바랍니다.</td></tr></table><table width="480" border="0" cellpadding="0" cellspacing="0"><tr> <td width="15" height="14"></td><td width="465"></td></tr><tr><td height="16" width="15"></td><td valign="top" width="465"><table width="480" border="0" cellspacing="0" cellpadding="0"><tr><td width="480"><span style="color: #00A5BD;">아래 전체 공연 일정표를 참조 하시기 바랍니다.</span> <span style="color: #FF6F3D;"> </span></td></tr> </table></td></tr></table></td></tr></table></td></tr><tr valign="top"><td width="290" valign="top"><!-- 시사회 참여하기 -->      <!-- 시사회 참여하기 --> </td><td width"1" bgcolor="#DFDFDF"></td><td width="230" valign="top"> <!-- 시사회 일시 및 장소 --> <!-- 시사회 일시 및 장소 -->    </td>  </tr></table><!-- movie infomation -->        <!-- Button --> <table width="520" border="0" cellpadding="0" cellspacing="0"><tr><td height="20"></td></tr><tr align="center"><td><form name="form2" method="post" action=""><table width="460" border="0" cellspacing="0" cellpadding="0"><tr><td width="298">              <table width="100%" border="0" cellspacing="0" cellpadding="0"><tr> <td width="9%"></td><td width="81%" height="40"><span style="color: #FF6F3D;">원하는 날짜를 선택하시고 신청 버튼을 클릭하세요.</span></td> <td width="10%" height="40"></td></tr><tr><td width="9%"><img src="http://www.curitel.com/Footer/images/arrow_01.gif" width="16" height="19"></td><td width="81%"><select name="event"><option value="no">날짜를선택하세요.</option><option value="031224">서울 12월 24일 </option>	 <option value="031225">서울 12월 25일 </option>	 <option value="031227">대구 12월 27일 </option><option value="031228">대구 12월 28일 </option><option value="031231">부산 12월 31일 </option> </select></td><td width="10%"></td> </tr></table></td><td width="162"> <a href="javascript:goevent();" onFocus="this.blur()"><img src="http://www.curitel.com/Footer/images/btn_apply.gif" width="62" height="62" border="0" align="absmiddle"></a><img src="http://www.curitel.com/Footer/images/blank.gif" width="10" height="20" border="0" align="absmiddle"><a href="http://www.curitel.co.kr/Footer/Member_info.asp" onFocus="this.blur()"><img src="http://www.curitel.com/Footer/images/btn_join.gif" width="62" height="62" border="0" align="absmiddle" borde="0"></a></td></tr></table></form></td></tr><tr><td height="1" bgcolor="#DFDFDF"></td>  </tr></table><!-- Button --><!-- 윤도현밴드 공연일정보기 --><table width="520" border="0" cellpadding="0" cellspacing="0"><tr><td width="30" height="17"></td></tr><tr><td><img src="http://www.curitel.com/Footer/images/yuntour_subtitle2.gif" width="309" height="21" border="0"></td></tr><tr><td height="15"></td></tr></table><table width="520" border="0" cellspacing="1" cellpadding="0" bgcolor="00A5BD"><tr bgcolor="#D8F2F6" align="center"> <td height="30" width="44"><b><font color="#666666">지역</font></b></td><td height="30" width="157"><b><font color="#666666">장소</font></b></td><td height="30" colspan=2><b><font color="#666666">공연 일시</font></b></td><td height="30" width="70"><b><font color="#666666">비고</font></b></td></tr><tr bgcolor="#FFFFFF"> <td height="20" align="center" width="44">서울</td><td width="157" style="PADDING-LEFT: 10px">펜싱경기장</td><td width="150" style="PADDING-LEFT: 10px">03년 12월24일</td><td height="20" align="center" width="93">8:00 </td><td height="20" align="center" width="70">서울</td></tr><tr bgcolor="#FFFFFF"> <td height="20" align="center">서울</td><td style="PADDING-LEFT: 10px">펜싱경기장</td><td style="PADDING-LEFT: 10px">03년 12월25일</td><td height="20" align="center">6:00 </td><td height="20" align="center">서울</td></tr><br><tr bgcolor="#FFFFFF"> <td height="20" align="center" width="44">대구</td><td width="157" style="PADDING-LEFT: 10px">경북대강당</td><td width="150" style="PADDING-LEFT: 10px">03년 12월 27일</td><td height="20" align="center" width="93"> 7:00 </td><td height="20" align="center" width="70">대구</td></tr><tr bgcolor="#FFFFFF"> <td height="20" align="center">대구</td><td style="PADDING-LEFT: 10px">경북대강당</td><td style="PADDING-LEFT: 10px">03년 12월 28일</td><td height="20" align="center"> 6:00 </td><td height="20" align="center">대구</td></tr><br><tr bgcolor="#FFFFFF"> <td height="20" align="center" width="44">부산</td><td width="157" style="PADDING-LEFT: 10px">사직실내체육관</td><td width="150" style="PADDING-LEFT: 10px">03년 12월 31일</td><td height="20" align="center" width="93">8:00 </td><td height="20" align="center" width="70">부산</td></tr></table><form name="form1" method="post" action=""><table width="520" border="0" cellspacing="0" cellpadding="0"><tr><td><font color="00A5BD">윤도현밴드 2003년 투어공연은 2004년 2월15일 서울앵콜공연을 끝으로 막을 내리게 됩니다.</font></td></tr><tr><td>그중 2003년 12월 31일 부산공연까지만 공지해 올린 것이며, 그 이후에 공연일정은 추후 다시 공지해 드리겠습니다.</td></tr></table></form><br>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr><td bgcolor="White" height="2" colspan="2"></td></tr>
+							<tr><td bgcolor="#707070" height="5" colspan="2"></td></tr>
+							<tr>
+								<td colspan="2" height="35" background="/Common/images/list_view_bottom.gif" align="right" style="padding-right:15px">
+									<a href="javascript:list_form();"><img src='/Common/images/btn_list.gif' border='0' hspace='5'></a>
+								</td>
+							</tr>
+							<tr><td bgcolor="White" height="30" colspan="2"></td></tr>
+
+							<tr><td bgcolor="#969696" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr>
+								<td colspan="2">
+									<table width="550" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="80" height="24" align="center" bgcolor="#969696" style="color:White">이전글</td>
+											<td style="padding-left:15px"><a href="javascript:view_form('68775','110');" class='list_zone'>[발표] 윤도현밴드 2003 전국투어~! 목포&군산 공연 당첨자 명단입니다.  </a></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="#969696" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr>
+								<td colspan="2">
+									<table width="550" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="80" height="24" align="center" bgcolor="#969696" style="color:White">다음글</td>
+											<td style="padding-left:15px"><a href="javascript:view_form('68773','108');" class='list_zone'>[알림]범선 여행의 추억 속으로   </td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+
+							<tr><td bgcolor="White" height="1" colspan="2"></td></tr>
+							<tr><td bgcolor="#969696" height="1" colspan="2"></td></tr>
+						</table><br><br><br>
+					</td>
+				</tr>
+			</table>
+</td>
+<!-- 푸터 include -->	</tr>
+	<tr>
+		<td valign="bottom" background="/Common/images/left_bg.gif" bgcolor="White" style="background-repeat:no-repeat"><img src="/Common/images/menu_bottom.gif"></td>
+	</tr>
+	<tr>
+		
+  <td colspan="3"><img src="/Common/images/footer.gif" border="0" usemap="#footer"></td>
+	</tr>
+</table>
+</div>
+
+<map name="footer">
+<area alt="회사소개" coords="112,28,144,76" href="/Company/CoIntro.asp">
+<area alt="투자정보" coords="157,29,189,77" href="/Company/InvestFinanc_03.asp">
+<area alt="채용정보" coords="203,29,236,77" href="/Company/JobIntro.asp">
+<area alt="Press Room" coords="249,29,282,76" href="/Company/bbs_list.asp?table=press">
+<area alt="Contact us" coords="295,29,340,76" href="/Company/Contact.asp">
+<area alt="개인정보 보호정책" coords="534,61,631,79" href="/footer/privacy.asp">
+<area alt="제휴문의" coords="646,62,693,80" href="/footer/partner.asp">
+  <area alt="운영자에게" coords="708,62,768,79" href="/footer/qna.asp?table=toadmin">
+</map>
+</body>
+</html>

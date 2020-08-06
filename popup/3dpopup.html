@@ -1,0 +1,88 @@
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<title>팬택&큐리텔 </title>
+<style>
+    td	 {font-size:12px; font-family:굴림; color:#818080; line-height:18px}
+</style>
+<script language="javascript">
+<!--
+function setCookie( name, value, expiredays ) 
+{ 
+        var todayDate = new Date(); 
+        todayDate.setDate( todayDate.getDate() + expiredays ); 
+        document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+}
+
+function closeWin() 
+{ 
+        if(document.myform.notice.checked )
+        {
+        	setCookie( "event4", "done" , 1); 
+        	self.close(); 
+	}
+	else
+	{
+		self.close();
+	}
+}
+
+function view_form(p_id,re_id){
+	opener.document.event.table.value = "Notice";
+	opener.document.event.mode.vlaue="view";
+	opener.document.event.id.value = p_id;
+	opener.document.event.reid.value = re_id;
+	opener.document.event.action = "/Footer/bbs_content.asp";		
+	opener.document.event.submit();		
+	self.close();
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</SCRIPT>
+
+<body leftmargin="0" topmargin="0">
+
+<table width="488" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="316" height="109" bgcolor="#00A5BD" background="images/0609_01.gif"></td>
+  </tr>
+  <tr> 
+    <td background="images/0609_02.jpg" height="205">&nbsp;</td>
+  </tr>
+  <tr>
+    <td background="images/0609_03.jpg" height="146">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="56" background="images/0609_04.gif">
+      <table width="488" border="0" cellspacing="0" cellpadding="0" height="56">
+        <tr>
+          <td width="299" height="6"></td>
+          <td height="6"></td>
+        </tr>
+        <tr>
+          <td width="299">&nbsp;</td>
+          <td valign="top"><a href="javascript:;" onClick="MM_openBrWindow('/3dsound/index.html','','width=796,height=640')"><img src="images/btn_3d.gif" width="173" height="33" border="0"></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="488" border="0" cellpadding="0" cellspacing="0" height="32">
+  <form name=myform action='' method=post>
+<input type=hidden name=table>
+<input type=hidden name=mode>
+<input type=hidden name=id>
+<input type=hidden name=reid>
+<input type=hidden name=b_subnum>
+    <tr>
+      <td width="473" align="right">오늘은 이창을 열지 않음 
+        <input type="checkbox" name="notice" value="" style="margin-bottom:-1px;margin-right:1px;"> <a href="javascript:closeWin();" onfocus="this.blur();" style="color: #00728F; text-decoration: none;">닫기</a></td>
+        <td width="15"></td>
+    </tr>
+</form>
+</table>
+<!-- bottom -->
+</body>
+
+

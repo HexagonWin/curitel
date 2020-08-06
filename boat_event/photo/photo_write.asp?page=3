@@ -1,0 +1,165 @@
+<script> alert('회원 전용입니다.'); history.back()</script>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<link rel=stylesheet href="photo.css">
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+</head>
+
+<script language="javascript" type="text/javascript" SRC="photo_chk.js"></script>  
+
+<body >
+<FORM NAME="form1" METHOD="post" ACTION="photo_upload.asp" ENCTYPE="multipart/form-data"> 
+<input type="hidden" name="flag" value="write">
+<input type="hidden" name="page" value="3">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top"><table width="810" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td valign="top" background="../images/bottom.gif"><table width="810" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="15" valign="top" background="../images/1/back04.gif"><img src="../images/1/back01.gif" width="15" height="210"></td>
+                <td width="794" align="center" valign="top" bgcolor="#FFFFFF"><table border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="146" rowspan="2"><a href="http://www.curitel.co.kr" target="_top"><img src="../images/1/top01.gif" width="146" height="95" border=0></a></td>
+                      <td width="167"><img src="../images/1/top02.gif" width="167" height="23"></td>
+                      <td width="187" background="../images/1/top04.gif"><img src="../images/1/top04.gif" width="19" height="23"></td>
+                      <td width="270" background="../images/1/top04.gif">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td><img src="../images/1/top03.gif" width="167" height="72"></td>
+                      <td><img src="../images/1/p1.gif" width="187" height="72"></td>
+                      <td><img src="../images/1/p2.gif" width="271" height="72"></td>
+                    </tr>
+                  </table>
+                  <table width="770" border="0" cellpadding="0" cellspacing="0" bgcolor="#E1F6FE">
+                    <tr> 
+                      <td width="125" valign="top">
+                          <table width="125" border="0" cellpadding="0" cellspacing="0" id="menu">
+                            <tr> 
+                              <td valign="top" background="../images/1/mback1.gif" width="125" height="304" align=center>&nbsp;</td>
+                            </tr>
+                            <tr> 
+                              <td>&nbsp;</td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td width="10" valign="top"><img src="../images/1/mright1.gif" width="21" height="455"></td>
+                      <td width="635" valign="top"><table width="626" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                              <td width="167"><img src="../images/1/top077.gif" width="167" height="115"></td>
+                            <td width="187"><img src="../images/1/p3.gif" width="187" height="115"></td>
+                            <td width="272"><img src="../images/1/p4.gif" width="271" height="115"></td>
+                          </tr>
+                          <tr>
+                            <td colspan="3" valign="top"><img src="../images/1/top10_p.gif" width="533" height="99"></td>
+                          </tr>
+                          <tr align="center">
+                            <td colspan="3" valign="top">
+<table width="590" border="0" cellspacing="0" cellpadding="0">
+                                <tr bgcolor="#BBBBBB"> 
+                                  <td height="1" colspan="4"></td>
+                                </tr>
+                                <tr class="T01_header"> 
+                                  <td width="57" height="40" align="right">제목 
+                                    : </td>
+                                  <td width="400"><input name="title"  class="INPUT"  size=60 maxlength="34" ></td>
+                                  <td width="52" align="right">글쓴이 :</td>
+                                  <td width="81"> </td>
+                                </tr>
+                                <tr bgcolor="#BBBBBB">
+                                  <td height="1" colspan="4"></td>
+                                </tr>
+                                <tr align="center"> 
+                                  <td height="250" colspan="4" bgcolor="#FFFFFF"><textarea name="memo" cols="80" rows="15" class=TEXTAREA ></textarea></td>
+                                </tr>
+                                <tr> 
+                                  <td height="5" colspan="4" bgcolor="#FFFFFF" class="T011"><table border="0" cellspacing="0" cellpadding="0">
+                                      <tr> 
+                                        <td class="TEXT"><img src="../board/images/point4.gif" width="5" height="10">&nbsp;</td>
+                                        <td class="TEXT">IMAGE 1&nbsp;&nbsp;</td>
+                                        <td><input name="file1"  type="file" size=50> </td><!--class="INPUT"  size=50 ></td>//-->
+                                      </tr>
+                                      <!--<tr> 
+                                        <td class="TEXT"><img src="../board/images/point4.gif" width="5" height="8">&nbsp;&nbsp;</td>
+                                        <td class="TEXT">IMAGE 2</td>
+                                        <td><input name=textfield133222222  type=file class="INPUT"  size=50 ></td>
+                                      </tr>//-->
+                                    </table></td>
+                                </tr>
+                              </table>
+                              <table width="590" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td height="1" bgcolor="#BBBBBB"></td>
+                                </tr>
+                                <tr> 
+                                  <td height="40" align="center" bgcolor="#EFFBFE"><strong>사진 
+                                    사이즈가 가로 600이 넘지않도록 유의해 주세요~</strong></td>
+                                </tr>
+                                <tr> 
+                                  <td height="1" bgcolor="#BBBBBB"></td>
+                                </tr>
+                                <tr align="right" valign="bottom"> 
+                                  <td height="37" align="center"><a href="javascript:frm_chk();"><img src="images/button_up.gif" width="47" height="23" border="0"></a>
+                                  <a href="photo.asp?page=3"><img src="images/button_cancel.gif" width="47" height="23" border="0"></a></td>
+                                </tr>
+                              </table>
+                              
+                            </td>
+                          </tr>
+                          <tr>
+                            <td colspan="3" valign="top">&nbsp;</td>
+                          </tr>
+                        </table>
+                        
+                      </td>
+                    </tr>
+                  </table>
+                  <table width="779" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="418"><img src="../images/1/bottom_link1.gif" width="418" height="107" border="0" usemap="#MapMap"></td>
+                      <td width="361" bgcolor="#EBEBF7"><img src="images/bottom_link2.gif" width="362" height="107" border="0" usemap="#Map2Map2"></td>
+                    </tr>
+                  </table></td>
+                <td width="10" align="right" valign="top" background="../images/1/back03.gif"><img src="../images/1/back02.gif" width="15" height="210"></td>
+              </tr>
+            </table>
+            <map name="MapMap">
+              <area shape="rect" coords="108,24,174,71" href="http://www.curitel.co.kr/mycuritel/" target="_top">
+              <area shape="rect" coords="188,24,255,71" href="http://www.curitel.co.kr/InfoBox/" target="_top">
+              <area shape="rect" coords="268,23,335,71" href="http://www.curitel.co.kr/curitelzone/" target="_top">
+              <area shape="rect" coords="348,24,415,71" href="http://www.curitel.co.kr/PhoneDeco/" target="_top">
+            </map>
+            <map name="Map2Map2">
+              <area shape="rect" coords="51,59,143,72" href="http://www.curitel.co.kr/footer/privacy.asp" target="_top">
+              <area shape="rect" coords="163,59,207,72" href="http://www.curitel.co.kr/footer/partner.asp" target="_top">
+              <area shape="rect" coords="226,59,270,72" href="http://www.curitel.co.kr/footer/qna.asp?table=askhow" target="_top">
+              <area shape="rect" coords="292,60,346,72" href="http://www.curitel.co.kr/footer/qna.asp?table=toadmin" target="_top">
+            </map></td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<map name="Map">
+  <area shape="rect" coords="108,24,174,71" href="#">
+  <area shape="rect" coords="188,24,255,71" href="#">
+  <area shape="rect" coords="268,23,335,71" href="#">
+  <area shape="rect" coords="348,24,415,71" href="#">
+</map>
+<map name="Map2">
+  <area shape="rect" coords="51,59,143,72" href="#">
+  <area shape="rect" coords="163,59,207,72" href="#">
+  <area shape="rect" coords="226,59,270,72" href="#">
+  <area shape="rect" coords="292,60,346,72" href="#">
+</map>
+<map name="Map3">
+  <area shape="rect" coords="5,2,128,29" href="..event2.asp">
+  <area shape="rect" coords="21,33,118,51" href="javascript:window.open('/3dsound/index.html','3DSound','width=796, height=640'); document.reload();">
+</map>
+</form>
+</body>
+</html>

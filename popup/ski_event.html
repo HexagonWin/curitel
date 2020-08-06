@@ -1,0 +1,112 @@
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<title>팬택&큐리텔 </title>
+<style>
+    td	 {font-size:12px; font-family:굴림; color:#818080; line-height:18px}
+</style>
+
+<script language="javascript">
+<!--
+
+function gourl(url){
+ opener.location.href=url;
+ self.close();
+}
+
+function setCookie( name, value, expiredays ) 
+{ 
+        var todayDate = new Date(); 
+        todayDate.setDate( todayDate.getDate() + expiredays ); 
+        document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+}
+
+function closeWin() 
+{ 
+        if(document.myform.notice.checked )
+        {
+        	setCookie( "event10", "done" , 1); 
+        	self.close(); 
+	}
+	else
+	{
+		self.close();
+	}
+}
+
+function view_form(p_id,re_id){
+	opener.document.event.table.value = "Notice";
+	opener.document.event.mode.vlaue="view";
+	opener.document.event.id.value = p_id;
+	opener.document.event.reid.value = re_id;
+	opener.document.event.action = "/Footer/bbs_content.asp";		
+	opener.document.event.submit();		
+	self.close();
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</SCRIPT>
+
+<body leftmargin="0" topmargin="0" bgcolor="#FFFFFF">
+<!-- top -->
+<table width="439" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="316" height="5" bgcolor="#00A5BD"></td>
+        <td width="123" bgcolor="#00A5BD"></td>
+    </tr>
+    <tr>
+        
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/logo.gif" border="0" width="175" height="56"></td>
+        
+    <td><img src="images/event.gif" border="0" width="111" height="56"></td>
+    </tr>
+</table>
+<!-- top -->
+
+
+
+<!-- Contents -->
+<table width="439" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center">
+        
+        
+      <table width="417" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td><img src="images/event_1222_01.gif" width="417" height="216" border="0" usemap="#Map2"></td>
+        </tr>
+        <tr> 
+          <td><img src="images/event_1222_02.gif" width="417" height="214" usemap="#Map" border="0"></td>
+        </tr>
+      </table>
+        
+        </td>
+    </tr>
+</table>
+<!-- Contents -->
+<!-- map -->
+<!-- bottom -->
+<table width="439" border="0" cellpadding="0" cellspacing="0">
+<form name=myform action='' method=post>
+<input type=hidden name=table>
+<input type=hidden name=mode>
+<input type=hidden name=id>
+<input type=hidden name=reid>
+<input type=hidden name=b_subnum>
+    <tr>
+        <td width="424" height="33" align="right">오늘은 이창을 열지 않음 <input type="checkbox" name="notice" value="" style="margin-bottom:-1px;margin-right:1px;"> <a href="javascript:closeWin();" onfocus="this.blur();" style="color: #00728F; text-decoration: none;">닫기</a></td>
+        <td width="15"></td>
+    </tr>
+</form>
+</table>
+<!-- bottom -->
+<map name="Map">
+  <area shape="rect" coords="155,157,255,197" href="javascript:gourl('http://www.curitel.com/InfoBox/cara_phone.asp');">
+</map>
+<map name="Map2">
+  <area shape="rect" coords="314,170,405,211" href="javascript:gourl('http://www.curitel.com/event/skicamp/index.asp');">
+</map>
+</body>
+
+

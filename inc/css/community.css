@@ -1,0 +1,88 @@
+A {color: #5E5E5D;text-decoration:none;}
+A:link {color: #5E5E5D; }
+A:visited {color: #5E5E5D;}
+A:active {color: #5E5E5D;}
+A:hover { color:#9B9B9B;}
+body,td,form {margin:0;color: #5E5E5D;FONT-FAMILY:  돋움, arial; FONT-SIZE: 9pt;;letter-spacing:-0.02em; text-decoration:none;line-height:12pt}
+select,textarea {FONT-FAMILY:돋움,arial; color: #666666; FONT-SIZE: 8pt;}
+input {height:18;font:9pt;letter-spacing:-0.02em;;}
+.input02 {color:#5177C1}
+.input03 {border:1px solid #CCCCCC;font:9pt;letter-spacing:-0.02em;;color:#5E5E5D}
+img {border:0}
+.imgbdr {border:#CCCCCC 1px solid}
+.rpath {padding:0 8 0 0;font:8pt}
+.curi {color:#007995}
+.w {color:#ffffff}
+.8 {font:9pt;letter-spacing:-0.02em;}
+.9 {font:9pt;letter-spacing:-0.02em;}
+.b {font-weight:bold}
+.lgray {color:#A2A2A2}
+.pad8 {padding:0 0 0 8}
+
+/* tooltip */
+.tolltip A {color: #5E5E5D;text-decoration:none;font-size:9pt;letter-spacing:-0.02em;} 
+.tolltip A:link {color: #5E5E5D; }
+.tolltip A:visited {color: #5E5E5D;} 
+.tooltip A:hover { color:#FE4902;}
+
+/* ContentsMargin */
+.rightbg {background:url(/img/community/rightbg.gif) no-repeat right top;padding:16 0 0 19}
+.ctsmgn {padding:0 0 7 33}
+.mubg_gra {background:url(/img/common/mubg_gra.gif) repeat-y left top}
+.mubg_gra_btm {background:url(/img/common/mubg_gra_btm.gif) no-repeat right bottom}
+.grayline {background-color:#D1D1D1}
+.dotline {background:url(/img/common/dotline.gif) repeat-x left top}
+.dotline02 {background:url(/img/common/dotline02.gif) repeat-y left top}
+.li_dotline {background:url(/img/common/li_dotline.gif) repeat-x left top}
+.li_dotline02 {background:url(/img/common/li_dotline02.gif) repeat-y left top}
+.pdt_bg {background:url(/img/common/pdt_bg.gif) no-repeat left top}
+.pdt_bg02 {background:url(/img/common/pdt_bg02.gif) no-repeat left top}
+
+/* BBS_Define */
+.bbslistbg {background:url(/img/bbs/community/bg_list.gif) repeat-x left top;padding:3 0 0 0}
+.bbsfield {padding:2 0 0 12;} /* Left Field Margin*/
+.bbsfield02 {padding:2 0 0 6;}
+.bbsfield03 {padding:2 0 0 15;}
+.bbstxt {font:9pt;letter-spacing:-0.02em;;font-weight:bold;color:#757575}
+.bbsline {background:#DFDFDF}
+.name {color:#25778B} /*  아이디 표기 */
+.field01 {background:url(/img/bbs/community/fieldbg01.gif) no-repeat left top;color:#ffffff;padding:2 0 0 5}/* 게시판 제목field 왼쪽*/
+.field02 {background:url(/img/bbs/community/fieldbg02.gif) no-repeat left top;color:#ffffff;padding:2 0 0 12}/* 게시판 제목field 중앙*/
+.field03 {background:url(/img/bbs/community/fieldbg03.gif) no-repeat right top;color:#ffffff;padding:0 5 0 0}/* 게시판 제목field 오른쪽*/
+.field {background:url(/img/bbs/community/fieldbg.gif) no-repeat right top;color:#ffffff;padding:2 5 0 15}/* 게시판 제목field 양쪽*/
+.ctsarea {border-top:6px solid #f2f2f2;border-right:13px solid #f2f2f2;border-bottom:9px solid #f2f2f2;padding:2 2 2 3} /* 컨텐츠 입력영역 보더값 */
+.ctsarea_sp {border-top:6px solid #f2f2f2;border-right:9px solid #f2f2f2;border-bottom:9px solid #f2f2f2;padding:2 2 2 3} /* 컨텐츠 입력영력 분리 보더값 */
+.minilist {font:9pt;letter-spacing:-0.02em;;color:#C83789;text-decoration:underline}/* 이전글, 다음글 */
+.minilist A:link {font:9pt;letter-spacing:-0.02em;;color:#C83789;text-decoration:underline}
+.minilist A:visted {font:9pt;letter-spacing:-0.02em;;color:#C83789;text-decoration:underline}
+.minilist A:hover {font:9pt;letter-spacing:-0.02em;;color:#C83789;text-decoration:underline}
+
+/* photo bg */
+.photo {background:url(/img/community/photolife/photo_bg.gif) no-repeat left top;padding:12 0 0 13}
+/* movie bg */
+.movie {background:url(/img/community/movielife/movie_bg.gif) no-repeat left top;padding:12 0 0 16}
+/* default bg */
+.default {background:url(/img/community/default_bg.gif) no-repeat left top;padding:12 0 0 16}
+.em {color:#E15DA9}
+
+/* phone */
+.phone {background:url(/img/phone/character/bg02.gif) no-repeat left top;padding:37 8 0 8}
+
+
+
+.orange_b {color:#FD5503;font-weight:bold;font-size:9pt;letter-spacing:-0.02em;}
+.orange {color:#FD5503;}
+/* 포토카툰 */
+.cutimg {width:130;height:96;display:none;border:1px solid white;}
+.itd {width:134;height:100;vertical-align:top;}
+.wbox {
+	position:absolute;
+	width:91;height:41;
+	display:none;
+	background-image:url(/img/community/photolife/balloon01.gif);
+	background-repeat:no-repeat;
+	overflow:hidden;
+	margin:5 0 0 5;
+}
+.p8 {font-size:8pt;padding:1 10 1 5}
+.wtable {width:100%;height:100%;}

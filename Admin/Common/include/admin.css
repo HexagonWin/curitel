@@ -1,0 +1,29 @@
+
+//a:link { text-decoration: none; color: #333333; font-size: 12px; font-family: ±¼¸²,±¼¸²Ã¼, Arial ; }
+//a:visited { text-decoration: none; color: #333333; font-size: 12px; font-family: ±¼¸²,±¼¸²Ã¼, Arial ; }
+//a:active { text-decoration: none; color: #FF0000; font-size: 12px;font-family: ±¼¸²,±¼¸²Ã¼, Arial ; }
+//a:hover {  text-decoration:underline; color:#FF0000; font-size: 12px;font-family: ±¼¸²,±¼¸²Ã¼, Arial ;}
+
+body {
+	font-size: 12px;
+	font-family: ±¼¸²,±¼¸²Ã¼, Arial ;
+	color: Black;
+}
+td {
+	font-size: 12px;
+	font-family: ±¼¸²,±¼¸²Ã¼, Arial ;
+	color:black;
+}
+input{
+	font-size:12px;
+	border-style:solid;
+	border-color: #666666;
+	border-width:1px;
+	font-family: ±¼¸²,±¼¸²Ã¼, Arial ;
+}
+.checkbox {font-size:12px;
+	border-style:solid;
+	border-color: #ffffff;
+	border-width:0px;
+	font-family: ±¼¸²,±¼¸²Ã¼, Arial ;
+}

@@ -1,0 +1,365 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/my.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/prroom/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/prroom/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1144&page=18&num=510&sseq=&sword=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/prroom/news/view.asp?id=1144&page=18&num=510&sseq=&sword=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/prroom/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/prroom/index.asp" onfocus="this.blur()"><img src="/img/prroom/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr>
+
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+        > <a href="/html/prroom/index.asp">PR Room</a> > News</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="220">
+					               <param name="movie" value="/inc/flash/left/left_prroom.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_prroom.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="220"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">			
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top" class="ctsmgn">
+						<!-- #####Contents##### -->
+
+						<table width="557" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/img/prroom/subimg02.gif" width="537" height="97" alt="" border="0"></td>
+						</tr>
+						<tr>
+							<td height="1"></td>
+						</tr>
+						<tr>
+							<td height="26">
+								<table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td bgcolor="#F6F8F9"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="25"></td>
+						</tr>
+						</table>
+
+						<!------- READ Start ------------>
+						<table width="530" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="2" height="31" style="font-weight:bold;color:#599AA6;padding:0 0 0 10;font-size:9pt">
+							[ [IT 고객감동 새바람] 휴대폰 업계  ]
+							</td>
+						</tr>
+						<tr>
+							<td height="16" bgcolor="#F2F2F2" colspan="2"></td>
+						</tr>
+						<tr bgcolor="F2F2F2">
+							<td height="31" width="142" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 번호</b> : 510</td>
+							<td width="376" style="padding:2 0 0 0">
+								<b><font color="#515151">&#8226;</font> 등록일</b> :
+								2004-03-07 <img src="/img/b.gif" width=80 height=1>
+								<b><font color="#515151">&#8226;</font> 출처</b> : 서울경제
+							</td>
+						</tr>
+						<tr><td height="1" colspan="2" bgcolor="#C9C9C9"></td></tr>
+						<tr>
+							<td colspan="2" style="padding:25 11;line-height:16px" valign="top" class="8">
+								“완벽한 사후처리가 고객감동을 이끌어낸다”<br><br><br>삼성전자, LG전자, 팬택&큐리텔 등 주요 휴대폰 제조업체들이 대고객 서비스의 핵심으로 무엇보다 공들이고 있는 것은 완벽한 AS망의 구축이다.<br><br>이들은 전국 수백여곳에 AS센터와 지정점을 운영하며 꾸준한 직원교육과 지속적인 AS망 확충을 병행하고 있다.<br><br>AS의 내용도 이전처럼 단순한 접수ㆍ처리 업무에만 국한되는 것이 아니다. 이들 업체들은 고객과 만나는 모든 접점을 하나하나 세밀하게 다듬으며 `감동형` 고객 서비스에 앞장서고 있다.<br><br>전담 상담원이 마주앉아 제품이용과 수리 등에 관해 상담해주는 삼성전자의 `일대일 AS`나 AS기사에 대한 정보를 사전에 알려주는 LG전자의 `방문기사 사전 설명제`, 유상수리가 잦은 고객의 비용부담을 덜어주는 팬택앤큐리텔의 `수리비 할인제` 등 여러 고객 서비스 제도들은 고객만족을 극대화하기 위한 고민의 산물이다.<br><br><br>■ 삼성전자 상담원 마주앉아 1대1 AS<br><br>국내 휴대폰 시장 점유율 1위를 기록 중인 삼성전자는 선두업체에 걸맞게 다양하고 이색적인 고객서비스를 선보이고 있다.<br><br>현재 삼성전자는 총 123개의 센터와 403개의 지정점에서 1,300여명의 고객서비스 전문인력을 운용하고 있다. 이를 바탕으로 삼성전자는 고객과 자사 종업원이 마주 앉아 제품이용이나 수리 등과 관련된 상담을 할 수 있는 `일대일 애프터서비스(AS)`를 진행하고 있다. <br><br>또 삼성전자는 고객서비스 담당인력의 교육에도 많은 관심을 기울이고 있다. 현재 삼성전자는 자체 기술연수원인 디지털서비스아카데미의 전문 강사진을 통해 연간 500여명의 서비스 신규 인력을 양성하고 있다. <br><br>업계 최초로 도입한 사이버 서비스센터를 통한 고객 상담 역시 활발히 운영하고 있다. <br><br>현재 삼성전자는 각 센터별로 간단 처리코너를 별도로 마련해 단순한 상담이나 소프트웨어 업그레이드의 경우 번거롭게 기다리지 않아도 바로 서비스를 받을 수 있도록 만들었다.<br><br>삼성전자의 한 관계자는 “전문인력의 양성과 재교육을 통해 기본적인 고객서비스의 질을 향상시키고 있다”며 “이와 함께 선두업체의 위상에 어울리는 다양한 감동형 고객서비스도 추진하고 있다”고 밝혔다.<br><br>실제로 삼성전자는 다른 업체들에 비해 다양한 문화활동 및 스포츠와 관련된 고객서비스를 실시해 고객들을 끌어들이고 있다. <br><br>삼성전자는 지난 1월 세련된 컨셉의 카메라폰 `SPH-E3200`출시를 위한 패션쇼를 개최했다. 이 패션쇼는 10대 후반~20대 중반의 고객들을 겨냥한 것이며, 이들 연령층으로부터 큰 인기를 끌고 있는 스포츠 캐쥬얼 브랜드인 `카파`와 공동으로 진행됐다. <br><br>물론 패션쇼의 중심에는 애니콜 로고가 새겨진 의상과 E3200 제품이 자리잡고 있었다. <br><br>패션쇼 이외에도 삼성전자는 자사 휴대폰을 구입한 고객들을 대상으로 `볼쇼이 서커스 초대`와 스키장 이벤트인 `플레이! 애니콜 화이트 파티`와 같은 이벤트형 고객서비스를 기회 있을 때마다 실시하고 있다. <br><br>보광 휘닉스파크에서 열린 스키장 이벤트에서는 매주 토요일 인기가수를 초청해 콘서트를 열었고, 매일 밤 레이저와 폭죽을 동원한 대형 멀티미디어쇼를 선보였다. 또 애니콜 이용자를 대상으로 경품 이벤트를 펼쳐 최신형 휴대폰ㆍ디지털카메라ㆍ스노보드ㆍ관광상품권 등을 제공하고 있다.<br><br>이번 여름에도 삼성전자는 대형 이벤트형 고객서비스를 통해 고객몰이에 나설 계획이다. <br><br>`2004 아테네 올림픽`의 무선통신 분야 공식 후원사로 활동하고 있는 삼성전자는 21일까지 국내 고객중 추첨을 통해 국내 성화봉송 주자 10명과 그리스 현지 성화봉송 주자 30명을 선발할 예정이다.<br><br><br>■ LG전자 방문기사 사전설명제 눈길<br><br>LG전자는 사내에서 애프터서비스(AS) 기사들을 `감동사`라고 부른다. <br><br>애프터서비스가 고객 감동에 얼마나 큰 영향을 끼치는 지를 회사 전체적으로 얼마나 절실하게 인식하고 있는지를 반영하고 있는 셈이다..<br><br>현재 LG전자는 전국에 120개의 서비스센터를 운영 중이며, 콜센터도 서울ㆍ부산ㆍ대전 등 3곳에서 운영하고 있다. 이곳에서 근무 중인 감동사 인원만 약 3,000명에 이르고 있으며 상담원도 400여명이 활동중이다.<br><br>LG전자가 선보이고 있는 서비스제도 중에서는 `방문기사 사전 설명제`가 대표적인 것으로 꼽힌다. 이 제도는 AS 접수 시점에 방문할 감동사에 대한 정보를 고객에게 제공해 주는 것. 고객에게 회사와 AS 인력에 대한 신뢰도를 높이기 위한 전략인 것이다. <br><br>이와 더불어 LG전자는 내방 고객과 감동사가 1:1로 대면하면서 AS에 대한 자세한 설명을 해 주는 서비스를 강조한다. 불친절 서비스에 대한 요금 환불제 역시 LG전자가 고객서비스를 강조하는 차원에서 마련한 제도.<br><br>LG전자의 고객서비스에서 두드러지는 특징 중 또 하나는 효과적인 고객서비스를 위한 다양한 기술적 시스템을 지원한다는 것이다.<br><br>그 예로는 컴퓨터 지능을 전화기에 추가해 고객과 상담원의 편리한 대화를 지원하는 CTI 시스템과 고객 접점에서 감동사가 PDA를 통해 서비스 기간 전산망을 이용할 수 있도록 하는 MCS 시스템을 들 수 있다.<br><br>LG전자 관계자는 “과학적인 고객 분류를 통한 차별적 AS를 제공할 방침”이라며 “이와 함께 감동사들도 업무능력에 따라 보상을 차등화할 계획”이라고 밝혔다.<br><br>LG전자는 사회봉사 차원의 고객서비스에도 활발히 참여하고 있다.<br><br>지난해 7월 수해가 났을 때, LG전자는 감동사들로 구성된 봉사단을 수해지역에 파견해 수리활동을 펼쳤다.<br><br>또 올해에는 재활용 문화 선도와 불우 이웃을 돕는 게 목적인 `아름다운 나눔장터`의 수선 및 수리센터 파트너로 선정돼 3월 27일부터 매월 1회(9월과 10월은 2회), 총 12회에 걸쳐 무상 서비스를 제공할 예정이다.<br><br>LG전자 관계자는 “올해 판매량을 크게 늘리겠다는 계획을 갖고 있는데, 이를 위해 사회ㆍ문화행사를 통한 고객서비스도 적극적으로 펼칠 예정”이라고 말했다.<br><br><br>■ 팬택&큐리텔 유공자, 장애인 수리비 할인<br><br>팬택&큐리텔은 애프터서비스(AS)를 고객서비스의 핵심으로 여기고 있다.<br><br>이에 따라 팬택&큐리텔은 지속적으로 AS망과 관련인력을 확충하는 데 노력을 기울이고 있다.<br><br>현재 팬택&큐리텔은 전국에 총 190개의 서비스센터를 보유하고 있는데, 대도시는 물론이고 군소단위의 지역에서도 서비스센터를 운영하고 있다. 팬택&큐리텔은 여기에 만족하지 않고, 올해 4개 이상의 서비스센터를 새로 연다는 계획이다. 이미 팬택&큐리텔은 지난해 대대적인 서비스센터 환경 개선을 단행했으며, 서비스센터에서 근무하는 직원들에게 새로운 디자인의 유니폼을 지급했다. <br><br>팬택&큐리텔은 현재 700여명에 이르는 AS 관련 인력을 크게 늘리고 교육도 강화할 계획이다. <br><br>팬택&큐리텔 관계자는 “AS망 만큼 인력들에 대한 교육도 중요하다”며 “1년에 두 번씩 정기적으로 고객지원교육(CS)과 기술교육을 실시하고, 각 AS센터의 관할센터에서도 한달에 한번씩 수시로 교육을 실시하고 있다”고 말했다.<br><br>이 같은 AS 강조 경영에 걸맞게 팬택&큐리텔은 다양한 형태의 AS관련 서비스를 선보이고 있다.<br><br>현재 팬택&큐리텔의 AS 제도 중 가장 돋보이는 건 특정 고객과 행사를 겨냥해 이뤄지는 것들이다. <br><br>팬택&큐리텔은 입학ㆍ피서지ㆍ향토축제 등과 같은 계절형 이벤트성 행사에 적극적이다. 이와 함께 팬택&큐리텔은 국가유공자ㆍ장애자ㆍ생활보호대상자 등과 같은 `특별고객`을 대상으로 한 수리비 할인제도도 운영 중이다.<br><br>이밖에 팬택&큐리텔은 2번 이상 유상 수리를 해야 하는 고객들에게는 수리비의 일정 금액을 할인해 주는 `수리비 고액 고객 할인제도`를 시행하고 있다. 또 출시된 지 3개월 이내의 신제품을 구입한 고객이 제품 사용에 불만을 제기하면 제품을 교환해 주는 제도 `불만 고객 제품교환 제도`도 실시 중이다.<br><br>회사관계자는 “앞으로는 AS와 함께 다른 분야에서의 고객서비스도 적극적으로 선보이겠다”며 “특히 문화와 스포츠 등을 이용한 다채로운 이색 고객서비스를 개발하도록 노력하겠다”고 밝혔다.<br><br>
+							</td>
+						</tr>
+						<tr><td colspan="2" bgcolor="#cacaca"></td></tr>
+						<tr><td colspan="2" bgcolor="#eaeaea" height="5"></td></tr>
+						<tr><td colspan="2" bgcolor="#F2F2f2" height="40" align="right"><a href="index.asp?page=18&sseq=&sword="><img src="/img/prroom/btn_list.gif" height="19" alt="" border="0" hspace="8"></a></td></tr>
+						<tr>
+							<td colspan="2" height="60" style="padding:0 0 0 8">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="21" class="minilist">			
+
+									</td>
+								</tr>
+									<td height="21" class="minilist">
+
+									<img src="/img/bbs/txt_next.gif" width="48" height="11" alt="" border="0" hspace="8"><a href="view.asp?id=1295&num=511&page=18&sseq=&sword="><font class="minilist">[Cover Story] 송문섭 팬텍앤큐리텔 사장 </font></a>
+
+									</td>
+								</table>
+							</td>
+						</tr>
+						</table>
+						<!------- READ End ------------->
+
+						<!-- #####//Contents##### -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,344 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/event.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<SCRIPT type="text/javascript" language="javascript">
+function _del()
+{
+	if( ! confirm( "본 게시물을 정말로 삭제하시겠습니까?" ) )
+		return;
+	document.location.href  = "open_2_1_add_execute.asp?act=delete&idx=71";
+}
+</SCRIPT>
+</head>
+
+<body bgcolor="#ffffff">
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/event/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 830px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/event/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/event/event/openevent02/open01_view.asp?idx=71&num=49&page=4&search_key=&search_value=">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/event/event/openevent02/open01_view.asp?idx=71&num=49&page=4&search_key=&search_value=">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/event/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/event/index.asp" onfocus="this.blur()"><img src="/img/event/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" !class="rightbg" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="597" height="78">
+    <param name="movie" value="/inc/flash/bg/bg_event.swf">
+    <param name="quality" value="high"><param name=wmode value=transparent>
+    <embed src="/inc/flash/bg/bg_event.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="597" height="78"></embed></object></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr> 
+						
+      <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a> 
+        > <a href="/html/event/index.asp">Event</a> > 환상이벤트 > 진행중 이벤트</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="300">
+					               <param name="movie" value="/inc/flash/left/left_event.swf?html_Num=21">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_event.swf?html_Num=21" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="300"></embed></object></td>
+						</tr>
+						<tr><td height="50" style="padding:0 0 0 14">						
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>
+
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="597" valign="top">
+			<table width="597" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+						<!-- #####Contents Start ##### -->
+	                  
+            <table width="557" border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td height="26"> <table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td><img src="/img/event/subimg02_2.gif" width="537" height="97"></td>
+                    </tr>
+                    <tr> 
+                      <td height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td height="26" bgcolor="#F6F8F9"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td><img src="titimg01.gif" width="568" height="337" border="0" usemap="#Map"></td>
+              </tr>
+              <tr>
+                <td><table width="520" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><img src="table01.gif" width="520" height="31"></td>
+                    </tr>
+                    <tr>
+                      <td align="center" background="table03.gif" style="padding:20 0">
+				<!--- 이벤트2 게시판 --->
+						<table width="479" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td colspan="2" height="35" style="padding:0 0 0 20"><font color="#8569BE"><b>그날 나의 그곳(?)엔 문신이 생겼다..^^*<!--얼마나 
+                              So Cool한지.. 견줄자가 없다! 나의 So Cool한 에피소드, 개봉박두~--></b></font></td>
+                          </tr>
+						  <tr> 
+                            <td width="479" colspan="6"> <table height="31" width="100%" border="0" cellspacing="0" cellpadding="0" background="table_view01.gif">
+                                <tr> 
+                                  <td width="40%" style="padding:0 0 0 63"><font color="#FFFFFF"><b>49<!--244--></b></font></td>
+                                  <td width="60%" style="padding:0 0 0 60"><b><font color="#FFFFFF">2004-06-12<!--2004-03-20--></font></b></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="padding:20 10" colspan="6"><font style='font:10pt'>(재미를 위한 약간의(?) 욕설은 애교로 봐주셔요^^*)<br><br>남자들의 아픔. <br><br>무엇이겠는가 아마 많은 남자들이 경험해보았을꺼다. <br><br>꼬치가 자크에 집히는 그 미칠듯한 아픔을 <br><br>-_- <br><br><br><br><br><br>나역시 여러 경험이 있다. <br><br>유독 팬티입기를 귀찮다며 거부해서인지 더 많은지도. <br><br>이제는 거의 안집혀-_- <br><br><br><br><br>그 에피소드중 하나이다. <br><br>그날 난 자리에 일어나 일단 운세를 보았다. <br><br>점같은걸 좋아하는 시니. <br><br><br><br><br><br><br>신이:오늘의 운세를 한번 보아볼까! <br><br><br><br>신이:오호라! 사신이 그대를 죽일지오다! <br><br><br><br>신이:-_- <br><br><br><br><br><br>오늘의 운세는 최악의 운세. <br><br>난 잠시 컴퓨터를 부셔버릴려다가 <br><br>제정신을 긴급하게 차린 후 물을 마시며 집에서 꼼짝말자며 다짐하였고. <br><br>그때 걸려온 한통이 전화. <br><br><br><br><br><br><br>석이:책한권 사세요! <br><br><br><br>신이:네 좋은하루 되세요 뚝-_- <br><br><br><br><br><br>미친 책을 사라니! <br><br>이 책을 너무나 거부하시며 옴팡지게 싫어하는 시니님에게 말이냐! <br><br><br><br><br><br>누군가의 책사란 전화에 난 오늘의 운세를 실감하며 <br><br>담배를 피던 그때 전화는 다시 걸려왔고. <br><br><br><br><br><br>석이:도를 아십니까. <br><br><br><br>신이:도레미파 솔라시도! <br><br><br><br>석이:-_- <br><br><br><br><br><br>전화를 건 놈은 <br><br>나의 절친한 덤앤더머 친구 석이였다 <br><br>-_- <br><br><br><br><br><br>녀석은 심심하다며 백화점을 놀러가자 하였고. <br><br>하지만 난 오늘의 두려운 운세를 겅정하며 <br><br>싫다고 징징 거렸지만 잠시 후. <br><br><br><br><br><br><br>쾅쾅! <br><br>어쿠!빠각!콰아앙!! <br><br><br><br><br><br>문이 부서질듯한 소리 <br><br>전화를 끊은 후 집으로 찾아오신 친구 <br><br>문을 안열자 우리집 문을 열기위해 발로 주차기 시작하셨고. <br><br><br><br><br><br><br>신이:헉 부서지면 니가 돈 물릴꺼냐! <br><br><br><br>석이:사랑해! <br><br><br><br>신이:-_- <br><br><br><br><br><br><br>잠시 문을연후 해맑게 웃는 녀석을 끌어안은뒤. <br><br>복부를 무릎으로 아주 썅 걸레되듯 구타한 후 <br><br>기절해있는 녀석을 질질끌고 방으로 들어왔다. <br><br><br><br><br><br>녀석의 얘기는 이랬다. <br><br>여동생이 백화점을 가자했고 자신은 가기 싫다했지만. <br><br>그 미치신 여동생 님께선 석이가 딸치다 걸린걸 협박하였다한다 <br><br><br><br><br><br><br>근데 혼자 죽기 싫다며 <br><br>나와 함께 죽어달라는 나의 친구. <br><br>-_- <br><br><br><br><br><br>신이:싫다 안가! <br><br><br><br>석이:고기산다! <br><br><br><br>신이:헉!고 고기! <br><br><br><br><br><br><br>고기의 난 내마음이 눈녹듯 녹는게 느껴졌지만 <br><br>그 또라이 여동생과 특히. <br><br>난 여자들 쇼핑을 따라가본 경험이 있으므로 절대 싫다하였고. <br><br><br><br><br><br>석이:씨 씨바!소고기 소고기 어때! <br><br><br><br>신이:친구 그대가 가는데 내가 어디든 못가리요! <br><br><br><br>석이:-_- <br><br><br><br><br><br>그렇게 우린 백화점으로 향하게 되었다. <br><br>소고기다~소고기다~! <br><br>-_- <br><br><br><br><br><br>그래 고기에 약해 <br><br>-_- <br><br><br><br><br><br>미친 여동생님과 함께 <br><br>우린 백화점을 둘러보기 시작했다. <br><br><br><br><br><br>여동생:오빠들 이거어때? <br><br><br><br>신이:이뻐! 아주 썅 상콤한걸! <br><br><br><br>석이:허헐 아리따운 그대는 베이비! <br><br><br><br><br><br><br><br>30분후. <br><br><br><br><br><br>여동생:오빠들 이건? <br><br><br><br>신이:오우 그대는 전지현이 아니신가! <br><br><br><br>석이:헐 난 송혜교로 봤는데? <br><br><br><br><br><br>즐거운 쇼핑~ <br><br>우리는 미소를 지으며 백화점을 둘러보고 다녔고. <br><br><br><br><br><br><br>1시간뒤. <br><br><br><br><br><br>여동생:오빠들 이건? <br><br><br><br>신이:씨바 도전이냐! <br><br><br><br>석이:빨리사라고! 이쁘다고 이쁘다잖아!! <br><br><br><br><br><br>즐거운 쇼핑은 <br><br>시간이 지날수록 점점 <br><br>두남자는 미쳐가기 시작했다 <br><br><br><br><br><br>2시간뒤. <br><br><br><br><br><br><br>여동생:오빠들 걍 첨껄로 살까? <br><br><br><br>신이:헤이 거기 걸!나와 한판 붙으시게! <br><br><br><br>여동생:-_- <br><br><br><br>석이:신이 비켜 내가 저뇬 오늘 죽일꺼야!나 말리지마! <br><br><br><br><br><br><br>우리는 결국 참을성에 한계를 느끼며 <br><br>이젠 화를내기 시작했다. <br><br><br><br><br><br>인간적으로 쇼핑 몇시간 따라다니는거 <br><br>진짜 미칠듯이 피곤하다. <br><br>-_- <br><br><br><br><br><br>3시간뒤. <br><br><br><br><br><br><br>여동생:이걸로 살까 그래 이거다! <br><br><br><br>신이:네네 먼들 안이쁘겠어요?어우 한마리 상콤한 여우시니! <br><br><br><br>석이:훗 호박에 줄긋는다고 수박되나.. <br><br><br><br>여동생:-_- <br><br><br><br>신이:헉 친구 그대 미치신게 아닌가 <br><br><br><br><br><br>갑자기 자신의 여동생에게 용감히 도발하는 석이. <br><br>난 두려움에 잠시 뒤로 주춤거렸고. <br><br>그둘은 결국 사람많은 백화점에서 말싸움을 하고 말았다. <br><br><br><br><br><br><br>하지만.. <br><br><br><br><br><br>여동생:호박에 줄긋는다고 수박되냐고..? <br><br><br><br>여동생:그럼 번데기 포경하면 애벌레되냐! <br><br><br><br>석이:헉 니 니년! <br><br><br><br><br><br>.... <br><br>............ <br><br><br><br><br><br>내 친구 석이의 컴플렉스. <br><br>유난히 짧은 귀여운 꼬치 <br><br>-_- <br><br><br><br><br><br>결국 그 한방에 석이는 울먹거리며 무너졌고. <br><br>난 석이를 위로하기 위해 화장실로가서 둘은 소변을 보며 <br><br>담배를 한대식 빨기 시작했다. <br><br><br><br><br><br>열심히 물을 내리며 <br><br>우린 바지를 입기위해 지퍼를 올렸고. <br><br><br><br><br><br><br>신이:허억 허억!! <br><br><br><br>석이:왜그러시나 똥싸게나! <br><br><br><br>신이:어억 어억!!꺄아아! <br><br><br><br>석이:왜 왜그래 임마 <br><br><br><br><br><br><br>갑자기 엄청난 통증에 난 말을 잇지도 못하며 <br><br>눈으로 나의 거기를 바라보았고. <br><br>아주 썅 제대로 집혀버린 나의 사랑스런 베이비 <br><br><br><br><br><br>거기에선 피까지 흘러나올 정도였고. <br><br>먼일이냐는 석이역시 잠시 후. <br><br><br><br><br><br><br>석이:헉 친구 너의 베이비가 핫도그가 되었네! <br><br><br><br>신이:-_- <br><br><br><br>석이:쿠 쿨럭 미 미안 <br><br><br><br><br><br>엄청난 통증속에 빼볼려고 하였으나. <br><br>나와 내친구의 힘으론 어쩔수없었다. <br><br>그리고 옆에서 웅성거리는 아저씨. <br><br><br><br><br><br><br>아저씨:아주 제대로 집히셨는걸! <br><br><br><br>신이:-_- <br><br><br><br><br><br>걱정스럽게 외치면서도 킬킬 거리시는 아저씨. <br><br>난 그날 살인할뻔했다 <br><br>-_- <br><br><br><br><br><br>신이:아파 아파!썅 아주 옴팡지게 아파! <br><br><br><br>석이:기 기달려!구급차가 널 구원해줄꺼야! <br><br><br><br><br><br><br>... <br><br>첨으로 거기 집혀서 구급차까지 불렀다.. <br><br>잠시후 백화점엔 구급차가 달려왔고.. <br><br><br><br><br><br>난 통증속에서 겨우.. <br><br>부축과 함께 구급차에 탑승하였다.. <br><br><br><br><br>너무나 걱정스럽게 무슨일이냐며 달려오던 <br><br>친구의 여동생. <br><br>사실을 들은 후.. <br><br><br><br><br><br><br>여동생:푸풉 푸푸풉!!아프겠다!! <br><br><br><br>신이:-_- <br><br><br><br><br><br>주 죽여버릴뇬 <br><br>-_- <br><br><br><br><br><br>그렇게 걱정과 웃음속에 <br><br>난 쪽팔리게 병원 응급실로 향했고. <br><br><br><br><br><br><br>의사:어디가 문제이십니까!헉! <br><br><br><br>신이:-_- <br><br><br><br>의사:이거 아주 상콤하게 찝혔는걸! <br><br><br><br><br><br><br>나의 거길 바라보며 <br><br>얘길하는 의사와 징그럽다는듯한 간호사 <br><br>근데 멀 그리 힐끔쳐다봐 <br><br>-_- <br><br><br><br><br><br><br>난 아픔과 쪽팔림에 <br><br>순식간에 이성을 잃으며 막 나가버렸고. <br><br><br><br><br><br><br>신이:빨리 빼기나해 이사람아! <br><br><br><br>의사:헐 머라고요?잘라버리라고요? <br><br><br><br>신이:의사님 잘 부탁드립니다! <br><br><br><br>의사:-_- <br><br><br><br><br><br>그렇게 응급실에 관심과 집중을 받으며 <br><br>난 .. <br><br>시니 꼬치 구하기 작전에 들어갔다. <br><br><br><br><br><br>그리고 얼마 후.. <br><br>난 엄청난 쪽팔림 속에 아픔을 이악물며 참은체. <br><br>친구와 친구의 여동생과 함께 병실을 빠져 나오기 위해 비틀거리며 걷기 시작했고. <br><br><br><br><br><br><br>의사:푸풉 잘가요 조심하고요! <br><br><br><br>간호사:아잉! <br><br><br><br>신이:-_- <br><br><br><br><br><br><br>죽고싶어. <br><br>좆나 쪽팔려 <br><br>-_- <br><br><br><br><br><br><br><br>이루 말할수 없는 쪽팔림속에. <br><br>날 부축하며 키득거리는 두놈을 살포시 째려준 후. <br><br>비틀거리며 걷기 시작한 나. <br><br><br><br><br><br>근데 태글이 걸릴줄이야 <br><br>-_- <br><br><br><br><br>그런 나를 아까부터 관심있게 <br><br>바라보시던 한 꼬마가 다가오셨고 <br><br><br><br><br><br><br>꼬마:꼬치아파?많이 아픈거야? <br><br><br><br>신이:.. <br><br><br><br><br><br><br>이새끼 니가 오늘 죽고싶구나 <br><br>-_- <br><br><br><br><br><br>너무나 해맑게 웃으시며 <br><br>나의 꼬치와 찡그린 얼굴을 번갈아 보시던 꼬마는 <br><br>내 거기를 툭툭 건드시고 이미 주위에선 날 다 쳐다보고 있었다 <br><br><br><br><br><br>신이:이놈의 새끼님 나의 베이비에게서 손을 안떼면 그대는 고자가 되리! <br><br><br><br>꼬마:-_- <br><br><br><br><br><br><br>결국 짜증속에 폭발해버린 난. <br><br>꼬마에게 머라 하였고 <br><br>잠시후 들리는 꼬마의 울음소리. <br><br><br><br><br><br><br>신이:헉 왜울어 이새끼야! <br><br><br><br>꼬마:-_- <br><br><br><br>신이:왜울어 이분아! <br><br><br><br>꼬마:-_- <br><br><br><br><br><br>주위의 시선과 꼬마 부모님들의. <br><br>무서운 눈초리에 난 아주 썅 가식이 풀풀 넘치는 <br><br>사악한 미소를 애써 지으며 꼬마를 달래주기 위해 다가갔고-_- <br><br><br><br><br><br><br>신이:꼬마야 울지마렴!그럼 산타가 선물을 주신단다! <br><br><br><br>꼬마:산타 없어 훗! <br><br><br><br>신이:이 이새끼가 <br><br><br><br>꼬마:몰라 몰라!우앙 형 나빠! <br><br><br><br><br><br><br>퍼억! <br><br><br>........ <br><br><br><br><br><br>나쁘다는 꼬마의 외침과 <br><br>순식간에 나의 자꾸모양을 새긴 상처입은 베이비에게 다가오신 주먹. <br><br>...... <br><br><br><br><br><br>난 나의 베이비에 엄청난 <br><br>통증을 느끼며 <br><br><br><br><br><br><br>신이:허억 허억!! <br><br><br><br>꼬마:메롱! <br><br><br><br>신이:허억 허억 이 이 이새끼!!! <br><br><br><br><br><br><br>.... <br><br>............ <br><br><br><br><br><br>그렇게 난. <br><br>꼬마의 일격에 <br><br><br><br><br><br><br>무릎을 천천히 꿇으며. <br><br>양손을 나의 베이비에 곱게 잡은체.. <br><br>하늘을 보며 울부짖으며 기도했다.. <br><br><br><br><br><br>신이:제발 내 꼬치 좀 가만 나두라고!!! <br><br><br><br><br><br>.... <br><br>.......... <br><br><br><br><br><br>썅 내 베이비는 전생에 먼죄를 진겨 <br><br>-_- <br><br><br><br><br><br>다들 자크 올리실때 조심. <br><br>그리고 <br><br><br><br><br>마지막으로 꼬마분. <br><br>너 나 만나면 <br><br>아주 썅 <br><br><br><br><br><br><br>꼬치에 똥문신을 <br><br>새겨 버릴꺼야 <br><br>****************************<br><br>(이야기가 재밌으셨다면.... 공감!! 꼭 눌러주세요!!!)<br></font><!--세계 최대규모의 정보통신·컴퓨터·사무기기 
+                              전시회인 ‘세빗(CeBIT) 2004’가 독일 하노버에 18일 개막된다.<br>
+                              오는 24일까지 열리는 이번 세빗 전시회에는 전세계 64개국 6400여개의 업체들이 , 
+                              통신·네트<br>
+                              워크·인터넷 솔루션·소프트웨어·사무기기 분야 등에서 첨단기술과 제품을 선보인다. <br>
+                              국내 업체로는 삼성전자·LG전자·팬택계열 등이 독립관을 마련해 휴대폰 단말기와 평면 디스 
+                              플레이 등을 출품한다. 한글과 컴퓨터, 이미지퀘스트 등 정보기술 150여개 업체도 공동관을 
+                              구성 해 IT 관련 신제품을 선보인다.<br>-->
+							</td>
+                          </tr>
+						  <tr>
+                            <td height="1" align="center"><img src="line.gif" width="470" height="1"></td>
+                          </tr>
+						  <tr>
+                            <td align="right" style="padding:15 8 0 0">
+							<a href="javascript:setRecomm(71,'pc_event_open_2_1')"><img src="/img/community/curitellife/oo/btn_sympathy.gif" width="48" height="18" border="0" alt="공감하기"></a>
+							<a href="open01_list.asp?page=4&search_key=&search_value="><img src="/img/btn/btn_list02.gif" width="70" height="18" border="0"></a></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="table02.gif" width="520" height="16"></td>
+                    </tr>
+                  </table>
+				  <table border=0 cellpadding=0 cellspacing="0">
+			<tr><td style="padding:20 0 0 0"><img src="/img/common/notice.gif"  height="43" alt="" border="0"></td></tr></table>	
+				<!--- //이벤트2 게시판 --->
+				 </td>
+              </tr>
+					<tr><td height=40 align=right valign=bottom style="padding:0 40 0 0"><a href="javascript:history.back(-1)"><img src="/html/event/event/tgi/btn_main.gif" width="80" height="26"></a></td></tr>
+            </table>
+            <!-- #####//Contents End ##### -->
+          </td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>
+</div>
+<!-- SubFlash//Only SubMain Exist -->
+<map name="Map">
+<area shape="rect" coords="309,288,477,314" href="open01_write.asp">
+</map>
+</body>
+</html>
+

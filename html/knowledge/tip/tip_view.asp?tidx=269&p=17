@@ -1,0 +1,769 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/knowledge.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+
+	function setRecomm(tidx){
+		if(!window.ifahidden)
+			document.body.innerHTML+="<iframe id=ifahidden style='display:none'></iframe>";
+			ifahidden.location.href="recomm.asp?tidx="+ tidx ;
+	}
+
+
+//-->
+</SCRIPT>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="77" valign="top" style="background:url(/img/knowledge/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 837px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/knowledge/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/knowledge/tip/tip_view.asp?tidx=269&p=17">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/knowledge/tip/tip_view.asp?tidx=269&p=17">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/knowledge/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/knowledge/index.asp" onfocus="this.blur()"><img src="/img/knowledge/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+	<tr> 
+		<td width="77" height="1" bgcolor="#cccccc"></td>
+		<td width="162"></td>
+		<td width="590" bgcolor="#cccccc"><img src="/img/w.gif" width="7" height="1"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;"> 
+		<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr> 
+						
+	 <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a> 
+		> <a href=/html/knowledge/index.asp>지식 Room</a> > 큐리텔 Tip</td>
+				</tr>
+		</table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0" class="mubg_gra">
+	<tr>
+		<td width="77"></td>
+		<td width="156" valign="top" align="right">
+		<!-- LeftMenu -->
+			<table width="148" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="top">
+												<table width="148" cellspacing="0" cellpadding="0" border="0">
+						<!--tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="100">
+					               <param name="movie" value="/inc/flash/left/left_knowledge.swf?html_Num=20">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_knowledge.swf?html_Num=20" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="100"></embed></object></td>
+						</tr-->
+						<tr><td style="padding:0 0 0 14">
+						<table width="119" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="34" valign="bottom"><img src="/img/knowledge/l_title01.gif" width="119" height="16" alt="" border="0"></td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge01.gif" width="119" height="5" alt="" border="0"></td></tr>
+	<tr>
+		<td bgcolor="#E7EDF0" style="padding:2 0 2 10">
+						&#8226;<a href='/html/knowledge/info/info.asp?cate=2'>제품관련<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=5'>프로그램/악세서리<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=6'>웹사이트 이용<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=7'>통신/기술동향<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=8'>A/S 및 서비스센터<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=12'>이벤트<br>
+&#8226;<a href='/html/knowledge/info/info.asp?cate=13'>광고<br>
+	
+		</td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge02.gif" width="119" height="5" alt="" border="0"></td></tr>
+</table>
+
+
+	
+						<!--include virtual = "/inc/asp/left/l_category02.asp" -->
+						
+<table width="119" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="34" valign="bottom"><img src="/img/knowledge/l_title03.gif" width="119" height="17" alt="" border="0"></td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge01.gif" width="119" height="5" alt="" border="0"></td></tr>
+	<tr>
+		<td bgcolor="#E7EDF0" style="padding:2 0 2 10">
+
+		&#8226; citylove<br>
+
+		&#8226; silver225<br>
+
+		&#8226; zoazoa<br>
+
+		&#8226; tkfkaemf<br>
+
+		&#8226; iamjang<br>
+
+		&#8226; bigbippen<br>
+
+		</td>
+	</tr>
+	<tr><td><img src="/img/knowledge/l_edge02.gif" width="119" height="5" alt="" border="0"></td></tr>
+</table>	
+						</td></tr>
+
+						<tr>
+					       <td align="center" style="padding:15 0 0 2"><a href="/html/my/action/room/question.asp"><img src="/img/knowledge/btn_myinfo.gif" width="115" height="27" alt="" border="0"></a></td></tr>
+
+						<tr><td height="50" style="padding:0 0 0 14">
+						<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+						</td></tr>
+						</table>
+
+					</td>
+				</tr>
+				<tr>
+					<td height="5" class="mubg_gra_btm"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="564" valign="top" class="ctsmgn">
+		<!-- #####Contents##### -->			      
+					 <table width="557" cellpadding="0" cellspacing="0" border="0">
+		                <tr> 
+		                    <td height="26">
+							 <table width="537" height="100%" border="0" cellpadding="0" cellspacing="0">
+	                            <tr><td><img src="/img/knowledge/tip/subimg00.gif" width="537" height="97"></td></tr>
+	                            <tr><td height="1"></td></tr>
+	                            <tr><td height="26" bgcolor="#F6F8F9"></td></tr>
+	                        </table>
+							</td>
+		                </tr>
+						<tr> 
+						 <td height="20"></td>
+						</tr>
+						<tr> 
+						 <td style="padding:0 0 0 8">
+<table width="529" border="0" cellspacing="0" cellpadding="0"><tr><td height="29" background="/img/common/tabbg.gif"><a href="tip.asp"><img src="/img/knowledge/tip/tab01_o.gif" width="95" height="30" alt="" border="0"></a><a href="tip.asp?cate=9"><img src="/img/knowledge/tip/tab02.gif" alt="" width="95" height="30" hspace="1" border="0"></a><a href="tip.asp?cate=10"><img src="/img/knowledge/tip/tab03.gif" alt="" width="95" height="30" hspace="1" border="0"></a><a href="tip.asp?cate=11"><img src="/img/knowledge/tip/tab04.gif" alt="" width="95" height="30" hspace="1" border="0"></a></td></tr><tr> 
+<td height="25">&nbsp;</td>
+</tr>
+</table>
+
+</td>
+						</tr>
+						<tr>
+						 <td style="padding:0 0 0 8"> 
+							<!-- BBS -->
+							<table width="530" cellpadding="0" cellspacing="0">
+							 <tr> 
+								<td colspan="4" height="31" style="font-weight:bold;color:#3595B1;padding:0 0 0 10;font-size:9pt"><font color="#FF5F2E">[제품관련]</font> 
+								 P1!! 팔기만하고 책임은 안지는가...</td>
+							 </tr>
+							 <tr> 
+								<td height="16" bgcolor="#F2F2F2" colspan="4"></td>
+							 </tr>
+							 <tr bgcolor="F2F2F2"> 
+								<td width="150" height="31" style="padding:2 0 0 12"><b><font color="#515151">&#8226;</font> 
+								 작성자</b> : hoiribaram</td>
+								<td width="180" style="padding:2 0 0 8"><b><font color="#515151">&#8226;</font> 
+								 등록일</b> : 2004-12-06</td>
+								<td width="100" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font> 
+								 조회수</b> : 517</td>
+								 <td width="100" style="padding:2 0 0 0"><b><font color="#515151">&#8226;</font> 
+								 추천수</b> : 1</td>
+							 </tr>
+							 <tr> 
+								<td height="1" colspan="4" bgcolor="#C9C9C9"></td>
+							 </tr>
+							 <tr> 
+								<td colspan="4" style="padding:25 11;line-height:16px" valign="top"><font style='font:10pt'>P1을 사서 맨처음 발견한 문제는 문자를 쓸때 누르지도 않은 버튼이 심심찮게<br><br>눌러진다는 겁니다..″ㅇ″을 누르고 있는데 엉뚱한 ″ㄴ″이 눌러지질 않나...<br><br>한참 문자쓰고 있는데 방향키가 눌러진듯 엉뚱한 곳으로 이동하질않나..<br><br>문자에서 동영상촬영으로 바로 넘어가질 않나..그래서 서비스센터를 갔더니<br><br>새걸로 교체해 주더군요...왜 교체해줍니까...새것도 똑같던데....<br><br>그담에 발견한건 sd카드를 사서 mp3를 들으며 발생하는 갖가지 문제들...<br><br>mp3를 읽다가 폰이 다운되는 경우도 생기고 랜덤 및 반복은 되지도 않고<br><br>그 담으로 통화내역 확인할때 메시지발신건수는 왜 숫자가 깨져서 나오는겁니까?<br><br>또 왜 P1에는 폰자체의 비밀번호 통화가 없고 잠금을 해버리면 아예<br><br>발신이 제한되어 버리는 거죠? 알아듣지도 못하는 말로 문자읽어주는<br><br>자동음성읽기 기능 같은거 보다 기본적인 거에 더 신경을 써야할텐데...<br><br>P1은 폴더나 슬라이드가 아니기때문에 주머니에 폰을 넣다가 버튼이 눌러지는<br><br>경우가 많이 있습니다..물론 키보호 기능이란게 있지만 설정에 따라 시간이 걸리므로<br><br>실상 종종 눌러지는 경우가 있죠..그때 제일 잘 눌러지는 버튼이<br><br>nateOK버튼입니다...그버튼 두번만 눌러지면 NATE접속 되는거 아시죠?<br><br>나도 모르는 사이에 100분이 넘게 접속이 되어 있었고 10만원의 NATE비용이 나왔습니다..<br><br>NATE접속 방법에 약간의 절차가 더해졌으면 하는데요!!<br><br>그리고 가끔 오른쪽 화살표방향인 mplayon버튼을 누르면 왜 마이벨 보관함으로<br><br>가는거죠?<br><br>이제 지원이 되지않는 mp3벨은 어떻게 책임을 질겁니까?<br><br>sd카드 슬롯은 왜 지원이 되는거죠? 노래 30곡정도만 넣어도<br><br>그거 읽는데 한참을 걸리다가 가끔 다운되어 버리는걸...<br><br>베터리는 왜 그렇게 빨리 닳는 겁니까? 소용량은 그냥 슬림을 자랑하기위한<br><br>장식에 불과한가요? 아님 삐삐건전지 인가요? 그냥 대기상태로도 이틀정도밖에<br><br>못갑니다..<br><br>카메라의 줌기능은 그게 과연 있기는 한겁니까?<br><br>가장 저해상도일때만 그것도 2배줌밖에 안되는거...왜 있나요?<br><br>플래시는 왜 달려있나요? 플래시켜도 하나도 안보이는거...<br><br>왜 안개효과나 세피아 같은 사진 화면 옵션은 찍을때만 그때그때 지정해야 되나요?<br><br>다른 폰들은 찍어논 사진에서도 다 편집가능하던데...<br><br>알람은 왜 가끔씩 소리가 안나나요? 옆에서 불빛만 깜빡거리는거 느끼고<br><br>잠에서 깨는 사람도 다 있나요? 그런사람들 위한 건가요?<br><br>도대체 업그레이드는 왜 하는건가요? 적장 중요한건 하나도 수정안되면서<br><br>왜 쓸데없는걸 만들고 하나요? 저말고도 이런글이 이렇게 많은데..<br><br>뭐 느끼는거 없나요? 업그레이드버전을 만들때 이런글도 좀 참고하고...<br><br>도저히 수습이 안되면 리콜이라도 해야하는거 아닌가요?<br><br>팔가만 하면 그만이라는 후진국형기업인가요?<br><br>어떻게 할 건가요? 이대로 방관할건가요 아님 대책을 마련해 줄건가요?</font></td>
+							 </tr>
+							 <tr> 
+								<td colspan="4" bgcolor="#cacaca"></td>
+							 </tr>
+							 <tr> 
+								<td colspan="4" bgcolor="#eaeaea" height="5"></td>
+							 </tr>
+							 <tr> 
+								<td colspan="4" bgcolor="#F2F2f2" height="40" align="right" style="padding:0 8 0 0">
+								 
+								 <a href="tip.asp?page=17&cate=9"><img src="/img/bbs/btn/btn_list.gif" width="70" alt="" border="0"></a>
+								 
+								 </td>
+							 </tr>
+							</table>
+							<!------- READ End -----추천하기 신고하기 수정하기 삭제 하기 목록보기-------->
+						 </td>
+						</tr>
+						<tr> 
+						 <td height="20"></td>
+						</tr>
+						<tr> 
+						 <td style="padding:0 0 0 8">
+							<!-------------- 코멘트 시작 ---------->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function comm_prcosess(){
+		if(document.comment.comment.value == ""){
+			alert("한줄 리플 내용을 입력해주세요!");
+			document.comment.comment.focus();
+			return false;
+		}
+	}
+
+	function del(div_seq,cidx){
+		if(confirm("정말로 삭제하시겠습니까?")){
+			document.location = "/html/knowledge/comment_process.asp?prc_seq=D&div_seq="+div_seq+"&pidx=269&cidx="+cidx
+		}
+	}
+//-->
+</SCRIPT>
+
+						   <table width="530" cellpadding="0" cellspacing="0" border="0">
+							 <form name="comment" method="post" action="../comment_process.asp" onsubmit="return comm_prcosess(this)">
+							 <tr bgcolor=#F2F2F2> 
+								<td width=62><img src="/img/bbs/i_re.gif" width="72" height="33" alt="" border="0"></td>
+								
+								<td width=383><input type="text" name="comment" style="width:382;border:1px solid #C6C6C6;font-size:8pt" readonly></td>
+								<td width=75>&nbsp;<img src="/img/btn/btn_input.gif" width="70" align=absmiddle onclick="javascrip:alert('로그인해주세요')"></td>
+
+							 </tr>
+							 <input type="hidden" name="div_seq" value="T">
+                             <input type="hidden" name="pidx" value="269">
+							 </form>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>aodtbr 
+								 </b> &nbsp; <font class=em>2005-08-29 오후 12:01:58</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 다 맞는얘깁니다, 제가 하구싶은얘기들만 다쓰셨네여. 지금 전 속에서 불이나서 일두못하구 아침부터 a／s센터 갔다오구 장난아닙니다..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>shyyse 
+								 </b> &nbsp; <font class=em>2005-03-20 오전 12:25:09</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 솔직히 p1 줌 기능은 된건지 안된건지 잘 모를때가 있다는.. 친구 sky im7700은 줌 하니깐 멀리있는것도 화면에 가득찰 정도로 줌이되던데...p1은 그냥 한발짝 앞으로 간것과 줌을 최대로 한 것과 같다는..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>juhee8254 
+								 </b> &nbsp; <font class=em>2005-02-23 오후 5:28:48</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 완죤 님말에 동감~ 사고나서 쓰면서 후회만 100번한다눈~영꽝이야 꽝</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>windsoul107 
+								 </b> &nbsp; <font class=em>2005-02-08 오후 1:18:35</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 P1Boa 님은 분명 큐리텔의 직원이다...</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>iyoon 
+								 </b> &nbsp; <font class=em>2005-02-01 오후 2:39:08</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 짐 이거 살려구 여기저기 알아보구 마지막으로 sd 메모리 얼마나 지원가능하나 알아보구 결정하려던 참인데...이케 리플들이 많으니까 다시 생각하게 되네염..다른덴 잘 쓰고 있단 사람들 많던데...그치만 여기가 더 사실적이겠져...어떡하지...참..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>prmo11 
+								 </b> &nbsp; <font class=em>2005-01-29 오후 6:05:36</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 밑에님 어이없네,ㅋㅋ 큐리텔폰이 꾸져서 그런걸 왜 이글쓰신님한테 머라하시는지,?ㅋㅋ 큐리텔폰 꾸진건 온세상이 다암,ㅋㅋ 그저 싼맛에 써주는것뿐,ㅋㅋ 꾸진 큐리텔에 꾸진 SKT쓰는 내가 젤불쌍하다,ㅋㅋ</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>cancel12 
+								 </b> &nbsp; <font class=em>2005-01-19 오후 3:18:29</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 글쓰신님 이런거 다 따지실라면 사회생활 못합니다 ㅡ 따당합니다 ㅡ 이런거 다 안따지실라면 님이 폰 만들어 쓰셈 네이트버튼 저는 눌린적 지금까지 한번두 없는데 ㅡ 잘 들고댕기면 안 눌립니다  베터리 두개들고다니삼 ㅡ</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>01199847559 
+								 </b> &nbsp; <font class=em>2005-01-09 오전 8:19:24</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 애니콜 쓰다가 이번에 처음으로 펜텍쓴건데 너무 불편한점 많아요 .. ㅠㅠ</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>01199847559 
+								 </b> &nbsp; <font class=em>2005-01-09 오전 8:17:31</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 정말 너무 동감해요!!! 저는 제 핸드폰만 그런줄 알았는데 아니네요 정말 p1 추천해서 샀는데 실망이네요 네이트는 얼마나 또 자주눌리는지 핸드폰 다시보면 접속되있고..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>hoiribaram 
+								 </b> &nbsp; <font class=em>2004-12-19 오후 3:19:49</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 키보호상태 꾹눌러서 하는건 알지만 주머니에서 빼고 넣을때마다 그거 일일이 꾹꾹누르는 사람이 얼마나 될까요?</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>ycbz77 
+								 </b> &nbsp; <font class=em>2004-12-14 오후 5:53:26</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 P1원 모델은 좋은데 흑 ㅠㅠ MP벨소리가 안되는게 흠이예요 ㅠㅠ 팬텍에서 어케좀 해주셨으면 ㅠㅠ</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>led2020 
+								 </b> &nbsp; <font class=em>2004-12-13 오후 2:43:40</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 그리구..왜샀냐구?.....속고산거지..알았음..미쳤다고삽니까?...</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>led2020 
+								 </b> &nbsp; <font class=em>2004-12-13 오후 2:40:54</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 팬택에..바란다...skt서지원안한담...팬택자체서라도..엠피벨지원해라..수시로쓰는벨소리관련컨텐츠를..무책임하게..통신사로떠넘기는태도..방관할수없다..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>led2020 
+								 </b> &nbsp; <font class=em>2004-12-13 오후 2:38:03</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 나머지기능들은..대부분쓰지도않을..조잡스런기능이고..안티글안쓸래안쓸수없습니다..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>led2020 
+								 </b> &nbsp; <font class=em>2004-12-13 오후 2:36:20</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 제가..p1을구매한딱두가지이유.,..끌리는디자인에..mp3벨입니다..일단..mp3벨무용지물이됐고..디자인..써보셨으니아실겁니다..비실용적인디자인임을..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>led2020 
+								 </b> &nbsp; <font class=em>2004-12-13 오후 2:33:39</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 boa님...팬택직원이신듯..ㅋㅋ활동많이하시는군여...글쓰신분심정저도충분히공감합니다..p1디자인쥑입니다..하지만..빛좋은게살구임을boa님은못느끼셨단말입니까?..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>dbgtdbz 
+								 </b> &nbsp; <font class=em>2004-12-10 오후 10:08:01</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 P1 버전 12업그레이드 하시면 위에 내용들 다 고쳐집니다..ㅡ ㅡ 줌기능 부분 더높아졌고,Mp3랜덤버그 등 다고쳐졌습니다</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>joker93 
+								 </b> &nbsp; <font class=em>2004-12-09 오후 10:48:56</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 전..쫌 다른현상인데....반품은 안된다네요.....제품에 특별한 이상이 없지않는한....그리고 큐리텔에서 이런 한분한분 불평에 눈깜짝안한다면....깜짝하게 해야죠...</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>na8936 
+								 </b> &nbsp; <font class=em>2004-12-07 오후 8:09:41</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 키보호 상태는 키보호상태를 해지 할때처럼 꾹누르면 키보호상태로 바뀌는데,그런건 해보지도 않고 이런글 함부로 올리지 마세요.</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>P1BoA 
+								 </b> &nbsp; <font class=em>2004-12-07 오전 3:15:39</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 정말 대단한 안티라 생각됩니다.대체 이런글을 왜 쓰는지..</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>P1BoA 
+								 </b> &nbsp; <font class=em>2004-12-07 오전 3:14:32</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 저도 지금 불편한게 있지만서도 그래도 제가 원해서 산 기계라 만족하고 쓰고 있습니다.세상에 자기 자신에 만족이 되는 100%란 있습니까?제일 가까운 친구일지라도 100%다 맞을 수는 없는것입니다.적어도 세상은..P1왜 사셨는지 이해가 안 되는군요</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td  colspan=3 style="padding:9 13;line-height:16px"> <b>P1BoA 
+								 </b> &nbsp; <font class=em>2004-12-07 오전 3:14:01</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 제가 이래라 저래라 할 처지는 아니지만 이런글 보면 짜증이 납니다.그 쪽에서 이런글 쓴다고 해서 큐리텔이 눈 하나 깜짝할까요?</td>
+							 </tr>
+							 
+							 <tr> 
+								<Td class=dotline colspan=3></TD>
+							 </tr>
+							 
+							 <tr> 
+								<td bgcolor=#F9F9F9 colspan=3 style="padding:9 13;line-height:16px"> <b>P1BoA 
+								 </b> &nbsp; <font class=em>2004-12-07 오전 3:11:58</font>
+								 
+								<!--  <br>	 -->
+								 <img src="/img/b.gif" width="1" height="5"><br>
+								 그럼 P1을 왜 사셨죠?불편한거 없이 일일이 다 본인을 만족시켜주는 기계가 세상에 어디있습니까?차라리 그렇게 불편이 많으면 핸드폰 반품시켜 달라고 하십시오.</td>
+							 </tr>
+							 
+							 <tr> 
+								<td colspan=3 bgcolor=#C8C8C8></td>
+							 </tr>
+							</table>
+							<!-------------- 코멘트 end  ---------->
+							<!-- BBS -->
+						 </td>
+						</tr>
+					 </table> 
+	                  <!-- #####//Contents End ##### -->
+	                </td>
+	              </tr>
+	            </table>
+		</td>
+	</tr>
+</table>
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+
+
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner1.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner1.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>-->
+</div>
+<!-- SubFlash//Only SubMain Exist -->
+</body>
+</html>

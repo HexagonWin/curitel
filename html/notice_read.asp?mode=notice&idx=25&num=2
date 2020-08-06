@@ -1,0 +1,295 @@
+
+
+<html>
+<head>
+	<TITLE>'So Cool!',	PANTECH&CURITEL </TITLE>
+	<link rel="STYLESHEET" type="text/css" href="/inc/css/common.css">
+<script language="javascript">
+<!--
+// 버튼의 크기와 길이 부분은 눈에느 보이지 않음..
+var upH = 9; // 상단 버튼의 세로크기
+var upW = 9; // 상단 버튼의 가로크기
+var downH = 9; // 하단 버튼의 세로크기
+var downW = 9; // 하단 버튼의 가로크기
+var dragH = 71; // 드래그 버튼의 세로길이
+var dragW = 9; // 드래그 버튼의 가로길이
+var scrollH = 269; // 스크롤 부분 길이
+
+var speed = 5; // 스크롤 속력
+
+var dom = document.getElementById ? true:false;
+var nn4 = document.layers ? true:false;
+var ie4 = document.all ? true:false;
+
+var mouseY;
+var mouseX;
+
+var clickUp = false;
+var clickDown = false;
+var clickDrag = false;
+var clickAbove = false;
+var clickBelow = false;
+
+var timer = setTimeout("",500);
+var upL;
+var upT;
+var downL;
+var downT;
+var dragL;
+var dragT;
+var rulerL;
+var rulerT;
+var contentT;
+var contentH;
+var contentClipH;
+var scrollLength;
+var startY;
+
+
+function down(e){
+	if((document.layers && e.which!=1) || (document.all && event.button!=1)) return true; 
+	getMouse(e);
+	startY = (mouseY - dragT);
+	
+	if(mouseX >= upL && (mouseX <= (upL + upW)) && mouseY >= upT && (mouseY <= (upT + upH))){
+		clickUp = true;
+		return scrollUp();
+	}	
+	else if(mouseX >= downL && (mouseX <= (downL + downW)) && mouseY >= downT && (mouseY <= (downT + downH))){
+		clickDown = true;
+		return scrollDown();
+	}
+	else if(mouseX >= dragL && (mouseX <= (dragL + dragW)) && mouseY >= dragT && (mouseY <= (dragT + dragH))){
+		clickDrag = true;
+		return false;
+	}
+	else if(mouseX >= dragL && (mouseX <= (dragL + dragW)) && mouseY >= rulerT && (mouseY <= (rulerT + scrollH))){
+		if(mouseY < dragT){
+			clickAbove = true;
+			clickUp = true;
+			return scrollUp();
+		}
+		else{
+			clickBelow = true;
+			clickDown = true;
+			return scrollDown();
+		}
+	}
+	else{
+		return true;
+	}
+}
+
+function move(e){
+	if(clickDrag && contentH > contentClipH){
+		getMouse(e);
+		dragT = (mouseY - startY);
+		
+		if(dragT < (rulerT))
+			dragT = rulerT;		
+		if(dragT > (rulerT + scrollH - dragH))
+			dragT = (rulerT + scrollH - dragH);
+		
+		contentT = ((dragT - rulerT)*(1/scrollLength));
+		contentT = eval('-' + contentT);
+
+		moveTo();
+		
+		if(ie4)
+			return false;
+	}
+}
+
+function up(){
+	clearTimeout(timer);
+	clickUp = false;
+	clickDown = false;
+	clickDrag = false;
+	clickAbove = false;
+	clickBelow = false;
+	return true;
+}
+
+function getT(){
+	if(ie4)
+		contentT = document.all.content.style.pixelTop;
+	else if(nn4)
+		contentT = document.contentClip.document.content.top;
+	else if(dom)
+		contentT = parseInt(document.getElementById("content").style.top);
+}
+
+function getMouse(e){
+	if(ie4){
+		mouseY = event.clientY + document.body.scrollTop;
+		mouseX = event.clientX + document.body.scrollLeft;
+	}
+	else if(nn4 || dom){
+		mouseY = e.pageY;
+		mouseX = e.pageX;
+	}
+}
+
+function moveTo(){
+	if(ie4){
+		document.all.content.style.top = contentT;
+		document.all.ruler.style.top = dragT;
+		document.all.drag.style.top = dragT;
+	}
+	else if(nn4){
+		document.contentClip.document.content.top = contentT;
+		document.ruler.top = dragT;
+		document.drag.top = dragT;
+	}
+	else if(dom){
+		document.getElementById("content").style.top = contentT + "px";
+		document.getElementById("drag").style.top = dragT + "px";
+		document.getElementById("ruler").style.top = dragT + "px";
+	}
+}
+
+function scrollUp(){
+	getT();
+	
+	if(clickAbove){
+		if(dragT <= (mouseY-(dragH/2)))
+			return up();
+	}
+	
+	if(clickUp){
+		if(contentT < 0){		
+			dragT = dragT - (speed*scrollLength);
+			
+			if(dragT < (rulerT))
+				dragT = rulerT;
+				
+			contentT = contentT + speed;
+			if(contentT > 0)
+				contentT = 0;
+			
+			moveTo();
+			timer = setTimeout("scrollUp()",25);
+		}
+	}
+	return false;
+}
+
+function scrollDown(){
+	getT();
+	
+	if(clickBelow){
+		if(dragT >= (mouseY-(dragH/2)))
+			return up();
+	}
+
+	if(clickDown){
+		if(contentT > -(contentH - contentClipH)){			
+			dragT = dragT + (speed*scrollLength);
+			if(dragT > (rulerT + scrollH - dragH))
+				dragT = (rulerT + scrollH - dragH);
+			
+			contentT = contentT - speed;
+			if(contentT < -(contentH - contentClipH))
+				contentT = -(contentH - contentClipH);
+			
+			moveTo();
+			timer = setTimeout("scrollDown()",25);
+		}
+	}
+	return false;
+}
+
+function reloadPage(){
+	location.reload();
+}
+
+function eventLoader(){
+	if(ie4){
+		upL = document.all.up.style.pixelLeft;
+		upT = document.all.up.style.pixelTop;		
+		downL = document.all.down.style.pixelLeft;
+		downT = document.all.down.style.pixelTop;
+		dragL = document.all.drag.style.pixelLeft;
+		dragT = document.all.drag.style.pixelTop;		
+		rulerT = document.all.ruler.style.pixelTop;		
+		contentH = parseInt(document.all.content.scrollHeight);
+		contentClipH = parseInt(document.all.contentClip.style.height);
+	}
+	else if(nn4){
+		upL = document.up.left;
+		upT = document.up.top;		
+		downL = document.down.left;
+		downT = document.down.top;		
+		dragL = document.drag.left;
+		dragT = document.drag.top;		
+		rulerT = document.ruler.top;
+		contentH = document.contentClip.document.content.clip.bottom;
+		contentClipH = document.contentClip.clip.bottom;
+	}
+	else if(dom){
+		upL = parseInt(document.getElementById("up").style.left);
+		upT = parseInt(document.getElementById("up").style.top);
+		downL = parseInt(document.getElementById("down").style.left);
+		downT = parseInt(document.getElementById("down").style.top);
+		dragL = parseInt(document.getElementById("drag").style.left);
+		dragT = parseInt(document.getElementById("drag").style.top);
+		rulerT = parseInt(document.getElementById("ruler").style.top);
+		contentH = parseInt(document.getElementById("content").offsetHeight);
+		contentClipH = parseInt(document.getElementById("contentClip").offsetHeight);
+		document.getElementById("content").style.top = 0 + "px";
+		
+	}
+	scrollLength = ((scrollH-dragH)/(contentH-contentClipH));
+	if(nn4){
+		document.captureEvents(Event.MOUSEDOWN | Event.MOUSEMOVE | Event.MOUSEUP);
+		window.onresize = reloadPage;
+	}
+	document.onmousedown = down;
+	document.onmousemove = move;
+	document.onmouseup = up;
+}
+//-->
+</script>
+</head>
+
+<body style="margin:0" bgcolor="#ECECEC" onLoad="eventLoader();">
+
+<div id="contentClip" style="position: absolute;left:0;top:0;width: 237px; height: 287px; clip:rect(0px,258px,287px,0px); visibility: visible; z-index: 5; overflow: hidden;">
+<div id="content" style="position: absolute;z-index:6;">
+	<table width="237" border="0" cellspacing="0" cellpadding="0">
+
+	<tr><td align=center style="padding:5 0 15 0">
+			<table border=0 width=210 style="margin-top:5">
+			<tr><td align="right"><a href="/html/notice.asp"><img src="/img/main/btn_close.gif" width="28" height="11" alt="" border="0"></a></td></tr>
+			<tr><td valign=top style="font-weight:bold;line-height:17px">
+				<font color=#2084B8>[ 2004-06-09 오전 7:17:54 ]</font><br>
+				새로운 큐리텔의 새로운 정책에 대해 알려드립니다.
+			</td></tr>
+			<tr><td bgcolor=#D4D4D4></td></tr>
+			<tr><td style="padding:5 0">
+				<b>* Curi란 무엇인가요?</b><br><u>- 현금처럼 사용할 수 있는 포인트의 새로운 이름입니다.</u>  <br>Curi(큐리)는 큐리텔의 새로운 포인트의 단위로, 회원님의 활동상황에 따라 적립되는 큐리텔 사이트의 포인트입니다. 적립한 Curi(큐리)로 각종 모바일 컨텐츠 전송, 문자메세지 발송, 큐리 경매 등 다양한 서비스를 활용하실 수 있습니다. 기존 회원님께서 적립하셨던 Point는 새로운 제도 개편에 따라, 10Point가 1Curi로 환산하여 돌려드립니다.<br><br><b>* Battery란 무엇인가요?</b><br><u>- 회원등급을 한 단계 올릴 수 있는 큐리텔 활동지수입니다. </u> <br>Battery(밧데리)는 큐리텔 회원들의 활동지수를 나타내는 단위입니다. 사이트 내의 활동량에 따라 Curi(큐리)와 동시에 Battery(밧데리)가 쌓이며, Curi(큐리)는 사용에 따라 줄어들지만 Battery(밧데리)는 감소되지 않고 계속 쌓이게 됩니다. 쌓아놓은 Battery(밧데리)는 등급결정 요소로 사용되며, 1000 Battery(밧데리)가 되면 ‘큐리안 매니아’로 등급이 상승될 수 있습니다<br><br><b>* 큐리텔 회원 등급 안내</b><br> <u>- 큐리텔 회원은 현재 3등급으로 나뉘어 있습니다.</u><br>큐리텔 사이트에 가입한 모든 회원님은 큐리안(Curian)이라는 명칭을 부여 받게 됩니다. 큐리안(Curian)이라는 명칭을 중심으로 큐리텔 제품을 사용하지 않는 일반회원 ‘큐리안 피플’, 큐리텔 제품을 사용하시는 정회원 ‘큐리안 패밀리’, 그리고 ‘큐리안 패밀리’가 사이트 활동지수인 밧데리(Battrery)를 10개(1000Battery) 획득했을 경우 상승되는 ‘큐리안 매니아’로 분류됩니다. <br><br>■ 큐리안 피플<br>회원기준 : 큐리텔 제품을 사용하지 않지만 큐리텔 사이트 활동을 원하시는 분.<br>활동범위 : 큐리텔 사이트의 모든 메뉴를 조회할 수는 있으나, [매니아 라이프]나 [폰데코] 등 일부 서비스는 제한. <br><br>■ 큐리안 패밀리<br>회원기준 : 회원가입 시 큐리텔 제품의 일련번호를 입력하신 분.<br>활동범위 : 큐리텔 사이트에서 [매니아 라이프]를 제외한 모든 메뉴 사용가능. <br><br>■ 큐리안 매니아<br>회원기준 : 큐리안 패밀리 회원이 Battrery를 10개(1000Battery) 충천할 경우 큐리텔매니아로 승급.<br>활동범위 : [매니아 라이프]를 비롯한 모든 서비스를 자유롭게 사용할 수 있으며 매달 3회의 [폰데코] 컨텐츠 무료 다운로드와 특별 혜택을 부여.<br>
+			</td></tr>
+			<tr><td align=right><a href="notice.asp"><img src="/img/main/btn_list.gif" width="47" height="10"></a></td></tr>
+			</table>
+	</td></tr>
+	</table>
+</div>
+</div>
+
+						
+<div id="etc" style="position: absolute; top: 0px; left: 237px; width: 8px; height: 271px;">
+<img src="/img/main/bg_scrollbar.gif" width="9" height="286" border="0">
+</div>						
+<!-- 상단 버튼 이미지 레이어 //-->
+<div id="up" style="cursor:hand;position: absolute; top:0px; left: 237px; width: 9px; height: 9px; z-index: 1"><img src="/img/main/arw_up.gif" width="9" height="9" alt="" border="0"></div>
+
+<!-- 하단 버튼 이미지 레이어 //-->
+<div id="down" style="cursor:hand;position: absolute; top:278px; left: 237px; width: 9px; height: 9px; z-index: 2"><img src="/img/main/arw_dwn.gif" width="9" height="9" alt="" border="0"></div>
+
+<!-- 드래그 버튼 이미지 레이어 //-->
+<div id="drag" style="cursor:hand;position: absolute; top:9px; left: 237px; width: 9px; height: 71px; z-index: 3">
+<img src="/img/main/scrollbar.gif" width="9" height="71" alt="" border="0">
+</div>
+<div id="ruler" style="position: absolute; top:9px; left: 237px; width: 9px; height: 270px; z-index: 4;"></div>		
+</body>
+</html>

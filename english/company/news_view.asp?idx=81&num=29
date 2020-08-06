@@ -1,0 +1,159 @@
+
+<html>
+<head>
+<title>Curitel - The Power to be Your Best</title>
+
+<link href="/english/common/css/eng.css" rel="stylesheet" type="text/css">
+<script language='javascript' src="/english/common/js/model.js"></script>
+<script language='javascript' src="/english/common/js/URL.js"></script>
+<script language='javascript' src="/english/common/js/open_m04.js"></script>
+</head>
+
+<body marginwidth="0" marginheight="0">
+<!--수정 시작--><script language='javascript' src="/english/common/js/top.js"></script><!--수정 끝-->
+<table width="770" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr valign="top"> 
+    <td width="14" bgcolor="#DCD6C6"><img src="/english/images/blank.gif" width="14" height="1"></td>
+    <td style="padding:0 5 0 3"><img src="/english/company/images/title.gif" width="149" height="120"></td>
+    <!--수정 시작--><td width="404"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="404" height="120">
+  <param name="movie" value="/english/common/flash/t_company.swf">
+  <param name="quality" value="high">
+  <param name="menu" value="false">
+  <embed src="/english/common/flash/t_company.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="404" height="120"></embed></object></td><!--수정 끝-->
+    <td width="8" bgcolor="#DCD6C6"><img src="/english/images/blank.gif" width="8" height="1"></td>
+    <td width="11"><img src="/english/images/blank.gif" width="11" height="1"></td>
+    <td width="158" height="120" background="/english/images/quick_bg.gif" style="padding:7 22 0 13"> 
+      <!--Quick menu-->
+      <script language='javascript' src="/english/common/js/quickmenu.js"></script></td>
+    <td width="18"><img src="/english/images/blank.gif" width="18" height="1"></td>
+  </tr>
+  <tr> 
+    <td height="1" colspan="7"></td>
+  </tr>
+</table>
+<table width="770" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr valign="top"> 
+    <td class="l_px"><script language='javascript' src="/english/common/js/left_company.js"></script></td>
+    <td class="m_px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="393" height="20" valign="top" class="location"><a href="javascript:Fn_Home()">Home</a> 
+            &gt; <a href="javascript:Fn_Company()">Company</a> &gt; <font class="location_o">NEWS Center</font></td>
+          <td width="169" rowspan="3" align="right" valign="top"><table width="158" border="0" cellspacing="0" cellpadding="0">
+              <tr valign="top"> 
+                <td height="30" bgcolor="#D2DCE2" style="padding:8 0 0 8"><img src="/english/images/tit_search.gif" width="115" height="13"></td>
+              </tr>
+              <form>
+                <tr valign="top"> 
+                  <td height="53" bgcolor="#D2DCE2" style="padding:0 0 0 10"> 
+                    <Script Language='JavaScript'> 
+<!-- 
+document.write("<select class='input02' name='"+FirstSelectName+"' onChange='CreateSecondSelect()'>"); 
+for(var i=0; i < FirstSelectText.length; i++) 
+document.write("<option value='"+FirstSelectValue[i]+"'>"+FirstSelectText[i]+"</option>"); 
+document.write("</select>"); 
+//--> 
+</script> <br> <img src="images/blank.gif" width="1" height="5"><br> <Script Language='JavaScript'> 
+<!-- 
+document.write("<select class='input02' name='"+SecondSelectName+"' onChange='ChangeURL(this.options[this.selectedIndex].value)'>"); 
+document.write("<option value=''></option>"); 
+document.write("</select>"); 
+
+CreateSecondSelect(); 
+//--> 
+</script></td>
+                </tr>
+              </form>
+            </table></td>
+        </tr>
+        <tr> 
+          <td height="25" background="/english/images/tit_bg.gif"></td>
+        </tr>
+        <tr> 
+          <td height="38" background="/english/images/tit_bg02.gif"><img src="/english/company/images/title04.gif" width="123" height="38"></td>
+        </tr>
+        <tr> 
+          <td height="16" colspan="2"></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="2">
+            <!--NEWS View 테이블 시작-->
+            <table width="543" border="0" cellspacing="0" cellpadding="0">
+              <tr align="center"> 
+                <td colspan="2" width="65" height="21" class="bbs01">No.</td>
+                <td colspan="2" class="bbs02" width="388">Title</td>
+                <td width="90" class="bbs02_1">Date</td>
+              </tr>
+			  <tr>
+			    <td colspan="2"><img src="/english/images/blank.gif" width="55" height="1"></td>
+				<td colspan="2"><img src="/english/images/blank.gif" width="388" height="1"></td>
+				<td><img src="/english/images/blank.gif" width="100" height="1"></td>
+			  </tr>
+              <tr> 
+                <td width="55" height="21" align="center">29</td>
+				<td valign="bottom"><img src="/english/images/bbs_line.gif"></td>
+                <td align="left" style="padding:5 10" width="388"><font class="title01">Pantech Co. & SKY Teletech Announce Plans for Merger</font> </td>
+				<td valign="bottom"><img src="/english/images/bbs_line.gif"></td>
+                <td width="100" align="center">Aug.29,2005</td>
+              </tr>
+			  <tr class="bbs05"> 
+                <td height="1" colspan="5"><img src="/english/images/blank.gif"></td>
+              </tr>
+              <tr class="bbs03"> 
+                <td colspan="2" height="21" align="center">&nbsp;</td>
+                <td colspan="3" align="left" style="padding:5 10">SEOUL, August 29, 2005 - Pantech Co., an affiliate of the Pantech group, one of the world’s leading mobile communications groups, announced today that it has decided to merge with SKY Teletech Co., another unit of the group, to facilitate the overall goal of the group becoming one of the world’s top five mobile handset manufacturers.<br>
+<br>
+Pantech Co. and SKY Teletech approved the planned merger at their respective board meetings today. The companies expect to complete the merger - with the two organizations being combined under the Pantech brand name - by the end of this year, after shareholder approval.<br>
+<br>
+Sung-Kyu Lee, President & CEO, Pantech Co., Ltd., said: “With the completion of this merger, we will have moved one step closer to achieving our overarching goal of the group becoming one of the world’s top five global handset manufacturers.” <br>
+<br>
+“Pantech has the GSM technology and know-how of opening up new opportunities in global markets, while SKY Teletech has a strong brand in the local CDMA market. We can expect significant synergies through the combination of the two organizations, as well as economies of scale,” said Mr. Lee.<br>
+<br>
+The merger will also help to enhance the Pantech brand through the combination of the R&D prowess of the two companies and by introducing SKY Teletech’s proven design and marketing capacity to sophisticated users in the global premium market. Due to innovative handset functionality and attractive styling, SKY has been one of the most popular premium brands in the Korean market in recent years.<br>
+<br>
+Pantech&Curitel Communications Inc., another unit of the Pantech group, acquired 60 per cent of the shareholding of SKY Teletech - formerly known as SK Teletech Co. - from SK Telecom, Korea’s leading mobile service provider, in May.<br>
+<br>
+Pantech Co. and SKY Teletech will be merged at a ratio of 11.59 to 1. One SKY Teletech share will be exchanged for new 11.59 Pantech Co. shares.<br>
+<br>
+<br>
+*** more ***<br>
+Pantech&Curitel Communications Inc. will be the largest shareholder in the newly integrated Pantech Co., followed by SK Telecom. As the second largest shareholder, SK Telecom is expected to help Pantech to strengthen its strong foothold in local and overseas markets.<br>
+<br>
+The Pantech Group is Korea’s second largest mobile phone manufacturer in terms of handset sales and the world’s seventh largest. Pantech, as a group, expects to export handsets to more than 51 countries worldwide.<br>
+<br>
+About Pantech:<br>
+Pantech, through its affiliates - Pantech Co., Ltd. and Pantech&Curitel Communications, Inc. - is one of the world’s leading providers of mobile communications solutions. The affiliates are collectively better known as “Pantech”. Pantech Co., Ltd. was set up in 1991 as a pager manufacturer within a rapidly expanding market. In August 1997, Pantech Co., Ltd. was listed on the Korea Stock Exchange and moved into the development and production of CDMA and GSM handsets. Pantech&Curitel Communications, Inc., which is also publicly traded on the Korea Stock Exchange, has been developing industry leading Analog, CDMA, and GSM/GPRS products since the 1980s. In May 2005, Pantech&Curitel Communications, Inc. acquired a majority shareholding in SK Teletech Co., Ltd., the handset manufacturing arm of SK Telecom. SK Teletech specializes in mobile communications terminals and maintains the well known SKY handset brand. Pantech, through its affiliates, has been responsible for a number of breakthrough innovations in the mobile technology sector, including the introduction in 2004 of the world’s first fingerprint recognition camera phone, as well as award winning camcorder and MP3 phones. Pantech collectively has more than 5,000 employees and a total of 20 regional sales offices worldwide. For more information on Pantech, please visit www.pantech.com and/or www.curitel.com.<br>
+<br>
+Media Contacts:<br>
+<br>
+Pantech<br>
+In Soo Nam     nam.insoo@pantech.co.kr     +822-3774-7203<br>
+Julie Kim      julieykim@pantech.com	      +822-3774-7536 <br>
+Eun Sil Koh    summer1004@pantech.co.kr    +822-3774-8366<br>
+John Hwang     jfk001mark2@pantech.co.kr   +822-3774-8369<br>
+</td>
+              </tr>
+              <tr class="bbs05"> 
+                <td height="2" colspan="5"></td>
+              </tr>
+		              
+			  <tr> 
+                <td colspan="2" height="27" align="center" class="list">&nbsp;</td>
+                <td colspan="2" height="49" class="list"><img src="/english/images/bbs/btn_next.gif" width="12" height="8" align="absmiddle">Prev<img src="/english/images/bbs/line.gif" width="1" height="11" hspace="9" vspace="3" align="absmiddle"><a href="news_view.asp?idx=80&num=28">Pantech Launches All New Stylish, Slim Bar-Type Phone Aimed at Trend Leaders</a><br> <img src="/english/images/bbs/btn_next.gif" width="12" height="8" align="absmiddle">Next<img src="/english/images/bbs/line.gif" width="1" height="11" hspace="9" vspace="3" align="absmiddle"><a href="news_view.asp?idx=82&num=30">Pantech Launches New “Dica” PG-8000 Camera Phone</a></td>
+                <td height="50" align="right" valign="bottom" class="list"><a href="news_list.asp?page="><img src="/english/images/bbs/btn_list.gif" width="43" height="15" hspace="24" vspace="9" border="0"></a></td>
+              </tr>
+              <tr class="bbs04"> 
+                <td height="2" colspan="5"></td>
+              </tr>
+            </table>
+            <!--NEWS View 테이블 끝-->
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<script language='javascript' src="/english/common/js/copy.js"></script>
+<script language='javascript' src="/english/common/js/topbtn.js"></script>
+<script language='javascript' src="/english/common/js/topbtn_s.js"></script>
+</body>
+</html>
+ 

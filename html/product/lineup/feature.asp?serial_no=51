@@ -1,0 +1,545 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/product.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<script language="javascript" src="/inc/js/product/DropDown.js"></script>
+<script language="javascript" src="/inc/js/product/OpMenu02.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="66" valign="top" style="background:url(/img/product/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/product/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/product/lineup/feature.asp?serial_no=51">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/product/lineup/feature.asp?serial_no=51">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/product/titleleftbg.gif">
+					
+					<embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65>
+					</td>
+					<td width="164" align="right"><a href="/html/product/index.asp" onfocus="this.blur()"><img src="/img/product/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:197;width:596;height:15;z-index:10;">
+    <table cellpadding="0" cellspacing="0" border="0" align="right">
+        <tr>
+            <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+                > <a href="/html/product/index.asp">Product</a> > <a href="/html/product/lineup/index.asp">제품소개</a> > <a href="/html/product/lineup/LGT.asp">LGT</a> > PG-L8000 > 제품특징</td>
+        </tr>
+    </table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td valign="top" align="right">
+		<script>
+	function goWish(pro){
+		df = document.procForm;
+		
+				confirmLogin();			
+		
+	}
+	function goList(service,page){
+		var nUrl;
+		if(service=="SKT")
+			nUrl = 'skt.asp';
+		if(service=="KTF")
+				nUrl = 'ktf.asp';
+		if(service=="LGT")
+				nUrl = 'lgt.asp';
+		if(service=="")
+				nUrl = 'index.asp';
+		nUrl = nUrl + '?page='+page;
+		location.href=nUrl;
+	}
+</script>
+<!-- LeftMenu -->
+<table width="232" height="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr> 
+        <td valign="top" style="padding:50 0 0 0"><!--좌측 상단 이미지 : --><img src="http://file.curitel.com/upload/product/page/leftimg_type1.gif" width="77" height="279" alt="" border="0"></td>
+		<td valign="top" align="right"> 
+			<table width="155" cellspacing="0" cellpadding="0" border="0">
+<tr>
+	<td align="right"><a href="javascript:choiceMenu(1,'');" onFocus="this.blur()"><img src="/img/product/lineup/addmenu.gif" width="148" height="17" alt="" border="0"></a></td>
+</tr>
+<tr id="subMenuBlock1" style="display:none;margin:0px;border:0px;">
+	<td height="150" style="background:url(/img/common/topmenubg02.gif) repeat-y right top">
+							<table width="148" cellspacing="0" cellpadding="0" border="0" align="right">
+						<tr>							
+					       <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="350">
+					               <param name="movie" value="/inc/flash/left/left_product.swf?html_Num=00">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_product.swf?html_Num=00" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="350"></embed></object></td>
+						</tr>
+						</table></td>
+</tr>
+<tr><td height="4" align="right"><img src="/img/product/lineup/addmu02.gif" width="148" height="4" alt="" border="0"></td></tr>
+</table>
+<table width="155" cellpadding="0" cellspacing="0">
+	<tr>
+		<td style="padding:29 0 0 0"><!-- 제품이름 ---><img src="http://file.curitel.com/upload/product/page/pg_l8000.gif" width="155" height="37" alt="" border="0"></td></tr>
+	<tr>
+		<td style="padding:0 0 0 18"><img src="/img/product/lineup/titlebar.gif" width="127" height="5" alt="" border="0"></td>
+	</tr>
+	<tr>
+		<td style="padding:0 0 0 23">
+			<table width="116" cellpadding="0" cellspacing="0">
+				<tr><td height="16"></td></tr>
+
+				<tr id="tr_menu_1">
+					<td><a href="/html/product/lineup/product.asp?serial_no=51" onMouseOver="changemu('1','on');" onmouseout="changemu('1','off');"><img src="/img/product/lineup/left01.gif" width="116" height="28" alt="" border="0" name="left1"></a></td>
+				</tr>
+				<tr id="tr_line_1"><td height="1" bgcolor="#DBDCDD"></td></tr>
+
+				<tr>
+					<td><a href="/html/product/lineup/feature.asp?serial_no=51" onMouseOver="changemu('2','on');" onmouseout="changemu('2','off');"><img src="/img/product/lineup/left02.gif" width="116" height="28" alt="" border="0" name="left2"></a></td>
+				</tr>
+				<tr><td height="1" bgcolor="#DBDCDD"></td></tr>
+				<tr>
+					<td><a href="/html/product/lineup/function.asp?serial_no=51" onMouseOver="changemu('3','on');" onmouseout="changemu('3','off');"><img src="/img/product/lineup/left03.gif" width="116" height="28" alt="" border="0" name="left3"></a></td>
+				</tr>
+				<tr><td height="1" bgcolor="#DBDCDD"></td></tr>
+				<tr>
+					<td><a href="/html/product/lineup/package.asp?serial_no=51" onMouseOver="changemu('4','on');" onmouseout="changemu('4','off');"><img src="/img/product/lineup/left04.gif" width="116" height="28" alt="" border="0" name="left4"></a></td>
+				</tr>
+				<tr><td height="1" bgcolor="#DBDCDD"></td></tr>
+				<tr>
+					<td><a href="/html/product/lineup/accessory.asp?serial_no=51" onMouseOver="changemu('5','on');" onmouseout="changemu('5','off');"><img src="/img/product/lineup/left05.gif" width="116" height="28" alt="" border="0" name="left5"></a></td>
+				</tr>
+				<tr><td height="48"></td></tr>
+			</table>
+		
+			<script>
+				document.all.tr_menu_1.style.display = "none";
+				document.all.tr_line_1.style.display="none";
+			</script>
+		
+		</td>
+	</tr>
+	<tr><td height="89"></td></tr>
+	
+	<tr><td height="50" style="padding:0 0 0 14">
+	<script>
+	function downCatalog(){
+		form = document.catalogForm;
+		catalogFile  = form.catalogue.options[form.catalogue.selectedIndex].value;
+		download("product/down/catalog/"+catalogFile);
+	}
+</script>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<!--<tr>
+		<td height="20" valign="top"><img src="/img/common/tit_catalogue.gif" width="116" height="7" alt="" border="0"></td>
+	</tr>-->
+	<tr><td height="27" style="background:url(/img/common/bg_catalogue.gif) no-repeat left top;padding:4 0 0 25;border-bottom:1px solid #ffffff">
+	<form name="catalogForm">
+	<select name=catalogue width="93" onChange="downCatalog()" bgcolor="#FFFFFF"  bordercolor="#ffffff">
+		<option value="">카탈로그선택</option>
+		<option value="2005가을.pdf">2005 가을호</option>
+		<option value="2005여름.pdf">2005 여름호</option>
+		<option value="2005봄.pdf">2005 봄호</option>
+		<option value="겨울종합카다로그.zip">2004 겨울호</option>
+		<option value="2004가을종합카다로그.zip">2004 가을호</option>
+		<option value="6월호 종합카달로그[1].pdf.zip">2004 여름호</option>
+	</select>
+	</form><script>setSelectBox("catalogue")</script>
+	</td></tr>
+	<tr><td height="13"></td></tr>
+</table>
+
+
+<script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<option value='2'>제품관련</option>
+<option value='5'>프로그램／악세서리</option>
+<option value='6'>웹사이트 이용</option>
+<option value='7'>통신／기술동향</option>
+<option value='8'>A／S 및 서비스센터</option>
+<option value='12'>이벤트</option>
+<option value='13'>광고</option>
+
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+
+	</td></tr>
+</table>
+<script>
+	function popBrochure(popupurl){
+		window.open(popupurl, 'Brochure', 'width=, height=, scrollbars=no, status=no, resizable=no');
+	}
+</script>
+        </td>
+    </tr>
+</table></td>
+<td width="597" valign="top">
+<form name="procForm">
+	<input type="hidden" name="serial_no" value="51">
+</form>
+<table width="597" cellpadding="0" cellspacing="0" border="0">
+    <tr> 
+        <td valign="top" class="pdtctsmgn"> 
+            <!-- #####Contents##### -->
+            <table width="590" cellpadding="0" cellspacing="0" border="0">
+                <tr><td><!--product_flash--><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="596" height="284">
+                        <param name="movie" value="/inc/flash/product/mainflash/PG-L8000.swf">
+                        <param name="quality" value="high">
+                        <embed src="/inc/flash/product/mainflash/mainflash/PG-L8000.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="596" height="284"></embed></object> <!--product_flash--></td></tr>
+                <tr> 
+                    <td>
+						<table width="100%" height="36" style="padding:0 5 0 0">
+							<tr>
+								<td align="left"><a href="javascript:goList('','');"><img src="/img/btn/list.gif" border="0"></a></td>
+								<td align="right">
+									<a href="/html/product/compare/index.asp?serial_no=51"><img src="/img/btn/btn_pdtcompare.gif"  height="19" alt="" border="0"></a>
+									<a href="javascript:goWish('R')"><img src="/img/btn/btn_pdtrecommd.gif" height="19" alt="" border="0" hspace="2"></a>
+									<a href="javascript:goWish('W')"><img src="/img/btn/btn_pdtpick.gif" height="19" alt="" border="0"></a>
+									<iframe name="procFrame" src="#" width="0" height="0"></iframe>
+								</td>
+							</tr>
+						</table>
+					</td>
+                </tr>
+                <tr>
+                    <td height="24"></td>
+                </tr>
+                <tr> 
+                    <td valign="top">
+								<table width="590" cellpadding="0" cellspacing="0">
+                                        <tr valign="top">
+                                            <td width="448" height="200"><table width="425" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td headers="1" class="pdtline"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><img src="/img/product/lineup/tit_feature.gif" width="435" height="50"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="1" class="pdtline"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+														<TABLE cellSpacing=0 cellPadding=0 width=425 border=0>
+<TBODY>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-L8000/f29.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">Wow~ 크다! 편리하다! 누르기 쉽다! -</SPAN> <SPAN class=em>Multi and Large Font </SPAN><BR></STRONG>누르기 편하다! 보기 쉽다! 깨알 같은 글씨와 다닥다닥 붙어있는 키버튼 때문에 많이 불편하셨죠? 큐리텔 ‘PG-L8000’을 사용해보세요! 큼직한 키패드와 시원한 폰트는 사용하기 쉽고 편리하여 젊은 세대뿐만 아니라 할머니, 할아버지들도 아주 손쉽게 사용할 수 있습니다. 또한 메뉴간의 이동이 쉬워 UI(User Interface)가 아주 편리한 제품입니다. </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-L8000/f30.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">누를수록 재미난다! -</SPAN> <SPAN class=em>피아노, 물방울 등의 버튼음 기능 </SPAN><BR></STRONG>버튼을 누를 때마다 나는 소리를 선택할 수 있습니다. 기분 좋~아지는 버튼음! 피아노 소리, 물방울 소리, 목소리, 실로폰 소리, 크리스탈, 웃긴 소리가 모두 버튼음에 있습니다! 다양한 소리로 버튼음을 설정하여 누르는 재미가 있습니다! </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-L8000/f31.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">어려울 것 같은 민원정보를 PG-L8000으로 손쉽게 -</SPAN> <SPAN class=em>각종 민원 서비스</SPAN> <BR></STRONG>출생신고, 혼인신고, 사망신고, 전입신고, 인감증명발급, 주민증 재발급, 등본, 초본, 정정 신고 등에 필요한 서류 및 수수료에 대한 정보가 입력되어 있습니다. 출생신고, 전입신고, 인감증명발급, 주민증재발급 등과 같은 각종 민원처리방법을 한 눈에 손쉽게 알 수 있는 편리한 서비스입니다.(위 정보들은 2003년 12월 31일 기준으로 작성되었으며 사정에 따라 변경될 수 있습니다) </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-L8000/f32.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">센스 만점! 재치 만점! -</SPAN> <SPAN class=em>센스생활상식 기능 </SPAN><BR></STRONG>이 시대 최고의 센스녀, 센스남이 되자!!! 건강/미용, 주거/생활, 세탁/의류, 요리, 청소/재활용 등 생활에 유용한 정보를 입력해 놓은 기능입니다. 알뜰살뜰 살림하시는 어머님들에게 가장 도움이 될 수 있는 센스들을 한 곳에 모은 이 기능은 ‘센스생활상식’에서 보실 수 있습니다. </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-L8000/f33.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">알록달록 다양한 다이얼 숫자 -</SPAN> <SPAN class=em>다이얼 숫자 기능</SPAN> <BR></STRONG>전화를 걸거나 번호를 입력할 때 숫자의(다이얼숫자) 크기, 색상, 모양을 상하 좌우 버튼을 이용해 조절할 수 있는 기능입니다. 다이얼 숫자의 크기를 작게 혹은 크게, 색상은 흑백 혹은 무지개색, 모양은 특이하게 혹은 기본으로 설정할 수 있습니다. 눈이 침침하신 어르신들께는 큰 다이얼 숫자가 아주 편리한 기능이 될 것입니다. </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-L8000/f34.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">정보 세상이 열렸다 -</SPAN> <SPAN class=em>정보샘 기능</SPAN> <BR></STRONG>대기화면에서 원버튼으로 접속이 가능합니다. 실시간 정보/ 주요 기관 전화/ 여행자 회화/ 민원처리 방법/ 센스 생활 방식 등의 센스만점 정보의 풍부한 제공으로 사용자에게 정보를 제공하고 도움을 주는 서비스 입니다. 교통정보, 뉴스/날씨 등의 ‘실시간 정보’와 관공서, 병원 등의 전화번호를 제공하는 ‘주요기관전화’, 여행시 필요한 간단한 회화가 6가지 언어로 제공되는 ‘여행자 회화’, 출생/혼인/사망 신고 등의 서비스에 대한 안내를 하는 ‘민원처리 방법’, 그리고 건강/미용, 요리 등의 ‘센스생활상식’ 의 서비스들이 ‘정보샘’의 풍부한 기능입니다. </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-L8000/f35.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">실시간으로 ‘정보’를 업그레이드? -</SPAN> <SPAN class=em></SPAN><SPAN class=em>실시간 정보 기능 </SPAN><BR></STRONG>교통정보, 뉴스, 날씨, 주식정보, 영어, 생활정보, 예매, 쇼핑, 부동산, 환율, 여행, 숙박, 요금안내 등의 풍부한 정보들을 실시간으로 이용하실 수 있습니다. 서울지역의 CGV, 주공공이, 메가박스, 서울극장 등의 영화관 주소와 전화번호를 검색할 수 있으며 우리의 생활에 유익한 각종 다양한 정보들을 볼 수 있습니다.(실시간 정보의 이용 요금은 데이터 요금제에 준하여 청구 됩니다. 자세한 사항은 사업자에게 문의 하세요) </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-L8000/a23.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">휴대폰에 모바일 주소 검색이? -</SPAN> <SPAN class=em>무선인터넷 ez-i 기능</SPAN> <BR></STRONG>이지아이란 019폰을 이용한 무선인터넷 서비스로 다양한 정보를 휴대폰으로 조회, 검색할 수 있는 양방향 문자정보 서비스 입니다. ez-i를 선택하고‘모바일 주소’로 이동하면 [ 1 숫자(번호)입력, 2 브랜드 입력, 3 추천폰페이지 보기, 4 모바일주소(윙크), 5 KRNIC 소개, 6 북마크에 추가 ] 의 기능들로 모바일 주소 및 사이트 정보를 편리하게 보실 수 있습니다. (이지아이 기능은 이동통신 사업자에게 신청하여야 사용할 수 있습니다) </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-L8000/c1.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">받기 싫은 메시지는 이제 안녕~ -</SPAN> <SPAN class=em>SPAM 메시지 차단 기능</SPAN><BR></STRONG>때와 장소를 가리지 않고 날아드는 SPAM 메시지로 당황한 적 없으세요? HS6500은 스팸번호삭제/복구, 스팸단어선택, 스팸번호선택 등의 기능을 선택해 불필요한 메시지를 차단시켜 드립니다. 받기 싫은 메시지는 이제 안녕~ PG-L8000은 이제 메시지 청정지대! 특히 알뜰살뜰 살림하시는 우리의 부모님들에겐 더욱 스팸광고가 골치거리일텐데요^^ PG-L8000으로 이러한 스팸메세지를 완전히 날려보세요! </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-L8000/f36.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">전화번호부 뒤적이지 마세요! -</SPAN> <SPAN class=em>주요 기관 전화번호 서비스</SPAN> <BR></STRONG>주요관공서(중앙 행정기고나, 지방자치단체, 시/도 교육청, 버스, 철도, 지하철, 항공, 여객선 등의)의 전화번호가 입력되어 편리하게 찾아 볼 수 있는 기능입니다. 전국 종합병원(서울과 지방의 종합병원)의 위치와 전화번호, 레포츠/여가(각종 레포츠와 여가에 관련)의 전화번호와 위치, 금융기관(은행, 증권, 보험, 카드사)의 전화번호, 신고안내(각종 범죄신고 및 화재신고 등) 전화번호가 있습니다. 또한 지역번호, 국가번호 안내 들도 이용할 수 있습니다.(위 정보들은 2003년 12월 31일 기준으로 작성되었으며 사정에 따라 변경될 수 있습니다) </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-L8000/f37.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">외국여행은 내 손안에 있소이다! -</SPAN> <SPAN class=em>여행자 회화 서비스</SPAN> <BR></STRONG>‘여행자 회화’ 기능으로 여행시 필요한 회화를 손쉽게 이용하세요! 영어, 일본어, 중국어, 프랑스어, 독일어, 스페인어의 여행시 필요한 간단한 회화들이 입력되어 있으며, 여행자팁(여권 만들기, 비자 만들기, 정보 유효기관) 등의 정보도 이용할 수 있습니다. (위 정보들은 2003년 12월 31일 기준으로 작성되었으며 사정에 따라 변경될 수 있습니다) </TD></TR></TBODY></TABLE>
+														</td>
+                                                    </tr>
+                                                </table></td>
+                                            <td class="dotline02"><img src="/img/b.gif" width="1" height="1"></td>
+                                            <td width="141" align="right">
+											<table width="126" border="0" cellspacing="0" cellpadding="0">
+<tr><td height='36' valign='top'><a href="javascript:download('product/down/manual/PG-L8000.pdf');"><img src='/img/product/btn_pdf.gif' width='128' height='30'></a></td></tr><tr><td height='36' valign='top'><a href="javascript:download('product/down/high_quality/PG-L8000.zip');"><img src='/img/product/btn_high.gif' width='128' height='30'></a></td></tr>
+    <tr>
+        <td height="64" bgcolor="#F3F3F3" style="padding:0 0 0 4;line-height:13pt">
+			&#8226; <a href='/html/product/lineup/review.asp?serial_no=51'><u>사용자 리뷰</u></a><br>&#8226; <a href='/html/product/lineup/electronic.asp?serial_no=51'><u>전자파 흡수율</u></a></td>
+    </tr>
+	<!-- 제품 FAQ -->
+	
+	<tr>
+        <td height="102">
+		<a href='/html/help/support/search_model_view.asp?idx=12&p_category_cd=LGT&p_sub_category_cd=51'><span class='em'><b>[PG-L8000 FAQ]</b></span><br>발신자 수신자 부재중 통화는 어디서 확인이 가능하죠? </a>
+        </td>
+    </tr>
+
+	<!-- 제품 FAQ -->
+    <tr>
+        <td height="59" valign="top"><a href="/html/community/photolife/studio/index.asp"><img src="/img/product/lineup/bnr01.gif" width="131" height="46"></a></td>
+    </tr>
+    <tr>
+        <td><a href="/html/community/movielife/studio/preview.asp"><img src="/img/product/lineup/bnr02.gif" width="131" height="46"></a></td>
+    </tr>
+</table>
+											</td>
+                                        </tr>
+                                    </table></td>
+                            </tr>
+							<tr><td height=40 valign=bottom style="color:FA6C04">※ 제품의 외관, 사양등은 제품개량을 위해 사전 예고없이 변경될 수 있습니다.</td></tr>
+							<table width="425">
+							<tr>
+								<td align=right><a href="javascript:goList('','');"><img src="/img/btn/list.gif" border="0"></a></td>
+							</tr>
+						</table>
+                        </table>
+                        <!-- #####//Contents##### -->
+                    </td>
+                </tr>
+            </table></td>
+    </tr>
+</table>
+
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu -->
+
+
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object>
+
+<!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner2.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>-->
+</div>
+</body>
+</html>
+

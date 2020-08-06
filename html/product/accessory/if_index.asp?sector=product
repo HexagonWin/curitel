@@ -1,0 +1,152 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/product.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<script language="javascript">
+<!--
+	function go_link(type,sector){
+		parent.location.href = "/html/"+sector+"/accessory/model.asp?a_type="+type
+	}
+/-->
+</script>
+</head>
+
+<body bgcolor="#ffffff">
+		<table width="557" border="0" cellspacing="0" cellpadding="0">
+
+							  <tr> 
+								<td colspan="3" style="padding:10 0 0 0"><img src="/img/common/plusline.gif" width="557" height="11" alt="" border="0" vspace="2"></td>
+							  </tr>
+
+
+						
+								<td width="278" style="padding:10">
+							<!-- 제품1 -->
+								  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr> 
+									  <td width="95"><a href="javascript:go_link(45,'product');"><img src="http://file.curitel.com/upload/product/accessory/ear.gif" width="90" height="90"></a></td>
+									  <td width="163"><font color="#4487C1" class="9"><b>Bluetooth Stereo Ear Phone<br>(4극 Ear Jack)</b></font><br>
+										목걸이 타입의 이어폰으로 무선 음성통화 및 MP3,VOD,MOD,DMB ...<br> 가격 : 93500&nbsp;원 </td>
+									</tr>
+								  </table></td>
+
+								<td width="1" class="dotline02"></td>
+
+						
+								<td width="278" style="padding:10">
+							<!-- 제품1 -->
+								  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr> 
+									  <td width="95"><a href="javascript:go_link(27,'product');"><img src="http://file.curitel.com/upload/product/accessory/이어잭 젠더_핸즈프리용.gif" width="90" height="90"></a></td>
+									  <td width="163"><font color="#4487C1" class="9"><b>이어잭 젠더<br>(14핀 핸즈프리용)</b></font><br>
+										자동차용 핸즈프리를 휴대폰에 연결하여 핸즈프리 이용이 가능하도록 변환해주...<br> 가격 : 5600&nbsp;원 </td>
+									</tr>
+								  </table></td>
+
+							  </tr>
+							  <tr><td height="1" colspan="3" bgcolor="#E6E6E6"></td></tr>
+							  <tr valign="top"> 
+
+						
+								<td width="278" style="padding:10">
+							<!-- 제품1 -->
+								  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr> 
+									  <td width="95"><a href="javascript:go_link(26,'product');"><img src="http://file.curitel.com/upload/product/accessory/이어잭 젠더_시중 이어폰용.gif" width="90" height="90"></a></td>
+									  <td width="163"><font color="#4487C1" class="9"><b>이어잭 젠더<br>(14핀 시중 이어폰용)</b></font><br>
+										MP3폰 이용시 시중에서 판매하는 스테레오 이어폰을 휴대폰에 연결하여 M...<br> 가격 : 5200&nbsp;원 </td>
+									</tr>
+								  </table></td>
+
+								<td width="1" class="dotline02"></td>
+
+						
+								<td width="278" style="padding:10">
+							<!-- 제품1 -->
+								  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr> 
+									  <td width="95"><a href="javascript:go_link(25,'product');"><img src="http://file.curitel.com/upload/product/accessory/ac_01(3).gif" width="90" height="90"></a></td>
+									  <td width="163"><font color="#4487C1" class="9"><b>이어잭 젠더<br>(4극)</b></font><br>
+										
+MP3폰 이용시 시중에서 판매하는 스테레오 이어폰을 휴대폰에 연결하여...<br> 가격 : 4400&nbsp;원 </td>
+									</tr>
+								  </table></td>
+
+							  </tr>
+							  <tr><td height="1" colspan="3" bgcolor="#E6E6E6"></td></tr>
+							  <tr valign="top"> 
+
+						
+								<td width="278" style="padding:10">
+							<!-- 제품1 -->
+								  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr> 
+									  <td width="95"><a href="javascript:go_link(23,'product');"><img src="http://file.curitel.com/upload/product/accessory/dddd.gif" width="90" height="90"></a></td>
+									  <td width="163"><font color="#4487C1" class="9"><b>Stereo Ear Phone <br> (14극, 12극)</b></font><br>
+										휴대폰 통화시 이용가능하며 멜로디나 노래방 VOD, MOD 라디오 이용시...<br> 가격 : 13200&nbsp;원 </td>
+									</tr>
+								  </table></td>
+
+								<td width="1" class="dotline02"></td>
+
+						
+								<td width="278" style="padding:10">
+							<!-- 제품1 -->
+								  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr> 
+									  <td width="95"><a href="javascript:go_link(22,'product');"><img src="http://file.curitel.com/upload/product/accessory/ac_02(1)(1).gif" width="90" height="90"></a></td>
+									  <td width="163"><font color="#4487C1" class="9"><b>Stereo Ear Phone (HS8000용)</b></font><br>
+										휴대폰 통화시 이용가능하며 멜로디나 동영상, MP3 이용시 스테레오로 더...<br> 가격 : 11000&nbsp;원 </td>
+									</tr>
+								  </table></td>
+
+							  </tr>
+							  <tr><td height="1" colspan="3" bgcolor="#E6E6E6"></td></tr>
+							  <tr valign="top"> 
+
+						
+								<td width="278" style="padding:10">
+							<!-- 제품1 -->
+								  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr> 
+									  <td width="95"><a href="javascript:go_link(21,'product');"><img src="http://file.curitel.com/upload/product/accessory/ac_03(1).gif" width="90" height="90"></a></td>
+									  <td width="163"><font color="#4487C1" class="9"><b>이어폰<br>(4핀 Ear Jack 귀걸이용)</b></font><br>
+										휴대폰 통화시 이용가능하며 멜로디나 노래방 VOD, MOD 라디오 이용시...<br> 가격 : 11000&nbsp;원 </td>
+									</tr>
+								  </table></td>
+
+								<td width="1" class="dotline02"></td>
+
+						
+								<td width="278" style="padding:10">
+							<!-- 제품1 -->
+								  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr> 
+									  <td width="95"><a href="javascript:go_link(20,'product');"><img src="http://file.curitel.com/upload/product/accessory/ac_02(1).gif" width="90" height="90"></a></td>
+									  <td width="163"><font color="#4487C1" class="9"><b>TV-OUT CABLE<br>(PH-L4000V용)</b></font><br>
+										카메라로 촬영한 동영상 사진을 TV에서 볼수 있도록 TV OUT 단자에 ...<br> 가격 : 6900&nbsp;원 </td>
+									</tr>
+								  </table></td>
+
+							  </tr>
+
+    <tr height="50">
+		<td align="center" colspan="3">
+			&nbsp;<b>|1|</b>&nbsp;<a href=if_index.asp?page=2&sector=product>|2|</a>&nbsp;<a href=if_index.asp?page=3&sector=product>|3|</a> 
+		</td>
+	</tr>
+
+							  <tr>
+								<td colspan="3" style="padding:10 0"><img src="/img/common/plusline.gif" width="557" height="11" alt="" border="0" vspace="2"></td>
+							  </tr>
+							  <tr align="right"><!-- 버튼 -->
+								<td colspan="3" style="padding:0 15 0 0"><a href="javascript:Accessory()"><img src="/img/btn/btn_acc_buy02.gif" width="147" height="46" hspace="10" border="0"></a><a href="javascript:parent.location.href='/html/help/support/faq_category.asp?pidx=8&idx=17'"><img src="/img/btn/btn_acc_faq02.gif" width="147" height="46" border="0"></a></td>
+							  </tr>
+							</table>
+
+</body>
+</html>
+

@@ -1,0 +1,1 @@
+<script>if(confirm('로그인이 필요 합니다. 로그인 하시겠습니까?')){		opener.location.href='/html/my/join/login.asp';		self.close();	}else{ self.close(); self.close();} </script>

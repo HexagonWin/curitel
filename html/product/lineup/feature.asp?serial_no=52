@@ -1,0 +1,548 @@
+
+<html>
+<head>
+<title>'So Cooooool, Curitel',	PANTECH&CURITEL</title>
+<Meta name="keywords" content="팬택앤큐리텔, 큐리텔, 휴대폰, 핸드폰, 커뮤니티, 동영상폰, 카메라폰">
+<link rel="STYLESHEET" type="text/css" href="/inc/css/product.css">
+<script language="javascript" src="/inc/js/common.js"></script>
+<script language="javascript" src="/inc/js/product/DropDown.js"></script>
+<script language="javascript" src="/inc/js/product/OpMenu02.js"></script>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width="936" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><a href="/html/index.asp"><img src="/img/sub_logo.gif"></a></td>
+		<td valign='bottom'><script language="JavaScript">flash('/inc/flash/navi.swf','718','125');</script>
+		<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="936" height="137" align="">
+ <param name=movie value="/inc/flash/sub_menu.swf?lnum=0"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <embed src="/inc/flash/sub_menu.swf?lnum=0" quality=high bgcolor=#ffffff  width="936" height="137" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object> --></td>
+	</tr>
+</table>
+<table width="829" cellpadding="0" cellspacing="0" border="0" class="mubg_gra">
+	<tr> 
+		<td width="77" height="66" valign="top" style="background:url(/img/product/titleleftbg.gif) repeat-x left top">
+			<!-- SubTitle -->
+			<DIV id=divMenu style="position:absolute;VISIBILITY: hidden; WIDTH: 836px; POSITION: absolute;HEIGHT: 65px;z-index:1"> 
+				<table width="839" height="65" cellpadding="0" cellspacing="0" border="0">
+				<tr> 
+					<td width="589" background="/img/product/titleleftbg.gif" align="center" valign="top" style="padding:2 0 0 0">
+					
+		<script language=javascript>
+		  function topUserLoginFrmformsubmit()
+		  {
+			if(document.topUserLoginFrm.uid.value == "")
+			{
+			  alert("아이디를 입력하세요!");
+			  document.topUserLoginFrm.uid.focus();
+			  return;
+			}
+			if(document.topUserLoginFrm.passwd.value == "")
+			{
+			  alert("패스워드를 입력하세요!");
+			  document.topUserLoginFrm.passwd.focus();
+			  return;
+			}
+			
+			document.topUserLoginFrm.submit();
+		  }
+		  function uid_down()
+		  {
+		     if(event.keyCode == 13)
+		     {
+		          topUserLoginFrmformsubmit();
+		     }
+		  }
+		</script>
+
+		<table width="589" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="83" height="3" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="141" background="/img/common/my_top02.gif"></td>
+			<td width="5"><img src="/img/common/my_top01.gif" width="5" height="3"></td>
+			<td width="243" background="/img/common/my_top02.gif"></td>
+			<td width="7" rowspan="3"><img src="/img/common/my_line04.gif" width="4" height="51"></td>
+		  </tr>
+		  <tr>
+			<td height="45" align="center" bgcolor="#A5ABB5"></td>
+			<td><img src="/img/common/my_line01.gif" width="5" height="45"></td>
+			<td bgcolor="#000000" align="center">
+			<font color="#CFCFCF" style="letter-spacing:-1pt"><b>큐리텔에 방문하신<br>
+			것을 환영합니다</b></font>
+			</td>
+			<td><img src="/img/common/my_line02.gif" width="5" height="45"></td>
+			<td bgcolor="#A5ABB5" style="padding:0 0 0 8">
+				<table width="325" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="106"><img src="/img/common/my_id.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="105"><img src="/img/common/my_pwd.gif" width="49" height="13" alt="" border="0" hspace="1"></td>
+						<td width="114" style="letter-spacing:-1pt" class="w" style="padding:0 0 0 6"><a href="/html/my/join/searchid.asp"><FONT COLOR="#FFFFFF">아이디/패스워드 찾기</FONT></a></td>
+					</tr>
+		<form name="topUserLoginFrm" method="post" action="/common/checkLogin.asp">
+		<input type=hidden name=rurl value="/html/product/lineup/feature.asp?serial_no=52">
+					<tr>
+						<td><input type="Text" name=uid style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td><input type="password" name=passwd style="border:1px solid #9198A4;width:102" onkeydown="javascript:uid_down()"></td>
+						<td style="padding:0 0 0 4"><a href="javascript:topUserLoginFrmformsubmit()"><img src="/img/common/my_btnlogin.gif" width="43" height="17" alt="" border="0"></a><a 
+						href="/html/my/join/index.asp"><img src="/img/common/my_btnjoin.gif" width="53" height="17" alt="" border="0" hspace="3"></a></td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  </form>
+		  <tr>
+			<td height="3" background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+			<td><img src="/img/common/my_bot01.gif" width="5" height="3"></td>
+			<td background="/img/common/my_bot02.gif"></td>
+		  </tr>
+		
+		</table>
+
+
+<iframe name=ifr_hidden_mycuritel style="display:none"></iframe>
+
+<form style="margin:0" action="/html/my/join/login.asp" name=loGinF method=post>
+<input type=hidden name=rurl value="/html/product/lineup/feature.asp?serial_no=52">
+</form>
+					</td>
+					<td align="right" valign="top" width="87" background="/img/product/titleleftbg.gif">
+					
+					<script language="JavaScript">flash('/inc/flash/rollbar_1.swf?uid=0','77','65','1');</script>
+					<!-- <embed src=/inc/flash/rollbar_1.swf?uid=0 wmode=transparent width=77 height=65> -->
+					</td>
+					<td width="164" align="right"><a href="/html/product/index.asp" onfocus="this.blur()"><img src="/img/product/channel_title.gif" width="164" height="65" alt="" border="0"></a></td>
+				</tr>
+				</table>
+			</DIV>
+		</td>
+		<td width="162"></td>
+		<td width="590" height="78" class="rightbg" valign="top"></td>
+	</tr>
+</table>
+<script>menuInit()</script>
+<!-- RecursivePath -->
+<div id="rpath" style="position:absolute;visibility:visible;left:232;top:185;width:596;height:15;z-index:10;"> 
+    <table cellpadding="0" cellspacing="0" border="0" align="right">
+        <tr>
+            <td height="15" align="right" class="rpath"><a href="/html/index.asp">Home</a>
+                > <a href="/html/product/index.asp">Product</a> > <a href="/html/product/lineup/index.asp">제품소개</a> > <a href="/html/product/lineup/KTF.asp">KTF</a> > PG-K6500 > 제품특징</td>
+        </tr>
+    </table>
+</div>
+<table width="829" height="800" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td valign="top" align="right">
+		<script>
+	function goWish(pro){
+		df = document.procForm;
+		
+				confirmLogin();			
+		
+	}
+	function goList(service,page){
+		var nUrl;
+		if(service=="SKT")
+			nUrl = 'skt.asp';
+		if(service=="KTF")
+				nUrl = 'ktf.asp';
+		if(service=="LGT")
+				nUrl = 'lgt.asp';
+		if(service=="")
+				nUrl = 'index.asp';
+		nUrl = nUrl + '?page='+page;
+		location.href=nUrl;
+	}
+</script>
+<!-- LeftMenu -->
+<table width="232" height="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr> 
+        <td valign="top" style="padding:50 0 0 0"><!--좌측 상단 이미지 : --><img src="http://file.curitel.com/upload/product/page/pg_k6500_bg.jpg" width="77" height="279" alt="" border="0"></td>
+		<td valign="top" align="right"> 
+			<table width="155" cellspacing="0" cellpadding="0" border="0">
+<tr>
+	<td align="right"><a href="javascript:choiceMenu(1,'');" onFocus="this.blur()"><img src="/img/product/lineup/addmenu.gif" width="148" height="17" alt="" border="0"></a></td>
+</tr>
+<tr id="subMenuBlock1" style="display:none;margin:0px;border:0px;">
+	<td height="150" style="background:url(/img/common/topmenubg02.gif) repeat-y right top">
+							<table width="148" cellspacing="0" cellpadding="0" border="0" align="right">
+						<tr>							
+					       <td align="center">
+							<script language="JavaScript">flash('/inc/flash/left/left_product.swf?html_Num=00','100','350');</script>
+							<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="350">
+					               <param name="movie" value="/inc/flash/left/left_product.swf?html_Num=00">
+					               <param name="quality" value="high">
+					               <embed src="/inc/flash/left/left_product.swf?html_Num=00" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="350"></embed></object> --></td>
+						</tr>
+						</table></td>
+</tr>
+<tr><td height="4" align="right"><img src="/img/product/lineup/addmu02.gif" width="148" height="4" alt="" border="0"></td></tr>
+</table>
+<table width="155" cellpadding="0" cellspacing="0">
+	<tr>
+		<td style="padding:29 0 0 0"><!-- 제품이름 ---><img src="http://file.curitel.com/upload/product/page/pg_k6500.gif" width="155" height="37" alt="" border="0"></td></tr>
+	<tr>
+		<td style="padding:0 0 0 18"><img src="/img/product/lineup/titlebar.gif" width="127" height="5" alt="" border="0"></td>
+	</tr>
+	<tr>
+		<td style="padding:0 0 0 23">
+			<table width="116" cellpadding="0" cellspacing="0">
+				<tr><td height="16"></td></tr>
+
+				<tr id="tr_menu_1">
+					<td><a href="/html/product/lineup/product.asp?serial_no=52" onMouseOver="changemu('1','on');" onmouseout="changemu('1','off');"><img src="/img/product/lineup/left01.gif" width="116" height="28" alt="" border="0" name="left1"></a></td>
+				</tr>
+				<tr id="tr_line_1"><td height="1" bgcolor="#DBDCDD"></td></tr>
+
+				<tr>
+					<td><a href="/html/product/lineup/feature.asp?serial_no=52" onMouseOver="changemu('2','on');" onmouseout="changemu('2','off');"><img src="/img/product/lineup/left02.gif" width="116" height="28" alt="" border="0" name="left2"></a></td>
+				</tr>
+				<tr><td height="1" bgcolor="#DBDCDD"></td></tr>
+				<tr>
+					<td><a href="/html/product/lineup/function.asp?serial_no=52" onMouseOver="changemu('3','on');" onmouseout="changemu('3','off');"><img src="/img/product/lineup/left03.gif" width="116" height="28" alt="" border="0" name="left3"></a></td>
+				</tr>
+				<tr><td height="1" bgcolor="#DBDCDD"></td></tr>
+				<tr>
+					<td><a href="/html/product/lineup/package.asp?serial_no=52" onMouseOver="changemu('4','on');" onmouseout="changemu('4','off');"><img src="/img/product/lineup/left04.gif" width="116" height="28" alt="" border="0" name="left4"></a></td>
+				</tr>
+				<tr><td height="1" bgcolor="#DBDCDD"></td></tr>
+				<tr>
+					<td><a href="/html/product/lineup/accessory.asp?serial_no=52" onMouseOver="changemu('5','on');" onmouseout="changemu('5','off');"><img src="/img/product/lineup/left05.gif" width="116" height="28" alt="" border="0" name="left5"></a></td>
+				</tr>
+				<tr><td height="48"></td></tr>
+			</table>
+		
+		</td>
+	</tr>
+	<tr><td height="89"></td></tr>
+	
+	<tr><td height="50" style="padding:0 0 0 14">
+	<script>
+	function downCatalog(){
+		form = document.catalogForm;
+		catalogFile  = form.catalogue.options[form.catalogue.selectedIndex].value;
+		download("product/down/catalog/"+catalogFile);
+	}
+</script>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<!--<tr>
+		<td height="20" valign="top"><img src="/img/common/tit_catalogue.gif" width="116" height="7" alt="" border="0"></td>
+	</tr>-->
+	<tr><td height="27" style="background:url(/img/common/bg_catalogue.gif) no-repeat left top;padding:4 0 0 25;border-bottom:1px solid #ffffff">
+	<form name="catalogForm">
+	<select name=catalogue width="93" onChange="downCatalog()" bgcolor="#FFFFFF"  bordercolor="#ffffff">
+		<option value="">카탈로그선택</option>
+		<option value="05겨울종카.pdf">2005 겨울호</option>
+		<option value="2005가을.pdf">2005 가을호</option>
+		<option value="2005여름.pdf">2005 여름호</option>
+		<option value="2005봄.pdf">2005 봄호</option>
+		<option value="겨울종합카다로그.zip">2004 겨울호</option>
+		<option value="2004가을종합카다로그.zip">2004 가을호</option>
+		<option value="6월호 종합카달로그[1].pdf.zip">2004 여름호</option>
+	</select>
+	</form><script>setSelectBox("catalogue")</script>
+	</td></tr>
+	<tr><td height="13"></td></tr>
+</table><script language="javascript">
+<!--
+function loadData_menu(sel,target) {
+
+	var trigger = sel.options[sel.selectedIndex].value;
+
+	var form = sel.form.name;
+
+	dynamic_menu.src = "/html/help/ascenter/gugun.asp?form=" + form + "&trigger=" + trigger + "&target=" + target;
+}
+
+function sendMenuData()
+{
+	frm = document.left_center_menu;
+
+	if ( frm.sido.value == "" ){
+		alert("검색할 시도를 선택해 주시기 바랍니다. ");
+		return;
+	}
+
+	frm.submit();
+}
+//-->
+</script>
+<script id="dynamic_menu"></script>
+<form name=left_center_menu onsubmit="return search(this)" action="/html/help/ascenter/areacenter_list.asp" method=post>
+<table width="124" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/help/ascenter/index.asp"><img src="/img/common/tit_center.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+	<select name="sido" width="93" onChange="loadData_menu(this,'gugun')" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value=''> 시/도 선택
+		<option value='강원'> 강원
+		<option value='경기'> 경기
+		<option value='경남'> 경남
+		<option value='경북'> 경북
+		<option value='광주'> 광주
+		<option value='대구'> 대구
+		<option value='대전'> 대전
+		<option value='부산'> 부산
+		<option value='서울'> 서울
+		<option value='울산'> 울산
+		<option value='인천'> 인천
+		<option value='전남'> 전남
+		<option value='전북'> 전북
+		<option value='제주'> 제주
+		<option value='충남'> 충남
+		<option value='충북'> 충북
+	</select><script>setSelectBox("sido")</script>
+	<select name=gugun width="117" onChange="sendMenuData()" bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+		<option value="">구/군
+	</select><script>setSelectBox("gugun")</script>
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+</table>
+</form><!--<iframe src="/inc/asp/left/l_inforoom1.asp" width="124"  scrolling="No" frameborder="0" allowTransparency="true"></iframe>--
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function scheck(){
+		if(document.know_search.sword.value == ""){
+			alert("검색어를 입력해주세요!");
+			document.know_search.sword.focus();
+			return false;
+		}
+	}
+//--
+</SCRIPT>
+<table width="124" cellpadding="0" cellspacing="0">
+<form name="know_search" method="post" action="/html/knowledge/info/result.asp" target="_top" onsubmit="return scheck(this)">
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td height="20" valign="top"><a href="/html/knowledge/index.asp" target="_top"><img src="/img/common/tit_knowledge.gif" width="116" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+	<select name=info width="117"  bgcolor="#FFFFFF"  bordercolor="#BBBFC7">
+<!--include virtual = "/upload/left/know_main.asp"--
+
+	</select><script>setSelectBox("info")</script>
+	<input type="Text" style="width:93;border:1px solid #BBBFC7" maxlength="100" name="sword">&nbsp;<input type="image" src="/img/btn/btn_go02.gif" width="17" height="17" alt="" border="0" align="absmiddle">
+	</td>
+	</tr>
+	<tr><td height="13"></td></tr>
+	</form>
+</table>
+-->
+	</td></tr>
+</table>
+<script>
+	function popBrochure(popupurl){
+		window.open(popupurl, 'Brochure', 'width=, height=, scrollbars=no, status=no, resizable=no');
+	}
+</script>
+        </td>
+    </tr>
+</table></td>
+<td width="597" valign="top">
+<form name="procForm">
+	<input type="hidden" name="serial_no" value="52">
+</form>
+<table width="597" cellpadding="0" cellspacing="0" border="0">
+    <tr> 
+        <td valign="top" class="pdtctsmgn"> 
+            <!-- #####Contents##### -->
+            <table width="590" cellpadding="0" cellspacing="0" border="0">
+                <tr><td><!--product_flash--><script language="JavaScript">flash('/inc/flash/product/mainflash/PG-K6500.swf','596','284');</script><!--//product_flash-->
+				<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="596" height="284">
+                        <param name="movie" value="/inc/flash/product/mainflash/PG-K6500.swf">
+                        <param name="quality" value="high">
+                        <embed src="/inc/flash/product/mainflash/mainflash/PG-K6500.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="596" height="284"></embed></object> --></td></tr>
+                <tr> 
+					<td>
+						<table width="100%" height="36" style="padding:0 5 0 0">
+							<tr>
+								<td align="left"><a href="javascript:goList('','');"><img src="/img/product/lineup/list.gif" border="0"></a></td>
+								<td align="right">
+									<a href="/html/product/compare/index.asp?serial_no=52"><img src="/img/btn/btn_pdtcompare.gif"  height="19" alt="" border="0"></a>
+									<a href="javascript:goWish('R')"><img src="/img/btn/btn_pdtrecommd.gif" height="19" alt="" border="0" hspace="2"></a>
+									<a href="javascript:goWish('W')"><img src="/img/btn/btn_pdtpick.gif" height="19" alt="" border="0"></a>
+									<iframe name="procFrame" src="#" width="0" height="0"></iframe>
+								</td>
+							</tr>
+						</table>
+					</td>
+                </tr>
+                <tr>
+                    <td height="24"></td>
+                </tr>
+                <tr> 
+                    <td valign="top">
+								<table width="590" cellpadding="0" cellspacing="0">
+                                        <tr valign="top">
+                                            <td width="448" height="200"><table width="425" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td headers="1" class="pdtline"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><img src="/img/product/lineup/tit_feature.gif" width="435" height="50"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td headers="1" class="pdtline"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+														<TABLE cellSpacing=0 cellPadding=0 width=425 border=0>
+<TBODY>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/f5.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">디카가 아니다! 핸드폰이다! -</SPAN> <SPAN class=em>Dica Look Design</SPAN> <BR></STRONG>열지 않고 찰칵! 큐리텔 PG-K6500은 Dica Look Design으로 폴더를 열지 않고 디카처럼 사진 촬영이 가능하기 때문에 마음껏 디카처럼 폼 나게 사진 촬영을 할 수 있습니다. PG-K6500으로 사진 찍는 것을 백만 배 더 즐겁게, 사진을 찍는 폼을 업그레이드 해보세요. 기존의 카메라폰에서 경험할 수 없었던 디자인으로 새로운 재미가 펼쳐집니다. 재미없는 카메라폰들이여 이제 안녕! 이제 Dica Look Design인 큐리텔 PG-K6500으로 사진작가처럼 폼 나게 찍어 보세요~ </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/a49.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">이제 세상은 130만으로 간다 -</SPAN> <SPAN class=em>130 만 화소 내장형 모바일 카메라 기능</SPAN> <BR></STRONG>큐리텔 PG-K6500은 CMOS 방식의 130만 화소 모바일 카메라를 내장하여 디지털카메라 수준의 사진과 동영상을 찍을 수 있습니다. 메가픽셀 디카폰은 30만 화소급 에서 촬영한 사진과는 비교할 수 없을 정도로 화질이 선명하고 PC에서 편집할 수 있어 해상도와 활용도 면에서 디지털 카메라에 결코 뒤지지 않습니다. 큐리텔 PG-K6500으로 언제 어디서나 멋진 디지털 세상을 즐기세요! </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/f6.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">PG-K6500 멀티플레이어다! -</SPAN> <SPAN class=em>FM라디오 기능</SPAN> <BR></STRONG>더 이상 지루해 하지 말자! 지하철에서, 버스에서, 거리에서~~~큐리텔 PG-K6500은 자유롭게 채널을 설정하고, 주파수를 검색할 수 있는 FM라디오 기능을 포함하고 있습니다. 이어폰과 스피커를 통해 재미있는 사연, 신나는 음악으로 일상의 지루함을 날려버려 보세요. PG-K6500만 있으면 카메라면 카메라, 동영상이면 동영상, 라디오면 라디오! 모든 즐거움을 느낄 수가 있습니다. </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/c5.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">궁금할 때 손쉽게 찾아보자~ 무거운 사전대신 핸드폰 하나로 해결하자~ -</SPAN> <SPAN class=em>전자사전</SPAN> <BR></STRONG>영어사전, 순간 순간 필요할 때는 많지만 무겁고 불편해서 가지고 다니기 힘드셨죠? 이제 장소에 관계없이 모르는 단어를 찾아보고, 암기장에 저장까지 할 수 있습니다. 큐리텔 PG-K6500만 있으면 영어공부는 O.K! 각종 검색기능으로 모르는 단어도 쉽게 찾고, 어려웠던 영어공부가 좋아집니다. </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/c4.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">전화 받는 재미가 한층 더! 더! 더! -</SPAN> <SPAN class=em>아바타 편집 기능</SPAN> <BR></STRONG>큐리텔 PG-K6500은 메인 화면에 나만의 아바타를 보여줄 수 있습니다. 자기가 원하는 얼굴, 머리, 옷, 신발, 소품들로 자기의 아바타를 만들어 보세요. 친구 아바타를 만들어 자신의 아바타를 함께 있도록 할 수도 있어요. 전화번호부에 이름만 넣지 않고 그 사람의 아바타를 넣어보세요. 전화벨이 울리면 아바타만 봐도 누군지 알 수 있답니다. </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/a36.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">나만의 컬러로~나만의 노래로 나만의 세상을 꾸며보자 -</SPAN> <SPAN class=em>각종 다운로드 기능</SPAN> <BR></STRONG>문자나라로~그림나라로~포토나라로~노래방 세상으로! 문자나라에 접속하면 개성 있고 재미난 문자들을 다운 받아 친구에게 보내거나 나의 꾸러미에 저장이 가능합니다. 그림나라에서는 각종 그림이나 캐릭터 등을 다운 받아 내 폰의 배경화면으로 설정도 가능하고, 소리나라에서는 각종 음악의 다운이 가능하며, 포토나라에서는 내가 좋아하는 가수, 배우 등의 사진을 다운 받을 수 있습니다. 또한 나도 가수가 되어보자! 노래방 기능에 등록할 음악들도 다운 받아보세요! </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/a13.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">사진을 더! 더! 더! 재미있게~ -</SPAN> <SPAN class=em></SPAN><SPAN class=em>각종 카메라 편집기능</SPAN> <BR></STRONG>이제 카메라 수준을 업그레이드 하자. 기존의 카메라폰에서 경험할 수 없었던 새로운 세상이 펼쳐집니다. 스티커, 특수효과 기능 등 촬영한 사진을 다양하게 내 마음대로 편집할 수 있는 기능이 적용되어 있어 다양한 효과를 이용하여 예쁜 사진으로 꾸며볼 수 있습니다. 이제 더욱 다양해진 큐리텔 카메라폰 PG-K6500로 폼나는 Mobile Photographer가 되어보세요~ </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/a57.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">너의 음성을 오래오래 간직하고 싶어! -</SPAN> <SPAN class=em>통화 중 녹음 기능 지원 </SPAN><BR></STRONG>오늘따라 너의 목소리가 감동이야! 이 순간 오래오래 간직해서 듣고 싶어~ 오래도록 듣고 싶은 연인의 목소리를 오래도록 간직해 보세요~ 그리움이 쌓이는 순간 다시 들어보는 그 때의 감동을 큐리텔 PG-K6500의 음성 녹음 기능으로 느껴보세요~ </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/a9.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">밤에도 낮처럼! -</SPAN> <SPAN class=em>내장형 플래시 기능</SPAN><BR></STRONG>해가 저문 밤에도, 조명이 없는 어두운 곳에서도 문제 없다. 큐리텔 PG-K6500은 조명이 없는 어두운 곳에서도 사진과 동영상을 촬영할 수 있게 해줍니다. 밤낮없이 함께하는 모바일 카메라, 이제 사진, 동영상 촬영을 더욱 환~하게 즐기세요. </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/a21.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">모바일 네비게이트, 만능 PG-K6500 -</SPAN> <SPAN class=em>GPS 서비스</SPAN> <BR></STRONG>MagicⓝGPS 사이트에 접속하여 다양한 위치 정보 서비스를 이용할 수 있는 기능으로 내 위치 보기, 내 위치 보내기, 상대방 위치 보기 등을 제공하는 다양한 위치 정보 서비스입니다. 내 위치를 조회하며 지도를 저장할 수도 있습니다. 위급 상황 발생시, 친구들과 모임 시, 여행을 가면서 언제든지 내 위치를 찾아보고, 또 보낼 수 있는 편리한 서비스입니다. </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/a1.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">생생한 사운드 -</SPAN> <SPAN class=em>Yamaha 64 Poly Sound</SPAN> <BR></STRONG>64화음으로 듣는다. 큐리텔 PG-K6500은 Yamaha 64Poly 멜로디 칩을 채택하여 원음에 가까운 생생한 멜로디를 들려줍니다. 다양한 내장 멜로디와 개성에 맞게 다운로드한 멜로디로 나만의 취향과 개성을 나타내어 보세요. 잠깐! 아무리 멜로디가 좋아도 공공장소에선 진동으로 해야겠죠? </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/c2.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">전자수첩이 새로워졌다 -</SPAN> <SPAN class=em>나만의 모바일 비서 ‘전자수첩’ 기능</SPAN> <BR></STRONG>까먹지 말자! 중요한 모임, 늦지 말자! 중요한 약속! 생활 속에 편리한 기능들이 휴대폰 안에 다 모였다. 알람, 모닝콜, 메모, 스케줄러, D-Day 등 편리한 다양한 기능의 큐리텔 PG-K6500을 나만의 모바일 비서로 활용하세요~ </TD></TR>
+<TR>
+<TD class=pdtline headers=1></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px" height=39><IMG height=21 src="/img/product/lineup/PG-K6500/c1.gif" width=164></TD></TR>
+<TR>
+<TD style="PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px"><STRONG><SPAN class=blk style="LINE-HEIGHT: 17pt">받기 싫은 메시지는 이제 안녕~ -</SPAN> <SPAN class=em></SPAN><SPAN class=em>SPAM 메시지 차단 기능</SPAN> <BR></STRONG>때와 장소를 가리지 않고 날아드는 SPAM 메시지로 당황한 적 없으세요? 큐리텔 PG-K6500은 전화번호/ 문자열/ 메시지 보관/ 기능 선택 방법을 통해 불필요한 메시지를 차단시켜 드립니다. 받기 싫은 메시지는 이제 안녕~ </TD></TR></TBODY></TABLE>
+														</td>
+                                                    </tr>
+                                                </table></td>
+                                            <td class="dotline02"><img src="/img/b.gif" width="1" height="1"></td>
+                                            <td width="141" align="right">
+											<table width="126" border="0" cellspacing="0" cellpadding="0">
+<tr><td height='36' valign='top'><a href="javascript:download('product/down/viewer/CURITEL_VIEW22.zip');"><img src='/img/product/btn_curitel.gif' width='128' height='30'></a></td></tr><tr><td height='36' valign='top'><a href="javascript:download('product/down/img_editor/ImageEdit_V256.exe');"><img src='/img/product/btn_image.gif' width='128' height='30'></a></td></tr><tr><td height='36' valign='top'><a href="javascript:download('product/down/manual/PG-K6500.zip');"><img src='/img/product/btn_pdf.gif' width='128' height='30'></a></td></tr><tr><td height='36' valign='top'><a href="javascript:download('product/down/high_quality/PG-K6500.zip');"><img src='/img/product/btn_high.gif' width='128' height='30'></a></td></tr><tr><td height='36' valign='top'><a href="javascript:download('product/down/pc_sync/PCSync_PG-K6500_Setup_V3.13.zip');"><img src='/img/product/btn_pcsync.gif' width='128' height='30'></a></td></tr>
+    <tr>
+        <td height="64" bgcolor="#F3F3F3" style="padding:0 0 0 4;line-height:13pt">
+			&#8226; <a href='/html/product/lineup/review.asp?serial_no=52'><u>사용자 리뷰</u></a><br>&#8226; <a href='/html/product/lineup/electronic.asp?serial_no=52'><u>전자파 흡수율</u></a></td>
+    </tr>
+	<!-- 제품 FAQ -->
+	
+	<tr>
+        <td height="102">
+		<a href='/html/help/support/search_model_view.asp?idx=191&p_category_cd=KTF&p_sub_category_cd=52'><span class='em'><b>[PG-K6500 FAQ]</b></span><br>병원출입 및 의료기기 사용시 주의 사항</a>
+        </td>
+    </tr>
+
+	<!-- 제품 FAQ -->
+    <!--tr>
+        <td height="59" valign="top"><a href="/html/community/photolife/studio/index.asp"><img src="/img/product/lineup/bnr01.gif" width="131" height="46"></a></td>
+    </tr>
+    <tr>
+        <td><a href="/html/community/movielife/studio/preview.asp"><img src="/img/product/lineup/bnr02.gif" width="131" height="46"></a></td>
+    </tr-->
+</table>
+											</td>
+                                        </tr>
+                                    </table></td>
+                            </tr>
+							<tr><td height=40 valign=bottom style="color:FA6C04">※ 제품의 외관, 사양등은 제품개량을 위해 사전 예고없이 변경될 수 있습니다.</td></tr>
+							<table width="425">
+							<tr>
+								<td align=right><a href="javascript:goList('','');"><img src="/img/btn/list.gif" border="0"></a></td>
+							</tr>
+						</table>
+                        </table>
+                        <!-- #####//Contents##### -->
+                    </td>
+                </tr>
+            </table></td>
+    </tr>
+</table>
+
+<!-- Footer&QuickMenu -->
+<script language="javascript" src="/inc/js/copy.js"></script>
+<!-- QuickMenu --
+<div id="QuickMenu" style="position: absolute;left:854px;top:137px;width: 82px; height: 287px;">
+<script language="JavaScript">flash('/inc/flash/search/search.swf?file_url=http://file.curitel.com','91','340');</script>
+<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="340">
+<param name="movie" value="/inc/flash/search/search.swf?file_url=http://file.curitel.com">
+<param name="quality" value="high"><param name="menu" value="false">
+<embed src="/inc/flash/search/search.swf?file_url=http://file.curitel.com" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="340"></embed></object> -->
+
+<!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="91" height="182" vspace="10"><param name="menu" value="false">
+    <param name="movie" value="/inc/flash/banner.swf">
+    <param name="quality" value="high">
+    <embed src="/inc/flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="91" height="182"></embed></object>--
+</div>-->
+</body>
+</html>
+
